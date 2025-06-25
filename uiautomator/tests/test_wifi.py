@@ -257,7 +257,7 @@ class WiFiModule:
             print("Status: FAIL\n")
 
 
-# ================= RUN =================
+# RUN
 
 if __name__ == "__main__":
     wifi = WiFiModule()
