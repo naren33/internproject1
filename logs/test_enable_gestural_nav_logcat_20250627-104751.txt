@@ -1,0 +1,119 @@
+--------- beginning of main
+06-27 10:47:50.218  2080  2080 I PermissionEventCleanupJobService: onStartJob
+06-27 10:47:50.221  2080  2092 I PermissionControllerServiceImpl: Updating user sensitive for uid 1000
+06-27 10:47:50.222  1621  1621 E KeyguardClockSwitch: No clock being shown
+06-27 10:47:50.230  1621  1621 I ClockEventController: Region isDark: true
+--------- beginning of system
+06-27 10:47:50.237  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:47:50.240  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:47:50.249  1357  1373 W WindowManager: finishDrawingWindow: Window{4fc2c26 u0 com.android.systemui.wallpapers.ImageWallpaper} mDrawState=DRAW_PENDING
+06-27 10:47:50.258  1621  1621 W EmergencyButton: onConfigurationChanged, do not updated!
+06-27 10:47:50.260  4937  4942 W droid.gallery3d: Reducing the number of considered missed Gc histogram windows from 106 to 100
+06-27 10:47:50.260   744  1195 I hwcomposer: [HWC] (0)fire a callback of refresh to SF[4]  
+06-27 10:47:50.263   744   744 I hwcomposer: [HWCLayer] setHwlayerType(), id:458, release queue sp, type 3 -> 0  
+06-27 10:47:50.263   744   744 I hwcomposer: [DBQ] (blt:0xb400007a85620840) Buffer queue is destroyed, m_id(458)  
+06-27 10:47:50.263   744   744 I hwcomposer: [DBQ] (blt:0xb400007a85620840) ~DisplayBufferQueue(), m_id(458), release buf  
+06-27 10:47:50.263   744   744 I hwcomposer: [DBQ] (blt:0xb400007a85620840) Free Slot(0), handle=0xb400007ac5629910, 4608000 -> 0  
+06-27 10:47:50.263   744   744 I hwcomposer: [DBQ] (blt:0xb400007a85620840) Free Slot(1), handle=0xb400007ac5623610, 4608000 -> 0  
+06-27 10:47:50.264   806  1219 I SurfaceFlinger: NotifyHwcComposition(), id 0, mode 0
+06-27 10:47:50.264   780   803 I mtkpower@impl: [setMode] type:6, enabled:1
+06-27 10:47:50.264   780   803 E mtkpower@impl: [setMode] unknown type
+06-27 10:47:50.267   806   806 I BufferQueueProducer: [FramebufferSurface](this:0xb40000700264c2f0,id:-1,api:1,p:806,c:806) queueBuffer: fps=50.83 dur=1022.97 max=365.98 min=5.29
+06-27 10:47:50.267   744   744 I hwcomposer: [HWCDisplay] [Display_0 (type:1, mode:2)] fps:54.771511,dur:1022.43,max:224.33,min:5.41  
+06-27 10:47:50.271   747   787 E HfLooper: dst->data[6.000000,0.000000,0.000000]
+06-27 10:47:50.341   780   803 I mtkpower@impl: [setMode] type:6, enabled:0
+06-27 10:47:50.341   780   803 E mtkpower@impl: [setMode] unknown type
+06-27 10:47:50.364   806   806 I BufferQueueProducer: [FocusEventDebugView - display 0#69](this:0xb400006fb27cd180,id:-1,api:0,p:-1,c:806) queueBuffer: fps=26.34 dur=1139.11 max=617.13 min=7.74
+06-27 10:47:50.366   806  1219 I SurfaceFlinger: NotifyHwcComposition(), id 0, mode 1
+06-27 10:47:50.366   744   744 I hwcomposer: [DBQ] (blt:0xb400007a85617e40) Buffer queue is created with size(3), m_id(458), blt  
+06-27 10:47:50.366   744   744 I hwcomposer: [DBQ] (blt:0xb400007a85617e40) Reallocate Slot(0), pool(0 -> 0) size(0 -> 4608000) secure(0 -> 0)  
+06-27 10:47:50.367   744   744 I hwcomposer: [DBQ] (blt:0xb400007a85617e40) Alloc Slot(0), handle=0xb400007ac5624690 c=0 w=720 h=1600 p=720 ys=720 vs=1600 f=2 sec=0 sh=0, usage=0x800  
+06-27 10:47:50.371   747   787 E HfLooper: dst->data[6.000000,0.000000,0.000000]
+06-27 10:47:50.379  1357  2370 W WindowManager: finishDrawingWindow: Window{16a0564 u0 NavigationBar0} mDrawState=DRAW_PENDING
+06-27 10:47:50.384   806   806 I BufferQueueProducer: [NavigationBar0#87](this:0xb400006fb28005a0,id:-1,api:0,p:-1,c:806) queueBuffer: fps=2.59 dur=1160.00 max=1118.09 min=16.30
+06-27 10:47:50.396  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: widthSpec MeasureSpec: EXACTLY 1080 should be AT_MOST
+06-27 10:47:50.396  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: heightSpec MeasureSpec: EXACTLY 2133 should be AT_MOST
+06-27 10:47:50.396  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: widthSpec MeasureSpec: EXACTLY 1080 should be AT_MOST
+06-27 10:47:50.396  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: heightSpec MeasureSpec: EXACTLY 2148 should be AT_MOST
+06-27 10:47:50.396  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: widthSpec MeasureSpec: EXACTLY 1080 should be AT_MOST
+06-27 10:47:50.396  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: heightSpec MeasureSpec: EXACTLY 2133 should be AT_MOST
+06-27 10:47:50.415  1357  2370 W WindowManager: finishDrawingWindow: Window{898197 u0 NotificationShade} mDrawState=DRAW_PENDING
+06-27 10:47:50.417   806   806 I BufferQueueProducer: [NotificationShade#1090](this:0xb400006fb26525b0,id:-1,api:0,p:-1,c:806) queueBuffer: fps=7.55 dur=1192.60 max=1047.47 min=7.77
+06-27 10:47:50.422  4937  4937 I ActivityThread: ApplicationInfo updating for com.android.gallery3d, new timestamp: 30647015
+06-27 10:47:50.422  4937  4937 I ActivityThread: assets removed: []
+06-27 10:47:50.422  4937  4937 I ActivityThread: assets added: []
+06-27 10:47:50.422  2080  2080 I ActivityThread: ApplicationInfo updating for com.android.permissioncontroller, new timestamp: 30647017
+06-27 10:47:50.422  2080  2080 I ActivityThread: assets removed: []
+06-27 10:47:50.422  2080  2080 I ActivityThread: assets added: []
+06-27 10:47:50.423  2301  2301 I ActivityThread: ApplicationInfo updating for com.android.providers.media.module, new timestamp: 30647013
+06-27 10:47:50.423  2301  2301 I ActivityThread: assets removed: []
+06-27 10:47:50.423  2301  2301 I ActivityThread: assets added: []
+06-27 10:47:50.423  2200  2200 I ActivityThread: ApplicationInfo updating for com.android.providers.blockednumber, new timestamp: 30647012
+06-27 10:47:50.423  2200  2200 I ActivityThread: assets removed: []
+06-27 10:47:50.423  2200  2200 I ActivityThread: assets added: []
+06-27 10:47:50.425  2321  2321 I ActivityThread: ApplicationInfo updating for com.sec.android.app.camerasaver, new timestamp: 30647014
+06-27 10:47:50.425  2321  2321 I ActivityThread: assets removed: []
+06-27 10:47:50.425  2321  2321 I ActivityThread: assets added: []
+06-27 10:47:50.425  2389  2389 I ActivityThread: ApplicationInfo updating for com.mediatek.location.mtkgeofence, new timestamp: 30647011
+06-27 10:47:50.425  2389  2389 I ActivityThread: assets removed: []
+06-27 10:47:50.425  2389  2389 I ActivityThread: assets added: []
+06-27 10:47:50.425  2754  2754 I ActivityThread: ApplicationInfo updating for com.android.inputmethod.latin, new timestamp: 30647016
+06-27 10:47:50.425  2754  2754 I ActivityThread: assets removed: []
+06-27 10:47:50.425  2754  2754 I ActivityThread: assets added: []
+06-27 10:47:50.426  1357  1377 I ActivityTaskManager: Config changes=80000000 {1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.11 s.511 fontWeightAdjustment=0}
+06-27 10:47:50.426  1828  1828 I ActivityThread: ApplicationInfo updating for com.android.se, new timestamp: 30647014
+06-27 10:47:50.426  1828  1828 I ActivityThread: assets removed: []
+06-27 10:47:50.426  1828  1828 I ActivityThread: assets added: []
+06-27 10:47:50.427  1783  1783 I ActivityThread: ApplicationInfo updating for com.mediatek.ims, new timestamp: 30647011
+06-27 10:47:50.427  1783  1783 I ActivityThread: assets removed: []
+06-27 10:47:50.427  1783  1783 I ActivityThread: assets added: []
+06-27 10:47:50.428  1831  1831 I ActivityThread: ApplicationInfo updating for com.mediatek.entitlement.o2, new timestamp: 30647014
+06-27 10:47:50.428  1831  1831 I ActivityThread: assets removed: []
+06-27 10:47:50.428  1831  1831 I ActivityThread: assets added: []
+06-27 10:47:50.428  2245  2245 I ActivityThread: ApplicationInfo updating for android.ext.services, new timestamp: 30647014
+06-27 10:47:50.428  2245  2245 I ActivityThread: assets removed: []
+06-27 10:47:50.428  2245  2245 I ActivityThread: assets added: []
+06-27 10:47:50.428  1706  1706 I ActivityThread: ApplicationInfo updating for com.android.networkstack, new timestamp: 30647015
+06-27 10:47:50.428  1706  1706 I ActivityThread: assets removed: []
+06-27 10:47:50.428  1706  1706 I ActivityThread: assets added: []
+06-27 10:47:50.428  2314  2314 I ActivityThread: ApplicationInfo updating for com.mediatek.omacp, new timestamp: 30647013
+06-27 10:47:50.428  2314  2314 I ActivityThread: assets removed: []
+06-27 10:47:50.428  2314  2314 I ActivityThread: assets added: []
+06-27 10:47:50.428   806   806 I BufferQueueProducer: [StatusBar#91](this:0xb400006fb27fd810,id:-1,api:0,p:-1,c:806) queueBuffer: fps=0.83 dur=1204.52 max=1204.52 min=1204.52
+06-27 10:47:50.429  1846  1846 I ActivityThread: ApplicationInfo updating for com.mediatek.entitlement, new timestamp: 30647011
+06-27 10:47:50.429  1846  1846 I ActivityThread: assets removed: []
+06-27 10:47:50.429  1846  1846 I ActivityThread: assets added: []
+06-27 10:47:50.433  1357  1377 I WindowManager: Override config changes=80000000 {1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.11 s.511 fontWeightAdjustment=0} for displayId=0
+06-27 10:47:50.433  1811  1811 I ActivityThread: ApplicationInfo updating for com.mediatek.smartratswitch.service, new timestamp: 30647016
+06-27 10:47:50.433  1811  1811 I ActivityThread: assets removed: []
+06-27 10:47:50.433  1811  1811 I ActivityThread: assets added: []
+06-27 10:47:50.436  1911  1911 I ActivityThread: ApplicationInfo updating for com.android.launcher3, new timestamp: 30647016
+06-27 10:47:50.436  1911  1911 I ActivityThread: assets removed: []
+06-27 10:47:50.436  1911  1911 I ActivityThread: assets added: []
+06-27 10:47:50.440  1911  1911 I TouchInteractionService: preloadOverview: forSUWAllSet=false, isHomeAndOverviewSame=true
+06-27 10:47:50.440  1357  1357 W WindowTokenClientController: Can't find attached WindowTokenClient for android.window.WindowTokenClient@6f64768
+06-27 10:47:50.441  1357  1377 W ActivityTaskManager: Current config: {1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1110dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 72 - 1080, 2292) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.11 s.511 fontWeightAdjustment=0} unchanged for IME proc com.android.inputmethod.latin
+06-27 10:47:50.442  1357  2370 W WindowManager: finishDrawingWindow: Window{f719012 u0 StatusBar} mDrawState=DRAW_PENDING
+06-27 10:47:50.445  1842  1842 I ActivityThread: ApplicationInfo updating for com.android.providers.telephony, new timestamp: 30647017
+06-27 10:47:50.445  1842  1842 I ActivityThread: assets removed: []
+06-27 10:47:50.445  1842  1842 I ActivityThread: assets added: []
+06-27 10:47:50.456  1357  1441 W InputManager-JNI: Input channel object '7fd0323 EdgeBackGestureHandler0 (client)' was disposed without first being removed with the input manager!
+06-27 10:47:50.465  1357  3598 W WindowManager: finishDrawingWindow: Window{4fc2c26 u0 com.android.systemui.wallpapers.ImageWallpaper} mDrawState=DRAW_PENDING
+06-27 10:47:50.465  1706  1715 W rkstack.process: Reducing the number of considered missed Gc histogram windows from 112 to 100
+06-27 10:47:50.468   806   886 I BufferQueueDebug: [Transition Root: Display 0 name="Built-in Screen"#1098](this:0xb400006fb2866de0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(806:/system/bin/surfaceflinger)
+06-27 10:47:50.471   747   787 E HfLooper: dst->data[6.000000,38.000000,9721.000000]
+06-27 10:47:50.471  1357  1357 W WindowManager: finishDrawingWindow: Window{e44cec2 u0 FocusEventDebugView - display 0} mDrawState=DRAW_PENDING
+06-27 10:47:50.473  1357  1380 I DisplayDeviceRepository: Display device changed: DisplayDeviceInfo{"Built-in Screen": uniqueId="local:4627039422300187648", 720 x 1600, modeId 1, renderFrameRate 90.0, defaultModeId 1, userPreferredModeId -1, supportedModes [{id=1, width=720, height=1600, fps=90.0, vsync=90.0, synthetic=false, alternativeRefreshRates=[60.0], supportedHdrTypes=[]}, {id=2, width=720, height=1600, fps=60.0, vsync=60.0, synthetic=false, alternativeRefreshRates=[90.0], supportedHdrTypes=[]}], colorMode 0, supportedColorModes [0], hdrCapabilities HdrCapabilities{mSupportedHdrTypes=[], mMaxLuminance=500.0, mMaxAverageLuminance=500.0, mMinLuminance=0.0}, allmSupported false, gameContentTypeSupported false, density 300, 254.0 x 254.0 dpi, appVsyncOff 1033333, presDeadline 16100000, cutout DisplayCutout{insets=Rect(0, 49 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(323, 0 - 398, 49), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=720 displayHeight=1600 physicalDisplayWidth=720 physicalDisplayHeight=1600 density={1.875} cutoutSpec={M 0,0 L -20, 0 L -20, 26 L 20, 26 L 20, 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, touch INTERNAL, rotation 0, type INTERNAL, address {port=0, model=0x40368bd6e7ee6c}, deviceProductInfo DeviceProductInfo{name=MTKDEV, manufacturerPnpId=MTK, productId=35638, modelYear=null, manufactureDate=ManufactureDate{week=42, year=2021}, connectionToSinkType=0}, state ON, committedState ON, frameRateOverride , brightnessMinimum 0.0, brightnessMaximum 1.0, brightnessDefault 0.4, hdrSdrRatio NaN, FLAG_ALLOWED_TO_BE_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, FLAG_TRUSTED, installOrientation 0, displayShape DisplayShape{ spec=2134893525 displayWidth=720 displayHeight=1600 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}}
+06-27 10:47:50.473   806   886 I BufferQueueDebug: [Animation leash of screenshot rotation#1099](this:0xb400006fb265dbf0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(806:/system/bin/surfaceflinger)
+06-27 10:47:50.474   806  1727 I BufferQueueDebug: [BackColorSurface#1100](this:0xb400006fb2814490,id:-1,api:0,p:-1,c:-1) BufferQueue core=(806:/system/bin/surfaceflinger)
+06-27 10:47:50.476  1357  1378 W WindowManager: finishDrawingWindow: Window{34b049d u0 PointerLocation - display 0} mDrawState=DRAW_PENDING
+06-27 10:47:50.482  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:47:50.483  1357  3356 W JobInfo : Job 'com.android.gallery3d/.app.PackagesMonitor$AsyncService#1' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+06-27 10:47:50.484  1357  1560 I AppWidgetServiceImpl: Received broadcast: android.intent.action.PACKAGE_CHANGED on user 0
+06-27 10:47:50.485   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.485   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.487  2080  2092 I PermissionControllerServiceImpl: Updating user sensitive for uid 1000
+06-27 10:47:50.494  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:47:50.495   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.495   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.496  1357  1390 W MagnificationConnectionManager: requestConnection duplicated request: connect=true, mConnectionState=CONNECTED

@@ -1,0 +1,2 @@
+--------- beginning of system
+06-27 10:47:44.214  1357  3356 I WindowManager: Using new display size: 1080x2340

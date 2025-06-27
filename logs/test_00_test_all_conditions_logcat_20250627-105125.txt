@@ -1,0 +1,1155 @@
+--------- beginning of main
+06-27 10:51:19.914   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+06-27 10:51:19.929   737  2374 W libc    : invalid pthread_t (0) passed to pthread_join
+06-27 10:51:19.929   737  2374 I [Awinic]: Awinic kctl monitor pthread deinit success
+06-27 10:51:19.930   737  2374 I [Awinic]: reset done !
+06-27 10:51:20.014   747   787 E HfLooper: dst->data[12.000000,0.000000,0.000000]
+06-27 10:51:20.090   780   828 I mtkpower@impl: [powerd_req] TIMER_MSG_PERF_LOCK_TIMEOUT hdl:6905
+06-27 10:51:20.091   780   828 I libPowerHal: [perfLockRel] hdl:6905, idx:1
+06-27 10:51:20.091   780   828 I libPowerHal: [PD] MTKPOWER_HINT_EXT_LAUNCH update cmd:2020000 param:0
+06-27 10:51:20.091   780   828 I libPowerHal: [PD] MTKPOWER_HINT_EXT_LAUNCH update cmd:1408300 param:0
+06-27 10:51:20.093   780   828 I libPowerHal: [PD] MTKPOWER_HINT_EXT_LAUNCH update cmd:1000000 param:-1
+--------- beginning of system
+06-27 10:51:20.108  1357  1357 I BrightnessSynchronizer: [174] New Update 255(i) set brightness values: 1.0(f) 
+06-27 10:51:20.114   747   787 E HfLooper: dst->data[12.000000,40.000000,9697.000000]
+06-27 10:51:20.119  1357  1414 I DisplayPowerController2[0]: BrightnessEvent: disp=0, physDisp=local:4627039422300187648, displayState=ON, displayPolicy=BRIGHT, brt=1.0(user_set), initBrt=0.04648384, rcmdBrt=1.0, preBrt=0.04648384, lux=0.0, preLux=NaN, hbmMax=1.0, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=1.0, wasShortTermModelActive=true, flags=user_set , reason=automatic [ auto_adj ], autoBrightness=true, strategy=InvalidBrightnessStrategy, autoBrightnessMode=default
+06-27 10:51:20.125  1357  1357 I BrightnessSynchronizer: Swallowing update of 1.0(f) by update: {[174] 255(i), mUpdatedTypes=2, mConfirmedTypes=2, mTimeUpdated=30856707}
+06-27 10:51:20.125  1357  1357 I BrightnessSynchronizer: Completed Update: {[174] 255(i), mUpdatedTypes=2, mConfirmedTypes=2, mTimeUpdated=30856707}
+06-27 10:51:20.136   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.136   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.136   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.136   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.137   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.150   806   806 I BufferQueueProducer: [FramebufferSurface](this:0xb40000700264c2f0,id:-1,api:1,p:806,c:806) queueBuffer: fps=9.51 dur=1366.97 max=1157.91 min=9.08
+06-27 10:51:20.152   744   744 I hwcomposer: [HWCDisplay] [Display_0 (type:1, mode:2)] fps:9.502543,dur:1368.05,max:1158.89,min:9.01  
+06-27 10:51:20.161   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.161   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.161   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.161   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.161   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.184   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.184   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.184   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.184   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.185   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.204   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.204   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.204   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.204   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.204   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.214   747   787 E HfLooper: dst->data[12.000000,26.000000,9726.000000]
+06-27 10:51:20.215   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.215   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.215   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.215   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.215   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.226   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.226   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.226   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.226   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.226   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.236   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.236   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.236   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.236   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.236   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.248   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.248   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.248   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.248   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.248   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.260   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.260   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.260   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.260   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.260   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.271   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.271   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.271   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.271   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.271   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.281   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.281   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.281   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.281   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.281   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.292   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.292   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.292   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.292   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.292   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.303   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.303   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.304   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.304   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.304   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.313   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.313   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.313   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.313   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.313   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.313   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+06-27 10:51:20.325   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.325   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.325   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.325   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.325   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.336   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.336   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.336   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.336   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.336   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.347   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.347   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.347   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.347   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.347   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.359   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.359   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.359   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.359   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.359   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.370   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.370   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.370   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.370   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.370   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.381   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.381   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.381   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.381   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.381   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.392   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.392   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.392   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.392   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.392   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.403   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.403   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.403   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.403   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.403   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.414   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.414   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+06-27 10:51:20.414   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.414   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.414   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.414   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.425   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.425   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.425   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.425   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.425   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.435   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.435   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.435   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.435   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.435   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.446   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.446   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.446   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.446   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.446   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.454  1357  1930 I WindowManager: Using new display size: 1080x2340
+06-27 10:51:20.457   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.457   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.457   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.457   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.457   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.468   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.468   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.468   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.469   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.469   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.480   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.480   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.480   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.480   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.480   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.491   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.492   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.492   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.492   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.492   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.502   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.502   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.502   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.502   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.502   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.513   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.513   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.513   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.513   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.513   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.514   747   787 E HfLooper: dst->data[12.000000,31.000000,9709.000000]
+06-27 10:51:20.524   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.524   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.524   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.524   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.524   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.534   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.534   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.534   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.534   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.534   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.546   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.546   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.546   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.546   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.547   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.557   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.557   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.557   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.557   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.557   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.567   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.567   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.567   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.567   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.567   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.578   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.579   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.579   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.579   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.579   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.590   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.590   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.590   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.590   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.590   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.602   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.602   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.602   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.602   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.602   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.614   747   787 E HfLooper: dst->data[12.000000,45.000000,9700.000000]
+06-27 10:51:20.624   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.624   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.624   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.624   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.624   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.642  1357  1441 I WifiService: getConnectionInfo uid=10092
+06-27 10:51:20.646   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.646   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.646   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.646   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.646   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.657   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.657   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.657   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.657   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.657   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.666   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.666   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.666   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.666   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.666   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.678   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.678   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.678   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.678   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.678   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.689   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.689   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.689   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.689   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.689   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.701   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.701   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.701   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.701   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.701   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.714   747   787 E HfLooper: dst->data[12.000000,0.000000,0.000000]
+06-27 10:51:20.723   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.723   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.723   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.723   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.723   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.734   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.734   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.734   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.734   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.734   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.744   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.744   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.744   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.744   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.744   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.755   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.755   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.755   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.755   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.755   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.767   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.767   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.767   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.767   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.767   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.778   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.778   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.778   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.778   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.778   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.788   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.788   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.788   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.788   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.788   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.800   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.801   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.801   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.801   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.801   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.814   747   787 E HfLooper: dst->data[12.000000,0.000000,0.000000]
+06-27 10:51:20.823   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.823   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.823   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.823   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.823   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.845   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.845   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.845   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.845   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.845   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.864   772   829 I libPerfCtl: xgfGetFPS pid:1357 fps:-1
+06-27 10:51:20.864   772   829 I libPerfCtl: xgfGetFPS pid:1621 fps:-1
+06-27 10:51:20.864   772   829 I libPerfCtl: xgfGetFPS pid:1911 fps:-1
+06-27 10:51:20.866   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.866   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.866   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.866   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.867   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.877   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.877   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.877   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.877   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.877   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.887   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.887   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.887   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.887   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.887   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.899   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.899   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.899   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.899   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.899   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.910   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.910   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.910   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.910   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.910   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.914   747   787 E HfLooper: dst->data[13.000000,45.000000,9673.000000]
+06-27 10:51:20.921   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.921   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.921   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.921   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.921   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.932   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.933   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.933   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.933   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.933   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.943   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.943   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.943   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.943   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.943   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.954   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.955   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.955   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.955   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.955   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.966   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.966   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.966   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.966   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.966   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.976   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.976   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.976   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.976   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.976   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.987   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.987   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.987   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.987   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.987   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.999   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.999   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.999   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.999   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:20.999   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.009   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.009   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.009   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.009   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.009   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.014   747   787 E HfLooper: dst->data[12.000000,52.000000,9700.000000]
+06-27 10:51:21.021   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.022   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.022   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.022   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.022   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.032   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.032   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.032   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.032   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.032   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.043   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.043   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.043   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.043   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.043   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.054   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.054   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.054   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.054   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.054   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.065   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.065   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.065   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.065   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.065   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.076   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.076   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.076   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.076   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.076   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.087   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.087   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.087   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.087   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.087   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.098   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.098   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.098   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.098   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.098   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.108   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.108   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.108   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.108   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.108   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.114   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+06-27 10:51:21.120   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.120   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.120   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.120   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.120   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.130   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.130   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.130   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.130   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.130   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.143   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.143   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.143   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.143   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.143   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.165   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.165   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.165   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.165   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.165   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.172   806   806 I BufferQueueProducer: [FramebufferSurface](this:0xb40000700264c2f0,id:-1,api:1,p:806,c:806) queueBuffer: fps=81.25 dur=1021.60 max=24.11 min=6.80
+06-27 10:51:21.172   744   744 I hwcomposer: [HWCDisplay] [Display_0 (type:1, mode:2)] fps:81.298096,dur:1020.93,max:23.87,min:6.64  
+06-27 10:51:21.187   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.187   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.187   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.187   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.187   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.198   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.198   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.198   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.198   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.198   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.209   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.209   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.209   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.209   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.209   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.214   747   787 E HfLooper: dst->data[12.000000,0.000000,0.000000]
+06-27 10:51:21.219   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.219   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.219   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.219   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.219   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.229   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.229   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.229   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.230   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.230   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.240   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.241   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.241   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.241   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.241   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.252   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.252   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.252   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.252   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.252   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.263   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.263   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.263   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.263   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.263   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.274   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.274   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.274   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.274   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.274   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.285   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.285   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.285   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.285   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.285   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.296   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.296   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.296   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.296   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.296   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.307   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.307   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.307   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.307   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.307   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.314   747   787 E HfLooper: dst->data[13.000000,50.000000,9796.000000]
+06-27 10:51:21.318   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.318   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.318   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.318   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.318   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.329   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.329   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.329   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.329   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.329   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.340   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.340   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.340   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.340   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.340   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.347 13184 13184 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+06-27 10:51:21.348 13184 13184 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+06-27 10:51:21.352   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.352   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.352   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.352   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.352   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.363   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.363   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.363   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.363   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.363   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.373   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.373   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.373   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.373   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.373   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.384   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.384   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.384   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.384   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.384   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.384 13184 13184 I DMABUFHEAPS: Using DMA-BUF heap named: mtk_mm
+06-27 10:51:21.384 13184 13184 I DMABUFHEAPS: Using DMA-BUF heap named: mtk_mm-uncached
+06-27 10:51:21.384 13184 13184 I DMABUFHEAPS: Using DMA-BUF heap named: mtk_svp_region-aligned
+06-27 10:51:21.384 13184 13184 I DMABUFHEAPS: Using DMA-BUF heap named: mtk_prot_region-aligned
+06-27 10:51:21.384 13184 13184 I DMABUFHEAPS: Using DMA-BUF heap named: mtk_2d_fr_region
+06-27 10:51:21.384 13184 13184 I DMABUFHEAPS: Using DMA-BUF heap named: mtk_wfd_region-aligned
+06-27 10:51:21.395   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.395   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.395   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.395   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.395   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.407   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.407   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.407   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.407   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.407   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.414   747   787 E HfLooper: dst->data[12.000000,55.000000,9683.000000]
+06-27 10:51:21.417   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.417   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.417   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.417   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.417   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.428   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.428   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.428   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.428   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.428   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.439   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.439   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.439   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.439   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.439   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.450   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.450   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.450   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.450   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.450   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.462   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.462   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.462   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.462   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.462   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.514   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+06-27 10:51:21.545   744  1195 I hwcomposer: [HWC] (0)fire a callback of refresh to SF[4]  
+06-27 10:51:21.550   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.550   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.550   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.550   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.550   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:21.614   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+06-27 10:51:21.714   747   787 E HfLooper: dst->data[12.000000,38.000000,9702.000000]
+06-27 10:51:21.814   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+06-27 10:51:21.864   772   829 I libPerfCtl: xgfGetFPS pid:1357 fps:-1
+06-27 10:51:21.865   772   829 I libPerfCtl: xgfGetFPS pid:1621 fps:-1
+06-27 10:51:21.865   772   829 I libPerfCtl: xgfGetFPS pid:1911 fps:-1
+06-27 10:51:21.914   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+06-27 10:51:22.014   747   787 E HfLooper: dst->data[12.000000,0.000000,0.000000]
+06-27 10:51:22.114   747   787 E HfLooper: dst->data[13.000000,38.000000,9705.000000]
+06-27 10:51:22.214   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+06-27 10:51:22.314   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+06-27 10:51:22.345  1357  1930 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+06-27 10:51:22.346  1357  1930 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+06-27 10:51:22.354  1357  4317 W JobInfo : Job 'com.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+06-27 10:51:22.368  1357  1377 I ActivityManager: Broadcast completed: result=0
+06-27 10:51:22.374  2301  2516 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+06-27 10:51:22.389 13184 13184 W RefBase : RefBase: Explicit destruction, weak count = 0 (in 0x7618fbc848). Use sp<> to manage this object.
+06-27 10:51:22.392  2301  2516 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+06-27 10:51:22.415   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+06-27 10:51:22.514   747   787 E HfLooper: dst->data[13.000000,43.000000,9733.000000]
+06-27 10:51:22.573   806   806 I BufferQueueProducer: [StatusBar#91](this:0xb400006fb27fd810,id:-1,api:0,p:-1,c:806) queueBuffer: fps=2.90 dur=3794.67 max=3673.27 min=10.97
+06-27 10:51:22.574   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.574   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.574   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.574   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.574   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.585   806   806 I BufferQueueProducer: [FramebufferSurface](this:0xb40000700264c2f0,id:-1,api:1,p:806,c:806) queueBuffer: fps=19.81 dur=1413.35 max=1026.40 min=5.25
+06-27 10:51:22.586   744   744 I hwcomposer: [HWCDisplay] [Display_0 (type:1, mode:2)] fps:19.803436,dur:1413.90,max:1026.80,min:5.14  
+06-27 10:51:22.614   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+06-27 10:51:22.638  1357  9131 I ActivityManager: Broadcasting: Intent { act=android.intent.action.FACTORY_TEST flg=0x400000 }
+06-27 10:51:22.638  1357  9131 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.FACTORY_TEST flg=0x400000 }: 0
+06-27 10:51:22.639  1357  1377 I ActivityManager: Broadcast completed: result=0
+06-27 10:51:22.673   744  1195 I hwcomposer: [HWC] (0)fire a callback of refresh to SF[4]  
+06-27 10:51:22.677   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.677   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.677   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.677   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.677   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.714   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+06-27 10:51:22.745  1357  1378 I SideFpsEventHandler: notifyPowerPressed
+06-27 10:51:22.745  1357  1378 I FingerprintManager: onPowerPressed
+06-27 10:51:22.746  1357  1378 I PowerGroup: Powering off display group due to power_button (groupId= 0, uid= 1000, millisSinceLastUserActivity=4243, lastUserActivityEvent=other)...
+06-27 10:51:22.747  1357  1378 I PowerManagerService: Going to sleep due to power_button (uid 1000, screenOffTimeout=60000, activityTimeoutWM=-1, maxDimRatio=0.20000005, maxDimDur=7000)...
+06-27 10:51:22.764   806   806 I BufferQueueProducer: [FocusEventDebugView - display 0#69](this:0xb400006fb27cd180,id:-1,api:0,p:-1,c:806) queueBuffer: fps=8.39 dur=5005.29 max=4538.16 min=10.23
+06-27 10:51:22.767   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.767   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.767   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.767   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.767   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.778  1621  1621 I KeyguardTransitionRepository: STARTED transition: TransitionStep(from=GONE, to=DOZING, value=0.0, transitionState=STARTED, ownerName=FromGoneTransitionInteractor(Sleep transition triggered))
+06-27 10:51:22.778   806  1727 I BufferQueueDebug: [ColorFade#1154](this:0xb400006fb2841d90,id:-1,api:0,p:-1,c:-1) BufferQueue core=(806:/system/bin/surfaceflinger)
+06-27 10:51:22.785   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.785   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.785   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.785   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.785   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.785   806  1727 I BufferQueueDebug: [ColorFade BLAST#1155](this:0xb400006fb283c270,id:-1,api:0,p:-1,c:-1) BufferQueue core=(806:/system/bin/surfaceflinger)
+06-27 10:51:22.794  1357  1929 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 82
+06-27 10:51:22.794   737  2374 W AudioALSAStreamOut: setParameters(), still have param.size() = 1, remain param = "MixerThreadSleep="
+06-27 10:51:22.795   737  1547 W AudioALSAStreamOut: setParameters(), still have param.size() = 1, remain param = "NoAudioTrack=0"
+06-27 10:51:22.796   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.796   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.796   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.796   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.796   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.799  1621  1621 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+06-27 10:51:22.801   790  1058 D APM_AudioPolicyManager: [MTK_APM_Output]releaseOutput() 29 portId 81
+06-27 10:51:22.805   806   806 I BufferQueueProducer: [NavigationBar0#87](this:0xb400006fb28005a0,id:-1,api:0,p:-1,c:806) queueBuffer: fps=0.40 dur=5045.00 max=5021.96 min=23.04
+06-27 10:51:22.806   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.806   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.806   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.806   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.806   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.806   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.806   737  3352 I [Awinic]: aw_skt_arsi_query_param_buf_size_by_custom_info:reserve2 [0] cust_scene[0] ---> aw_scene[0]
+06-27 10:51:22.806   737  3352 I [Awinic]: find [Music] scene_block with id 0
+06-27 10:51:22.806   737  3352 I [Awinic]: aw_skt_arsi_query_param_buf_size_by_custom_info:aw_scene[Music] params len is 16416
+06-27 10:51:22.806   737  3352 I [Awinic]: aw_skt_arsi_parsing_param_file_by_custom_info:stream_type [1] 
+06-27 10:51:22.806   737  3352 I [Awinic]: aw_skt_arsi_parsing_param_file_by_custom_info:reserve2 [0] cust_scene[0] ---> aw_scene[0]
+06-27 10:51:22.806   737  3352 I [Awinic]: find [Music] scene_block with id 0
+06-27 10:51:22.806   737  3352 I [Awinic]: aw_skt_arsi_parsing_param_file_by_custom_info:load aw_scene[Music] params done
+06-27 10:51:22.807   737  3352 I [Awinic]: SKTune_v6.1.9.1
+06-27 10:51:22.807   737  3352 I [Awinic]: local_cfg->fade_out_deg_num = 0
+06-27 10:51:22.807   737  3352 I [Awinic]: local_cfg->mute_in_num = 0
+06-27 10:51:22.807   737  3352 I [Awinic]: local_cfg->fade_in_deg_num = 0
+06-27 10:51:22.807   737  3352 E [Awinic]: unsupport filter order 0 !, set to aw_biquad_df2t_universal_process
+06-27 10:51:22.807   737  3352 I [Awinic]: Origin cfg->cali_Re: -98000ohm, set param->cali_Re: 6199mohm!
+06-27 10:51:22.807   737  3352 I [Awinic]: Origin cfg->cali_Re: -98000ohm, set param->cali_Re: 6199mohm!
+06-27 10:51:22.808   737  3352 I [Awinic]: aw_vmax_kctl_dev_init: Awinic dev[1]'s monitor switch kcontrol is not accessible!
+06-27 10:51:22.808   737  3352 I [Awinic]: Awinic monitor disable
+06-27 10:51:22.814   747   787 E HfLooper: dst->data[12.000000,0.000000,0.000000]
+06-27 10:51:22.815   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.815   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.815   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.815   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.815   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.815   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.815  1357  1414 I DisplayPowerController2[0]: BrightnessEvent: disp=0, physDisp=local:4627039422300187648, displayState=ON, displayPolicy=OFF, brt=1.0, initBrt=1.0, rcmdBrt=1.0, preBrt=0.04648384, lux=12.432212, preLux=0.0, hbmMax=1.0, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=1.0, wasShortTermModelActive=true, flags=, reason=automatic, autoBrightness=true, strategy=InvalidBrightnessStrategy, autoBrightnessMode=default
+06-27 10:51:22.824   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.824   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.824   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.824   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.825   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.825   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.831   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.831   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.831   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.831   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.831   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.831   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.842   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.842   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.842   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.842   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.843   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.843   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.848   737  3352 I AudioALSAHardwareResourceManager: aw_update_mode(), awinic update mode: music
+06-27 10:51:22.854   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.854   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.854   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.854   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.854   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.854   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.864   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.864   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.865   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.865   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.865   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.865   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.865   772   829 I libPerfCtl: xgfGetFPS pid:1357 fps:-1
+06-27 10:51:22.865   772   829 I libPerfCtl: xgfGetFPS pid:1621 fps:-1
+06-27 10:51:22.865   772   829 I libPerfCtl: xgfGetFPS pid:1911 fps:-1
+06-27 10:51:22.876   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.877   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.877   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.877   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.877   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.877   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.886   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.886   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.886   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.886   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.886   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.886   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.887  1357  1414 I DisplayPowerController2[0]: Blocking screen off
+06-27 10:51:22.887  1357  1414 I DisplayPowerController2[0]: Unblocked screen off after 1 ms
+06-27 10:51:22.892  1357  1414 I PowerHalWrapper: amsBoostNotify pid:1911,activity:com.android.launcher3.uioverrides.QuickstepLauncher, package:com.android.launcher3, mProcessCreatePackcom.sec.android.app.camera 
+06-27 10:51:22.892  1357  1414 I PowerHalWrapper: state: 0 
+06-27 10:51:22.894  1357  1414 I mtkpower_client: [PowerHal_Wrap_notifyAppState] com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher pid=1911 activityId:211065241 state:0
+06-27 10:51:22.895   772   772 I IPCThreadState: oneway function results for code 2 on binder at 0xb400007bec652810 will be dropped but finished with status UNKNOWN_TRANSACTION
+06-27 10:51:22.895   772   772 I vendor.mediatek.hardware.mtkpower_applist-service.mediatek: packName: com.android.launcher3 actName: com.android.launcher3.uioverrides.QuickstepLauncher pid: 1911 uid: 10088 state: 0
+06-27 10:51:22.895   772   772 I MTK_APPList: [notifyAPPstate] com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher, pid=1911, uid=10088, state:PAUSED, fps:-1, win:0
+06-27 10:51:22.895   772   772 I MTK_APPList: [notifyAPPstate] multi_resumed_app_count: 0
+06-27 10:51:22.895   772   772 I MTK_APPList: [getForegroundAPPCount] 1
+06-27 10:51:22.895   772   772 I MTK_APPList: [notifyNetdUID] 10088
+06-27 10:51:22.895  1357  1414 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false 
+06-27 10:51:22.897  1357  1414 I DisplayBrightnessStrategySelector: Changing the DisplayBrightnessStrategy from InvalidBrightnessStrategy to ScreenOffBrightnessStrategy for display 0
+06-27 10:51:22.897   747   747 I OriginChannel: batch: [1,80000000,2000000000]
+06-27 10:51:22.898  1911  1911 W SplitSelectStateCtor: Missing session instanceIds
+06-27 10:51:22.898   772   772 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+06-27 10:51:22.898   772   772 I MTK_APPList: [notifyPID] 1911
+06-27 10:51:22.899   780   828 I libPowerHal: [perfSetSysInfo] pid type:24, 1911
+06-27 10:51:22.899   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.899   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.899   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.899   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.899   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.899   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.899   772   772 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+06-27 10:51:22.901   727   727 I netd    : tetherGetStats() -> {[]} <2.15ms>
+06-27 10:51:22.902   747   747 I OriginChannel: activate: [5,0]
+06-27 10:51:22.903  1006  1042 E flp     : mnld_screen_monitor_thread: Screen off
+06-27 10:51:22.904  1357  4317 W WindowManager: Changing focus from Window{18d7201 u0 com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:468 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6505 com.android.server.wm.ActivityRecord.commitVisibility:5855 com.android.server.wm.ActivityRecord.commitVisibility:5866 
+06-27 10:51:22.908  1357  1380 I PowerHalWrapper: amsBoostNotify pid:1911,activity:com.android.launcher3.uioverrides.QuickstepLauncher, package:com.android.launcher3, mProcessCreatePackcom.sec.android.app.camera 
+06-27 10:51:22.908  1357  1380 I PowerHalWrapper: state: 0 
+06-27 10:51:22.909   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.909   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.909   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.909   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.909   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.909   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:22.909  1357  1380 I mtkpower_client: [PowerHal_Wrap_notifyAppState] com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher pid=1911 activityId:211065241 state:0
+06-27 10:51:22.910   772   772 I IPCThreadState: oneway function results for code 2 on binder at 0xb400007bec652810 will be dropped but finished with status UNKNOWN_TRANSACTION
+06-27 10:51:22.910   772   772 I vendor.mediatek.hardware.mtkpower_applist-service.mediatek: packName: com.android.launcher3 actName: com.android.launcher3.uioverrides.QuickstepLauncher pid: 1911 uid: 10088 state: 0
+06-27 10:51:22.910   772   772 I MTK_APPList: [notifyAPPstate] com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher, pid=1911, uid=10088, state:PAUSED, fps:-1, win:0
+06-27 10:51:22.910   772   772 I MTK_APPList: [notifyAPPstate] multi_resumed_app_count: 0
+06-27 10:51:22.910   772   772 I MTK_APPList: [getForegroundAPPCount] 1
+06-27 10:51:22.910   772   772 I MTK_APPList: [notifyNetdUID] 10088
+06-27 10:51:22.911  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:22.912   772   772 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+06-27 10:51:22.912   772   772 I MTK_APPList: [notifyPID] 1911
+06-27 10:51:22.913  1357  1414 I DisplayPowerController2[0]: BrightnessEvent: disp=0, physDisp=local:4627039422300187648, displayState=OFF, displayPolicy=OFF, brt=0.0, initBrt=1.0, rcmdBrt=NaN, preBrt=NaN, lux=0.0, preLux=0.0, hbmMax=1.0, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=1.0, wasShortTermModelActive=true, flags=, reason=screen_off, autoBrightness=true, strategy=ScreenOffBrightnessStrategy, autoBrightnessMode=default
+06-27 10:51:22.913   780   828 I libPowerHal: [perfSetSysInfo] pid type:24, 1911
+06-27 10:51:22.913   772   772 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+06-27 10:51:22.915   744   744 I hwcomposer: [HWCDisplay] Display(0) SetPowerMode(0) current mode(2), scene(0)  
+06-27 10:51:22.915  1357  1380 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false 
+06-27 10:51:22.922  1357  1380 I DisplayDeviceRepository: Display device changed state: "Built-in Screen", OFF
+06-27 10:51:22.925  1357  4317 I AppWidgetServiceImpl: setAppWidgetHidden() 0
+06-27 10:51:22.925  1357  1380 I InputManager-JNI: Viewport [0] to add: local:4627039422300187648, isActive: false
+06-27 10:51:22.926  1357  1482 I InputReader: Reconfiguring input devices, changes=DISPLAY_INFO
+06-27 10:51:22.926  1357  1482 I InputReader: Disabling ILITEK_TDDI (device 5) because the associated viewport is not active
+06-27 10:51:22.926  1357  1482 I InputReader: Device reconfigured: id=5, name='ILITEK_TDDI', size 720x1600, orientation Rotation0, mode DISABLED, display id 0
+06-27 10:51:22.927  1357  1378 W SurfaceControl: Invalid layer stack -1
+06-27 10:51:22.927  1357  1378 I DisplayDevice: [0] Layerstack set to -1 for local:4627039422300187648
+06-27 10:51:22.929   806   888 I SurfaceFlinger: onHandleDestroyed: name=bbq-wrapper#1145, layerId=1145, parentId=0
+06-27 10:51:22.931  1357  1378 I Pointer : Device Changed: Input Device 5: ILITEK_TDDI
+06-27 10:51:22.931  1357  1378 I Pointer :   Descriptor: ce54e173162f908fc75d1d0abe2023f80d6773d1
+06-27 10:51:22.931  1357  1378 I Pointer :   Generation: 90
+06-27 10:51:22.931  1357  1378 I Pointer :   Location: built-in
+06-27 10:51:22.931  1357  1378 I Pointer :   Enabled: true
+06-27 10:51:22.931  1357  1378 I Pointer :   Keyboard Type: non-alphabetic
+06-27 10:51:22.931  1357  1378 I Pointer :   Has Vibrator: false
+06-27 10:51:22.931  1357  1378 I Pointer :   Has Sensor: false
+06-27 10:51:22.931  1357  1378 I Pointer :   Has battery: false
+06-27 10:51:22.931  1357  1378 I Pointer :   Has mic: false
+06-27 10:51:22.931  1357  1378 I Pointer :   USI Version: null
+06-27 10:51:22.931  1357  1378 I Pointer :   Sources: 0x1103 ( keyboard touchscreen )
+06-27 10:51:22.934   744   744 W hwcomposer: [DRMDEV] Failed to open fb0 device: No such file or directory  
+06-27 10:51:23.048  9260  9260 I ActivityThread: ApplicationInfo updating for com.android.chrome, new timestamp: 30859640
+06-27 10:51:23.048  9260  9260 I ActivityThread: assets removed: []
+06-27 10:51:23.048  9260  9260 I ActivityThread: assets added: []
+06-27 10:51:23.048  2080  2080 I ActivityThread: ApplicationInfo updating for com.android.permissioncontroller, new timestamp: 30859642
+06-27 10:51:23.048  2080  2080 I ActivityThread: assets removed: []
+06-27 10:51:23.048  2080  2080 I ActivityThread: assets added: []
+06-27 10:51:23.049  4937  4937 I ActivityThread: ApplicationInfo updating for com.android.gallery3d, new timestamp: 30859641
+06-27 10:51:23.049  4937  4937 I ActivityThread: assets removed: []
+06-27 10:51:23.049  4937  4937 I ActivityThread: assets added: []
+06-27 10:51:23.049  3201  3201 I ActivityThread: ApplicationInfo updating for com.android.chrome, new timestamp: 30859640
+06-27 10:51:23.049  3201  3201 I ActivityThread: assets removed: []
+06-27 10:51:23.049  3201  3201 I ActivityThread: assets added: []
+06-27 10:51:23.049 10292 10292 I ActivityThread: ApplicationInfo updating for com.google.android.youtube, new timestamp: 30859640
+06-27 10:51:23.049 10292 10292 I ActivityThread: assets removed: []
+06-27 10:51:23.049 10292 10292 I ActivityThread: assets added: []
+06-27 10:51:23.049  2389  2389 I ActivityThread: ApplicationInfo updating for com.mediatek.location.mtkgeofence, new timestamp: 30859640
+06-27 10:51:23.049  2389  2389 I ActivityThread: assets removed: []
+06-27 10:51:23.049  2389  2389 I ActivityThread: assets added: []
+06-27 10:51:23.050  6306  6306 I ActivityThread: ApplicationInfo updating for com.android.chrome, new timestamp: 30859640
+06-27 10:51:23.050  6306  6306 I ActivityThread: assets removed: []
+06-27 10:51:23.050  6306  6306 I ActivityThread: assets added: []
+06-27 10:51:23.050  6246  6246 I ActivityThread: ApplicationInfo updating for com.android.chrome, new timestamp: 30859640
+06-27 10:51:23.050  6246  6246 I ActivityThread: assets removed: []
+06-27 10:51:23.050  6246  6246 I ActivityThread: assets added: []
+06-27 10:51:23.051  1831  1831 I ActivityThread: ApplicationInfo updating for com.mediatek.entitlement.o2, new timestamp: 30859641
+06-27 10:51:23.051  1831  1831 I ActivityThread: assets removed: []
+06-27 10:51:23.051  1831  1831 I ActivityThread: assets added: []
+06-27 10:51:23.051  1357  1377 I ActivityTaskManager: Config changes=80000000 {1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.16 s.716 fontWeightAdjustment=0}
+06-27 10:51:23.051  1811  1811 I ActivityThread: ApplicationInfo updating for com.mediatek.smartratswitch.service, new timestamp: 30859642
+06-27 10:51:23.051  1811  1811 I ActivityThread: assets removed: []
+06-27 10:51:23.051  1811  1811 I ActivityThread: assets added: []
+06-27 10:51:23.051  3143  3143 I ActivityThread: ApplicationInfo updating for com.android.chrome, new timestamp: 30859640
+06-27 10:51:23.051  3143  3143 I ActivityThread: assets removed: []
+06-27 10:51:23.051  3143  3143 I ActivityThread: assets added: []
+06-27 10:51:23.051  2314  2314 I ActivityThread: ApplicationInfo updating for com.mediatek.omacp, new timestamp: 30859641
+06-27 10:51:23.051  2314  2314 I ActivityThread: assets removed: []
+06-27 10:51:23.051  2314  2314 I ActivityThread: assets added: []
+06-27 10:51:23.052  1846  1846 I ActivityThread: ApplicationInfo updating for com.mediatek.entitlement, new timestamp: 30859640
+06-27 10:51:23.052  1846  1846 I ActivityThread: assets removed: []
+06-27 10:51:23.052  1846  1846 I ActivityThread: assets added: []
+06-27 10:51:23.053  2754  2754 I ActivityThread: ApplicationInfo updating for com.android.inputmethod.latin, new timestamp: 30859642
+06-27 10:51:23.053  2754  2754 I ActivityThread: assets removed: []
+06-27 10:51:23.053  2754  2754 I ActivityThread: assets added: []
+06-27 10:51:23.054  2200  2200 I ActivityThread: ApplicationInfo updating for com.android.providers.blockednumber, new timestamp: 30859640
+06-27 10:51:23.054  2200  2200 I ActivityThread: assets removed: []
+06-27 10:51:23.054  2200  2200 I ActivityThread: assets added: []
+06-27 10:51:23.055  2321  2321 I ActivityThread: ApplicationInfo updating for com.sec.android.app.camerasaver, new timestamp: 30859641
+06-27 10:51:23.055  2321  2321 I ActivityThread: assets removed: []
+06-27 10:51:23.055  2321  2321 I ActivityThread: assets added: []
+06-27 10:51:23.055  2301  2301 I ActivityThread: ApplicationInfo updating for com.android.providers.media.module, new timestamp: 30859641
+06-27 10:51:23.055  2301  2301 I ActivityThread: assets removed: []
+06-27 10:51:23.055  2301  2301 I ActivityThread: assets added: []
+06-27 10:51:23.056  1828  1828 I ActivityThread: ApplicationInfo updating for com.android.se, new timestamp: 30859641
+06-27 10:51:23.056  1828  1828 I ActivityThread: assets removed: []
+06-27 10:51:23.056  1828  1828 I ActivityThread: assets added: []
+06-27 10:51:23.057  3084  3084 I ActivityThread: ApplicationInfo updating for com.android.chrome, new timestamp: 30859640
+06-27 10:51:23.057  3084  3084 I ActivityThread: assets removed: []
+06-27 10:51:23.057  3084  3084 I ActivityThread: assets added: []
+06-27 10:51:23.058  1357  1377 I WindowManager: Override config changes=80000000 {1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.16 s.716 fontWeightAdjustment=0} for displayId=0
+06-27 10:51:23.058  2245  2245 I ActivityThread: ApplicationInfo updating for android.ext.services, new timestamp: 30859641
+06-27 10:51:23.058  2245  2245 I ActivityThread: assets removed: []
+06-27 10:51:23.058  2245  2245 I ActivityThread: assets added: []
+06-27 10:51:23.060  1706  1706 I ActivityThread: ApplicationInfo updating for com.android.networkstack, new timestamp: 30859641
+06-27 10:51:23.060  1706  1706 I ActivityThread: assets removed: []
+06-27 10:51:23.060  1706  1706 I ActivityThread: assets added: []
+06-27 10:51:23.060  1911  1911 I ActivityThread: ApplicationInfo updating for com.android.launcher3, new timestamp: 30859642
+06-27 10:51:23.060  1911  1911 I ActivityThread: assets removed: []
+06-27 10:51:23.060  1911  1911 I ActivityThread: assets added: []
+06-27 10:51:23.062  1783  1783 I ActivityThread: ApplicationInfo updating for com.mediatek.ims, new timestamp: 30859640
+06-27 10:51:23.062  1783  1783 I ActivityThread: assets removed: []
+06-27 10:51:23.062  1783  1783 I ActivityThread: assets added: []
+06-27 10:51:23.065  1621  1621 I ActivityThread: ApplicationInfo updating for com.android.systemui, new timestamp: 30859641
+06-27 10:51:23.065  1621  1621 I ActivityThread: assets removed: []
+06-27 10:51:23.065  1621  1621 I ActivityThread: assets added: []
+06-27 10:51:23.065  1911  1911 I TouchInteractionService: preloadOverview: forSUWAllSet=false, isHomeAndOverviewSame=true
+06-27 10:51:23.067  1357  1377 W ActivityTaskManager: Current config: {1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1110dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 72 - 1080, 2292) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.16 s.716 fontWeightAdjustment=0} unchanged for IME proc com.android.inputmethod.latin
+06-27 10:51:23.068  1621  1621 I NoBackGesture: Config changed: newConfig={1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.16 s.755 fontWeightAdjustment=0} lastReportedConfig={1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.15 s.714 fontWeightAdjustment=0}
+06-27 10:51:23.068  1621  1621 I NoBackGesture: NavbarController: newConfig={1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.16 s.755 fontWeightAdjustment=0} mTaskbarDelegate initialized=false willApplyConfigToNavbars=false navBarCount=1
+06-27 10:51:23.071  1842  1842 I ActivityThread: ApplicationInfo updating for com.android.providers.telephony, new timestamp: 30859642
+06-27 10:51:23.071  1842  1842 I ActivityThread: assets removed: []
+06-27 10:51:23.071  1842  1842 I ActivityThread: assets added: []
+06-27 10:51:23.091  1357  1929 W InputManager-JNI: Input channel object '[Gesture Monitor] edge-swipe (client)' was disposed without first being removed with the input manager!
+06-27 10:51:23.095   806  1261 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+06-27 10:51:23.111  1357  1378 W WindowManager: finishDrawingWindow: Window{34b049d u0 PointerLocation - display 0} mDrawState=DRAW_PENDING
+06-27 10:51:23.116  1357  1357 W WindowManager: finishDrawingWindow: Window{e44cec2 u0 FocusEventDebugView - display 0} mDrawState=DRAW_PENDING
+06-27 10:51:23.117  1357  1380 I DisplayDeviceRepository: Display device changed: DisplayDeviceInfo{"Built-in Screen": uniqueId="local:4627039422300187648", 720 x 1600, modeId 1, renderFrameRate 90.0, defaultModeId 1, userPreferredModeId -1, supportedModes [{id=1, width=720, height=1600, fps=90.0, vsync=90.0, synthetic=false, alternativeRefreshRates=[60.0], supportedHdrTypes=[]}, {id=2, width=720, height=1600, fps=60.0, vsync=60.0, synthetic=false, alternativeRefreshRates=[90.0], supportedHdrTypes=[]}], colorMode 0, supportedColorModes [0], hdrCapabilities HdrCapabilities{mSupportedHdrTypes=[], mMaxLuminance=500.0, mMaxAverageLuminance=500.0, mMinLuminance=0.0}, allmSupported false, gameContentTypeSupported false, density 300, 254.0 x 254.0 dpi, appVsyncOff 1033333, presDeadline 16100000, cutout DisplayCutout{insets=Rect(0, 49 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(323, 0 - 398, 49), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=720 displayHeight=1600 physicalDisplayWidth=720 physicalDisplayHeight=1600 density={1.875} cutoutSpec={M 0,0 L -20, 0 L -20, 26 L 20, 26 L 20, 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, touch INTERNAL, rotation 0, type INTERNAL, address {port=0, model=0x40368bd6e7ee6c}, deviceProductInfo DeviceProductInfo{name=MTKDEV, manufacturerPnpId=MTK, productId=35638, modelYear=null, manufactureDate=ManufactureDate{week=42, year=2021}, connectionToSinkType=0}, state OFF, committedState ON, frameRateOverride , brightnessMinimum 0.0, brightnessMaximum 1.0, brightnessDefault 0.4, hdrSdrRatio NaN, FLAG_ALLOWED_TO_BE_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, FLAG_TRUSTED, installOrientation 0, displayShape DisplayShape{ spec=2134893525 displayWidth=720 displayHeight=1600 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}}
+06-27 10:51:23.120  1357  1560 I AppWidgetServiceImpl: Received broadcast: android.intent.action.PACKAGE_CHANGED on user 0
+06-27 10:51:23.121   737  2376 W AudioALSAStreamOut: setParameters(), still have param.size() = 1, remain param = "MixerThreadSleep="
+06-27 10:51:23.131   780   803 I mtkpower@impl: [setMode] type:9, enabled:1
+06-27 10:51:23.132   780   803 E mtkpower@impl: [setMode] unknown type
+06-27 10:51:23.137   806   806 I BufferQueueProducer: [PointerLocation - display 0#54](this:0xb400006fb27aaec0,id:-1,api:0,p:-1,c:806) queueBuffer: fps=2.98 dur=5376.82 max=4623.52 min=10.93
+06-27 10:51:23.138   737  2374 W AudioALSAStreamOut: setParameters(), still have param.size() = 1, remain param = "MixerThreadSleep="
+06-27 10:51:23.139  2080  9769 I PermissionControllerServiceImpl: Updating user sensitive for uid 1000
+06-27 10:51:23.139   806   806 W SurfaceFlinger: commitOffscreenLayers Layer 0xb400006fb284abc0 not alive
+06-27 10:51:23.140   806   806 I SurfaceFlinger: onHandleDestroyed: name=[Gesture Monitor] edge-swipe#1140, layerId=1140, parentId=0
+06-27 10:51:23.140   806   806 I SurfaceFlinger: onHandleDestroyed: name=Sprite#1144, layerId=1144, parentId=0
+06-27 10:51:23.140   806   806 I SurfaceFlinger: onHandleDestroyed: name=9a8b2e0 ActivityRecordInputSink com.android.launcher3/.uioverrides.QuickstepLauncher#1150, layerId=1150, parentId=0
+06-27 10:51:23.140   806   806 I SurfaceFlinger: onHandleDestroyed: name=com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#1147, layerId=1147, parentId=0
+06-27 10:51:23.140   806   806 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+06-27 10:51:23.143   780   803 I mtkpower@impl: [setMode] type:7, enabled:0
+06-27 10:51:23.144   780   828 I libPowerHal: [perfUserScnDisableAll] 
+06-27 10:51:23.144  1357  1414 W DreamManagerService: Dream ComponentInfo{com.android.dreams.alwaysondisplay/com.android.dreams.alwaysondisplay.AlwaysOnDisplay} does not exist
+06-27 10:51:23.144   780   803 I mtkpower@impl: [setMode] Disable All
+06-27 10:51:23.144  1357  1414 I PowerGroup: Sleeping power group (groupId=0, uid=1000, reason=timeout)...
+06-27 10:51:23.145  1357  1414 I PowerManagerService: Sleeping (uid 1000)...
+06-27 10:51:23.145   806   806 I BufferQueueDebug: [bbq-wrapper#1145](this:0xb400006fb284d3d0,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:51:23.146   806   806 I BufferQueueDebug: [com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#1147](this:0xb400006fb27c7660,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:51:23.146   806   806 I BufferQueueDebug: [9a8b2e0 ActivityRecordInputSink com.android.launcher3/.uioverrides.QuickstepLauncher#1150](this:0xb400006fb280bbe0,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:51:23.146   806   806 I BufferQueueDebug: [[Gesture Monitor] edge-swipe#1140](this:0xb400006fb280e970,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:51:23.146   806   806 I BufferQueueDebug: [Sprite#1144](this:0xb400006fb2811700,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:51:23.154  1357  1390 W MagnificationConnectionManager: requestConnection duplicated request: connect=true, mConnectionState=CONNECTED
+06-27 10:51:23.155   737  2374 W AudioALSAStreamOut: setParameters(), still have param.size() = 1, remain param = "MixerThreadSleep="
+06-27 10:51:23.155  6246  6246 I ActivityThread: ApplicationInfo updating for com.android.chrome, new timestamp: 30859747
+06-27 10:51:23.155  6246  6246 I ActivityThread: assets removed: []
+06-27 10:51:23.155  6246  6246 I ActivityThread: assets added: []
+06-27 10:51:23.156  9260  9260 I ActivityThread: ApplicationInfo updating for com.android.chrome, new timestamp: 30859747
+06-27 10:51:23.156  9260  9260 I ActivityThread: assets removed: []
+06-27 10:51:23.156  9260  9260 I ActivityThread: assets added: []
+06-27 10:51:23.157  4937  4937 I ActivityThread: ApplicationInfo updating for com.android.gallery3d, new timestamp: 30859750
+06-27 10:51:23.157  4937  4937 I ActivityThread: assets removed: []
+06-27 10:51:23.157  4937  4937 I ActivityThread: assets added: []
+06-27 10:51:23.157  3201  3201 I ActivityThread: ApplicationInfo updating for com.android.chrome, new timestamp: 30859747
+06-27 10:51:23.157  3201  3201 I ActivityThread: assets removed: []
+06-27 10:51:23.157  3201  3201 I ActivityThread: assets added: []
+06-27 10:51:23.157  3143  3143 I ActivityThread: ApplicationInfo updating for com.android.chrome, new timestamp: 30859747
+06-27 10:51:23.157  3143  3143 I ActivityThread: assets removed: []
+06-27 10:51:23.157  3143  3143 I ActivityThread: assets added: []
+06-27 10:51:23.158  1783  1783 I ActivityThread: ApplicationInfo updating for com.mediatek.ims, new timestamp: 30859747
+06-27 10:51:23.158  1783  1783 I ActivityThread: assets removed: []
+06-27 10:51:23.158  1783  1783 I ActivityThread: assets added: []
+06-27 10:51:23.158  2200  2200 I ActivityThread: ApplicationInfo updating for com.android.providers.blockednumber, new timestamp: 30859747
+06-27 10:51:23.158  2200  2200 I ActivityThread: assets removed: []
+06-27 10:51:23.158  2200  2200 I ActivityThread: assets added: []
+06-27 10:51:23.159  1357  1377 I ActivityTaskManager: Config changes=80000000 {1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.17 s.757 fontWeightAdjustment=0}
+06-27 10:51:23.159  2389  2389 I ActivityThread: ApplicationInfo updating for com.mediatek.location.mtkgeofence, new timestamp: 30859747
+06-27 10:51:23.159  2389  2389 I ActivityThread: assets removed: []
+06-27 10:51:23.159  2389  2389 I ActivityThread: assets added: []
+06-27 10:51:23.159  1846  1846 I ActivityThread: ApplicationInfo updating for com.mediatek.entitlement, new timestamp: 30859747
+06-27 10:51:23.159  1846  1846 I ActivityThread: assets removed: []
+06-27 10:51:23.159  1846  1846 I ActivityThread: assets added: []
+06-27 10:51:23.160  2314  2314 I ActivityThread: ApplicationInfo updating for com.mediatek.omacp, new timestamp: 30859748
+06-27 10:51:23.160  2314  2314 I ActivityThread: assets removed: []
+06-27 10:51:23.160  2314  2314 I ActivityThread: assets added: []
+06-27 10:51:23.161 10292 10292 I ActivityThread: ApplicationInfo updating for com.google.android.youtube, new timestamp: 30859747
+06-27 10:51:23.161 10292 10292 I ActivityThread: assets removed: []
+06-27 10:51:23.161 10292 10292 I ActivityThread: assets added: []
+06-27 10:51:23.161  3084  3084 I ActivityThread: ApplicationInfo updating for com.android.chrome, new timestamp: 30859747
+06-27 10:51:23.161  3084  3084 I ActivityThread: assets removed: []
+06-27 10:51:23.161  3084  3084 I ActivityThread: assets added: []
+06-27 10:51:23.162  6306  6306 I ActivityThread: ApplicationInfo updating for com.android.chrome, new timestamp: 30859747
+06-27 10:51:23.162  6306  6306 I ActivityThread: assets removed: []
+06-27 10:51:23.162  6306  6306 I ActivityThread: assets added: []
+06-27 10:51:23.163  1828  1828 I ActivityThread: ApplicationInfo updating for com.android.se, new timestamp: 30859750
+06-27 10:51:23.163  1828  1828 I ActivityThread: assets removed: []
+06-27 10:51:23.163  1828  1828 I ActivityThread: assets added: []
+06-27 10:51:23.165  1831  1831 I ActivityThread: ApplicationInfo updating for com.mediatek.entitlement.o2, new timestamp: 30859750
+06-27 10:51:23.165  1831  1831 I ActivityThread: assets removed: []
+06-27 10:51:23.165  1831  1831 I ActivityThread: assets added: []
+06-27 10:51:23.165  2245  2245 I ActivityThread: ApplicationInfo updating for android.ext.services, new timestamp: 30859750
+06-27 10:51:23.165  2245  2245 I ActivityThread: assets removed: []
+06-27 10:51:23.165  2245  2245 I ActivityThread: assets added: []
+06-27 10:51:23.165  1706  1706 I ActivityThread: ApplicationInfo updating for com.android.networkstack, new timestamp: 30859750
+06-27 10:51:23.165  1706  1706 I ActivityThread: assets removed: []
+06-27 10:51:23.165  1706  1706 I ActivityThread: assets added: []
+06-27 10:51:23.167  1357  1377 I WindowManager: Override config changes=80000000 {1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.17 s.757 fontWeightAdjustment=0} for displayId=0
+06-27 10:51:23.170  2754  2754 I ActivityThread: ApplicationInfo updating for com.android.inputmethod.latin, new timestamp: 30859751
+06-27 10:51:23.170  2754  2754 I ActivityThread: assets removed: []
+06-27 10:51:23.170  2754  2754 I ActivityThread: assets added: []
+06-27 10:51:23.172   737  2374 W AudioALSAStreamOut: setParameters(), still have param.size() = 1, remain param = "MixerThreadSleep="
+06-27 10:51:23.172  1811  1811 I ActivityThread: ApplicationInfo updating for com.mediatek.smartratswitch.service, new timestamp: 30859750
+06-27 10:51:23.172  1811  1811 I ActivityThread: assets removed: []
+06-27 10:51:23.172  1811  1811 I ActivityThread: assets added: []
+06-27 10:51:23.174  2321  2321 I ActivityThread: ApplicationInfo updating for com.sec.android.app.camerasaver, new timestamp: 30859749
+06-27 10:51:23.174  2321  2321 I ActivityThread: assets removed: []
+06-27 10:51:23.174  2321  2321 I ActivityThread: assets added: []
+06-27 10:51:23.175  1911  1911 I ActivityThread: ApplicationInfo updating for com.android.launcher3, new timestamp: 30859751
+06-27 10:51:23.175  1911  1911 I ActivityThread: assets removed: []
+06-27 10:51:23.175  1911  1911 I ActivityThread: assets added: []
+06-27 10:51:23.179  2301  2301 I ActivityThread: ApplicationInfo updating for com.android.providers.media.module, new timestamp: 30859749
+06-27 10:51:23.179  2301  2301 I ActivityThread: assets removed: []
+06-27 10:51:23.179  2301  2301 I ActivityThread: assets added: []
+06-27 10:51:23.180  1357  1390 W VoiceInteractionManager: no available voice recognition services found for user 0
+06-27 10:51:23.187  1911  1911 I TouchInteractionService: preloadOverview: forSUWAllSet=false, isHomeAndOverviewSame=true
+06-27 10:51:23.187  1621  1621 E KeyguardClockSwitch: No clock being shown
+06-27 10:51:23.189   737  2376 W AudioALSAStreamOut: setParameters(), still have param.size() = 1, remain param = "MixerThreadSleep="
+06-27 10:51:23.197  1911  2005 W AllAppsList: updatePromiseInstallInfo: no Activities matched updated package, removing all apps from package=android
+06-27 10:51:23.199   790  1058 W AudioPolicyManagerCustomImpl: [MTK_APM_Route]setOutputDevices() mIoHandle 29 mId 7 device (0x2)(0x1, 0x2, 0x4, 0x8, 0x10, 0x20, 0x40, 0x4000, 0x4000000) delayMs 84 force 0 size 5
+06-27 10:51:23.199  1357  1593 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = READ_SMS, mode = allow, callingUid = 1001, oldMode = allow
+06-27 10:51:23.206   737  2374 W AudioALSAStreamOut: setParameters(), still have param.size() = 1, remain param = "NoAudioTrack=1"
+06-27 10:51:23.206  1357  1377 W ActivityTaskManager: Current config: {1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1110dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 72 - 1080, 2292) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.17 s.757 fontWeightAdjustment=0} unchanged for IME proc com.android.inputmethod.latin
+06-27 10:51:23.207  1357  3356 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = RECEIVE_SMS, mode = allow, callingUid = 1001, oldMode = allow
+06-27 10:51:23.208  1357  3356 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = RECEIVE_WAP_PUSH, mode = allow, callingUid = 1001, oldMode = allow
+06-27 10:51:23.209  1357  3356 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = SEND_SMS, mode = allow, callingUid = 1001, oldMode = allow
+06-27 10:51:23.211  1357  3356 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = READ_CELL_BROADCASTS, mode = allow, callingUid = 1001, oldMode = allow
+06-27 10:51:23.218  4937  4937 W ActivityThread: getPackageInfo() called with an older ApplicationInfo than the cached version for package com.android.gallery3d
+06-27 10:51:23.218  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:23.220  1357  3356 W JobInfo : Job 'com.android.gallery3d/.app.PackagesMonitor$AsyncService#1' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+06-27 10:51:23.239  2080  2080 I ActivityThread: ApplicationInfo updating for com.android.permissioncontroller, new timestamp: 30859751
+06-27 10:51:23.239  2080  2080 I ActivityThread: assets removed: []
+06-27 10:51:23.239  2080  2080 I ActivityThread: assets added: []
+06-27 10:51:23.248  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:23.251  1357  1377 W Looper  : Slow dispatch took 123ms android.fg h=android.os.Handler c=com.android.server.om.OverlayManagerService$$ExternalSyntheticLambda1@b313f8d m=0
+06-27 10:51:23.252  1621  1621 I ClockEventController: Region isDark: true
+06-27 10:51:23.276  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:23.283  1621  1621 E KeyguardClockSwitch: No clock being shown
+06-27 10:51:23.299  1357  1380 I DisplayDeviceRepository: Display device changed: DisplayDeviceInfo{"Built-in Screen": uniqueId="local:4627039422300187648", 720 x 1600, modeId 1, renderFrameRate 90.0, defaultModeId 1, userPreferredModeId -1, supportedModes [{id=1, width=720, height=1600, fps=90.0, vsync=90.0, synthetic=false, alternativeRefreshRates=[60.0], supportedHdrTypes=[]}, {id=2, width=720, height=1600, fps=60.0, vsync=60.0, synthetic=false, alternativeRefreshRates=[90.0], supportedHdrTypes=[]}], colorMode 0, supportedColorModes [0], hdrCapabilities HdrCapabilities{mSupportedHdrTypes=[], mMaxLuminance=500.0, mMaxAverageLuminance=500.0, mMinLuminance=0.0}, allmSupported false, gameContentTypeSupported false, density 300, 254.0 x 254.0 dpi, appVsyncOff 1033333, presDeadline 16100000, cutout DisplayCutout{insets=Rect(0, 49 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(323, 0 - 398, 49), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=720 displayHeight=1600 physicalDisplayWidth=720 physicalDisplayHeight=1600 density={1.875} cutoutSpec={M 0,0 L -20, 0 L -20, 26 L 20, 26 L 20, 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, touch INTERNAL, rotation 0, type INTERNAL, address {port=0, model=0x40368bd6e7ee6c}, deviceProductInfo DeviceProductInfo{name=MTKDEV, manufacturerPnpId=MTK, productId=35638, modelYear=null, manufactureDate=ManufactureDate{week=42, year=2021}, connectionToSinkType=0}, state OFF, committedState OFF, frameRateOverride , brightnessMinimum 0.0, brightnessMaximum 1.0, brightnessDefault 0.4, hdrSdrRatio NaN, FLAG_ALLOWED_TO_BE_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, FLAG_TRUSTED, installOrientation 0, displayShape DisplayShape{ spec=2134893525 displayWidth=720 displayHeight=1600 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}}
+06-27 10:51:23.302  1842  1842 I ActivityThread: ApplicationInfo updating for com.android.providers.telephony, new timestamp: 30859751
+06-27 10:51:23.302  1842  1842 I ActivityThread: assets removed: []
+06-27 10:51:23.302  1842  1842 I ActivityThread: assets added: []
+06-27 10:51:23.309  1621  1621 I ClockEventController: Region isDark: true
+06-27 10:51:23.327  1357  1357 W WindowManager: finishDrawingWindow: Window{e44cec2 u0 FocusEventDebugView - display 0} mDrawState=DRAW_PENDING
+06-27 10:51:23.332  1357  1390 W MagnificationConnectionManager: requestConnection duplicated request: connect=true, mConnectionState=CONNECTED
+06-27 10:51:23.333  1357  1357 E ScreenIntentReceiver: notifyChange failed
+06-27 10:51:23.341   747   747 I OriginChannel: activate: [1,0]
+06-27 10:51:23.343  1357  1378 W WindowManager: finishDrawingWindow: Window{34b049d u0 PointerLocation - display 0} mDrawState=DRAW_PENDING
+06-27 10:51:23.345  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:23.347  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:23.348  1357  1390 W VoiceInteractionManager: no available voice recognition services found for user 0
+06-27 10:51:23.349  1357  1357 I PowerManagerService: onFlip(): Face up.
+06-27 10:51:23.361  1911  2005 W AllAppsList: updatePromiseInstallInfo: no Activities matched updated package, removing all apps from package=android
+06-27 10:51:23.363  1357  1571 I MR2ServiceImpl: Updating composite discovery preference | preference: RouteDiscoveryRequest{ preferredFeatures={}, activeScan=false }, active routers: []
+06-27 10:51:23.402  1947  1947 I wpa_supplicant: wpa_driver_nl80211_driver_cmd: wlan0 recv cmd_src SETSUSPENDMODE 1
+06-27 10:51:23.402  1947  1947 I wpa_supplicant: wpa_driver_nl80211_driver_cmd: wlan0 recv cmd SETSUSPENDMODE 1
+06-27 10:51:23.409  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:23.410  1357  1808 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = READ_SMS, mode = allow, callingUid = 1001, oldMode = allow
+06-27 10:51:23.412  1357  1560 I AppWidgetServiceImpl: Received broadcast: android.intent.action.PACKAGE_CHANGED on user 0
+06-27 10:51:23.412  1357  6590 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = RECEIVE_SMS, mode = allow, callingUid = 1001, oldMode = allow
+06-27 10:51:23.413  1357  1929 W JobInfo : Job 'com.android.gallery3d/.app.PackagesMonitor$AsyncService#1' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+06-27 10:51:23.415  1357  6590 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = RECEIVE_WAP_PUSH, mode = allow, callingUid = 1001, oldMode = allow
+06-27 10:51:23.419  1357  3356 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = SEND_SMS, mode = allow, callingUid = 1001, oldMode = allow
+06-27 10:51:23.421  1357  3356 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = READ_CELL_BROADCASTS, mode = allow, callingUid = 1001, oldMode = allow
+06-27 10:51:23.422  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:23.427  1947  1947 I wpa_supplicant: wpa_driver_nl80211_driver_cmd: ret = 0 used = 17 total = 512 buf = 
+06-27 10:51:23.430  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:23.439  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:23.440  2080  9769 I PermissionControllerServiceImpl: Updating user sensitive for uid 1000
+06-27 10:51:23.440  1357  1373 W UserManagerService: Requested status bar icon for non-badged user 0
+06-27 10:51:23.451  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:23.454  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:23.456  1621  1621 I KeyguardDisplayManager: Do not show KeyguardPresentation on the default display
+06-27 10:51:23.467  1621  1626 I ndroid.systemui: Background concurrent mark compact GC freed 20MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 15MB/30MB, paused 1.320ms,4.864ms total 288.826ms
+06-27 10:51:23.470   780   828 I libPowerHal: [perfLockAcq] idx:0 hdl:6907 hint:53 pid:780 tid:780 duration:80 lock_user:mtkpower@1.0-se => ret_hdl:6907
+06-27 10:51:23.470   780   828 I libPowerHal: [setClusterFreq] INTERACTION set cpufreq[0] min:2000000 max:-1 cpufreq[1] min:2400000 max:-1 
+06-27 10:51:23.470   780   828 I libPowerHal: [setGPUFreq] INTERACTION user set gpu freq min:0, max:-1
+06-27 10:51:23.470   780   828 I libPowerHal: INTERACTION: set gpu opp level: 0
+06-27 10:51:23.470   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:51:23.471   780   828 I libPowerHal: [setGPUFreq] Soft min/max = (0, 0); Hard min/max = (42, 0)
+06-27 10:51:23.471   780   828 I libPowerHal: [setGPUFreq] final min/max = (0, 0)
+06-27 10:51:23.471   780   828 I libPowerHal: INTERACTION: set gpu opp level: 0
+06-27 10:51:23.471   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:51:23.471   780   828 I libPowerHal: [setClusterFreq]  set cpu_ctrl cpufreq: 2000000 -1 2400000 -1 
+06-27 10:51:23.471   780   828 I libPowerHal: [PE] INTERACTION update cmd:2020000, param:5
+06-27 10:51:23.471   780   828 I libPowerHal: [PE] (more) /sys/kernel/cm_mgr/dbg_cm_mgr set +prefix:dsu_mode 1;
+06-27 10:51:23.471   780   828 I libPowerHal: [setDvfsrcDevFreqOpp] opp:0, freq:4266000000
+06-27 10:51:23.472   780   828 I libPowerHal: [PE] INTERACTION update cmd:1000000 param:0
+06-27 10:51:23.552   780   828 I mtkpower@impl: [powerd_req] TIMER_MSG_PERF_LOCK_TIMEOUT hdl:6907
+06-27 10:51:23.552   780   828 I libPowerHal: [perfLockRel] hdl:6907, idx:0
+06-27 10:51:23.553   780   828 I libPowerHal: [setClusterFreq]  set cpu_ctrl cpufreq: -1 -1 -1 -1 
+06-27 10:51:23.553   780   828 I libPowerHal: [unsetGPUFreq] current min:0, max:0; scn_gpu_min:0, scn_gpu_max:-1; scn_gpu_min(HL):-1, scn_gpu_max(HL):-1
+06-27 10:51:23.553   780   828 I libPowerHal: INTERACTION: set gpu opp level: 42
+06-27 10:51:23.553   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:51:23.553   780   828 I libPowerHal: [setGPUFreq] Soft min/max = (42, 0); Hard min/max = (42, 0)
+06-27 10:51:23.553   780   828 I libPowerHal: [setGPUFreq] final min/max = (42, 0)
+06-27 10:51:23.553   780   828 I libPowerHal: INTERACTION: set gpu opp level: 42
+06-27 10:51:23.553   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:51:23.553   780   828 I libPowerHal: [PD] INTERACTION update cmd:2020000 param:0
+06-27 10:51:23.553   780   828 I libPowerHal: [PD] INTERACTION update cmd:410000 param:0
+06-27 10:51:23.554   780   828 I libPowerHal: [PD] (more) /sys/kernel/cm_mgr/dbg_cm_mgr set +prefix:dsu_mode 0;
+06-27 10:51:23.554   780   828 I libPowerHal: [PD] INTERACTION update cmd:1000000 param:-1
+06-27 10:51:23.567  1621  1621 I Choreographer: Skipped 42 frames!  The application may be doing too much work on its main thread.
+06-27 10:51:23.569  1621  1621 I KeyguardTransitionRepository: FINISHED transition: TransitionStep(from=GONE, to=DOZING, value=1.0, transitionState=FINISHED, ownerName=FromGoneTransitionInteractor(Sleep transition triggered))
+06-27 10:51:23.624  1357  4317 W WindowManager: finishDrawingWindow: Window{16a0564 u0 NavigationBar0} mDrawState=DRAW_PENDING
+06-27 10:51:23.637   806   888 I BufferQueueDebug: [NotificationShade#1156](this:0xb400006fb2811700,id:-1,api:0,p:-1,c:-1) BufferQueue core=(806:/system/bin/surfaceflinger)
+06-27 10:51:23.641  1357  4317 W WindowManager: Changing focus from null to Window{898197 u0 NotificationShade} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:468 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6505 com.android.server.wm.WindowManagerService.relayoutWindowInner:2665 com.android.server.wm.WindowManagerService.relayoutWindow:2335 
+06-27 10:51:23.642   806   888 I BufferQueueDebug: [Surface(name=16a0564 NavigationBar0)/@0xb3e116f - animation-leash of insets_animation#1157](this:0xb400006fb280e970,id:-1,api:0,p:-1,c:-1) BufferQueue core=(806:/system/bin/surfaceflinger)
+06-27 10:51:23.645   806   888 I BufferQueueDebug: [Surface(name=f719012 StatusBar)/@0xe0d1337 - animation-leash of insets_animation#1158](this:0xb400006fb265dbf0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(806:/system/bin/surfaceflinger)
+06-27 10:51:23.649  1357  4317 I WindowManager: Relayout Window{898197 u0 NotificationShade}: oldVis=4 newVis=0 focusMayChange = true requestedWidth = 1080 requestedHeight = 2340 outFrames = ClientWindowFrames{frame=[0,0][1080,2340] display=[0,0][1080,2340] parentFrame=[0,0][0,0]} outSurfaceControl = Surface(name=NotificationShade)/@0x560f936
+06-27 10:51:23.687  1621  1621 W EmergencyButton: onConfigurationChanged, do not updated!
+06-27 10:51:23.734  1621  1621 W View    : requestLayout() improperly called by com.android.keyguard.CarrierText{6f107e1 V.ED..... ......ID 32,0-485,80 #7f0a03c0 app:id/keyguard_carrier_text} during layout: running second layout pass
+06-27 10:51:23.738  1911  1911 I OverviewComponentObserver: updateOverviewTargets: mIsHomeDisabled=true, isDefaultHomeNull=false, mIsDefaultHome=true
+06-27 10:51:23.765  1357  4317 W WindowManager: finishDrawingWindow: Window{898197 u0 NotificationShade} mDrawState=DRAW_PENDING
+06-27 10:51:23.782  1357  4317 W WindowManager: finishDrawingWindow: Window{f719012 u0 StatusBar} mDrawState=DRAW_PENDING
+06-27 10:51:23.788   806  1727 I BufferQueueDebug: [[Gesture Monitor] edge-swipe#1159](this:0xb400006fb280bbe0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(806:/system/bin/surfaceflinger)
+06-27 10:51:23.790   806   806 I BufferQueueProducer: [StatusBar#91](this:0xb400006fb27fd810,id:-1,api:0,p:-1,c:806) queueBuffer: fps=0.82 dur=1217.80 max=1217.80 min=1217.80
+06-27 10:51:23.799   806  1727 I BufferQueueDebug: [WindowToken{c861d28 type=2024 android.os.BinderProxy@c0cdf4b}#1160](this:0xb400006fb27c7660,id:-1,api:0,p:-1,c:-1) BufferQueue core=(806:/system/bin/surfaceflinger)
+06-27 10:51:23.803   806   888 I BufferQueueDebug: [6ecca41 EdgeBackGestureHandler0#1161](this:0xb400006fb284d3d0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(806:/system/bin/surfaceflinger)
+06-27 10:51:23.838  1357  1373 W InputManager-JNI: Input channel object 'ff041d6 EdgeBackGestureHandler0 (client)' was disposed without first being removed with the input manager!
+06-27 10:51:23.847  1621  1621 W LoadedApk: New application info for package com.android.systemui is out of date with TS 30859749 < the current TS 30860417
+06-27 10:51:23.849  1621  1621 I NoBackGesture: Config changed: newConfig={1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.17 s.796 fontWeightAdjustment=0} lastReportedConfig={1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.16 s.755 fontWeightAdjustment=0}
+06-27 10:51:23.849  1621  1621 I NoBackGesture: NavbarController: newConfig={1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.17 s.796 fontWeightAdjustment=0} mTaskbarDelegate initialized=false willApplyConfigToNavbars=false navBarCount=1
+06-27 10:51:23.865   772   829 I libPerfCtl: xgfGetFPS pid:1357 fps:-1
+06-27 10:51:23.865   772   829 I libPerfCtl: xgfGetFPS pid:1621 fps:-1
+06-27 10:51:23.865   772   829 I libPerfCtl: xgfGetFPS pid:1911 fps:-1
+06-27 10:51:23.923  1621  1621 E KeyguardClockSwitch: No clock being shown
+06-27 10:51:23.946  1621  1621 I ClockEventController: Region isDark: true
+06-27 10:51:23.966  1621  1621 E KeyguardClockSwitch: No clock being shown
+06-27 10:51:23.983  1621  1621 I ClockEventController: Region isDark: true
+06-27 10:51:24.018   806   888 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+06-27 10:51:24.027  1621  1621 I vol.VolumeDialogImpl: mDialog.dismiss() reason: screen_off from: com.android.systemui.volume.VolumeDialogImpl$7.onScreenOff:4
+06-27 10:51:24.066  1621  1621 I Choreographer: Skipped 43 frames!  The application may be doing too much work on its main thread.
+06-27 10:51:24.099   806   888 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+06-27 10:51:24.110   806   806 I BufferQueueProducer: [NavigationBar0#87](this:0xb400006fb28005a0,id:-1,api:0,p:-1,c:806) queueBuffer: fps=6.13 dur=1305.79 max=763.18 min=7.85
+06-27 10:51:24.114  1357  1373 W WindowManager: finishDrawingWindow: Window{16a0564 u0 NavigationBar0} mDrawState=HAS_DRAWN
+06-27 10:51:24.130   737  2374 W libc    : invalid pthread_t (0) passed to pthread_join
+06-27 10:51:24.130   737  2374 I [Awinic]: Awinic kctl monitor pthread deinit success
+06-27 10:51:24.131   737  2374 I [Awinic]: reset done !
+06-27 10:51:24.131  1357  3598 W WindowManager: finishDrawingWindow: Window{f719012 u0 StatusBar} mDrawState=HAS_DRAWN
+06-27 10:51:24.137   806  1727 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+06-27 10:51:24.186  1621  1621 W ImageReader_JNI: Unable to acquire a buffer item, very likely client tried to acquire more than maxImages buffers
+06-27 10:51:24.194  1357  4317 W WindowManager: finishDrawingWindow: Window{4fc2c26 u0 com.android.systemui.wallpapers.ImageWallpaper} mDrawState=DRAW_PENDING
+06-27 10:51:24.199   806   888 I BufferQueueDebug: [Transition Root: Display 0 name="Built-in Screen"#1162](this:0xb400006fb27b6500,id:-1,api:0,p:-1,c:-1) BufferQueue core=(806:/system/bin/surfaceflinger)
+06-27 10:51:24.214  1357  1373 W WindowManager: finishDrawingWindow: Window{4fc2c26 u0 com.android.systemui.wallpapers.ImageWallpaper} mDrawState=HAS_DRAWN
+06-27 10:51:24.229  1357  3598 W Transition: Transition already started id=95 state=2
+06-27 10:51:24.347  1357  1808 W WindowManager: finishDrawingWindow: Window{f719012 u0 StatusBar} mDrawState=HAS_DRAWN
+06-27 10:51:24.358  1357  1808 W WindowManager: finishDrawingWindow: Window{16a0564 u0 NavigationBar0} mDrawState=HAS_DRAWN
+06-27 10:51:24.407  1357  1808 W WindowManager: finishDrawingWindow: Window{898197 u0 NotificationShade} mDrawState=HAS_DRAWN
+06-27 10:51:24.418  1357  1808 W WindowManager: finishDrawingWindow: Window{4fc2c26 u0 com.android.systemui.wallpapers.ImageWallpaper} mDrawState=HAS_DRAWN
+06-27 10:51:24.431  1357  4317 W UserManagerService: Requested status bar icon for non-badged user 0
+06-27 10:51:24.440  1357  4317 W UserManagerService: Requested status bar icon for non-badged user 0
+06-27 10:51:24.477  1621  1621 W ImageReader_JNI: Unable to acquire a buffer item, very likely client tried to acquire more than maxImages buffers
+06-27 10:51:24.590  1621  1684 E QuickAccessWalletKeyguardQuickAffordanceConfig: Wallet card retrieval error, message: "null"
+06-27 10:51:24.591  1621  1684 E QuickAccessWalletKeyguardQuickAffordanceConfig: Wallet card retrieval error, message: "null"
+06-27 10:51:24.591  1621  1684 E QuickAccessWalletKeyguardQuickAffordanceConfig: Wallet card retrieval error, message: "null"
+06-27 10:51:24.704  1621  1626 I ndroid.systemui: Background concurrent mark compact GC freed 17MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 16MB/32MB, paused 814us,5.162ms total 199.689ms
+06-27 10:51:24.713   806   888 I SurfaceFlinger: onHandleDestroyed: name=Surface(name=Task=1)/@0x650ccfd_transition-leash#1149, layerId=1149, parentId=0
+06-27 10:51:24.718   806   806 I BufferQueueDebug: [Surface(name=Task=1)/@0x650ccfd_transition-leash#1149](this:0xb400006fb282b110,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:51:24.760  1357  1571 I MR2ServiceImpl: Updating composite discovery preference | preference: RouteDiscoveryRequest{ preferredFeatures={}, activeScan=false }, active routers: []
+06-27 10:51:24.762  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:24.762  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:24.765   727   727 I netd    : tetherGetStats() -> {[]} <3.17ms>
+06-27 10:51:24.866   772   829 I libPerfCtl: xgfGetFPS pid:1357 fps:-1
+06-27 10:51:24.866   772   829 I libPerfCtl: xgfGetFPS pid:1621 fps:-1
+06-27 10:51:24.866   772   829 I libPerfCtl: xgfGetFPS pid:1911 fps:-1

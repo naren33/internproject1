@@ -1,0 +1,66 @@
+--------- beginning of main
+06-27 10:33:47.561   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+06-27 10:33:47.662   747   787 E HfLooper: dst->data[13.000000,45.000000,9707.000000]
+06-27 10:33:47.730  1357  1378 I SideFpsEventHandler: notifyPowerPressed
+--------- beginning of system
+06-27 10:33:47.731  1357  1378 I FingerprintManager: onPowerPressed
+06-27 10:33:47.731  1357  1378 I PowerGroup: Powering off display group due to power_button (groupId= 0, uid= 1000, millisSinceLastUserActivity=12999, lastUserActivityEvent=other)...
+06-27 10:33:47.732  1357  1378 I PowerManagerService: Going to sleep due to power_button (uid 1000, screenOffTimeout=60000, activityTimeoutWM=-1, maxDimRatio=0.20000005, maxDimDur=7000)...
+06-27 10:33:47.742  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:33:47.742  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:33:47.742  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:33:47.742  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:33:47.742  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:33:47.743  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:33:47.743  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:33:47.751  1621  1621 I KeyguardTransitionRepository: STARTED transition: TransitionStep(from=GONE, to=DOZING, value=0.0, transitionState=STARTED, ownerName=FromGoneTransitionInteractor(Sleep transition triggered))
+06-27 10:33:47.752   806   806 I BufferQueueProducer: [FocusEventDebugView - display 0#69](this:0xb400006fb27cd180,id:-1,api:0,p:-1,c:806) queueBuffer: fps=0.21 dur=14511.59 max=14179.97 min=44.06
+06-27 10:33:47.754   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:33:47.754   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:33:47.754   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:33:47.754   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:33:47.754   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:33:47.757  1621  1621 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+06-27 10:33:47.760   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+06-27 10:33:47.761   806   806 I BufferQueueProducer: [FramebufferSurface](this:0xb40000700264c2f0,id:-1,api:1,p:806,c:806) queueBuffer: fps=5.21 dur=10560.21 max=9871.24 min=8.74
+06-27 10:33:47.762   744   744 I hwcomposer: [HWCDisplay] [Display_0 (type:1, mode:2)] fps:5.208224,dur:10560.22,max:9871.00,min:8.60  
+06-27 10:33:47.764   806   806 I BufferQueueProducer: [NavigationBar0#87](this:0xb400006fb28005a0,id:-1,api:0,p:-1,c:806) queueBuffer: fps=0.14 dur=14469.42 max=14202.77 min=266.65
+06-27 10:33:47.765   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:33:47.765   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:33:47.765   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:33:47.766   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:33:47.766   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:33:47.767   806  1727 I BufferQueueDebug: [ColorFade#1088](this:0xb400006fb2866de0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(806:/system/bin/surfaceflinger)
+06-27 10:33:47.770   806  1727 I BufferQueueDebug: [ColorFade BLAST#1089](this:0xb400006fb265dbf0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(806:/system/bin/surfaceflinger)
+06-27 10:33:47.771   737  2376 W AudioALSAStreamOut: setParameters(), still have param.size() = 1, remain param = "MixerThreadSleep="
+06-27 10:33:47.771  1357  1930 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 76
+06-27 10:33:47.772   737   791 W AudioALSAStreamOut: setParameters(), still have param.size() = 1, remain param = "NoAudioTrack=0"
+06-27 10:33:47.777   790  1058 D APM_AudioPolicyManager: [MTK_APM_Output]releaseOutput() 29 portId 75
+06-27 10:33:47.782   737  3352 I [Awinic]: aw_skt_arsi_query_param_buf_size_by_custom_info:reserve2 [0] cust_scene[0] ---> aw_scene[0]
+06-27 10:33:47.782   737  3352 I [Awinic]: find [Music] scene_block with id 0
+06-27 10:33:47.782   737  3352 I [Awinic]: aw_skt_arsi_query_param_buf_size_by_custom_info:aw_scene[Music] params len is 16416
+06-27 10:33:47.782   737  3352 I [Awinic]: aw_skt_arsi_parsing_param_file_by_custom_info:stream_type [1] 
+06-27 10:33:47.782   737  3352 I [Awinic]: aw_skt_arsi_parsing_param_file_by_custom_info:reserve2 [0] cust_scene[0] ---> aw_scene[0]
+06-27 10:33:47.782   737  3352 I [Awinic]: find [Music] scene_block with id 0
+06-27 10:33:47.782   737  3352 I [Awinic]: aw_skt_arsi_parsing_param_file_by_custom_info:load aw_scene[Music] params done
+06-27 10:33:47.783   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:33:47.783   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:33:47.783   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:33:47.783   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:33:47.783   737  3352 I [Awinic]: SKTune_v6.1.9.1
+06-27 10:33:47.783   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:33:47.783   737  3352 I [Awinic]: local_cfg->fade_out_deg_num = 0
+06-27 10:33:47.783   737  3352 I [Awinic]: local_cfg->mute_in_num = 0
+06-27 10:33:47.783   737  3352 I [Awinic]: local_cfg->fade_in_deg_num = 0
+06-27 10:33:47.783   737  3352 E [Awinic]: unsupport filter order 0 !, set to aw_biquad_df2t_universal_process
+06-27 10:33:47.783   737  3352 I [Awinic]: Origin cfg->cali_Re: -98000ohm, set param->cali_Re: 6199mohm!
+06-27 10:33:47.783   737  3352 I [Awinic]: Origin cfg->cali_Re: -98000ohm, set param->cali_Re: 6199mohm!
+06-27 10:33:47.784   737  3352 I [Awinic]: aw_vmax_kctl_dev_init: Awinic dev[1]'s monitor switch kcontrol is not accessible!
+06-27 10:33:47.784   737  3352 I [Awinic]: Awinic monitor disable
+06-27 10:33:47.794   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:33:47.794  1357  1414 I DisplayPowerController2[0]: BrightnessEvent: disp=0, physDisp=local:4627039422300187648, displayState=ON, displayPolicy=OFF, brt=0.9999726, initBrt=0.9999726, rcmdBrt=0.9999726, preBrt=0.018867925, lux=12.951381, preLux=0.0, hbmMax=1.0, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=1.0, wasShortTermModelActive=true, flags=, reason=automatic, autoBrightness=true, strategy=InvalidBrightnessStrategy, autoBrightnessMode=default
+06-27 10:33:47.794   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:33:47.794   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:33:47.794   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:33:47.794   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:33:47.794   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format

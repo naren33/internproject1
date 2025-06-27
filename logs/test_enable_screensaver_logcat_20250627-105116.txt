@@ -1,0 +1,14 @@
+--------- beginning of main
+06-27 10:51:15.106  1621  1621 W ImageReader_JNI: Unable to acquire a buffer item, very likely client tried to acquire more than maxImages buffers
+--------- beginning of system
+06-27 10:51:15.116  1357  1929 W WindowManager: finishDrawingWindow: Window{4fc2c26 u0 com.android.systemui.wallpapers.ImageWallpaper} mDrawState=HAS_DRAWN
+06-27 10:51:15.119  1357  1929 W UserManagerService: Requested status bar icon for non-badged user 0
+06-27 10:51:15.144  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: widthSpec MeasureSpec: EXACTLY 1080 should be AT_MOST
+06-27 10:51:15.144  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: heightSpec MeasureSpec: EXACTLY 2133 should be AT_MOST
+06-27 10:51:15.145  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: widthSpec MeasureSpec: EXACTLY 1080 should be AT_MOST
+06-27 10:51:15.145  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: heightSpec MeasureSpec: EXACTLY 2148 should be AT_MOST
+06-27 10:51:15.145  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: widthSpec MeasureSpec: EXACTLY 1080 should be AT_MOST
+06-27 10:51:15.145  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: heightSpec MeasureSpec: EXACTLY 2133 should be AT_MOST
+06-27 10:51:15.171  1357  1929 W WindowManager: finishDrawingWindow: Window{898197 u0 NotificationShade} mDrawState=HAS_DRAWN
+06-27 10:51:15.183  1357  1929 W WindowManager: finishDrawingWindow: Window{16a0564 u0 NavigationBar0} mDrawState=HAS_DRAWN
+06-27 10:51:15.193  1357  1929 W WindowManager: finishDrawingWindow: Window{f719012 u0 StatusBar} mDrawState=HAS_DRAWN

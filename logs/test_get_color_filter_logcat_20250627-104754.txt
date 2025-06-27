@@ -1,0 +1,69 @@
+--------- beginning of main
+06-27 10:47:53.091   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.091   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.091   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.091   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.102   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.102   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.102   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.102   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.113   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.113   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.113   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.113   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.124   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.124   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.124   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.124   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.135   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.135   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.135   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.135   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.171   747   787 E HfLooper: dst->data[5.000000,26.000000,9731.000000]
+--------- beginning of system
+06-27 10:47:53.176  1357  1414 I DisplayPowerController2[0]: BrightnessEvent: disp=0, physDisp=local:4627039422300187648, displayState=ON, displayPolicy=BRIGHT, brt=0.0012418429, initBrt=0.0, rcmdBrt=0.0012418429, preBrt=0.0, lux=5.128213, preLux=0.0, hbmMax=1.0, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=1.0, wasShortTermModelActive=false, flags=, reason=automatic, autoBrightness=true, strategy=InvalidBrightnessStrategy, autoBrightnessMode=default
+06-27 10:47:53.180   744  1195 I hwcomposer: [HWC] (0)fire a callback of refresh to SF[4]  
+06-27 10:47:53.190   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.190   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.190   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.190   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.201   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.201   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.201   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.201   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.212   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.212   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.212   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.212   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.223   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.223   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.223   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.223   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.234   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.234   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.234   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.234   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.245   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.245   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.245   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.245   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.246  1621  1621 W FrameTracker: Missed App frame:UNKNOWN: 72, 845592, 21648689, CUJ=J<NOTIFICATION_SHADE_EXPAND_COLLAPSE::Expand>
+06-27 10:47:53.246  1621  1621 W FrameTracker: Missing HWUI jank callback for vsyncId: 845672, CUJ=J<NOTIFICATION_SHADE_EXPAND_COLLAPSE::Expand>
+06-27 10:47:53.246  1621  1621 W FrameTracker: Missing HWUI jank callback for vsyncId: 845701, CUJ=J<NOTIFICATION_SHADE_EXPAND_COLLAPSE::Expand>
+06-27 10:47:53.246  1621  1621 W FrameTracker: Missing HWUI jank callback for vsyncId: 845904, CUJ=J<NOTIFICATION_SHADE_EXPAND_COLLAPSE::Expand>
+06-27 10:47:53.246  1621  1621 W FrameTracker: Missing HWUI jank callback for vsyncId: 846020, CUJ=J<NOTIFICATION_SHADE_EXPAND_COLLAPSE::Expand>
+06-27 10:47:53.246  1621  1621 W FrameTracker: Missing HWUI jank callback for vsyncId: 846484, CUJ=J<NOTIFICATION_SHADE_EXPAND_COLLAPSE::Expand>
+06-27 10:47:53.256   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.256   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.256   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.256   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.268   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.268   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.268   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.268   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.271   747   787 E HfLooper: dst->data[5.000000,0.000000,0.000000]
+06-27 10:47:53.278   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.278   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.278   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.278   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.283  1097  1163 D AAL     : 06-27 10:47:53.273 BL=  54,ESS= 256, 

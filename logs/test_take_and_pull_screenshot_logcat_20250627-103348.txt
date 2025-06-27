@@ -1,0 +1,37 @@
+--------- beginning of main
+06-27 10:33:45.606   744  1206 I hwcomposer: [DRMDEV] (0:60) failed to waitNextVsync: -1  
+06-27 10:33:45.664   747   787 E HfLooper: dst->data[13.000000,24.000000,9695.000000]
+06-27 10:33:45.760   747   787 E HfLooper: dst->data[13.000000,38.000000,9700.000000]
+06-27 10:33:45.834 11748 11748 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+06-27 10:33:45.835 11748 11748 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+06-27 10:33:45.860   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+06-27 10:33:45.888 11748 11748 I DMABUFHEAPS: Using DMA-BUF heap named: mtk_mm
+06-27 10:33:45.888 11748 11748 I DMABUFHEAPS: Using DMA-BUF heap named: mtk_mm-uncached
+06-27 10:33:45.888 11748 11748 I DMABUFHEAPS: Using DMA-BUF heap named: mtk_svp_region-aligned
+06-27 10:33:45.888 11748 11748 I DMABUFHEAPS: Using DMA-BUF heap named: mtk_prot_region-aligned
+06-27 10:33:45.888 11748 11748 I DMABUFHEAPS: Using DMA-BUF heap named: mtk_2d_fr_region
+06-27 10:33:45.888 11748 11748 I DMABUFHEAPS: Using DMA-BUF heap named: mtk_wfd_region-aligned
+06-27 10:33:45.960   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+06-27 10:33:46.060   747   787 E HfLooper: dst->data[13.000000,35.000000,9700.000000]
+06-27 10:33:46.160   747   787 E HfLooper: dst->data[13.000000,31.000000,9700.000000]
+06-27 10:33:46.260   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+06-27 10:33:46.360   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+06-27 10:33:46.460   747   787 E HfLooper: dst->data[13.000000,31.000000,9702.000000]
+06-27 10:33:46.560   747   787 E HfLooper: dst->data[13.000000,31.000000,9702.000000]
+06-27 10:33:46.612   780   828 I libPowerHal: perfUserScnCheckAll
+06-27 10:33:46.612   780   828 I libPowerHal: perfScnDumpAll cmd:0
+06-27 10:33:46.612   780   828 I libPowerHal: ========================
+06-27 10:33:46.612   780   828 I libPowerHal: ========================
+06-27 10:33:46.660   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+06-27 10:33:46.760   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+06-27 10:33:46.838  1357  3356 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+--------- beginning of system
+06-27 10:33:46.839  1357  3356 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+06-27 10:33:46.845  1357  1593 W JobInfo : Job 'com.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+06-27 10:33:46.857  1357  1377 I ActivityManager: Broadcast completed: result=0
+06-27 10:33:46.861   747   787 E HfLooper: dst->data[13.000000,40.000000,9705.000000]
+06-27 10:33:46.863  2301  2516 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+06-27 10:33:46.877  2301  2516 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+06-27 10:33:46.879 11748 11748 W RefBase : RefBase: Explicit destruction, weak count = 0 (in 0x7c5e1a4848). Use sp<> to manage this object.
+06-27 10:33:46.960   747   787 E HfLooper: dst->data[13.000000,31.000000,9697.000000]
+06-27 10:33:47.062   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]

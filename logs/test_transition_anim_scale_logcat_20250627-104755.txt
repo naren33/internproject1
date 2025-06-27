@@ -1,0 +1,126 @@
+--------- beginning of main
+06-27 10:47:54.271   747   787 E HfLooper: dst->data[5.000000,0.000000,0.000000]
+06-27 10:47:54.370   747   787 E HfLooper: dst->data[5.000000,0.000000,0.000000]
+06-27 10:47:54.471   747   787 E HfLooper: dst->data[5.000000,0.000000,0.000000]
+06-27 10:47:54.480   909   909 I touch_boost: enable=1, render_deboost=1, active_time=100, duration=200, idleprefer(TA,FG)=(1,1), util(TA,FG)=(80,80), freq(c0,c1,c2)=(1800000,2200000,0)
+06-27 10:47:54.480   909   909 I mtkpower_client: perf_lock_acq, hdl:0, dur:200, num:14, tid:909
+06-27 10:47:54.481   909   909 I mtkpower_client: ret_hdl:6710
+06-27 10:47:54.481   780   828 I libPowerHal: [perfLockAcq] idx:0 hdl:6710 hint:-1 pid:909 tid:909 duration:200 lock_user:touch_boost => ret_hdl:6710
+06-27 10:47:54.481   780   828 I libPowerHal: [setClusterFreq] touch_boost set cpufreq[0] min:1800000 max:-1 cpufreq[1] min:2200000 max:-1 
+06-27 10:47:54.481   780   828 I libPowerHal: [PE] touch_boost update cmd:1404100, param:1
+06-27 10:47:54.481   780   828 I libPowerHal: [PE] touch_boost update cmd:1404300, param:1
+06-27 10:47:54.482   780   828 I libPowerHal: [PE] touch_boost update cmd:1408100, param:80
+06-27 10:47:54.483   780   828 I libPowerHal: [PE] touch_boost update cmd:1408300, param:80
+06-27 10:47:54.483   780   828 I libPowerHal: [perfLockAcq] idx:1 hdl:6711 hint:53 pid:780 tid:780 duration:80 lock_user:mtkpower@1.0-se => ret_hdl:6711
+06-27 10:47:54.483   780   828 I libPowerHal: [setClusterFreq] INTERACTION set cpufreq[0] min:2000000 max:-1 cpufreq[1] min:2400000 max:-1 
+06-27 10:47:54.483   780   828 I libPowerHal: [setGPUFreq] INTERACTION user set gpu freq min:0, max:-1
+06-27 10:47:54.483   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:47:54.483   780   828 I libPowerHal: [setGPUFreq] Soft min/max = (0, 0); Hard min/max = (42, 0)
+06-27 10:47:54.483   780   828 I libPowerHal: [setGPUFreq] final min/max = (0, 0)
+06-27 10:47:54.483   780   828 I libPowerHal: INTERACTION: set gpu opp level: 0
+06-27 10:47:54.483   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:47:54.494   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:54.494   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:54.494   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:54.494   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:54.508   780   828 I libPowerHal: [perfLockAcq] idx:2 hdl:6712 hint:53 pid:780 tid:780 duration:80 lock_user:mtkpower@1.0-se => ret_hdl:6712
+06-27 10:47:54.508   780   828 I libPowerHal: [setClusterFreq] INTERACTION set cpufreq[0] min:2000000 max:-1 cpufreq[1] min:2400000 max:-1 
+06-27 10:47:54.508   780   828 I libPowerHal: [setGPUFreq] INTERACTION user set gpu freq min:0, max:-1
+06-27 10:47:54.508   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:47:54.508   780   828 I libPowerHal: [setGPUFreq] Soft min/max = (0, 0); Hard min/max = (42, 0)
+06-27 10:47:54.508   780   828 I libPowerHal: [setGPUFreq] final min/max = (0, 0)
+06-27 10:47:54.508   780   828 I libPowerHal: INTERACTION: set gpu opp level: 0
+06-27 10:47:54.508   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:47:54.513   780   828 I libPowerHal: [perfLockAcq] idx:4 hdl:6713 hint:53 pid:780 tid:780 duration:80 lock_user:mtkpower@1.0-se => ret_hdl:6713
+06-27 10:47:54.514   780   828 I libPowerHal: [setClusterFreq] INTERACTION set cpufreq[0] min:2000000 max:-1 cpufreq[1] min:2400000 max:-1 
+06-27 10:47:54.514   780   828 I libPowerHal: [setGPUFreq] INTERACTION user set gpu freq min:0, max:-1
+06-27 10:47:54.514   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:47:54.514   780   828 I libPowerHal: [setGPUFreq] Soft min/max = (0, 0); Hard min/max = (42, 0)
+06-27 10:47:54.514   780   828 I libPowerHal: [setGPUFreq] final min/max = (0, 0)
+06-27 10:47:54.514   780   828 I libPowerHal: INTERACTION: set gpu opp level: 0
+06-27 10:47:54.514   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:47:54.515   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:54.515   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:54.515   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:54.515   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:54.519   780   828 I libPowerHal: [perfLockAcq] idx:5 hdl:6714 hint:53 pid:780 tid:780 duration:80 lock_user:mtkpower@1.0-se => ret_hdl:6714
+06-27 10:47:54.519   780   828 I libPowerHal: [setClusterFreq] INTERACTION set cpufreq[0] min:2000000 max:-1 cpufreq[1] min:2400000 max:-1 
+06-27 10:47:54.519   780   828 I libPowerHal: [setGPUFreq] INTERACTION user set gpu freq min:0, max:-1
+06-27 10:47:54.519   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:47:54.519   780   828 I libPowerHal: [setGPUFreq] Soft min/max = (0, 0); Hard min/max = (42, 0)
+06-27 10:47:54.519   780   828 I libPowerHal: [setGPUFreq] final min/max = (0, 0)
+06-27 10:47:54.519   780   828 I libPowerHal: INTERACTION: set gpu opp level: 0
+06-27 10:47:54.520   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:47:54.521   780   828 I libPowerHal: [perfLockAcq] idx:6 hdl:6715 hint:25 pid:780 tid:780 duration:10000 lock_user:mtkpower@1.0-se => ret_hdl:6715
+06-27 10:47:54.521   780   828 I libPowerHal: [PE] MTKPOWER_HINT_APP_TOUCH update cmd:3408b00 param:1
+06-27 10:47:54.524   780   828 I libPowerHal: [perfLockAcq] idx:7 hdl:6716 hint:53 pid:780 tid:780 duration:80 lock_user:mtkpower@1.0-se => ret_hdl:6716
+06-27 10:47:54.524   780   828 I libPowerHal: [setClusterFreq] INTERACTION set cpufreq[0] min:2000000 max:-1 cpufreq[1] min:2400000 max:-1 
+06-27 10:47:54.524   780   828 I libPowerHal: [setGPUFreq] INTERACTION user set gpu freq min:0, max:-1
+06-27 10:47:54.524   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:47:54.525   780   828 I libPowerHal: [setGPUFreq] Soft min/max = (0, 0); Hard min/max = (42, 0)
+06-27 10:47:54.525   780   828 I libPowerHal: [setGPUFreq] final min/max = (0, 0)
+06-27 10:47:54.525   780   828 I libPowerHal: INTERACTION: set gpu opp level: 0
+06-27 10:47:54.525   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:47:54.526   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:54.526   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:54.526   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:54.526   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:54.528   806   806 I BufferQueueProducer: [FramebufferSurface](this:0xb40000700264c2f0,id:-1,api:1,p:806,c:806) queueBuffer: fps=48.88 dur=1002.40 max=386.36 min=8.54
+06-27 10:47:54.528   744   744 I hwcomposer: [HWCDisplay] [Display_0 (type:1, mode:2)] fps:48.892391,dur:1002.20,max:386.39,min:8.30  
+06-27 10:47:54.530   780   828 I libPowerHal: [perfLockAcq] idx:8 hdl:6717 hint:53 pid:780 tid:780 duration:80 lock_user:mtkpower@1.0-se => ret_hdl:6717
+06-27 10:47:54.530   780   828 I libPowerHal: [setClusterFreq] INTERACTION set cpufreq[0] min:2000000 max:-1 cpufreq[1] min:2400000 max:-1 
+06-27 10:47:54.530   780   828 I libPowerHal: [setGPUFreq] INTERACTION user set gpu freq min:0, max:-1
+06-27 10:47:54.530   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:47:54.530   780   828 I libPowerHal: [setGPUFreq] Soft min/max = (0, 0); Hard min/max = (42, 0)
+06-27 10:47:54.530   780   828 I libPowerHal: [setGPUFreq] final min/max = (0, 0)
+06-27 10:47:54.530   780   828 I libPowerHal: INTERACTION: set gpu opp level: 0
+06-27 10:47:54.530   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:47:54.536   780   828 I libPowerHal: [perfLockAcq] idx:9 hdl:6718 hint:53 pid:780 tid:780 duration:80 lock_user:mtkpower@1.0-se => ret_hdl:6718
+06-27 10:47:54.536   780   828 I libPowerHal: [setClusterFreq] INTERACTION set cpufreq[0] min:2000000 max:-1 cpufreq[1] min:2400000 max:-1 
+06-27 10:47:54.536   780   828 I libPowerHal: [setGPUFreq] INTERACTION user set gpu freq min:0, max:-1
+06-27 10:47:54.536   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:47:54.536   780   828 I libPowerHal: [setGPUFreq] Soft min/max = (0, 0); Hard min/max = (42, 0)
+06-27 10:47:54.536   780   828 I libPowerHal: [setGPUFreq] final min/max = (0, 0)
+06-27 10:47:54.536   780   828 I libPowerHal: INTERACTION: set gpu opp level: 0
+06-27 10:47:54.536   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:47:54.537   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:54.537   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:54.537   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:54.537   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:54.541   780   828 I libPowerHal: [perfLockAcq] idx:10 hdl:6719 hint:53 pid:780 tid:780 duration:80 lock_user:mtkpower@1.0-se => ret_hdl:6719
+06-27 10:47:54.541   780   828 I libPowerHal: [setClusterFreq] INTERACTION set cpufreq[0] min:2000000 max:-1 cpufreq[1] min:2400000 max:-1 
+06-27 10:47:54.541   780   828 I libPowerHal: [setGPUFreq] INTERACTION user set gpu freq min:0, max:-1
+06-27 10:47:54.541   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:47:54.542   780   828 I libPowerHal: [setGPUFreq] Soft min/max = (0, 0); Hard min/max = (42, 0)
+06-27 10:47:54.542   780   828 I libPowerHal: [setGPUFreq] final min/max = (0, 0)
+06-27 10:47:54.542   780   828 I libPowerHal: INTERACTION: set gpu opp level: 0
+06-27 10:47:54.542   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:47:54.545   784   784 I Vibrator: Vibrator on for timeoutMs: 30
+06-27 10:47:54.546   780   828 I libPowerHal: [perfLockAcq] idx:11 hdl:6720 hint:53 pid:780 tid:780 duration:80 lock_user:mtkpower@1.0-se => ret_hdl:6720
+06-27 10:47:54.546   780   828 I libPowerHal: [setClusterFreq] INTERACTION set cpufreq[0] min:2000000 max:-1 cpufreq[1] min:2400000 max:-1 
+06-27 10:47:54.546   780   828 I libPowerHal: [setGPUFreq] INTERACTION user set gpu freq min:0, max:-1
+06-27 10:47:54.546   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:47:54.547   780   828 I libPowerHal: [setGPUFreq] Soft min/max = (0, 0); Hard min/max = (42, 0)
+06-27 10:47:54.547   780   828 I libPowerHal: [setGPUFreq] final min/max = (0, 0)
+06-27 10:47:54.547   780   828 I libPowerHal: INTERACTION: set gpu opp level: 0
+06-27 10:47:54.547   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:47:54.548   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:54.548   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:54.548   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:54.548   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:54.552   780   828 I libPowerHal: [perfLockAcq] idx:12 hdl:6721 hint:53 pid:780 tid:780 duration:80 lock_user:mtkpower@1.0-se => ret_hdl:6721
+06-27 10:47:54.552   780   828 I libPowerHal: [setClusterFreq] INTERACTION set cpufreq[0] min:2000000 max:-1 cpufreq[1] min:2400000 max:-1 
+06-27 10:47:54.552   780   828 I libPowerHal: [setGPUFreq] INTERACTION user set gpu freq min:0, max:-1
+06-27 10:47:54.552   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:47:54.553   780   828 I libPowerHal: [setGPUFreq] Soft min/max = (0, 0); Hard min/max = (42, 0)
+06-27 10:47:54.553   780   828 I libPowerHal: [setGPUFreq] final min/max = (0, 0)
+06-27 10:47:54.553   780   828 I libPowerHal: INTERACTION: set gpu opp level: 0
+06-27 10:47:54.553   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:47:54.557   780   828 I libPowerHal: [perfLockAcq] idx:13 hdl:6722 hint:53 pid:780 tid:780 duration:80 lock_user:mtkpower@1.0-se => ret_hdl:6722
+06-27 10:47:54.557   780   828 I libPowerHal: [setClusterFreq] INTERACTION set cpufreq[0] min:2000000 max:-1 cpufreq[1] min:2400000 max:-1 
+06-27 10:47:54.557   780   828 I libPowerHal: [setGPUFreq] INTERACTION user set gpu freq min:0, max:-1
+06-27 10:47:54.557   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:47:54.558   780   828 I libPowerHal: [setGPUFreq] Soft min/max = (0, 0); Hard min/max = (42, 0)
+06-27 10:47:54.558   780   828 I libPowerHal: [setGPUFreq] final min/max = (0, 0)
+06-27 10:47:54.558   780   828 I libPowerHal: INTERACTION: set gpu opp level: 0
+06-27 10:47:54.558   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0

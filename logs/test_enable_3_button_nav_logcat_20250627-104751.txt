@@ -1,0 +1,100 @@
+--------- beginning of main
+06-27 10:47:49.873   747   787 E HfLooper: dst->data[5.000000,0.000000,0.000000]
+06-27 10:47:49.881   744  1195 I hwcomposer: [HWC] (0)fire a callback of refresh to SF[4]  
+06-27 10:47:49.891   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:49.891   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:49.891   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:49.891   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:49.891   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:49.971   747   787 E HfLooper: dst->data[6.000000,0.000000,0.000000]
+06-27 10:47:50.015   772   829 I libPerfCtl: xgfGetFPS pid:1357 fps:-1
+06-27 10:47:50.015   772   829 I libPerfCtl: xgfGetFPS pid:1621 fps:-1
+06-27 10:47:50.032 12152 12152 I idmap2d : Starting
+06-27 10:47:50.071   747   787 E HfLooper: dst->data[5.000000,43.000000,9716.000000]
+--------- beginning of system
+06-27 10:47:50.086  2754  2754 I ActivityThread: ApplicationInfo updating for com.android.inputmethod.latin, new timestamp: 30646679
+06-27 10:47:50.086  2754  2754 I ActivityThread: assets removed: []
+06-27 10:47:50.086  2754  2754 I ActivityThread: assets added: []
+06-27 10:47:50.086  2200  2200 I ActivityThread: ApplicationInfo updating for com.android.providers.blockednumber, new timestamp: 30646673
+06-27 10:47:50.086  2200  2200 I ActivityThread: assets removed: []
+06-27 10:47:50.086  2200  2200 I ActivityThread: assets added: []
+06-27 10:47:50.089  2301  2301 I ActivityThread: ApplicationInfo updating for com.android.providers.media.module, new timestamp: 30646675
+06-27 10:47:50.089  2301  2301 I ActivityThread: assets removed: []
+06-27 10:47:50.089  2301  2301 I ActivityThread: assets added: []
+06-27 10:47:50.091  1357  1377 I ActivityTaskManager: Config changes=80000000 {1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.10 s.470 fontWeightAdjustment=0}
+06-27 10:47:50.091  2389  2389 I ActivityThread: ApplicationInfo updating for com.mediatek.location.mtkgeofence, new timestamp: 30646673
+06-27 10:47:50.091  2389  2389 I ActivityThread: assets removed: []
+06-27 10:47:50.091  2389  2389 I ActivityThread: assets added: []
+06-27 10:47:50.091  2245  2245 I ActivityThread: ApplicationInfo updating for android.ext.services, new timestamp: 30646676
+06-27 10:47:50.091  2245  2245 I ActivityThread: assets removed: []
+06-27 10:47:50.091  2245  2245 I ActivityThread: assets added: []
+06-27 10:47:50.091  1811  1811 I ActivityThread: ApplicationInfo updating for com.mediatek.smartratswitch.service, new timestamp: 30646678
+06-27 10:47:50.091  1811  1811 I ActivityThread: assets removed: []
+06-27 10:47:50.091  1811  1811 I ActivityThread: assets added: []
+06-27 10:47:50.092  2321  2321 I ActivityThread: ApplicationInfo updating for com.sec.android.app.camerasaver, new timestamp: 30646676
+06-27 10:47:50.092  2321  2321 I ActivityThread: assets removed: []
+06-27 10:47:50.092  2321  2321 I ActivityThread: assets added: []
+06-27 10:47:50.093  1846  1846 I ActivityThread: ApplicationInfo updating for com.mediatek.entitlement, new timestamp: 30646673
+06-27 10:47:50.093  1846  1846 I ActivityThread: assets removed: []
+06-27 10:47:50.093  1846  1846 I ActivityThread: assets added: []
+06-27 10:47:50.093  1911  1911 I ActivityThread: ApplicationInfo updating for com.android.launcher3, new timestamp: 30646679
+06-27 10:47:50.093  1911  1911 I ActivityThread: assets removed: []
+06-27 10:47:50.093  1911  1911 I ActivityThread: assets added: []
+06-27 10:47:50.094  2314  2314 I ActivityThread: ApplicationInfo updating for com.mediatek.omacp, new timestamp: 30646675
+06-27 10:47:50.094  2314  2314 I ActivityThread: assets removed: []
+06-27 10:47:50.094  2314  2314 I ActivityThread: assets added: []
+06-27 10:47:50.094  1828  1828 I ActivityThread: ApplicationInfo updating for com.android.se, new timestamp: 30646677
+06-27 10:47:50.094  1828  1828 I ActivityThread: assets removed: []
+06-27 10:47:50.094  1828  1828 I ActivityThread: assets added: []
+06-27 10:47:50.095  1783  1783 I ActivityThread: ApplicationInfo updating for com.mediatek.ims, new timestamp: 30646673
+06-27 10:47:50.095  1783  1783 I ActivityThread: assets removed: []
+06-27 10:47:50.095  1783  1783 I ActivityThread: assets added: []
+06-27 10:47:50.095  1831  1831 I ActivityThread: ApplicationInfo updating for com.mediatek.entitlement.o2, new timestamp: 30646676
+06-27 10:47:50.095  1831  1831 I ActivityThread: assets removed: []
+06-27 10:47:50.095  1831  1831 I ActivityThread: assets added: []
+06-27 10:47:50.099  1357  1377 I WindowManager: Override config changes=80000000 {1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.10 s.470 fontWeightAdjustment=0} for displayId=0
+06-27 10:47:50.099  1706  1706 I ActivityThread: ApplicationInfo updating for com.android.networkstack, new timestamp: 30646678
+06-27 10:47:50.099  1706  1706 I ActivityThread: assets removed: []
+06-27 10:47:50.099  1706  1706 I ActivityThread: assets added: []
+06-27 10:47:50.105  1621  1621 I ActivityThread: ApplicationInfo updating for com.android.systemui, new timestamp: 30646675
+06-27 10:47:50.105  1621  1621 I ActivityThread: assets removed: []
+06-27 10:47:50.105  1621  1621 I ActivityThread: assets added: []
+06-27 10:47:50.117   806  1261 I BufferQueueDebug: [transition snapshot: Display{#0 state=ON size=1080x2340 ROTATION_0}#1097](this:0xb400006fb284a640,id:-1,api:0,p:-1,c:-1) BufferQueue core=(806:/system/bin/surfaceflinger)
+06-27 10:47:50.126   806  1219 I SurfaceFlinger: NotifyHwcComposition(), id 0, mode 1
+06-27 10:47:50.126   744   744 I hwcomposer: [DBQ] (blt:0xb400007a85620840) Buffer queue is created with size(3), m_id(458), blt  
+06-27 10:47:50.127   744   744 I hwcomposer: [DBQ] (blt:0xb400007a85620840) Reallocate Slot(0), pool(0 -> 0) size(0 -> 4608000) secure(0 -> 0)  
+06-27 10:47:50.128   744   744 I hwcomposer: [DBQ] (blt:0xb400007a85620840) Alloc Slot(0), handle=0xb400007ac5629910 c=0 w=720 h=1600 p=720 ys=720 vs=1600 f=2 sec=0 sh=0, usage=0x800  
+06-27 10:47:50.133  1911  1911 I TouchInteractionService: preloadOverview: forSUWAllSet=false, isHomeAndOverviewSame=true
+06-27 10:47:50.133  1357  1357 W WindowTokenClientController: Can't find attached WindowTokenClient for android.window.WindowTokenClient@6f64768
+06-27 10:47:50.134  1621  1621 I NoBackGesture: Config changed: newConfig={1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.10 s.509 fontWeightAdjustment=0} lastReportedConfig={1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.9 s.468 fontWeightAdjustment=0}
+06-27 10:47:50.134  1621  1621 I NoBackGesture: NavbarController: newConfig={1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.10 s.509 fontWeightAdjustment=0} mTaskbarDelegate initialized=false willApplyConfigToNavbars=false navBarCount=1
+06-27 10:47:50.135  1357  1377 W ActivityTaskManager: Current config: {1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1110dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 72 - 1080, 2292) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.10 s.470 fontWeightAdjustment=0} unchanged for IME proc com.android.inputmethod.latin
+06-27 10:47:50.142   806   806 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+06-27 10:47:50.142  1621  1659 W Looper  : Slow dispatch took 42ms wmshell.main h=android.os.Handler c=com.android.wm.shell.transition.Transitions$TransitionPlayerImpl$$ExternalSyntheticLambda1@9ba1310 m=0
+06-27 10:47:50.144   744   744 I hwcomposer: [DBQ] (blt:0xb400007a85620840) Reallocate Slot(1), pool(0 -> 0) size(0 -> 4608000) secure(0 -> 0)  
+06-27 10:47:50.145   744   744 I hwcomposer: [DBQ] (blt:0xb400007a85620840) Alloc Slot(1), handle=0xb400007ac5623610 c=0 w=720 h=1600 p=720 ys=720 vs=1600 f=2 sec=0 sh=0, usage=0x800  
+06-27 10:47:50.148  1842  1842 I ActivityThread: ApplicationInfo updating for com.android.providers.telephony, new timestamp: 30646680
+06-27 10:47:50.148  1842  1842 I ActivityThread: assets removed: []
+06-27 10:47:50.148  1842  1842 I ActivityThread: assets added: []
+06-27 10:47:50.155  1621  1621 D NavigationModeController: onOverlayChanged
+06-27 10:47:50.155  1621  1621 D NavigationModeController: getCurrentUserContext: contextUser=0 currentUser=0
+06-27 10:47:50.155  1621  1621 D NavigationModeController: getCurrentInteractionMode: mode=0 contextUser=0
+06-27 10:47:50.155  1621  1621 D NavigationModeController: updateCurrentInteractionMode: mode=0
+06-27 10:47:50.155  1621  1621 D NavigationModeController:   contextUser=0
+06-27 10:47:50.155  1621  1621 D NavigationModeController:   assetPaths=
+06-27 10:47:50.155  1621  1621 D NavigationModeController:     <empty> and /system/framework/framework-res.apk
+06-27 10:47:50.155  1621  1621 D NavigationModeController:     /vendor/overlay/FrameworkResOverlay/FrameworkResOverlay.apk
+06-27 10:47:50.155  1621  1621 D NavigationModeController:     /vendor/overlay/FrameworkResOverlayExt/FrameworkResOverlayExt.apk
+06-27 10:47:50.155  1621  1621 D NavigationModeController:     /product/overlay/framework-res__sys_m197__auto_generated_rro_product.apk
+06-27 10:47:50.155  1621  1621 D NavigationModeController:     <empty> and /system_ext/app/mediatek-res/mediatek-res.apk
+06-27 10:47:50.155  1621  1621 D NavigationModeController:     <empty> and /system_ext/priv-app/MtkSystemUI/MtkSystemUI.apk
+06-27 10:47:50.155  1621  1621 D NavigationModeController:     /data/resource-cache/com.android.systemui-neutral-9MtV.frro
+06-27 10:47:50.155  1621  1621 D NavigationModeController:     /data/resource-cache/com.android.systemui-accent-Szql.frro
+06-27 10:47:50.155  1621  1621 D NavigationModeController:     /data/resource-cache/com.android.systemui-dynamic-WhZI.frro
+06-27 10:47:50.155  1621  1621 D NavigationModeController:     /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+06-27 10:47:50.155  1621  1621 D NavigationModeController:     /product/overlay/NavigationBarMode3Button/NavigationBarMode3ButtonOverlay.apk
+06-27 10:47:50.155  1621  1621 D NavigationModeController:     /vendor/overlay/SystemUIResOverlay/SystemUIResOverlay.apk
+06-27 10:47:50.156  1621  1621 D InputMonitorCompat: Input event receiver for monitor (edge-swipe-disp0) disposed
+06-27 10:47:50.156  1621  1621 D InputMonitorCompat: Input monitor (edge-swipe-disp0) disposed
+06-27 10:47:50.156  1621  1621 D View    : [Warning] assignParent to null: this = com.android.systemui.navigationbar.gestural.BackPanel{e3b447d G.ED..... ......I. 0,0-210,536}
+06-27 10:47:50.157  1357 10287 W InputManager-JNI: Input channel object '[Gesture Monitor] edge-swipe (client)' was disposed without first being removed with the input manager!

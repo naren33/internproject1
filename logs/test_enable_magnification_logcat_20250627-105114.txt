@@ -1,0 +1,119 @@
+--------- beginning of main
+06-27 10:51:12.993  1357  1380 I mtkpower_client: [PowerHal_Wrap_notifyAppState] com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher pid=1911 activityId:211065241 state:0
+06-27 10:51:12.995   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:12.995   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:12.995   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:12.995   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:12.995   772   772 I IPCThreadState: oneway function results for code 2 on binder at 0xb400007bec652810 will be dropped but finished with status UNKNOWN_TRANSACTION
+06-27 10:51:12.995   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:12.995   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:12.995   747   747 I OriginChannel: activate: [5,0]
+06-27 10:51:13.002   772   772 I vendor.mediatek.hardware.mtkpower_applist-service.mediatek: packName: com.android.launcher3 actName: com.android.launcher3.uioverrides.QuickstepLauncher pid: 1911 uid: 10088 state: 0
+06-27 10:51:13.002   772   772 I MTK_APPList: [notifyAPPstate] com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher, pid=1911, uid=10088, state:PAUSED, fps:-1, win:0
+06-27 10:51:13.002   772   772 I MTK_APPList: [notifyAPPstate] multi_resumed_app_count: 0
+06-27 10:51:13.002   772   772 I MTK_APPList: [getForegroundAPPCount] 1
+06-27 10:51:13.002   772   772 I MTK_APPList: [notifyNetdUID] 10088
+06-27 10:51:13.003   772   772 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+06-27 10:51:13.003   772   772 I MTK_APPList: [notifyPID] 1911
+06-27 10:51:13.003   780   828 I libPowerHal: [perfSetSysInfo] pid type:24, 1911
+06-27 10:51:13.003  1357  1380 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false 
+06-27 10:51:13.004   772   772 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+06-27 10:51:13.004   744   744 I hwcomposer: [HWCDisplay] Display(0) SetPowerMode(0) current mode(2), scene(0)  
+06-27 10:51:13.009   744   744 W hwcomposer: [DRMDEV] Failed to open fb0 device: No such file or directory  
+--------- beginning of system
+06-27 10:51:13.026  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:13.026  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:13.040  1357  1380 I InputManager-JNI: Viewport [0] to add: local:4627039422300187648, isActive: false
+06-27 10:51:13.045  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:13.045  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:13.045  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:13.045  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:13.045  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:13.045  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:13.046  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:13.046  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:13.046  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:13.046  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:13.046  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:13.046  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:13.047  1357  1482 I InputReader: Reconfiguring input devices, changes=DISPLAY_INFO
+06-27 10:51:13.047  1357  1482 I InputReader: Disabling ILITEK_TDDI (device 5) because the associated viewport is not active
+06-27 10:51:13.047  1357  1482 I InputReader: Device reconfigured: id=5, name='ILITEK_TDDI', size 720x1600, orientation Rotation0, mode DISABLED, display id 0
+06-27 10:51:13.048  1357  1378 W SurfaceControl: Invalid layer stack -1
+06-27 10:51:13.048  1357  1378 I DisplayDevice: [0] Layerstack set to -1 for local:4627039422300187648
+06-27 10:51:13.049  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:13.049  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:13.049  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:13.049  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:13.049  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:13.051  1357  1455 W JobServiceContext: Sending onNetworkChanged for a job that isn't started. JobStatus{4894cd0 androidx.work.systemjobscheduler:u0a153/720 @androidx.work.systemjobscheduler@com.google.android.youtube/androidx.work.impl.background.systemjob.SystemJobService u=0 s=10153 TIME=-3s103ms:none NET READY}
+06-27 10:51:13.054   806  1727 I SurfaceFlinger: onHandleDestroyed: name=bbq-wrapper#1126, layerId=1126, parentId=0
+06-27 10:51:13.060  1357  1378 I Pointer : Device Changed: Input Device 5: ILITEK_TDDI
+06-27 10:51:13.060  1357  1378 I Pointer :   Descriptor: ce54e173162f908fc75d1d0abe2023f80d6773d1
+06-27 10:51:13.060  1357  1378 I Pointer :   Generation: 88
+06-27 10:51:13.060  1357  1378 I Pointer :   Location: built-in
+06-27 10:51:13.060  1357  1378 I Pointer :   Enabled: true
+06-27 10:51:13.060  1357  1378 I Pointer :   Keyboard Type: non-alphabetic
+06-27 10:51:13.060  1357  1378 I Pointer :   Has Vibrator: false
+06-27 10:51:13.060  1357  1378 I Pointer :   Has Sensor: false
+06-27 10:51:13.060  1357  1378 I Pointer :   Has battery: false
+06-27 10:51:13.060  1357  1378 I Pointer :   Has mic: false
+06-27 10:51:13.060  1357  1378 I Pointer :   USI Version: null
+06-27 10:51:13.060  1357  1378 I Pointer :   Sources: 0x1103 ( keyboard touchscreen )
+06-27 10:51:13.063  1357  6590 W ProcessStats: Tracking association SourceState{2e4647c system/1000 ImpBg #3186} whose proc state 6 is better than process ProcessState{ba9916d com.google.android.youtube/10153 pkg=com.google.android.youtube} proc state 14 (0 skipped)
+06-27 10:51:13.063  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:13.063  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:13.063  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:13.063  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:13.063  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:13.063  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:13.084 10292 10321 W GooglePlayServicesUtil: com.google.android.youtube requires the Google Play Store, but it is missing.
+06-27 10:51:13.084 10292 10321 W GoogleApiManager: The service for puq is not available: ConnectionResult{statusCode=SERVICE_INVALID, resolution=null, message=null}
+06-27 10:51:13.140  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:13.146 10292 10321 W GooglePlayServicesUtil: com.google.android.youtube requires the Google Play Store, but it is missing.
+06-27 10:51:13.146 10292 10321 W GoogleApiManager: The service for qbe is not available: ConnectionResult{statusCode=SERVICE_INVALID, resolution=null, message=null}
+06-27 10:51:13.150  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:13.182  3084  3142 I cr_BindingManager: onTrimMemory: level=40, size=0
+06-27 10:51:13.201   737  2376 W AudioALSAStreamOut: setParameters(), still have param.size() = 1, remain param = "MixerThreadSleep="
+06-27 10:51:13.206  1097  1163 E AAL     : IOCTL_MTK_AAL_SET_PARAM error: 1
+06-27 10:51:13.208   780   803 I mtkpower@impl: [setMode] type:9, enabled:1
+06-27 10:51:13.209   780   803 E mtkpower@impl: [setMode] unknown type
+06-27 10:51:13.209   806   806 W SurfaceFlinger: commitOffscreenLayers Layer 0xb400006fb265b3e0 not alive
+06-27 10:51:13.209   806   806 I SurfaceFlinger: onHandleDestroyed: name=Sprite#1125, layerId=1125, parentId=0
+06-27 10:51:13.209   806   806 I SurfaceFlinger: onHandleDestroyed: name=9a8b2e0 ActivityRecordInputSink com.android.launcher3/.uioverrides.QuickstepLauncher#1131, layerId=1131, parentId=0
+06-27 10:51:13.209   806   806 I SurfaceFlinger: onHandleDestroyed: name=com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#1128, layerId=1128, parentId=0
+06-27 10:51:13.215   806   806 I BufferQueueDebug: [bbq-wrapper#1126](this:0xb400006fb265dbf0,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:51:13.216   806   806 I BufferQueueDebug: [9a8b2e0 ActivityRecordInputSink com.android.launcher3/.uioverrides.QuickstepLauncher#1131](this:0xb400006fb27b6500,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:51:13.216   806   806 I BufferQueueDebug: [Sprite#1125](this:0xb400006fb28478b0,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:51:13.216   806   806 I BufferQueueDebug: [com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#1128](this:0xb400006fb284a640,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:51:13.218   780   803 I mtkpower@impl: [setMode] type:7, enabled:0
+06-27 10:51:13.218   737  2376 W AudioALSAStreamOut: setParameters(), still have param.size() = 1, remain param = "MixerThreadSleep="
+06-27 10:51:13.220   780   828 I libPowerHal: [perfUserScnDisableAll] 
+06-27 10:51:13.220   780   803 I mtkpower@impl: [setMode] Disable All
+06-27 10:51:13.223  1357  1414 W DreamManagerService: Dream ComponentInfo{com.android.dreams.alwaysondisplay/com.android.dreams.alwaysondisplay.AlwaysOnDisplay} does not exist
+06-27 10:51:13.223  1357  1414 I PowerGroup: Sleeping power group (groupId=0, uid=1000, reason=timeout)...
+06-27 10:51:13.224  1357  1414 I PowerManagerService: Sleeping (uid 1000)...
+06-27 10:51:13.235   737  2376 W AudioALSAStreamOut: setParameters(), still have param.size() = 1, remain param = "MixerThreadSleep="
+06-27 10:51:13.237  1357  1357 E ScreenIntentReceiver: notifyChange failed
+06-27 10:51:13.239   747   747 I OriginChannel: activate: [1,0]
+06-27 10:51:13.244  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:13.245  1357  1357 I PowerManagerService: onFlip(): Face up.
+06-27 10:51:13.250  1357  1699 W UserManagerService: Requested status bar icon for non-badged user 0
+06-27 10:51:13.252   737  2374 W AudioALSAStreamOut: setParameters(), still have param.size() = 1, remain param = "MixerThreadSleep="
+06-27 10:51:13.253  1621  1621 I KeyguardDisplayManager: Do not show KeyguardPresentation on the default display
+06-27 10:51:13.258   780   828 I libPowerHal: [perfLockAcq] idx:0 hdl:6864 hint:53 pid:780 tid:780 duration:80 lock_user:mtkpower@1.0-se => ret_hdl:6864
+06-27 10:51:13.258   780   828 I libPowerHal: [setClusterFreq] INTERACTION set cpufreq[0] min:2000000 max:-1 cpufreq[1] min:2400000 max:-1 
+06-27 10:51:13.258   780   828 I libPowerHal: [setGPUFreq] INTERACTION user set gpu freq min:0, max:-1
+06-27 10:51:13.258   780   828 I libPowerHal: INTERACTION: set gpu opp level: 0
+06-27 10:51:13.259   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:51:13.259   780   828 I libPowerHal: [setGPUFreq] Soft min/max = (0, 0); Hard min/max = (42, 0)
+06-27 10:51:13.259   780   828 I libPowerHal: [setGPUFreq] final min/max = (0, 0)
+06-27 10:51:13.259   780   828 I libPowerHal: INTERACTION: set gpu opp level: 0
+06-27 10:51:13.259   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:51:13.260   780   828 I libPowerHal: [setClusterFreq]  set cpu_ctrl cpufreq: 2000000 -1 2400000 -1 
+06-27 10:51:13.260   780   828 I libPowerHal: [PE] INTERACTION update cmd:2020000, param:5
+06-27 10:51:13.260   780   828 I libPowerHal: [PE] (more) /sys/kernel/cm_mgr/dbg_cm_mgr set +prefix:dsu_mode 1;
+06-27 10:51:13.260   780   828 I libPowerHal: [setDvfsrcDevFreqOpp] opp:0, freq:4266000000
+06-27 10:51:13.260  1357  1571 I MR2ServiceImpl: Updating composite discovery preference | preference: RouteDiscoveryRequest{ preferredFeatures={}, activeScan=false }, active routers: []
+06-27 10:51:13.261   780   828 I libPowerHal: [PE] INTERACTION update cmd:1000000 param:0
+06-27 10:51:13.269   737  2376 W AudioALSAStreamOut: setParameters(), still have param.size() = 1, remain param = "MixerThreadSleep="

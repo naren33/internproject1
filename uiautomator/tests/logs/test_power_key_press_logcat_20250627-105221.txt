@@ -1,0 +1,84 @@
+--------- beginning of system
+06-27 10:52:20.957  1357  4317 E WindowManager: Inject keyevent when screen off. ignore! keyevent=KeyEvent { action=ACTION_DOWN, keyCode=KEYCODE_POWER, scanCode=0, metaState=0, flags=0x0, repeatCount=0, eventTime=30917556000000, downTime=30917556000000, deviceId=-1, source=0x0, displayId=-1 }
+06-27 10:52:20.962  1357  4317 I PowerGroup: Waking up power group from Asleep (groupId=0, uid=1000, reason=WAKE_REASON_POWER_BUTTON, details=android.policy:POWER)...
+06-27 10:52:20.963  1357  4317 I PowerManagerService: Waking up from Asleep (uid=1000, reason=WAKE_REASON_POWER_BUTTON, details=android.policy:POWER)...
+--------- beginning of main
+06-27 10:52:20.965   780   828 I libPowerHal: [perfLockAcq] idx:0 hdl:6908 hint:53 pid:780 tid:780 duration:80 lock_user:mtkpower@1.0-se => ret_hdl:6908
+06-27 10:52:20.965   780   828 I libPowerHal: [setClusterFreq] INTERACTION set cpufreq[0] min:2000000 max:-1 cpufreq[1] min:2400000 max:-1 
+06-27 10:52:20.965   780   828 I libPowerHal: [setGPUFreq] INTERACTION user set gpu freq min:0, max:-1
+06-27 10:52:20.965   780   828 I libPowerHal: INTERACTION: set gpu opp level: 0
+06-27 10:52:20.966   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:52:20.966   780   828 I libPowerHal: [setGPUFreq] Soft min/max = (0, 0); Hard min/max = (42, 0)
+06-27 10:52:20.966   780   828 I libPowerHal: [setGPUFreq] final min/max = (0, 0)
+06-27 10:52:20.966   780   828 I libPowerHal: INTERACTION: set gpu opp level: 0
+06-27 10:52:20.967   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:52:20.968   780   828 I libPowerHal: [setClusterFreq]  set cpu_ctrl cpufreq: 2000000 -1 2400000 -1 
+06-27 10:52:20.968   780   828 I libPowerHal: [PE] INTERACTION update cmd:2020000, param:5
+06-27 10:52:20.969   780   828 I libPowerHal: [PE] (more) /sys/kernel/cm_mgr/dbg_cm_mgr set +prefix:dsu_mode 1;
+06-27 10:52:20.969   780   828 I libPowerHal: [setDvfsrcDevFreqOpp] opp:0, freq:4266000000
+06-27 10:52:20.970   780   828 I libPowerHal: [PE] INTERACTION update cmd:1000000 param:0
+06-27 10:52:20.972   780   803 I mtkpower@impl: [setMode] type:7, enabled:1
+06-27 10:52:20.972   780   803 I mtkpower@impl: [setMode] Restore All
+06-27 10:52:20.973   780   828 I libPowerHal: [perfUserScnRestoreAll] 
+06-27 10:52:20.973  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:52:20.973  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:52:20.973  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:52:20.973  1357  1571 I MR2ServiceImpl: Updating composite discovery preference | preference: RouteDiscoveryRequest{ preferredFeatures={}, activeScan=false }, active routers: []
+06-27 10:52:20.974  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:52:20.974  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:52:20.974  1357  1414 I DisplayPowerController2[0]: Blocking screen on until initial contents have been drawn.
+06-27 10:52:20.974  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:52:20.974  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:52:20.975  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:52:20.975  1357  1378 I SideFpsEventHandler: notifyPowerPressed
+06-27 10:52:20.975  1357  1378 I FingerprintManager: onPowerPressed
+06-27 10:52:20.975  1357  1378 I WindowManager: Suppressed redundant power key press while already in the process of turning the screen on.
+06-27 10:52:20.975  1357  1414 I DisplayBrightnessStrategySelector: Changing the DisplayBrightnessStrategy from ScreenOffBrightnessStrategy to InvalidBrightnessStrategy for display 0
+06-27 10:52:20.975   747   747 I OriginChannel: batch: [5,250000000,0]
+06-27 10:52:20.976   727   727 I netd    : tetherGetStats() -> {[]} <1.60ms>
+06-27 10:52:20.976   747   747 I OriginChannel: activate: [5,1]
+06-27 10:52:20.983  1357  1414 I DisplayPowerController2[0]: BrightnessEvent: disp=0, physDisp=local:4627039422300187648, displayState=ON, displayPolicy=BRIGHT, brt=1.0, initBrt=0.0, rcmdBrt=NaN, preBrt=NaN, lux=NaN, preLux=NaN, hbmMax=1.0, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=1.0, wasShortTermModelActive=true, flags=invalid_lux , reason=manual, autoBrightness=true, strategy=InvalidBrightnessStrategy, autoBrightnessMode=default
+06-27 10:52:20.984   780   803 I mtkpower@impl: [setMode] type:9, enabled:0
+06-27 10:52:20.984   780   803 E mtkpower@impl: [setMode] unknown type
+06-27 10:52:20.985   744   744 I hwcomposer: [HWCDisplay] Display(0) SetPowerMode(2) current mode(0), scene(0)  
+06-27 10:52:20.985   744   744 W hwcomposer: [DRMDEV] Failed to open fb0 device: No such file or directory  
+06-27 10:52:20.985  1357  1380 I DisplayDeviceRepository: Display device changed state: "Built-in Screen", ON
+06-27 10:52:20.988   747   747 I OriginChannel: batch: [8,20000000,0]
+06-27 10:52:20.989   747   747 I OriginChannel: activate: [8,1]
+06-27 10:52:20.989  1357  1380 I InputManager-JNI: Viewport [0] to add: local:4627039422300187648, isActive: true
+06-27 10:52:20.991  1357  1378 I DisplayDevice: [0] Layerstack set to 0 for local:4627039422300187648
+06-27 10:52:20.992  1357  1482 I InputReader: Reconfiguring input devices, changes=DISPLAY_INFO
+06-27 10:52:20.992  1357  1482 I InputReader: Device reconfigured: id=5, name='ILITEK_TDDI', size 720x1600, orientation Rotation0, mode DIRECT, display id 0
+06-27 10:52:20.996  1357  1357 W WindowTokenClientController: Can't find attached WindowTokenClient for android.window.WindowTokenClient@6f64768
+06-27 10:52:21.011  1357  1357 E ScreenIntentReceiver: notifyChange failed
+06-27 10:52:21.011  1357  1378 I Pointer : Device Changed: Input Device 5: ILITEK_TDDI
+06-27 10:52:21.011  1357  1378 I Pointer :   Descriptor: ce54e173162f908fc75d1d0abe2023f80d6773d1
+06-27 10:52:21.011  1357  1378 I Pointer :   Generation: 91
+06-27 10:52:21.011  1357  1378 I Pointer :   Location: built-in
+06-27 10:52:21.011  1357  1378 I Pointer :   Enabled: true
+06-27 10:52:21.011  1357  1378 I Pointer :   Keyboard Type: non-alphabetic
+06-27 10:52:21.011  1357  1378 I Pointer :   Has Vibrator: false
+06-27 10:52:21.011  1357  1378 I Pointer :   Has Sensor: false
+06-27 10:52:21.011  1357  1378 I Pointer :   Has battery: false
+06-27 10:52:21.011  1357  1378 I Pointer :   Has mic: false
+06-27 10:52:21.011  1357  1378 I Pointer :   USI Version: null
+06-27 10:52:21.011  1357  1378 I Pointer :   Sources: 0x1103 ( keyboard touchscreen )
+06-27 10:52:21.011  1357  1378 I Pointer :     AXIS_X: source=0x1002 min=0.0 max=719.0 flat=0.0 fuzz=0.0 resolution=0.0
+06-27 10:52:21.011  1357  1378 I Pointer :     AXIS_Y: source=0x1002 min=0.0 max=1599.0 flat=0.0 fuzz=0.0 resolution=0.0
+06-27 10:52:21.011  1357  1378 I Pointer :     AXIS_PRESSURE: source=0x1002 min=0.0 max=1.0 flat=0.0 fuzz=0.0 resolution=0.0
+06-27 10:52:21.011  1357  1378 I Pointer :     AXIS_SIZE: source=0x1002 min=0.0 max=1.0 flat=0.0 fuzz=0.0 resolution=0.0
+06-27 10:52:21.011  1357  1378 I Pointer :     AXIS_TOUCH_MAJOR: source=0x1002 min=0.0 max=1754.537 flat=0.0 fuzz=0.0 resolution=0.0
+06-27 10:52:21.011  1357  1378 I Pointer :     AXIS_TOUCH_MINOR: source=0x1002 min=0.0 max=1754.537 flat=0.0 fuzz=0.0 resolution=0.0
+06-27 10:52:21.011  1357  1378 I Pointer :     AXIS_TOOL_MAJOR: source=0x1002 min=0.0 max=1754.537 flat=0.0 fuzz=0.0 resolution=0.0
+06-27 10:52:21.011  1357  1378 I Pointer :     AXIS_TOOL_MINOR: source=0x1002 min=0.0 max=1754.537 flat=0.0 fuzz=0.0 resolution=0.0
+06-27 10:52:21.012   747   747 I OriginChannel: batch: [1,80000000,2000000000]
+06-27 10:52:21.013   747   747 I OriginChannel: activate: [1,1]
+06-27 10:52:21.019   747   787 I HfLooper: distance = 5.000000
+06-27 10:52:21.032  1357  3598 W WindowManager: finishDrawingWindow: Window{898197 u0 NotificationShade} mDrawState=DRAW_PENDING
+06-27 10:52:21.036  1357  1571 I MR2ServiceImpl: Updating composite discovery preference | preference: RouteDiscoveryRequest{ preferredFeatures={}, activeScan=false }, active routers: []
+06-27 10:52:21.037  1357  1414 I DisplayPowerController2[0]: Unblocked screen on after 62 ms
+06-27 10:52:21.037   747   747 I OriginChannel: batch: [1,66667000,100000000]
+06-27 10:52:21.038  1621  1621 I KeyguardTransitionRepository: STARTED transition: TransitionStep(from=DOZING, to=LOCKSCREEN, value=0.0, transitionState=STARTED, ownerName=FromDozingTransitionInteractor)
+06-27 10:52:21.039   806   888 I SurfaceFlinger: onHandleDestroyed: name=ColorFade BLAST#1155, layerId=1155, parentId=0
+06-27 10:52:21.039   747   747 I OriginChannel: flush: [1]
+06-27 10:52:21.041   747   787 I HfLooper: [1] flush complete

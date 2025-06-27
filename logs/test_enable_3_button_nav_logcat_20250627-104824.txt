@@ -1,0 +1,71 @@
+--------- beginning of system
+06-27 10:48:23.838  1357  3598 W Transition: Transition already started id=88 state=2
+06-27 10:48:23.843  1357  3598 W UserManagerService: Requested status bar icon for non-badged user 0
+--------- beginning of main
+06-27 10:48:23.914 12548 12548 I idmap2d : Starting
+06-27 10:48:23.965  2200  2200 I ActivityThread: ApplicationInfo updating for com.android.providers.blockednumber, new timestamp: 30680554
+06-27 10:48:23.965  2200  2200 I ActivityThread: assets removed: []
+06-27 10:48:23.965  2200  2200 I ActivityThread: assets added: []
+06-27 10:48:23.965  2080  2080 I ActivityThread: ApplicationInfo updating for com.android.permissioncontroller, new timestamp: 30680559
+06-27 10:48:23.965  2080  2080 I ActivityThread: assets removed: []
+06-27 10:48:23.965  2080  2080 I ActivityThread: assets added: []
+06-27 10:48:23.966  2754  2754 I ActivityThread: ApplicationInfo updating for com.android.inputmethod.latin, new timestamp: 30680559
+06-27 10:48:23.966  2754  2754 I ActivityThread: assets removed: []
+06-27 10:48:23.966  2754  2754 I ActivityThread: assets added: []
+06-27 10:48:23.966  1357  1377 I ActivityTaskManager: Config changes=80000000 {1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.12 s.552 fontWeightAdjustment=0}
+06-27 10:48:23.968  2301  2301 I ActivityThread: ApplicationInfo updating for com.android.providers.media.module, new timestamp: 30680556
+06-27 10:48:23.968  2301  2301 I ActivityThread: assets removed: []
+06-27 10:48:23.968  2301  2301 I ActivityThread: assets added: []
+06-27 10:48:23.969  2245  2245 I ActivityThread: ApplicationInfo updating for android.ext.services, new timestamp: 30680557
+06-27 10:48:23.969  2245  2245 I ActivityThread: assets removed: []
+06-27 10:48:23.969  2245  2245 I ActivityThread: assets added: []
+06-27 10:48:23.972  1828  1828 I ActivityThread: ApplicationInfo updating for com.android.se, new timestamp: 30680557
+06-27 10:48:23.972  1828  1828 I ActivityThread: assets removed: []
+06-27 10:48:23.972  1828  1828 I ActivityThread: assets added: []
+06-27 10:48:23.972  2321  2321 I ActivityThread: ApplicationInfo updating for com.sec.android.app.camerasaver, new timestamp: 30680557
+06-27 10:48:23.972  2321  2321 I ActivityThread: assets removed: []
+06-27 10:48:23.972  2321  2321 I ActivityThread: assets added: []
+06-27 10:48:23.972  1811  1811 I ActivityThread: ApplicationInfo updating for com.mediatek.smartratswitch.service, new timestamp: 30680559
+06-27 10:48:23.972  1811  1811 I ActivityThread: assets removed: []
+06-27 10:48:23.972  1811  1811 I ActivityThread: assets added: []
+06-27 10:48:23.973  2389  2389 I ActivityThread: ApplicationInfo updating for com.mediatek.location.mtkgeofence, new timestamp: 30680554
+06-27 10:48:23.973  2389  2389 I ActivityThread: assets removed: []
+06-27 10:48:23.973  2389  2389 I ActivityThread: assets added: []
+06-27 10:48:23.974  2314  2314 I ActivityThread: ApplicationInfo updating for com.mediatek.omacp, new timestamp: 30680556
+06-27 10:48:23.974  2314  2314 I ActivityThread: assets removed: []
+06-27 10:48:23.974  2314  2314 I ActivityThread: assets added: []
+06-27 10:48:23.975  1831  1831 I ActivityThread: ApplicationInfo updating for com.mediatek.entitlement.o2, new timestamp: 30680557
+06-27 10:48:23.975  1831  1831 I ActivityThread: assets removed: []
+06-27 10:48:23.975  1831  1831 I ActivityThread: assets added: []
+06-27 10:48:23.978  1357  1377 I WindowManager: Override config changes=80000000 {1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.12 s.552 fontWeightAdjustment=0} for displayId=0
+06-27 10:48:23.981  1846  1846 I ActivityThread: ApplicationInfo updating for com.mediatek.entitlement, new timestamp: 30680554
+06-27 10:48:23.981  1846  1846 I ActivityThread: assets removed: []
+06-27 10:48:23.981  1846  1846 I ActivityThread: assets added: []
+06-27 10:48:23.982  1783  1783 I ActivityThread: ApplicationInfo updating for com.mediatek.ims, new timestamp: 30680554
+06-27 10:48:23.982  1783  1783 I ActivityThread: assets removed: []
+06-27 10:48:23.982  1783  1783 I ActivityThread: assets added: []
+06-27 10:48:23.985  1706  1706 I ActivityThread: ApplicationInfo updating for com.android.networkstack, new timestamp: 30680558
+06-27 10:48:23.985  1706  1706 I ActivityThread: assets removed: []
+06-27 10:48:23.985  1706  1706 I ActivityThread: assets added: []
+06-27 10:48:23.985  1621  1621 I ActivityThread: ApplicationInfo updating for com.android.systemui, new timestamp: 30680556
+06-27 10:48:23.985  1621  1621 I ActivityThread: assets removed: []
+06-27 10:48:23.985  1621  1621 I ActivityThread: assets added: []
+06-27 10:48:23.986  1911  1911 I ActivityThread: ApplicationInfo updating for com.android.launcher3, new timestamp: 30680559
+06-27 10:48:23.986  1911  1911 I ActivityThread: assets removed: []
+06-27 10:48:23.986  1911  1911 I ActivityThread: assets added: []
+06-27 10:48:23.993  1911  1911 I TouchInteractionService: preloadOverview: forSUWAllSet=false, isHomeAndOverviewSame=true
+06-27 10:48:23.995  1621  1621 I NoBackGesture: Config changed: newConfig={1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.12 s.591 fontWeightAdjustment=0} lastReportedConfig={1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.11 s.550 fontWeightAdjustment=0}
+06-27 10:48:23.995  1621  1621 I NoBackGesture: NavbarController: newConfig={1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.12 s.591 fontWeightAdjustment=0} mTaskbarDelegate initialized=false willApplyConfigToNavbars=false navBarCount=1
+06-27 10:48:23.995  1357  1377 W ActivityTaskManager: Current config: {1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1110dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 72 - 1080, 2292) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.12 s.552 fontWeightAdjustment=0} unchanged for IME proc com.android.inputmethod.latin
+06-27 10:48:24.005   806   806 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+06-27 10:48:24.020  1357  1699 W InputManager-JNI: Input channel object '[Gesture Monitor] edge-swipe (client)' was disposed without first being removed with the input manager!
+06-27 10:48:24.022  1842  1842 I ActivityThread: ApplicationInfo updating for com.android.providers.telephony, new timestamp: 30680559
+06-27 10:48:24.022  1842  1842 I ActivityThread: assets removed: []
+06-27 10:48:24.022  1842  1842 I ActivityThread: assets added: []
+06-27 10:48:24.026   806   806 I SurfaceFlinger: onHandleDestroyed: name=[Gesture Monitor] edge-swipe#1101, layerId=1101, parentId=0
+06-27 10:48:24.037   806   806 I BufferQueueDebug: [[Gesture Monitor] edge-swipe#1101](this:0xb400006fb2866de0,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:48:24.051  1357  1378 W WindowManager: finishDrawingWindow: Window{34b049d u0 PointerLocation - display 0} mDrawState=DRAW_PENDING
+06-27 10:48:24.060  1357  1357 W WindowManager: finishDrawingWindow: Window{e44cec2 u0 FocusEventDebugView - display 0} mDrawState=DRAW_PENDING
+06-27 10:48:24.061   806   806 I BufferQueueProducer: [FocusEventDebugView - display 0#69](this:0xb400006fb27cd180,id:-1,api:0,p:-1,c:806) queueBuffer: fps=9.06 dur=1324.97 max=999.01 min=10.00
+06-27 10:48:24.061   806   806 I BufferQueueProducer: [PointerLocation - display 0#54](this:0xb400006fb27aaec0,id:-1,api:0,p:-1,c:806) queueBuffer: fps=0.39 dur=28442.37 max=28331.90 min=10.71
+06-27 10:48:24.071  1357  1560 I AppWidgetServiceImpl: Received broadcast: android.intent.action.PACKAGE_CHANGED on user 0

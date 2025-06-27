@@ -1,0 +1,19 @@
+--------- beginning of main
+06-27 10:33:48.216  1621  1621 I KeyguardTransitionRepository: FINISHED transition: TransitionStep(from=GONE, to=DOZING, value=1.0, transitionState=FINISHED, ownerName=FromGoneTransitionInteractor(Sleep transition triggered))
+06-27 10:33:48.223  1621  1684 E QuickAccessWalletKeyguardQuickAffordanceConfig: Wallet card retrieval error, message: "null"
+06-27 10:33:48.223  1621  1684 E QuickAccessWalletKeyguardQuickAffordanceConfig: Wallet card retrieval error, message: "null"
+06-27 10:33:48.224  1621  1684 E QuickAccessWalletKeyguardQuickAffordanceConfig: Wallet card retrieval error, message: "null"
+06-27 10:33:48.234   780   828 I mtkpower@impl: [powerd_req] TIMER_MSG_PERF_LOCK_TIMEOUT hdl:6536
+06-27 10:33:48.234   780   828 I libPowerHal: [perfLockRel] hdl:6536, idx:0
+06-27 10:33:48.234   780   828 I libPowerHal: [setClusterFreq]  set cpu_ctrl cpufreq: -1 -1 -1 -1 
+06-27 10:33:48.234   780   828 I libPowerHal: [unsetGPUFreq] current min:0, max:0; scn_gpu_min:0, scn_gpu_max:-1; scn_gpu_min(HL):-1, scn_gpu_max(HL):-1
+06-27 10:33:48.234   780   828 I libPowerHal: INTERACTION: set gpu opp level: 42
+06-27 10:33:48.234   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:33:48.234   780   828 I libPowerHal: [setGPUFreq] Soft min/max = (42, 0); Hard min/max = (42, 0)
+06-27 10:33:48.234   780   828 I libPowerHal: [setGPUFreq] final min/max = (42, 0)
+06-27 10:33:48.234   780   828 I libPowerHal: INTERACTION: set gpu opp level: 42
+06-27 10:33:48.235   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:33:48.235   780   828 I libPowerHal: [PD] INTERACTION update cmd:2020000 param:0
+06-27 10:33:48.235   780   828 I libPowerHal: [PD] INTERACTION update cmd:410000 param:0
+06-27 10:33:48.235   780   828 I libPowerHal: [PD] (more) /sys/kernel/cm_mgr/dbg_cm_mgr set +prefix:dsu_mode 0;
+06-27 10:33:48.236   780   828 I libPowerHal: [PD] INTERACTION update cmd:1000000 param:-1

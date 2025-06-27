@@ -1,0 +1,17 @@
+--------- beginning of main
+06-27 10:47:47.555 12090 12090 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+06-27 10:47:47.557 12090 12090 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+06-27 10:47:47.605 12090 12090 I DMABUFHEAPS: Using DMA-BUF heap named: mtk_mm
+06-27 10:47:47.605 12090 12090 I DMABUFHEAPS: Using DMA-BUF heap named: mtk_mm-uncached
+06-27 10:47:47.605 12090 12090 I DMABUFHEAPS: Using DMA-BUF heap named: mtk_svp_region-aligned
+06-27 10:47:47.605 12090 12090 I DMABUFHEAPS: Using DMA-BUF heap named: mtk_prot_region-aligned
+06-27 10:47:47.606 12090 12090 I DMABUFHEAPS: Using DMA-BUF heap named: mtk_2d_fr_region
+06-27 10:47:47.606 12090 12090 I DMABUFHEAPS: Using DMA-BUF heap named: mtk_wfd_region-aligned
+06-27 10:47:47.842  1357  1808 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+--------- beginning of system
+06-27 10:47:47.844  1357  1808 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+06-27 10:47:47.849  1357  1373 W JobInfo : Job 'com.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+06-27 10:47:47.862  1357  1377 I ActivityManager: Broadcast completed: result=0
+06-27 10:47:47.867  2301  2516 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+06-27 10:47:47.883 12090 12090 W RefBase : RefBase: Explicit destruction, weak count = 0 (in 0x72bc3e9848). Use sp<> to manage this object.
+06-27 10:47:47.889  2301  2516 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }

@@ -1,0 +1,5 @@
+--------- beginning of main
+06-27 10:33:31.529  1357  4317 I ActivityManager: Broadcasting: Intent { act=android.intent.action.FACTORY_TEST flg=0x400000 }
+--------- beginning of system
+06-27 10:33:31.530  1357  4317 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.FACTORY_TEST flg=0x400000 }: 0
+06-27 10:33:31.530  1357  1377 I ActivityManager: Broadcast completed: result=0

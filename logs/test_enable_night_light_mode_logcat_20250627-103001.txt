@@ -1,0 +1,18 @@
+--------- beginning of main
+06-27 10:30:00.043   806   806 I BufferQueueProducer: [StatusBar#91](this:0xb400006fb27fd810,id:-1,api:0,p:-1,c:806) queueBuffer: fps=0.09 dur=10929.54 max=10929.54 min=10929.54
+06-27 10:30:00.046   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:00.047   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:00.047   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:00.047   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:00.047   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:00.052   747   787 E HfLooper: dst->data[14.000000,0.000000,0.000000]
+06-27 10:30:00.058   806   806 I BufferQueueProducer: [FramebufferSurface](this:0xb40000700264c2f0,id:-1,api:1,p:806,c:806) queueBuffer: fps=44.53 dur=1459.55 max=547.88 min=6.83
+06-27 10:30:00.059   744   744 I hwcomposer: [HWCDisplay] [Display_0 (type:1, mode:2)] fps:44.530964,dur:1459.66,max:548.29,min:6.74  
+06-27 10:30:00.101   744  1195 I hwcomposer: [HWC] (0)fire a callback of refresh to SF[4]  
+06-27 10:30:00.110   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:00.110   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:00.110   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:00.110   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:00.110   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:00.125   772   829 I libPerfCtl: xgfGetFPS pid:1621 fps:-1
+06-27 10:30:00.152   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]

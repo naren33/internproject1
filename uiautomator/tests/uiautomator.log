@@ -1,0 +1,764 @@
+2025-06-27 10:52:16,240 - INFO - 
+[TEST START] test_set_screen_brightness_to_max
+2025-06-27 10:52:16,423 - INFO - 
+[STEP] Set screen brightness to max
+2025-06-27 10:52:16,427 - INFO - [COMMAND] adb shell settings put system screen_brightness 255
+2025-06-27 10:52:16,553 - INFO - [OUTPUT] 
+2025-06-27 10:52:16,657 - INFO - [TEST END] test_set_screen_brightness_to_max
+
+2025-06-27 10:52:16,661 - INFO - 
+[TEST START] test_enable_auto_brightness
+2025-06-27 10:52:16,825 - INFO - 
+[STEP] Enable auto brightness
+2025-06-27 10:52:16,827 - INFO - [COMMAND] adb shell settings put system screen_brightness_mode 1
+2025-06-27 10:52:16,930 - INFO - [OUTPUT] 
+2025-06-27 10:52:17,043 - INFO - [TEST END] test_enable_auto_brightness
+
+2025-06-27 10:52:17,048 - INFO - 
+[TEST START] test_set_screen_timeout
+2025-06-27 10:52:17,224 - INFO - 
+[STEP] Set screen timeout to 60 seconds
+2025-06-27 10:52:17,226 - INFO - [COMMAND] adb shell settings put system screen_off_timeout 60000
+2025-06-27 10:52:17,336 - INFO - [OUTPUT] 
+2025-06-27 10:52:17,424 - INFO - [TEST END] test_set_screen_timeout
+
+2025-06-27 10:52:17,426 - INFO - 
+[TEST START] test_set_resolution
+2025-06-27 10:52:17,598 - INFO - 
+[STEP] Set resolution to 1080x2340
+2025-06-27 10:52:17,601 - INFO - [COMMAND] adb shell wm size 1080x2340
+2025-06-27 10:52:17,733 - INFO - [OUTPUT] 
+2025-06-27 10:52:17,822 - INFO - [TEST END] test_set_resolution
+
+2025-06-27 10:52:17,826 - INFO - 
+[TEST START] test_set_density
+2025-06-27 10:52:17,996 - INFO - 
+[STEP] Set density to 320
+2025-06-27 10:52:17,997 - INFO - [COMMAND] adb shell wm density 320
+2025-06-27 10:52:18,106 - INFO - [OUTPUT] 
+2025-06-27 10:52:18,199 - INFO - [TEST END] test_set_density
+
+2025-06-27 10:52:18,202 - INFO - 
+[TEST START] test_enable_night_light
+2025-06-27 10:52:18,377 - INFO - 
+[STEP] Enable night light
+2025-06-27 10:52:18,383 - INFO - [COMMAND] adb shell settings put secure display_night_light_activated 1
+2025-06-27 10:52:18,507 - INFO - [OUTPUT] 
+2025-06-27 10:52:18,608 - INFO - [TEST END] test_enable_night_light
+
+2025-06-27 10:52:18,612 - INFO - 
+[TEST START] test_enable_always_on_display
+2025-06-27 10:52:18,781 - INFO - 
+[STEP] Enable always-on display
+2025-06-27 10:52:18,783 - INFO - [COMMAND] adb shell settings put secure doze_always_on 1
+2025-06-27 10:52:18,895 - INFO - [OUTPUT] 
+2025-06-27 10:52:18,994 - INFO - [TEST END] test_enable_always_on_display
+
+2025-06-27 10:52:18,998 - INFO - 
+[TEST START] test_user_rotation
+2025-06-27 10:52:19,186 - INFO - 
+[STEP] Set user rotation to 90° (code 1)
+2025-06-27 10:52:19,188 - INFO - [COMMAND] adb shell settings put system user_rotation 1
+2025-06-27 10:52:19,294 - INFO - [OUTPUT] 
+2025-06-27 10:52:19,380 - INFO - [TEST END] test_user_rotation
+
+2025-06-27 10:52:19,384 - INFO - 
+[TEST START] test_disable_auto_rotation
+2025-06-27 10:52:19,555 - INFO - 
+[STEP] Disable auto rotation
+2025-06-27 10:52:19,558 - INFO - [COMMAND] adb shell settings put system accelerometer_rotation 0
+2025-06-27 10:52:19,691 - INFO - [OUTPUT] 
+2025-06-27 10:52:19,800 - INFO - [TEST END] test_disable_auto_rotation
+
+2025-06-27 10:52:19,804 - INFO - 
+[TEST START] test_keep_screen_on_charging
+2025-06-27 10:52:19,980 - INFO - 
+[STEP] Keep screen on while charging
+2025-06-27 10:52:19,986 - INFO - [COMMAND] adb shell settings put global stay_on_while_plugged_in 3
+2025-06-27 10:52:20,193 - INFO - [OUTPUT] 
+2025-06-27 10:52:20,285 - INFO - [TEST END] test_keep_screen_on_charging
+
+2025-06-27 10:52:20,288 - INFO - 
+[TEST START] test_take_and_pull_screenshot
+2025-06-27 10:52:20,453 - INFO - 
+[STEP] Take screenshot
+2025-06-27 10:52:20,456 - INFO - [COMMAND] adb shell screencap -p /sdcard/disp_test.png
+2025-06-27 10:52:21,035 - INFO - [OUTPUT] 
+2025-06-27 10:52:21,105 - INFO - ADB Pull Output: /sdcard/disp_test.png: 1 file pulled, 0 skipped. 2.9 MB/s (15197 bytes in 0.005s)
+2025-06-27 10:52:21,272 - INFO - [TEST END] test_take_and_pull_screenshot
+
+2025-06-27 10:52:21,275 - INFO - 
+[TEST START] test_send_factory_broadcast
+2025-06-27 10:52:21,454 - INFO - 
+[STEP] Broadcast factory test intent
+2025-06-27 10:52:21,456 - INFO - [COMMAND] adb shell am broadcast -a android.intent.action.FACTORY_TEST
+2025-06-27 10:52:21,583 - INFO - [OUTPUT] Broadcasting: Intent { act=android.intent.action.FACTORY_TEST flg=0x400000 }
+Broadcast completed: result=0
+2025-06-27 10:52:21,692 - INFO - [TEST END] test_send_factory_broadcast
+
+2025-06-27 10:52:21,695 - INFO - 
+[TEST START] test_power_key_press
+2025-06-27 10:52:21,862 - INFO - 
+[STEP] Simulate power key press
+2025-06-27 10:52:21,864 - INFO - [COMMAND] adb shell input keyevent 26
+2025-06-27 10:52:21,990 - INFO - [OUTPUT] 
+2025-06-27 10:52:22,059 - INFO - [TEST END] test_power_key_press
+
+2025-06-27 10:52:22,061 - INFO - 
+[TEST START] test_enable_magnification
+2025-06-27 10:52:22,213 - INFO - 
+[STEP] Enable magnification
+2025-06-27 10:52:22,219 - INFO - [COMMAND] adb shell settings put secure accessibility_display_magnification_enabled 1
+2025-06-27 10:52:22,322 - INFO - [OUTPUT] 
+2025-06-27 10:52:22,409 - INFO - [TEST END] test_enable_magnification
+
+2025-06-27 10:52:22,412 - INFO - 
+[TEST START] test_get_font_scale
+2025-06-27 10:52:22,571 - INFO - 
+[STEP] Get font scale
+2025-06-27 10:52:22,574 - INFO - [COMMAND] adb shell settings get system font_scale
+2025-06-27 10:52:22,690 - INFO - [OUTPUT] 1.0
+2025-06-27 10:52:22,785 - INFO - [TEST END] test_get_font_scale
+
+2025-06-27 10:52:22,788 - INFO - 
+[TEST START] test_enable_3_button_nav
+2025-06-27 10:52:22,959 - INFO - 
+[STEP] Enable 3-button nav
+2025-06-27 10:52:22,961 - INFO - [COMMAND] adb shell cmd overlay enable com.android.internal.systemui.navbar.threebutton
+2025-06-27 10:52:23,153 - INFO - [OUTPUT] 
+2025-06-27 10:52:23,253 - INFO - [TEST END] test_enable_3_button_nav
+
+2025-06-27 10:52:23,257 - INFO - 
+[TEST START] test_enable_gestural_nav
+2025-06-27 10:52:23,406 - INFO - 
+[STEP] Enable gestural nav
+2025-06-27 10:52:23,409 - INFO - [COMMAND] adb shell cmd overlay enable com.android.internal.systemui.navbar.gestural
+2025-06-27 10:52:23,506 - INFO - [OUTPUT] 
+2025-06-27 10:52:23,604 - INFO - [TEST END] test_enable_gestural_nav
+
+2025-06-27 10:52:23,609 - INFO - 
+[TEST START] test_get_screensaver_components
+2025-06-27 10:52:23,758 - INFO - 
+[STEP] Get screensaver components
+2025-06-27 10:52:23,764 - INFO - [COMMAND] adb shell settings get secure screensaver_components
+2025-06-27 10:52:23,854 - INFO - [OUTPUT] null
+2025-06-27 10:52:23,932 - INFO - [TEST END] test_get_screensaver_components
+
+2025-06-27 10:52:23,935 - INFO - 
+[TEST START] test_enable_screensaver
+2025-06-27 10:52:24,095 - INFO - 
+[STEP] Enable screensaver
+2025-06-27 10:52:24,099 - INFO - [COMMAND] adb shell settings put secure screensaver_enabled 1
+2025-06-27 10:52:24,179 - INFO - [OUTPUT] 
+2025-06-27 10:52:24,255 - INFO - [TEST END] test_enable_screensaver
+
+2025-06-27 10:52:24,258 - INFO - 
+[TEST START] test_disable_screensaver
+2025-06-27 10:52:24,424 - INFO - 
+[STEP] Disable screensaver
+2025-06-27 10:52:24,429 - INFO - [COMMAND] adb shell settings put secure screensaver_enabled 0
+2025-06-27 10:52:24,575 - INFO - [OUTPUT] 
+2025-06-27 10:52:24,662 - INFO - [TEST END] test_disable_screensaver
+
+2025-06-27 10:52:24,665 - INFO - 
+[TEST START] test_enable_color_correction
+2025-06-27 10:52:24,832 - INFO - 
+[STEP] Enable color correction
+2025-06-27 10:52:24,835 - INFO - [COMMAND] adb shell settings put secure accessibility_display_daltonizer_enabled 1
+2025-06-27 10:52:24,956 - INFO - [OUTPUT] 
+2025-06-27 10:52:25,061 - INFO - [TEST END] test_enable_color_correction
+
+2025-06-27 10:52:25,065 - INFO - 
+[TEST START] test_disable_color_correction
+2025-06-27 10:52:25,234 - INFO - 
+[STEP] Disable color correction
+2025-06-27 10:52:25,236 - INFO - [COMMAND] adb shell settings put secure accessibility_display_daltonizer_enabled 0
+2025-06-27 10:52:25,338 - INFO - [OUTPUT] 
+2025-06-27 10:52:25,414 - INFO - [TEST END] test_disable_color_correction
+
+2025-06-27 10:52:25,418 - INFO - 
+[TEST START] test_set_color_filter_11
+2025-06-27 10:52:25,582 - INFO - 
+[STEP] Set color filter to 11
+2025-06-27 10:52:25,588 - INFO - [COMMAND] adb shell settings put secure accessibility_display_daltonizer 11
+2025-06-27 10:52:25,709 - INFO - [OUTPUT] 
+2025-06-27 10:52:25,805 - INFO - [TEST END] test_set_color_filter_11
+
+2025-06-27 10:52:25,809 - INFO - 
+[TEST START] test_set_color_filter_12
+2025-06-27 10:52:25,974 - INFO - 
+[STEP] Set color filter to 12
+2025-06-27 10:52:25,979 - INFO - [COMMAND] adb shell settings put secure accessibility_display_daltonizer 12
+2025-06-27 10:52:26,103 - INFO - [OUTPUT] 
+2025-06-27 10:52:26,208 - INFO - [TEST END] test_set_color_filter_12
+
+2025-06-27 10:52:26,212 - INFO - 
+[TEST START] test_set_color_filter_13
+2025-06-27 10:52:26,384 - INFO - 
+[STEP] Set color filter to 13
+2025-06-27 10:52:26,389 - INFO - [COMMAND] adb shell settings put secure accessibility_display_daltonizer 13
+2025-06-27 10:52:26,503 - INFO - [OUTPUT] 
+2025-06-27 10:52:26,594 - INFO - [TEST END] test_set_color_filter_13
+
+2025-06-27 10:52:26,599 - INFO - 
+[TEST START] test_get_color_filter
+2025-06-27 10:52:26,774 - INFO - 
+[STEP] Get current color filter
+2025-06-27 10:52:26,777 - INFO - [COMMAND] adb shell settings get secure accessibility_display_daltonizer
+2025-06-27 10:52:26,887 - INFO - [OUTPUT] 13
+2025-06-27 10:52:26,992 - INFO - [TEST END] test_get_color_filter
+
+2025-06-27 10:52:26,997 - INFO - 
+[TEST START] test_set_refresh_rate
+2025-06-27 10:52:27,157 - INFO - 
+[STEP] Set refresh rate to 60Hz
+2025-06-27 10:52:27,164 - INFO - [COMMAND] adb shell settings put system refresh_rate 60.0
+2025-06-27 10:52:27,304 - INFO - [OUTPUT] 
+2025-06-27 10:52:27,387 - INFO - [TEST END] test_set_refresh_rate
+
+2025-06-27 10:52:27,390 - INFO - 
+[TEST START] test_get_refresh_rate
+2025-06-27 10:52:27,560 - INFO - 
+[STEP] Get current refresh rate
+2025-06-27 10:52:27,563 - INFO - [COMMAND] adb shell settings get system refresh_rate
+2025-06-27 10:52:27,673 - INFO - [OUTPUT] 60.0
+2025-06-27 10:52:27,789 - INFO - [TEST END] test_get_refresh_rate
+
+2025-06-27 10:52:27,795 - INFO - 
+[TEST START] test_window_anim_scale
+2025-06-27 10:52:27,984 - INFO - 
+[STEP] Set window animation scale to 0.5
+2025-06-27 10:52:27,988 - INFO - [COMMAND] adb shell settings put global window_animation_scale 0.5
+2025-06-27 10:52:28,096 - INFO - [OUTPUT] 
+2025-06-27 10:52:28,188 - INFO - [TEST END] test_window_anim_scale
+
+2025-06-27 10:52:28,192 - INFO - 
+[TEST START] test_transition_anim_scale
+2025-06-27 10:52:28,358 - INFO - 
+[STEP] Set transition animation scale to 0.5
+2025-06-27 10:52:28,360 - INFO - [COMMAND] adb shell settings put global transition_animation_scale 0.5
+2025-06-27 10:52:28,462 - INFO - [OUTPUT] 
+2025-06-27 10:52:28,568 - INFO - [TEST END] test_transition_anim_scale
+
+2025-06-27 10:52:28,572 - INFO - 
+[TEST START] test_animator_duration_scale
+2025-06-27 10:52:28,737 - INFO - 
+[STEP] Set animator duration scale to 0.5
+2025-06-27 10:52:28,740 - INFO - [COMMAND] adb shell settings put global animator_duration_scale 0.5
+2025-06-27 10:52:28,854 - INFO - [OUTPUT] 
+2025-06-27 10:52:28,937 - INFO - [TEST END] test_animator_duration_scale
+
+2025-06-27 10:52:28,941 - INFO - 
+[TEST START] test_00_test_all_conditions
+2025-06-27 10:52:29,115 - INFO - 
+[STEP] Set screen brightness to max
+2025-06-27 10:52:29,119 - INFO - [COMMAND] adb shell settings put system screen_brightness 255
+2025-06-27 10:52:29,236 - INFO - [OUTPUT] 
+2025-06-27 10:52:29,241 - INFO - 
+[STEP] Enable auto brightness
+2025-06-27 10:52:29,245 - INFO - [COMMAND] adb shell settings put system screen_brightness_mode 1
+2025-06-27 10:52:29,368 - INFO - [OUTPUT] 
+2025-06-27 10:52:29,372 - INFO - 
+[STEP] Set screen timeout to 60 seconds
+2025-06-27 10:52:29,375 - INFO - [COMMAND] adb shell settings put system screen_off_timeout 60000
+2025-06-27 10:52:29,497 - INFO - [OUTPUT] 
+2025-06-27 10:52:29,500 - INFO - 
+[STEP] Set resolution to 1080x2340
+2025-06-27 10:52:29,503 - INFO - [COMMAND] adb shell wm size 1080x2340
+2025-06-27 10:52:29,621 - INFO - [OUTPUT] 
+2025-06-27 10:52:29,625 - INFO - 
+[STEP] Set density to 320
+2025-06-27 10:52:29,628 - INFO - [COMMAND] adb shell wm density 320
+2025-06-27 10:52:29,738 - INFO - [OUTPUT] 
+2025-06-27 10:52:29,741 - INFO - 
+[STEP] Enable night light
+2025-06-27 10:52:29,743 - INFO - [COMMAND] adb shell settings put secure display_night_light_activated 1
+2025-06-27 10:52:29,864 - INFO - [OUTPUT] 
+2025-06-27 10:52:29,867 - INFO - 
+[STEP] Enable always-on display
+2025-06-27 10:52:29,872 - INFO - [COMMAND] adb shell settings put secure doze_always_on 1
+2025-06-27 10:52:29,981 - INFO - [OUTPUT] 
+2025-06-27 10:52:29,985 - INFO - 
+[STEP] Set user rotation to 90° (code 1)
+2025-06-27 10:52:29,988 - INFO - [COMMAND] adb shell settings put system user_rotation 1
+2025-06-27 10:52:30,089 - INFO - [OUTPUT] 
+2025-06-27 10:52:30,090 - INFO - 
+[STEP] Disable auto rotation
+2025-06-27 10:52:30,091 - INFO - [COMMAND] adb shell settings put system accelerometer_rotation 0
+2025-06-27 10:52:30,176 - INFO - [OUTPUT] 
+2025-06-27 10:52:30,179 - INFO - 
+[STEP] Keep screen on while charging
+2025-06-27 10:52:30,183 - INFO - [COMMAND] adb shell settings put global stay_on_while_plugged_in 3
+2025-06-27 10:52:30,288 - INFO - [OUTPUT] 
+2025-06-27 10:52:30,290 - INFO - 
+[STEP] Take screenshot
+2025-06-27 10:52:30,293 - INFO - [COMMAND] adb shell screencap -p /sdcard/disp_test.png
+2025-06-27 10:52:31,449 - INFO - [OUTPUT] 
+2025-06-27 10:52:31,530 - INFO - ADB Pull Output: /sdcard/disp_test.png: 1 file pulled, 0 skipped. 32.6 MB/s (1286547 bytes in 0.038s)
+2025-06-27 10:52:31,616 - INFO - 
+[STEP] Broadcast factory test intent
+2025-06-27 10:52:31,618 - INFO - [COMMAND] adb shell am broadcast -a android.intent.action.FACTORY_TEST
+2025-06-27 10:52:31,724 - INFO - [OUTPUT] Broadcasting: Intent { act=android.intent.action.FACTORY_TEST flg=0x400000 }
+Broadcast completed: result=0
+2025-06-27 10:52:31,727 - INFO - 
+[STEP] Simulate power key press
+2025-06-27 10:52:31,729 - INFO - [COMMAND] adb shell input keyevent 26
+2025-06-27 10:52:31,848 - INFO - [OUTPUT] 
+2025-06-27 10:52:31,851 - INFO - 
+[STEP] Enable magnification
+2025-06-27 10:52:31,854 - INFO - [COMMAND] adb shell settings put secure accessibility_display_magnification_enabled 1
+2025-06-27 10:52:31,942 - INFO - [OUTPUT] 
+2025-06-27 10:52:31,944 - INFO - 
+[STEP] Get font scale
+2025-06-27 10:52:31,946 - INFO - [COMMAND] adb shell settings get system font_scale
+2025-06-27 10:52:32,037 - INFO - [OUTPUT] 1.0
+2025-06-27 10:52:32,040 - INFO - 
+[STEP] Enable 3-button nav
+2025-06-27 10:52:32,043 - INFO - [COMMAND] adb shell cmd overlay enable com.android.internal.systemui.navbar.threebutton
+2025-06-27 10:52:32,152 - INFO - [OUTPUT] 
+2025-06-27 10:52:32,155 - INFO - 
+[STEP] Enable gestural nav
+2025-06-27 10:52:32,157 - INFO - [COMMAND] adb shell cmd overlay enable com.android.internal.systemui.navbar.gestural
+2025-06-27 10:52:32,297 - INFO - [OUTPUT] 
+2025-06-27 10:52:32,302 - INFO - 
+[STEP] Get screensaver components
+2025-06-27 10:52:32,307 - INFO - [COMMAND] adb shell settings get secure screensaver_components
+2025-06-27 10:52:32,437 - INFO - [OUTPUT] null
+2025-06-27 10:52:32,442 - INFO - 
+[STEP] Enable screensaver
+2025-06-27 10:52:32,446 - INFO - [COMMAND] adb shell settings put secure screensaver_enabled 1
+2025-06-27 10:52:32,566 - INFO - [OUTPUT] 
+2025-06-27 10:52:32,569 - INFO - 
+[STEP] Disable screensaver
+2025-06-27 10:52:32,571 - INFO - [COMMAND] adb shell settings put secure screensaver_enabled 0
+2025-06-27 10:52:32,691 - INFO - [OUTPUT] 
+2025-06-27 10:52:32,695 - INFO - 
+[STEP] Enable color correction
+2025-06-27 10:52:32,698 - INFO - [COMMAND] adb shell settings put secure accessibility_display_daltonizer_enabled 1
+2025-06-27 10:52:32,821 - INFO - [OUTPUT] 
+2025-06-27 10:52:32,824 - INFO - 
+[STEP] Disable color correction
+2025-06-27 10:52:32,827 - INFO - [COMMAND] adb shell settings put secure accessibility_display_daltonizer_enabled 0
+2025-06-27 10:52:32,943 - INFO - [OUTPUT] 
+2025-06-27 10:52:32,945 - INFO - 
+[STEP] Set color filter to 11
+2025-06-27 10:52:32,947 - INFO - [COMMAND] adb shell settings put secure accessibility_display_daltonizer 11
+2025-06-27 10:52:33,074 - INFO - [OUTPUT] 
+2025-06-27 10:52:33,079 - INFO - 
+[STEP] Set color filter to 12
+2025-06-27 10:52:33,082 - INFO - [COMMAND] adb shell settings put secure accessibility_display_daltonizer 12
+2025-06-27 10:52:33,200 - INFO - [OUTPUT] 
+2025-06-27 10:52:33,204 - INFO - 
+[STEP] Set color filter to 13
+2025-06-27 10:52:33,208 - INFO - [COMMAND] adb shell settings put secure accessibility_display_daltonizer 13
+2025-06-27 10:52:33,336 - INFO - [OUTPUT] 
+2025-06-27 10:52:33,341 - INFO - 
+[STEP] Get current color filter
+2025-06-27 10:52:33,345 - INFO - [COMMAND] adb shell settings get secure accessibility_display_daltonizer
+2025-06-27 10:52:33,480 - INFO - [OUTPUT] 13
+2025-06-27 10:52:33,485 - INFO - 
+[STEP] Set refresh rate to 60Hz
+2025-06-27 10:52:33,489 - INFO - [COMMAND] adb shell settings put system refresh_rate 60.0
+2025-06-27 10:52:33,613 - INFO - [OUTPUT] 
+2025-06-27 10:52:33,616 - INFO - 
+[STEP] Get current refresh rate
+2025-06-27 10:52:33,619 - INFO - [COMMAND] adb shell settings get system refresh_rate
+2025-06-27 10:52:33,748 - INFO - [OUTPUT] 60.0
+2025-06-27 10:52:33,753 - INFO - 
+[STEP] Set window animation scale to 0.5
+2025-06-27 10:52:33,758 - INFO - [COMMAND] adb shell settings put global window_animation_scale 0.5
+2025-06-27 10:52:33,890 - INFO - [OUTPUT] 
+2025-06-27 10:52:33,895 - INFO - 
+[STEP] Set transition animation scale to 0.5
+2025-06-27 10:52:33,900 - INFO - [COMMAND] adb shell settings put global transition_animation_scale 0.5
+2025-06-27 10:52:34,032 - INFO - [OUTPUT] 
+2025-06-27 10:52:34,038 - INFO - 
+[STEP] Set animator duration scale to 0.5
+2025-06-27 10:52:34,043 - INFO - [COMMAND] adb shell settings put global animator_duration_scale 0.5
+2025-06-27 10:52:34,161 - INFO - [OUTPUT] 
+2025-06-27 10:52:34,164 - INFO - [RESULT] All Display ADB testcases executed successfully.
+2025-06-27 10:52:34,285 - INFO - [TEST END] test_00_test_all_conditions
+
+2025-06-27 10:58:27,025 - INFO - 
+[TEST START] test_set_screen_brightness_to_max
+2025-06-27 10:58:27,245 - INFO - 
+[STEP] Set screen brightness to max
+2025-06-27 10:58:27,250 - INFO - [COMMAND] adb shell settings put system screen_brightness 255
+2025-06-27 10:58:27,398 - INFO - [OUTPUT] 
+2025-06-27 10:58:27,538 - INFO - [TEST END] test_set_screen_brightness_to_max
+
+2025-06-27 10:58:27,546 - INFO - 
+[TEST START] test_enable_auto_brightness
+2025-06-27 10:58:27,760 - INFO - 
+[STEP] Enable auto brightness
+2025-06-27 10:58:27,763 - INFO - [COMMAND] adb shell settings put system screen_brightness_mode 1
+2025-06-27 10:58:27,898 - INFO - [OUTPUT] 
+2025-06-27 10:58:28,048 - INFO - [TEST END] test_enable_auto_brightness
+
+2025-06-27 10:58:28,057 - INFO - 
+[TEST START] test_set_screen_timeout
+2025-06-27 10:58:28,275 - INFO - 
+[STEP] Set screen timeout to 60 seconds
+2025-06-27 10:58:28,280 - INFO - [COMMAND] adb shell settings put system screen_off_timeout 60000
+2025-06-27 10:58:28,417 - INFO - [OUTPUT] 
+2025-06-27 10:58:28,549 - INFO - [TEST END] test_set_screen_timeout
+
+2025-06-27 10:58:28,556 - INFO - 
+[TEST START] test_set_resolution
+2025-06-27 10:58:28,762 - INFO - 
+[STEP] Set resolution to 1080x2340
+2025-06-27 10:58:28,765 - INFO - [COMMAND] adb shell wm size 1080x2340
+2025-06-27 10:58:28,893 - INFO - [OUTPUT] 
+2025-06-27 10:58:29,035 - INFO - [TEST END] test_set_resolution
+
+2025-06-27 10:58:29,043 - INFO - 
+[TEST START] test_set_density
+2025-06-27 10:58:29,256 - INFO - 
+[STEP] Set density to 320
+2025-06-27 10:58:29,260 - INFO - [COMMAND] adb shell wm density 320
+2025-06-27 10:58:29,401 - INFO - [OUTPUT] 
+2025-06-27 10:58:29,543 - INFO - [TEST END] test_set_density
+
+2025-06-27 10:58:29,552 - INFO - 
+[TEST START] test_enable_night_light
+2025-06-27 10:58:29,784 - INFO - 
+[STEP] Enable night light
+2025-06-27 10:58:29,788 - INFO - [COMMAND] adb shell settings put secure display_night_light_activated 1
+2025-06-27 10:58:29,942 - INFO - [OUTPUT] 
+2025-06-27 10:58:30,076 - INFO - [TEST END] test_enable_night_light
+
+2025-06-27 10:58:30,084 - INFO - 
+[TEST START] test_enable_always_on_display
+2025-06-27 10:58:30,325 - INFO - 
+[STEP] Enable always-on display
+2025-06-27 10:58:30,329 - INFO - [COMMAND] adb shell settings put secure doze_always_on 1
+2025-06-27 10:58:30,471 - INFO - [OUTPUT] 
+2025-06-27 10:58:30,603 - INFO - [TEST END] test_enable_always_on_display
+
+2025-06-27 10:58:30,611 - INFO - 
+[TEST START] test_user_rotation
+2025-06-27 10:58:30,815 - INFO - 
+[STEP] Set user rotation to 90° (code 1)
+2025-06-27 10:58:30,820 - INFO - [COMMAND] adb shell settings put system user_rotation 1
+2025-06-27 10:58:30,983 - INFO - [OUTPUT] 
+2025-06-27 10:58:31,129 - INFO - [TEST END] test_user_rotation
+
+2025-06-27 10:58:31,140 - INFO - 
+[TEST START] test_disable_auto_rotation
+2025-06-27 10:58:31,362 - INFO - 
+[STEP] Disable auto rotation
+2025-06-27 10:58:31,368 - INFO - [COMMAND] adb shell settings put system accelerometer_rotation 0
+2025-06-27 10:58:31,526 - INFO - [OUTPUT] 
+2025-06-27 10:58:31,679 - INFO - [TEST END] test_disable_auto_rotation
+
+2025-06-27 10:58:31,687 - INFO - 
+[TEST START] test_keep_screen_on_charging
+2025-06-27 10:58:31,912 - INFO - 
+[STEP] Keep screen on while charging
+2025-06-27 10:58:31,916 - INFO - [COMMAND] adb shell settings put global stay_on_while_plugged_in 3
+2025-06-27 10:58:32,073 - INFO - [OUTPUT] 
+2025-06-27 10:58:32,240 - INFO - [TEST END] test_keep_screen_on_charging
+
+2025-06-27 10:58:32,253 - INFO - 
+[TEST START] test_take_and_pull_screenshot
+2025-06-27 10:58:32,510 - INFO - 
+[STEP] Take screenshot
+2025-06-27 10:58:32,513 - INFO - [COMMAND] adb shell screencap -p /sdcard/disp_test.png
+2025-06-27 10:58:33,738 - INFO - [OUTPUT] 
+2025-06-27 10:58:33,957 - INFO - ADB Pull Output: /sdcard/disp_test.png: 1 file pulled, 0 skipped. 26.5 MB/s (1350704 bytes in 0.049s)
+2025-06-27 10:58:33,962 - INFO -  Screenshot pulled successfully.
+2025-06-27 10:58:34,252 - INFO - [TEST END] test_take_and_pull_screenshot
+
+2025-06-27 10:58:34,261 - INFO - 
+[TEST START] test_send_factory_broadcast
+2025-06-27 10:58:34,497 - INFO - 
+[STEP] Broadcast factory test intent
+2025-06-27 10:58:34,502 - INFO - [COMMAND] adb shell am broadcast -a android.intent.action.FACTORY_TEST
+2025-06-27 10:58:34,669 - INFO - [OUTPUT] Broadcasting: Intent { act=android.intent.action.FACTORY_TEST flg=0x400000 }
+Broadcast completed: result=0
+2025-06-27 10:58:34,819 - INFO - [TEST END] test_send_factory_broadcast
+
+2025-06-27 10:58:34,827 - INFO - 
+[TEST START] test_power_key_press
+2025-06-27 10:58:35,051 - INFO - 
+[STEP] Simulate power key press
+2025-06-27 10:58:35,056 - INFO - [COMMAND] adb shell input keyevent 26
+2025-06-27 10:58:35,248 - INFO - [OUTPUT] 
+2025-06-27 10:58:35,381 - INFO - [TEST END] test_power_key_press
+
+2025-06-27 10:58:35,389 - INFO - 
+[TEST START] test_enable_magnification
+2025-06-27 10:58:35,609 - INFO - 
+[STEP] Enable magnification
+2025-06-27 10:58:35,614 - INFO - [COMMAND] adb shell settings put secure accessibility_display_magnification_enabled 1
+2025-06-27 10:58:35,738 - INFO - [OUTPUT] 
+2025-06-27 10:58:35,889 - INFO - [TEST END] test_enable_magnification
+
+2025-06-27 10:58:35,898 - INFO - 
+[TEST START] test_get_font_scale
+2025-06-27 10:58:36,113 - INFO - 
+[STEP] Get font scale
+2025-06-27 10:58:36,118 - INFO - [COMMAND] adb shell settings get system font_scale
+2025-06-27 10:58:36,265 - INFO - [OUTPUT] 1.0
+2025-06-27 10:58:36,422 - INFO - [TEST END] test_get_font_scale
+
+2025-06-27 10:58:36,430 - INFO - 
+[TEST START] test_enable_3_button_nav
+2025-06-27 10:58:36,662 - INFO - 
+[STEP] Enable 3-button nav
+2025-06-27 10:58:36,666 - INFO - [COMMAND] adb shell cmd overlay enable com.android.internal.systemui.navbar.threebutton
+2025-06-27 10:58:36,938 - INFO - [OUTPUT] 
+2025-06-27 10:58:37,111 - INFO - [TEST END] test_enable_3_button_nav
+
+2025-06-27 10:58:37,122 - INFO - 
+[TEST START] test_enable_gestural_nav
+2025-06-27 10:58:37,351 - INFO - 
+[STEP] Enable gestural nav
+2025-06-27 10:58:37,355 - INFO - [COMMAND] adb shell cmd overlay enable com.android.internal.systemui.navbar.gestural
+2025-06-27 10:58:37,527 - INFO - [OUTPUT] 
+2025-06-27 10:58:37,684 - INFO - [TEST END] test_enable_gestural_nav
+
+2025-06-27 10:58:37,688 - INFO - 
+[TEST START] test_get_screensaver_components
+2025-06-27 10:58:37,874 - INFO - 
+[STEP] Get screensaver components
+2025-06-27 10:58:37,877 - INFO - [COMMAND] adb shell settings get secure screensaver_components
+2025-06-27 10:58:37,998 - INFO - [OUTPUT] null
+2025-06-27 10:58:38,147 - INFO - [TEST END] test_get_screensaver_components
+
+2025-06-27 10:58:38,154 - INFO - 
+[TEST START] test_enable_screensaver
+2025-06-27 10:58:38,398 - INFO - 
+[STEP] Enable screensaver
+2025-06-27 10:58:38,403 - INFO - [COMMAND] adb shell settings put secure screensaver_enabled 1
+2025-06-27 10:58:38,562 - INFO - [OUTPUT] 
+2025-06-27 10:58:38,733 - INFO - [TEST END] test_enable_screensaver
+
+2025-06-27 10:58:38,743 - INFO - 
+[TEST START] test_disable_screensaver
+2025-06-27 10:58:38,978 - INFO - 
+[STEP] Disable screensaver
+2025-06-27 10:58:38,982 - INFO - [COMMAND] adb shell settings put secure screensaver_enabled 0
+2025-06-27 10:58:39,152 - INFO - [OUTPUT] 
+2025-06-27 10:58:39,326 - INFO - [TEST END] test_disable_screensaver
+
+2025-06-27 10:58:39,335 - INFO - 
+[TEST START] test_enable_color_correction
+2025-06-27 10:58:39,576 - INFO - 
+[STEP] Enable color correction
+2025-06-27 10:58:39,581 - INFO - [COMMAND] adb shell settings put secure accessibility_display_daltonizer_enabled 1
+2025-06-27 10:58:39,743 - INFO - [OUTPUT] 
+2025-06-27 10:58:39,911 - INFO - [TEST END] test_enable_color_correction
+
+2025-06-27 10:58:39,919 - INFO - 
+[TEST START] test_disable_color_correction
+2025-06-27 10:58:40,191 - INFO - 
+[STEP] Disable color correction
+2025-06-27 10:58:40,196 - INFO - [COMMAND] adb shell settings put secure accessibility_display_daltonizer_enabled 0
+2025-06-27 10:58:40,363 - INFO - [OUTPUT] 
+2025-06-27 10:58:40,523 - INFO - [TEST END] test_disable_color_correction
+
+2025-06-27 10:58:40,532 - INFO - 
+[TEST START] test_set_color_filter_11
+2025-06-27 10:58:40,800 - INFO - 
+[STEP] Set color filter to 11
+2025-06-27 10:58:40,805 - INFO - [COMMAND] adb shell settings put secure accessibility_display_daltonizer 11
+2025-06-27 10:58:40,975 - INFO - [OUTPUT] 
+2025-06-27 10:58:41,212 - INFO - [TEST END] test_set_color_filter_11
+
+2025-06-27 10:58:41,223 - INFO - 
+[TEST START] test_set_color_filter_12
+2025-06-27 10:58:41,450 - INFO - 
+[STEP] Set color filter to 12
+2025-06-27 10:58:41,456 - INFO - [COMMAND] adb shell settings put secure accessibility_display_daltonizer 12
+2025-06-27 10:58:41,675 - INFO - [OUTPUT] 
+2025-06-27 10:58:41,825 - INFO - [TEST END] test_set_color_filter_12
+
+2025-06-27 10:58:41,834 - INFO - 
+[TEST START] test_set_color_filter_13
+2025-06-27 10:58:42,218 - INFO - 
+[STEP] Set color filter to 13
+2025-06-27 10:58:42,223 - INFO - [COMMAND] adb shell settings put secure accessibility_display_daltonizer 13
+2025-06-27 10:58:42,411 - INFO - [OUTPUT] 
+2025-06-27 10:58:42,664 - INFO - [TEST END] test_set_color_filter_13
+
+2025-06-27 10:58:42,673 - INFO - 
+[TEST START] test_get_color_filter
+2025-06-27 10:58:42,911 - INFO - 
+[STEP] Get current color filter
+2025-06-27 10:58:42,919 - INFO - [COMMAND] adb shell settings get secure accessibility_display_daltonizer
+2025-06-27 10:58:43,176 - INFO - [OUTPUT] 13
+2025-06-27 10:58:43,296 - INFO - [TEST END] test_get_color_filter
+
+2025-06-27 10:58:43,301 - INFO - 
+[TEST START] test_set_refresh_rate
+2025-06-27 10:58:43,493 - INFO - 
+[STEP] Set refresh rate to 60Hz
+2025-06-27 10:58:43,498 - INFO - [COMMAND] adb shell settings put system refresh_rate 60.0
+2025-06-27 10:58:43,691 - INFO - [OUTPUT] 
+2025-06-27 10:58:43,908 - INFO - [TEST END] test_set_refresh_rate
+
+2025-06-27 10:58:43,917 - INFO - 
+[TEST START] test_get_refresh_rate
+2025-06-27 10:58:44,204 - INFO - 
+[STEP] Get current refresh rate
+2025-06-27 10:58:44,208 - INFO - [COMMAND] adb shell settings get system refresh_rate
+2025-06-27 10:58:44,460 - INFO - [OUTPUT] 60.0
+2025-06-27 10:58:44,658 - INFO - [TEST END] test_get_refresh_rate
+
+2025-06-27 10:58:44,667 - INFO - 
+[TEST START] test_window_anim_scale
+2025-06-27 10:58:44,894 - INFO - 
+[STEP] Set window animation scale to 0.5
+2025-06-27 10:58:44,900 - INFO - [COMMAND] adb shell settings put global window_animation_scale 0.5
+2025-06-27 10:58:45,089 - INFO - [OUTPUT] 
+2025-06-27 10:58:45,306 - INFO - [TEST END] test_window_anim_scale
+
+2025-06-27 10:58:45,314 - INFO - 
+[TEST START] test_transition_anim_scale
+2025-06-27 10:58:45,544 - INFO - 
+[STEP] Set transition animation scale to 0.5
+2025-06-27 10:58:45,548 - INFO - [COMMAND] adb shell settings put global transition_animation_scale 0.5
+2025-06-27 10:58:45,748 - INFO - [OUTPUT] 
+2025-06-27 10:58:45,920 - INFO - [TEST END] test_transition_anim_scale
+
+2025-06-27 10:58:45,929 - INFO - 
+[TEST START] test_animator_duration_scale
+2025-06-27 10:58:46,154 - INFO - 
+[STEP] Set animator duration scale to 0.5
+2025-06-27 10:58:46,159 - INFO - [COMMAND] adb shell settings put global animator_duration_scale 0.5
+2025-06-27 10:58:46,435 - INFO - [OUTPUT] 
+2025-06-27 10:58:46,736 - INFO - [TEST END] test_animator_duration_scale
+
+2025-06-27 10:58:46,744 - INFO - 
+[TEST START] test_00_test_all_conditions
+2025-06-27 10:58:47,018 - INFO - 
+[STEP] Set screen brightness to max
+2025-06-27 10:58:47,023 - INFO - [COMMAND] adb shell settings put system screen_brightness 255
+2025-06-27 10:58:47,236 - INFO - [OUTPUT] 
+2025-06-27 10:58:47,241 - INFO - 
+[STEP] Enable auto brightness
+2025-06-27 10:58:47,245 - INFO - [COMMAND] adb shell settings put system screen_brightness_mode 1
+2025-06-27 10:58:47,472 - INFO - [OUTPUT] 
+2025-06-27 10:58:47,476 - INFO - 
+[STEP] Set screen timeout to 60 seconds
+2025-06-27 10:58:47,480 - INFO - [COMMAND] adb shell settings put system screen_off_timeout 60000
+2025-06-27 10:58:47,638 - INFO - [OUTPUT] 
+2025-06-27 10:58:47,643 - INFO - 
+[STEP] Set resolution to 1080x2340
+2025-06-27 10:58:47,647 - INFO - [COMMAND] adb shell wm size 1080x2340
+2025-06-27 10:58:47,824 - INFO - [OUTPUT] 
+2025-06-27 10:58:47,829 - INFO - 
+[STEP] Set density to 320
+2025-06-27 10:58:47,832 - INFO - [COMMAND] adb shell wm density 320
+2025-06-27 10:58:48,050 - INFO - [OUTPUT] 
+2025-06-27 10:58:48,054 - INFO - 
+[STEP] Enable night light
+2025-06-27 10:58:48,058 - INFO - [COMMAND] adb shell settings put secure display_night_light_activated 1
+2025-06-27 10:58:48,239 - INFO - [OUTPUT] 
+2025-06-27 10:58:48,244 - INFO - 
+[STEP] Enable always-on display
+2025-06-27 10:58:48,248 - INFO - [COMMAND] adb shell settings put secure doze_always_on 1
+2025-06-27 10:58:48,478 - INFO - [OUTPUT] 
+2025-06-27 10:58:48,483 - INFO - 
+[STEP] Set user rotation to 90° (code 1)
+2025-06-27 10:58:48,488 - INFO - [COMMAND] adb shell settings put system user_rotation 1
+2025-06-27 10:58:48,700 - INFO - [OUTPUT] 
+2025-06-27 10:58:48,704 - INFO - 
+[STEP] Disable auto rotation
+2025-06-27 10:58:48,710 - INFO - [COMMAND] adb shell settings put system accelerometer_rotation 0
+2025-06-27 10:58:48,879 - INFO - [OUTPUT] 
+2025-06-27 10:58:48,884 - INFO - 
+[STEP] Keep screen on while charging
+2025-06-27 10:58:48,888 - INFO - [COMMAND] adb shell settings put global stay_on_while_plugged_in 3
+2025-06-27 10:58:49,067 - INFO - [OUTPUT] 
+2025-06-27 10:58:49,071 - INFO - 
+[STEP] Take screenshot
+2025-06-27 10:58:49,075 - INFO - [COMMAND] adb shell screencap -p /sdcard/disp_test.png
+2025-06-27 10:58:49,701 - INFO - [OUTPUT] 
+2025-06-27 10:58:49,885 - INFO - ADB Pull Output: /sdcard/disp_test.png: 1 file pulled, 0 skipped. 2.5 MB/s (15197 bytes in 0.006s)
+2025-06-27 10:58:49,890 - INFO -  Screenshot pulled successfully.
+2025-06-27 10:58:50,031 - INFO - 
+[STEP] Broadcast factory test intent
+2025-06-27 10:58:50,035 - INFO - [COMMAND] adb shell am broadcast -a android.intent.action.FACTORY_TEST
+2025-06-27 10:58:50,193 - INFO - [OUTPUT] Broadcasting: Intent { act=android.intent.action.FACTORY_TEST flg=0x400000 }
+Broadcast completed: result=0
+2025-06-27 10:58:50,197 - INFO - 
+[STEP] Simulate power key press
+2025-06-27 10:58:50,201 - INFO - [COMMAND] adb shell input keyevent 26
+2025-06-27 10:58:50,462 - INFO - [OUTPUT] 
+2025-06-27 10:58:50,467 - INFO - 
+[STEP] Enable magnification
+2025-06-27 10:58:50,471 - INFO - [COMMAND] adb shell settings put secure accessibility_display_magnification_enabled 1
+2025-06-27 10:58:50,617 - INFO - [OUTPUT] 
+2025-06-27 10:58:50,621 - INFO - 
+[STEP] Get font scale
+2025-06-27 10:58:50,626 - INFO - [COMMAND] adb shell settings get system font_scale
+2025-06-27 10:58:50,760 - INFO - [OUTPUT] 1.0
+2025-06-27 10:58:50,764 - INFO - 
+[STEP] Enable 3-button nav
+2025-06-27 10:58:50,768 - INFO - [COMMAND] adb shell cmd overlay enable com.android.internal.systemui.navbar.threebutton
+2025-06-27 10:58:50,953 - INFO - [OUTPUT] 
+2025-06-27 10:58:50,956 - INFO - 
+[STEP] Enable gestural nav
+2025-06-27 10:58:50,959 - INFO - [COMMAND] adb shell cmd overlay enable com.android.internal.systemui.navbar.gestural
+2025-06-27 10:58:51,080 - INFO - [OUTPUT] 
+2025-06-27 10:58:51,084 - INFO - 
+[STEP] Get screensaver components
+2025-06-27 10:58:51,087 - INFO - [COMMAND] adb shell settings get secure screensaver_components
+2025-06-27 10:58:51,197 - INFO - [OUTPUT] null
+2025-06-27 10:58:51,202 - INFO - 
+[STEP] Enable screensaver
+2025-06-27 10:58:51,206 - INFO - [COMMAND] adb shell settings put secure screensaver_enabled 1
+2025-06-27 10:58:51,328 - INFO - [OUTPUT] 
+2025-06-27 10:58:51,332 - INFO - 
+[STEP] Disable screensaver
+2025-06-27 10:58:51,336 - INFO - [COMMAND] adb shell settings put secure screensaver_enabled 0
+2025-06-27 10:58:51,463 - INFO - [OUTPUT] 
+2025-06-27 10:58:51,467 - INFO - 
+[STEP] Enable color correction
+2025-06-27 10:58:51,472 - INFO - [COMMAND] adb shell settings put secure accessibility_display_daltonizer_enabled 1
+2025-06-27 10:58:51,608 - INFO - [OUTPUT] 
+2025-06-27 10:58:51,612 - INFO - 
+[STEP] Disable color correction
+2025-06-27 10:58:51,616 - INFO - [COMMAND] adb shell settings put secure accessibility_display_daltonizer_enabled 0
+2025-06-27 10:58:51,745 - INFO - [OUTPUT] 
+2025-06-27 10:58:51,749 - INFO - 
+[STEP] Set color filter to 11
+2025-06-27 10:58:51,754 - INFO - [COMMAND] adb shell settings put secure accessibility_display_daltonizer 11
+2025-06-27 10:58:51,885 - INFO - [OUTPUT] 
+2025-06-27 10:58:51,890 - INFO - 
+[STEP] Set color filter to 12
+2025-06-27 10:58:51,894 - INFO - [COMMAND] adb shell settings put secure accessibility_display_daltonizer 12
+2025-06-27 10:58:52,029 - INFO - [OUTPUT] 
+2025-06-27 10:58:52,034 - INFO - 
+[STEP] Set color filter to 13
+2025-06-27 10:58:52,038 - INFO - [COMMAND] adb shell settings put secure accessibility_display_daltonizer 13
+2025-06-27 10:58:52,200 - INFO - [OUTPUT] 
+2025-06-27 10:58:52,204 - INFO - 
+[STEP] Get current color filter
+2025-06-27 10:58:52,209 - INFO - [COMMAND] adb shell settings get secure accessibility_display_daltonizer
+2025-06-27 10:58:52,348 - INFO - [OUTPUT] 13
+2025-06-27 10:58:52,353 - INFO - 
+[STEP] Set refresh rate to 60Hz
+2025-06-27 10:58:52,357 - INFO - [COMMAND] adb shell settings put system refresh_rate 60.0
+2025-06-27 10:58:52,512 - INFO - [OUTPUT] 
+2025-06-27 10:58:52,516 - INFO - 
+[STEP] Get current refresh rate
+2025-06-27 10:58:52,520 - INFO - [COMMAND] adb shell settings get system refresh_rate
+2025-06-27 10:58:52,680 - INFO - [OUTPUT] 60.0
+2025-06-27 10:58:52,684 - INFO - 
+[STEP] Set window animation scale to 0.5
+2025-06-27 10:58:52,688 - INFO - [COMMAND] adb shell settings put global window_animation_scale 0.5
+2025-06-27 10:58:52,842 - INFO - [OUTPUT] 
+2025-06-27 10:58:52,847 - INFO - 
+[STEP] Set transition animation scale to 0.5
+2025-06-27 10:58:52,851 - INFO - [COMMAND] adb shell settings put global transition_animation_scale 0.5
+2025-06-27 10:58:53,001 - INFO - [OUTPUT] 
+2025-06-27 10:58:53,007 - INFO - 
+[STEP] Set animator duration scale to 0.5
+2025-06-27 10:58:53,012 - INFO - [COMMAND] adb shell settings put global animator_duration_scale 0.5
+2025-06-27 10:58:53,159 - INFO - [OUTPUT] 
+2025-06-27 10:58:53,163 - INFO - [RESULT] All Display ADB testcases executed successfully.
+2025-06-27 10:58:53,325 - INFO - [TEST END] test_00_test_all_conditions
+

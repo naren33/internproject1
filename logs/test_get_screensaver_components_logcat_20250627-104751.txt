@@ -1,0 +1,69 @@
+--------- beginning of main
+06-27 10:47:50.584   806   806 I BufferQueueDebug: [Animation leash of screenshot rotation#1099](this:0xb400006fb265dbf0,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:47:50.584   806   806 I BufferQueueDebug: [BackColorSurface#1100](this:0xb400006fb2814490,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:47:50.585   806   806 I BufferQueueDebug: [transition snapshot: Display{#0 state=ON size=1080x2340 ROTATION_0}#1097](this:0xb400006fb284a640,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:47:50.585   806   806 I BufferQueueDebug: [Transition Root: Display 0 name="Built-in Screen"#1098](this:0xb400006fb2866de0,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:47:50.585   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.585   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.585   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.585   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.585   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.591  1621  1621 W ImageReader_JNI: Unable to acquire a buffer item, very likely client tried to acquire more than maxImages buffers
+06-27 10:47:50.593  1621  1621 I NoBackGesture: Config changed: newConfig={1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.11 s.550 fontWeightAdjustment=0} lastReportedConfig={1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.10 s.509 fontWeightAdjustment=0}
+06-27 10:47:50.593  1621  1621 I NoBackGesture: NavbarController: newConfig={1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.11 s.550 fontWeightAdjustment=0} mTaskbarDelegate initialized=false willApplyConfigToNavbars=false navBarCount=1
+06-27 10:47:50.604   806  1261 I BufferQueueDebug: [[Gesture Monitor] edge-swipe#1101](this:0xb400006fb2866de0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(806:/system/bin/surfaceflinger)
+06-27 10:47:50.607   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.607   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.607   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.607   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.607   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.615   806  1261 I BufferQueueDebug: [WindowToken{e953384 type=2024 android.os.BinderProxy@6032597}#1102](this:0xb400006fb284a640,id:-1,api:0,p:-1,c:-1) BufferQueue core=(806:/system/bin/surfaceflinger)
+06-27 10:47:50.618   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.618   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.618   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.618   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.618   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.619   806  1261 I BufferQueueDebug: [751576d EdgeBackGestureHandler0#1103](this:0xb400006fb265dbf0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(806:/system/bin/surfaceflinger)
+06-27 10:47:50.629   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.629   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.629   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.629   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.629   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.630   780   803 I mtkpower@impl: [setMode] type:6, enabled:0
+06-27 10:47:50.630   780   803 E mtkpower@impl: [setMode] unknown type
+06-27 10:47:50.651  1621  1621 E KeyguardClockSwitch: No clock being shown
+06-27 10:47:50.658  1621  1621 I ClockEventController: Region isDark: true
+06-27 10:47:50.667  1621  1621 E KeyguardClockSwitch: No clock being shown
+06-27 10:47:50.671   747   787 E HfLooper: dst->data[6.000000,0.000000,0.000000]
+06-27 10:47:50.673   744  1195 I hwcomposer: [HWC] (0)fire a callback of refresh to SF[4]  
+06-27 10:47:50.674  1621  1621 I ClockEventController: Region isDark: true
+06-27 10:47:50.684   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.684   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.684   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.684   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.684   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+--------- beginning of system
+06-27 10:47:50.691  1357  3356 W WindowManager: finishDrawingWindow: Window{4fc2c26 u0 com.android.systemui.wallpapers.ImageWallpaper} mDrawState=HAS_DRAWN
+06-27 10:47:50.698  1621  1621 W EmergencyButton: onConfigurationChanged, do not updated!
+06-27 10:47:50.707  1357  3356 W UserManagerService: Requested status bar icon for non-badged user 0
+06-27 10:47:50.728  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: widthSpec MeasureSpec: EXACTLY 1080 should be AT_MOST
+06-27 10:47:50.728  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: heightSpec MeasureSpec: EXACTLY 2133 should be AT_MOST
+06-27 10:47:50.728  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: widthSpec MeasureSpec: EXACTLY 1080 should be AT_MOST
+06-27 10:47:50.728  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: heightSpec MeasureSpec: EXACTLY 2148 should be AT_MOST
+06-27 10:47:50.728  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: widthSpec MeasureSpec: EXACTLY 1080 should be AT_MOST
+06-27 10:47:50.728  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: heightSpec MeasureSpec: EXACTLY 2133 should be AT_MOST
+06-27 10:47:50.742  1357  3598 W WindowManager: finishDrawingWindow: Window{898197 u0 NotificationShade} mDrawState=HAS_DRAWN
+06-27 10:47:50.753   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.753   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.753   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.753   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.758  1357  3598 W WindowManager: finishDrawingWindow: Window{f719012 u0 StatusBar} mDrawState=HAS_DRAWN
+06-27 10:47:50.763   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.763   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.763   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.763   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.771   747   787 E HfLooper: dst->data[5.000000,0.000000,0.000000]
+06-27 10:47:50.772   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.772   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.772   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:50.772   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format

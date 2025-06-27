@@ -1,0 +1,39 @@
+--------- beginning of main
+06-27 10:30:01.752   747   787 E HfLooper: dst->data[14.000000,35.000000,9671.000000]
+06-27 10:30:01.852   747   787 E HfLooper: dst->data[14.000000,40.000000,9690.000000]
+06-27 10:30:01.934 11080 11080 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+06-27 10:30:01.935 11080 11080 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+06-27 10:30:01.952   747   787 E HfLooper: dst->data[13.000000,24.000000,9695.000000]
+06-27 10:30:01.991 11080 11080 I DMABUFHEAPS: Using DMA-BUF heap named: mtk_mm
+06-27 10:30:01.991 11080 11080 I DMABUFHEAPS: Using DMA-BUF heap named: mtk_mm-uncached
+06-27 10:30:01.991 11080 11080 I DMABUFHEAPS: Using DMA-BUF heap named: mtk_svp_region-aligned
+06-27 10:30:01.992 11080 11080 I DMABUFHEAPS: Using DMA-BUF heap named: mtk_prot_region-aligned
+06-27 10:30:01.992 11080 11080 I DMABUFHEAPS: Using DMA-BUF heap named: mtk_2d_fr_region
+06-27 10:30:01.992 11080 11080 I DMABUFHEAPS: Using DMA-BUF heap named: mtk_wfd_region-aligned
+06-27 10:30:02.052   747   787 E HfLooper: dst->data[13.000000,40.000000,9669.000000]
+06-27 10:30:02.127   772   829 I libPerfCtl: xgfGetFPS pid:1621 fps:-1
+06-27 10:30:02.152   747   787 E HfLooper: dst->data[14.000000,38.000000,9683.000000]
+06-27 10:30:02.252   747   787 E HfLooper: dst->data[14.000000,38.000000,9678.000000]
+06-27 10:30:02.352   747   787 E HfLooper: dst->data[13.000000,38.000000,9688.000000]
+06-27 10:30:02.452   747   787 E HfLooper: dst->data[13.000000,40.000000,9676.000000]
+06-27 10:30:02.552   747   787 E HfLooper: dst->data[13.000000,38.000000,9676.000000]
+06-27 10:30:02.652   747   787 E HfLooper: dst->data[13.000000,38.000000,9690.000000]
+06-27 10:30:02.752   747   787 E HfLooper: dst->data[13.000000,35.000000,9678.000000]
+06-27 10:30:02.852   747   787 E HfLooper: dst->data[13.000000,35.000000,9690.000000]
+06-27 10:30:02.950  1357  6590 I ActivityManager: Broadcasting: Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }
+--------- beginning of system
+06-27 10:30:02.951  1357  6590 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x400000 }: 0
+06-27 10:30:02.952   747   787 E HfLooper: dst->data[14.000000,40.000000,9697.000000]
+06-27 10:30:02.957  1357  1929 W JobInfo : Job 'com.android.providers.media.module/com.android.providers.media.MediaService#-300' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+06-27 10:30:02.969  1357  1377 I ActivityManager: Broadcast completed: result=0
+06-27 10:30:02.974  2301  2516 I MediaProvider: Begin Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+06-27 10:30:02.990 11080 11080 W RefBase : RefBase: Explicit destruction, weak count = 0 (in 0x70469e5848). Use sp<> to manage this object.
+06-27 10:30:03.002  2301  2307 W FuseDaemon: Reducing the number of considered missed Gc histogram windows from 1668 to 100
+06-27 10:30:03.010  1357  1379 I DropBoxManagerService: add tag=system_app_strictmode isTagEnabled=true flags=0x2
+06-27 10:30:03.021  2301  2516 I MediaProvider: End Intent { act=android.intent.action.MEDIA_SCANNER_SCAN_FILE dat=file:///... flg=0x1400010 cmp=com.android.providers.media.module/com.android.providers.media.MediaService }
+06-27 10:30:03.052   747   787 E HfLooper: dst->data[14.000000,40.000000,9688.000000]
+06-27 10:30:03.129   772   829 I libPerfCtl: xgfGetFPS pid:1621 fps:-1
+06-27 10:30:03.153   747   787 E HfLooper: dst->data[14.000000,38.000000,9683.000000]
+06-27 10:30:03.253   747   787 E HfLooper: dst->data[13.000000,35.000000,9714.000000]
+06-27 10:30:03.352   747   787 E HfLooper: dst->data[14.000000,35.000000,9690.000000]
+06-27 10:30:03.452   747   787 E HfLooper: dst->data[14.000000,40.000000,9688.000000]

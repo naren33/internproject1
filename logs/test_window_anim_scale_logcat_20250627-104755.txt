@@ -1,0 +1,53 @@
+--------- beginning of main
+06-27 10:47:53.971   747   787 E HfLooper: dst->data[5.000000,0.000000,0.000000]
+06-27 10:47:53.975   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.976   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.976   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.976   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.987   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.987   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.987   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.987   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.998   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.998   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.998   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:53.998   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:54.009   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:54.009   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:54.009   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:54.009   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:54.015   772   829 I libPerfCtl: xgfGetFPS pid:1357 fps:-1
+06-27 10:47:54.015   890   890 I FPSGO   : fpsgo_boost_sched_rate_ns:-1
+06-27 10:47:54.015   890   890 I mtkpower_client: perf_lock_rel, hdl:6582, tid:890
+06-27 10:47:54.015   772   829 I libPerfCtl: xgfGetFPS pid:1621 fps:-1
+06-27 10:47:54.015   772   829 I libPerfCtl: xgfGetFPS pid:1911 fps:-1
+06-27 10:47:54.016   890   890 I FPSGO   : perfLockRel hdl:6582
+06-27 10:47:54.016   780   828 I libPowerHal: [perfLockRel] hdl:6582, idx:2
+06-27 10:47:54.016   780   828 I libPowerHal: [PD] fpsgo update cmd:1438300, param:1000
+06-27 10:47:54.016   780   828 I libPowerHal: [PD] fpsgo update cmd:1438400, param:1000
+06-27 10:47:54.016   780   828 I libPowerHal: [PD] fpsgo update cmd:1438600 param:1000
+06-27 10:47:54.016   780   828 I libPowerHal: [PD] fpsgo update cmd:1438700 param:1000
+06-27 10:47:54.019   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:54.019   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:54.019   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:54.019   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:54.029   806  1727 I SurfaceFlinger: onHandleDestroyed: name=Surface(name=Task=1)/@0x6ed34d5_transition-leash#1109, layerId=1109, parentId=0
+06-27 10:47:54.040   806   806 I BufferQueueDebug: [Surface(name=Task=1)/@0x6ed34d5_transition-leash#1109](this:0xb400006fb280e970,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:47:54.040   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:54.040   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:54.040   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:54.040   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:54.071   747   787 E HfLooper: dst->data[5.000000,0.000000,0.000000]
+06-27 10:47:54.079   780   828 I mtkpower@impl: [powerd_req] TIMER_MSG_PERF_LOCK_TIMEOUT hdl:6655
+06-27 10:47:54.079   780   828 I libPowerHal: [perfLockRel] hdl:6655, idx:17
+06-27 10:47:54.079   780   828 I libPowerHal: [unsetGPUFreq] current min:0, max:0; scn_gpu_min:0, scn_gpu_max:-1; scn_gpu_min(HL):-1, scn_gpu_max(HL):-1
+06-27 10:47:54.079   780   828 I libPowerHal: [setGPUFreq] Soft min/max = (0, 0); Hard min/max = (42, 0)
+06-27 10:47:54.079   780   828 I libPowerHal: [setGPUFreq] final min/max = (0, 0)
+06-27 10:47:54.079   780   828 I libPowerHal: INTERACTION: set gpu opp level: 0
+06-27 10:47:54.079   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:47:54.096   744  1195 I hwcomposer: [HWC] (0)fire a callback of refresh to SF[4]  
+06-27 10:47:54.106   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:54.106   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:54.106   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:54.106   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:47:54.171   747   787 E HfLooper: dst->data[5.000000,0.000000,0.000000]

@@ -1,0 +1,90 @@
+--------- beginning of main
+06-27 10:51:17.554  1357  1357 W WindowTokenClientController: Can't find attached WindowTokenClient for android.window.WindowTokenClient@6f64768
+06-27 10:51:17.556  1621  1621 I KeyguardTransitionRepository: STARTED transition: TransitionStep(from=DOZING, to=LOCKSCREEN, value=0.0, transitionState=STARTED, ownerName=FromDozingTransitionInteractor)
+06-27 10:51:17.556   747   747 I OriginChannel: batch: [1,66667000,100000000]
+06-27 10:51:17.558   806   886 I SurfaceFlinger: onHandleDestroyed: name=ColorFade BLAST#1136, layerId=1136, parentId=0
+06-27 10:51:17.558   747   747 I OriginChannel: flush: [1]
+06-27 10:51:17.559   747   787 I HfLooper: [1] flush complete
+06-27 10:51:17.575   780   828 I mtkpower@impl: [powerd_req] TIMER_MSG_PERF_LOCK_TIMEOUT hdl:6865
+06-27 10:51:17.575   780   828 I libPowerHal: [perfLockRel] hdl:6865, idx:0
+06-27 10:51:17.575   780   828 I libPowerHal: [setClusterFreq]  set cpu_ctrl cpufreq: -1 -1 -1 -1 
+06-27 10:51:17.575   780   828 I libPowerHal: [unsetGPUFreq] current min:0, max:0; scn_gpu_min:0, scn_gpu_max:-1; scn_gpu_min(HL):-1, scn_gpu_max(HL):-1
+06-27 10:51:17.575   780   828 I libPowerHal: INTERACTION: set gpu opp level: 42
+06-27 10:51:17.575   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:51:17.575   780   828 I libPowerHal: [setGPUFreq] Soft min/max = (42, 0); Hard min/max = (42, 0)
+06-27 10:51:17.575   780   828 I libPowerHal: [setGPUFreq] final min/max = (42, 0)
+06-27 10:51:17.575   780   828 I libPowerHal: INTERACTION: set gpu opp level: 42
+06-27 10:51:17.576   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:51:17.576   780   828 I libPowerHal: [PD] INTERACTION update cmd:2020000 param:0
+06-27 10:51:17.576   780   828 I libPowerHal: [PD] INTERACTION update cmd:410000 param:0
+06-27 10:51:17.576   780   828 I libPowerHal: [PD] (more) /sys/kernel/cm_mgr/dbg_cm_mgr set +prefix:dsu_mode 0;
+06-27 10:51:17.576   780   828 I libPowerHal: [PD] INTERACTION update cmd:1000000 param:-1
+06-27 10:51:17.594  1947  1947 I wpa_supplicant: wpa_driver_nl80211_driver_cmd: wlan0 recv cmd_src SETSUSPENDMODE 0
+06-27 10:51:17.594  1947  1947 I wpa_supplicant: wpa_driver_nl80211_driver_cmd: wlan0 recv cmd SETSUSPENDMODE 0
+06-27 10:51:17.604  1357  1441 I WifiService: getWifiEnabledState uid=10092 state=3
+06-27 10:51:17.614  1357  6590 I WifiService: getConnectionInfo uid=10092
+06-27 10:51:17.614  1947  1947 I wpa_supplicant: wpa_driver_nl80211_driver_cmd: ret = 0 used = 17 total = 512 buf = 
+06-27 10:51:17.618   747   787 E HfLooper: dst->data[0.000000,0.000000,0.000000]
+--------- beginning of system
+06-27 10:51:17.627  1357  1414 I DisplayPowerController2[0]: BrightnessEvent: disp=0, physDisp=local:4627039422300187648, displayState=ON, displayPolicy=BRIGHT, brt=0.04648384, initBrt=0.99999994, rcmdBrt=0.04648384, preBrt=NaN, lux=0.0, preLux=NaN, hbmMax=1.0, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=1.0, wasShortTermModelActive=true, flags=, reason=automatic, autoBrightness=true, strategy=InvalidBrightnessStrategy, autoBrightnessMode=default
+06-27 10:51:17.632  1357  1357 I BrightnessSynchronizer: [173] New Update 0.04648384(f) set brightness values:  13(i)
+06-27 10:51:17.635  1357  1357 I BrightnessSynchronizer: Swallowing update of 13(i) by update: {[173] 0.04648384(f), mUpdatedTypes=1, mConfirmedTypes=1, mTimeUpdated=30854231}
+06-27 10:51:17.635  1357  1357 I BrightnessSynchronizer: Completed Update: {[173] 0.04648384(f), mUpdatedTypes=1, mConfirmedTypes=1, mTimeUpdated=30854231}
+06-27 10:51:17.670  1357  1378 I SideFpsEventHandler: notifyPowerPressed
+06-27 10:51:17.670  1357  1378 I FingerprintManager: onPowerPressed
+06-27 10:51:17.714   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+06-27 10:51:17.759   806   806 I BufferQueueProducer: [StatusBar#91](this:0xb400006fb27fd810,id:-1,api:0,p:-1,c:806) queueBuffer: fps=0.98 dur=3075.18 max=2567.26 min=186.99
+06-27 10:51:17.759   806   806 I BufferQueueProducer: [FocusEventDebugView - display 0#69](this:0xb400006fb27cd180,id:-1,api:0,p:-1,c:806) queueBuffer: fps=0.56 dur=3573.30 max=3131.29 min=442.00
+06-27 10:51:17.759   806   806 I BufferQueueProducer: [NotificationShade#1137](this:0xb400006fb2841d90,id:-1,api:0,p:-1,c:806) queueBuffer: fps=0.96 dur=3109.41 max=2579.90 min=199.35
+06-27 10:51:17.760   806   806 I BufferQueueProducer: [NavigationBar0#87](this:0xb400006fb28005a0,id:-1,api:0,p:-1,c:806) queueBuffer: fps=0.63 dur=3198.41 max=2567.99 min=630.42
+06-27 10:51:17.760   806   806 I BufferQueueProducer: [PointerLocation - display 0#54](this:0xb400006fb27aaec0,id:-1,api:0,p:-1,c:806) queueBuffer: fps=0.56 dur=3553.14 max=3131.91 min=421.23
+06-27 10:51:17.761   806   806 W SurfaceFlinger: commitOffscreenLayers Layer 0xb400006fb27ecc30 not alive
+06-27 10:51:17.761   806   806 I SurfaceFlinger: onHandleDestroyed: name=ColorFade#1135, layerId=1135, parentId=0
+06-27 10:51:17.763  1357  1414 W PowerManagerService: Screen on took 289 ms
+06-27 10:51:17.767   744   744 I hwcomposer: [HWCDisplay] (0) setColorTransform hint:0 ok:1 Transform Ioctl 1  
+06-27 10:51:17.768   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:17.768   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:17.768   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:17.768   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:17.768   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:17.777   806   806 I BufferQueueProducer: [FramebufferSurface](this:0xb40000700264c2f0,id:-1,api:1,p:806,c:806) queueBuffer: fps=2.65 dur=4906.86 max=4779.39 min=6.24
+06-27 10:51:17.777   744   744 I hwcomposer: [HWCDisplay] setColorTransformForJob ccorr_state=0->0 hint=0 force_disable_color=0 linear=0  
+06-27 10:51:17.777   744   744 I hwcomposer: [HWCDisplay] [Display_0 (type:1, mode:2)] fps:2.649224,dur:4907.10,max:4779.88,min:5.99  
+06-27 10:51:17.778   744  1200 I hwcomposer: [DRMDEV] create blob id of color transform[success] mode=0 f=0 mat=2048    0    0    0   0 2048    0    0   0    0 2048    0   0    0    0 2048  
+06-27 10:51:17.783   806   806 I BufferQueueDebug: [ColorFade BLAST#1136](this:0xb400006fb27ef440,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:51:17.784   806   806 I BufferQueueDebug: [ColorFade#1135](this:0xb400006fb282b110,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:51:17.786   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:17.787   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:17.787   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:17.787   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:17.787   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:17.787  1006  1042 E flp     : mnld_screen_monitor_thread: Screen on
+06-27 10:51:17.787  1006  1042 E flp     : mnld_screen_monitor_thread: Wake Monitor Restart
+06-27 10:51:17.798   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:17.798   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:17.798   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:17.798   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:17.798   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:17.811   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:17.812   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:17.812   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:17.812   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:17.812   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:17.813  1621  1621 I KeyguardTransitionRepository: FINISHED transition: TransitionStep(from=DOZING, to=LOCKSCREEN, value=1.0, transitionState=FINISHED, ownerName=FromDozingTransitionInteractor)
+06-27 10:51:17.814   747   787 E HfLooper: dst->data[13.000000,-931.000000,9690.000000]
+06-27 10:51:17.822   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:17.822   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:17.822   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:17.822   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:17.822   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:17.831   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:17.831   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:17.831   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:17.831   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:17.831   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:17.841   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:17.841   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:17.841   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:17.841   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:17.841   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:17.845  1097  1163 D AAL     : onBacklightChanged: 873/1023 -> 811/1023(phy:811/4095)

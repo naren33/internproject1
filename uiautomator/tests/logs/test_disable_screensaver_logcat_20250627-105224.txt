@@ -1,0 +1,20 @@
+--------- beginning of main
+06-27 10:52:23.378   780   803 I mtkpower@impl: [setMode] type:6, enabled:0
+06-27 10:52:23.379   780   803 E mtkpower@impl: [setMode] unknown type
+06-27 10:52:23.389   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+06-27 10:52:23.490   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+06-27 10:52:23.542   806   806 I BufferQueueProducer: [NotificationShade#1156](this:0xb400006fb2811700,id:-1,api:0,p:-1,c:806) queueBuffer: fps=20.52 dur=1072.31 max=298.56 min=10.56
+06-27 10:52:23.543   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:52:23.543   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:52:23.543   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:52:23.543   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:52:23.544   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:52:23.549   806   806 I BufferQueueProducer: [FramebufferSurface](this:0xb40000700264c2f0,id:-1,api:1,p:806,c:806) queueBuffer: fps=33.11 dur=1208.16 max=240.00 min=7.58
+06-27 10:52:23.550   744   744 I hwcomposer: [HWCDisplay] [Display_0 (type:1, mode:2)] fps:38.891781,dur:1208.48,max:240.22,min:6.34  
+06-27 10:52:23.589   747   787 E HfLooper: dst->data[13.000000,26.000000,9784.000000]
+06-27 10:52:23.593   744  1195 I hwcomposer: [HWC] (0)fire a callback of refresh to SF[4]  
+06-27 10:52:23.598   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:52:23.598   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:52:23.598   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:52:23.598   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:52:23.598   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format

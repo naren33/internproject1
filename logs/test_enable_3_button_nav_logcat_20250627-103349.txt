@@ -1,0 +1,65 @@
+--------- beginning of main
+06-27 10:33:48.742 11809 11809 I idmap2d : Starting
+06-27 10:33:48.748   772   829 I libPerfCtl: xgfGetFPS pid:1357 fps:-1
+06-27 10:33:48.748   772   829 I libPerfCtl: xgfGetFPS pid:1621 fps:-1
+--------- beginning of system
+06-27 10:33:48.803  2301  2301 I ActivityThread: ApplicationInfo updating for com.android.providers.media.module, new timestamp: 29805390
+06-27 10:33:48.803  2301  2301 I ActivityThread: assets removed: []
+06-27 10:33:48.803  2301  2301 I ActivityThread: assets added: []
+06-27 10:33:48.802  2200  2200 I ActivityThread: ApplicationInfo updating for com.android.providers.blockednumber, new timestamp: 29805386
+06-27 10:33:48.802  2200  2200 I ActivityThread: assets removed: []
+06-27 10:33:48.802  2200  2200 I ActivityThread: assets added: []
+06-27 10:33:48.803  2080  2080 I ActivityThread: ApplicationInfo updating for com.android.permissioncontroller, new timestamp: 29805394
+06-27 10:33:48.803  2080  2080 I ActivityThread: assets removed: []
+06-27 10:33:48.803  2080  2080 I ActivityThread: assets added: []
+06-27 10:33:48.806  1357  1377 I ActivityTaskManager: Config changes=80000000 {1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.8 s.388 fontWeightAdjustment=0}
+06-27 10:33:48.808  2389  2389 I ActivityThread: ApplicationInfo updating for com.mediatek.location.mtkgeofence, new timestamp: 29805385
+06-27 10:33:48.808  2389  2389 I ActivityThread: assets removed: []
+06-27 10:33:48.808  2389  2389 I ActivityThread: assets added: []
+06-27 10:33:48.809  1846  1846 I ActivityThread: ApplicationInfo updating for com.mediatek.entitlement, new timestamp: 29805386
+06-27 10:33:48.809  1846  1846 I ActivityThread: assets removed: []
+06-27 10:33:48.809  1846  1846 I ActivityThread: assets added: []
+06-27 10:33:48.809  2754  2754 I ActivityThread: ApplicationInfo updating for com.android.inputmethod.latin, new timestamp: 29805393
+06-27 10:33:48.809  2754  2754 I ActivityThread: assets removed: []
+06-27 10:33:48.809  2754  2754 I ActivityThread: assets added: []
+06-27 10:33:48.811  1828  1828 I ActivityThread: ApplicationInfo updating for com.android.se, new timestamp: 29805391
+06-27 10:33:48.811  1828  1828 I ActivityThread: assets removed: []
+06-27 10:33:48.811  1828  1828 I ActivityThread: assets added: []
+06-27 10:33:48.814  1783  1783 I ActivityThread: ApplicationInfo updating for com.mediatek.ims, new timestamp: 29805386
+06-27 10:33:48.814  1783  1783 I ActivityThread: assets removed: []
+06-27 10:33:48.814  1783  1783 I ActivityThread: assets added: []
+06-27 10:33:48.814  2245  2245 I ActivityThread: ApplicationInfo updating for android.ext.services, new timestamp: 29805390
+06-27 10:33:48.814  2245  2245 I ActivityThread: assets removed: []
+06-27 10:33:48.814  2245  2245 I ActivityThread: assets added: []
+06-27 10:33:48.812  2321  2321 I ActivityThread: ApplicationInfo updating for com.sec.android.app.camerasaver, new timestamp: 29805390
+06-27 10:33:48.812  2321  2321 I ActivityThread: assets removed: []
+06-27 10:33:48.812  2321  2321 I ActivityThread: assets added: []
+06-27 10:33:48.815  1621  1621 I ActivityThread: ApplicationInfo updating for com.android.systemui, new timestamp: 29805389
+06-27 10:33:48.815  1621  1621 I ActivityThread: assets removed: []
+06-27 10:33:48.815  1621  1621 I ActivityThread: assets added: []
+06-27 10:33:48.815  1811  1811 I ActivityThread: ApplicationInfo updating for com.mediatek.smartratswitch.service, new timestamp: 29805393
+06-27 10:33:48.815  1811  1811 I ActivityThread: assets removed: []
+06-27 10:33:48.815  1811  1811 I ActivityThread: assets added: []
+06-27 10:33:48.818  2314  2314 I ActivityThread: ApplicationInfo updating for com.mediatek.omacp, new timestamp: 29805389
+06-27 10:33:48.818  2314  2314 I ActivityThread: assets removed: []
+06-27 10:33:48.818  2314  2314 I ActivityThread: assets added: []
+06-27 10:33:48.818  1706  1706 I ActivityThread: ApplicationInfo updating for com.android.networkstack, new timestamp: 29805392
+06-27 10:33:48.818  1706  1706 I ActivityThread: assets removed: []
+06-27 10:33:48.818  1706  1706 I ActivityThread: assets added: []
+06-27 10:33:48.811  1831  1831 I ActivityThread: ApplicationInfo updating for com.mediatek.entitlement.o2, new timestamp: 29805391
+06-27 10:33:48.811  1831  1831 I ActivityThread: assets removed: []
+06-27 10:33:48.811  1831  1831 I ActivityThread: assets added: []
+06-27 10:33:48.819  1357  1377 I WindowManager: Override config changes=80000000 {1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.8 s.388 fontWeightAdjustment=0} for displayId=0
+06-27 10:33:48.819  1911  1911 I ActivityThread: ApplicationInfo updating for com.android.launcher3, new timestamp: 29805393
+06-27 10:33:48.819  1911  1911 I ActivityThread: assets removed: []
+06-27 10:33:48.819  1911  1911 I ActivityThread: assets added: []
+06-27 10:33:48.835  1911  1911 I TouchInteractionService: preloadOverview: forSUWAllSet=false, isHomeAndOverviewSame=true
+06-27 10:33:48.837  1357  1377 W ActivityTaskManager: Current config: {1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1110dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 72 - 1080, 2292) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.8 s.388 fontWeightAdjustment=0} unchanged for IME proc com.android.inputmethod.latin
+06-27 10:33:48.837  1621  1621 I NoBackGesture: Config changed: newConfig={1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.8 s.427 fontWeightAdjustment=0} lastReportedConfig={1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.7 s.386 fontWeightAdjustment=0}
+06-27 10:33:48.837  1621  1621 I NoBackGesture: NavbarController: newConfig={1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.8 s.427 fontWeightAdjustment=0} mTaskbarDelegate initialized=false willApplyConfigToNavbars=false navBarCount=1
+06-27 10:33:48.856  1621  1659 W Looper  : Slow dispatch took 34ms wmshell.main h=android.os.Handler c=com.android.wm.shell.transition.Transitions$TransitionPlayerImpl$$ExternalSyntheticLambda1@651eb1f m=0
+06-27 10:33:48.856  1842  1842 I ActivityThread: ApplicationInfo updating for com.android.providers.telephony, new timestamp: 29805394
+06-27 10:33:48.856  1842  1842 I ActivityThread: assets removed: []
+06-27 10:33:48.856  1842  1842 I ActivityThread: assets added: []
+06-27 10:33:48.863   806   806 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+06-27 10:33:48.866  1357  1380 V WindowManager: Queueing transition: TransitionRecord{a297f77 id=-1 type=SLEEP flags=0x0}

@@ -1,0 +1,9 @@
+--------- beginning of main
+06-27 10:48:22.072   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+06-27 10:48:22.172   747   787 E HfLooper: dst->data[12.000000,0.000000,0.000000]
+06-27 10:48:22.272   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+06-27 10:48:22.278  1357  3356 I ActivityManager: Broadcasting: Intent { act=android.intent.action.FACTORY_TEST flg=0x400000 }
+--------- beginning of system
+06-27 10:48:22.279  1357  3356 I ActivityManager: Enqueued broadcast Intent { act=android.intent.action.FACTORY_TEST flg=0x400000 }: 0
+06-27 10:48:22.279  1357  1377 I ActivityManager: Broadcast completed: result=0
+06-27 10:48:22.372   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]

@@ -1,0 +1,13 @@
+--------- beginning of main
+06-27 10:52:24.190   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+06-27 10:52:24.289   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+06-27 10:52:24.338   744   744 I hwcomposer: [HWCDisplay] (0) setColorTransform hint:0 ok:1 Transform Ioctl 1  
+06-27 10:52:24.339   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:52:24.339   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:52:24.339   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:52:24.339   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:52:24.339   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:52:24.350   744   744 I hwcomposer: [HWCDisplay] setColorTransformForJob ccorr_state=2->0 hint=0 force_disable_color=0 linear=0  
+06-27 10:52:24.351   744  1200 I hwcomposer: [DRMDEV] create blob id of color transform[success] mode=0 f=0 mat=2048    0    0    0   0 2048    0    0   0    0 2048    0   0    0    0 2048  
+06-27 10:52:24.389   747   787 E HfLooper: dst->data[13.000000,31.000000,9726.000000]
+06-27 10:52:24.393   744  1195 I hwcomposer: [HWC] (0)fire a callback of refresh to SF[4]  

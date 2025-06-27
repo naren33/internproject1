@@ -1,0 +1,8 @@
+--------- beginning of main
+06-27 10:51:13.350  1621  1621 I KeyguardTransitionRepository: FINISHED transition: TransitionStep(from=GONE, to=DOZING, value=1.0, transitionState=FINISHED, ownerName=FromGoneTransitionInteractor(Sleep transition triggered))
+06-27 10:51:13.360  1621  1684 E QuickAccessWalletKeyguardQuickAffordanceConfig: Wallet card retrieval error, message: "null"
+06-27 10:51:13.360  1621  1684 E QuickAccessWalletKeyguardQuickAffordanceConfig: Wallet card retrieval error, message: "null"
+06-27 10:51:13.361 10292 10320 W YouTube : Empty persistent device token received from InnerTube.
+06-27 10:51:13.363 10292 10319 W YouTube : Empty persistent device token received from InnerTube.
+06-27 10:51:13.364  1621  1684 E QuickAccessWalletKeyguardQuickAffordanceConfig: Wallet card retrieval error, message: "null"
+06-27 10:51:13.446  1621  1626 I ndroid.systemui: Background concurrent mark compact GC freed 20MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 13MB/27MB, paused 763us,3.137ms total 126.719ms

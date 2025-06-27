@@ -1,0 +1,6 @@
+--------- beginning of main
+06-27 10:30:06.131   772   829 I libPerfCtl: xgfGetFPS pid:1357 fps:-1
+06-27 10:30:06.132   772   829 I libPerfCtl: xgfGetFPS pid:1621 fps:-1
+06-27 10:30:06.318   737  2376 W libc    : invalid pthread_t (0) passed to pthread_join
+06-27 10:30:06.319   737  2376 I [Awinic]: Awinic kctl monitor pthread deinit success
+06-27 10:30:06.319   737  2376 I [Awinic]: reset done !

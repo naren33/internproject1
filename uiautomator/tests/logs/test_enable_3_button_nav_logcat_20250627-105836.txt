@@ -1,0 +1,83 @@
+--------- beginning of main
+06-27 10:58:35.593   737  2374 W libc    : invalid pthread_t (0) passed to pthread_join
+06-27 10:58:35.593   737  2374 I [Awinic]: Awinic kctl monitor pthread deinit success
+06-27 10:58:35.594   737  2374 I [Awinic]: reset done !
+06-27 10:58:35.645   772   829 I libPerfCtl: xgfGetFPS pid:1357 fps:-1
+06-27 10:58:35.645   772   829 I libPerfCtl: xgfGetFPS pid:1621 fps:-1
+06-27 10:58:35.847 13966 13966 I idmap2d : Starting
+--------- beginning of system
+06-27 10:58:35.930  2200  2200 I ActivityThread: ApplicationInfo updating for com.android.providers.blockednumber, new timestamp: 31292515
+06-27 10:58:35.930  2200  2200 I ActivityThread: assets removed: []
+06-27 10:58:35.930  2200  2200 I ActivityThread: assets added: []
+06-27 10:58:35.932  1357  1377 I ActivityTaskManager: Config changes=80000000 {1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.22 s.962 fontWeightAdjustment=0}
+06-27 10:58:35.932  2245  2245 I ActivityThread: ApplicationInfo updating for android.ext.services, new timestamp: 31292518
+06-27 10:58:35.932  2245  2245 I ActivityThread: assets removed: []
+06-27 10:58:35.932  2245  2245 I ActivityThread: assets added: []
+06-27 10:58:35.932  2389  2389 I ActivityThread: ApplicationInfo updating for com.mediatek.location.mtkgeofence, new timestamp: 31292515
+06-27 10:58:35.932  2389  2389 I ActivityThread: assets removed: []
+06-27 10:58:35.932  2389  2389 I ActivityThread: assets added: []
+06-27 10:58:35.933  2321  2321 I ActivityThread: ApplicationInfo updating for com.sec.android.app.camerasaver, new timestamp: 31292518
+06-27 10:58:35.933  2321  2321 I ActivityThread: assets removed: []
+06-27 10:58:35.933  2321  2321 I ActivityThread: assets added: []
+06-27 10:58:35.933  2754  2754 I ActivityThread: ApplicationInfo updating for com.android.inputmethod.latin, new timestamp: 31292522
+06-27 10:58:35.933  2754  2754 I ActivityThread: assets removed: []
+06-27 10:58:35.933  2754  2754 I ActivityThread: assets added: []
+06-27 10:58:35.933  1846  1846 I ActivityThread: ApplicationInfo updating for com.mediatek.entitlement, new timestamp: 31292515
+06-27 10:58:35.933  1846  1846 I ActivityThread: assets removed: []
+06-27 10:58:35.933  1846  1846 I ActivityThread: assets added: []
+06-27 10:58:35.934  2314  2314 I ActivityThread: ApplicationInfo updating for com.mediatek.omacp, new timestamp: 31292517
+06-27 10:58:35.934  2314  2314 I ActivityThread: assets removed: []
+06-27 10:58:35.934  2314  2314 I ActivityThread: assets added: []
+06-27 10:58:35.935  1811  1811 I ActivityThread: ApplicationInfo updating for com.mediatek.smartratswitch.service, new timestamp: 31292521
+06-27 10:58:35.935  1811  1811 I ActivityThread: assets removed: []
+06-27 10:58:35.935  1811  1811 I ActivityThread: assets added: []
+06-27 10:58:35.935  1831  1831 I ActivityThread: ApplicationInfo updating for com.mediatek.entitlement.o2, new timestamp: 31292519
+06-27 10:58:35.935  1831  1831 I ActivityThread: assets removed: []
+06-27 10:58:35.935  1831  1831 I ActivityThread: assets added: []
+06-27 10:58:35.935  1783  1783 I ActivityThread: ApplicationInfo updating for com.mediatek.ims, new timestamp: 31292515
+06-27 10:58:35.935  1783  1783 I ActivityThread: assets removed: []
+06-27 10:58:35.935  1783  1783 I ActivityThread: assets added: []
+06-27 10:58:35.935  1828  1828 I ActivityThread: ApplicationInfo updating for com.android.se, new timestamp: 31292519
+06-27 10:58:35.935  1828  1828 I ActivityThread: assets removed: []
+06-27 10:58:35.935  1828  1828 I ActivityThread: assets added: []
+06-27 10:58:35.937  1706  1706 I ActivityThread: ApplicationInfo updating for com.android.networkstack, new timestamp: 31292520
+06-27 10:58:35.937  1706  1706 I ActivityThread: assets removed: []
+06-27 10:58:35.937  1706  1706 I ActivityThread: assets added: []
+06-27 10:58:35.938  2301  2301 I ActivityThread: ApplicationInfo updating for com.android.providers.media.module, new timestamp: 31292518
+06-27 10:58:35.938  2301  2301 I ActivityThread: assets removed: []
+06-27 10:58:35.938  2301  2301 I ActivityThread: assets added: []
+06-27 10:58:35.940  1911  1911 I ActivityThread: ApplicationInfo updating for com.android.launcher3, new timestamp: 31292522
+06-27 10:58:35.940  1911  1911 I ActivityThread: assets removed: []
+06-27 10:58:35.940  1911  1911 I ActivityThread: assets added: []
+06-27 10:58:35.945  1621  1621 I ActivityThread: ApplicationInfo updating for com.android.systemui, new timestamp: 31292517
+06-27 10:58:35.945  1621  1621 I ActivityThread: assets removed: []
+06-27 10:58:35.945  1621  1621 I ActivityThread: assets added: []
+06-27 10:58:35.946  1357  1377 I WindowManager: Override config changes=80000000 {1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.22 s.962 fontWeightAdjustment=0} for displayId=0
+06-27 10:58:35.960  1357  1377 W ActivityTaskManager: Current config: {1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1110dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 72 - 1080, 2292) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.22 s.962 fontWeightAdjustment=0} unchanged for IME proc com.android.inputmethod.latin
+06-27 10:58:35.960  1621  1621 I NoBackGesture: Config changed: newConfig={1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.22 s.1001 fontWeightAdjustment=0} lastReportedConfig={1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.21 s.960 fontWeightAdjustment=0}
+06-27 10:58:35.960  1621  1621 I NoBackGesture: NavbarController: newConfig={1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.22 s.1001 fontWeightAdjustment=0} mTaskbarDelegate initialized=false willApplyConfigToNavbars=false navBarCount=1
+06-27 10:58:35.961  1911  1911 I TouchInteractionService: preloadOverview: forSUWAllSet=false, isHomeAndOverviewSame=true
+06-27 10:58:35.975  1842  1842 I ActivityThread: ApplicationInfo updating for com.android.providers.telephony, new timestamp: 31292522
+06-27 10:58:35.975  1842  1842 I ActivityThread: assets removed: []
+06-27 10:58:35.975  1842  1842 I ActivityThread: assets added: []
+06-27 10:58:35.975   806   806 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+06-27 10:58:35.982  1357  1699 W InputManager-JNI: Input channel object '[Gesture Monitor] edge-swipe (client)' was disposed without first being removed with the input manager!
+06-27 10:58:35.991   806   806 I SurfaceFlinger: onHandleDestroyed: name=[Gesture Monitor] edge-swipe#1177, layerId=1177, parentId=0
+06-27 10:58:36.002   806   806 I BufferQueueDebug: [[Gesture Monitor] edge-swipe#1177](this:0xb400006fb2841d90,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:58:36.011  1357  1357 W WindowManager: finishDrawingWindow: Window{e44cec2 u0 FocusEventDebugView - display 0} mDrawState=DRAW_PENDING
+06-27 10:58:36.013   806   806 I BufferQueueProducer: [FocusEventDebugView - display 0#69](this:0xb400006fb27cd180,id:-1,api:0,p:-1,c:806) queueBuffer: fps=7.92 dur=1768.26 max=1423.38 min=7.41
+06-27 10:58:36.017  1357  1380 I DisplayDeviceRepository: Display device changed: DisplayDeviceInfo{"Built-in Screen": uniqueId="local:4627039422300187648", 720 x 1600, modeId 1, renderFrameRate 90.0, defaultModeId 1, userPreferredModeId -1, supportedModes [{id=1, width=720, height=1600, fps=90.0, vsync=90.0, synthetic=false, alternativeRefreshRates=[60.0], supportedHdrTypes=[]}, {id=2, width=720, height=1600, fps=60.0, vsync=60.0, synthetic=false, alternativeRefreshRates=[90.0], supportedHdrTypes=[]}], colorMode 0, supportedColorModes [0], hdrCapabilities HdrCapabilities{mSupportedHdrTypes=[], mMaxLuminance=500.0, mMaxAverageLuminance=500.0, mMinLuminance=0.0}, allmSupported false, gameContentTypeSupported false, density 300, 254.0 x 254.0 dpi, appVsyncOff 1033333, presDeadline 16100000, cutout DisplayCutout{insets=Rect(0, 49 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(323, 0 - 398, 49), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=720 displayHeight=1600 physicalDisplayWidth=720 physicalDisplayHeight=1600 density={1.875} cutoutSpec={M 0,0 L -20, 0 L -20, 26 L 20, 26 L 20, 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, touch INTERNAL, rotation 0, type INTERNAL, address {port=0, model=0x40368bd6e7ee6c}, deviceProductInfo DeviceProductInfo{name=MTKDEV, manufacturerPnpId=MTK, productId=35638, modelYear=null, manufactureDate=ManufactureDate{week=42, year=2021}, connectionToSinkType=0}, state OFF, committedState OFF, frameRateOverride , brightnessMinimum 0.0, brightnessMaximum 1.0, brightnessDefault 0.4, hdrSdrRatio NaN, FLAG_ALLOWED_TO_BE_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, FLAG_TRUSTED, installOrientation 0, displayShape DisplayShape{ spec=2134893525 displayWidth=720 displayHeight=1600 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}}
+06-27 10:58:36.021  1357  1378 W WindowManager: finishDrawingWindow: Window{34b049d u0 PointerLocation - display 0} mDrawState=DRAW_PENDING
+06-27 10:58:36.025   806   806 I BufferQueueProducer: [PointerLocation - display 0#54](this:0xb400006fb27aaec0,id:-1,api:0,p:-1,c:806) queueBuffer: fps=0.06 dur=17255.71 max=17255.71 min=17255.71
+06-27 10:58:36.035  1357  1560 I AppWidgetServiceImpl: Received broadcast: android.intent.action.PACKAGE_CHANGED on user 0
+06-27 10:58:36.047  1357  1378 W WindowManager: finishDrawingWindow: Window{34b049d u0 PointerLocation - display 0} mDrawState=HAS_DRAWN
+06-27 10:58:36.050  4937  4937 I ActivityThread: ApplicationInfo updating for com.android.gallery3d, new timestamp: 31292520
+06-27 10:58:36.050  4937  4937 I ActivityThread: assets removed: []
+06-27 10:58:36.050  4937  4937 I ActivityThread: assets added: []
+06-27 10:58:36.060   727   727 I netd    : tetherGetStats() -> {[]} <3.28ms>
+06-27 10:58:36.064  1357  9131 W JobInfo : Job 'com.android.gallery3d/.app.PackagesMonitor$AsyncService#1' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+06-27 10:58:36.065  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:58:36.066  1357  1390 W MagnificationConnectionManager: requestConnection duplicated request: connect=true, mConnectionState=CONNECTED
+06-27 10:58:36.074  1357  1390 W VoiceInteractionManager: no available voice recognition services found for user 0
+06-27 10:58:36.077  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:58:36.077  1911  2005 D PackageUpdatedTask: Package updated: mOp=UPDATE packages=[android]

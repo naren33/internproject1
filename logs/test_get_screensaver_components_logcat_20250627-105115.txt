@@ -1,0 +1,25 @@
+--------- beginning of main
+06-27 10:51:14.749  1357  1930 W InputManager-JNI: Input channel object 'b69fe28 EdgeBackGestureHandler0 (client)' was disposed without first being removed with the input manager!
+--------- beginning of system
+06-27 10:51:14.762  1357  1930 W WindowManager: finishDrawingWindow: Window{4fc2c26 u0 com.android.systemui.wallpapers.ImageWallpaper} mDrawState=DRAW_PENDING
+06-27 10:51:14.768   806  1261 I BufferQueueDebug: [Transition Root: Display 0 name="Built-in Screen"#1143](this:0xb400006fb280bbe0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(806:/system/bin/surfaceflinger)
+06-27 10:51:14.812   806   886 I SurfaceFlinger: onHandleDestroyed: name=Transition Root: Display 0 name="Built-in Screen"#1143, layerId=1143, parentId=0
+06-27 10:51:14.813   806   886 I SurfaceFlinger: onHandleDestroyed: name=b69fe28 EdgeBackGestureHandler0#1123, layerId=1123, parentId=0
+06-27 10:51:14.813   806   886 I SurfaceFlinger: onHandleDestroyed: name=WindowToken{47fa44b type=2024 android.os.BinderProxy@2d7511a}#1122, layerId=1122, parentId=0
+06-27 10:51:14.815   806   806 I BufferQueueDebug: [WindowToken{47fa44b type=2024 android.os.BinderProxy@2d7511a}#1122](this:0xb400006fb26525b0,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:51:14.815   806   806 I BufferQueueDebug: [Transition Root: Display 0 name="Built-in Screen"#1143](this:0xb400006fb280bbe0,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:51:14.815   806   806 I BufferQueueDebug: [b69fe28 EdgeBackGestureHandler0#1123](this:0xb400006fb2828380,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:51:14.847  1357  1929 W WindowManager: finishDrawingWindow: Window{898197 u0 NotificationShade} mDrawState=HAS_DRAWN
+06-27 10:51:14.861   772   829 I libPerfCtl: xgfGetFPS pid:1357 fps:-1
+06-27 10:51:14.861   772   829 I libPerfCtl: xgfGetFPS pid:1621 fps:-1
+06-27 10:51:14.862  1357  1571 I MR2ServiceImpl: Updating composite discovery preference | preference: RouteDiscoveryRequest{ preferredFeatures={}, activeScan=false }, active routers: []
+06-27 10:51:14.863  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:14.863  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:51:14.871  1621  1621 W LoadedApk: New application info for package com.android.systemui is out of date with TS 30851126 < the current TS 30851329
+06-27 10:51:14.873  1357  1929 W WindowManager: finishDrawingWindow: Window{f719012 u0 StatusBar} mDrawState=HAS_DRAWN
+06-27 10:51:14.873  1621  1621 I NoBackGesture: Config changed: newConfig={1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.15 s.714 fontWeightAdjustment=0} lastReportedConfig={1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.14 s.673 fontWeightAdjustment=0}
+06-27 10:51:14.873  1621  1621 I NoBackGesture: NavbarController: newConfig={1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.15 s.714 fontWeightAdjustment=0} mTaskbarDelegate initialized=false willApplyConfigToNavbars=false navBarCount=1
+06-27 10:51:14.952  1621  1621 E KeyguardClockSwitch: No clock being shown
+06-27 10:51:14.971  1621  1621 I ClockEventController: Region isDark: true
+06-27 10:51:14.990  1621  1621 D ZenModeController: Removed callback class com.android.keyguard.ClockEventController$zenModeCallback$1
+06-27 10:51:14.990  1621  1621 E KeyguardClockSwitch: No clock being shown

@@ -1,0 +1,18 @@
+--------- beginning of main
+06-27 10:48:17.373   747   787 E HfLooper: dst->data[12.000000,0.000000,0.000000]
+06-27 10:48:17.398   772   829 I libPerfCtl: xgfGetFPS pid:1621 fps:-1
+06-27 10:48:17.447   806   806 I BufferQueueProducer: [NotificationShade#1114](this:0xb400006fb27ef440,id:-1,api:0,p:-1,c:806) queueBuffer: fps=0.12 dur=8048.66 max=8048.66 min=8048.66
+06-27 10:48:17.448   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:48:17.448   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:48:17.449   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:48:17.449   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:48:17.458   806   806 I BufferQueueProducer: [FramebufferSurface](this:0xb40000700264c2f0,id:-1,api:1,p:806,c:806) queueBuffer: fps=0.25 dur=8048.78 max=7994.90 min=53.88
+06-27 10:48:17.460   744   744 I hwcomposer: [HWCDisplay] [Display_0 (type:1, mode:2)] fps:0.248484,dur:8048.81,max:7995.09,min:53.71  
+06-27 10:48:17.471   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+06-27 10:48:17.509   744  1195 I hwcomposer: [HWC] (0)fire a callback of refresh to SF[4]  
+06-27 10:48:17.512   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:48:17.512   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:48:17.512   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:48:17.512   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:48:17.572   747   787 E HfLooper: dst->data[13.000000,43.000000,9690.000000]
+06-27 10:48:17.654  1004  1012 E md_thermal: interval=40 temp: 28000 27000 26300 26300

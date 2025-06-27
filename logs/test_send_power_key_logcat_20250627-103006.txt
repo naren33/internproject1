@@ -1,0 +1,272 @@
+--------- beginning of main
+06-27 10:30:04.753   747   787 E HfLooper: dst->data[14.000000,35.000000,9685.000000]
+06-27 10:30:04.853   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+06-27 10:30:04.938  1357  1378 I SideFpsEventHandler: notifyPowerPressed
+--------- beginning of system
+06-27 10:30:04.938  1357  1378 I FingerprintManager: onPowerPressed
+06-27 10:30:04.939  1357  1378 I PowerGroup: Powering off display group due to power_button (groupId= 0, uid= 1000, millisSinceLastUserActivity=153011, lastUserActivityEvent=other)...
+06-27 10:30:04.940  1357  1378 I PowerManagerService: Going to sleep due to power_button (uid 1000, screenOffTimeout=60000, activityTimeoutWM=-1, maxDimRatio=0.20000005, maxDimDur=7000)...
+06-27 10:30:04.950  1621  1621 I KeyguardTransitionRepository: STARTED transition: TransitionStep(from=GONE, to=DOZING, value=0.0, transitionState=STARTED, ownerName=FromGoneTransitionInteractor(Sleep transition triggered))
+06-27 10:30:04.952   747   787 E HfLooper: dst->data[13.000000,43.000000,9681.000000]
+06-27 10:30:04.957  1621  1621 I vol.VolumeDialogImpl: mDialog.dismiss() reason: volume_controller from: com.android.systemui.volume.VolumeDialogImpl$7.onDismissRequested:3
+06-27 10:30:04.967   806   806 I BufferQueueProducer: [NavigationBar0#87](this:0xb400006fb28005a0,id:-1,api:0,p:-1,c:806) queueBuffer: fps=0.00 dur=1122166.22 max=1122130.72 min=11.78
+06-27 10:30:04.967   806   806 I BufferQueueProducer: [FocusEventDebugView - display 0#69](this:0xb400006fb27cd180,id:-1,api:0,p:-1,c:806) queueBuffer: fps=0.00 dur=1122166.72 max=1122166.72 min=1122166.72
+06-27 10:30:04.970   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:04.970   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:04.970   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:04.970   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:04.970   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:04.971   806  1727 I BufferQueueDebug: [ColorFade#1062](this:0xb400006fb287acd0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(806:/system/bin/surfaceflinger)
+06-27 10:30:04.973   737  1547 W AudioALSAStreamOut: setParameters(), still have param.size() = 1, remain param = "MixerThreadSleep="
+06-27 10:30:04.974   806   888 I BufferQueueDebug: [ColorFade BLAST#1063](this:0xb400006fb28478b0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(806:/system/bin/surfaceflinger)
+06-27 10:30:04.974   737  2374 W AudioALSAStreamOut: setParameters(), still have param.size() = 1, remain param = "NoAudioTrack=0"
+06-27 10:30:04.974  1357  6590 W AS.PlaybackActivityMon: No piid assigned for invalid/internal port id 74
+06-27 10:30:04.976   806   806 I BufferQueueProducer: [FramebufferSurface](this:0xb40000700264c2f0,id:-1,api:1,p:806,c:806) queueBuffer: fps=0.41 dur=4918.10 max=4855.94 min=62.16
+06-27 10:30:04.977   744   744 I hwcomposer: [HWCDisplay] [Display_0 (type:1, mode:2)] fps:0.406700,dur:4917.63,max:4855.73,min:61.89  
+06-27 10:30:04.977   790  1058 D APM_AudioPolicyManager: [MTK_APM_Output]releaseOutput() 29 portId 67
+06-27 10:30:04.980   737  3352 I [Awinic]: aw_skt_arsi_query_param_buf_size_by_custom_info:reserve2 [0] cust_scene[0] ---> aw_scene[0]
+06-27 10:30:04.980   737  3352 I [Awinic]: find [Music] scene_block with id 0
+06-27 10:30:04.980   737  3352 I [Awinic]: aw_skt_arsi_query_param_buf_size_by_custom_info:aw_scene[Music] params len is 16416
+06-27 10:30:04.980   737  3352 I [Awinic]: aw_skt_arsi_parsing_param_file_by_custom_info:stream_type [1] 
+06-27 10:30:04.980   737  3352 I [Awinic]: aw_skt_arsi_parsing_param_file_by_custom_info:reserve2 [0] cust_scene[0] ---> aw_scene[0]
+06-27 10:30:04.980   737  3352 I [Awinic]: find [Music] scene_block with id 0
+06-27 10:30:04.980   737  3352 I [Awinic]: aw_skt_arsi_parsing_param_file_by_custom_info:load aw_scene[Music] params done
+06-27 10:30:04.981   737  3352 I [Awinic]: SKTune_v6.1.9.1
+06-27 10:30:04.981   737  3352 I [Awinic]: local_cfg->fade_out_deg_num = 0
+06-27 10:30:04.981   737  3352 I [Awinic]: local_cfg->mute_in_num = 0
+06-27 10:30:04.981   737  3352 I [Awinic]: local_cfg->fade_in_deg_num = 0
+06-27 10:30:04.981   737  3352 E [Awinic]: unsupport filter order 0 !, set to aw_biquad_df2t_universal_process
+06-27 10:30:04.981   737  3352 I [Awinic]: Origin cfg->cali_Re: -98000ohm, set param->cali_Re: 6199mohm!
+06-27 10:30:04.981   737  3352 I [Awinic]: Origin cfg->cali_Re: -98000ohm, set param->cali_Re: 6199mohm!
+06-27 10:30:04.981   737  3352 I [Awinic]: aw_vmax_kctl_dev_init: Awinic dev[1]'s monitor switch kcontrol is not accessible!
+06-27 10:30:04.981   737  3352 I [Awinic]: Awinic monitor disable
+06-27 10:30:04.983   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:04.983   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:04.983   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:04.983   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:04.983   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:04.992   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:04.992   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:04.992   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:04.992   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:04.992   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:04.992   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.001  1357  1414 I DisplayPowerController2[0]: BrightnessEvent: disp=0, physDisp=local:4627039422300187648, displayState=ON, displayPolicy=OFF, brt=1.0, initBrt=0.05, rcmdBrt=1.0, preBrt=0.0026090965, lux=13.0, preLux=NaN, hbmMax=1.0, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=1.0, wasShortTermModelActive=true, flags=, reason=automatic, autoBrightness=true, strategy=InvalidBrightnessStrategy, autoBrightnessMode=default
+06-27 10:30:05.001   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.001   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.001   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.001   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.001   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.001   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.011   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.011   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.011   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.011   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.011   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.011   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.021   737  3352 I AudioALSAHardwareResourceManager: aw_update_mode(), awinic update mode: music
+06-27 10:30:05.023   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.023   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.023   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.023   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.023   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.023   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.034   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.034   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.034   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.034   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.034   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.034   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.045   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.045   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.045   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.045   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.045   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.045   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.052   747   787 E HfLooper: dst->data[13.000000,35.000000,9681.000000]
+06-27 10:30:05.056   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.056   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.056   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.056   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.056   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.056   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.065  1357  1414 I DisplayPowerController2[0]: Blocking screen off
+06-27 10:30:05.066  1357  1414 I DisplayPowerController2[0]: Unblocked screen off after 1 ms
+06-27 10:30:05.067   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.067   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.067   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.067   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.067   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.067   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.073  1357  1414 I PowerHalWrapper: amsBoostNotify pid:1911,activity:com.android.launcher3.uioverrides.QuickstepLauncher, package:com.android.launcher3, mProcessCreatePackcom.sec.android.app.camera 
+06-27 10:30:05.073  1357  1414 I PowerHalWrapper: state: 0 
+06-27 10:30:05.074  1357  1414 I mtkpower_client: [PowerHal_Wrap_notifyAppState] com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher pid=1911 activityId:211065241 state:0
+06-27 10:30:05.075  1357  1414 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false 
+06-27 10:30:05.077  1357  1357 E MBrainLocalService: notifyAppSwitch failed
+06-27 10:30:05.078   772   772 I IPCThreadState: oneway function results for code 2 on binder at 0xb400007bec652810 will be dropped but finished with status UNKNOWN_TRANSACTION
+06-27 10:30:05.079   772   772 I vendor.mediatek.hardware.mtkpower_applist-service.mediatek: packName: com.android.launcher3 actName: com.android.launcher3.uioverrides.QuickstepLauncher pid: 1911 uid: 10088 state: 0
+06-27 10:30:05.079   772   772 I MTK_APPList: [notifyAPPstate] com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher, pid=1911, uid=10088, state:PAUSED, fps:-1, win:0
+06-27 10:30:05.079   772   772 I MTK_APPList: [notifyAPPstate] multi_resumed_app_count: 0
+06-27 10:30:05.079   772   772 I MTK_APPList: [getForegroundAPPCount] 1
+06-27 10:30:05.079   772   772 I MTK_APPList: [notifyNetdUID] 10088
+06-27 10:30:05.079   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.079  1357  1414 I DisplayBrightnessStrategySelector: Changing the DisplayBrightnessStrategy from InvalidBrightnessStrategy to ScreenOffBrightnessStrategy for display 0
+06-27 10:30:05.080   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.080   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.080   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.080   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.080   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.080  1006  1042 E flp     : mnld_screen_monitor_thread: Screen off
+06-27 10:30:05.080   747   747 I OriginChannel: activate: [5,0]
+06-27 10:30:05.081   772   772 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+06-27 10:30:05.081   772   772 I MTK_APPList: [notifyPID] 1911
+06-27 10:30:05.081   780   828 I libPowerHal: [perfSetSysInfo] pid type:24, 1911
+06-27 10:30:05.082   772   772 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+06-27 10:30:05.083  1911  1911 W SplitSelectStateCtor: Missing session instanceIds
+06-27 10:30:05.084   747   747 I OriginChannel: batch: [1,80000000,2000000000]
+06-27 10:30:05.086   727   727 I netd    : tetherGetStats() -> {[]} <1.96ms>
+06-27 10:30:05.087  1357  6590 W WindowManager: Changing focus from Window{b0e7ff6 u0 com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher} to null displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:468 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6505 com.android.server.wm.ActivityRecord.commitVisibility:5855 com.android.server.wm.ActivityRecord.commitVisibility:5866 
+06-27 10:30:05.088   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.088   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.088   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.088   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.088   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.088   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:30:05.089  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:30:05.091  1357  1414 I DisplayPowerController2[0]: BrightnessEvent: disp=0, physDisp=local:4627039422300187648, displayState=OFF, displayPolicy=OFF, brt=0.0, initBrt=1.0, rcmdBrt=NaN, preBrt=NaN, lux=0.0, preLux=0.0, hbmMax=1.0, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=1.0, wasShortTermModelActive=true, flags=, reason=screen_off, autoBrightness=true, strategy=ScreenOffBrightnessStrategy, autoBrightnessMode=default
+06-27 10:30:05.091  1357  1380 I PowerHalWrapper: amsBoostNotify pid:1911,activity:com.android.launcher3.uioverrides.QuickstepLauncher, package:com.android.launcher3, mProcessCreatePackcom.sec.android.app.camera 
+06-27 10:30:05.091  1357  1380 I PowerHalWrapper: state: 0 
+06-27 10:30:05.092  1357  1380 I mtkpower_client: [PowerHal_Wrap_notifyAppState] com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher pid=1911 activityId:211065241 state:0
+06-27 10:30:05.093   772   772 I IPCThreadState: oneway function results for code 2 on binder at 0xb400007bec652810 will be dropped but finished with status UNKNOWN_TRANSACTION
+06-27 10:30:05.094   772   772 I vendor.mediatek.hardware.mtkpower_applist-service.mediatek: packName: com.android.launcher3 actName: com.android.launcher3.uioverrides.QuickstepLauncher pid: 1911 uid: 10088 state: 0
+06-27 10:30:05.094   772   772 I MTK_APPList: [notifyAPPstate] com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher, pid=1911, uid=10088, state:PAUSED, fps:-1, win:0
+06-27 10:30:05.094   772   772 I MTK_APPList: [notifyAPPstate] multi_resumed_app_count: 0
+06-27 10:30:05.094   772   772 I MTK_APPList: [getForegroundAPPCount] 1
+06-27 10:30:05.094   772   772 I MTK_APPList: [notifyNetdUID] 10088
+06-27 10:30:05.095   744   744 I hwcomposer: [HWCDisplay] Display(0) SetPowerMode(0) current mode(2), scene(0)  
+06-27 10:30:05.096   772   772 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+06-27 10:30:05.096   772   772 I MTK_APPList: [notifyPID] 1911
+06-27 10:30:05.096   780   828 I libPowerHal: [perfSetSysInfo] pid type:24, 1911
+06-27 10:30:05.096  1357  1380 I PowerHalWrapper: amsBoostNotify AMS_BOOST_PROCESS_CREATE_BOOST:false 
+06-27 10:30:05.096   772   772 I mtkpower_client: PowerHal_Wrap_setSysInfo, result:0
+06-27 10:30:05.102  1357  1380 I DisplayDeviceRepository: Display device changed state: "Built-in Screen", OFF
+06-27 10:30:05.104   744   744 W hwcomposer: [DRMDEV] Failed to open fb0 device: No such file or directory  
+06-27 10:30:05.105  1357  1381 W SurfaceControl: Invalid layer stack -1
+06-27 10:30:05.105  1357  1381 I DisplayDevice: [0] Layerstack set to -1 for local:4627039422300187648
+06-27 10:30:05.107  1357  9131 I AppWidgetServiceImpl: setAppWidgetHidden() 0
+06-27 10:30:05.108  1357  1380 I InputManager-JNI: Viewport [0] to add: local:4627039422300187648, isActive: false
+06-27 10:30:05.109  1357  1482 I InputReader: Reconfiguring input devices, changes=DISPLAY_INFO
+06-27 10:30:05.109  1357  1482 I InputReader: Disabling ILITEK_TDDI (device 5) because the associated viewport is not active
+06-27 10:30:05.109  1357  1482 I InputReader: Device reconfigured: id=5, name='ILITEK_TDDI', size 720x1600, orientation Rotation0, mode DISABLED, display id 0
+06-27 10:30:05.111   806  1727 I SurfaceFlinger: onHandleDestroyed: name=bbq-wrapper#1016, layerId=1016, parentId=0
+06-27 10:30:05.111   806  1337 I SurfaceFlinger: onHandleDestroyed: name=bbq-wrapper#1018, layerId=1018, parentId=0
+06-27 10:30:05.111   806  1261 I SurfaceFlinger: onHandleDestroyed: name=bbq-wrapper#1002, layerId=1002, parentId=0
+06-27 10:30:05.112   806  1727 I SurfaceFlinger: onHandleDestroyed: name=bbq-wrapper#1014, layerId=1014, parentId=0
+06-27 10:30:05.113  1357  1378 I Pointer : Device Changed: Input Device 5: ILITEK_TDDI
+06-27 10:30:05.113  1357  1378 I Pointer :   Descriptor: ce54e173162f908fc75d1d0abe2023f80d6773d1
+06-27 10:30:05.113  1357  1378 I Pointer :   Generation: 82
+06-27 10:30:05.113  1357  1378 I Pointer :   Location: built-in
+06-27 10:30:05.113  1357  1378 I Pointer :   Enabled: true
+06-27 10:30:05.113  1357  1378 I Pointer :   Keyboard Type: non-alphabetic
+06-27 10:30:05.113  1357  1378 I Pointer :   Has Vibrator: false
+06-27 10:30:05.113  1357  1378 I Pointer :   Has Sensor: false
+06-27 10:30:05.113  1357  1378 I Pointer :   Has battery: false
+06-27 10:30:05.113  1357  1378 I Pointer :   Has mic: false
+06-27 10:30:05.113  1357  1378 I Pointer :   USI Version: null
+06-27 10:30:05.113  1357  1378 I Pointer :   Sources: 0x1103 ( keyboard touchscreen )
+06-27 10:30:05.131   772   829 I libPerfCtl: xgfGetFPS pid:1357 fps:-1
+06-27 10:30:05.131   772   829 I libPerfCtl: xgfGetFPS pid:1621 fps:-1
+06-27 10:30:05.300  1097  1163 E AAL     : IOCTL_MTK_AAL_SET_PARAM error: 1
+06-27 10:30:05.302   780   803 I mtkpower@impl: [setMode] type:9, enabled:1
+06-27 10:30:05.302   780   803 E mtkpower@impl: [setMode] unknown type
+06-27 10:30:05.303   806   806 W SurfaceFlinger: commitOffscreenLayers Layer 0xb400006fb284abc0 not alive
+06-27 10:30:05.303   806   806 W SurfaceFlinger: commitOffscreenLayers Layer 0xb400006fb280eef0 not alive
+06-27 10:30:05.303   806   806 W SurfaceFlinger: commitOffscreenLayers Layer 0xb400006fb28093d0 not alive
+06-27 10:30:05.303   806   806 W SurfaceFlinger: commitOffscreenLayers Layer 0xb400006fb27c4e50 not alive
+06-27 10:30:05.304   806   806 I SurfaceFlinger: onHandleDestroyed: name=Sprite#1013, layerId=1013, parentId=0
+06-27 10:30:05.304   806   806 I SurfaceFlinger: onHandleDestroyed: name=Sprite#1001, layerId=1001, parentId=0
+06-27 10:30:05.304   806   806 I SurfaceFlinger: onHandleDestroyed: name=Sprite#1015, layerId=1015, parentId=0
+06-27 10:30:05.304   806   806 I SurfaceFlinger: onHandleDestroyed: name=Sprite#1017, layerId=1017, parentId=0
+06-27 10:30:05.304   806   806 I SurfaceFlinger: onHandleDestroyed: name=com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#1052, layerId=1052, parentId=0
+06-27 10:30:05.304   806   806 I SurfaceFlinger: onHandleDestroyed: name=9a8b2e0 ActivityRecordInputSink com.android.launcher3/.uioverrides.QuickstepLauncher#1056, layerId=1056, parentId=0
+06-27 10:30:05.306   737  2376 W AudioALSAStreamOut: setParameters(), still have param.size() = 1, remain param = "MixerThreadSleep="
+06-27 10:30:05.312   806   806 I BufferQueueDebug: [bbq-wrapper#1002](this:0xb400006fb280bbe0,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:30:05.312   806   806 I BufferQueueDebug: [bbq-wrapper#1016](this:0xb400006fb284d3d0,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:30:05.312   806   806 I BufferQueueDebug: [bbq-wrapper#1018](this:0xb400006fb27c7660,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:30:05.313   806   806 I BufferQueueDebug: [bbq-wrapper#1014](this:0xb400006fb2811700,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:30:05.313   780   803 I mtkpower@impl: [setMode] type:7, enabled:0
+06-27 10:30:05.313   806   806 I BufferQueueDebug: [Sprite#1015](this:0xb400006fb26525b0,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:30:05.313   806   806 I BufferQueueDebug: [Sprite#1017](this:0xb400006fb265dbf0,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:30:05.313   806   806 I BufferQueueDebug: [9a8b2e0 ActivityRecordInputSink com.android.launcher3/.uioverrides.QuickstepLauncher#1056](this:0xb400006fb27b6500,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:30:05.313   806   806 I BufferQueueDebug: [Sprite#1013](this:0xb400006fb281fad0,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:30:05.314   806   806 I BufferQueueDebug: [com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#1052](this:0xb400006fb2841d90,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:30:05.314   806   806 I BufferQueueDebug: [Sprite#1001](this:0xb400006fb28807f0,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:30:05.315  1357  1414 W DreamManagerService: Dream ComponentInfo{com.android.dreams.alwaysondisplay/com.android.dreams.alwaysondisplay.AlwaysOnDisplay} does not exist
+06-27 10:30:05.315  1357  1414 I PowerGroup: Sleeping power group (groupId=0, uid=1000, reason=timeout)...
+06-27 10:30:05.315  1357  1414 I PowerManagerService: Sleeping (uid 1000)...
+06-27 10:30:05.316   780   828 I libPowerHal: [perfUserScnDisableAll] 
+06-27 10:30:05.320   780   803 I mtkpower@impl: [setMode] Disable All
+06-27 10:30:05.324   737  2376 W AudioALSAStreamOut: setParameters(), still have param.size() = 1, remain param = "MixerThreadSleep="
+06-27 10:30:05.331  1357  1357 E ScreenIntentReceiver: notifyChange failed
+06-27 10:30:05.333   747   747 I OriginChannel: activate: [1,0]
+06-27 10:30:05.337   737   791 W AudioALSAStreamOut: setParameters(), still have param.size() = 1, remain param = "MixerThreadSleep="
+06-27 10:30:05.341  1357  1357 I PowerManagerService: onFlip(): Face up.
+06-27 10:30:05.345  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:30:05.350  1357  4317 W UserManagerService: Requested status bar icon for non-badged user 0
+06-27 10:30:05.352   737   791 W AudioALSAStreamOut: setParameters(), still have param.size() = 1, remain param = "MixerThreadSleep="
+06-27 10:30:05.361   780   828 I libPowerHal: [perfLockAcq] idx:0 hdl:6480 hint:53 pid:780 tid:780 duration:80 lock_user:mtkpower@1.0-se => ret_hdl:6480
+06-27 10:30:05.361   780   828 I libPowerHal: [setClusterFreq] INTERACTION set cpufreq[0] min:2000000 max:-1 cpufreq[1] min:2400000 max:-1 
+06-27 10:30:05.361   780   828 I libPowerHal: [setGPUFreq] INTERACTION user set gpu freq min:0, max:-1
+06-27 10:30:05.361   780   828 I libPowerHal: INTERACTION: set gpu opp level: 0
+06-27 10:30:05.361  1621  1621 I KeyguardDisplayManager: Do not show KeyguardPresentation on the default display
+06-27 10:30:05.362   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:30:05.362   780   828 I libPowerHal: [setGPUFreq] Soft min/max = (0, 0); Hard min/max = (42, 0)
+06-27 10:30:05.362   780   828 I libPowerHal: [setGPUFreq] final min/max = (0, 0)
+06-27 10:30:05.362   780   828 I libPowerHal: INTERACTION: set gpu opp level: 0
+06-27 10:30:05.362   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:30:05.363   780   828 I libPowerHal: [setClusterFreq]  set cpu_ctrl cpufreq: 2000000 -1 2400000 -1 
+06-27 10:30:05.364   780   828 I libPowerHal: [PE] INTERACTION update cmd:2020000, param:5
+06-27 10:30:05.364   780   828 I libPowerHal: [PE] (more) /sys/kernel/cm_mgr/dbg_cm_mgr set +prefix:dsu_mode 1;
+06-27 10:30:05.364   737   791 W AudioALSAStreamOut: setParameters(), still have param.size() = 1, remain param = "MixerThreadSleep="
+06-27 10:30:05.364   780   828 I libPowerHal: [setDvfsrcDevFreqOpp] opp:0, freq:4266000000
+06-27 10:30:05.365  1357  1571 I MR2ServiceImpl: Updating composite discovery preference | preference: RouteDiscoveryRequest{ preferredFeatures={}, activeScan=false }, active routers: []
+06-27 10:30:05.365   780   828 I libPowerHal: [PE] INTERACTION update cmd:1000000 param:0
+06-27 10:30:05.373   790  1058 W AudioPolicyManagerCustomImpl: [MTK_APM_Route]setOutputDevices() mIoHandle 29 mId 7 device (0x2)(0x1, 0x2, 0x4, 0x8, 0x10, 0x20, 0x40, 0x4000, 0x4000000) delayMs 84 force 0 size 5
+06-27 10:30:05.375  1947  1947 I wpa_supplicant: wpa_driver_nl80211_driver_cmd: wlan0 recv cmd_src SETSUSPENDMODE 1
+06-27 10:30:05.375  1947  1947 I wpa_supplicant: wpa_driver_nl80211_driver_cmd: wlan0 recv cmd SETSUSPENDMODE 1
+06-27 10:30:05.377   806   886 I BufferQueueDebug: [NotificationShade#1064](this:0xb400006fb28807f0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(806:/system/bin/surfaceflinger)
+06-27 10:30:05.380  1357  1929 W WindowManager: Changing focus from null to Window{898197 u0 NotificationShade} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:468 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6505 com.android.server.wm.WindowManagerService.relayoutWindowInner:2665 com.android.server.wm.WindowManagerService.relayoutWindow:2335 
+06-27 10:30:05.381   806   886 I BufferQueueDebug: [Surface(name=16a0564 NavigationBar0)/@0xb3e116f - animation-leash of insets_animation#1065](this:0xb400006fb2841d90,id:-1,api:0,p:-1,c:-1) BufferQueue core=(806:/system/bin/surfaceflinger)
+06-27 10:30:05.381   737  2376 W AudioALSAStreamOut: setParameters(), still have param.size() = 1, remain param = "NoAudioTrack=1"
+06-27 10:30:05.382   806   886 I BufferQueueDebug: [Surface(name=f719012 StatusBar)/@0xe0d1337 - animation-leash of insets_animation#1066](this:0xb400006fb265dbf0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(806:/system/bin/surfaceflinger)
+06-27 10:30:05.384  1357  1929 I WindowManager: Relayout Window{898197 u0 NotificationShade}: oldVis=4 newVis=0 focusMayChange = true requestedWidth = 1080 requestedHeight = 2340 outFrames = ClientWindowFrames{frame=[0,0][1080,2340] display=[0,0][1080,2340] parentFrame=[0,0][0,0]} outSurfaceControl = Surface(name=NotificationShade)/@0x81c0c80
+06-27 10:30:05.395  1621  1621 W View    : requestLayout() improperly called by com.android.systemui.util.AutoMarqueeTextView{634a8 VFED..C.. ..S...ID 208,3-302,93 #7f0a054f app:id/no_carrier_text} during layout: running second layout pass
+06-27 10:30:05.395  1947  1947 I wpa_supplicant: wpa_driver_nl80211_driver_cmd: ret = 0 used = 17 total = 512 buf = 
+06-27 10:30:05.395  1621  1621 W View    : requestLayout() improperly called by com.android.keyguard.CarrierText{6f107e1 V.ED..... ......ID 32,0-485,80 #7f0a03c0 app:id/keyguard_carrier_text} during layout: running second layout pass
+06-27 10:30:05.398   806   806 I SurfaceFlinger: onHandleDestroyed: name=Surface(name=f719012 StatusBar)/@0xe0d1337 - animation-leash of insets_animation#1060, layerId=1060, parentId=0
+06-27 10:30:05.398   806   806 I SurfaceFlinger: onHandleDestroyed: name=Surface(name=16a0564 NavigationBar0)/@0xb3e116f - animation-leash of insets_animation#1058, layerId=1058, parentId=0
+06-27 10:30:05.409   806   806 I BufferQueueDebug: [Surface(name=f719012 StatusBar)/@0xe0d1337 - animation-leash of insets_animation#1060](this:0xb400006fb2814490,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:30:05.409   806   806 I BufferQueueDebug: [Surface(name=16a0564 NavigationBar0)/@0xb3e116f - animation-leash of insets_animation#1058](this:0xb400006fb2850160,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:30:05.414  1357  7777 W WindowManager: finishDrawingWindow: Window{898197 u0 NotificationShade} mDrawState=DRAW_PENDING
+06-27 10:30:05.416   806   886 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+06-27 10:30:05.417  1621  1621 I vol.VolumeDialogImpl: mDialog.dismiss() reason: screen_off from: com.android.systemui.volume.VolumeDialogImpl$7.onScreenOff:4
+06-27 10:30:05.439  1621  1621 I KeyguardTransitionRepository: FINISHED transition: TransitionStep(from=GONE, to=DOZING, value=1.0, transitionState=FINISHED, ownerName=FromGoneTransitionInteractor(Sleep transition triggered))
+06-27 10:30:05.446   780   828 I mtkpower@impl: [powerd_req] TIMER_MSG_PERF_LOCK_TIMEOUT hdl:6480
+06-27 10:30:05.446   780   828 I libPowerHal: [perfLockRel] hdl:6480, idx:0
+06-27 10:30:05.446   780   828 I libPowerHal: [setClusterFreq]  set cpu_ctrl cpufreq: -1 -1 -1 -1 
+06-27 10:30:05.446   780   828 I libPowerHal: [unsetGPUFreq] current min:0, max:0; scn_gpu_min:0, scn_gpu_max:-1; scn_gpu_min(HL):-1, scn_gpu_max(HL):-1
+06-27 10:30:05.446   780   828 I libPowerHal: INTERACTION: set gpu opp level: 42
+06-27 10:30:05.446   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:30:05.446   780   828 I libPowerHal: [setGPUFreq] Soft min/max = (42, 0); Hard min/max = (42, 0)
+06-27 10:30:05.446   780   828 I libPowerHal: [setGPUFreq] final min/max = (42, 0)
+06-27 10:30:05.447   780   828 I libPowerHal: INTERACTION: set gpu opp level: 42
+06-27 10:30:05.447   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:30:05.447   780   828 I libPowerHal: [PD] INTERACTION update cmd:2020000 param:0
+06-27 10:30:05.447   780   828 I libPowerHal: [PD] INTERACTION update cmd:410000 param:0
+06-27 10:30:05.447   780   828 I libPowerHal: [PD] (more) /sys/kernel/cm_mgr/dbg_cm_mgr set +prefix:dsu_mode 0;
+06-27 10:30:05.448   780   828 I libPowerHal: [PD] INTERACTION update cmd:1000000 param:-1
+06-27 10:30:05.473  1621  1684 E QuickAccessWalletKeyguardQuickAffordanceConfig: Wallet card retrieval error, message: "null"
+06-27 10:30:05.475  1621  1684 E QuickAccessWalletKeyguardQuickAffordanceConfig: Wallet card retrieval error, message: "null"
+06-27 10:30:05.475  1621  1684 E QuickAccessWalletKeyguardQuickAffordanceConfig: Wallet card retrieval error, message: "null"
+06-27 10:30:05.547  1621  1626 I ndroid.systemui: Background concurrent mark compact GC freed 17MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 13MB/27MB, paused 1.205ms,4.206ms total 129.541ms
+06-27 10:30:05.553  1621  1628 W ndroid.systemui: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/SamSungCamera/SamSungCamera.apk' with 1 weak references

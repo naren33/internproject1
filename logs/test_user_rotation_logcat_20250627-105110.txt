@@ -1,0 +1,12 @@
+--------- beginning of main
+06-27 10:51:09.388   806   806 I BufferQueueProducer: [FramebufferSurface](this:0xb40000700264c2f0,id:-1,api:1,p:806,c:806) queueBuffer: fps=0.21 dur=9317.51 max=9221.08 min=96.43
+06-27 10:51:09.389   744   744 I hwcomposer: [HWCDisplay] [Display_0 (type:1, mode:2)] fps:0.214657,dur:9317.18,max:9220.86,min:96.32  
+06-27 10:51:09.478   747   787 E HfLooper: dst->data[13.000000,24.000000,9695.000000]
+06-27 10:51:09.522   744  1195 I hwcomposer: [HWC] (0)fire a callback of refresh to SF[4]  
+06-27 10:51:09.530   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:09.530   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:09.530   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:09.530   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:09.530   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:09.577   747   787 E HfLooper: dst->data[13.000000,26.000000,9697.000000]
+06-27 10:51:09.677   747   787 E HfLooper: dst->data[12.000000,16.000000,9700.000000]

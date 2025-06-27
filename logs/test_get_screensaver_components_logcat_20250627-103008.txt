@@ -1,0 +1,21 @@
+--------- beginning of main
+06-27 10:30:07.361  1621  1621 I Choreographer: Skipped 43 frames!  The application may be doing too much work on its main thread.
+--------- beginning of system
+06-27 10:30:07.410  1357  3598 W WindowManager: finishDrawingWindow: Window{16a0564 u0 NavigationBar0} mDrawState=DRAW_PENDING
+06-27 10:30:07.418   806   806 I BufferQueueProducer: [NavigationBar0#87](this:0xb400006fb28005a0,id:-1,api:0,p:-1,c:806) queueBuffer: fps=2.86 dur=2450.35 max=2385.10 min=9.51
+06-27 10:30:07.445  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: widthSpec MeasureSpec: EXACTLY 1080 should be AT_MOST
+06-27 10:30:07.445  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: heightSpec MeasureSpec: EXACTLY 2133 should be AT_MOST
+06-27 10:30:07.445  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: widthSpec MeasureSpec: EXACTLY 1080 should be AT_MOST
+06-27 10:30:07.445  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: heightSpec MeasureSpec: EXACTLY 2148 should be AT_MOST
+06-27 10:30:07.445  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: widthSpec MeasureSpec: EXACTLY 1080 should be AT_MOST
+06-27 10:30:07.445  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: heightSpec MeasureSpec: EXACTLY 2133 should be AT_MOST
+06-27 10:30:07.480  1357  3598 W WindowManager: finishDrawingWindow: Window{898197 u0 NotificationShade} mDrawState=DRAW_PENDING
+06-27 10:30:07.484   806   806 I BufferQueueProducer: [NotificationShade#1064](this:0xb400006fb28807f0,id:-1,api:0,p:-1,c:806) queueBuffer: fps=0.48 dur=2064.20 max=2064.20 min=2064.20
+06-27 10:30:07.505   806   806 I BufferQueueProducer: [StatusBar#91](this:0xb400006fb27fd810,id:-1,api:0,p:-1,c:806) queueBuffer: fps=0.13 dur=7462.53 max=7462.53 min=7462.53
+06-27 10:30:07.508  1357  3598 W WindowManager: finishDrawingWindow: Window{f719012 u0 StatusBar} mDrawState=DRAW_PENDING
+06-27 10:30:07.521   806   886 I BufferQueueDebug: [[Gesture Monitor] edge-swipe#1067](this:0xb400006fb2872420,id:-1,api:0,p:-1,c:-1) BufferQueue core=(806:/system/bin/surfaceflinger)
+06-27 10:30:07.539   806   886 I BufferQueueDebug: [WindowToken{a2d0aa0 type=2024 android.os.BinderProxy@69db7a3}#1068](this:0xb400006fb282b110,id:-1,api:0,p:-1,c:-1) BufferQueue core=(806:/system/bin/surfaceflinger)
+06-27 10:30:07.545   806   886 I BufferQueueDebug: [62a7659 EdgeBackGestureHandler0#1069](this:0xb400006fb26525b0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(806:/system/bin/surfaceflinger)
+06-27 10:30:07.583  1357  3598 W InputManager-JNI: Input channel object 'ec5b461 EdgeBackGestureHandler0 (client)' was disposed without first being removed with the input manager!
+06-27 10:30:07.602  1357  3598 W WindowManager: finishDrawingWindow: Window{4fc2c26 u0 com.android.systemui.wallpapers.ImageWallpaper} mDrawState=DRAW_PENDING
+06-27 10:30:07.604  1357  3598 W WindowManager: finishDrawingWindow: Window{4fc2c26 u0 com.android.systemui.wallpapers.ImageWallpaper} mDrawState=COMMIT_DRAW_PENDING

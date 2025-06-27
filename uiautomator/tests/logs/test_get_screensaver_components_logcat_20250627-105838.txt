@@ -1,0 +1,24 @@
+--------- beginning of main
+06-27 10:58:36.782   806  1261 I BufferQueueDebug: [WindowToken{fd59223 type=2024 android.os.BinderProxy@e2b6f52}#1198](this:0xb400006fb27f7cf0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(806:/system/bin/surfaceflinger)
+06-27 10:58:36.788   806  1261 I BufferQueueDebug: [a881320 EdgeBackGestureHandler0#1199](this:0xb400006fb284a640,id:-1,api:0,p:-1,c:-1) BufferQueue core=(806:/system/bin/surfaceflinger)
+06-27 10:58:36.867  1621  1621 E KeyguardClockSwitch: No clock being shown
+06-27 10:58:36.878  1621  1621 I ClockEventController: Region isDark: true
+06-27 10:58:36.889  1621  1621 E KeyguardClockSwitch: No clock being shown
+06-27 10:58:36.900  1621  1621 I ClockEventController: Region isDark: true
+--------- beginning of system
+06-27 10:58:36.927  1357  1373 W WindowManager: finishDrawingWindow: Window{4fc2c26 u0 com.android.systemui.wallpapers.ImageWallpaper} mDrawState=HAS_DRAWN
+06-27 10:58:36.942  1621  1621 W EmergencyButton: onConfigurationChanged, do not updated!
+06-27 10:58:36.945  1621  1621 I Choreographer: Skipped 31 frames!  The application may be doing too much work on its main thread.
+06-27 10:58:36.986  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: widthSpec MeasureSpec: EXACTLY 1080 should be AT_MOST
+06-27 10:58:36.986  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: heightSpec MeasureSpec: EXACTLY 2133 should be AT_MOST
+06-27 10:58:36.986  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: widthSpec MeasureSpec: EXACTLY 1080 should be AT_MOST
+06-27 10:58:36.986  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: heightSpec MeasureSpec: EXACTLY 2148 should be AT_MOST
+06-27 10:58:36.986  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: widthSpec MeasureSpec: EXACTLY 1080 should be AT_MOST
+06-27 10:58:36.986  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: heightSpec MeasureSpec: EXACTLY 2133 should be AT_MOST
+06-27 10:58:37.012  1357  1373 W WindowManager: finishDrawingWindow: Window{898197 u0 NotificationShade} mDrawState=HAS_DRAWN
+06-27 10:58:37.023   806   886 I SurfaceFlinger: onHandleDestroyed: name=Transition Root: Display 0 name="Built-in Screen"#1196, layerId=1196, parentId=0
+06-27 10:58:37.029  1357  1373 W WindowManager: finishDrawingWindow: Window{16a0564 u0 NavigationBar0} mDrawState=HAS_DRAWN
+06-27 10:58:37.033   806   806 I BufferQueueDebug: [Transition Root: Display 0 name="Built-in Screen"#1196](this:0xb400006fb282b110,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:58:37.041  1357  1373 W WindowManager: finishDrawingWindow: Window{f719012 u0 StatusBar} mDrawState=HAS_DRAWN
+06-27 10:58:37.068  1357  6590 W UserManagerService: Requested status bar icon for non-badged user 0
+06-27 10:58:37.117  1911  1911 W DisplayController: (CHANGE_SUPPORTED_BOUNDS) perDisplayBounds: {CachedDisplayInfo{size=Point(1080, 2340), cutout=DisplayCutout{insets=Rect(0, 72 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(472, 0 - 582, 72), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2340 physicalDisplayWidth=720 physicalDisplayHeight=1600 density={1.875} cutoutSpec={M 0,0 L -20, 0 L -20, 26 L 20, 26 L 20, 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.4625}}} sideOverrides={}}, rotation=0}=[WindowBounds{bounds=Rect(0, 0 - 1080, 2340), insets=Rect(0, 72 - 0, 48), availableSize=Point(1080, 2220), rotationHint=0}, WindowBounds{bounds=Rect(0, 0 - 2340, 1080), insets=Rect(72, 52 - 0, 48), availableSize=Point(2268, 980), rotationHint=1}, WindowBounds{bounds=Rect(0, 0 - 1080, 2340), insets=Rect(0, 52 - 0, 72), availableSize=Point(1080, 2216), rotationHint=2}, WindowBounds{bounds=Rect(0, 0 - 2340, 1080), insets=Rect(0, 52 - 72, 48), availableSize=Point(2268, 980), rotationHint=3}]}

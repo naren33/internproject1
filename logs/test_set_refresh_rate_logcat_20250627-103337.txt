@@ -1,0 +1,23 @@
+--------- beginning of main
+06-27 10:33:35.960   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+06-27 10:33:35.998   772   829 I libPerfCtl: xgfGetFPS pid:1357 fps:-1
+06-27 10:33:35.998   772   829 I libPerfCtl: xgfGetFPS pid:1621 fps:-1
+06-27 10:33:35.998   772   829 I libPerfCtl: xgfGetFPS pid:1911 fps:-1
+06-27 10:33:35.998   890   890 I FPSGO   : fpsgo_boost_sched_rate_ns:-1
+06-27 10:33:35.998   890   890 I mtkpower_client: perf_lock_rel, hdl:6535, tid:890
+06-27 10:33:35.999   890   890 I FPSGO   : perfLockRel hdl:6535
+06-27 10:33:36.000   780   828 I libPowerHal: [perfLockRel] hdl:6535, idx:5
+06-27 10:33:36.000   780   828 I libPowerHal: [PD] fpsgo update cmd:1438300, param:1000
+06-27 10:33:36.000   780   828 I libPowerHal: [PD] fpsgo update cmd:1438400, param:1000
+06-27 10:33:36.001   780   828 I libPowerHal: [PD] fpsgo update cmd:1438600 param:1000
+06-27 10:33:36.001   780   828 I libPowerHal: [PD] fpsgo update cmd:1438700 param:1000
+06-27 10:33:36.060   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+06-27 10:33:36.100   737  2376 W libc    : invalid pthread_t (0) passed to pthread_join
+06-27 10:33:36.100   737  2376 I [Awinic]: Awinic kctl monitor pthread deinit success
+06-27 10:33:36.101   737  2376 I [Awinic]: reset done !
+06-27 10:33:36.160   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+--------- beginning of system
+06-27 10:33:36.173  1357  1414 I DisplayPowerController2[0]: BrightnessEvent: disp=0, physDisp=local:4627039422300187648, displayState=ON, displayPolicy=BRIGHT, brt=0.9999726, initBrt=0.018867925, rcmdBrt=0.9999726, preBrt=0.018867925, lux=12.951381, preLux=0.0, hbmMax=1.0, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=1.0, wasShortTermModelActive=true, flags=, reason=automatic, autoBrightness=true, strategy=InvalidBrightnessStrategy, autoBrightnessMode=default
+06-27 10:33:36.180  1357  1357 I BrightnessSynchronizer: [157] New Update 0.9999726(f) set brightness values:  255(i)
+06-27 10:33:36.182  1357  1357 I BrightnessSynchronizer: Swallowing update of 255(i) by update: {[157] 0.9999726(f), mUpdatedTypes=1, mConfirmedTypes=1, mTimeUpdated=29792780}
+06-27 10:33:36.182  1357  1357 I BrightnessSynchronizer: Completed Update: {[157] 0.9999726(f), mUpdatedTypes=1, mConfirmedTypes=1, mTimeUpdated=29792780}

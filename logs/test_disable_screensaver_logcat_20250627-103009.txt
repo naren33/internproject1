@@ -1,0 +1,7 @@
+--------- beginning of main
+06-27 10:30:08.123  1621  1625 I ndroid.systemui: JIT allocated 54KB for compiled code of java.lang.Object com.android.systemui.dagger.DaggerReferenceGlobalRootComponent$ReferenceSysUIComponentImpl$SwitchingProvider.get12()
+06-27 10:30:08.123  1621  1625 I ndroid.systemui: Compiler allocated 4310KB to compile java.lang.Object com.android.systemui.dagger.DaggerReferenceGlobalRootComponent$ReferenceSysUIComponentImpl$SwitchingProvider.get12()
+06-27 10:30:08.133   772   829 I libPerfCtl: xgfGetFPS pid:1357 fps:-1
+06-27 10:30:08.133   772   829 I libPerfCtl: xgfGetFPS pid:1621 fps:-1
+06-27 10:30:08.324  1621  1621 W ImageReader_JNI: Unable to acquire a buffer item, very likely client tried to acquire more than maxImages buffers
+06-27 10:30:08.341  1621  1626 I ndroid.systemui: Background concurrent mark compact GC freed 13MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 16MB/33MB, paused 3.928ms,5.060ms total 209.922ms

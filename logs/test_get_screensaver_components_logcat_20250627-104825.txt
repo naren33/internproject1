@@ -1,0 +1,28 @@
+--------- beginning of main
+06-27 10:48:24.628   806   888 I BufferQueueDebug: [[Gesture Monitor] edge-swipe#1121](this:0xb400006fb2866de0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(806:/system/bin/surfaceflinger)
+06-27 10:48:24.644   806  1727 I BufferQueueDebug: [WindowToken{47fa44b type=2024 android.os.BinderProxy@2d7511a}#1122](this:0xb400006fb26525b0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(806:/system/bin/surfaceflinger)
+06-27 10:48:24.649   806  1727 I BufferQueueDebug: [b69fe28 EdgeBackGestureHandler0#1123](this:0xb400006fb2828380,id:-1,api:0,p:-1,c:-1) BufferQueue core=(806:/system/bin/surfaceflinger)
+06-27 10:48:24.684  1357  1808 W InputManager-JNI: Input channel object '751576d EdgeBackGestureHandler0 (client)' was disposed without first being removed with the input manager!
+--------- beginning of system
+06-27 10:48:24.699  1357  1898 W WindowManager: finishDrawingWindow: Window{4fc2c26 u0 com.android.systemui.wallpapers.ImageWallpaper} mDrawState=DRAW_PENDING
+06-27 10:48:24.707   806  1727 I BufferQueueDebug: [Transition Root: Display 0 name="Built-in Screen"#1124](this:0xb400006fb281fad0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(806:/system/bin/surfaceflinger)
+06-27 10:48:24.728   806   886 I SurfaceFlinger: onHandleDestroyed: name=WindowToken{e953384 type=2024 android.os.BinderProxy@6032597}#1102, layerId=1102, parentId=0
+06-27 10:48:24.728   806   886 I SurfaceFlinger: onHandleDestroyed: name=751576d EdgeBackGestureHandler0#1103, layerId=1103, parentId=0
+06-27 10:48:24.729  1357  1571 I MR2ServiceImpl: Updating composite discovery preference | preference: RouteDiscoveryRequest{ preferredFeatures={}, activeScan=false }, active routers: []
+06-27 10:48:24.730  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:48:24.732  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:48:24.732   806   806 I BufferQueueDebug: [751576d EdgeBackGestureHandler0#1103](this:0xb400006fb265dbf0,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:48:24.732   806   806 I BufferQueueDebug: [WindowToken{e953384 type=2024 android.os.BinderProxy@6032597}#1102](this:0xb400006fb284a640,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:48:24.732   806   806 I SurfaceFlinger: onHandleDestroyed: name=Transition Root: Display 0 name="Built-in Screen"#1124, layerId=1124, parentId=0
+06-27 10:48:24.743   806   806 I BufferQueueDebug: [Transition Root: Display 0 name="Built-in Screen"#1124](this:0xb400006fb281fad0,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:48:24.752  1621  1621 W LoadedApk: New application info for package com.android.systemui is out of date with TS 30681019 < the current TS 30681262
+06-27 10:48:24.754  1621  1621 I NoBackGesture: Config changed: newConfig={1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.13 s.632 fontWeightAdjustment=0} lastReportedConfig={1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.12 s.591 fontWeightAdjustment=0}
+06-27 10:48:24.754  1621  1621 I NoBackGesture: NavbarController: newConfig={1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.13 s.632 fontWeightAdjustment=0} mTaskbarDelegate initialized=false willApplyConfigToNavbars=false navBarCount=1
+06-27 10:48:24.838  1621  1621 E KeyguardClockSwitch: No clock being shown
+06-27 10:48:24.852  1621  1621 I ClockEventController: Region isDark: true
+06-27 10:48:24.865  1621  1621 E KeyguardClockSwitch: No clock being shown
+06-27 10:48:24.878  1621  1621 I ClockEventController: Region isDark: true
+06-27 10:48:24.901  1357  1808 W WindowManager: finishDrawingWindow: Window{4fc2c26 u0 com.android.systemui.wallpapers.ImageWallpaper} mDrawState=HAS_DRAWN
+06-27 10:48:24.914  1621  1621 W EmergencyButton: onConfigurationChanged, do not updated!
+06-27 10:48:24.931  1621  1621 I Choreographer: Skipped 39 frames!  The application may be doing too much work on its main thread.
+06-27 10:48:24.940  1357  1808 W WindowManager: finishDrawingWindow: Window{4fc2c26 u0 com.android.systemui.wallpapers.ImageWallpaper} mDrawState=HAS_DRAWN

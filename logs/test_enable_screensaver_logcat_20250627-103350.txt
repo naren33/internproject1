@@ -1,0 +1,26 @@
+--------- beginning of main
+06-27 10:33:49.663  1621  1626 I ndroid.systemui: Background concurrent mark compact GC freed 16MB AllocSpace bytes, 0(0B) LOS objects, 50% free, 15MB/30MB, paused 2.535ms,5.334ms total 193.101ms
+06-27 10:33:49.670   806  1727 I SurfaceFlinger: onHandleDestroyed: name=Surface(name=Task=1)/@0x5400344_transition-leash#1083, layerId=1083, parentId=0
+06-27 10:33:49.680  1621  1621 E KeyguardClockSwitch: No clock being shown
+06-27 10:33:49.680   806   806 I BufferQueueDebug: [Surface(name=Task=1)/@0x5400344_transition-leash#1083](this:0xb400006fb280e970,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:33:49.694  1621  1621 I ClockEventController: Region isDark: true
+06-27 10:33:49.710  1621  1621 E KeyguardClockSwitch: No clock being shown
+06-27 10:33:49.723  1621  1621 I ClockEventController: Region isDark: true
+--------- beginning of system
+06-27 10:33:49.745  1357  1571 I MR2ServiceImpl: Updating composite discovery preference | preference: RouteDiscoveryRequest{ preferredFeatures={}, activeScan=false }, active routers: []
+06-27 10:33:49.747  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:33:49.748  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:33:49.748   772   829 I libPerfCtl: xgfGetFPS pid:1357 fps:-1
+06-27 10:33:49.749   772   829 I libPerfCtl: xgfGetFPS pid:1621 fps:-1
+06-27 10:33:49.755  1357  1898 W WindowManager: finishDrawingWindow: Window{4fc2c26 u0 com.android.systemui.wallpapers.ImageWallpaper} mDrawState=HAS_DRAWN
+06-27 10:33:49.770  1621  1621 W EmergencyButton: onConfigurationChanged, do not updated!
+06-27 10:33:49.801  1621  1621 I Choreographer: Skipped 43 frames!  The application may be doing too much work on its main thread.
+06-27 10:33:49.808  1357  1441 W WindowManager: finishDrawingWindow: Window{4fc2c26 u0 com.android.systemui.wallpapers.ImageWallpaper} mDrawState=HAS_DRAWN
+06-27 10:33:49.840  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: widthSpec MeasureSpec: EXACTLY 1080 should be AT_MOST
+06-27 10:33:49.840  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: heightSpec MeasureSpec: EXACTLY 2133 should be AT_MOST
+06-27 10:33:49.840  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: widthSpec MeasureSpec: EXACTLY 1080 should be AT_MOST
+06-27 10:33:49.840  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: heightSpec MeasureSpec: EXACTLY 2148 should be AT_MOST
+06-27 10:33:49.840  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: widthSpec MeasureSpec: EXACTLY 1080 should be AT_MOST
+06-27 10:33:49.840  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: heightSpec MeasureSpec: EXACTLY 2133 should be AT_MOST
+06-27 10:33:49.868  1357  1898 W WindowManager: finishDrawingWindow: Window{898197 u0 NotificationShade} mDrawState=HAS_DRAWN
+06-27 10:33:49.890  1357  1441 W WindowManager: finishDrawingWindow: Window{16a0564 u0 NavigationBar0} mDrawState=HAS_DRAWN

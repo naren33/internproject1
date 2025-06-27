@@ -1,0 +1,55 @@
+--------- beginning of main
+06-27 10:33:47.890   744   744 I hwcomposer: [HWCDisplay] Display(0) SetPowerMode(0) current mode(2), scene(0)  
+06-27 10:33:47.890  1357  1380 I InputManager-JNI: Viewport [0] to add: local:4627039422300187648, isActive: false
+06-27 10:33:47.892  1357  1482 I InputReader: Reconfiguring input devices, changes=DISPLAY_INFO
+06-27 10:33:47.892  1357  1482 I InputReader: Disabling ILITEK_TDDI (device 5) because the associated viewport is not active
+06-27 10:33:47.892  1357  1482 I InputReader: Device reconfigured: id=5, name='ILITEK_TDDI', size 720x1600, orientation Rotation0, mode DISABLED, display id 0
+06-27 10:33:47.893  1357  1378 W SurfaceControl: Invalid layer stack -1
+06-27 10:33:47.896   744   744 W hwcomposer: [DRMDEV] Failed to open fb0 device: No such file or directory  
+06-27 10:33:47.897   806  1727 I SurfaceFlinger: onHandleDestroyed: name=bbq-wrapper#1079, layerId=1079, parentId=0
+06-27 10:33:47.899  1357  1378 I Pointer : Device Changed: Input Device 5: ILITEK_TDDI
+06-27 10:33:47.899  1357  1378 I Pointer :   Descriptor: ce54e173162f908fc75d1d0abe2023f80d6773d1
+06-27 10:33:47.899  1357  1378 I Pointer :   Generation: 84
+06-27 10:33:47.899  1357  1378 I Pointer :   Location: built-in
+06-27 10:33:47.899  1357  1378 I Pointer :   Enabled: true
+06-27 10:33:47.899  1357  1378 I Pointer :   Keyboard Type: non-alphabetic
+06-27 10:33:47.899  1357  1378 I Pointer :   Has Vibrator: false
+06-27 10:33:47.899  1357  1378 I Pointer :   Has Sensor: false
+06-27 10:33:47.899  1357  1378 I Pointer :   Has battery: false
+06-27 10:33:47.899  1357  1378 I Pointer :   Has mic: false
+06-27 10:33:47.899  1357  1378 I Pointer :   USI Version: null
+06-27 10:33:47.899  1357  1378 I Pointer :   Sources: 0x1103 ( keyboard touchscreen )
+06-27 10:33:48.093  1097  1163 E AAL     : IOCTL_MTK_AAL_SET_PARAM error: 1
+06-27 10:33:48.095   780   803 I mtkpower@impl: [setMode] type:9, enabled:1
+06-27 10:33:48.095   780   803 E mtkpower@impl: [setMode] unknown type
+06-27 10:33:48.096   806   806 W SurfaceFlinger: commitOffscreenLayers Layer 0xb400006fb264fda0 not alive
+06-27 10:33:48.096   806   806 I SurfaceFlinger: onHandleDestroyed: name=Sprite#1078, layerId=1078, parentId=0
+06-27 10:33:48.096   806   806 I SurfaceFlinger: onHandleDestroyed: name=9a8b2e0 ActivityRecordInputSink com.android.launcher3/.uioverrides.QuickstepLauncher#1084, layerId=1084, parentId=0
+06-27 10:33:48.096   806   806 I SurfaceFlinger: onHandleDestroyed: name=com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#1081, layerId=1081, parentId=0
+06-27 10:33:48.102   806   806 I BufferQueueDebug: [bbq-wrapper#1079](this:0xb400006fb26525b0,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:33:48.103   806   806 I BufferQueueDebug: [com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#1081](this:0xb400006fb2811700,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:33:48.103   737  2376 W AudioALSAStreamOut: setParameters(), still have param.size() = 1, remain param = "MixerThreadSleep="
+06-27 10:33:48.103   806   806 I BufferQueueDebug: [Sprite#1078](this:0xb400006fb282b110,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:33:48.103   806   806 I BufferQueueDebug: [9a8b2e0 ActivityRecordInputSink com.android.launcher3/.uioverrides.QuickstepLauncher#1084](this:0xb400006fb28478b0,id:-1,api:0,p:-1,c:806) onDestructor()
+--------- beginning of system
+06-27 10:33:48.107  1357  1414 W DreamManagerService: Dream ComponentInfo{com.android.dreams.alwaysondisplay/com.android.dreams.alwaysondisplay.AlwaysOnDisplay} does not exist
+06-27 10:33:48.107  1357  1414 I PowerGroup: Sleeping power group (groupId=0, uid=1000, reason=timeout)...
+06-27 10:33:48.107  1357  1414 I PowerManagerService: Sleeping (uid 1000)...
+06-27 10:33:48.109   780   803 I mtkpower@impl: [setMode] type:7, enabled:0
+06-27 10:33:48.110   780   828 I libPowerHal: [perfUserScnDisableAll] 
+06-27 10:33:48.112   780   803 I mtkpower@impl: [setMode] Disable All
+06-27 10:33:48.120   737  2376 W AudioALSAStreamOut: setParameters(), still have param.size() = 1, remain param = "MixerThreadSleep="
+06-27 10:33:48.132  1357  1357 E ScreenIntentReceiver: notifyChange failed
+06-27 10:33:48.134   737  2376 W AudioALSAStreamOut: setParameters(), still have param.size() = 1, remain param = "MixerThreadSleep="
+06-27 10:33:48.136  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:33:48.139   747   747 I OriginChannel: activate: [1,0]
+06-27 10:33:48.142  1357  1699 W UserManagerService: Requested status bar icon for non-badged user 0
+06-27 10:33:48.145  1357  1357 I PowerManagerService: onFlip(): Face up.
+06-27 10:33:48.147  1621  1621 I KeyguardDisplayManager: Do not show KeyguardPresentation on the default display
+06-27 10:33:48.148  1621  1621 D KeyguardViewMediator: KeyguardViewMediator queue processing message: SHOW
+06-27 10:33:48.148  1621  1621 D DisplayRepository: combining enabled=[0], connectedExternalDisplayIds=[], ignored=[]
+06-27 10:33:48.150   780   828 I libPowerHal: [perfLockAcq] idx:0 hdl:6536 hint:53 pid:780 tid:780 duration:80 lock_user:mtkpower@1.0-se => ret_hdl:6536
+06-27 10:33:48.150   737  2374 D AudioALSAStreamOut: +setParameters(): flag 4, MixerThreadSleep=
+06-27 10:33:48.150   780   828 I libPowerHal: [setClusterFreq] INTERACTION set cpufreq[0] min:2000000 max:-1 cpufreq[1] min:2400000 max:-1 
+06-27 10:33:48.150   780   828 I libPowerHal: [setGPUFreq] INTERACTION user set gpu freq min:0, max:-1
+06-27 10:33:48.150   780   828 I libPowerHal: INTERACTION: set gpu opp level: 0

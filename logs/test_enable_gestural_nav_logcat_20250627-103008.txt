@@ -1,0 +1,86 @@
+--------- beginning of main
+06-27 10:30:06.996   727   727 I netd    : tetherGetStats() -> {[]} <2.46ms>
+06-27 10:30:07.001  1621  1621 E KeyguardClockSwitch: No clock being shown
+--------- beginning of system
+06-27 10:30:07.014  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:30:07.019  1357  7777 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = READ_SMS, mode = allow, callingUid = 1001, oldMode = allow
+06-27 10:30:07.020  1911  2005 W AllAppsList: updatePromiseInstallInfo: no Activities matched updated package, removing all apps from package=android
+06-27 10:30:07.022  2080  2080 I ActivityThread: ApplicationInfo updating for com.android.permissioncontroller, new timestamp: 29583419
+06-27 10:30:07.022  2080  2080 I ActivityThread: assets removed: []
+06-27 10:30:07.022  2080  2080 I ActivityThread: assets added: []
+06-27 10:30:07.022  1357  3356 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = RECEIVE_SMS, mode = allow, callingUid = 1001, oldMode = allow
+06-27 10:30:07.023  1357  3356 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = RECEIVE_WAP_PUSH, mode = allow, callingUid = 1001, oldMode = allow
+06-27 10:30:07.024  1357  3356 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = SEND_SMS, mode = allow, callingUid = 1001, oldMode = allow
+06-27 10:30:07.025  1357  3356 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = READ_CELL_BROADCASTS, mode = allow, callingUid = 1001, oldMode = allow
+06-27 10:30:07.027  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:30:07.028  1357  3598 W JobInfo : Job 'com.android.gallery3d/.app.PackagesMonitor$AsyncService#1' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+06-27 10:30:07.031  1621  1621 I ClockEventController: Region isDark: true
+06-27 10:30:07.031  2080  6609 I PermissionControllerServiceImpl: Updating user sensitive for uid 1000
+06-27 10:30:07.035  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:30:07.043  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:30:07.059  1621  1621 E KeyguardClockSwitch: No clock being shown
+06-27 10:30:07.071  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:30:07.071  1621  1621 I ClockEventController: Region isDark: true
+06-27 10:30:07.078  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:30:07.088  4937  4942 W droid.gallery3d: Reducing the number of considered missed Gc histogram windows from 1630 to 100
+06-27 10:30:07.108  1357  1593 W WindowManager: finishDrawingWindow: Window{4fc2c26 u0 com.android.systemui.wallpapers.ImageWallpaper} mDrawState=DRAW_PENDING
+06-27 10:30:07.124  1621  1621 W EmergencyButton: onConfigurationChanged, do not updated!
+06-27 10:30:07.132   772   829 I libPerfCtl: xgfGetFPS pid:1357 fps:-1
+06-27 10:30:07.132   772   829 I libPerfCtl: xgfGetFPS pid:1621 fps:-1
+06-27 10:30:07.193  2301  2301 I ActivityThread: ApplicationInfo updating for com.android.providers.media.module, new timestamp: 29583783
+06-27 10:30:07.193  2301  2301 I ActivityThread: assets removed: []
+06-27 10:30:07.193  2301  2301 I ActivityThread: assets added: []
+06-27 10:30:07.194  2080  2080 I ActivityThread: ApplicationInfo updating for com.android.permissioncontroller, new timestamp: 29583787
+06-27 10:30:07.194  2080  2080 I ActivityThread: assets removed: []
+06-27 10:30:07.194  2080  2080 I ActivityThread: assets added: []
+06-27 10:30:07.194  2389  2389 I ActivityThread: ApplicationInfo updating for com.mediatek.location.mtkgeofence, new timestamp: 29583781
+06-27 10:30:07.194  2389  2389 I ActivityThread: assets removed: []
+06-27 10:30:07.194  2389  2389 I ActivityThread: assets added: []
+06-27 10:30:07.194  2200  2200 I ActivityThread: ApplicationInfo updating for com.android.providers.blockednumber, new timestamp: 29583781
+06-27 10:30:07.194  2200  2200 I ActivityThread: assets removed: []
+06-27 10:30:07.194  2200  2200 I ActivityThread: assets added: []
+06-27 10:30:07.196  1357  1377 I ActivityTaskManager: Config changes=80000000 {1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.5 s.265 fontWeightAdjustment=0}
+06-27 10:30:07.196  4937  4937 I ActivityThread: ApplicationInfo updating for com.android.gallery3d, new timestamp: 29583785
+06-27 10:30:07.196  4937  4937 I ActivityThread: assets removed: []
+06-27 10:30:07.196  4937  4937 I ActivityThread: assets added: []
+06-27 10:30:07.197  2754  2754 I ActivityThread: ApplicationInfo updating for com.android.inputmethod.latin, new timestamp: 29583786
+06-27 10:30:07.197  2754  2754 I ActivityThread: assets removed: []
+06-27 10:30:07.197  2754  2754 I ActivityThread: assets added: []
+06-27 10:30:07.197  1911  1911 I ActivityThread: ApplicationInfo updating for com.android.launcher3, new timestamp: 29583786
+06-27 10:30:07.197  1911  1911 I ActivityThread: assets removed: []
+06-27 10:30:07.197  1911  1911 I ActivityThread: assets added: []
+06-27 10:30:07.197  2245  2245 I ActivityThread: ApplicationInfo updating for android.ext.services, new timestamp: 29583784
+06-27 10:30:07.197  2245  2245 I ActivityThread: assets removed: []
+06-27 10:30:07.197  2245  2245 I ActivityThread: assets added: []
+06-27 10:30:07.198  1828  1828 I ActivityThread: ApplicationInfo updating for com.android.se, new timestamp: 29583785
+06-27 10:30:07.198  1828  1828 I ActivityThread: assets removed: []
+06-27 10:30:07.198  1828  1828 I ActivityThread: assets added: []
+06-27 10:30:07.198  1846  1846 I ActivityThread: ApplicationInfo updating for com.mediatek.entitlement, new timestamp: 29583781
+06-27 10:30:07.198  1846  1846 I ActivityThread: assets removed: []
+06-27 10:30:07.198  1846  1846 I ActivityThread: assets added: []
+06-27 10:30:07.198  2321  2321 I ActivityThread: ApplicationInfo updating for com.sec.android.app.camerasaver, new timestamp: 29583784
+06-27 10:30:07.198  2321  2321 I ActivityThread: assets removed: []
+06-27 10:30:07.198  2321  2321 I ActivityThread: assets added: []
+06-27 10:30:07.199  1831  1831 I ActivityThread: ApplicationInfo updating for com.mediatek.entitlement.o2, new timestamp: 29583784
+06-27 10:30:07.199  1831  1831 I ActivityThread: assets removed: []
+06-27 10:30:07.199  1831  1831 I ActivityThread: assets added: []
+06-27 10:30:07.199  2314  2314 I ActivityThread: ApplicationInfo updating for com.mediatek.omacp, new timestamp: 29583783
+06-27 10:30:07.199  2314  2314 I ActivityThread: assets removed: []
+06-27 10:30:07.199  2314  2314 I ActivityThread: assets added: []
+06-27 10:30:07.199  1811  1811 I ActivityThread: ApplicationInfo updating for com.mediatek.smartratswitch.service, new timestamp: 29583786
+06-27 10:30:07.199  1811  1811 I ActivityThread: assets removed: []
+06-27 10:30:07.199  1811  1811 I ActivityThread: assets added: []
+06-27 10:30:07.200  1783  1783 I ActivityThread: ApplicationInfo updating for com.mediatek.ims, new timestamp: 29583781
+06-27 10:30:07.200  1783  1783 I ActivityThread: assets removed: []
+06-27 10:30:07.200  1783  1783 I ActivityThread: assets added: []
+06-27 10:30:07.203  1706  1706 I ActivityThread: ApplicationInfo updating for com.android.networkstack, new timestamp: 29583785
+06-27 10:30:07.203  1706  1706 I ActivityThread: assets removed: []
+06-27 10:30:07.203  1706  1706 I ActivityThread: assets added: []
+06-27 10:30:07.207  1357  1377 I WindowManager: Override config changes=80000000 {1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.5 s.265 fontWeightAdjustment=0} for displayId=0
+06-27 10:30:07.227  1911  1911 I TouchInteractionService: preloadOverview: forSUWAllSet=false, isHomeAndOverviewSame=true
+06-27 10:30:07.229  1357  1377 W ActivityTaskManager: Current config: {1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1110dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 72 - 1080, 2292) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.5 s.265 fontWeightAdjustment=0} unchanged for IME proc com.android.inputmethod.latin
+06-27 10:30:07.242  1783  1790 I om.mediatek.ims: Background concurrent mark compact GC freed 6005KB AllocSpace bytes, 0(0B) LOS objects, 74% free, 2154KB/8298KB, paused 346us,6.311ms total 41.022ms
+06-27 10:30:07.242  1842  1842 I ActivityThread: ApplicationInfo updating for com.android.providers.telephony, new timestamp: 29583787
+06-27 10:30:07.242  1842  1842 I ActivityThread: assets removed: []
+06-27 10:30:07.242  1842  1842 I ActivityThread: assets added: []
+06-27 10:30:07.243  1783  1790 W om.mediatek.ims: Reducing the number of considered missed Gc histogram windows from 1974 to 100

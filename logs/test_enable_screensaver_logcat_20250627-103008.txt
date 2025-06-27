@@ -1,0 +1,19 @@
+--------- beginning of main
+06-27 10:30:07.706  1621  1621 E KeyguardClockSwitch: No clock being shown
+06-27 10:30:07.722  1621  1621 I ClockEventController: Region isDark: true
+06-27 10:30:07.737  1621  1621 E KeyguardClockSwitch: No clock being shown
+06-27 10:30:07.752  1621  1621 I ClockEventController: Region isDark: true
+--------- beginning of system
+06-27 10:30:07.786  1357 10287 W WindowManager: finishDrawingWindow: Window{4fc2c26 u0 com.android.systemui.wallpapers.ImageWallpaper} mDrawState=HAS_DRAWN
+06-27 10:30:07.800  1621  1621 W EmergencyButton: onConfigurationChanged, do not updated!
+06-27 10:30:07.822  1621  1621 I Choreographer: Skipped 39 frames!  The application may be doing too much work on its main thread.
+06-27 10:30:07.830  1357  3598 W WindowManager: finishDrawingWindow: Window{4fc2c26 u0 com.android.systemui.wallpapers.ImageWallpaper} mDrawState=HAS_DRAWN
+06-27 10:30:07.860  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: widthSpec MeasureSpec: EXACTLY 1080 should be AT_MOST
+06-27 10:30:07.860  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: heightSpec MeasureSpec: EXACTLY 2133 should be AT_MOST
+06-27 10:30:07.861  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: widthSpec MeasureSpec: EXACTLY 1080 should be AT_MOST
+06-27 10:30:07.861  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: heightSpec MeasureSpec: EXACTLY 2148 should be AT_MOST
+06-27 10:30:07.861  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: widthSpec MeasureSpec: EXACTLY 1080 should be AT_MOST
+06-27 10:30:07.861  1621  1621 W KeyguardSecurityViewFlipper: onMeasure: heightSpec MeasureSpec: EXACTLY 2133 should be AT_MOST
+06-27 10:30:07.889  1357  3598 W WindowManager: finishDrawingWindow: Window{898197 u0 NotificationShade} mDrawState=HAS_DRAWN
+06-27 10:30:07.917  1357  1929 W WindowManager: finishDrawingWindow: Window{16a0564 u0 NavigationBar0} mDrawState=HAS_DRAWN
+06-27 10:30:07.930  1357  3598 W WindowManager: finishDrawingWindow: Window{f719012 u0 StatusBar} mDrawState=HAS_DRAWN

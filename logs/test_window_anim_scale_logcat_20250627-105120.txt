@@ -1,0 +1,23 @@
+--------- beginning of main
+06-27 10:51:18.900   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:18.900   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:18.900   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:18.900   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:18.900   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:18.914   747   787 E HfLooper: dst->data[13.000000,40.000000,9721.000000]
+06-27 10:51:18.924   737  2374 W AudioALSAStreamOut: setParameters(), still have param.size() = 1, remain param = "MixerThreadSleep="
+06-27 10:51:18.941   737  2374 W AudioALSAStreamOut: setParameters(), still have param.size() = 1, remain param = "MixerThreadSleep="
+06-27 10:51:18.957   737  2374 W AudioALSAStreamOut: setParameters(), still have param.size() = 1, remain param = "MixerThreadSleep="
+06-27 10:51:18.973   790  1058 W AudioPolicyManagerCustomImpl: [MTK_APM_Route]setOutputDevices() mIoHandle 29 mId 7 device (0x2)(0x1, 0x2, 0x4, 0x8, 0x10, 0x20, 0x40, 0x4000, 0x4000000) delayMs 84 force 0 size 5
+06-27 10:51:18.974   737  2374 W AudioALSAStreamOut: setParameters(), still have param.size() = 1, remain param = "NoAudioTrack=1"
+06-27 10:51:18.984   744  1195 I hwcomposer: [HWC] (0)fire a callback of refresh to SF[4]  
+06-27 10:51:18.988   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:18.988   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:18.988   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:18.988   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:18.988   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:51:19.014   747   787 E HfLooper: dst->data[13.000000,43.000000,9724.000000]
+06-27 10:51:19.088   780   828 I mtkpower@impl: [powerd_req] TIMER_MSG_PERF_LOCK_TIMEOUT hdl:6904
+06-27 10:51:19.088   780   828 I libPowerHal: [perfLockRel] hdl:6904, idx:0
+06-27 10:51:19.088   780   828 I libPowerHal: [PD] MTKPOWER_HINT_PACK_SWITCH update cmd:1408300 param:40
+06-27 10:51:19.114   747   787 E HfLooper: dst->data[13.000000,35.000000,9733.000000]

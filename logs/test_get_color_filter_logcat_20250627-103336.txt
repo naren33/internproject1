@@ -1,0 +1,18 @@
+--------- beginning of main
+06-27 10:33:35.660   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+06-27 10:33:35.753   780   828 I mtkpower@impl: [powerd_req] TIMER_MSG_PERF_LOCK_TIMEOUT hdl:6532
+06-27 10:33:35.753   780   828 I libPowerHal: [perfLockRel] hdl:6532, idx:2
+06-27 10:33:35.753   780   828 I libPowerHal: [setClusterFreq]  set cpu_ctrl cpufreq: -1 -1 -1 -1 
+06-27 10:33:35.753   780   828 I libPowerHal: [unsetGPUFreq] current min:0, max:0; scn_gpu_min:0, scn_gpu_max:-1; scn_gpu_min(HL):-1, scn_gpu_max(HL):-1
+06-27 10:33:35.753   780   828 I libPowerHal: INTERACTION: set gpu opp level: 42
+06-27 10:33:35.753   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:33:35.754   780   828 I libPowerHal: [setGPUFreq] Soft min/max = (42, 0); Hard min/max = (42, 0)
+06-27 10:33:35.754   780   828 I libPowerHal: [setGPUFreq] final min/max = (42, 0)
+06-27 10:33:35.754   780   828 I libPowerHal: INTERACTION: set gpu opp level: 42
+06-27 10:33:35.754   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:33:35.754   780   828 I libPowerHal: [PD] INTERACTION update cmd:410000 param:0
+06-27 10:33:35.754   780   828 I libPowerHal: [PD] (more) /sys/kernel/cm_mgr/dbg_cm_mgr set +prefix:dsu_mode 0;
+06-27 10:33:35.754   780   828 I libPowerHal: [setDvfsrcDevFreqOpp] opp:2, freq:2400000000
+06-27 10:33:35.755   780   828 I libPowerHal: [PD] INTERACTION update cmd:1000000 param:2
+06-27 10:33:35.760   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+06-27 10:33:35.860   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]

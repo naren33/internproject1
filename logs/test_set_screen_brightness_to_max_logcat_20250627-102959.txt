@@ -1,0 +1,27 @@
+--------- beginning of main
+06-27 10:29:58.352   747   787 E HfLooper: dst->data[14.000000,0.000000,0.000000]
+06-27 10:29:58.452   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+06-27 10:29:58.552   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+--------- beginning of system
+06-27 10:29:58.565  1357  1357 I BrightnessSynchronizer: [152] New Update 255(i) set brightness values: 1.0(f) 
+06-27 10:29:58.575  1357  1414 I DisplayPowerController2[0]: BrightnessEvent: disp=0, physDisp=local:4627039422300187648, displayState=ON, displayPolicy=DIM, brt=0.05(user_set), initBrt=0.0, rcmdBrt=1.0, preBrt=0.0026090965, lux=13.0, preLux=NaN, hbmMax=1.0, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=1.0, wasShortTermModelActive=false, flags=user_set , reason=automatic [ auto_adj dim ], autoBrightness=true, strategy=InvalidBrightnessStrategy, autoBrightnessMode=default
+06-27 10:29:58.577  1357  1414 I DisplayPowerController2[0]: BrightnessEvent: disp=0, physDisp=local:4627039422300187648, displayState=ON, displayPolicy=DIM, brt=0.05, initBrt=0.05, rcmdBrt=1.0, preBrt=0.0026090965, lux=13.0, preLux=NaN, hbmMax=1.0, hbmMode=off, rbcStrength=50, thrmMax=1.0, powerFactor=1.0, wasShortTermModelActive=true, flags=, reason=automatic [ dim ], autoBrightness=true, strategy=InvalidBrightnessStrategy, autoBrightnessMode=default
+06-27 10:29:58.578  1357  1357 I BrightnessSynchronizer: Swallowing update of 1.0(f) by update: {[152] 255(i), mUpdatedTypes=2, mConfirmedTypes=2, mTimeUpdated=29575164}
+06-27 10:29:58.578  1357  1357 I BrightnessSynchronizer: Completed Update: {[152] 255(i), mUpdatedTypes=2, mConfirmedTypes=2, mTimeUpdated=29575164}
+06-27 10:29:58.587   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:29:58.587   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:29:58.587   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:29:58.587   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:29:58.588   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:29:58.598   806   806 I BufferQueueProducer: [FramebufferSurface](this:0xb40000700264c2f0,id:-1,api:1,p:806,c:806) queueBuffer: fps=0.21 dur=9468.98 max=9397.72 min=71.25
+06-27 10:29:58.600   744   744 I hwcomposer: [HWCDisplay] [Display_0 (type:1, mode:2)] fps:0.211224,dur:9468.61,max:9398.09,min:70.52  
+06-27 10:29:58.610   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:29:58.610   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:29:58.610   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:29:58.610   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:29:58.610   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:29:58.631   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:29:58.631   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:29:58.631   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:29:58.631   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:29:58.631   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format

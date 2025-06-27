@@ -1,0 +1,590 @@
+--------- beginning of main
+06-27 10:33:33.035   727   727 I netd    : tetherGetStats() -> {[]} <4.80ms>
+06-27 10:33:33.045  1911  2005 W AllAppsList: updatePromiseInstallInfo: no Activities matched updated package, removing all apps from package=android
+06-27 10:33:33.047  1357  1930 W JobInfo : Job 'com.android.gallery3d/.app.PackagesMonitor$AsyncService#1' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+06-27 10:33:33.048 10292 11451 W GooglePlayServicesUtil: com.google.android.youtube requires the Google Play Store, but it is missing.
+06-27 10:33:33.048 10292 11451 E GooglePlayServicesUtil: GooglePlayServices not available due to error 9
+06-27 10:33:33.048 10292 11451 E vxn     : Attempted to use SSL unpatched. Google Play Services unavailable.
+06-27 10:33:33.048 10292 11451 E vxn     : pwb
+06-27 10:33:33.048 10292 11451 E vxn     : 	at pwd.d(PG:30)
+06-27 10:33:33.048 10292 11451 E vxn     : 	at vxm.a(PG:16)
+06-27 10:33:33.048 10292 11451 E vxn     : 	at vxq.a(PG:7)
+06-27 10:33:33.048 10292 11451 E vxn     : 	at vxq.createSocket(PG:6)
+06-27 10:33:33.048 10292 11451 E vxn     : 	at com.android.okhttp.internal.io.RealConnection.connectTls(RealConnection.java:185)
+06-27 10:33:33.048 10292 11451 E vxn     : 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:153)
+06-27 10:33:33.048 10292 11451 E vxn     : 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+06-27 10:33:33.048 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+06-27 10:33:33.048 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+06-27 10:33:33.048 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+06-27 10:33:33.048 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+06-27 10:33:33.048 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+06-27 10:33:33.048 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+06-27 10:33:33.048 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+06-27 10:33:33.048 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+06-27 10:33:33.048 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+06-27 10:33:33.048 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:30)
+06-27 10:33:33.048 10292 11451 E vxn     : 	at aqhu.g(PG:1)
+06-27 10:33:33.048 10292 11451 E vxn     : 	at aqhu.b(PG:99)
+06-27 10:33:33.048 10292 11451 E vxn     : 	at aqhf.run(PG:237)
+06-27 10:33:33.048 10292 11451 E vxn     : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+06-27 10:33:33.048 10292 11451 E vxn     : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+06-27 10:33:33.048 10292 11451 E vxn     : 	at java.lang.Thread.run(Thread.java:1012)
+06-27 10:33:33.049 10292 11451 W GoogleApiAvailability: GMS core API Availability. ConnectionResult=9, tag=null
+06-27 10:33:33.049 10292 11451 W GoogleApiAvailability: java.lang.IllegalArgumentException
+06-27 10:33:33.049 10292 11451 W GoogleApiAvailability: 	at pvo.g(PG:23)
+06-27 10:33:33.049 10292 11451 W GoogleApiAvailability: 	at pvo.d(PG:7)
+06-27 10:33:33.049 10292 11451 W GoogleApiAvailability: 	at vxm.a(PG:198)
+06-27 10:33:33.049 10292 11451 W GoogleApiAvailability: 	at vxq.a(PG:7)
+06-27 10:33:33.049 10292 11451 W GoogleApiAvailability: 	at vxq.createSocket(PG:6)
+06-27 10:33:33.049 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.io.RealConnection.connectTls(RealConnection.java:185)
+06-27 10:33:33.049 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:153)
+06-27 10:33:33.049 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+06-27 10:33:33.049 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+06-27 10:33:33.049 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+06-27 10:33:33.049 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+06-27 10:33:33.049 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+06-27 10:33:33.049 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+06-27 10:33:33.049 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+06-27 10:33:33.049 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+06-27 10:33:33.049 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+06-27 10:33:33.049 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+06-27 10:33:33.049 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:30)
+06-27 10:33:33.049 10292 11451 W GoogleApiAvailability: 	at aqhu.g(PG:1)
+06-27 10:33:33.049 10292 11451 W GoogleApiAvailability: 	at aqhu.b(PG:99)
+06-27 10:33:33.049 10292 11451 W GoogleApiAvailability: 	at aqhf.run(PG:237)
+06-27 10:33:33.049 10292 11451 W GoogleApiAvailability: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+06-27 10:33:33.049 10292 11451 W GoogleApiAvailability: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+06-27 10:33:33.049 10292 11451 W GoogleApiAvailability: 	at java.lang.Thread.run(Thread.java:1012)
+06-27 10:33:33.051 10292 11449 E FirebaseInstanceId: Failed to get FIS auth token
+06-27 10:33:33.051 10292 11449 E FirebaseInstanceId: java.util.concurrent.ExecutionException: aqhi: Firebase Installations Service is unavailable. Please try again later.
+06-27 10:33:33.051 10292 11449 E FirebaseInstanceId: 	at qhv.y(PG:32)
+06-27 10:33:33.051 10292 11449 E FirebaseInstanceId: 	at qhv.l(PG:31)
+06-27 10:33:33.051 10292 11449 E FirebaseInstanceId: 	at aqgw.a(PG:99)
+06-27 10:33:33.051 10292 11449 E FirebaseInstanceId: 	at aqsw.f(PG:36)
+06-27 10:33:33.051 10292 11449 E FirebaseInstanceId: 	at aqgt.a(PG:40)
+06-27 10:33:33.051 10292 11449 E FirebaseInstanceId: 	at qpk.run(PG:589)
+06-27 10:33:33.051 10292 11449 E FirebaseInstanceId: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+06-27 10:33:33.051 10292 11449 E FirebaseInstanceId: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+06-27 10:33:33.051 10292 11449 E FirebaseInstanceId: 	at qbs.run(PG:7)
+06-27 10:33:33.051 10292 11449 E FirebaseInstanceId: 	at java.lang.Thread.run(Thread.java:1012)
+06-27 10:33:33.051 10292 11449 E FirebaseInstanceId: Caused by: aqhi: Firebase Installations Service is unavailable. Please try again later.
+06-27 10:33:33.051 10292 11449 E FirebaseInstanceId: 	at aqhu.b(PG:384)
+06-27 10:33:33.051 10292 11449 E FirebaseInstanceId: 	at aqhf.run(PG:237)
+06-27 10:33:33.051 10292 11449 E FirebaseInstanceId: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+06-27 10:33:33.051 10292 11449 E FirebaseInstanceId: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+06-27 10:33:33.051 10292 11449 E FirebaseInstanceId: 	... 1 more
+06-27 10:33:33.056 10292 11449 W Metadata: Failed to find package android.content.pm.PackageManager$NameNotFoundException: com.google.android.gms
+06-27 10:33:33.057 10292 11449 E Metadata: Google Play services missing or without correct permission.
+06-27 10:33:33.058  1621  1621 E KeyguardClockSwitch: No clock being shown
+06-27 10:33:33.060   747   787 E HfLooper: dst->data[13.000000,-4.000000,9726.000000]
+06-27 10:33:33.071  2080 10820 I PermissionControllerServiceImpl: Updating user sensitive for uid 1000
+--------- beginning of system
+06-27 10:33:33.072  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:33:33.072  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:33:33.073 10292 10319 E ActivityThread: Failed to find provider info for com.google.android.gsf.gservices
+06-27 10:33:33.075 10292 10321 W GooglePlayServicesUtil: com.google.android.youtube requires the Google Play Store, but it is missing.
+06-27 10:33:33.076 10292 10321 W GoogleApiManager: The service for puq is not available: ConnectionResult{statusCode=SERVICE_INVALID, resolution=null, message=null}
+06-27 10:33:33.077 10292 10321 W GooglePlayServicesUtil: com.google.android.youtube requires the Google Play Store, but it is missing.
+06-27 10:33:33.077 10292 10321 W GoogleApiManager: The service for puq is not available: ConnectionResult{statusCode=SERVICE_INVALID, resolution=null, message=null}
+06-27 10:33:33.082 10292 11451 W GooglePlayServicesUtil: com.google.android.youtube requires the Google Play Store, but it is missing.
+06-27 10:33:33.082 10292 11451 E GooglePlayServicesUtil: GooglePlayServices not available due to error 9
+06-27 10:33:33.083 10292 11451 E vxn     : Attempted to use SSL unpatched. Google Play Services unavailable.
+06-27 10:33:33.083 10292 11451 E vxn     : pwb
+06-27 10:33:33.083 10292 11451 E vxn     : 	at pwd.d(PG:30)
+06-27 10:33:33.083 10292 11451 E vxn     : 	at vxm.a(PG:16)
+06-27 10:33:33.083 10292 11451 E vxn     : 	at vxq.a(PG:7)
+06-27 10:33:33.083 10292 11451 E vxn     : 	at vxq.createSocket(PG:6)
+06-27 10:33:33.083 10292 11451 E vxn     : 	at com.android.okhttp.internal.io.RealConnection.connectTls(RealConnection.java:185)
+06-27 10:33:33.083 10292 11451 E vxn     : 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:153)
+06-27 10:33:33.083 10292 11451 E vxn     : 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+06-27 10:33:33.083 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+06-27 10:33:33.083 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+06-27 10:33:33.083 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+06-27 10:33:33.083 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+06-27 10:33:33.083 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+06-27 10:33:33.083 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+06-27 10:33:33.083 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+06-27 10:33:33.083 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+06-27 10:33:33.083 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+06-27 10:33:33.083 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:30)
+06-27 10:33:33.083 10292 11451 E vxn     : 	at aqhu.g(PG:1)
+06-27 10:33:33.083 10292 11451 E vxn     : 	at aqhu.b(PG:99)
+06-27 10:33:33.083 10292 11451 E vxn     : 	at aqhf.run(PG:237)
+06-27 10:33:33.083 10292 11451 E vxn     : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+06-27 10:33:33.083 10292 11451 E vxn     : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+06-27 10:33:33.083 10292 11451 E vxn     : 	at java.lang.Thread.run(Thread.java:1012)
+06-27 10:33:33.083 10292 11451 W GoogleApiAvailability: GMS core API Availability. ConnectionResult=9, tag=null
+06-27 10:33:33.083 10292 11451 W GoogleApiAvailability: java.lang.IllegalArgumentException
+06-27 10:33:33.083 10292 11451 W GoogleApiAvailability: 	at pvo.g(PG:23)
+06-27 10:33:33.083 10292 11451 W GoogleApiAvailability: 	at pvo.d(PG:7)
+06-27 10:33:33.083 10292 11451 W GoogleApiAvailability: 	at vxm.a(PG:198)
+06-27 10:33:33.083 10292 11451 W GoogleApiAvailability: 	at vxq.a(PG:7)
+06-27 10:33:33.083 10292 11451 W GoogleApiAvailability: 	at vxq.createSocket(PG:6)
+06-27 10:33:33.083 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.io.RealConnection.connectTls(RealConnection.java:185)
+06-27 10:33:33.083 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:153)
+06-27 10:33:33.083 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+06-27 10:33:33.083 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+06-27 10:33:33.083 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+06-27 10:33:33.083 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+06-27 10:33:33.083 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+06-27 10:33:33.083 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+06-27 10:33:33.083 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+06-27 10:33:33.083 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+06-27 10:33:33.083 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+06-27 10:33:33.083 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+06-27 10:33:33.083 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:30)
+06-27 10:33:33.083 10292 11451 W GoogleApiAvailability: 	at aqhu.g(PG:1)
+06-27 10:33:33.083 10292 11451 W GoogleApiAvailability: 	at aqhu.b(PG:99)
+06-27 10:33:33.083 10292 11451 W GoogleApiAvailability: 	at aqhf.run(PG:237)
+06-27 10:33:33.083 10292 11451 W GoogleApiAvailability: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+06-27 10:33:33.083 10292 11451 W GoogleApiAvailability: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+06-27 10:33:33.083 10292 11451 W GoogleApiAvailability: 	at java.lang.Thread.run(Thread.java:1012)
+06-27 10:33:33.084  1621  1621 I ClockEventController: Region isDark: true
+06-27 10:33:33.087  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:33:33.090  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:33:33.093  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:33:33.097   744  1195 I hwcomposer: [HWC] (0)fire a callback of refresh to SF[4]  
+06-27 10:33:33.099  1357  4317 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = READ_SMS, mode = allow, callingUid = 1001, oldMode = allow
+06-27 10:33:33.100  1621  1621 E KeyguardClockSwitch: No clock being shown
+06-27 10:33:33.103  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:33:33.104  1357  4317 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = RECEIVE_SMS, mode = allow, callingUid = 1001, oldMode = allow
+06-27 10:33:33.105  1357  1699 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = RECEIVE_WAP_PUSH, mode = allow, callingUid = 1001, oldMode = allow
+06-27 10:33:33.106  1357  1929 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = SEND_SMS, mode = allow, callingUid = 1001, oldMode = allow
+06-27 10:33:33.107   744   744 I hwcomposer: [HWCLayer] setHwlayerType(), id:445, release queue sp, type 3 -> 0  
+06-27 10:33:33.107   744   744 I hwcomposer: [DBQ] (blt:0xb400007a85617e40) Buffer queue is destroyed, m_id(445)  
+06-27 10:33:33.107   744   744 I hwcomposer: [DBQ] (blt:0xb400007a85617e40) ~DisplayBufferQueue(), m_id(445), release buf  
+06-27 10:33:33.107   744   744 I hwcomposer: [DBQ] (blt:0xb400007a85617e40) Free Slot(0), handle=0xb400007ac56226f0, 4608000 -> 0  
+06-27 10:33:33.108   744   744 I hwcomposer: [DBQ] (blt:0xb400007a85617e40) Free Slot(1), handle=0xb400007ac5623090, 4608000 -> 0  
+06-27 10:33:33.108 10292 11451 W GooglePlayServicesUtil: com.google.android.youtube requires the Google Play Store, but it is missing.
+06-27 10:33:33.108  1357  1699 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = READ_CELL_BROADCASTS, mode = allow, callingUid = 1001, oldMode = allow
+06-27 10:33:33.108 10292 11451 E GooglePlayServicesUtil: GooglePlayServices not available due to error 9
+06-27 10:33:33.108   806  1219 I SurfaceFlinger: NotifyHwcComposition(), id 0, mode 0
+06-27 10:33:33.108   780   803 I mtkpower@impl: [setMode] type:6, enabled:1
+06-27 10:33:33.108   780   803 E mtkpower@impl: [setMode] unknown type
+06-27 10:33:33.108 10292 11451 E vxn     : Attempted to use SSL unpatched. Google Play Services unavailable.
+06-27 10:33:33.108 10292 11451 E vxn     : pwb
+06-27 10:33:33.108 10292 11451 E vxn     : 	at pwd.d(PG:30)
+06-27 10:33:33.108 10292 11451 E vxn     : 	at vxm.a(PG:16)
+06-27 10:33:33.108 10292 11451 E vxn     : 	at vxq.a(PG:7)
+06-27 10:33:33.108 10292 11451 E vxn     : 	at vxq.createSocket(PG:6)
+06-27 10:33:33.108 10292 11451 E vxn     : 	at com.android.okhttp.internal.io.RealConnection.connectTls(RealConnection.java:185)
+06-27 10:33:33.108 10292 11451 E vxn     : 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:153)
+06-27 10:33:33.108 10292 11451 E vxn     : 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+06-27 10:33:33.108 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+06-27 10:33:33.108 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+06-27 10:33:33.108 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+06-27 10:33:33.108 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+06-27 10:33:33.108 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+06-27 10:33:33.108 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+06-27 10:33:33.108 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+06-27 10:33:33.108 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+06-27 10:33:33.108 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+06-27 10:33:33.108 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:30)
+06-27 10:33:33.108 10292 11451 E vxn     : 	at aqhu.g(PG:1)
+06-27 10:33:33.108 10292 11451 E vxn     : 	at aqhu.b(PG:99)
+06-27 10:33:33.108 10292 11451 E vxn     : 	at aqhf.run(PG:237)
+06-27 10:33:33.108 10292 11451 E vxn     : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+06-27 10:33:33.108 10292 11451 E vxn     : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+06-27 10:33:33.108 10292 11451 E vxn     : 	at java.lang.Thread.run(Thread.java:1012)
+06-27 10:33:33.109 10292 11451 W GoogleApiAvailability: GMS core API Availability. ConnectionResult=9, tag=null
+06-27 10:33:33.109 10292 11451 W GoogleApiAvailability: java.lang.IllegalArgumentException
+06-27 10:33:33.109 10292 11451 W GoogleApiAvailability: 	at pvo.g(PG:23)
+06-27 10:33:33.109 10292 11451 W GoogleApiAvailability: 	at pvo.d(PG:7)
+06-27 10:33:33.109 10292 11451 W GoogleApiAvailability: 	at vxm.a(PG:198)
+06-27 10:33:33.109 10292 11451 W GoogleApiAvailability: 	at vxq.a(PG:7)
+06-27 10:33:33.109 10292 11451 W GoogleApiAvailability: 	at vxq.createSocket(PG:6)
+06-27 10:33:33.109 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.io.RealConnection.connectTls(RealConnection.java:185)
+06-27 10:33:33.109 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:153)
+06-27 10:33:33.109 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+06-27 10:33:33.109 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+06-27 10:33:33.109 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+06-27 10:33:33.109 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+06-27 10:33:33.109 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+06-27 10:33:33.109 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+06-27 10:33:33.109 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+06-27 10:33:33.109 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+06-27 10:33:33.109 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+06-27 10:33:33.109 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+06-27 10:33:33.109 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:30)
+06-27 10:33:33.109 10292 11451 W GoogleApiAvailability: 	at aqhu.g(PG:1)
+06-27 10:33:33.109 10292 11451 W GoogleApiAvailability: 	at aqhu.b(PG:99)
+06-27 10:33:33.109 10292 11451 W GoogleApiAvailability: 	at aqhf.run(PG:237)
+06-27 10:33:33.109 10292 11451 W GoogleApiAvailability: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+06-27 10:33:33.109 10292 11451 W GoogleApiAvailability: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+06-27 10:33:33.109 10292 11451 W GoogleApiAvailability: 	at java.lang.Thread.run(Thread.java:1012)
+06-27 10:33:33.110  1621  1621 I ClockEventController: Region isDark: true
+06-27 10:33:33.114  3084  3142 I cr_BindingManager: onTrimMemory: level=40, size=0
+06-27 10:33:33.125  1357  1368 I system_server: NativeAlloc concurrent mark compact GC freed 20MB AllocSpace bytes, 168(3436KB) LOS objects, 48% free, 25MB/49MB, paused 2.464ms,3.670ms total 177.340ms
+06-27 10:33:33.128  1357  1369 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+06-27 10:33:33.129  1357  1369 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+06-27 10:33:33.131  1357  1370 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/priv-app/MtkLauncher3QuickStep/MtkLauncher3QuickStep.apk' with 1 weak references
+06-27 10:33:33.132  1357  1370 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~gduIs07Ljpv50RFVksdmNw==/com.google.android.youtube-V6u7-RXpOvjLxHVgGWym3w==/base.apk' with 1 weak references
+06-27 10:33:33.133  1357  1370 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/SamSungCamera/SamSungCamera.apk' with 1 weak references
+06-27 10:33:33.135 10292 11451 W GooglePlayServicesUtil: com.google.android.youtube requires the Google Play Store, but it is missing.
+06-27 10:33:33.135  1357  1699 W WindowManager: finishDrawingWindow: Window{4fc2c26 u0 com.android.systemui.wallpapers.ImageWallpaper} mDrawState=DRAW_PENDING
+06-27 10:33:33.136 10292 11451 E GooglePlayServicesUtil: GooglePlayServices not available due to error 9
+06-27 10:33:33.136 10292 11451 E vxn     : Attempted to use SSL unpatched. Google Play Services unavailable.
+06-27 10:33:33.136 10292 11451 E vxn     : pwb
+06-27 10:33:33.136 10292 11451 E vxn     : 	at pwd.d(PG:30)
+06-27 10:33:33.136 10292 11451 E vxn     : 	at vxm.a(PG:16)
+06-27 10:33:33.136 10292 11451 E vxn     : 	at vxq.a(PG:7)
+06-27 10:33:33.136 10292 11451 E vxn     : 	at vxq.createSocket(PG:6)
+06-27 10:33:33.136 10292 11451 E vxn     : 	at com.android.okhttp.internal.io.RealConnection.connectTls(RealConnection.java:185)
+06-27 10:33:33.136 10292 11451 E vxn     : 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:153)
+06-27 10:33:33.136 10292 11451 E vxn     : 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+06-27 10:33:33.136 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+06-27 10:33:33.136 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+06-27 10:33:33.136 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+06-27 10:33:33.136 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+06-27 10:33:33.136 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+06-27 10:33:33.136 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+06-27 10:33:33.136 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+06-27 10:33:33.136 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+06-27 10:33:33.136 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+06-27 10:33:33.136 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:30)
+06-27 10:33:33.136 10292 11451 E vxn     : 	at aqhu.g(PG:1)
+06-27 10:33:33.136 10292 11451 E vxn     : 	at aqhu.b(PG:99)
+06-27 10:33:33.136 10292 11451 E vxn     : 	at aqhf.run(PG:237)
+06-27 10:33:33.136 10292 11451 E vxn     : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+06-27 10:33:33.136 10292 11451 E vxn     : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+06-27 10:33:33.136 10292 11451 E vxn     : 	at java.lang.Thread.run(Thread.java:1012)
+06-27 10:33:33.136 10292 11451 W GoogleApiAvailability: GMS core API Availability. ConnectionResult=9, tag=null
+06-27 10:33:33.136 10292 11451 W GoogleApiAvailability: java.lang.IllegalArgumentException
+06-27 10:33:33.136 10292 11451 W GoogleApiAvailability: 	at pvo.g(PG:23)
+06-27 10:33:33.136 10292 11451 W GoogleApiAvailability: 	at pvo.d(PG:7)
+06-27 10:33:33.136 10292 11451 W GoogleApiAvailability: 	at vxm.a(PG:198)
+06-27 10:33:33.136 10292 11451 W GoogleApiAvailability: 	at vxq.a(PG:7)
+06-27 10:33:33.136 10292 11451 W GoogleApiAvailability: 	at vxq.createSocket(PG:6)
+06-27 10:33:33.136 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.io.RealConnection.connectTls(RealConnection.java:185)
+06-27 10:33:33.136 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:153)
+06-27 10:33:33.136 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+06-27 10:33:33.136 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+06-27 10:33:33.136 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+06-27 10:33:33.136 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+06-27 10:33:33.136 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+06-27 10:33:33.136 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+06-27 10:33:33.136 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+06-27 10:33:33.136 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+06-27 10:33:33.136 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+06-27 10:33:33.136 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+06-27 10:33:33.136 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:30)
+06-27 10:33:33.136 10292 11451 W GoogleApiAvailability: 	at aqhu.g(PG:1)
+06-27 10:33:33.136 10292 11451 W GoogleApiAvailability: 	at aqhu.b(PG:99)
+06-27 10:33:33.136 10292 11451 W GoogleApiAvailability: 	at aqhf.run(PG:237)
+06-27 10:33:33.136 10292 11451 W GoogleApiAvailability: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+06-27 10:33:33.136 10292 11451 W GoogleApiAvailability: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+06-27 10:33:33.136 10292 11451 W GoogleApiAvailability: 	at java.lang.Thread.run(Thread.java:1012)
+06-27 10:33:33.139  1357  1370 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /product/app/LatinIME/LatinIME.apk' with 2 weak references
+06-27 10:33:33.139  1357  1370 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/app/AccessibilityMenu/AccessibilityMenu.apk' with 2 weak references
+06-27 10:33:33.140  1357  1370 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~Pe516UeCtxyAJrAgxhgHnQ==/com.github.uiautomator--vq-MOdIPjvYt39qKvpzNg==/base.apk' with 2 weak references
+06-27 10:33:33.140  1357  1370 W system_server: ApkAssets: Deleting an ApkAssets object '<empty> and /system/priv-app/InputDevices/InputDevices.apk' with 2 weak references
+06-27 10:33:33.145  1621  1621 W EmergencyButton: onConfigurationChanged, do not updated!
+06-27 10:33:33.155 10292 11451 W GooglePlayServicesUtil: com.google.android.youtube requires the Google Play Store, but it is missing.
+06-27 10:33:33.155 10292 11451 E GooglePlayServicesUtil: GooglePlayServices not available due to error 9
+06-27 10:33:33.156 10292 11451 E vxn     : Attempted to use SSL unpatched. Google Play Services unavailable.
+06-27 10:33:33.156 10292 11451 E vxn     : pwb
+06-27 10:33:33.156 10292 11451 E vxn     : 	at pwd.d(PG:30)
+06-27 10:33:33.156 10292 11451 E vxn     : 	at vxm.a(PG:16)
+06-27 10:33:33.156 10292 11451 E vxn     : 	at vxq.a(PG:7)
+06-27 10:33:33.156 10292 11451 E vxn     : 	at vxq.createSocket(PG:6)
+06-27 10:33:33.156 10292 11451 E vxn     : 	at com.android.okhttp.internal.io.RealConnection.connectTls(RealConnection.java:185)
+06-27 10:33:33.156 10292 11451 E vxn     : 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:153)
+06-27 10:33:33.156 10292 11451 E vxn     : 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+06-27 10:33:33.156 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+06-27 10:33:33.156 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+06-27 10:33:33.156 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+06-27 10:33:33.156 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+06-27 10:33:33.156 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+06-27 10:33:33.156 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+06-27 10:33:33.156 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+06-27 10:33:33.156 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+06-27 10:33:33.156 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+06-27 10:33:33.156 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:30)
+06-27 10:33:33.156 10292 11451 E vxn     : 	at aqhu.g(PG:1)
+06-27 10:33:33.156 10292 11451 E vxn     : 	at aqhu.b(PG:99)
+06-27 10:33:33.156 10292 11451 E vxn     : 	at aqhf.run(PG:237)
+06-27 10:33:33.156 10292 11451 E vxn     : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+06-27 10:33:33.156 10292 11451 E vxn     : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+06-27 10:33:33.156 10292 11451 E vxn     : 	at java.lang.Thread.run(Thread.java:1012)
+06-27 10:33:33.156 10292 11451 W GoogleApiAvailability: GMS core API Availability. ConnectionResult=9, tag=null
+06-27 10:33:33.156 10292 11451 W GoogleApiAvailability: java.lang.IllegalArgumentException
+06-27 10:33:33.156 10292 11451 W GoogleApiAvailability: 	at pvo.g(PG:23)
+06-27 10:33:33.156 10292 11451 W GoogleApiAvailability: 	at pvo.d(PG:7)
+06-27 10:33:33.156 10292 11451 W GoogleApiAvailability: 	at vxm.a(PG:198)
+06-27 10:33:33.156 10292 11451 W GoogleApiAvailability: 	at vxq.a(PG:7)
+06-27 10:33:33.156 10292 11451 W GoogleApiAvailability: 	at vxq.createSocket(PG:6)
+06-27 10:33:33.156 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.io.RealConnection.connectTls(RealConnection.java:185)
+06-27 10:33:33.156 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:153)
+06-27 10:33:33.156 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+06-27 10:33:33.156 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+06-27 10:33:33.156 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+06-27 10:33:33.156 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+06-27 10:33:33.156 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+06-27 10:33:33.156 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+06-27 10:33:33.156 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+06-27 10:33:33.156 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+06-27 10:33:33.156 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+06-27 10:33:33.156 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+06-27 10:33:33.156 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:30)
+06-27 10:33:33.156 10292 11451 W GoogleApiAvailability: 	at aqhu.g(PG:1)
+06-27 10:33:33.156 10292 11451 W GoogleApiAvailability: 	at aqhu.b(PG:99)
+06-27 10:33:33.156 10292 11451 W GoogleApiAvailability: 	at aqhf.run(PG:237)
+06-27 10:33:33.156 10292 11451 W GoogleApiAvailability: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+06-27 10:33:33.156 10292 11451 W GoogleApiAvailability: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+06-27 10:33:33.156 10292 11451 W GoogleApiAvailability: 	at java.lang.Thread.run(Thread.java:1012)
+06-27 10:33:33.160   747   787 E HfLooper: dst->data[13.000000,0.000000,9731.000000]
+06-27 10:33:33.176 10292 11451 W GooglePlayServicesUtil: com.google.android.youtube requires the Google Play Store, but it is missing.
+06-27 10:33:33.176 10292 11451 E GooglePlayServicesUtil: GooglePlayServices not available due to error 9
+06-27 10:33:33.176 10292 11451 E vxn     : Attempted to use SSL unpatched. Google Play Services unavailable.
+06-27 10:33:33.176 10292 11451 E vxn     : pwb
+06-27 10:33:33.176 10292 11451 E vxn     : 	at pwd.d(PG:30)
+06-27 10:33:33.176 10292 11451 E vxn     : 	at vxm.a(PG:16)
+06-27 10:33:33.176 10292 11451 E vxn     : 	at vxq.a(PG:7)
+06-27 10:33:33.176 10292 11451 E vxn     : 	at vxq.createSocket(PG:6)
+06-27 10:33:33.176 10292 11451 E vxn     : 	at com.android.okhttp.internal.io.RealConnection.connectTls(RealConnection.java:185)
+06-27 10:33:33.176 10292 11451 E vxn     : 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:153)
+06-27 10:33:33.176 10292 11451 E vxn     : 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+06-27 10:33:33.176 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+06-27 10:33:33.176 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+06-27 10:33:33.176 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+06-27 10:33:33.176 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+06-27 10:33:33.176 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+06-27 10:33:33.176 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+06-27 10:33:33.176 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+06-27 10:33:33.176 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+06-27 10:33:33.176 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+06-27 10:33:33.176 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:30)
+06-27 10:33:33.176 10292 11451 E vxn     : 	at aqhu.g(PG:1)
+06-27 10:33:33.176 10292 11451 E vxn     : 	at aqhu.b(PG:99)
+06-27 10:33:33.176 10292 11451 E vxn     : 	at aqhf.run(PG:237)
+06-27 10:33:33.176 10292 11451 E vxn     : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+06-27 10:33:33.176 10292 11451 E vxn     : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+06-27 10:33:33.176 10292 11451 E vxn     : 	at java.lang.Thread.run(Thread.java:1012)
+06-27 10:33:33.177 10292 11451 W GoogleApiAvailability: GMS core API Availability. ConnectionResult=9, tag=null
+06-27 10:33:33.177 10292 11451 W GoogleApiAvailability: java.lang.IllegalArgumentException
+06-27 10:33:33.177 10292 11451 W GoogleApiAvailability: 	at pvo.g(PG:23)
+06-27 10:33:33.177 10292 11451 W GoogleApiAvailability: 	at pvo.d(PG:7)
+06-27 10:33:33.177 10292 11451 W GoogleApiAvailability: 	at vxm.a(PG:198)
+06-27 10:33:33.177 10292 11451 W GoogleApiAvailability: 	at vxq.a(PG:7)
+06-27 10:33:33.177 10292 11451 W GoogleApiAvailability: 	at vxq.createSocket(PG:6)
+06-27 10:33:33.177 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.io.RealConnection.connectTls(RealConnection.java:185)
+06-27 10:33:33.177 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:153)
+06-27 10:33:33.177 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+06-27 10:33:33.177 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+06-27 10:33:33.177 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+06-27 10:33:33.177 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+06-27 10:33:33.177 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+06-27 10:33:33.177 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+06-27 10:33:33.177 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+06-27 10:33:33.177 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+06-27 10:33:33.177 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+06-27 10:33:33.177 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+06-27 10:33:33.177 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:30)
+06-27 10:33:33.177 10292 11451 W GoogleApiAvailability: 	at aqhu.g(PG:1)
+06-27 10:33:33.177 10292 11451 W GoogleApiAvailability: 	at aqhu.b(PG:99)
+06-27 10:33:33.177 10292 11451 W GoogleApiAvailability: 	at aqhf.run(PG:237)
+06-27 10:33:33.177 10292 11451 W GoogleApiAvailability: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+06-27 10:33:33.177 10292 11451 W GoogleApiAvailability: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+06-27 10:33:33.177 10292 11451 W GoogleApiAvailability: 	at java.lang.Thread.run(Thread.java:1012)
+06-27 10:33:33.197  9260  9260 I ActivityThread: ApplicationInfo updating for com.android.chrome, new timestamp: 29789790
+06-27 10:33:33.197  9260  9260 I ActivityThread: assets removed: []
+06-27 10:33:33.197  9260  9260 I ActivityThread: assets added: []
+06-27 10:33:33.197  4937  4937 I ActivityThread: ApplicationInfo updating for com.android.gallery3d, new timestamp: 29789792
+06-27 10:33:33.197  4937  4937 I ActivityThread: assets removed: []
+06-27 10:33:33.197  4937  4937 I ActivityThread: assets added: []
+06-27 10:33:33.198  6306  6306 I ActivityThread: ApplicationInfo updating for com.android.chrome, new timestamp: 29789790
+06-27 10:33:33.198  6306  6306 I ActivityThread: assets removed: []
+06-27 10:33:33.198  6306  6306 I ActivityThread: assets added: []
+06-27 10:33:33.198  2754  2754 I ActivityThread: ApplicationInfo updating for com.android.inputmethod.latin, new timestamp: 29789793
+06-27 10:33:33.198  2754  2754 I ActivityThread: assets removed: []
+06-27 10:33:33.198  2754  2754 I ActivityThread: assets added: []
+06-27 10:33:33.198  3201  3201 I ActivityThread: ApplicationInfo updating for com.android.chrome, new timestamp: 29789790
+06-27 10:33:33.198  3201  3201 I ActivityThread: assets removed: []
+06-27 10:33:33.198  3201  3201 I ActivityThread: assets added: []
+06-27 10:33:33.200  1911  1911 I ActivityThread: ApplicationInfo updating for com.android.launcher3, new timestamp: 29789793
+06-27 10:33:33.200  1911  1911 I ActivityThread: assets removed: []
+06-27 10:33:33.200  1911  1911 I ActivityThread: assets added: []
+06-27 10:33:33.200 10292 11451 W GooglePlayServicesUtil: com.google.android.youtube requires the Google Play Store, but it is missing.
+06-27 10:33:33.200 10292 11451 E GooglePlayServicesUtil: GooglePlayServices not available due to error 9
+06-27 10:33:33.201  2200  2200 I ActivityThread: ApplicationInfo updating for com.android.providers.blockednumber, new timestamp: 29789790
+06-27 10:33:33.201  2200  2200 I ActivityThread: assets removed: []
+06-27 10:33:33.201  2200  2200 I ActivityThread: assets added: []
+06-27 10:33:33.201 10292 11451 E vxn     : Attempted to use SSL unpatched. Google Play Services unavailable.
+06-27 10:33:33.201 10292 11451 E vxn     : pwb
+06-27 10:33:33.201 10292 11451 E vxn     : 	at pwd.d(PG:30)
+06-27 10:33:33.201 10292 11451 E vxn     : 	at vxm.a(PG:16)
+06-27 10:33:33.201 10292 11451 E vxn     : 	at vxq.a(PG:7)
+06-27 10:33:33.201 10292 11451 E vxn     : 	at vxq.createSocket(PG:6)
+06-27 10:33:33.201 10292 11451 E vxn     : 	at com.android.okhttp.internal.io.RealConnection.connectTls(RealConnection.java:185)
+06-27 10:33:33.201 10292 11451 E vxn     : 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:153)
+06-27 10:33:33.201 10292 11451 E vxn     : 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+06-27 10:33:33.201 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+06-27 10:33:33.201 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+06-27 10:33:33.201 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+06-27 10:33:33.201 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+06-27 10:33:33.201 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+06-27 10:33:33.201 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+06-27 10:33:33.201 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+06-27 10:33:33.201 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+06-27 10:33:33.201 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+06-27 10:33:33.201 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:30)
+06-27 10:33:33.201 10292 11451 E vxn     : 	at aqhu.g(PG:1)
+06-27 10:33:33.201 10292 11451 E vxn     : 	at aqhu.b(PG:99)
+06-27 10:33:33.201 10292 11451 E vxn     : 	at aqhf.run(PG:237)
+06-27 10:33:33.201 10292 11451 E vxn     : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+06-27 10:33:33.201 10292 11451 E vxn     : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+06-27 10:33:33.201 10292 11451 E vxn     : 	at java.lang.Thread.run(Thread.java:1012)
+06-27 10:33:33.201  2321  2321 I ActivityThread: ApplicationInfo updating for com.sec.android.app.camerasaver, new timestamp: 29789791
+06-27 10:33:33.201  2321  2321 I ActivityThread: assets removed: []
+06-27 10:33:33.201  2321  2321 I ActivityThread: assets added: []
+06-27 10:33:33.201 10292 11451 W GoogleApiAvailability: GMS core API Availability. ConnectionResult=9, tag=null
+06-27 10:33:33.201 10292 11451 W GoogleApiAvailability: java.lang.IllegalArgumentException
+06-27 10:33:33.201 10292 11451 W GoogleApiAvailability: 	at pvo.g(PG:23)
+06-27 10:33:33.201 10292 11451 W GoogleApiAvailability: 	at pvo.d(PG:7)
+06-27 10:33:33.201 10292 11451 W GoogleApiAvailability: 	at vxm.a(PG:198)
+06-27 10:33:33.201 10292 11451 W GoogleApiAvailability: 	at vxq.a(PG:7)
+06-27 10:33:33.201 10292 11451 W GoogleApiAvailability: 	at vxq.createSocket(PG:6)
+06-27 10:33:33.201 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.io.RealConnection.connectTls(RealConnection.java:185)
+06-27 10:33:33.201 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:153)
+06-27 10:33:33.201 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+06-27 10:33:33.201 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+06-27 10:33:33.201 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+06-27 10:33:33.201 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+06-27 10:33:33.201 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+06-27 10:33:33.201 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+06-27 10:33:33.201 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+06-27 10:33:33.201 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+06-27 10:33:33.201 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+06-27 10:33:33.201 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+06-27 10:33:33.201 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:30)
+06-27 10:33:33.201 10292 11451 W GoogleApiAvailability: 	at aqhu.g(PG:1)
+06-27 10:33:33.201 10292 11451 W GoogleApiAvailability: 	at aqhu.b(PG:99)
+06-27 10:33:33.201 10292 11451 W GoogleApiAvailability: 	at aqhf.run(PG:237)
+06-27 10:33:33.201 10292 11451 W GoogleApiAvailability: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+06-27 10:33:33.201 10292 11451 W GoogleApiAvailability: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+06-27 10:33:33.201 10292 11451 W GoogleApiAvailability: 	at java.lang.Thread.run(Thread.java:1012)
+06-27 10:33:33.202  6246  6246 I ActivityThread: ApplicationInfo updating for com.android.chrome, new timestamp: 29789790
+06-27 10:33:33.202  6246  6246 I ActivityThread: assets removed: []
+06-27 10:33:33.202  6246  6246 I ActivityThread: assets added: []
+06-27 10:33:33.202  1828  1828 I ActivityThread: ApplicationInfo updating for com.android.se, new timestamp: 29789792
+06-27 10:33:33.202  1828  1828 I ActivityThread: assets removed: []
+06-27 10:33:33.202  1828  1828 I ActivityThread: assets added: []
+06-27 10:33:33.202  2389  2389 I ActivityThread: ApplicationInfo updating for com.mediatek.location.mtkgeofence, new timestamp: 29789790
+06-27 10:33:33.202  2389  2389 I ActivityThread: assets removed: []
+06-27 10:33:33.202  2389  2389 I ActivityThread: assets added: []
+06-27 10:33:33.203  1357  1377 I ActivityTaskManager: Config changes=80000000 {1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.7 s.347 fontWeightAdjustment=0}
+06-27 10:33:33.203  2301  2301 I ActivityThread: ApplicationInfo updating for com.android.providers.media.module, new timestamp: 29789791
+06-27 10:33:33.203  2301  2301 I ActivityThread: assets removed: []
+06-27 10:33:33.203  2301  2301 I ActivityThread: assets added: []
+06-27 10:33:33.205 10292 10292 I ActivityThread: ApplicationInfo updating for com.google.android.youtube, new timestamp: 29789790
+06-27 10:33:33.205 10292 10292 I ActivityThread: assets removed: []
+06-27 10:33:33.205 10292 10292 I ActivityThread: assets added: []
+06-27 10:33:33.205  2245  2245 I ActivityThread: ApplicationInfo updating for android.ext.services, new timestamp: 29789792
+06-27 10:33:33.205  2245  2245 I ActivityThread: assets removed: []
+06-27 10:33:33.205  2245  2245 I ActivityThread: assets added: []
+06-27 10:33:33.205  3084  3084 I ActivityThread: ApplicationInfo updating for com.android.chrome, new timestamp: 29789790
+06-27 10:33:33.205  3084  3084 I ActivityThread: assets removed: []
+06-27 10:33:33.205  3084  3084 I ActivityThread: assets added: []
+06-27 10:33:33.206  2080  2080 I ActivityThread: ApplicationInfo updating for com.android.permissioncontroller, new timestamp: 29789794
+06-27 10:33:33.206  2080  2080 I ActivityThread: assets removed: []
+06-27 10:33:33.206  2080  2080 I ActivityThread: assets added: []
+06-27 10:33:33.206  2314  2314 I ActivityThread: ApplicationInfo updating for com.mediatek.omacp, new timestamp: 29789791
+06-27 10:33:33.206  2314  2314 I ActivityThread: assets removed: []
+06-27 10:33:33.206  2314  2314 I ActivityThread: assets added: []
+06-27 10:33:33.206  1811  1811 I ActivityThread: ApplicationInfo updating for com.mediatek.smartratswitch.service, new timestamp: 29789793
+06-27 10:33:33.206  1811  1811 I ActivityThread: assets removed: []
+06-27 10:33:33.206  1811  1811 I ActivityThread: assets added: []
+06-27 10:33:33.207  1846  1846 I ActivityThread: ApplicationInfo updating for com.mediatek.entitlement, new timestamp: 29789790
+06-27 10:33:33.207  1846  1846 I ActivityThread: assets removed: []
+06-27 10:33:33.207  1846  1846 I ActivityThread: assets added: []
+06-27 10:33:33.207  1831  1831 I ActivityThread: ApplicationInfo updating for com.mediatek.entitlement.o2, new timestamp: 29789792
+06-27 10:33:33.207  1831  1831 I ActivityThread: assets removed: []
+06-27 10:33:33.207  1831  1831 I ActivityThread: assets added: []
+06-27 10:33:33.208  1706  1706 I ActivityThread: ApplicationInfo updating for com.android.networkstack, new timestamp: 29789793
+06-27 10:33:33.208  1706  1706 I ActivityThread: assets removed: []
+06-27 10:33:33.208  1706  1706 I ActivityThread: assets added: []
+06-27 10:33:33.209  1783  1783 I ActivityThread: ApplicationInfo updating for com.mediatek.ims, new timestamp: 29789790
+06-27 10:33:33.209  1783  1783 I ActivityThread: assets removed: []
+06-27 10:33:33.209  1783  1783 I ActivityThread: assets added: []
+06-27 10:33:33.210  1357  1377 I WindowManager: Override config changes=80000000 {1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.7 s.347 fontWeightAdjustment=0} for displayId=0
+06-27 10:33:33.217  1357  1357 W WindowTokenClientController: Can't find attached WindowTokenClient for android.window.WindowTokenClient@6f64768
+06-27 10:33:33.219  1357  1377 W ActivityTaskManager: Current config: {1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1110dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 72 - 1080, 2292) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.7 s.347 fontWeightAdjustment=0} unchanged for IME proc com.android.inputmethod.latin
+06-27 10:33:33.219  1911  1911 I TouchInteractionService: preloadOverview: forSUWAllSet=false, isHomeAndOverviewSame=true
+06-27 10:33:33.222  1842  1842 I ActivityThread: ApplicationInfo updating for com.android.providers.telephony, new timestamp: 29789793
+06-27 10:33:33.222  1842  1842 I ActivityThread: assets removed: []
+06-27 10:33:33.222  1842  1842 I ActivityThread: assets added: []
+06-27 10:33:33.233 10292 11451 W GooglePlayServicesUtil: com.google.android.youtube requires the Google Play Store, but it is missing.
+06-27 10:33:33.233 10292 11451 E GooglePlayServicesUtil: GooglePlayServices not available due to error 9
+06-27 10:33:33.233 10292 11451 E vxn     : Attempted to use SSL unpatched. Google Play Services unavailable.
+06-27 10:33:33.233 10292 11451 E vxn     : pwb
+06-27 10:33:33.233 10292 11451 E vxn     : 	at pwd.d(PG:30)
+06-27 10:33:33.233 10292 11451 E vxn     : 	at vxm.a(PG:16)
+06-27 10:33:33.233 10292 11451 E vxn     : 	at vxq.a(PG:7)
+06-27 10:33:33.233 10292 11451 E vxn     : 	at vxq.createSocket(PG:6)
+06-27 10:33:33.233 10292 11451 E vxn     : 	at com.android.okhttp.internal.io.RealConnection.connectTls(RealConnection.java:185)
+06-27 10:33:33.233 10292 11451 E vxn     : 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:153)
+06-27 10:33:33.233 10292 11451 E vxn     : 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+06-27 10:33:33.233 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+06-27 10:33:33.233 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+06-27 10:33:33.233 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+06-27 10:33:33.233 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+06-27 10:33:33.233 10292 11451 E vxn     : 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+06-27 10:33:33.233 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+06-27 10:33:33.233 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+06-27 10:33:33.233 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+06-27 10:33:33.233 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+06-27 10:33:33.233 10292 11451 E vxn     : 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:30)
+06-27 10:33:33.233 10292 11451 E vxn     : 	at aqhu.g(PG:1)
+06-27 10:33:33.233 10292 11451 E vxn     : 	at aqhu.b(PG:99)
+06-27 10:33:33.233 10292 11451 E vxn     : 	at aqhf.run(PG:237)
+06-27 10:33:33.233 10292 11451 E vxn     : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+06-27 10:33:33.233 10292 11451 E vxn     : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+06-27 10:33:33.233 10292 11451 E vxn     : 	at java.lang.Thread.run(Thread.java:1012)
+06-27 10:33:33.234 10292 11451 W GoogleApiAvailability: GMS core API Availability. ConnectionResult=9, tag=null
+06-27 10:33:33.234 10292 11451 W GoogleApiAvailability: java.lang.IllegalArgumentException
+06-27 10:33:33.234 10292 11451 W GoogleApiAvailability: 	at pvo.g(PG:23)
+06-27 10:33:33.234 10292 11451 W GoogleApiAvailability: 	at pvo.d(PG:7)
+06-27 10:33:33.234 10292 11451 W GoogleApiAvailability: 	at vxm.a(PG:198)
+06-27 10:33:33.234 10292 11451 W GoogleApiAvailability: 	at vxq.a(PG:7)
+06-27 10:33:33.234 10292 11451 W GoogleApiAvailability: 	at vxq.createSocket(PG:6)
+06-27 10:33:33.234 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.io.RealConnection.connectTls(RealConnection.java:185)
+06-27 10:33:33.234 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.io.RealConnection.connectSocket(RealConnection.java:153)
+06-27 10:33:33.234 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.io.RealConnection.connect(RealConnection.java:116)
+06-27 10:33:33.234 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.StreamAllocation.findConnection(StreamAllocation.java:186)
+06-27 10:33:33.234 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.StreamAllocation.findHealthyConnection(StreamAllocation.java:128)
+06-27 10:33:33.234 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.StreamAllocation.newStream(StreamAllocation.java:97)
+06-27 10:33:33.234 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.HttpEngine.connect(HttpEngine.java:289)
+06-27 10:33:33.234 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.http.HttpEngine.sendRequest(HttpEngine.java:232)
+06-27 10:33:33.234 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.execute(HttpURLConnectionImpl.java:465)
+06-27 10:33:33.234 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.connect(HttpURLConnectionImpl.java:131)
+06-27 10:33:33.234 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.HttpURLConnectionImpl.getOutputStream(HttpURLConnectionImpl.java:262)
+06-27 10:33:33.234 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.DelegatingHttpsURLConnection.getOutputStream(DelegatingHttpsURLConnection.java:219)
+06-27 10:33:33.234 10292 11451 W GoogleApiAvailability: 	at com.android.okhttp.internal.huc.HttpsURLConnectionImpl.getOutputStream(HttpsURLConnectionImpl.java:30)
+06-27 10:33:33.234 10292 11451 W GoogleApiAvailability: 	at aqhu.g(PG:1)
+06-27 10:33:33.234 10292 11451 W GoogleApiAvailability: 	at aqhu.b(PG:99)
+06-27 10:33:33.234 10292 11451 W GoogleApiAvailability: 	at aqhf.run(PG:237)
+06-27 10:33:33.234 10292 11451 W GoogleApiAvailability: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+06-27 10:33:33.234 10292 11451 W GoogleApiAvailability: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+06-27 10:33:33.234 10292 11451 W GoogleApiAvailability: 	at java.lang.Thread.run(Thread.java:1012)
+06-27 10:33:33.241   806   806 I BufferQueueProducer: [FocusEventDebugView - display 0#69](this:0xb400006fb27cd180,id:-1,api:0,p:-1,c:806) queueBuffer: fps=30.37 dur=1053.65 max=472.94 min=10.21
+06-27 10:33:33.241  1357  1357 W WindowManager: finishDrawingWindow: Window{e44cec2 u0 FocusEventDebugView - display 0} mDrawState=DRAW_PENDING
+06-27 10:33:33.242   780   803 I mtkpower@impl: [setMode] type:6, enabled:0
+06-27 10:33:33.242   780   803 E mtkpower@impl: [setMode] unknown type
+06-27 10:33:33.242   744   744 I hwcomposer: [HWCDisplay] [Display_0 (type:1, mode:2)] fps:43.432796,dur:1036.08,max:276.34,min:6.89  
+06-27 10:33:33.242   744   744 I hwcomposer: [DBQ] (blt:0xb400007a85620840) Buffer queue is created with size(3), m_id(445), blt  
+06-27 10:33:33.242   744   744 I hwcomposer: [DBQ] (blt:0xb400007a85620840) Reallocate Slot(0), pool(0 -> 0) size(0 -> 4608000) secure(0 -> 0)  
+06-27 10:33:33.243   806  1219 I SurfaceFlinger: NotifyHwcComposition(), id 0, mode 1
+06-27 10:33:33.243   744   744 I hwcomposer: [DBQ] (blt:0xb400007a85620840) Alloc Slot(0), handle=0xb400007ac5624690 c=0 w=720 h=1600 p=720 ys=720 vs=1600 f=2 sec=0 sh=0, usage=0x800  
+06-27 10:33:33.243  1357  1380 I DisplayDeviceRepository: Display device changed: DisplayDeviceInfo{"Built-in Screen": uniqueId="local:4627039422300187648", 720 x 1600, modeId 1, renderFrameRate 90.0, defaultModeId 1, userPreferredModeId -1, supportedModes [{id=1, width=720, height=1600, fps=90.0, vsync=90.0, synthetic=false, alternativeRefreshRates=[60.0], supportedHdrTypes=[]}, {id=2, width=720, height=1600, fps=60.0, vsync=60.0, synthetic=false, alternativeRefreshRates=[90.0], supportedHdrTypes=[]}], colorMode 0, supportedColorModes [0], hdrCapabilities HdrCapabilities{mSupportedHdrTypes=[], mMaxLuminance=500.0, mMaxAverageLuminance=500.0, mMinLuminance=0.0}, allmSupported false, gameContentTypeSupported false, density 300, 254.0 x 254.0 dpi, appVsyncOff 1033333, presDeadline 16100000, cutout DisplayCutout{insets=Rect(0, 49 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(323, 0 - 398, 49), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=720 displayHeight=1600 physicalDisplayWidth=720 physicalDisplayHeight=1600 density={1.875} cutoutSpec={M 0,0 L -20, 0 L -20, 26 L 20, 26 L 20, 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, touch INTERNAL, rotation 0, type INTERNAL, address {port=0, model=0x40368bd6e7ee6c}, deviceProductInfo DeviceProductInfo{name=MTKDEV, manufacturerPnpId=MTK, productId=35638, modelYear=null, manufactureDate=ManufactureDate{week=42, year=2021}, connectionToSinkType=0}, state ON, committedState ON, frameRateOverride , brightnessMinimum 0.0, brightnessMaximum 1.0, brightnessDefault 0.4, hdrSdrRatio NaN, FLAG_ALLOWED_TO_BE_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, FLAG_TRUSTED, installOrientation 0, displayShape DisplayShape{ spec=2134893525 displayWidth=720 displayHeight=1600 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}}
+06-27 10:33:33.252   806   806 I BufferQueueProducer: [PointerLocation - display 0#54](this:0xb400006fb27aaec0,id:-1,api:0,p:-1,c:806) queueBuffer: fps=1.88 dur=1064.52 max=820.55 min=243.97
+06-27 10:33:33.256  1357  1378 W WindowManager: finishDrawingWindow: Window{34b049d u0 PointerLocation - display 0} mDrawState=DRAW_PENDING
+06-27 10:33:33.256  1842  1842 D CarrierSvcBindHelper: onPackageModified: android
+06-27 10:33:33.256  1842  1842 D CarrierSvcBindHelper: No carrier app for: 0
+06-27 10:33:33.257  1842  1842 D CarrierSvcBindHelper: No carrier app for: 1
+06-27 10:33:33.260   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+06-27 10:33:33.264  1357  4317 W JobInfo : Job 'com.android.gallery3d/.app.PackagesMonitor$AsyncService#1' has a deadline with no functional constraints. The deadline won't improve job execution latency. Consider removing the deadline.
+06-27 10:33:33.264  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:33:33.266  1357  1560 I AppWidgetServiceImpl: Received broadcast: android.intent.action.PACKAGE_CHANGED on user 0
+06-27 10:33:33.266  1357  1578 D ShortcutService: received package broadcast intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package: flg=0x5000010 (has extras) }
+06-27 10:33:33.267  1357  1578 D ShortcutService: changing package: android userId0
+06-27 10:33:33.267  1357  1578 D ShortcutService: handlePackageChanged: android user=0

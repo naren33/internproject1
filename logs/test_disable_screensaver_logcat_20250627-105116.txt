@@ -1,0 +1,8 @@
+--------- beginning of main
+06-27 10:51:15.499  1621  1621 W ImageReader_JNI: Unable to acquire a buffer item, very likely client tried to acquire more than maxImages buffers
+06-27 10:51:15.506  1621  1626 I ndroid.systemui: Background concurrent mark compact GC freed 14MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 17MB/34MB, paused 2.560ms,5.026ms total 203.450ms
+06-27 10:51:15.515   806  1261 I SurfaceFlinger: onHandleDestroyed: name=Surface(name=Task=1)/@0x439e9dc_transition-leash#1130, layerId=1130, parentId=0
+06-27 10:51:15.523   806   806 I BufferQueueDebug: [Surface(name=Task=1)/@0x439e9dc_transition-leash#1130](this:0xb400006fb27c7660,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:51:15.590  1621  1684 E QuickAccessWalletKeyguardQuickAffordanceConfig: Wallet card retrieval error, message: "null"
+06-27 10:51:15.591  1621  1684 E QuickAccessWalletKeyguardQuickAffordanceConfig: Wallet card retrieval error, message: "null"
+06-27 10:51:15.592  1621  1684 E QuickAccessWalletKeyguardQuickAffordanceConfig: Wallet card retrieval error, message: "null"

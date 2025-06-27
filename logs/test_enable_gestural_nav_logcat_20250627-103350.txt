@@ -1,0 +1,75 @@
+--------- beginning of main
+06-27 10:33:48.957  2080 10820 I PermissionControllerServiceImpl: Updating user sensitive for uid 1000
+06-27 10:33:48.972  1621  1621 E KeyguardClockSwitch: No clock being shown
+06-27 10:33:48.976  1911  2005 W AllAppsList: updatePromiseInstallInfo: no Activities matched updated package, removing all apps from package=android
+--------- beginning of system
+06-27 10:33:48.981  1357  3598 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = RECEIVE_SMS, mode = allow, callingUid = 1001, oldMode = allow
+06-27 10:33:48.984  1357  3598 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = RECEIVE_WAP_PUSH, mode = allow, callingUid = 1001, oldMode = allow
+06-27 10:33:48.986  1357  4317 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = SEND_SMS, mode = allow, callingUid = 1001, oldMode = allow
+06-27 10:33:48.987  1357  4317 W AppOpService: Ignored setUidMode call for runtime permission app op: uid = 1001, code = READ_CELL_BROADCASTS, mode = allow, callingUid = 1001, oldMode = allow
+06-27 10:33:48.994  1621  1621 I ClockEventController: Region isDark: true
+06-27 10:33:48.999  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:33:49.001  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:33:49.015  1621  1621 E KeyguardClockSwitch: No clock being shown
+06-27 10:33:49.031  1621  1621 I ClockEventController: Region isDark: true
+06-27 10:33:49.069  1357  1808 W WindowManager: finishDrawingWindow: Window{4fc2c26 u0 com.android.systemui.wallpapers.ImageWallpaper} mDrawState=DRAW_PENDING
+06-27 10:33:49.086  1621  1621 W EmergencyButton: onConfigurationChanged, do not updated!
+06-27 10:33:49.117   737  2376 W libc    : invalid pthread_t (0) passed to pthread_join
+06-27 10:33:49.118   737  2376 I [Awinic]: Awinic kctl monitor pthread deinit success
+06-27 10:33:49.118   737  2376 I [Awinic]: reset done !
+06-27 10:33:49.162  1357  1377 I ActivityTaskManager: Config changes=80000000 {1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.9 s.429 fontWeightAdjustment=0}
+06-27 10:33:49.162  2200  2200 I ActivityThread: ApplicationInfo updating for com.android.providers.blockednumber, new timestamp: 29805748
+06-27 10:33:49.162  2200  2200 I ActivityThread: assets removed: []
+06-27 10:33:49.162  2200  2200 I ActivityThread: assets added: []
+06-27 10:33:49.163  2389  2389 I ActivityThread: ApplicationInfo updating for com.mediatek.location.mtkgeofence, new timestamp: 29805748
+06-27 10:33:49.163  2389  2389 I ActivityThread: assets removed: []
+06-27 10:33:49.163  2389  2389 I ActivityThread: assets added: []
+06-27 10:33:49.163  4937  4937 I ActivityThread: ApplicationInfo updating for com.android.gallery3d, new timestamp: 29805754
+06-27 10:33:49.163  4937  4937 I ActivityThread: assets removed: []
+06-27 10:33:49.163  4937  4937 I ActivityThread: assets added: []
+06-27 10:33:49.164  2754  2754 I ActivityThread: ApplicationInfo updating for com.android.inputmethod.latin, new timestamp: 29805755
+06-27 10:33:49.164  2754  2754 I ActivityThread: assets removed: []
+06-27 10:33:49.164  2754  2754 I ActivityThread: assets added: []
+06-27 10:33:49.164  2080  2080 I ActivityThread: ApplicationInfo updating for com.android.permissioncontroller, new timestamp: 29805755
+06-27 10:33:49.164  2080  2080 I ActivityThread: assets removed: []
+06-27 10:33:49.164  2080  2080 I ActivityThread: assets added: []
+06-27 10:33:49.164  2301  2301 I ActivityThread: ApplicationInfo updating for com.android.providers.media.module, new timestamp: 29805752
+06-27 10:33:49.164  2301  2301 I ActivityThread: assets removed: []
+06-27 10:33:49.164  2301  2301 I ActivityThread: assets added: []
+06-27 10:33:49.169  1831  1831 I ActivityThread: ApplicationInfo updating for com.mediatek.entitlement.o2, new timestamp: 29805753
+06-27 10:33:49.169  1831  1831 I ActivityThread: assets removed: []
+06-27 10:33:49.169  1831  1831 I ActivityThread: assets added: []
+06-27 10:33:49.172  1357  1377 I WindowManager: Override config changes=80000000 {1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1170dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 0 - 1080, 2340) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.9 s.429 fontWeightAdjustment=0} for displayId=0
+06-27 10:33:49.172  1911  1911 I ActivityThread: ApplicationInfo updating for com.android.launcher3, new timestamp: 29805755
+06-27 10:33:49.172  1911  1911 I ActivityThread: assets removed: []
+06-27 10:33:49.172  1911  1911 I ActivityThread: assets added: []
+06-27 10:33:49.175  1783  1783 I ActivityThread: ApplicationInfo updating for com.mediatek.ims, new timestamp: 29805748
+06-27 10:33:49.175  1783  1783 I ActivityThread: assets removed: []
+06-27 10:33:49.175  1783  1783 I ActivityThread: assets added: []
+06-27 10:33:49.176  1706  1706 I ActivityThread: ApplicationInfo updating for com.android.networkstack, new timestamp: 29805754
+06-27 10:33:49.176  1706  1706 I ActivityThread: assets removed: []
+06-27 10:33:49.176  1706  1706 I ActivityThread: assets added: []
+06-27 10:33:49.176  1811  1811 I ActivityThread: ApplicationInfo updating for com.mediatek.smartratswitch.service, new timestamp: 29805754
+06-27 10:33:49.176  1811  1811 I ActivityThread: assets removed: []
+06-27 10:33:49.176  1811  1811 I ActivityThread: assets added: []
+06-27 10:33:49.178  2321  2321 I ActivityThread: ApplicationInfo updating for com.sec.android.app.camerasaver, new timestamp: 29805753
+06-27 10:33:49.178  2321  2321 I ActivityThread: assets removed: []
+06-27 10:33:49.178  2321  2321 I ActivityThread: assets added: []
+06-27 10:33:49.178  1828  1828 I ActivityThread: ApplicationInfo updating for com.android.se, new timestamp: 29805753
+06-27 10:33:49.178  1828  1828 I ActivityThread: assets removed: []
+06-27 10:33:49.178  1828  1828 I ActivityThread: assets added: []
+06-27 10:33:49.180  1846  1846 I ActivityThread: ApplicationInfo updating for com.mediatek.entitlement, new timestamp: 29805748
+06-27 10:33:49.180  1846  1846 I ActivityThread: assets removed: []
+06-27 10:33:49.180  1846  1846 I ActivityThread: assets added: []
+06-27 10:33:49.181  2314  2314 I ActivityThread: ApplicationInfo updating for com.mediatek.omacp, new timestamp: 29805751
+06-27 10:33:49.181  2314  2314 I ActivityThread: assets removed: []
+06-27 10:33:49.181  2314  2314 I ActivityThread: assets added: []
+06-27 10:33:49.183  2245  2245 I ActivityThread: ApplicationInfo updating for android.ext.services, new timestamp: 29805753
+06-27 10:33:49.183  2245  2245 I ActivityThread: assets removed: []
+06-27 10:33:49.183  2245  2245 I ActivityThread: assets added: []
+06-27 10:33:49.191  1911  1911 I TouchInteractionService: preloadOverview: forSUWAllSet=false, isHomeAndOverviewSame=true
+06-27 10:33:49.194  1357  1377 W ActivityTaskManager: Current config: {1.0 ?mcc0mnc [en_US] ldltr sw540dp w540dp h1110dp 320dpi lrg long port night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1080, 2340) mAppBounds=Rect(0, 72 - 1080, 2292) mMaxBounds=Rect(0, 0 - 1080, 2340) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0} as.9 s.429 fontWeightAdjustment=0} unchanged for IME proc com.android.inputmethod.latin
+06-27 10:33:49.217  1842  1842 I ActivityThread: ApplicationInfo updating for com.android.providers.telephony, new timestamp: 29805755
+06-27 10:33:49.217  1842  1842 I ActivityThread: assets removed: []
+06-27 10:33:49.217  1842  1842 I ActivityThread: assets added: []
+06-27 10:33:49.228  1357  1380 I DisplayDeviceRepository: Display device changed: DisplayDeviceInfo{"Built-in Screen": uniqueId="local:4627039422300187648", 720 x 1600, modeId 1, renderFrameRate 90.0, defaultModeId 1, userPreferredModeId -1, supportedModes [{id=1, width=720, height=1600, fps=90.0, vsync=90.0, synthetic=false, alternativeRefreshRates=[60.0], supportedHdrTypes=[]}, {id=2, width=720, height=1600, fps=60.0, vsync=60.0, synthetic=false, alternativeRefreshRates=[90.0], supportedHdrTypes=[]}], colorMode 0, supportedColorModes [0], hdrCapabilities HdrCapabilities{mSupportedHdrTypes=[], mMaxLuminance=500.0, mMaxAverageLuminance=500.0, mMinLuminance=0.0}, allmSupported false, gameContentTypeSupported false, density 300, 254.0 x 254.0 dpi, appVsyncOff 1033333, presDeadline 16100000, cutout DisplayCutout{insets=Rect(0, 49 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(323, 0 - 398, 49), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=720 displayHeight=1600 physicalDisplayWidth=720 physicalDisplayHeight=1600 density={1.875} cutoutSpec={M 0,0 L -20, 0 L -20, 26 L 20, 26 L 20, 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}} sideOverrides={}}, touch INTERNAL, rotation 0, type INTERNAL, address {port=0, model=0x40368bd6e7ee6c}, deviceProductInfo DeviceProductInfo{name=MTKDEV, manufacturerPnpId=MTK, productId=35638, modelYear=null, manufactureDate=ManufactureDate{week=42, year=2021}, connectionToSinkType=0}, state OFF, committedState OFF, frameRateOverride , brightnessMinimum 0.0, brightnessMaximum 1.0, brightnessDefault 0.4, hdrSdrRatio NaN, FLAG_ALLOWED_TO_BE_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, FLAG_TRUSTED, installOrientation 0, displayShape DisplayShape{ spec=2134893525 displayWidth=720 displayHeight=1600 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}}

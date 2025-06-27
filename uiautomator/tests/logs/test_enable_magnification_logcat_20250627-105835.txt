@@ -1,0 +1,88 @@
+--------- beginning of main
+06-27 10:58:34.581  1097  1163 E AAL     : IOCTL_MTK_AAL_SET_PARAM error: 1
+06-27 10:58:34.583   780   803 I mtkpower@impl: [setMode] type:9, enabled:1
+06-27 10:58:34.583   780   803 E mtkpower@impl: [setMode] unknown type
+06-27 10:58:34.583   806   806 W SurfaceFlinger: commitOffscreenLayers Layer 0xb400006fb2839a60 not alive
+06-27 10:58:34.583   806   806 I SurfaceFlinger: onHandleDestroyed: name=Sprite#1180, layerId=1180, parentId=0
+06-27 10:58:34.583   737  2374 W AudioALSAStreamOut: setParameters(), still have param.size() = 1, remain param = "MixerThreadSleep="
+06-27 10:58:34.584   806   806 I SurfaceFlinger: onHandleDestroyed: name=9a8b2e0 ActivityRecordInputSink com.android.launcher3/.uioverrides.QuickstepLauncher#1186, layerId=1186, parentId=0
+06-27 10:58:34.584   806   806 I SurfaceFlinger: onHandleDestroyed: name=com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#1183, layerId=1183, parentId=0
+06-27 10:58:34.591   806   806 I BufferQueueDebug: [bbq-wrapper#1181](this:0xb400006fb283c270,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:58:34.591   806   806 I BufferQueueDebug: [9a8b2e0 ActivityRecordInputSink com.android.launcher3/.uioverrides.QuickstepLauncher#1186](this:0xb400006fb27b6500,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:58:34.591   806   806 I BufferQueueDebug: [com.android.launcher3/com.android.launcher3.uioverrides.QuickstepLauncher#1183](this:0xb400006fb27ef440,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:58:34.591   806   806 I BufferQueueDebug: [Sprite#1180](this:0xb400006fb284d3d0,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:58:34.593   780   803 I mtkpower@impl: [setMode] type:7, enabled:0
+--------- beginning of system
+06-27 10:58:34.593  1357  1414 W DreamManagerService: Dream ComponentInfo{com.android.dreams.alwaysondisplay/com.android.dreams.alwaysondisplay.AlwaysOnDisplay} does not exist
+06-27 10:58:34.594  1357  1414 I PowerGroup: Sleeping power group (groupId=0, uid=1000, reason=timeout)...
+06-27 10:58:34.594  1357  1414 I PowerManagerService: Sleeping (uid 1000)...
+06-27 10:58:34.595   780   828 I libPowerHal: [perfUserScnDisableAll] 
+06-27 10:58:34.595   780   803 I mtkpower@impl: [setMode] Disable All
+06-27 10:58:34.601   737  1547 W AudioALSAStreamOut: setParameters(), still have param.size() = 1, remain param = "MixerThreadSleep="
+06-27 10:58:34.615   737  2374 W AudioALSAStreamOut: setParameters(), still have param.size() = 1, remain param = "MixerThreadSleep="
+06-27 10:58:34.617  1357  1357 E ScreenIntentReceiver: notifyChange failed
+06-27 10:58:34.620   747   747 I OriginChannel: activate: [1,0]
+06-27 10:58:34.623  1357  4317 W UserManagerService: Requested status bar icon for non-badged user 0
+06-27 10:58:34.624  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:58:34.627   737  1547 W AudioALSAStreamOut: setParameters(), still have param.size() = 1, remain param = "MixerThreadSleep="
+06-27 10:58:34.629  1357  1357 I PowerManagerService: onFlip(): Face up.
+06-27 10:58:34.637   780   828 I libPowerHal: [perfLockAcq] idx:0 hdl:6955 hint:53 pid:780 tid:780 duration:80 lock_user:mtkpower@1.0-se => ret_hdl:6955
+06-27 10:58:34.637   780   828 I libPowerHal: [setClusterFreq] INTERACTION set cpufreq[0] min:2000000 max:-1 cpufreq[1] min:2400000 max:-1 
+06-27 10:58:34.637   780   828 I libPowerHal: [setGPUFreq] INTERACTION user set gpu freq min:0, max:-1
+06-27 10:58:34.637   780   828 I libPowerHal: INTERACTION: set gpu opp level: 0
+06-27 10:58:34.637  1621  1621 I KeyguardDisplayManager: Do not show KeyguardPresentation on the default display
+06-27 10:58:34.637   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:58:34.638   780   828 I libPowerHal: [setGPUFreq] Soft min/max = (0, 0); Hard min/max = (42, 0)
+06-27 10:58:34.638   780   828 I libPowerHal: [setGPUFreq] final min/max = (0, 0)
+06-27 10:58:34.638   780   828 I libPowerHal: INTERACTION: set gpu opp level: 0
+06-27 10:58:34.638   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:58:34.638   780   828 I libPowerHal: [setClusterFreq]  set cpu_ctrl cpufreq: 2000000 -1 2400000 -1 
+06-27 10:58:34.638   780   828 I libPowerHal: [PE] INTERACTION update cmd:2020000, param:5
+06-27 10:58:34.639   780   828 I libPowerHal: [PE] (more) /sys/kernel/cm_mgr/dbg_cm_mgr set +prefix:dsu_mode 1;
+06-27 10:58:34.639   780   828 I libPowerHal: [setDvfsrcDevFreqOpp] opp:0, freq:4266000000
+06-27 10:58:34.640   780   828 I libPowerHal: [PE] INTERACTION update cmd:1000000 param:0
+06-27 10:58:34.642   737  2374 W AudioALSAStreamOut: setParameters(), still have param.size() = 1, remain param = "MixerThreadSleep="
+06-27 10:58:34.644  1357  1571 I MR2ServiceImpl: Updating composite discovery preference | preference: RouteDiscoveryRequest{ preferredFeatures={}, activeScan=false }, active routers: []
+06-27 10:58:34.644   772   829 I libPerfCtl: xgfGetFPS pid:1357 fps:-1
+06-27 10:58:34.644   772   829 I libPerfCtl: xgfGetFPS pid:1621 fps:-1
+06-27 10:58:34.650   806   886 I BufferQueueDebug: [NotificationShade#1192](this:0xb400006fb280e970,id:-1,api:0,p:-1,c:-1) BufferQueue core=(806:/system/bin/surfaceflinger)
+06-27 10:58:34.650  1947  1947 I wpa_supplicant: wpa_driver_nl80211_driver_cmd: wlan0 recv cmd_src SETSUSPENDMODE 1
+06-27 10:58:34.650  1947  1947 I wpa_supplicant: wpa_driver_nl80211_driver_cmd: wlan0 recv cmd SETSUSPENDMODE 1
+06-27 10:58:34.651   790  1058 W AudioPolicyManagerCustomImpl: [MTK_APM_Route]setOutputDevices() mIoHandle 29 mId 7 device (0x2)(0x1, 0x2, 0x4, 0x8, 0x10, 0x20, 0x40, 0x4000, 0x4000000) delayMs 84 force 0 size 5
+06-27 10:58:34.651  1357  1373 W WindowManager: Changing focus from null to Window{898197 u0 NotificationShade} displayId=0 Callers=com.android.server.wm.RootWindowContainer.updateFocusedWindowLocked:468 com.android.server.wm.WindowManagerService.updateFocusedWindowLocked:6505 com.android.server.wm.WindowManagerService.relayoutWindowInner:2665 com.android.server.wm.WindowManagerService.relayoutWindow:2335 
+06-27 10:58:34.652   806   886 I BufferQueueDebug: [Surface(name=16a0564 NavigationBar0)/@0xb3e116f - animation-leash of insets_animation#1193](this:0xb400006fb265dbf0,id:-1,api:0,p:-1,c:-1) BufferQueue core=(806:/system/bin/surfaceflinger)
+06-27 10:58:34.653   806   886 I BufferQueueDebug: [Surface(name=f719012 StatusBar)/@0xe0d1337 - animation-leash of insets_animation#1194](this:0xb400006fb27b6500,id:-1,api:0,p:-1,c:-1) BufferQueue core=(806:/system/bin/surfaceflinger)
+06-27 10:58:34.654  1357  1373 I WindowManager: Relayout Window{898197 u0 NotificationShade}: oldVis=4 newVis=0 focusMayChange = true requestedWidth = 1080 requestedHeight = 2340 outFrames = ClientWindowFrames{frame=[0,0][1080,2340] display=[0,0][1080,2340] parentFrame=[0,0][0,0]} outSurfaceControl = Surface(name=NotificationShade)/@0xbe00bfb
+06-27 10:58:34.659   737  2374 W AudioALSAStreamOut: setParameters(), still have param.size() = 1, remain param = "NoAudioTrack=1"
+06-27 10:58:34.661  1621  1621 W View    : requestLayout() improperly called by com.android.systemui.util.AutoMarqueeTextView{634a8 VFED..C.. ..S...ID 208,3-302,93 #7f0a054f app:id/no_carrier_text} during layout: running second layout pass
+06-27 10:58:34.661  1621  1621 W View    : requestLayout() improperly called by com.android.keyguard.CarrierText{6f107e1 V.ED..... ......ID 32,0-485,80 #7f0a03c0 app:id/keyguard_carrier_text} during layout: running second layout pass
+06-27 10:58:34.667   806   806 I SurfaceFlinger: onHandleDestroyed: name=Surface(name=f719012 StatusBar)/@0xe0d1337 - animation-leash of insets_animation#1188, layerId=1188, parentId=0
+06-27 10:58:34.668   806   806 I SurfaceFlinger: onHandleDestroyed: name=Surface(name=16a0564 NavigationBar0)/@0xb3e116f - animation-leash of insets_animation#1187, layerId=1187, parentId=0
+06-27 10:58:34.668  1947  1947 I wpa_supplicant: wpa_driver_nl80211_driver_cmd: ret = 0 used = 17 total = 512 buf = 
+06-27 10:58:34.675  1357  1373 W WindowManager: finishDrawingWindow: Window{898197 u0 NotificationShade} mDrawState=DRAW_PENDING
+06-27 10:58:34.676   806  1261 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+06-27 10:58:34.677  1621  1621 I vol.VolumeDialogImpl: mDialog.dismiss() reason: screen_off from: com.android.systemui.volume.VolumeDialogImpl$7.onScreenOff:4
+06-27 10:58:34.678   806   806 I BufferQueueDebug: [Surface(name=f719012 StatusBar)/@0xe0d1337 - animation-leash of insets_animation#1188](this:0xb400006fb26525b0,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:58:34.679   806   806 I BufferQueueDebug: [Surface(name=16a0564 NavigationBar0)/@0xb3e116f - animation-leash of insets_animation#1187](this:0xb400006fb282b110,id:-1,api:0,p:-1,c:806) onDestructor()
+06-27 10:58:34.704  1621  1705 I QAWController: Re-creating the QAW client to avoid stale.
+06-27 10:58:34.705  1621  1701 I QAWController: Re-creating the QAW client to avoid stale.
+06-27 10:58:34.705  1621  1704 I QAWController: Re-creating the QAW client to avoid stale.
+06-27 10:58:34.710  1621  1684 E QuickAccessWalletKeyguardQuickAffordanceConfig: Wallet card retrieval error, message: "null"
+06-27 10:58:34.710  1621  1684 E QuickAccessWalletKeyguardQuickAffordanceConfig: Wallet card retrieval error, message: "null"
+06-27 10:58:34.710  1621  1684 E QuickAccessWalletKeyguardQuickAffordanceConfig: Wallet card retrieval error, message: "null"
+06-27 10:58:34.713  1621  1621 I KeyguardTransitionRepository: FINISHED transition: TransitionStep(from=GONE, to=DOZING, value=1.0, transitionState=FINISHED, ownerName=FromGoneTransitionInteractor(Sleep transition triggered))
+06-27 10:58:34.720   780   828 I mtkpower@impl: [powerd_req] TIMER_MSG_PERF_LOCK_TIMEOUT hdl:6955
+06-27 10:58:34.720   780   828 I libPowerHal: [perfLockRel] hdl:6955, idx:0
+06-27 10:58:34.721   780   828 I libPowerHal: [setClusterFreq]  set cpu_ctrl cpufreq: -1 -1 -1 -1 
+06-27 10:58:34.721   780   828 I libPowerHal: [unsetGPUFreq] current min:0, max:0; scn_gpu_min:0, scn_gpu_max:-1; scn_gpu_min(HL):-1, scn_gpu_max(HL):-1
+06-27 10:58:34.721   780   828 I libPowerHal: INTERACTION: set gpu opp level: 42
+06-27 10:58:34.721   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:58:34.721   780   828 I libPowerHal: [setGPUFreq] Soft min/max = (42, 0); Hard min/max = (42, 0)
+06-27 10:58:34.721   780   828 I libPowerHal: [setGPUFreq] final min/max = (42, 0)
+06-27 10:58:34.721   780   828 I libPowerHal: INTERACTION: set gpu opp level: 42
+06-27 10:58:34.721   780   828 I libPowerHal: INTERACTION: set gpu opp level max: 0
+06-27 10:58:34.721   780   828 I libPowerHal: [PD] INTERACTION update cmd:2020000 param:0
+06-27 10:58:34.721   780   828 I libPowerHal: [PD] INTERACTION update cmd:410000 param:0
+06-27 10:58:34.721   780   828 I libPowerHal: [PD] (more) /sys/kernel/cm_mgr/dbg_cm_mgr set +prefix:dsu_mode 0;
+06-27 10:58:34.722   780   828 I libPowerHal: [PD] INTERACTION update cmd:1000000 param:-1
+06-27 10:58:34.837  1621  1626 I ndroid.systemui: Background concurrent mark compact GC freed 17MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 13MB/27MB, paused 755us,4.877ms total 132.384ms

@@ -1,0 +1,9 @@
+--------- beginning of main
+06-27 10:33:43.260   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+--------- beginning of system
+06-27 10:33:43.335  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:33:43.338   727   727 I netd    : tetherGetStats() -> {[]} <1.94ms>
+06-27 10:33:43.339  1357  1378 E ApplicationHelper: Fail to get PackageManager
+06-27 10:33:43.360   747   787 E HfLooper: dst->data[13.000000,40.000000,9719.000000]
+06-27 10:33:43.429  1357  1929 I WindowManager: Using new display size: 1080x2340
+06-27 10:33:43.460   747   787 E HfLooper: dst->data[13.000000,33.000000,9693.000000]

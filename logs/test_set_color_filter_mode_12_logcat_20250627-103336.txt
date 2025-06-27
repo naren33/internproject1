@@ -1,0 +1,14 @@
+--------- beginning of main
+06-27 10:33:35.144   790  1058 W AudioPolicyManagerCustomImpl: [MTK_APM_Route]setOutputDevices() mIoHandle 29 mId 7 device (0x2)(0x1, 0x2, 0x4, 0x8, 0x10, 0x20, 0x40, 0x4000, 0x4000000) delayMs 84 force 0 size 5
+06-27 10:33:35.145   737  2376 W AudioALSAStreamOut: setParameters(), still have param.size() = 1, remain param = "NoAudioTrack=1"
+06-27 10:33:35.160   747   787 E HfLooper: dst->data[13.000000,0.000000,0.000000]
+06-27 10:33:35.185   744  1195 I hwcomposer: [HWC] (0)fire a callback of refresh to SF[4]  
+06-27 10:33:35.195   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:33:35.195   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:33:35.195   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:33:35.195   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:33:35.195   744   744 E PQ_HDR  : DpAsyncBlitStream:: thie platform unsupport compress format
+06-27 10:33:35.253   780   828 I mtkpower@impl: [powerd_req] TIMER_MSG_PERF_LOCK_TIMEOUT hdl:6533
+06-27 10:33:35.254   780   828 I libPowerHal: [perfLockRel] hdl:6533, idx:3
+06-27 10:33:35.254   780   828 I libPowerHal: [PD] MTKPOWER_HINT_PACK_SWITCH update cmd:1408300 param:40
+06-27 10:33:35.260   747   787 E HfLooper: dst->data[12.000000,0.000000,0.000000]

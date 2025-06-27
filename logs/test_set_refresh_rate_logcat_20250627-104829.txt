@@ -1,0 +1,3 @@
+--------- beginning of main
+06-27 10:48:28.567   772   829 I libPerfCtl: xgfGetFPS pid:1357 fps:-1
+06-27 10:48:28.567   772   829 I libPerfCtl: xgfGetFPS pid:1621 fps:-1
