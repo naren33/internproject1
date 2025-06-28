@@ -1,0 +1,202 @@
+--------- beginning of main
+06-27 12:30:14.699 21551 21551 I Perf    : Connecting to perf service.
+06-27 12:30:14.714 21551 21551 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+06-27 12:30:14.714 21551 21551 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+06-27 12:30:14.703 21551 21551 W viders.calendar: type=1400 audit(0.0:3437): avc: denied { read } for name="u:object_r:vendor_displayfeature_prop:s0" dev="tmpfs" ino=17656 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:vendor_displayfeature_prop:s0 tclass=file permissive=0 app=com.android.providers.calendar
+06-27 12:30:14.716 21551 21551 E libc    : Access denied finding property "ro.vendor.display.type"
+06-27 12:30:14.720 21551 21551 E viders.calenda: Invalid ID 0x00000000.
+06-27 12:30:14.723 21551 21551 D miuisdk : current sdk level is 24
+06-27 12:30:14.723 21551 21551 I miuisdk : initialize without hook
+06-27 12:30:14.738 21551 21551 W Linkify.v16: reflect applyLink failed: 
+06-27 12:30:14.738 21551 21551 W Linkify.v16: miui.reflect.NoSuchMethodException: Couldn't find method android/text/util/Linkify.applyLink(Ljava/lang/String;IILandroid/text/Spannable;)V
+06-27 12:30:14.738 21551 21551 W Linkify.v16: 	at com.miui.internal.os.Native.getMethod(Native Method)
+06-27 12:30:14.738 21551 21551 W Linkify.v16: 	at miui.reflect.Method.of(Method.java:35)
+06-27 12:30:14.738 21551 21551 W Linkify.v16: 	at com.miui.internal.variable.v16.Android_Text_Util_Linkify_class.<clinit>(Android_Text_Util_Linkify_class.java:70)
+06-27 12:30:14.738 21551 21551 W Linkify.v16: 	at java.lang.Class.classForName(Native Method)
+06-27 12:30:14.738 21551 21551 W Linkify.v16: 	at java.lang.Class.forName(Class.java:454)
+06-27 12:30:14.738 21551 21551 W Linkify.v16: 	at java.lang.Class.forName(Class.java:379)
+06-27 12:30:14.738 21551 21551 W Linkify.v16: 	at com.miui.internal.variable.AbsClassFactory.create(AbsClassFactory.java:24)
+06-27 12:30:14.738 21551 21551 W Linkify.v16: 	at com.miui.internal.variable.Android_Text_Util_Linkify_class$Factory.<init>(Android_Text_Util_Linkify_class.java:40)
+06-27 12:30:14.738 21551 21551 W Linkify.v16: 	at com.miui.internal.variable.Android_Text_Util_Linkify_class$Factory.<init>(Android_Text_Util_Linkify_class.java:26)
+06-27 12:30:14.738 21551 21551 W Linkify.v16: 	at com.miui.internal.variable.Android_Text_Util_Linkify_class$Factory$1.createInstance(Android_Text_Util_Linkify_class.java:32)
+06-27 12:30:14.738 21551 21551 W Linkify.v16: 	at com.miui.internal.variable.Android_Text_Util_Linkify_class$Factory$1.createInstance(Android_Text_Util_Linkify_class.java:29)
+06-27 12:30:14.738 21551 21551 W Linkify.v16: 	at miui.util.SoftReferenceSingleton.get(SoftReferenceSingleton.java:25)
+06-27 12:30:14.738 21551 21551 W Linkify.v16: 	at com.miui.internal.variable.Android_Text_Util_Linkify_class$Factory.getInstance(Android_Text_Util_Linkify_class.java:44)
+06-27 12:30:14.738 21551 21551 W Linkify.v16: 	at com.miui.internal.initialization.OverrideHelper.doInitialize(OverrideHelper.java:37)
+06-27 12:30:14.738 21551 21551 W Linkify.v16: 	at miui.core.SdkManager.initialize(SdkManager.java:99)
+06-27 12:30:14.738 21551 21551 W Linkify.v16: 	at java.lang.reflect.Method.invoke(Native Method)
+06-27 12:30:14.738 21551 21551 W Linkify.v16: 	at miui.external.Application.initializeSdk(Application.java:85)
+06-27 12:30:14.738 21551 21551 W Linkify.v16: 	at miui.external.Application.<init>(Application.java:55)
+06-27 12:30:14.738 21551 21551 W Linkify.v16: 	at java.lang.Class.newInstance(Native Method)
+06-27 12:30:14.738 21551 21551 W Linkify.v16: 	at android.app.AppComponentFactory.instantiateApplication(AppComponentFactory.java:76)
+06-27 12:30:14.738 21551 21551 W Linkify.v16: 	at android.support.v4.app.CoreComponentFactory.instantiateApplication(CoreComponentFactory.java:49)
+06-27 12:30:14.738 21551 21551 W Linkify.v16: 	at android.app.Instrumentation.newApplication(Instrumentation.java:1159)
+06-27 12:30:14.738 21551 21551 W Linkify.v16: 	at android.app.LoadedApk.makeApplication(LoadedApk.java:1240)
+06-27 12:30:14.738 21551 21551 W Linkify.v16: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6964)
+06-27 12:30:14.738 21551 21551 W Linkify.v16: 	at android.app.ActivityThread.access$1500(ActivityThread.java:258)
+06-27 12:30:14.738 21551 21551 W Linkify.v16: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1983)
+06-27 12:30:14.738 21551 21551 W Linkify.v16: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+06-27 12:30:14.738 21551 21551 W Linkify.v16: 	at android.os.Looper.loop(Looper.java:236)
+06-27 12:30:14.738 21551 21551 W Linkify.v16: 	at android.app.ActivityThread.main(ActivityThread.java:8061)
+06-27 12:30:14.738 21551 21551 W Linkify.v16: 	at java.lang.reflect.Method.invoke(Native Method)
+06-27 12:30:14.738 21551 21551 W Linkify.v16: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:656)
+06-27 12:30:14.738 21551 21551 W Linkify.v16: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:967)
+06-27 12:30:14.783 21551 21551 I CalP:D:CalendarProvider2: onCreate()
+06-27 12:30:14.790 21551 21551 I DynamicDumpReceiver: Dynamic receiver registered
+--------- beginning of system
+06-27 12:30:14.795  1919  1985 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat=file:///sdcard/Music/app_a.mp3 typ=audio/* flg=0x10000000 cmp=android/com.android.internal.app.ResolverActivity} from uid 2000
+06-27 12:30:14.795  1919  1985 D MiuiMultiWindowAdapter: MiuiMultiWindowAdapter::getFreeformBlackList::sSmallWindowBlackList = [com.miui.securitycenter, com.miui.weather2, com.miui.miservice, com.android.calendar, com.xiaomi.calendar, com.android.contacts, com.miui.mishare.connectivity, com.android.settings, com.android.printspooler, com.miui.backup, com.miui.huanji, com.miui.calculator, com.android.deskclock, com.android.thememanager, com.mfashiongallery.emag, com.miui.virtualsim, com.miui.smarttravel, com.mi.health, com.android.camera, com.lbe.security.miui, com.miui.cleanmaster, com.miui.newhome, com.miui.voiceassist, com.android.phone, com.miui.yellowpage, com.android.updater, com.miui.tsmclient, com.miui.securitycore, com.xiaomi.account, com.xiaomi.shop, com.mipay.wallet, com.xiaomi.youpin, com.xiaomi.hm.health, com.miui.bugreport, com.xiaomi.mibrain.speech, com.xiaomi.mimoji, com.xiaomi.scanner, com.duokan.phone.remotecontroller, com.miui.hybrid, com.android.incallui, com.miui.video, com.miui.videoplayer, com.miui.player, com.miui.fm, com.miui.packageinstaller, com.mi.android.globallauncher, com.google.android.dialer, com.google.android.apps.magazines, com.miui.compass, com.miui.greenguard, com.kiteguard, com.google.android.apps.prodcasts, com.google.ar.lens, com.xiangkan.android, com.android.bankabc, com.sohu.inputmethod.sogou, com.tencent.mtt, com.shyz.toutiao, com.netease.mc.mi, com.outfit7.talkingtomgoldrun.mi, com.doudz.mi, com.wepie.snake.new.mi, cn.jj, com.standddz002.mi, com.miHoYo.bh3.mi, com.qqgame.hlddz, com.happyelements.AndroidAnimal, com.minitech.miniworld.TMobile.mi, com.mfp.jelly.xiaomi, com.lilithgames.afk.mi, com.tencent.peng, com.teenpatti.hd.gold, blockpuzzle.jewelgames.jewelslegend, com.playgendary.tanks, com.chillingo.robberybobfree.android.row, com.episodeinteractive.android.catalog, com.playrix.township, com.ansangha.drdriving, com.google.android.youtube, com.gbits.atm.mi]
+06-27 12:30:14.796   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-27 12:30:14.797   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-27 12:30:14.799   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:14.799   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:14.799   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:14.799   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:14.799   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:14.799   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-27 12:30:14.799   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-27 12:30:14.799   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:14.799   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:14.801  1919  1985 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:30:14.801  1919  1985 D CompatibilityInfo: applicationDensity - 440
+06-27 12:30:14.801  1919  1985 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:30:14.802   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:30:14.802   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:14.802   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:14.802   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:14.802   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:14.802   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:14.802   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-27 12:30:14.802   879   984 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:30:14.803   879   984 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-27 12:30:14.803   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-27 12:30:14.803   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:14.803   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:14.803  1919  1985 D ActivityTrigger: ActivityTrigger activityPauseTrigger 
+06-27 12:30:14.803   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-27 12:30:14.803   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:14.803   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:14.803   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:14.803   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:14.803   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:14.803   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-27 12:30:14.803   879   984 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:30:14.803   879   984 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-27 12:30:14.803   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-27 12:30:14.803   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:14.803   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:14.803   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-27 12:30:14.806 21580 21582 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:30:14.808   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:14.808   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:14.808   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:14.808   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:14.808  1919  1985 I ActivityTaskManager: The Process system:ui Already Exists in BG. So sending its PID: 20712
+06-27 12:30:14.808   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:14.808   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:14.808   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=1
+06-27 12:30:14.808   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=2
+06-27 12:30:14.808  1919  1985 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (2807207)
+06-27 12:30:14.809   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-27 12:30:14.809   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-27 12:30:14.809   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:30:14.809  1919  1985 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:30:14.809  1919  1985 D CompatibilityInfo: applicationDensity - 440
+06-27 12:30:14.809  1919  1985 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:30:14.809   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=1
+06-27 12:30:14.809   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-27 12:30:14.809   879   984 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:30:14.809   879   984 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-27 12:30:14.809   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-27 12:30:14.809   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:14.809   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=1
+06-27 12:30:14.809   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:14.809   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-27 12:30:14.809   879   984 I ANDR-PERF-LM: MetaMeter: isValidAsync() 194: AsyncInfo: hintID = 4225
+06-27 12:30:14.809   879   984 I ANDR-PERF-LM: hintType: 102
+06-27 12:30:14.809   879   984 I ANDR-PERF-LM: isPrimary = 0
+06-27 12:30:14.809   879   984 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 102,system:ui,20712,1919,1985)
+06-27 12:30:14.809   879   984 E ANDR-PERF-LM: MetaMeter: handleAsync() 164: AdaptLaunch Invalid Async
+06-27 12:30:14.809   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-27 12:30:14.809   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:14.809   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:14.810   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:30:14.814  1919  1985 I Timeline: Timeline: App_transition_ready time:2819624
+06-27 12:30:14.810   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:30:14.821 21551 21551 I CalP:D:AlarmManager: initializeWithContext()
+06-27 12:30:14.822 21551 21551 I CalP:D:CalendarProvider2: Created com.android.providers.calendar.CalendarAlarmManager@e24b169(com.android.providers.calendar.CalendarProvider2@3e3b7ee)
+06-27 12:30:14.827 21551 21551 I ContentProviderMonitor: PerfMonitor installContentProviders : before publish content providers
+06-27 12:30:14.828 21551 21586 I CalP:D:CalendarProvider2: verifyAccounts()
+06-27 12:30:14.832   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:14.832   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:14.832   879   879 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:30:14.832   879   879 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-27 12:30:14.832   879   879 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.providers.calendar feature:AppClassifier feedback = 0
+06-27 12:30:14.835 21551 21586 D CalP:D:CalendarProvider2: removeStaleAccounts()
+06-27 12:30:14.854  1919  8390 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat=file:///sdcard/Music/app_b.mp3 typ=audio/* flg=0x10000000 cmp=android/com.android.internal.app.ResolverActivity} from uid 2000
+06-27 12:30:14.854  1919  8390 D MiuiMultiWindowAdapter: MiuiMultiWindowAdapter::getFreeformBlackList::sSmallWindowBlackList = [com.miui.securitycenter, com.miui.weather2, com.miui.miservice, com.android.calendar, com.xiaomi.calendar, com.android.contacts, com.miui.mishare.connectivity, com.android.settings, com.android.printspooler, com.miui.backup, com.miui.huanji, com.miui.calculator, com.android.deskclock, com.android.thememanager, com.mfashiongallery.emag, com.miui.virtualsim, com.miui.smarttravel, com.mi.health, com.android.camera, com.lbe.security.miui, com.miui.cleanmaster, com.miui.newhome, com.miui.voiceassist, com.android.phone, com.miui.yellowpage, com.android.updater, com.miui.tsmclient, com.miui.securitycore, com.xiaomi.account, com.xiaomi.shop, com.mipay.wallet, com.xiaomi.youpin, com.xiaomi.hm.health, com.miui.bugreport, com.xiaomi.mibrain.speech, com.xiaomi.mimoji, com.xiaomi.scanner, com.duokan.phone.remotecontroller, com.miui.hybrid, com.android.incallui, com.miui.video, com.miui.videoplayer, com.miui.player, com.miui.fm, com.miui.packageinstaller, com.mi.android.globallauncher, com.google.android.dialer, com.google.android.apps.magazines, com.miui.compass, com.miui.greenguard, com.kiteguard, com.google.android.apps.prodcasts, com.google.ar.lens, com.xiangkan.android, com.android.bankabc, com.sohu.inputmethod.sogou, com.tencent.mtt, com.shyz.toutiao, com.netease.mc.mi, com.outfit7.talkingtomgoldrun.mi, com.doudz.mi, com.wepie.snake.new.mi, cn.jj, com.standddz002.mi, com.miHoYo.bh3.mi, com.qqgame.hlddz, com.happyelements.AndroidAnimal, com.minitech.miniworld.TMobile.mi, com.mfp.jelly.xiaomi, com.lilithgames.afk.mi, com.tencent.peng, com.teenpatti.hd.gold, blockpuzzle.jewelgames.jewelslegend, com.playgendary.tanks, com.chillingo.robberybobfree.android.row, com.episodeinteractive.android.catalog, com.playrix.township, com.ansangha.drdriving, com.google.android.youtube, com.gbits.atm.mi]
+06-27 12:30:14.854   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-27 12:30:14.855   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-27 12:30:14.855   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:14.855   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:14.855   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:14.855   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:14.855   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:14.855   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-27 12:30:14.855   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-27 12:30:14.855   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:14.855   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:14.856  1919  8390 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:30:14.856  1919  8390 D CompatibilityInfo: applicationDensity - 440
+06-27 12:30:14.856  1919  8390 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:30:14.857   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:30:14.857   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:14.857   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:14.857   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:14.857   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:14.857   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:14.857   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-27 12:30:14.857   879   984 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:30:14.857   879   984 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-27 12:30:14.857   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-27 12:30:14.857   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:14.857   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:14.858  1919  8390 D ActivityTrigger: ActivityTrigger activityPauseTrigger 
+06-27 12:30:14.858   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-27 12:30:14.858   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:14.858   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:14.858   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:14.858   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:14.858   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:14.858   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-27 12:30:14.858   879   984 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:30:14.858   879   984 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-27 12:30:14.858   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-27 12:30:14.858   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:14.858   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:14.858   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-27 12:30:14.860 21551 21587 I CalP:D:AlarmManager: scheduleNextAlarmLocked(): query sql:SELECT * FROM (SELECT begin -(19800000)  -(minutes*60000) AS myAlarmTime,Instances.event_id AS eventId,begin,end,title,allDay,method,minutes FROM Instances INNER JOIN view_events ON (view_events._id=Instances.event_id) INNER JOIN Reminders ON (Instances.event_id=Reminders.event_id) WHERE visible=1 AND myAlarmTime>=CAST(? AS INT) AND myAlarmTime<=CAST(? AS INT) AND end>=? AND method=1 AND allDay=1 UNION ALL SELECT begin -(minutes*60000) AS myAlarmTime,Instances.event_id AS eventId,begin,end,title,allDay,method,minutes FROM Instances INNER JOIN view_events ON (view_events._id=Instances.event_id) INNER JOIN Reminders ON (Instances.event_id=Reminders.event_id) WHERE visible=1 AND myAlarmTime>=CAST(? AS INT) AND myAlarmTime<=CAST(? AS INT) AND end>=? AND method=1 AND allDay=0) WHERE 0=(SELECT count(*) FROM CalendarAlerts CA WHERE CA.event_id=eventId AND CA.begin=begin AND CA.alarmTime=myAlarmTime) ORDER BY myAlarmTime,begin,title
+06-27 12:30:14.860 21551 21587 I CalP:D:AlarmManager: scheduleNextAlarmLocked(): query sql params:[1751000414841, 1751094014841, 1751007614841, 1751000414841, 1751094014841, 1751007614841]
+06-27 12:30:14.870 21551 21586 I CalP:D:CalendarProvider2: verifyCalendar()
+06-27 12:30:14.871  1919  1919 W AlarmManager: No in-flight alarm for PendingIntent{cd087c0: PendingIntentRecord{ca67cf9 com.android.providers.calendar broadcastIntent}} Intent { act=com.android.providers.calendar.intent.CalendarProvider2 flg=0x14 (has extras) }
+06-27 12:30:14.871 21551 21586 I CalP:D:CalendarProvider2: verifyCalendar(): miAccount is null
+06-27 12:30:14.872 21551 21586 D CalP:D:PrivacyHelper: checkAndClearSyncFields(): PermissionUtils.isGdprPermissionGranted = true
+06-27 12:30:14.872 21551 21586 D CalP:D:PrivacyHelper: checkAndClearSyncFields(): Gdpr Permission granted. Skip clearing fields
+06-27 12:30:14.873  1919  8390 I ActivityManager: Killing 20476:com.android.chrome/u0a192 (adj 985): empty #17
+06-27 12:30:14.873  1919  8390 I Process : PerfMonitor : current process sending signal quiet. PID: 20476 SIG: 9
+06-27 12:30:14.874   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:14.874   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:14.874   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:14.874   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:14.874  1919  2134 I Process : PerfMonitor : current process killing process group. PID: 20476
+06-27 12:30:14.875  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10184, uidState = 19
+06-27 12:30:14.875  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10076, uidState = 19
+06-27 12:30:14.875   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:14.876   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:14.876   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:14.877 21551 21586 I CalP:D:AlarmManager: rescheduleMissedAlarms()
+06-27 12:30:14.878 20712 20712 D ResolverListAdapter: ResolverListAdapter: com.android.internal.app.ResolverListAdapter@483fedc
+06-27 12:30:14.890   698   698 D Zygote  : Forked child process 21599
+06-27 12:30:14.891  1919  2122 I ActivityManager: Start proc 21599:com.google.android.apps.wellbeing/u0a184 for broadcast {com.google.android.apps.wellbeing/com.google.android.apps.wellbeing.alarm.NextAlarmClockChangedReceiver_Receiver} caller=android
+06-27 12:30:14.892 20712 20712 D MiShareTransmissionView: initScreenView is false
+06-27 12:30:14.894 21599 21599 W Zygote  : Unable to open libbeluga.so: dlopen failed: library "libbeluga.so" not found.

@@ -1,0 +1,598 @@
+--------- beginning of main
+06-27 12:34:50.406 24284 26260 E ThemeUtils: View class com.miui.gamebooster.videobox.view.MarqueeTextView is an AppCompat widget that can only be used with a Theme.AppCompat theme (or descendant).
+06-27 12:34:50.410 24284 26260 E ThemeUtils: View class com.miui.gamebooster.videobox.view.MarqueeTextView is an AppCompat widget that can only be used with a Theme.AppCompat theme (or descendant).
+06-27 12:34:50.413 24284 24326 I GDAppManager: loadDockApps: mDockAppList=[AppInfo{uid=10248, pkg='com.whatsapp', activity='com.whatsapp.Main', from='0'}, AppInfo{uid=10246, pkg='com.facebook.katana', activity='com.facebook.katana.LoginActivity', from='0'}, AppInfo{uid=10271, pkg='com.shazam.android', activity='com.shazam.android.activities.SplashActivity', from='0'}, AppInfo{uid=10264, pkg='com.instagram.android', activity='com.instagram.android.activity.MainTabActivity', from='2'}, AppInfo{uid=10287, pkg='com.truecaller', activity='com.truecaller.ui.TruecallerInit', from='2'}, AppInfo{uid=10192, pkg='com.android.chrome', activity='com.google.android.apps.chrome.Main', from='2'}, AppInfo{uid=10242, pkg='com.google.android.apps.translate', activity='com.google.android.apps.translate.TranslateActivity', from='2'}, AppInfo{uid=10238, pkg='com.larksuite.suite', activity='com.ss.android.lark.main.app.MainActivity', from='2'}, AppInfo{uid=10270, pkg='com.spotify.music', activity='com.spotify.music.MainActivity', from='2'}, AppInfo{uid=10257, pkg='sun.way2sms.hyd.com', activity='sun.way2sms.hyd.com.way2news.activities.SplashActivity', from='2'}, AppInfo{uid=10256, pkg='com.snapchat.android', activity='com.snapchat.android.LandingPageActivity', from='2'}, AppInfo{uid=10259, pkg='com.openai.chatgpt', activity='com.openai.chatgpt.MainActivity', from='2'}, AppInfo{uid=10272, pkg='cn.wps.moffice_eng', activity='cn.wps.moffice.documentmanager.PreStartActivity', from='2'}, AppInfo{uid=10205, pkg='com.google.android.gm', activity='com.google.android.gm.ConversationListActivityGmail', from='2'}, AppInfo{uid=10303, pkg='in.cricketexchange.cricketline', activity='in.cricketexchange.cricketline.liveline.activities.HomeActivity', from='2'}, AppInfo{uid=10267, pkg='in.startv.hotstar', activity='com.hotstar.MainActivity', from='2'}, AppInfo{uid=10081, pkg='com.miui.gallery', activity='com.miui.gallery.activity.HomePageActivity', from='2'}, AppInfo{uid=10194, pkg='com.google.android.apps.maps', activity='com.google.android.maps.MapsActivity', from='2'}, AppInfo{uid=10182, pkg='com.android.vending', activity='com.android.vending.AssetBrowserActivity', from='2'}, AppInfo{uid=10249, pkg='com.instagram.barcelona', activity='com.instagram.barcelona.mainactivity.BarcelonaActivity', from='2'}, AppInfo{uid=10252, pkg='com.google.android.apps.photos', activity='com.google.android.apps.photos.home.HomeActivity', from='2'}, AppInfo{uid=10305, pkg='com.ril.ajio', activity='com.ril.ajio.launch.activity.SplashScreenActivity', from='2'}, AppInfo{uid=10099, pkg='com.android.soundrecorder', activity='com.android.soundrecorder.SoundRecorder', from='2'}, AppInfo{uid=10245, pkg='in.amazon.mShop.android.shopping', activity='com.amazon.mShop.home.HomeActivity', from='2'}, AppInfo{uid=10255, pkg='com.linkedin.android', activity='com.linkedin.android.authenticator.LaunchActivityDefault', from='2'}, AppInfo{uid=10260, pkg='naukriApp.appModules.login', activity='com.naukri.splash.SplashActivity', from='2'}, AppInfo{uid=10274, pkg='com.twitter.android', activity='com.twitter.android.StartActivity', from='2'}, AppInfo{uid=10273, pkg='com.mxtech.videoplayer.ad', activity='com.mxtech.videoplayer.ad.ActivityWelcomeMX', from='2'}, AppInfo{uid=10265, pkg='com.google.android.apps.nbu.paisa.user', activity='com.google.nbu.paisa.flutter.gpay.app.LauncherActivity', from='2'}, AppInfo{uid=10290, pkg='com.infrasoft.uboi', activity='com.infrasoft.uboi.VyomProdJanUIUX', from='2'}]
+06-27 12:34:50.413 26262 26262 E recorder:remot: Not starting debugger since process cannot load the jdwp agent.
+06-27 12:34:50.417  2964  2964 D RecentsImpl: mActivityStateObserver com.android.soundrecorder.SoundRecorder
+06-27 12:34:50.424  2964  3243 D GestureStubView: resetRenderProperty: showGestureStub
+06-27 12:34:50.424  2964  3243 D GestureStubView: showGestureStub
+06-27 12:34:50.425  2964  3243 D GestureStubView: resetRenderProperty: showGestureStub
+06-27 12:34:50.425  2964  3243 D GestureStubView: showGestureStub
+06-27 12:34:50.435  2964  3243 D GestureStubView: gatherTransparentRegion: need render w:54  h:1404
+06-27 12:34:50.441 20959 21047 I AdrenoGLES-0: QUALCOMM build                   : 42297a4, I9e9b240040
+06-27 12:34:50.441 20959 21047 I AdrenoGLES-0: Build Date                       : 03/19/21
+06-27 12:34:50.441 20959 21047 I AdrenoGLES-0: OpenGL ES Shader Compiler Version: EV031.32.02.07
+06-27 12:34:50.441 20959 21047 I AdrenoGLES-0: Local Branch                     : 
+06-27 12:34:50.441 20959 21047 I AdrenoGLES-0: Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.9.1.R1.11.00.00.604.070
+06-27 12:34:50.441 20959 21047 I AdrenoGLES-0: Remote Branch                    : NONE
+06-27 12:34:50.441 20959 21047 I AdrenoGLES-0: Reconstruct Branch               : NOTHING
+06-27 12:34:50.441 20959 21047 I AdrenoGLES-0: Build Config                     : S P 10.0.6 AArch64
+06-27 12:34:50.441 20959 21047 I AdrenoGLES-0: Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
+06-27 12:34:50.443  1919  2232 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:34:50.443  1919  2232 D CompatibilityInfo: applicationDensity - 440
+06-27 12:34:50.443  1919  2232 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:34:50.443  2964  3243 D GestureStubView: gatherTransparentRegion: need render w:54  h:1404
+06-27 12:34:50.445   698   698 D Zygote  : Forked child process 26284
+06-27 12:34:50.446  1919  2232 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:34:50.446  1919  2232 D CompatibilityInfo: applicationDensity - 440
+06-27 12:34:50.446  1919  2232 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:34:50.446 26284 26284 W Zygote  : Unable to open libbeluga.so: dlopen failed: library "libbeluga.so" not found.
+06-27 12:34:50.447 20959 21047 I AdrenoGLES-0: PFP: 0x016ee190, ME: 0x00000000
+06-27 12:34:50.447   885   937 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.android.soundrecorder/.RecorderService
+--------- beginning of system
+06-27 12:34:50.448  1919  2122 I ActivityManager: Start proc 26284:com.miui.notes/u0a160 for content provider {com.miui.notes/com.miui.notes.provider.NotesProvider} caller=com.miui.securitycenter
+06-27 12:34:50.468 26284 26284 E com.miui.notes: Not starting debugger since process cannot load the jdwp agent.
+06-27 12:34:50.470 26262 26262 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+06-27 12:34:50.474   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:34:50.474   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:34:50.474   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:34:50.474   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:34:50.475   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:34:50.475   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:34:50.475   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:34:50.475  1919  2107 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{4cd4ce9 u0 com.android.soundrecorder/.SoundRecorder t27379} time:3095285
+06-27 12:34:50.483  1919  2119 D ArtManagerInternalImpl: /data/misc/iorapd/com.android.soundrecorder/1100/com.android.soundrecorder.SoundRecorder/compiled_traces/compiled_trace.pb doesn't exist
+06-27 12:34:50.492  1919  2119 I ActivityTaskManager: Displayed com.android.soundrecorder/.SoundRecorder: +251ms
+06-27 12:34:50.492   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:34:50.492   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:34:50.492   879   879 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:34:50.492   879   879 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-27 12:34:50.492   879   879 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.soundrecorder feature:AppClassifier feedback = 1
+06-27 12:34:50.493  1919  8366 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:34:50.493  1919  8366 D CompatibilityInfo: applicationDensity - 440
+06-27 12:34:50.493  1919  8366 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:34:50.498  4070  4070 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():1984 
+06-27 12:34:50.499  4070  4070 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+06-27 12:34:50.499  4070  4070 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1248 onStartInput(EditorInfo{EditorInfo{packageName=com.android.soundrecorder, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+06-27 12:34:50.500  4070  4070 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+06-27 12:34:50.505  1919  8335 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat=file:///sdcard/Music/sample.mp3 typ=audio/* flg=0x10000000 cmp=android/com.android.internal.app.ResolverActivity} from uid 2000
+06-27 12:34:50.506  1919  8335 D MiuiMultiWindowAdapter: MiuiMultiWindowAdapter::getFreeformBlackList::sSmallWindowBlackList = [com.miui.securitycenter, com.miui.weather2, com.miui.miservice, com.android.calendar, com.xiaomi.calendar, com.android.contacts, com.miui.mishare.connectivity, com.android.settings, com.android.printspooler, com.miui.backup, com.miui.huanji, com.miui.calculator, com.android.deskclock, com.android.thememanager, com.mfashiongallery.emag, com.miui.virtualsim, com.miui.smarttravel, com.mi.health, com.android.camera, com.lbe.security.miui, com.miui.cleanmaster, com.miui.newhome, com.miui.voiceassist, com.android.phone, com.miui.yellowpage, com.android.updater, com.miui.tsmclient, com.miui.securitycore, com.xiaomi.account, com.xiaomi.shop, com.mipay.wallet, com.xiaomi.youpin, com.xiaomi.hm.health, com.miui.bugreport, com.xiaomi.mibrain.speech, com.xiaomi.mimoji, com.xiaomi.scanner, com.duokan.phone.remotecontroller, com.miui.hybrid, com.android.incallui, com.miui.video, com.miui.videoplayer, com.miui.player, com.miui.fm, com.miui.packageinstaller, com.mi.android.globallauncher, com.google.android.dialer, com.google.android.apps.magazines, com.miui.compass, com.miui.greenguard, com.kiteguard, com.google.android.apps.prodcasts, com.google.ar.lens, com.xiangkan.android, com.android.bankabc, com.sohu.inputmethod.sogou, com.tencent.mtt, com.shyz.toutiao, com.netease.mc.mi, com.outfit7.talkingtomgoldrun.mi, com.doudz.mi, com.wepie.snake.new.mi, cn.jj, com.standddz002.mi, com.miHoYo.bh3.mi, com.qqgame.hlddz, com.happyelements.AndroidAnimal, com.minitech.miniworld.TMobile.mi, com.mfp.jelly.xiaomi, com.lilithgames.afk.mi, com.tencent.peng, com.teenpatti.hd.gold, blockpuzzle.jewelgames.jewelslegend, com.playgendary.tanks, com.chillingo.robberybobfree.android.row, com.episodeinteractive.android.catalog, com.playrix.township, com.ansangha.drdriving, com.google.android.youtube, com.gbits.atm.mi]
+06-27 12:34:50.506   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-27 12:34:50.506   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-27 12:34:50.508 26262 26262 I Perf    : Connecting to perf service.
+06-27 12:34:50.509  1919  8335 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:34:50.509  1919  8335 D CompatibilityInfo: applicationDensity - 440
+06-27 12:34:50.509  1919  8335 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:34:50.510   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:34:50.510   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:34:50.510   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:34:50.510   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:34:50.510   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:34:50.510   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:34:50.510   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-27 12:34:50.510   879   984 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:34:50.511   879   984 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-27 12:34:50.511   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-27 12:34:50.511   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:34:50.511   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:34:50.512  1919  8335 D ActivityTrigger: ActivityTrigger activityPauseTrigger 
+06-27 12:34:50.512   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:34:50.512   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:34:50.512   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:34:50.512   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:34:50.512   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:34:50.512   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-27 12:34:50.512   879   984 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:34:50.512   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-27 12:34:50.512   879   984 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-27 12:34:50.512   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-27 12:34:50.512   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:34:50.512   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:34:50.512   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-27 12:34:50.523 26262 26262 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+06-27 12:34:50.525  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10160, uidState = 5
+06-27 12:34:50.527 26262 26262 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+06-27 12:34:50.529   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-27 12:34:50.529   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-27 12:34:50.529   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:34:50.529   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:34:50.529   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:34:50.529   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:34:50.529   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:34:50.530   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:34:50.530   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-27 12:34:50.530   879   984 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:34:50.530   879   984 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-27 12:34:50.530   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-27 12:34:50.530   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:34:50.530   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:34:50.532   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:34:50.534  9395 21030 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='android', mForegroundUid=1000, mForegroundPid=26070, mLastForegroundPackageName='com.android.soundrecorder', mLastForegroundUid=10099, mLastForegroundPid=20959, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+06-27 12:34:50.535  8426  8840 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='android', mForegroundUid=1000, mForegroundPid=26070, mLastForegroundPackageName='com.android.soundrecorder', mLastForegroundUid=10099, mLastForegroundPid=20959, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+06-27 12:34:50.535  9739 11053 D PerfEngineController: ForegroundInfo{mForegroundPackageName='android', mForegroundUid=1000, mForegroundPid=26070, mLastForegroundPackageName='com.android.soundrecorder', mLastForegroundUid=10099, mLastForegroundPid=20959, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+06-27 12:34:50.535  1919  2232 I Timeline: Timeline: App_transition_ready time:3095346
+06-27 12:34:50.535  9739 10841 W MessageQueue: Handler (com.miui.powerkeeper.feedbackcontrol.FeedbackControlService$FeedbackControlHandler) {322048a} sending message to a Handler on a dead thread
+06-27 12:34:50.535  9739 10841 W MessageQueue: java.lang.IllegalStateException: Handler (com.miui.powerkeeper.feedbackcontrol.FeedbackControlService$FeedbackControlHandler) {322048a} sending message to a Handler on a dead thread
+06-27 12:34:50.535  9739 10841 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:563)
+06-27 12:34:50.535  9739 10841 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:778)
+06-27 12:34:50.535  9739 10841 W MessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:727)
+06-27 12:34:50.535  9739 10841 W MessageQueue: 	at com.miui.powerkeeper.event.EventsAggregator$EventRegistrant.notifyResult(Unknown Source:26)
+06-27 12:34:50.535  9739 10841 W MessageQueue: 	at com.miui.powerkeeper.event.EventsAggregator.notifyForForegroundInfo(Unknown Source:47)
+06-27 12:34:50.535  9739 10841 W MessageQueue: 	at com.miui.powerkeeper.utils.ProcessObserver.notifyForegroundListener(Unknown Source:17)
+06-27 12:34:50.535  9739 10841 W MessageQueue: 	at com.miui.powerkeeper.utils.ProcessObserver.access$1000(Unknown Source:0)
+06-27 12:34:50.535  9739 10841 W MessageQueue: 	at com.miui.powerkeeper.utils.ProcessObserver$2.onForegroundInfoChanged(Unknown Source:2)
+06-27 12:34:50.535  9739 10841 W MessageQueue: 	at miui.process.IForegroundInfoListener$Stub.onTransact(IForegroundInfoListener.java:87)
+06-27 12:34:50.535  9739 10841 W MessageQueue: 	at android.os.Binder.execTransactInternal(Binder.java:1162)
+06-27 12:34:50.535  9739 10841 W MessageQueue: 	at android.os.Binder.execTransact(Binder.java:1126)
+06-27 12:34:50.535  9770  9797 I GST     : forePkg: android, preForePkg: com.android.soundrecorder
+06-27 12:34:50.538  9395 21030 I VideoBoxUtils: isSupportVideoBox: false
+06-27 12:34:50.538   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 5
+06-27 12:34:50.538   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 5
+06-27 12:34:50.538  9395 21030 E GameBoosterReflectUtils: java.lang.NoSuchMethodException: android.app.ActivityManager$StackInfo.getWindowingMode []
+06-27 12:34:50.539  9395 21030 I VideoToolBoxService: splitMode: onfalse
+06-27 12:34:50.540  9395 21030 I VideoToolBoxService: not support vtb. skipExit : false
+06-27 12:34:50.540  9395  9656 I VideoBoxServiceManager: video box exit app...
+06-27 12:34:50.541  9395  9656 I VideoEffectUtils: setVppEnable : false
+06-27 12:34:50.547   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:34:50.547   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:34:50.547   879   879 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:34:50.547   879   879 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-27 12:34:50.547   879   879 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.soundrecorder feature:AppClassifier feedback = 1
+06-27 12:34:50.547 26262 26315 I MiCloudSDKDependencyUtil: MiCloudSDK environment: 32
+06-27 12:34:50.550  1919  8335 I Timeline: Timeline: App_transition_ready time:3095361
+06-27 12:34:50.552 26262 26262 E libc    : Access denied finding property "ro.vendor.df.effect.conflict"
+06-27 12:34:50.552 26262 26262 E libc    : Access denied finding property "ro.vendor.knock.type"
+06-27 12:34:50.543 26262 26262 W recorder:remote: type=1400 audit(0.0:3912): avc: denied { read } for name="u:object_r:vendor_displayfeature_prop:s0" dev="tmpfs" ino=17656 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:vendor_displayfeature_prop:s0 tclass=file permissive=0 app=com.android.soundrecorder
+06-27 12:34:50.556 26262 26262 D CompatibilityChangeReporter: Compat change id reported: 147600208; UID 10099; state: ENABLED
+06-27 12:34:50.563   885   937 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.measurement.service.MeasurementBrokerService and for client com.miui.securitycenter.remote
+06-27 12:34:50.563   885   937 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.measurement.service.MeasurementBrokerServiceare :1
+06-27 12:34:50.563   885   937 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.miui.securitycenter.remoteare :6
+06-27 12:34:50.563 24284 24327 E FileUtils: getPackageListFromData fail!
+06-27 12:34:50.564  1919  8366 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:34:50.564  1919  8366 D CompatibilityInfo: applicationDensity - 440
+06-27 12:34:50.564  1919  8366 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:34:50.564 24284 24327 E FileUtils: getPackageListFromData fail!
+06-27 12:34:50.565 24284 24327 E FileUtils: getPackageListFromData fail!
+06-27 12:34:50.565   885   937 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.google.android.gms/.measurement.service.MeasurementBrokerService
+06-27 12:34:50.566  3799  3799 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+06-27 12:34:50.566  3799  3799 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+06-27 12:34:50.566   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:34:50.566   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:34:50.566   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:34:50.566   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:34:50.566   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:34:50.566   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:34:50.566   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:34:50.567  1919  2107 I Timeline: Timeline: App_transition_ready time:3095378
+06-27 12:34:50.567  1919  2107 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{2fae129 u0 android/com.android.internal.app.ResolverActivity t27378} time:3095378
+06-27 12:34:50.567  1919  2107 I Timeline: Timeline: App_transition_stopped time:3095378
+06-27 12:34:50.568  1919  2119 D ArtManagerInternalImpl: /data/misc/iorapd/android/30/com.android.internal.app.ResolverActivity/compiled_traces/compiled_trace.pb doesn't exist
+06-27 12:34:50.569  2964  3352 D IconCustomizer: Content Ratio = -1.0
+06-27 12:34:50.571  2964  2964 D RecentsImpl: mActivityStateObserver com.android.internal.app.ResolverActivity
+06-27 12:34:50.572  9395  9656 I VideoBoxUtils: resetVideoBoxMode
+06-27 12:34:50.572  9395  9656 I DisplayEffectUtils: isSupportVDS: true
+06-27 12:34:50.572  9395  9656 I VideoEffectUtils: setVppStatus: false	isSupportVpp=false
+06-27 12:34:50.572  9395  9656 E TheatreModeUtils: supportTheatreModeFeature = false, pkg: com.android.soundrecorder
+06-27 12:34:50.573  9395  9656 I DisplayEffectUtils: isSupportVDS: true
+06-27 12:34:50.573  9395  9656 I DisplayEffectUtils: setScreenEffect: 0
+06-27 12:34:50.573   905   905 D DisplayFeatureHal: setFeatureEnable(displayId=0 caseId=27 modeId=0 cookie=255)
+06-27 12:34:50.573   905   905 D DisplayFeatureHal: current wcg state 0, setting to 0
+06-27 12:34:50.573   905   905 D DisplayFeatureHal: notifySFWcgState enable = 0
+06-27 12:34:50.574  2964  3243 D GestureStubView: resetRenderProperty: showGestureStub
+06-27 12:34:50.574  2964  3243 D GestureStubView: showGestureStub
+06-27 12:34:50.574   811   858 I SDM     : CoreInterface::SetWCGStatus: SetWCGStatus wcg enable 0
+06-27 12:34:50.574   905   905 D DisplayFeatureHal: notifyQservice cmd 48 value 0 ret 0
+06-27 12:34:50.575  2964  3243 D GestureStubView: resetRenderProperty: showGestureStub
+06-27 12:34:50.575  2964  3243 D GestureStubView: showGestureStub
+06-27 12:34:50.575   905   992 D DisplayFeatureHal: HandleVideoMode enter mode 0
+06-27 12:34:50.577  9395  9656 I VideoEffectUtils: setFrcStatus: false	supportFRCFeature=false
+06-27 12:34:50.577  9395  9656 I VideoBoxServiceManager: close
+06-27 12:34:50.578  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10270, uidState = 4
+06-27 12:34:50.578  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10183, uidState = 4
+06-27 12:34:50.578 11583 25334 D SurfaceUtils: disconnecting from surface 0x7bbc4eb010, reason disconnectFromSurface
+06-27 12:34:50.577 24284 24284 I DockWindowManagerService: exitDockMode: 3
+06-27 12:34:50.578 26284 26284 I Perf    : Connecting to perf service.
+06-27 12:34:50.579 24284 24284 D v1      : myUserId = 0	currentUserId0
+06-27 12:34:50.579 24284 24284 I DockWindowManager: hideOrShowSidebarWithAnimation: isShow = false caller = hideOrShowSidebar
+06-27 12:34:50.579 24284 24329 I VideoBoxUtils: exitVideoBoxMode start
+06-27 12:34:50.580 24284 24329 E TheatreModeUtils: supportTheatreModeFeature = false, pkg: com.spotify.music
+06-27 12:34:50.580 24284 24329 D TheatreModeUtils: Turn off the 3D LUT Global Switch
+06-27 12:34:50.580 24284 24329 I DisplayEffectUtils: setCinemaVisionGlobalSwitch: 0
+06-27 12:34:50.580   885   937 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.miui.securitycenter/com.miui.gamebooster.service.DockWindowManagerService and for client com.miui.securitycenter.remote
+06-27 12:34:50.580  1454 25370 I OMX-VDEC-1080P: omx_vdec::component_deinit() complete
+06-27 12:34:50.580   885   937 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.miui.securitycenter/com.miui.gamebooster.service.DockWindowManagerServiceafter removal is 0
+06-27 12:34:50.580   885   937 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.miui.securitycenter.remoteafter removal is 5
+06-27 12:34:50.582 24333 24350 I ActiveFloatingManager: dismissActiveFloatingCard
+06-27 12:34:50.583   905   992 D DisplayFeatureHal: HandleACNormal enter
+06-27 12:34:50.583   905   992 D DisplayFeatureHal: Query DisplayPostproc service
+06-27 12:34:50.584 24333 24333 I WebPanel: dismissAll
+06-27 12:34:50.585  2964  3352 D IconCustomizer: Content Ratio = -1.0
+06-27 12:34:50.585   811  2303 I Dpps    : AddNewDppsClient():431 New DPPS client accepted, client fd = 24, poll idx 2
+06-27 12:34:50.585   811  2303 I Dpps    : HandleDppsClientEvent():921 Incoming message on client fd 24: 'ad:on;1'
+06-27 12:34:50.585   811  2337 I Dpps    : Register():166 client already registered AdAlsObserver notifier 0x0
+06-27 12:34:50.585   811  2337 I Dpps    : AdOn():696 AD already in ON state 1 split display bit 0
+06-27 12:34:50.585  1454 25370 I OMX-VDEC-1080P: Exit OMX vdec Destructor: fd=9
+06-27 12:34:50.586   811  2303 I Dpps    : HandleDppsClientEvent():903 Client connection 24 has closed
+06-27 12:34:50.586   811  2303 I Dpps    : RemoveServerClient():297 closed fd 24 poll_idx 2
+06-27 12:34:50.589 11583 25334 E libc    : Access denied finding property "ro.vendor.media.video.frc.support"
+06-27 12:34:50.589  2671  3038 D MiuiPhoneStatusBarPolicy: updateManagedProfile: secondSpace = false
+06-27 12:34:50.589  1437  3236 D MediaMetricsService: submitInternal: isTrusted:0 given uid -1; sanitized uid: 10270 sanitized pkg: com.spotify.music sanitized pkg version: 129240618
+06-27 12:34:50.589  1437  3236 D MediaMetricsService: submitInternal: item->getKey().c_str() = codec
+06-27 12:34:50.589  1437  3236 D MediaMetricsService: submitInternal: item->getCString(kCodecPackageName, &msg_send->packgeName) = 1
+06-27 12:34:50.589  1437  3236 D MediaMetricsService: submitInternal: item->getInt32(kCodecHdrInfo, &msg_send->hdr) = 1
+06-27 12:34:50.589  1437  3236 D MediaMetricsService: submitInternal: item->getInt32(kCodecFrameRateCal, &msg_send->frameRateCal) = 1
+06-27 12:34:50.589  1437  3236 D MediaMetricsService: submitInternal: msg_send->frameRateCal = 24
+06-27 12:34:50.589  2964  3243 D GestureStubView: gatherTransparentRegion: need render w:54  h:1404
+06-27 12:34:50.590  1437  3236 E send_data_to_xlog: send_video_play_to_xlog, start
+06-27 12:34:50.590   811   858 I SDM     : HWCDisplay::SetPreferredColorModeInternal: Applying mode: smart_MC
+06-27 12:34:50.590   811   858 D SDM     : DisplayBase::SetColorMode: Target color mode smart_MC, last mode  smart_MC
+06-27 12:34:50.590   811   858 W SDM     : DisplayBase::SetColorMode: Current mode is already smart_MC
+06-27 12:34:50.591   905   992 D DisplayFeatureHal: set mode:42 ppMode:40 over done.... status:1 ret 0
+06-27 12:34:50.591  1437  3236 E xlog_client: xlog_open: Error in open xlog
+06-27 12:34:50.591  1437  3236 E xlog_client: xlog open fail
+06-27 12:34:50.593  2964  3243 D GestureStubView: gatherTransparentRegion: need render w:54  h:1404
+06-27 12:34:50.598   885   937 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.miui.securitycenter/com.miui.gamebooster.service.DockWindowManagerService
+06-27 12:34:50.600 24284 24329 E ActivityThread: Failed to find provider info for com.xiaomi.aiasst.vision
+06-27 12:34:50.600   885   937 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.miui.securityadd/com.miui.gamebooster.service.ActiveService and for client com.miui.securitycenter:ui
+06-27 12:34:50.600   885   937 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.miui.securityadd/com.miui.gamebooster.service.ActiveServiceafter removal is 0
+06-27 12:34:50.600 24284 24329 D GameBoosterFeatureUtils: checkAISubtitle Result = null
+06-27 12:34:50.600   885   937 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.miui.securitycenter:uiafter removal is 0
+06-27 12:34:50.600   885   937 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.miui.securityadd/com.miui.gamebooster.service.ActiveService
+06-27 12:34:50.601 24284 24329 I DisplayEffectUtils: isSupportVDS: true
+06-27 12:34:50.601 24284 24329 I AudioEffectCenterWrapper: isSupportFWAudioEffect: false
+06-27 12:34:50.601 24284 24329 I AudioEffectCenterWrapper: isSupportFWAudioEffect: false
+06-27 12:34:50.601 24284 24329 I SoundEffecUtils: exitVideoBoxMode: false, isSupportFWAudio = false
+06-27 12:34:50.601 24284 24329 I AudioEffectCenterWrapper: isSupportFWAudioEffect: false
+06-27 12:34:50.601   905   992 D DisplayFeatureHal: set mode:47 ppMode:51 over done.... status:1 ret 0
+06-27 12:34:50.601 24284 24329 I MiSoundEffectUtils: setMovieSurroundLevel: 0
+06-27 12:34:50.601 24284 24329 I AudioEffectCenterWrapper: isSupportFWAudioEffect: false
+06-27 12:34:50.601 24284 24329 I MiSoundEffectUtils: setMovieVocalLevel: 0
+06-27 12:34:50.601 24284 24329 I AudioEffectCenterWrapper: isSupportFWAudioEffect: false
+06-27 12:34:50.601 24284 24284 I ActiveWindowManager: releaseManager...
+06-27 12:34:50.601 24284 24329 I MiSoundEffectUtils: setMovieModeEnable: false
+06-27 12:34:50.601 24284 24329 I AudioEffectCenterWrapper: isSupportFWAudioEffect: false
+06-27 12:34:50.601 24284 24329 I AudioEffectCenterWrapper: isSupportFWAudioEffect: false
+06-27 12:34:50.601 24284 24329 I MiSoundEffectUtils: release
+06-27 12:34:50.601   943  3237 I AudioFlinger: setGameParameters keyvalue: dynamic_audio_usecase_pkg=-#com.android.soundrecorder#movie
+06-27 12:34:50.602 24284 24329 E MiSoundWrapper: hasControl
+06-27 12:34:50.602 24284 24329 E MiSoundWrapper: java.lang.reflect.InvocationTargetException
+06-27 12:34:50.602 24284 24329 E MiSoundWrapper: 	at java.lang.reflect.Method.invoke(Native Method)
+06-27 12:34:50.602 24284 24329 E MiSoundWrapper: 	at h7.k1.a(Unknown Source:23)
+06-27 12:34:50.602 24284 24329 E MiSoundWrapper: 	at com.miui.gamebooster.videobox.utils.MiSoundEffectUtils.a(Unknown Source:14)
+06-27 12:34:50.602 24284 24329 E MiSoundWrapper: 	at com.miui.gamebooster.videobox.utils.MiSoundEffectUtils.h(Unknown Source:7)
+06-27 12:34:50.602 24284 24329 E MiSoundWrapper: 	at h7.c2.e(Unknown Source:80)
+06-27 12:34:50.602 24284 24329 E MiSoundWrapper: 	at q7.s.j(Unknown Source:46)
+06-27 12:34:50.602 24284 24329 E MiSoundWrapper: 	at q7.s.a(Unknown Source:0)
+06-27 12:34:50.602 24284 24329 E MiSoundWrapper: 	at q7.q.run(Unknown Source:2)
+06-27 12:34:50.602 24284 24329 E MiSoundWrapper: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+06-27 12:34:50.602 24284 24329 E MiSoundWrapper: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+06-27 12:34:50.602 24284 24329 E MiSoundWrapper: 	at java.lang.Thread.run(Thread.java:923)
+06-27 12:34:50.602 24284 24329 E MiSoundWrapper: Caused by: java.lang.IllegalStateException: hasControl() called on uninitialized AudioEffect.
+06-27 12:34:50.602 24284 24329 E MiSoundWrapper: 	at android.media.audiofx.AudioEffect.checkState(AudioEffect.java:1412)
+06-27 12:34:50.602 24284 24329 E MiSoundWrapper: 	at android.media.audiofx.AudioEffect.hasControl(AudioEffect.java:1039)
+06-27 12:34:50.602 24284 24329 E MiSoundWrapper: 	... 11 more
+06-27 12:34:50.602   789   862 D audio_hw_primary: adev_set_parameters: enter: dynamic_audio_usecase_pkg=-#com.android.soundrecorder#movie
+06-27 12:34:50.602   789   862 V msm8974_platform: platform_set_parameters: enter: dynamic_audio_usecase_pkg=-#com.android.soundrecorder#movie
+06-27 12:34:50.602   789   862 D audio_hw_hfp: hfp_set_parameters: enter
+06-27 12:34:50.602   789   862 D audio_hw_hfp: hfp_set_parameters: enter
+06-27 12:34:50.602   789   862 D audio_hw_extn: audio_extn_fm_set_parameters: Enter
+06-27 12:34:50.602   789   862 D audio_hw_hfp: hfp_set_parameters: enter
+06-27 12:34:50.602   789   862 V mi_ultrasound_extn: mi_ultrasound_extn_set_parameters: enter
+06-27 12:34:50.602   789   862 V mi_ultrasound_extn: mi_ultrasound_handle_screen_on_message: enter
+06-27 12:34:50.602   789   862 V mi_ultrasound_extn: mi_ultrasound_handle_screen_on_message: exit
+06-27 12:34:50.602   789   862 V mi_ultrasound_extn: mi_ultrasound_handle_sensor_fusion_message: enter
+06-27 12:34:50.602   789   862 V mi_ultrasound_extn: mi_ultrasound_handle_sensor_fusion_message: exit
+06-27 12:34:50.602   789   862 V mi_ultrasound_extn: mi_ultrasound_extn_set_parameters: usecase handling parms:dynamic_audio_usecase_pkg=-#com.android.soundrecorder#movie
+06-27 12:34:50.603  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 99005, uidState = 4
+06-27 12:34:50.603  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10159, uidState = 10
+06-27 12:34:50.603  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10160, uidState = 10
+06-27 12:34:50.603  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10159, uidState = 19
+06-27 12:34:50.603 24284 24284 I DockWindowManagerService: unregisterBroadcast:true
+06-27 12:34:50.605 26262 26262 V SoundRecorder:RecorderService: onBind
+06-27 12:34:50.605 24284 24284 I DockWindowManager: removeSidebar:false true DockWindowManager = z7.h@e3cd643
+06-27 12:34:50.605 24284 24284 I DockWindowManager: removeSidebar:false true DockWindowManager = z7.h@e3cd643
+06-27 12:34:50.606 26262 26262 D SoundRecorder:RecorderService: onCallStateChanged:0
+06-27 12:34:50.606 20959 20959 V SoundRecorder:SoundRecorder: onServiceConnected name = ComponentInfo{com.android.soundrecorder/com.android.soundrecorder.RecorderService}
+06-27 12:34:50.606 24284 24329 E MiSoundWrapper: java.lang.NoSuchMethodException: android.media.audiofx.MiSound.set3dSurround [int]
+06-27 12:34:50.606 24284 24329 E MiSoundWrapper: 	at java.lang.Class.getMethod(Class.java:2072)
+06-27 12:34:50.606 24284 24329 E MiSoundWrapper: 	at java.lang.Class.getMethod(Class.java:1693)
+06-27 12:34:50.606 24284 24329 E MiSoundWrapper: 	at h7.k1.<init>(Unknown Source:194)
+06-27 12:34:50.606 24284 24329 E MiSoundWrapper: 	at com.miui.gamebooster.videobox.utils.MiSoundEffectUtils.a(Unknown Source:27)
+06-27 12:34:50.606 24284 24329 E MiSoundWrapper: 	at com.miui.gamebooster.videobox.utils.MiSoundEffectUtils.h(Unknown Source:7)
+06-27 12:34:50.606 24284 24329 E MiSoundWrapper: 	at h7.c2.e(Unknown Source:80)
+06-27 12:34:50.606 24284 24329 E MiSoundWrapper: 	at q7.s.j(Unknown Source:46)
+06-27 12:34:50.606 24284 24329 E MiSoundWrapper: 	at q7.s.a(Unknown Source:0)
+06-27 12:34:50.606 24284 24329 E MiSoundWrapper: 	at q7.q.run(Unknown Source:2)
+06-27 12:34:50.606 24284 24329 E MiSoundWrapper: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+06-27 12:34:50.606 24284 24329 E MiSoundWrapper: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+06-27 12:34:50.606 24284 24329 E MiSoundWrapper: 	at java.lang.Thread.run(Thread.java:923)
+06-27 12:34:50.606   943  3796 W AudioFlinger::EffectHandle: disconnect Effect handle 0xb40000739b59f860 disconnected after thread destruction
+06-27 12:34:50.607 24284 24329 I VideoEffectUtils: setFrcStatus: false	supportFRCFeature=false
+06-27 12:34:50.607 24284 24329 I VideoEffectUtils: setVppStatus: false	isSupportVpp=false
+06-27 12:34:50.608 24284 24284 I DockWindowManagerService: onDestroy: D-WMS
+06-27 12:34:50.610  4070  4070 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():1984 
+06-27 12:34:50.611  4070  4070 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+06-27 12:34:50.611  4070  4070 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1248 onStartInput(EditorInfo{EditorInfo{packageName=android, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+06-27 12:34:50.612  4070  4070 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+06-27 12:34:50.613 26284 26284 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+06-27 12:34:50.614 26284 26284 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+06-27 12:34:50.616   905   992 D DisplayFeatureHal: pcc gabb coeff 0 1.000000
+06-27 12:34:50.616   905   992 D DisplayFeatureHal: pcc gabb coeff 1 0.000000
+06-27 12:34:50.616   905   992 D DisplayFeatureHal: pcc gabb coeff 2 0.000000
+06-27 12:34:50.616   905   992 D DisplayFeatureHal: pcc gabb coeff 3 0.000000
+06-27 12:34:50.616   905   992 D DisplayFeatureHal: pcc gabb coeff 4 1.000000
+06-27 12:34:50.616   905   992 D DisplayFeatureHal: pcc gabb coeff 5 0.000000
+06-27 12:34:50.616   905   992 D DisplayFeatureHal: pcc gabb coeff 6 0.000000
+06-27 12:34:50.616   905   992 D DisplayFeatureHal: pcc gabb coeff 7 0.000000
+06-27 12:34:50.616   905   992 D DisplayFeatureHal: pcc gabb coeff 8 1.000000
+06-27 12:34:50.616 24284 24329 I DisplayEffectUtils: isSupportVDS: true
+06-27 12:34:50.616 24284 24329 I DisplayEffectUtils: isSupportVDS: true
+06-27 12:34:50.616 24284 24329 I DisplayEffectUtils: setScreenEffect: 0
+06-27 12:34:50.616   905   905 D DisplayFeatureHal: setFeatureEnable(displayId=0 caseId=27 modeId=0 cookie=255)
+06-27 12:34:50.616   905   905 D DisplayFeatureHal: current wcg state 0, setting to 0
+06-27 12:34:50.616   905   905 D DisplayFeatureHal: notifySFWcgState enable = 0
+06-27 12:34:50.616   697   773 W netd    : dnssd_clientstub DNSServiceProcessResult called with NULL DNSServiceRef
+06-27 12:34:50.617   811   858 I SDM     : CoreInterface::SetWCGStatus: SetWCGStatus wcg enable 0
+06-27 12:34:50.617   905   992 D DisplayFeatureHal: HandleACNormal exit ret -1
+06-27 12:34:50.617   905   992 D DisplayFeatureHal: isStartSensorControl ret 1
+06-27 12:34:50.617   905   905 D DisplayFeatureHal: notifyQservice cmd 48 value 0 ret 0
+06-27 12:34:50.618   905   992 D DisplayFeatureHal: HandleVideoMode enter mode 0
+06-27 12:34:50.619 24284 24329 I VideoBoxUtils: exitVideoBoxMode end
+06-27 12:34:50.620   905   992 D DisplayFeatureHal: HandleACNormal enter
+06-27 12:34:50.620   905   992 D DisplayFeatureHal: Query DisplayPostproc service
+06-27 12:34:50.621   811  2303 I Dpps    : AddNewDppsClient():431 New DPPS client accepted, client fd = 24, poll idx 2
+06-27 12:34:50.621   811  2303 I Dpps    : HandleDppsClientEvent():921 Incoming message on client fd 24: 'ad:on;1'
+06-27 12:34:50.622   811  2337 I Dpps    : Register():166 client already registered AdAlsObserver notifier 0x0
+06-27 12:34:50.622   811  2337 I Dpps    : AdOn():696 AD already in ON state 1 split display bit 0
+06-27 12:34:50.622   811  2303 I Dpps    : HandleDppsClientEvent():903 Client connection 24 has closed
+06-27 12:34:50.622   811  2303 I Dpps    : RemoveServerClient():297 closed fd 24 poll_idx 2
+06-27 12:34:50.622  1919  2106 I ActivityManager: Killing 25348:com.android.chrome/u0a192 (adj 985): empty #17
+06-27 12:34:50.622  1919  2106 I Process : PerfMonitor : current process sending signal quiet. PID: 25348 SIG: 9
+06-27 12:34:50.623  1919  2134 I Process : PerfMonitor : current process killing process group. PID: 25348
+06-27 12:34:50.623   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:34:50.623   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:34:50.623   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:34:50.623   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:34:50.623   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:34:50.623   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:34:50.623   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:34:50.624  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10160, uidState = 19
+06-27 12:34:50.624   811  4121 I SDM     : HWCDisplay::SetPreferredColorModeInternal: Applying mode: smart_MC
+06-27 12:34:50.624   811  4121 D SDM     : DisplayBase::SetColorMode: Target color mode smart_MC, last mode  smart_MC
+06-27 12:34:50.624   811  4121 W SDM     : DisplayBase::SetColorMode: Current mode is already smart_MC
+06-27 12:34:50.624   905   992 D DisplayFeatureHal: set mode:42 ppMode:40 over done.... status:1 ret 0
+06-27 12:34:50.627   905   992 D DisplayFeatureHal: set mode:47 ppMode:51 over done.... status:1 ret 0
+06-27 12:34:50.631 26284 26284 D NotesProvider: onCreate: context=com.miui.notes.NoteApp@75cccbb
+06-27 12:34:50.633  9395 21030 I SCTaskStackListener: onTaskStackChanged! inSplit = false
+06-27 12:34:50.634  9395 10779 I SCTaskStackListener: onTaskStackChanged! inSplit = false
+06-27 12:34:50.637 26284 26284 D libAiCommon: BaseApplicationInitiator|onAppInitFinished:1 ms
+06-27 12:34:50.638 26284 26284 I ContentProviderMonitor: PerfMonitor installContentProviders : before publish content providers
+06-27 12:34:50.640 24284 24326 W BpBinder: PerfMonitor binderTransact :  time=227ms interface=android.app.IActivityManager code=22
+06-27 12:34:50.643 26284 26308 D NotesProvider: query: context=com.miui.notes.NoteApp@75cccbb
+06-27 12:34:50.644   905   992 D DisplayFeatureHal: pcc gabb coeff 0 1.000000
+06-27 12:34:50.644   905   992 D DisplayFeatureHal: pcc gabb coeff 1 0.000000
+06-27 12:34:50.644   905   992 D DisplayFeatureHal: pcc gabb coeff 2 0.000000
+06-27 12:34:50.644   905   992 D DisplayFeatureHal: pcc gabb coeff 3 0.000000
+06-27 12:34:50.644   905   992 D DisplayFeatureHal: pcc gabb coeff 4 1.000000
+06-27 12:34:50.644   905   992 D DisplayFeatureHal: pcc gabb coeff 5 0.000000
+06-27 12:34:50.644   905   992 D DisplayFeatureHal: pcc gabb coeff 6 0.000000
+06-27 12:34:50.644   905   992 D DisplayFeatureHal: pcc gabb coeff 7 0.000000
+06-27 12:34:50.644   905   992 D DisplayFeatureHal: pcc gabb coeff 8 1.000000
+06-27 12:34:50.645 26284 26308 E NotesProvider: callingPackageName is com.miui.securitycenter
+06-27 12:34:50.647  3799 26089 D AdvertisingIdClient: AdvertisingIdClient already created.
+06-27 12:34:50.647   905   992 D DisplayFeatureHal: HandleACNormal exit ret -1
+06-27 12:34:50.647   905   992 D DisplayFeatureHal: isStartSensorControl ret 1
+06-27 12:34:50.648 26284 26308 D SignatureValidator: rom sign:release-keys
+06-27 12:34:50.654 26284 26284 D AutoDensity: autodensity debugEnable = 
+06-27 12:34:50.669 26284 26284 I MiuiPenEngineManager: getInstance =null
+06-27 12:34:50.669 26284 26284 I MiuiPenEngineManager: initSkin
+06-27 12:34:50.673  3799 26089 I AdvertisingIdClient: shouldSendLog 2723236
+06-27 12:34:50.673  3799 26089 I AdvertisingIdClient: GetInfoInternal elapse 26ms
+06-27 12:34:50.681 26284 26322 D DatabaseSP: DatabaseSharedPreferences create com.miui.notes.preference.DatabaseSharedPreferences@8d97423
+06-27 12:34:50.682  2671  2671 V MediaTimeout: processState: PlaybackState {state=3, position=107854, buffered position=0, speed=1.0, updated=3095489, actions=404403, custom actions=[Action:mName='Add to collection, mIcon=2131233036, mExtras=Bundle[mParcelledData.dataSize=144], Action:mName='Start radio, mIcon=2131233047, mExtras=Bundle[mParcelledData.dataSize=144], Action:mName='Start repeating all tracks, mIcon=2131233038, mExtras=Bundle[mParcelledData.dataSize=144]], active item id=-1, error=null}
+06-27 12:34:50.684 26284 26324 D DatabaseSP: loadFromDatabase
+06-27 12:34:50.684 26284 26324 D NotesProvider: query: context=com.miui.notes.NoteApp@75cccbb
+06-27 12:34:50.685   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:34:50.685   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:34:50.685   879   879 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:34:50.685   879   879 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-27 12:34:50.685   879   879 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.miui.notes feature:AppClassifier feedback = 1
+06-27 12:34:50.687 26284 26322 D NoteStore: isGdprPermissionGranted
+06-27 12:34:50.690   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 6
+06-27 12:34:50.690   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 6
+06-27 12:34:50.693 26284 26326 D NotesProvider: query: context=com.miui.notes.NoteApp@75cccbb
+06-27 12:34:50.695   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.PersistentApiService and for client com.google.android.gms
+06-27 12:34:50.695   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.PersistentApiServiceare :10
+06-27 12:34:50.695   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gmsare :4
+06-27 12:34:50.695 26284 26327 D NotesProvider: query: context=com.miui.notes.NoteApp@75cccbb
+06-27 12:34:50.695  3125  3125 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.presencemanager.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+06-27 12:34:50.695 26284 26322 E ActivityThread: Failed to find provider info for com.miui.personalassistant.widget.external
+06-27 12:34:50.697 26284 26322 I NoteWidgetProvider: Unknown authority com.miui.personalassistant.widget.external
+06-27 12:34:50.698  8346 11722 D PMonitor:  onForegroundActivitiesChanged:pid = 11583,activity-uid=10270,foregroundActivities=false
+06-27 12:34:50.698 26284 26322 W System.err: java.lang.IllegalArgumentException: Unknown authority com.miui.personalassistant.widget.external
+06-27 12:34:50.698 26284 26322 W System.err: 	at android.content.ContentResolver.call(ContentResolver.java:2430)
+06-27 12:34:50.698 26284 26322 W System.err: 	at android.content.ContentResolver.call(ContentResolver.java:2413)
+06-27 12:34:50.698 26284 26322 W System.err: 	at com.miui.common.tool.UIUtils.setMiuiWidgetSupported(UIUtils.java:678)
+06-27 12:34:50.699 26284 26322 W System.err: 	at com.miui.notes.NoteApp.lambda$initializeInUiProcess$0$com-miui-notes-NoteApp(NoteApp.java:203)
+06-27 12:34:50.699 26284 26322 W System.err: 	at com.miui.notes.NoteApp$$ExternalSyntheticLambda0.run(Unknown Source:2)
+06-27 12:34:50.699 26284 26322 W System.err: 	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:305)
+06-27 12:34:50.699 26284 26322 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+06-27 12:34:50.699 26284 26322 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+06-27 12:34:50.699 26284 26322 W System.err: 	at java.lang.Thread.run(Thread.java:923)
+06-27 12:34:50.699 26284 26322 I NoteWidgetProvider: isMiuiWidgetSupported:false
+06-27 12:34:50.703   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.PersistentApiService and for client com.google.android.gms
+06-27 12:34:50.703   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.PersistentApiServiceare :10
+06-27 12:34:50.703   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gmsare :4
+06-27 12:34:50.703  3125  3125 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.presencemanager.service.INTERNAL_IDENTITY dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+06-27 12:34:50.708   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.cast.media.CastMediaRouteProviderService_Persistent and for client com.spotify.music
+06-27 12:34:50.708  3125  3125 W DiscoveryManager: BroadcastReceiver is already registered
+06-27 12:34:50.708   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.cast.media.CastMediaRouteProviderService_Persistentafter removal is 1
+06-27 12:34:50.708   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.spotify.musicafter removal is 2
+06-27 12:34:50.709  3125 25951 I DiscoveryManager: Filter criteria(674A0243,8E6C866D) scannerFlags(0)
+06-27 12:34:50.709  3125 25951 W DatabaseProcessor: processLocalDevices: failed to get the network info with non-null networkId.
+06-27 12:34:50.709  3125  3125 I CastMediaRouteProvider: Published 0 routes
+06-27 12:34:50.712   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.PersistentDirectBootAwareApiService and for client com.google.android.gms.persistent
+06-27 12:34:50.712   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.PersistentDirectBootAwareApiServiceare :17
+06-27 12:34:50.712   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gms.persistentare :8
+06-27 12:34:50.727  1919  7131 I WifiService: releaseMulticastLock uid=10183
+06-27 12:34:50.734  1919  8335 I WifiService: acquireMulticastLock uid=10183
+06-27 12:34:50.734   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.PersistentDirectBootAwareApiService and for client com.google.android.gms
+06-27 12:34:50.735   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.PersistentDirectBootAwareApiServiceare :17
+06-27 12:34:50.735   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gmsare :4
+06-27 12:34:50.736  1919  2119 W NotificationHistory: Attempted to remove conversation for locked/gone/disabled user 0
+06-27 12:34:50.738  2964  3306 D IconCustomizer: Content Ratio = -1.0
+06-27 12:34:50.755   698   698 I Zygote  : Process 25348 exited due to signal 9 (Killed)
+06-27 12:34:50.755   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:34:50.755   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:34:50.755   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:34:50.755   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:34:50.755   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:34:50.755   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:34:50.755   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:34:50.756   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: killProcess is called for pid : 25348
+06-27 12:34:50.756   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: process with pid 25348 is service
+06-27 12:34:50.756   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.google.android.youtubeafter removal is 1
+06-27 12:34:50.756   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: process with pid 25348 is client
+06-27 12:34:50.756   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.android.vending/com.google.android.finsky.setup.dse.impl.DseServiceafter removal is 0
+06-27 12:34:50.756   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: removing client with pid 25348process namecom.android.chrome
+06-27 12:34:50.757   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.android.chrome/org.chromium.content.app.SandboxedProcessService0:0
+06-27 12:34:50.757  1919  7655 W ActivityManager: Exception when unbinding service com.android.chrome/org.chromium.content.app.PrivilegedProcessService0
+06-27 12:34:50.757  1919  7655 W ActivityManager: android.os.DeadObjectException
+06-27 12:34:50.757  1919  7655 W ActivityManager: 	at android.os.BinderProxy.transactNative(Native Method)
+06-27 12:34:50.757  1919  7655 W ActivityManager: 	at android.os.BinderProxy.transact(BinderProxy.java:593)
+06-27 12:34:50.757  1919  7655 W ActivityManager: 	at android.app.IApplicationThread$Stub$Proxy.scheduleUnbindService(IApplicationThread.java:1661)
+06-27 12:34:50.757  1919  7655 W ActivityManager: 	at com.android.server.am.ActiveServices.removeConnectionLocked(ActiveServices.java:3797)
+06-27 12:34:50.757  1919  7655 W ActivityManager: 	at com.android.server.am.ActiveServices.killServicesLocked(ActiveServices.java:4225)
+06-27 12:34:50.757  1919  7655 W ActivityManager: 	at com.android.server.am.ActivityManagerService.cleanUpApplicationRecordLocked(ActivityManagerService.java:15292)
+06-27 12:34:50.757  1919  7655 W ActivityManager: 	at com.android.server.am.ActivityManagerService.handleAppDiedLocked(ActivityManagerService.java:3933)
+06-27 12:34:50.757  1919  7655 W ActivityManager: 	at com.android.server.am.ActivityManagerService.appDiedLocked(ActivityManagerService.java:4118)
+06-27 12:34:50.757  1919  7655 W ActivityManager: 	at com.android.server.am.ActivityManagerService$AppDeathRecipient.binderDied(ActivityManagerService.java:1655)
+06-27 12:34:50.757  1919  7655 W ActivityManager: 	at android.os.IBinder$DeathRecipient.binderDied(IBinder.java:305)
+06-27 12:34:50.757  1919  7655 W ActivityManager: 	at android.os.BinderProxy.sendDeathNotice(BinderProxy.java:707)
+06-27 12:34:50.757   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.android.chrome/org.chromium.content.app.PrivilegedProcessService0
+06-27 12:34:50.758  1919  7655 I ActivityManager: Killing 25481:com.android.chrome:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0/u0a192i-9000 (adj 0): isolated not needed
+06-27 12:34:50.758  1919  7655 I Process : PerfMonitor : current process sending signal quiet. PID: 25481 SIG: 9
+06-27 12:34:50.758   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:34:50.758   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:34:50.758   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:34:50.758   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:34:50.759   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.android.vending/com.google.android.finsky.setup.dse.impl.DseService
+06-27 12:34:50.759  1919  7655 W ActivityManager: Scheduling restart of crashed service com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService in 1000ms for connection
+06-27 12:34:50.759   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:34:50.759   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:34:50.759   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:34:50.759  1919  7655 W ANRStateManager: clear state, but process isn't exist. hash=259817922 uid=10192 pid=25348 state=16
+06-27 12:34:50.760  1919  2134 I libprocessgroup: Successfully killed process cgroup uid 10192 pid 25348 in 136ms
+06-27 12:34:50.760  1919  2134 I Process : PerfMonitor : current process killing process group. PID: 25481
+06-27 12:34:50.760  1919  2134 I libprocessgroup: Successfully killed process cgroup uid 90000 pid 25481 in 0ms
+06-27 12:34:50.760   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService and for client com.google.android.youtube
+06-27 12:34:50.760   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionServiceafter removal is 0
+06-27 12:34:50.760   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService
+06-27 12:34:50.761  8346 11722 I com.xiaomi.xms: oneway function results will be dropped but finished with status UNKNOWN_TRANSACTION and parcel size 0
+06-27 12:34:50.761  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 90000, uidState = 19
+06-27 12:34:50.761  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10192, uidState = 19
+06-27 12:34:50.761  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10182, uidState = 10
+06-27 12:34:50.762  1919  7185 I ActivityManager: Process com.android.chrome:privileged_process0 (pid 25435) has died: cch+75 CEM 
+06-27 12:34:50.762  1919  2134 I Process : PerfMonitor : current process killing process group. PID: 25435
+06-27 12:34:50.762   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:34:50.762   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:34:50.762   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:34:50.762   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:34:50.762  1919  2134 I libprocessgroup: Successfully killed process cgroup uid 10192 pid 25435 in 0ms
+06-27 12:34:50.762   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:34:50.762   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:34:50.762   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:34:50.762   698   698 I Zygote  : Process 25435 exited cleanly (0)
+06-27 12:34:50.762   885   937 I vendor.qti.hardware.servicetracker@1.2-service: killProcess is called for pid : 25435
+06-27 12:34:50.762  8346 11722 I com.xiaomi.xms: oneway function results will be dropped but finished with status UNKNOWN_TRANSACTION and parcel size 0
+06-27 12:34:50.763  1919  7185 W ANRStateManager: clear state, but process isn't exist. hash=127019703 uid=10192 pid=25435 state=16
+06-27 12:34:50.766 25759 25759 W fb4a.InitStatus: Not blocking Service (49739652)
+06-27 12:34:50.767 19739 19739 I Finsky  : [2] Memory trim requested to level 5
+06-27 12:34:50.769   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:34:50.769   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:34:50.769   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:34:50.769   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:34:50.769   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:34:50.769   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:34:50.769   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:34:50.770   885   937 I vendor.qti.hardware.servicetracker@1.2-service: killProcess is called for pid : 25481
+06-27 12:34:50.770  1919  7212 W ANRStateManager: clear state, but process isn't exist. hash=24904317 uid=90000 pid=25481 state=16
+06-27 12:34:50.771 25465 25465 I Zygote  : Process 25481 exited cleanly (0)
+06-27 12:34:50.771  2964  3313 D IconCustomizer: Content Ratio = -1.0
+06-27 12:34:50.771  1919  2385 I MiuiNetworkPolicy: removeUidState uid = 10192
+06-27 12:34:50.771  1919  2385 I MiuiNetworkPolicy: removeUidState uid = 90000
+06-27 12:34:50.776   847  2607 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+06-27 12:34:50.776  1560  1560 I cnss-daemon: nl80211 response handler invoked
+06-27 12:34:50.776  1560  1560 I cnss-daemon: nl80211_response_handler: cmd 103, vendorID 4980, subcmd 13  received
+06-27 12:34:50.776 25576 25576 I ahmu    : Trimming objects from memory, since app is in the background.
+06-27 12:34:50.778  4070  4070 I AppBase : AppBase.onTrimMemory():417 onTrimMemory(): 5
+06-27 12:34:50.778  4070  4070 I KeyboardDefCache: MemoryFileCache$1.onTrimMemory():126 clearMemory() for trim memory: 5
+06-27 12:34:50.778  4070  4070 I KeyboardDefCache: MemoryFileCache.clearMemory():410 evictAll()
+06-27 12:34:50.779  4070  4070 I GoogleInputMethodService: GoogleInputMethodService.onTrimMemory():2670 onTrimMemory(): 5
+06-27 12:34:50.779  2964  3313 D IconCustomizer: Content Ratio = -1.0
+06-27 12:34:50.783   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup38: Permission denied
+06-27 12:34:50.783   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup28: Permission denied
+06-27 12:34:50.773   656   656 W Binder:656_2: type=1400 audit(0.0:3913): avc: denied { open } for path="/sys/devices/virtual/misc/msm_qcelp/wakeup38" dev="sysfs" ino=79600 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+06-27 12:34:50.773   656   656 W Binder:656_2: type=1400 audit(0.0:3914): avc: denied { open } for path="/sys/devices/virtual/misc/msm_alac/wakeup28" dev="sysfs" ino=79228 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+06-27 12:34:50.783   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup18: Permission denied
+06-27 12:34:50.773   656   656 W Binder:656_2: type=1400 audit(0.0:3915): avc: denied { read } for name="wakeup18" dev="sysfs" ino=73893 scontext=u:r:system_suspend:s0 tcontext=u:object_r:vendor_sysfs_battery_supply:s0 tclass=dir permissive=0
+06-27 12:34:50.783   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup36: Permission denied
+06-27 12:34:50.773   656   656 W Binder:656_2: type=1400 audit(0.0:3916): avc: denied { open } for path="/sys/devices/virtual/misc/msm_mp3/wakeup36" dev="sysfs" ino=79528 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+06-27 12:34:50.784   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup26: Permission denied
+06-27 12:34:50.773   656   656 W Binder:656_2: type=1400 audit(0.0:3917): avc: denied { open } for path="/sys/devices/platform/soc/soc:gpio_keys/wakeup/wakeup26" dev="sysfs" ino=76208 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+06-27 12:34:50.784   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup16: Permission denied
+06-27 12:34:50.773   656   656 W Binder:656_2: type=1400 audit(0.0:3918): avc: denied { open } for path="/sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pm8150b@2:qcom,qpnp-smb5/wakeup/wakeup16" dev="sysfs" ino=73764 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+06-27 12:34:50.784   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+06-27 12:34:50.784   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup24: Permission denied
+06-27 12:34:50.784   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup9: Permission denied
+06-27 12:34:50.784   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup14: Permission denied
+06-27 12:34:50.785   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup32: Permission denied
+06-27 12:34:50.785   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup22: Permission denied
+06-27 12:34:50.785   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup12: Permission denied
+06-27 12:34:50.785   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup40: Permission denied
+06-27 12:34:50.785   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup30: Permission denied
+06-27 12:34:50.785   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup20: Permission denied
+06-27 12:34:50.785   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup10: Permission denied
+06-27 12:34:50.785   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup39: Permission denied
+06-27 12:34:50.786   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup29: Permission denied
+06-27 12:34:50.786   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup19: Permission denied
+06-27 12:34:50.786   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup37: Permission denied
+06-27 12:34:50.786   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup27: Permission denied
+06-27 12:34:50.786   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+06-27 12:34:50.787   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup25: Permission denied
+06-27 12:34:50.787   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup43: Permission denied
+06-27 12:34:50.787   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup33: Permission denied
+06-27 12:34:50.787   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup23: Permission denied
+06-27 12:34:50.787   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup13: Permission denied
+06-27 12:34:50.787   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup31: Permission denied
+06-27 12:34:50.787   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup21: Permission denied
+06-27 12:34:50.787   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup11: Permission denied
+06-27 12:34:50.790  8346 11722 I com.xiaomi.xms: oneway function results will be dropped but finished with status UNKNOWN_TRANSACTION and parcel size 0
+06-27 12:34:50.790  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10182, uidState = 19
+06-27 12:34:50.790 19739 19739 I Finsky  : [2] Memory trim requested to level 40
+06-27 12:34:50.790 19739 19739 I Finsky  : [2] Flushing in-memory image cache
+06-27 12:34:50.792 25576 25576 I ahmu    : Trimming objects from memory, since app is in the background.
+06-27 12:34:50.923  2671  2671 D InterruptionStateProvider: No alerting: filtered notification: 0|com.spotify.music|2131430693|null|10270
+06-27 12:34:50.924  2671  2671 D InterruptionStateProvider: No alerting: filtered notification: 0|com.spotify.music|2131430693|null|10270
+06-27 12:34:50.927  3385  3385 I NotificationController: onNotificationPosted: mSmartTravelNotificationMap 0
+06-27 12:34:50.928  3385  3385 I chatty  : uid=1000(system) com.miui.aod identical 2 lines
+06-27 12:34:50.933  3385  3385 I NotificationController: onNotificationPosted: mSmartTravelNotificationMap 0
+06-27 12:34:50.934  9395  9523 V g       : flags=106
+06-27 12:34:50.935  9395  9523 V g       : ret=0
+06-27 12:34:50.935  9395  9523 V g       : flags=106
+06-27 12:34:50.935  9395  9523 V g       : ret=0
+06-27 12:34:50.935  9395  9523 V g       : flags=106
+06-27 12:34:50.935  9395  9523 V g       : ret=0
+06-27 12:34:50.936  9395  9523 V g       : flags=106
+06-27 12:34:50.937  9395  9523 V g       : ret=0
+06-27 12:34:50.944  2671  2671 D InterruptionStateProvider: No alerting: filtered notification: 0|com.spotify.music|2131430693|null|10270
+06-27 12:34:50.962  2671  2671 I chatty  : uid=1000(system) com.android.systemui identical 4 lines
+06-27 12:34:50.962  2671  2671 D InterruptionStateProvider: No alerting: filtered notification: 0|com.spotify.music|2131430693|null|10270
+06-27 12:34:51.498   885   937 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.chimera.PersistentDirectBootAwareApiService and for client com.google.android.googlequicksearchbox:interactor
+06-27 12:34:51.498   885   937 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.chimera.PersistentDirectBootAwareApiServiceafter removal is 16
+06-27 12:34:51.498   885   937 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.google.android.googlequicksearchbox:interactorafter removal is 1
+06-27 12:34:51.773   885   937 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.PersistentDirectBootAwareApiService and for client com.google.android.gms.persistent
+06-27 12:34:51.773   885   937 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.PersistentDirectBootAwareApiServiceare :16
+06-27 12:34:51.773   885   937 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gms.persistentare :8
+06-27 12:34:51.774  3125  3125 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.libs.gmscorelogger.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentDirectBootAwareApiService }
+06-27 12:34:52.496 25576 26130 I adoh    : dispose()

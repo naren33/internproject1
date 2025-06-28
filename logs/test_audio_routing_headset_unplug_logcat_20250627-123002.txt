@@ -1,0 +1,480 @@
+--------- beginning of main
+06-27 12:30:02.540  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.541   905   992 D DisplayFeatureHal: HandleVideoMode enter mode 0
+06-27 12:30:02.542  9395  9656 I VideoEffectUtils: setFrcStatus: false	supportFRCFeature=false
+06-27 12:30:02.542  9395  9656 I VideoBoxServiceManager: close
+06-27 12:30:02.548 20657 20675 I A       : beginBinderSession(): calling binder
+06-27 12:30:02.553 12181 12181 I DockWindowManagerService: exitDockMode: 3
+06-27 12:30:02.554   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.miui.securitycenter/com.miui.gamebooster.service.DockWindowManagerService and for client com.miui.securitycenter.remote
+06-27 12:30:02.554   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.miui.securitycenter/com.miui.gamebooster.service.DockWindowManagerServiceafter removal is 0
+06-27 12:30:02.554   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.miui.securitycenter.remoteafter removal is 4
+06-27 12:30:02.557  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10159, uidState = 10
+06-27 12:30:02.558   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.miui.securitycenter/com.miui.gamebooster.service.DockWindowManagerService
+06-27 12:30:02.559  7063  8064 D StrictMode: StrictMode policy violation: android.os.strictmode.CustomViolation: gcore.dynamite
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onCustomSlowCall(StrictMode.java:1563)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at android.os.StrictMode.noteSlowCall(StrictMode.java:2555)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at awou.a(:com.google.android.gms@252331022@25.23.31 (150400-769856126):3)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at com.google.android.gms.chimera.container.GmsModuleChimeraProvider.query(:com.google.android.gms@252331022@25.23.31 (150400-769856126):150)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at arwi.query(:com.google.android.gms@252331022@25.23.31 (150400-769856126):3)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at android.content.ContentProvider.query(ContentProvider.java:1407)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at uhk.superQuery(:com.google.android.gms@252331022@25.23.31 (150400-769856126):2)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at com.google.android.chimera.ContentProvider.query(:com.google.android.gms@252331022@25.23.31 (150400-769856126):2)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at arwi.query(:com.google.android.gms@252331022@25.23.31 (150400-769856126):13)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at android.content.ContentProvider.query(ContentProvider.java:1503)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at uhk.superQuery(:com.google.android.gms@252331022@25.23.31 (150400-769856126):1)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at com.google.android.chimera.ContentProvider.query(:com.google.android.gms@252331022@25.23.31 (150400-769856126):1)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at uhk.query(:com.google.android.gms@252331022@25.23.31 (150400-769856126):2)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at android.content.ContentProvider$Transport.query(ContentProvider.java:283)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java:106)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at android.os.Binder.execTransactInternal(Binder.java:1157)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at android.os.Binder.execTransact(Binder.java:1126)
+06-27 12:30:02.559  7063  8064 D StrictMode: # via Binder call with stack:
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:2358)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at android.os.Parcel.readExceptionCode(Parcel.java:2321)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at android.os.Parcel.readException(Parcel.java:2282)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at ozg.transactAndReadException(PG:11)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at acjv.a(PG:15)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at aozv.run(PG:62)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at dtyb.run(PG:9)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at ahjp.b(PG:3)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at ahjs.run(PG:1)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at fvzp.run(PG:3)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at fvzq.run(PG:68)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at dqcw.run(PG:5)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at fumw.run(PG:44)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at dqcn.run(PG:42)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at java.lang.Thread.run(Thread.java:923)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at dqea.run(PG:62)
+06-27 12:30:02.559  7063  8064 D StrictMode: # via Binder call with stack:
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:2358)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at android.os.Parcel.readExceptionCode(Parcel.java:2321)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at android.os.Parcel.readException(Parcel.java:2282)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at ozg.transactAndReadException(PG:11)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at dcpq.g(PG:125)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at dcpq.c(PG:1)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at ackf.test(PG:5)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at j$.util.stream.y0.accept(SourceFile:7)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at j$.util.m0.tryAdvance(SourceFile:20)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at j$.util.stream.r2.y(SourceFile:7)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at j$.util.stream.a.j(SourceFile:16)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at j$.util.stream.a.h(SourceFile:28)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at j$.util.stream.a.J(SourceFile:8)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at j$.nio.file.G.a(SourceFile:11)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at j$.util.stream.a.m(SourceFile:35)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at j$.util.stream.r2.allMatch(SourceFile:7)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at acjw.b(PG:40)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at acjw.a(PG:49)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at acjw.dispatchTransaction(PG:28)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at ozh.onTransact(PG:13)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at android.os.Binder.execTransactInternal(Binder.java:1157)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at android.os.Binder.execTransact(Binder.java:1126)
+06-27 12:30:02.559  7063  8064 D StrictMode: # via Binder call with stack:
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:2358)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at android.os.Parcel.readExceptionCode(Parcel.java:2321)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at android.os.Parcel.readException(Parcel.java:2282)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at ozg.transactAndReadException(PG:11)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at dcpq.g(PG:46)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at dcpq.c(PG:1)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at ackf.test(PG:5)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at j$.util.stream.y0.accept(SourceFile:7)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at j$.util.m0.tryAdvance(SourceFile:20)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at j$.util.stream.r2.y(SourceFile:7)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at j$.util.stream.a.j(SourceFile:16)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at j$.util.stream.a.h(SourceFile:28)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at j$.util.stream.a.J(SourceFile:8)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at j$.nio.file.G.a(SourceFile:11)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at j$.util.stream.a.m(SourceFile:35)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at j$.util.stream.r2.allMatch(SourceFile:7)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at acjw.b(PG:40)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at acjw.a(PG:49)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at acjw.dispatchTransaction(PG:28)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at ozh.onTransact(PG:13)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at android.os.Binder.execTransactInternal(Binder.java:1157)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at android.os.Binder.execTransact(Binder.java:1126)
+06-27 12:30:02.559  7063  8064 D StrictMode: # via Binder call with stack:
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:2358)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at android.os.Parcel.readExceptionCode(Parcel.java:2321)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at android.os.Parcel.readException(Parcel.java:2282)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at ozg.transactAndReadException(PG:11)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at com.google.android.gms.dynamite.DynamiteModule.d(PG:282)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at dcpi.b(PG:24)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at dcpq.g(PG:36)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at dcpq.c(PG:1)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at ackf.test(PG:5)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at j$.util.stream.y0.accept(SourceFile:7)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at j$.util.m0.tryAdvance(SourceFile:20)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at j$.util.stream.r2.y(SourceFile:7)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at j$.util.stream.a.j(SourceFile:16)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at j$.util.stream.a.h(SourceFile:28)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at j$.util.stream.a.J(SourceFile:8)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at j$.nio.file.G.a(SourceFile:11)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at j$.util.stream.a.m(SourceFile:35)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at j$.util.stream.r2.allMatch(SourceFile:7)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at acjw.b(PG:40)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at acjw.a(PG:49)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at acjw.dispatchTransaction(PG:28)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at ozh.onTransact(PG:13)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at android.os.Binder.execTransactInternal(Binder.java:1157)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at android.os.Binder.execTransact(Binder.java:1126)
+06-27 12:30:02.559  7063  8064 D StrictMode: # via Binder call with stack:
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:2358)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at android.os.Parcel.readExceptionCode(Parcel.java:2321)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java:139)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at android.content.ContentProviderProxy.query(ContentProviderNative.java:472)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at android.content.ContentProviderClient.query(ContentProviderClient.java:197)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at android.content.ContentProviderClient.query(ContentProviderClient.java:179)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at android.content.ContentProviderClient.query(ContentProviderClient.java:169)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at com.google.android.gms.dynamite.DynamiteModule.e(PG:80)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at com.google.android.gms.dynamite.DynamiteModule.b(PG:87)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at dded.b(PG:1)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at ddee.a(PG:68)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at com.google.android.gms.dynamite.DynamiteModule.d(PG:58)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at dcpi.b(PG:24)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at dcpq.g(PG:36)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at dcpq.c(PG:1)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at ackf.test(PG:5)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at j$.util.stream.y0.accept(SourceFile:7)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at j$.util.m0.tryAdvance(SourceFile:20)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at j$.util.stream.r2.y(SourceFile:7)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at j$.util.stream.a.j(SourceFile:16)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at j$.util.stream.a.h(SourceFile:28)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at j$.util.stream.a.J(SourceFile:8)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at j$.nio.file.G.a(SourceFile:11)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at j$.util.stream.a.m(SourceFile:35)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at j$.util.stream.r2.allMatch(SourceFile:7)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at acjw.b(PG:40)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at acjw.a(PG:49)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at acjw.dispatchTransaction(PG:28)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at ozh.onTransact(PG:13)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at android.os.Binder.execTransactInternal(Binder.java:1157)
+06-27 12:30:02.559  7063  8064 D StrictMode: 	at android.os.Binder.execTransact(Binder.java:1126)
+06-27 12:30:02.560  7063  8064 D StrictMode: StrictMode policy violation: android.os.strictmode.CustomViolation: gcore.dynamite
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at android.os.StrictMode$AndroidBlockGuardPolicy.onCustomSlowCall(StrictMode.java:1563)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at android.os.StrictMode.noteSlowCall(StrictMode.java:2555)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at com.google.android.gms.dynamiteloader.DynamiteLoaderV2.loadModule2NoCrashUtils(:com.google.android.gms.dynamite_dynamiteloader@252331022@25.23.31 (150400-0):34)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at m2.ci.a(:com.google.android.gms.dynamite_dynamiteloader@252331022@25.23.31 (150400-0):73)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at m2.l.onTransact(:com.google.android.gms.dynamite_dynamiteloader@252331022@25.23.31 (150400-0):21)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at android.os.Binder.transact(Binder.java:1046)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at ozg.transactAndReadException(PG:8)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at com.google.android.gms.dynamite.DynamiteModule.d(PG:282)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at dcpi.b(PG:24)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at dcpq.g(PG:36)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at dcpq.c(PG:1)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at ackf.test(PG:5)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at j$.util.stream.y0.accept(SourceFile:7)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at j$.util.m0.tryAdvance(SourceFile:20)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at j$.util.stream.r2.y(SourceFile:7)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at j$.util.stream.a.j(SourceFile:16)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at j$.util.stream.a.h(SourceFile:28)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at j$.util.stream.a.J(SourceFile:8)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at j$.nio.file.G.a(SourceFile:11)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at j$.util.stream.a.m(SourceFile:35)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at j$.util.stream.r2.allMatch(SourceFile:7)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at acjw.b(PG:40)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at acjw.a(PG:49)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at acjw.dispatchTransaction(PG:28)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at ozh.onTransact(PG:13)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at android.os.Binder.execTransactInternal(Binder.java:1157)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at android.os.Binder.execTransact(Binder.java:1126)
+06-27 12:30:02.560  7063  8064 D StrictMode: # via Binder call with stack:
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:2358)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at android.os.Parcel.readExceptionCode(Parcel.java:2321)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at android.os.Parcel.readException(Parcel.java:2282)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at ozg.transactAndReadException(PG:11)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at acjv.a(PG:15)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at aozv.run(PG:62)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at dtyb.run(PG:9)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at ahjp.b(PG:3)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at ahjs.run(PG:1)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at fvzp.run(PG:3)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at fvzq.run(PG:68)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at dqcw.run(PG:5)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at fumw.run(PG:44)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at dqcn.run(PG:42)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at java.lang.Thread.run(Thread.java:923)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at dqea.run(PG:62)
+06-27 12:30:02.560  7063  8064 D StrictMode: # via Binder call with stack:
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:2358)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at android.os.Parcel.readExceptionCode(Parcel.java:2321)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at android.os.Parcel.readException(Parcel.java:2282)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at ozg.transactAndReadException(PG:11)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at dcpq.g(PG:125)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at dcpq.c(PG:1)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at ackf.test(PG:5)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at j$.util.stream.y0.accept(SourceFile:7)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at j$.util.m0.tryAdvance(SourceFile:20)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at j$.util.stream.r2.y(SourceFile:7)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at j$.util.stream.a.j(SourceFile:16)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at j$.util.stream.a.h(SourceFile:28)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at j$.util.stream.a.J(SourceFile:8)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at j$.nio.file.G.a(SourceFile:11)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at j$.util.stream.a.m(SourceFile:35)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at j$.util.stream.r2.allMatch(SourceFile:7)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at acjw.b(PG:40)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at acjw.a(PG:49)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at acjw.dispatchTransaction(PG:28)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at ozh.onTransact(PG:13)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at android.os.Binder.execTransactInternal(Binder.java:1157)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at android.os.Binder.execTransact(Binder.java:1126)
+06-27 12:30:02.560  7063  8064 D StrictMode: # via Binder call with stack:
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:2358)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at android.os.Parcel.readExceptionCode(Parcel.java:2321)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at android.os.Parcel.readException(Parcel.java:2282)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at ozg.transactAndReadException(PG:11)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at dcpq.g(PG:46)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at dcpq.c(PG:1)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at ackf.test(PG:5)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at j$.util.stream.y0.accept(SourceFile:7)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at j$.util.m0.tryAdvance(SourceFile:20)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at j$.util.stream.r2.y(SourceFile:7)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at j$.util.stream.a.j(SourceFile:16)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at j$.util.stream.a.h(SourceFile:28)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at j$.util.stream.a.J(SourceFile:8)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at j$.nio.file.G.a(SourceFile:11)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at j$.util.stream.a.m(SourceFile:35)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at j$.util.stream.r2.allMatch(SourceFile:7)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at acjw.b(PG:40)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at acjw.a(PG:49)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at acjw.dispatchTransaction(PG:28)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at ozh.onTransact(PG:13)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at android.os.Binder.execTransactInternal(Binder.java:1157)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at android.os.Binder.execTransact(Binder.java:1126)
+06-27 12:30:02.560  7063  8064 D StrictMode: # via Binder call with stack:
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java:2358)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at android.os.Parcel.readExceptionCode(Parcel.java:2321)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at android.os.Parcel.readException(Parcel.java:2282)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at ozg.transactAndReadException(PG:11)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at com.google.android.gms.dynamite.DynamiteModule.d(PG:282)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at dcpi.b(PG:24)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at dcpq.g(PG:36)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at dcpq.c(PG:1)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at ackf.test(PG:5)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at j$.util.stream.y0.accept(SourceFile:7)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at j$.util.m0.tryAdvance(SourceFile:20)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at j$.util.stream.r2.y(SourceFile:7)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at j$.util.stream.a.j(SourceFile:16)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at j$.util.stream.a.h(SourceFile:28)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at j$.util.stream.a.J(SourceFile:8)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at j$.nio.file.G.a(SourceFile:11)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at j$.util.stream.a.m(SourceFile:35)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at j$.util.stream.r2.allMatch(SourceFile:7)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at acjw.b(PG:40)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at acjw.a(PG:49)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at acjw.dispatchTransaction(PG:28)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at ozh.onTransact(PG:13)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at android.os.Binder.execTransactInternal(Binder.java:1157)
+06-27 12:30:02.560  7063  8064 D StrictMode: 	at android.os.Binder.execTransact(Binder.java:1126)
+06-27 12:30:02.560  7063  8064 I apad    : (REDACTED) State changed: %s => %s
+06-27 12:30:02.563 12181 12181 D v1      : myUserId = 0	currentUserId0
+06-27 12:30:02.564 12181 12181 D DockWindowManager: removePanelFloatView: main 
+06-27 12:30:02.565 12181 12181 I GTGuideManager: removeGtView: null
+06-27 12:30:02.565   943  3237 I AudioFlinger: setGameParameters keyvalue: dynamic_audio_usecase_pkg=-#com.spotify.music#movie
+06-27 12:30:02.566  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.569   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.googlequicksearchbox/com.google.android.apps.gsa.publicsearch.PublicSearchService and for client com.google.android.googlequicksearchbox:interactor
+06-27 12:30:02.569   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.googlequicksearchbox/com.google.android.apps.gsa.publicsearch.PublicSearchServiceafter removal is 0
+06-27 12:30:02.570   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.google.android.googlequicksearchbox:interactorafter removal is 1
+06-27 12:30:02.571  7063  8064 I apad    : (REDACTED) State changed: %s => %s (%s)
+06-27 12:30:02.571   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.google.android.googlequicksearchbox/com.google.android.apps.gsa.publicsearch.PublicSearchService
+06-27 12:30:02.576   905   992 D DisplayFeatureHal: HandleACNormal enter
+06-27 12:30:02.576   905   992 D DisplayFeatureHal: Query DisplayPostproc service
+06-27 12:30:02.583  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.583 12181 12181 D DockWindowManager: removePanelFloatView: assistant 
+06-27 12:30:02.583 12181 12181 I GTGuideManager: removeGtView: null
+06-27 12:30:02.583 12181 12181 I DockWindowManager: hideOrShowSidebarWithAnimation: isShow = false caller = hideOrShowSidebar
+06-27 12:30:02.583   789  2281 D audio_hw_primary: adev_set_parameters: enter: dynamic_audio_usecase_pkg=-#com.spotify.music#movie
+06-27 12:30:02.584 12181 12456 I VideoBoxUtils: exitVideoBoxMode start
+06-27 12:30:02.584   789  2281 V msm8974_platform: platform_set_parameters: enter: dynamic_audio_usecase_pkg=-#com.spotify.music#movie
+06-27 12:30:02.584   789  2281 D audio_hw_hfp: hfp_set_parameters: enter
+06-27 12:30:02.584   789  2281 D audio_hw_hfp: hfp_set_parameters: enter
+06-27 12:30:02.584   789  2281 D audio_hw_extn: audio_extn_fm_set_parameters: Enter
+06-27 12:30:02.584   789  2281 D audio_hw_hfp: hfp_set_parameters: enter
+06-27 12:30:02.584   789  2281 V mi_ultrasound_extn: mi_ultrasound_extn_set_parameters: enter
+06-27 12:30:02.584   789  2281 V mi_ultrasound_extn: mi_ultrasound_handle_screen_on_message: enter
+06-27 12:30:02.584   789  2281 V mi_ultrasound_extn: mi_ultrasound_handle_screen_on_message: exit
+06-27 12:30:02.584   789  2281 V mi_ultrasound_extn: mi_ultrasound_handle_sensor_fusion_message: enter
+06-27 12:30:02.584   789  2281 V mi_ultrasound_extn: mi_ultrasound_handle_sensor_fusion_message: exit
+06-27 12:30:02.584   789  2281 V mi_ultrasound_extn: mi_ultrasound_extn_set_parameters: usecase handling parms:dynamic_audio_usecase_pkg=-#com.spotify.music#movie
+06-27 12:30:02.587 12181 12456 E TheatreModeUtils: supportTheatreModeFeature = false, pkg: com.spotify.music
+06-27 12:30:02.587 12181 12456 D TheatreModeUtils: Turn off the 3D LUT Global Switch
+06-27 12:30:02.587 12181 12456 I DisplayEffectUtils: setCinemaVisionGlobalSwitch: 0
+--------- beginning of system
+06-27 12:30:02.588  1919  2232 I ActivityManager: Killing 18589:com.android.mms/u0a106 (adj 975): empty #17
+06-27 12:30:02.588  1919  2232 I Process : PerfMonitor : current process sending signal quiet. PID: 18589 SIG: 9
+06-27 12:30:02.589   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:02.589   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:02.589   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:02.589   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:02.589  1919  2134 I Process : PerfMonitor : current process killing process group. PID: 18589
+06-27 12:30:02.589   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:02.589   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:02.589   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:02.593   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.measurement.service.MeasurementBrokerService and for client com.miui.securitycenter.remote
+06-27 12:30:02.594   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.measurement.service.MeasurementBrokerServiceare :9
+06-27 12:30:02.594   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.miui.securitycenter.remoteare :5
+06-27 12:30:02.595 12181 12456 E ActivityThread: Failed to find provider info for com.xiaomi.aiasst.vision
+06-27 12:30:02.595 12181 12456 D GameBoosterFeatureUtils: checkAISubtitle Result = null
+06-27 12:30:02.595   811  2303 I Dpps    : AddNewDppsClient():431 New DPPS client accepted, client fd = 24, poll idx 2
+06-27 12:30:02.595 12181 12456 I DisplayEffectUtils: isSupportVDS: true
+06-27 12:30:02.595   811  2303 I Dpps    : HandleDppsClientEvent():921 Incoming message on client fd 24: 'ad:on;1'
+06-27 12:30:02.595 12181 12456 I AudioEffectCenterWrapper: isSupportFWAudioEffect: false
+06-27 12:30:02.595 12181 12456 I AudioEffectCenterWrapper: isSupportFWAudioEffect: false
+06-27 12:30:02.595 12181 12456 I SoundEffecUtils: exitVideoBoxMode: false, isSupportFWAudio = false
+06-27 12:30:02.595   811  2337 I Dpps    : Register():166 client already registered AdAlsObserver notifier 0x0
+06-27 12:30:02.595   811  2337 I Dpps    : AdOn():696 AD already in ON state 1 split display bit 0
+06-27 12:30:02.596  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.597   811  2303 I Dpps    : HandleDppsClientEvent():903 Client connection 24 has closed
+06-27 12:30:02.597   811  2303 I Dpps    : RemoveServerClient():297 closed fd 24 poll_idx 2
+06-27 12:30:02.601 12181 12456 I AudioEffectCenterWrapper: isSupportFWAudioEffect: false
+06-27 12:30:02.601 12181 12456 I MiSoundEffectUtils: setMovieSurroundLevel: 0
+06-27 12:30:02.601 12181 12456 I AudioEffectCenterWrapper: isSupportFWAudioEffect: false
+06-27 12:30:02.601 12181 12456 I MiSoundEffectUtils: setMovieVocalLevel: 0
+06-27 12:30:02.601 12181 12456 I AudioEffectCenterWrapper: isSupportFWAudioEffect: false
+06-27 12:30:02.601 12181 12456 I MiSoundEffectUtils: setMovieModeEnable: false
+06-27 12:30:02.601 12181 12456 I AudioEffectCenterWrapper: isSupportFWAudioEffect: false
+06-27 12:30:02.601 12181 12456 I AudioEffectCenterWrapper: isSupportFWAudioEffect: false
+06-27 12:30:02.601 12181 12456 I MiSoundEffectUtils: release
+06-27 12:30:02.602 12181 12181 I ML::MiLinkCastClient: MiLinkCastClient V2
+06-27 12:30:02.606  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.610   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.milink.service/com.milink.client.ClientV2Service and for client com.miui.securitycenter:ui
+06-27 12:30:02.610   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.milink.service/com.milink.client.ClientV2Serviceare :1
+06-27 12:30:02.610   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.miui.securitycenter:uiare :2
+06-27 12:30:02.617  1919  7140 D MessageMonitor: Dump Looper message took 0ms
+06-27 12:30:02.620 12181 12456 E MiSoundWrapper: java.lang.NoSuchMethodException: android.media.audiofx.MiSound.set3dSurround [int]
+06-27 12:30:02.620 12181 12456 E MiSoundWrapper: 	at java.lang.Class.getMethod(Class.java:2072)
+06-27 12:30:02.620 12181 12456 E MiSoundWrapper: 	at java.lang.Class.getMethod(Class.java:1693)
+06-27 12:30:02.620 12181 12456 E MiSoundWrapper: 	at h7.k1.<init>(Unknown Source:194)
+06-27 12:30:02.620 12181 12456 E MiSoundWrapper: 	at com.miui.gamebooster.videobox.utils.MiSoundEffectUtils.a(Unknown Source:7)
+06-27 12:30:02.620 12181 12456 E MiSoundWrapper: 	at com.miui.gamebooster.videobox.utils.MiSoundEffectUtils.h(Unknown Source:7)
+06-27 12:30:02.620 12181 12456 E MiSoundWrapper: 	at h7.c2.e(Unknown Source:80)
+06-27 12:30:02.620 12181 12456 E MiSoundWrapper: 	at q7.s.j(Unknown Source:46)
+06-27 12:30:02.620 12181 12456 E MiSoundWrapper: 	at q7.s.a(Unknown Source:0)
+06-27 12:30:02.620 12181 12456 E MiSoundWrapper: 	at q7.q.run(Unknown Source:2)
+06-27 12:30:02.620 12181 12456 E MiSoundWrapper: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+06-27 12:30:02.620 12181 12456 E MiSoundWrapper: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+06-27 12:30:02.620 12181 12456 E MiSoundWrapper: 	at java.lang.Thread.run(Thread.java:923)
+06-27 12:30:02.622   943  3237 W AudioFlinger::EffectHandle: disconnect Effect handle 0xb400007394901320 disconnected after thread destruction
+06-27 12:30:02.623  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.626  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10140, uidState = 19
+06-27 12:30:02.626 12181 12456 I VideoEffectUtils: setFrcStatus: false	supportFRCFeature=false
+06-27 12:30:02.626 12181 12456 I VideoEffectUtils: setVppStatus: false	isSupportVpp=false
+06-27 12:30:02.626   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.milink.service/com.milink.client.ClientV2Service and for client com.miui.securitycenter:ui
+06-27 12:30:02.626   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.milink.service/com.milink.client.ClientV2Serviceafter removal is 0
+06-27 12:30:02.626   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.miui.securitycenter:uiafter removal is 1
+06-27 12:30:02.626   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.milink.service/com.milink.client.ClientV2Service
+06-27 12:30:02.627 12181 12456 I DisplayEffectUtils: isSupportVDS: true
+06-27 12:30:02.628 12181 12456 I DisplayEffectUtils: isSupportVDS: true
+06-27 12:30:02.628   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.miui.securityadd/com.miui.gamebooster.service.ActiveService and for client com.miui.securitycenter:ui
+06-27 12:30:02.628   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.miui.securityadd/com.miui.gamebooster.service.ActiveServiceafter removal is 0
+06-27 12:30:02.628   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.miui.securitycenter:uiafter removal is 0
+06-27 12:30:02.628   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.miui.securityadd/com.miui.gamebooster.service.ActiveService
+06-27 12:30:02.629  7088  9694 W PSIUtils: MEMORY_FULL|20193061|2807440134817
+06-27 12:30:02.631  1919  2233 I ActivityManager: Killing 19011:com.android.cellbroadcastreceiver/u0a216 (adj 975): empty #17
+06-27 12:30:02.631  1919  2233 I Process : PerfMonitor : current process sending signal quiet. PID: 19011 SIG: 9
+06-27 12:30:02.632   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:02.632   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:02.632   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:02.632   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:02.632   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:02.632   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:02.632   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:02.633  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10159, uidState = 19
+06-27 12:30:02.634   811   858 I SDM     : HWCDisplay::SetPreferredColorModeInternal: Applying mode: smart_MC
+06-27 12:30:02.634   811   858 D SDM     : DisplayBase::SetColorMode: Target color mode smart_MC, last mode  smart_MC
+06-27 12:30:02.634   811   858 W SDM     : DisplayBase::SetColorMode: Current mode is already smart_MC
+06-27 12:30:02.639   905   992 D DisplayFeatureHal: set mode:42 ppMode:40 over done.... status:1 ret 0
+06-27 12:30:02.639 12181 12181 I ActiveWindowManager: releaseManager...
+06-27 12:30:02.644   698   698 D Zygote  : Forked child process 20784
+06-27 12:30:02.644  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.645   905   992 D DisplayFeatureHal: set mode:47 ppMode:51 over done.... status:1 ret 0
+06-27 12:30:02.651  1919  7140 D MessageMonitor: Dump Looper message took 1ms
+06-27 12:30:02.651  1919  7140 D MessageMonitor: Dump Looper message took 0ms
+06-27 12:30:02.651 12181 12456 I android_os_HwBinder: HwBinder: Starting thread pool for getting: vendor.xiaomi.hardware.displayfeature@1.0::IDisplayFeature/default
+06-27 12:30:02.651  7088 10777 I com.miui.daemo: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:30:02.653  1919  2122 I ActivityManager: Start proc 20784:com.milink.service/u0a140 for service {com.milink.service/com.milink.client.ClientV2Service} caller=com.miui.securitycenter
+06-27 12:30:02.655 12181 12181 I DockWindowManagerService: unregisterBroadcast:true
+06-27 12:30:02.657  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.658 12181 12181 I DockWindowManager: removeSidebar:false false DockWindowManager = z7.h@27c08fe
+06-27 12:30:02.658 12181 12181 I RegionSamplingImageView: stopRegionSampling
+06-27 12:30:02.659   969  1059 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+06-27 12:30:02.659 12181 12456 I DisplayEffectUtils: setScreenEffect: 0
+06-27 12:30:02.660 20784 20784 W Zygote  : Unable to open libbeluga.so: dlopen failed: library "libbeluga.so" not found.
+06-27 12:30:02.660   905   905 D DisplayFeatureHal: setFeatureEnable(displayId=0 caseId=27 modeId=0 cookie=255)
+06-27 12:30:02.660   905   905 D DisplayFeatureHal: current wcg state 0, setting to 0
+06-27 12:30:02.660   905   905 D DisplayFeatureHal: notifySFWcgState enable = 0
+06-27 12:30:02.662 20784 20784 I libc    : SetHeapTaggingLevel: tag level set to 0
+06-27 12:30:02.662   811   858 I SDM     : CoreInterface::SetWCGStatus: SetWCGStatus wcg enable 0
+06-27 12:30:02.662   905   905 D DisplayFeatureHal: notifyQservice cmd 48 value 0 ret 0
+06-27 12:30:02.663 12181 12456 I VideoBoxUtils: exitVideoBoxMode end
+06-27 12:30:02.670 12181 12181 I DockWindowManager: clearSidebarBounds: [{"l":0,"t":431,"r":8,"b":613}]
+06-27 12:30:02.671 13861 13879 I ActiveFloatingManager: dismissActiveFloatingCard
+06-27 12:30:02.673 12181 12181 I GTGuideManager: removeGtView: null
+06-27 12:30:02.673 12181 12181 E WindowTrustUtils: setTrustedOverlay failed, java.lang.NoSuchMethodException: android.view.WindowManager$LayoutParams.setTrustedOverlay []
+06-27 12:30:02.673  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.674   905   992 D DisplayFeatureHal: pcc gabb coeff 0 1.000000
+06-27 12:30:02.674   905   992 D DisplayFeatureHal: pcc gabb coeff 1 0.000000
+06-27 12:30:02.674   905   992 D DisplayFeatureHal: pcc gabb coeff 2 0.000000
+06-27 12:30:02.674   905   992 D DisplayFeatureHal: pcc gabb coeff 3 0.000000
+06-27 12:30:02.674   905   992 D DisplayFeatureHal: pcc gabb coeff 4 1.000000
+06-27 12:30:02.674   905   992 D DisplayFeatureHal: pcc gabb coeff 5 0.000000
+06-27 12:30:02.674   905   992 D DisplayFeatureHal: pcc gabb coeff 6 0.000000
+06-27 12:30:02.674   905   992 D DisplayFeatureHal: pcc gabb coeff 7 0.000000
+06-27 12:30:02.674   905   992 D DisplayFeatureHal: pcc gabb coeff 8 1.000000
+06-27 12:30:02.674 12181 12181 D DockWindowManager: removePanelFloatView: main 
+06-27 12:30:02.674 12181 12181 I GTGuideManager: removeGtView: null
+06-27 12:30:02.674 12181 12181 D DockWindowManager: removePanelFloatView: assistant 
+06-27 12:30:02.674 12181 12181 I GTGuideManager: removeGtView: null
+06-27 12:30:02.675 12181 12181 I DockWindowManager: removeSidebar:false true DockWindowManager = z7.h@27c08fe
+06-27 12:30:02.675 20784 20784 E .milink.servic: Not starting debugger since process cannot load the jdwp agent.
+06-27 12:30:02.676   905   992 D DisplayFeatureHal: HandleACNormal exit ret -1
+06-27 12:30:02.676   905   992 D DisplayFeatureHal: isStartSensorControl ret 1
+06-27 12:30:02.676   905   992 D DisplayFeatureHal: HandleVideoMode enter mode 0
+06-27 12:30:02.677 20712 20712 D ResolverListAdapter: ResolverListAdapter: com.android.internal.app.ResolverListAdapter@6a8d31
+06-27 12:30:02.678 13861 13861 I WebPanel: dismissAll
+06-27 12:30:02.680   905   992 D DisplayFeatureHal: HandleACNormal enter
+06-27 12:30:02.680   905   992 D DisplayFeatureHal: Query DisplayPostproc service
+06-27 12:30:02.685 12181 12181 I DockWindowManagerService: onDestroy: D-WMS
+06-27 12:30:02.686   811  2303 I Dpps    : AddNewDppsClient():431 New DPPS client accepted, client fd = 24, poll idx 2
+06-27 12:30:02.688   811  2303 I Dpps    : HandleDppsClientEvent():921 Incoming message on client fd 24: 'ad:on;1'
+06-27 12:30:02.689   811  2337 I Dpps    : Register():166 client already registered AdAlsObserver notifier 0x0
+06-27 12:30:02.689   811  2337 I Dpps    : AdOn():696 AD already in ON state 1 split display bit 0
+06-27 12:30:02.690   811  2303 I Dpps    : HandleDppsClientEvent():903 Client connection 24 has closed
+06-27 12:30:02.690   811  2303 I Dpps    : RemoveServerClient():297 closed fd 24 poll_idx 2
+06-27 12:30:02.693   811   858 I SDM     : HWCDisplay::SetPreferredColorModeInternal: Applying mode: smart_MC
+06-27 12:30:02.693   811   858 D SDM     : DisplayBase::SetColorMode: Target color mode smart_MC, last mode  smart_MC
+06-27 12:30:02.693   811   858 W SDM     : DisplayBase::SetColorMode: Current mode is already smart_MC
+06-27 12:30:02.694   905   992 D DisplayFeatureHal: set mode:42 ppMode:40 over done.... status:1 ret 0
+06-27 12:30:02.695  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.701  1919  2233 I Timeline: Timeline: App_transition_ready time:2807511
+06-27 12:30:02.702  1919  2232 I ActivityManager: Killing 18904:com.android.settings/1000 (adj 975): empty #17
+06-27 12:30:02.702  1919  2232 I Process : PerfMonitor : current process sending signal quiet. PID: 18904 SIG: 9
+06-27 12:30:02.703   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:02.703   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:02.703   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:02.703   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:02.703   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:02.703   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:02.703   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:02.707  1919  7140 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:30:02.707  1919  7140 D CompatibilityInfo: applicationDensity - 440
+06-27 12:30:02.707  1919  7140 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:30:02.709   905   992 D DisplayFeatureHal: set mode:47 ppMode:51 over done.... status:1 ret 0
+06-27 12:30:02.714  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.720  1919  2232 I ActivityManager: Killing 18494:com.xiaomi.simactivate.service/u0a166 (adj 985): empty #17
+06-27 12:30:02.720  1919  2232 I Process : PerfMonitor : current process sending signal quiet. PID: 18494 SIG: 9
+06-27 12:30:02.721   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:02.721   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:02.721   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:02.721   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:02.721   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:02.721   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:02.721   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:02.723  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.731   905   992 D DisplayFeatureHal: pcc gabb coeff 0 1.000000
+06-27 12:30:02.731   905   992 D DisplayFeatureHal: pcc gabb coeff 1 0.000000
+06-27 12:30:02.731   905   992 D DisplayFeatureHal: pcc gabb coeff 2 0.000000
+06-27 12:30:02.731   905   992 D DisplayFeatureHal: pcc gabb coeff 3 0.000000
+06-27 12:30:02.731   905   992 D DisplayFeatureHal: pcc gabb coeff 4 1.000000
+06-27 12:30:02.731   905   992 D DisplayFeatureHal: pcc gabb coeff 5 0.000000
+06-27 12:30:02.731   905   992 D DisplayFeatureHal: pcc gabb coeff 6 0.000000
+06-27 12:30:02.731   905   992 D DisplayFeatureHal: pcc gabb coeff 7 0.000000
+06-27 12:30:02.731   905   992 D DisplayFeatureHal: pcc gabb coeff 8 1.000000

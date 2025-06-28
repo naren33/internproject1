@@ -1,0 +1,9 @@
+--------- beginning of main
+06-27 12:51:03.111  1919  3081 D MessageMonitor: Dump Looper message took 1ms
+06-27 12:51:03.118   943  3237 D APM::AudioPolicyEngine: XXX -4: getDeviceForStrategyInt() STRATEGY_SONIFICATION_RESPECTFUL :Use STRATEGY_SONIFICATION to getDevice
+06-27 12:51:03.119   943  3237 D APM::AudioPolicyEngine: XXX -4: getDeviceForStrategyInt() STRATEGY_SONIFICATION_RESPECTFUL :Use STRATEGY_SONIFICATION to getDevice
+06-27 12:51:03.127   943  1606 D APM::AudioPolicyEngine: XXX -4: getDeviceForStrategyInt() STRATEGY_SONIFICATION_RESPECTFUL :Use STRATEGY_SONIFICATION to getDevice
+06-27 12:51:03.134  1919  3081 D MessageMonitor: Dump Looper message took 0ms
+06-27 12:51:03.134  1919  3081 D MessageMonitor: Dump Looper message took 0ms
+06-27 12:51:03.236  9235  9262 E BtGatt.ContextMap: Context not found for name com.google.uid.shared:10183
+06-27 12:51:03.236  9235  9262 E bt_btif : bta_av_co_get_active_peer: peer index out of bounds: 5

@@ -1,0 +1,539 @@
+--------- beginning of main
+06-27 12:30:00.424  2671  3648 I chatty  : uid=1000(system) com.android.systemui expire 4 lines
+06-27 12:30:00.434  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:00.452 20519 20519 I MultiDex: VM with version 2.1.0 has multidex support
+06-27 12:30:00.452  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:00.454 20519 20519 I MultiDex: Installing application
+06-27 12:30:00.454 20519 20519 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+06-27 12:30:00.470  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:00.477 20476 20550 I PlayCore: UID: [10192]  PID: [20476] AppUpdateService : requestUpdateInfo(com.android.chrome)
+06-27 12:30:00.483 20476 20476 I chromium: [INFO:components/enterprise/browser/controller/chrome_browser_cloud_management_controller.cc:279] Deferring CBCM Controller Initialization until it is unblocked.
+06-27 12:30:00.485  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:00.486 20476 20565 I PlayCore: UID: [10192]  PID: [20476] AppUpdateService : Initiate binding to the service.
+06-27 12:30:00.489   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.android.vending/com.google.android.finsky.installservice.DevTriggeredUpdateService and for client com.android.chrome
+06-27 12:30:00.490   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.android.vending/com.google.android.finsky.installservice.DevTriggeredUpdateServiceare :1
+06-27 12:30:00.490   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.android.chromeare :3
+06-27 12:30:00.490  1919  7178 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:30:00.490  1919  7178 D CompatibilityInfo: applicationDensity - 440
+06-27 12:30:00.490  1919  7178 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:30:00.491   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.android.vending/com.google.android.finsky.installservice.DevTriggeredUpdateService
+06-27 12:30:00.501  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+--------- beginning of system
+06-27 12:30:00.530  7088  9694 W PSIUtils: MEMORY_SOME|56681476|2805340827415
+06-27 12:30:00.537 20519 20519 I ContentProviderMonitor: PerfMonitor installContentProviders : before publish content providers
+06-27 12:30:00.535  2671  3648 I chatty  : uid=1000(system) com.android.systemui identical 2 lines
+06-27 12:30:00.553  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:00.564   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.android.vending/com.google.android.finsky.setup.dse.impl.DseService and for client com.android.chrome
+06-27 12:30:00.564  1919  7140 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:30:00.564  1919  7140 D CompatibilityInfo: applicationDensity - 440
+06-27 12:30:00.564  1919  7140 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:30:00.564   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.android.vending/com.google.android.finsky.setup.dse.impl.DseServiceare :1
+06-27 12:30:00.564   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.android.chromeare :4
+06-27 12:30:00.566   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.android.vending/com.google.android.finsky.setup.dse.impl.DseService
+06-27 12:30:00.570 20476 20476 W cr_SearchEngineDelegate: ensureIsDeviceChoiceRequiredSupplier() called on ineligible device
+06-27 12:30:00.571  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:00.583 19739 19739 I Finsky  : [2] Setup::DSE: Phenotype experiments synced with status: NO_UPDATE
+06-27 12:30:00.585  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:00.590   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.gass.GassService and for client com.twitter.android
+06-27 12:30:00.590   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.gass.GassServiceafter removal is 0
+06-27 12:30:00.590   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.twitter.androidafter removal is 9
+06-27 12:30:00.591   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.google.android.gms/.gass.GassService
+06-27 12:30:00.601  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:00.668  2671  3648 I chatty  : uid=1000(system) com.android.systemui identical 4 lines
+06-27 12:30:00.684  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:00.693   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.GmsApiService and for client com.android.chrome
+06-27 12:30:00.693   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.GmsApiServiceare :6
+06-27 12:30:00.693   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.android.chromeare :5
+06-27 12:30:00.700  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:00.703   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.GmsApiService and for client com.android.chrome
+06-27 12:30:00.703   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.GmsApiServiceare :6
+06-27 12:30:00.703   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.android.chromeare :5
+06-27 12:30:00.713 20476 20476 W chromium: [WARNING:components/gcm_driver/instance_id/instance_id_android.cc:101] Non-zero TTL requested for InstanceID token, while TTLs are not supported by Android Firebase IID API.
+06-27 12:30:00.716  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:00.733  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:00.747 19855 20567 D ProfileInstaller: Skipping profile installation for sun.way2sms.hyd.com
+06-27 12:30:00.754  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:00.784  2671  3648 I chatty  : uid=1000(system) com.android.systemui identical 2 lines
+06-27 12:30:00.802  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:00.808  2671  2671 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+06-27 12:30:00.808  2841  2841 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+06-27 12:30:00.809  2671  2671 D BatteryController: onReceive: Intent = Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) } action = android.intent.action.BATTERY_CHANGED
+06-27 12:30:00.812  9395  9395 I PowerSaveService: onReceive: android.intent.action.BATTERY_CHANGED
+06-27 12:30:00.812  9739  9968 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 33, status = 2, level = 33, plug = 2, scale = 100
+06-27 12:30:00.814  9395  9395 I PowerNoticeUI: handleBatteryChanged oldPlugType 2 mPlugType 2 oldBatteryLevel 33 mBatteryLevel 33 temperature 262
+06-27 12:30:00.814  9395  9395 I ChargerBatteryIntelligenceReceiver: onBatteryChanged temperature：26,plugType:2
+06-27 12:30:00.814  9395  9395 I ChargerBatteryIntelligenceReceiver: dissmissTempFastChargeReminder not support
+06-27 12:30:00.814  9395  9395 I PowerFeatureUtils: getVendorName:qcom
+06-27 12:30:00.815  2881  2881 D DeviceStatisticsService: chargerType=2 batteryLevel=33 totalBatteryCapacity=2264800
+06-27 12:30:00.817  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:00.820 20476 20476 I cr_SmsProviderGms: construction successfull bv5@84ff7d0, Yu5@26e13c9
+06-27 12:30:00.832  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:00.850  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:00.843 20476 20476 W .android.chrome: type=1400 audit(0.0:3287): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=17514 scontext=u:r:untrusted_app:s0:c192,c256,c512,c768 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0 app=com.android.chrome
+06-27 12:30:00.855 20476 20476 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.bootloader_override"
+06-27 12:30:00.866 20476 20572 I CameraManagerGlobal: Connecting to camera service
+06-27 12:30:00.870  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:00.871  1369  7026 W ServiceManager: Permission failure: android.permission.CAMERA_OPEN_CLOSE_LISTENER from uid=10192 pid=20476
+06-27 12:30:00.872 20476 20572 W CameraManagerGlobal: [soar.cts] ignore the status update of camera: 100
+06-27 12:30:00.873 20476 20572 W CameraManagerGlobal: [soar.cts] ignore the status update of camera: 101
+06-27 12:30:00.873 20476 20572 W CameraManagerGlobal: [soar.cts] ignore the status update of camera: 120
+06-27 12:30:00.873 20476 20572 W CameraManagerGlobal: [soar.cts] ignore the status update of camera: 20
+06-27 12:30:00.873 20476 20572 W CameraManagerGlobal: [soar.cts] ignore the status update of camera: 21
+06-27 12:30:00.873 20476 20572 W CameraManagerGlobal: [soar.cts] ignore the status update of camera: 60
+06-27 12:30:00.873 20476 20572 W CameraManagerGlobal: [soar.cts] ignore the status update of camera: 61
+06-27 12:30:00.873 20476 20572 W CameraManagerGlobal: [soar.cts] ignore the status update of camera: 62
+06-27 12:30:00.873 20476 20572 W CameraManagerGlobal: [soar.cts] ignore the status update of camera: 63
+06-27 12:30:00.874 20476 20514 W CameraManagerGlobal: ignore the torch status update of camera: 100
+06-27 12:30:00.874 20476 20514 W CameraManagerGlobal: ignore the torch status update of camera: 120
+06-27 12:30:00.874 20476 20514 W CameraManagerGlobal: ignore the torch status update of camera: 20
+06-27 12:30:00.874 20476 20514 W CameraManagerGlobal: ignore the torch status update of camera: 21
+06-27 12:30:00.874 20476 20514 W CameraManagerGlobal: ignore the torch status update of camera: 60
+06-27 12:30:00.874 20476 20514 W CameraManagerGlobal: ignore the torch status update of camera: 61
+06-27 12:30:00.874 20476 20514 W CameraManagerGlobal: ignore the torch status update of camera: 62
+06-27 12:30:00.874 20476 20514 W CameraManagerGlobal: ignore the torch status update of camera: 63
+06-27 12:30:00.877  1919  2478 D SlaveWifiManager: getWifiSlaveConnectionInfo
+06-27 12:30:00.880  1919  2478 I chatty  : uid=1000(system) ConnectivitySer identical 79 lines
+06-27 12:30:00.880  1919  2478 D SlaveWifiManager: getWifiSlaveConnectionInfo
+06-27 12:30:00.881  1919  2402 D UntrustedWifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=174, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10192 AdministratorUids: [] RequestorUid: 10192 RequestorPackageName: com.android.chrome] ] with score 60 and providerId 6
+06-27 12:30:00.881  1919  2402 D WifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=174, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10192 AdministratorUids: [] RequestorUid: 10192 RequestorPackageName: com.android.chrome] ] with score 60 and providerId 6
+06-27 12:30:00.881  1919  2402 D WifiSlaveNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=174, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10192 AdministratorUids: [] RequestorUid: 10192 RequestorPackageName: com.android.chrome] ] with score 60 and providerId 6
+06-27 12:30:00.881  1919  2402 D UntrustedWifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=174, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10192 AdministratorUids: [] RequestorUid: 10192 RequestorPackageName: com.android.chrome] ] with score 60 and providerId 6
+06-27 12:30:00.881  2914  2914 D PhoneSwitcherNetworkRequstListener: got request NetworkRequest [ TRACK_DEFAULT id=174, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10192 AdministratorUids: [] RequestorUid: 10192 RequestorPackageName: com.android.chrome] ] with score 60 and providerId 6
+06-27 12:30:00.882  1919  2571 D WIFI_AWARE_FACTORY: got request NetworkRequest [ TRACK_DEFAULT id=174, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10192 AdministratorUids: [] RequestorUid: 10192 RequestorPackageName: com.android.chrome] ] with score 60 and providerId 6
+06-27 12:30:00.883  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:00.883  1919  2574 D Ethernet: got request NetworkRequest [ TRACK_DEFAULT id=174, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10192 AdministratorUids: [] RequestorUid: 10192 RequestorPackageName: com.android.chrome] ] with score 60 and providerId 6
+06-27 12:30:00.884  1919  2478 D SlaveWifiManager: getWifiSlaveConnectionInfo
+06-27 12:30:00.885  1919  2478 I chatty  : uid=1000(system) ConnectivitySer identical 78 lines
+06-27 12:30:00.885  1919  2478 D SlaveWifiManager: getWifiSlaveConnectionInfo
+06-27 12:30:00.899  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:00.916  2671  3648 I chatty  : uid=1000(system) com.android.systemui identical 1 line
+06-27 12:30:00.932  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:00.923 20519 20519 W com.google.android.googlequicksearchbox:googleapp: type=1400 audit(0.0:3288): avc: denied { read } for comm=426C6F636B696E6720546872656164 name="u:object_r:vendor_displayfeature_prop:s0" dev="tmpfs" ino=17656 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:vendor_displayfeature_prop:s0 tclass=file permissive=0 app=com.google.android.googlequicksearchbox
+06-27 12:30:00.934 20519 20575 E libc    : Access denied finding property "ro.vendor.df.effect.conflict"
+06-27 12:30:00.934 20519 20575 E libc    : Access denied finding property "ro.vendor.knock.type"
+06-27 12:30:00.943 20519 20519 E libprocessgroup: set_timerslack_ns write failed: Operation not permitted
+06-27 12:30:00.948 20476 20476 I cr_EnterpriseInfoImpl: #setCacheResult() deviceOwned:false profileOwned:false
+06-27 12:30:00.948 20476 20476 I cr_EnterpriseInfo: #getManagedStateForNative() Iv1@abb1f73
+06-27 12:30:00.953  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:00.973  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:00.983 20476 20476 W cr_KnoxSettingsProvider: Permission to read device policy denied.
+06-27 12:30:00.983 20476 20476 I cr_CombinedPProvider: #registerProvider() provider:HZ3@2e909eb isPolicyCacheEnabled:true policyProvidersSize:0
+06-27 12:30:00.983 20476 20476 I cr_PolicyProvider: #setManagerAndSource() 0
+06-27 12:30:00.983 20476 20476 I cr_CombinedPProvider: #registerProvider() provider:fs@5010348 isPolicyCacheEnabled:false policyProvidersSize:1
+06-27 12:30:00.984  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:00.985 20476 20476 I cr_PolicyProvider: #setManagerAndSource() 1
+06-27 12:30:00.986 20476 20476 I cr_AppResProvider: #getApplicationRestrictionsFromUserManager() Bundle[EMPTY_PARCEL]
+06-27 12:30:00.986 20476 20476 I cr_PolicyProvider: #notifySettingsAvailable() 1
+06-27 12:30:00.986 20476 20476 I cr_CombinedPProvider: #onSettingsAvailable() 1
+06-27 12:30:00.987   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.PersistentApiService and for client com.google.android.googlequicksearchbox:googleapp
+06-27 12:30:00.987   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.PersistentApiServiceare :14
+06-27 12:30:00.987   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.googlequicksearchbox:googleappare :1
+06-27 12:30:00.995   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.GmsBoundBrokerService and for client com.google.android.googlequicksearchbox:googleapp
+06-27 12:30:00.996   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.GmsBoundBrokerServiceare :8
+06-27 12:30:00.996   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.googlequicksearchbox:googleappare :2
+06-27 12:30:01.001  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.002   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.PersistentDirectBootAwareApiService and for client com.google.android.googlequicksearchbox:googleapp
+06-27 12:30:01.002   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.PersistentDirectBootAwareApiServiceare :21
+06-27 12:30:01.002   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.googlequicksearchbox:googleappare :3
+06-27 12:30:01.013 20476 20476 I PlayCore: UID: [10192]  PID: [20476] AppUpdateService : ServiceConnectionImpl.onServiceConnected(ComponentInfo{com.android.vending/com.google.android.finsky.installservice.DevTriggeredUpdateService})
+06-27 12:30:01.015 20519 20519 I dsvo    : Initializing GMS Compliance Client Library...
+06-27 12:30:01.016 20519 20519 I dsvo    : Checking for device compliance...
+06-27 12:30:01.016 20519 20519 I dsvo    : Completed library init.
+06-27 12:30:01.016 20476 20565 I PlayCore: UID: [10192]  PID: [20476] AppUpdateService : linkToDeath
+06-27 12:30:01.018  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.018   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:01.018   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:01.018   879   879 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:30:01.018   879   879 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-27 12:30:01.018   879   879 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.google.android.googlequicksearchbox feature:AppClassifier feedback = 1
+06-27 12:30:01.020 20519 20519 W Looper  : PerfMonitor longMsg : seq=2 plan=12:29:59.863 late=1ms wall=1154ms running=303ms runnable=257ms io=516ms binder=35ms h=android.app.ActivityThread$H w=110 procState=11
+06-27 12:30:01.022   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.PersistentBoundBrokerService and for client com.google.android.googlequicksearchbox:googleapp
+06-27 12:30:01.022   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.PersistentBoundBrokerServiceare :4
+06-27 12:30:01.022   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.googlequicksearchbox:googleappare :4
+06-27 12:30:01.028   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.android.chrome/org.chromium.components.background_task_scheduler.internal.BackgroundTaskJobService and for client system
+06-27 12:30:01.028   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.android.chrome/org.chromium.components.background_task_scheduler.internal.BackgroundTaskJobServiceafter removal is 0
+06-27 12:30:01.028   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: systemafter removal is 26
+06-27 12:30:01.028   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.android.chrome/org.chromium.components.background_task_scheduler.internal.BackgroundTaskJobService
+06-27 12:30:01.029  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10192, uidState = 10
+06-27 12:30:01.036  1919  8390 I ActivityManager: Killing 18810:com.android.camera/u0a108 (adj 975): empty #17
+06-27 12:30:01.037  1919  8390 I Process : PerfMonitor : current process sending signal quiet. PID: 18810 SIG: 9
+06-27 12:30:01.037  1919  2134 I Process : PerfMonitor : current process killing process group. PID: 18810
+06-27 12:30:01.038   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:01.038   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:01.038   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:01.038   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:01.038   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:01.038   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:01.038   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:01.039  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10192, uidState = 19
+06-27 12:30:01.039  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.046 20519 20519 I gcgt    : (REDACTED) Scoped context discovery schemas: %s.
+06-27 12:30:01.054  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.065  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.066 20519 20587 I ewsm    : (REDACTED) %s TNG App is logging Clearcut event named %s with the %s account state (zwieback available: %b) and %s source
+06-27 12:30:01.078 20519 20587 I eupe    : Received an intent for GNP, won't process
+06-27 12:30:01.081  1919  7140 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:30:01.081  1919  7140 D CompatibilityInfo: applicationDensity - 440
+06-27 12:30:01.081  1919  7140 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:30:01.088  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.098  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.104   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.gcm.PushMessagingRegistrarProxy and for client com.google.android.googlequicksearchbox:googleapp
+06-27 12:30:01.104   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.gcm.PushMessagingRegistrarProxyare :1
+06-27 12:30:01.104   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.googlequicksearchbox:googleappare :5
+06-27 12:30:01.104  1919  7178 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:30:01.104  1919  7178 D CompatibilityInfo: applicationDensity - 440
+06-27 12:30:01.104  1919  7178 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:30:01.105   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.google.android.gms/.gcm.PushMessagingRegistrarProxy
+06-27 12:30:01.112  1919  7178 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:30:01.112  1919  7178 D CompatibilityInfo: applicationDensity - 440
+06-27 12:30:01.112  1919  7178 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:30:01.112   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.googlequicksearchbox/com.google.android.libraries.notifications.platform.entrypoints.firebase.FirebaseMessagingServiceImpl and for client com.google.android.googlequicksearchbox:googleapp
+06-27 12:30:01.112   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.googlequicksearchbox/com.google.android.libraries.notifications.platform.entrypoints.firebase.FirebaseMessagingServiceImplare :1
+06-27 12:30:01.112   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.googlequicksearchbox:googleappare :6
+06-27 12:30:01.112   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.google.android.googlequicksearchbox/com.google.android.libraries.notifications.platform.entrypoints.firebase.FirebaseMessagingServiceImpl
+06-27 12:30:01.115  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.117  3125  3928 I AlarmManager: setExactAndAllowWhileIdle [name: FcmRetry type: 2 triggerAtMillis: 2862437]
+06-27 12:30:01.133  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.133 20519 20519 I FirebaseApp: Device unlocked: initializing all Firebase APIs for app CHIME_ANDROID_SDK
+06-27 12:30:01.140   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.gcm.PushMessagingRegistrarProxy and for client com.google.android.googlequicksearchbox:googleapp
+06-27 12:30:01.140   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.gcm.PushMessagingRegistrarProxyafter removal is 0
+06-27 12:30:01.140   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.google.android.googlequicksearchbox:googleappafter removal is 5
+06-27 12:30:01.140   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.google.android.gms/.gcm.PushMessagingRegistrarProxy
+06-27 12:30:01.144 19739 20609 I Finsky  : [1198] Created new item store.
+06-27 12:30:01.148  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.148 20519 20576 I dsvo    : (REDACTED) Device Compliance Fetch time taken = %sms
+06-27 12:30:01.149 20519 20576 I dsvo    : Device is compliant!
+06-27 12:30:01.151 20519 20576 I dsvo    : Invoking "compliant" action...
+06-27 12:30:01.153 20519 20611 E FirebaseMessaging: Default FirebaseApp has not been initialized. Skip logging event to GA.
+06-27 12:30:01.153 20519 20611 I FirebaseMessaging: FirebaseApp has not being initialized. Device might be in direct boot mode. Skip exporting delivery metrics to Big Query
+06-27 12:30:01.165  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.182  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.202 20476 20545 W InstanceID: Instance ID SDK is deprecated, com.android.chrome should update to use Firebase Instance ID
+06-27 12:30:01.202  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.217  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.228  1919  7140 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:30:01.228  1919  7140 D CompatibilityInfo: applicationDensity - 440
+06-27 12:30:01.228  1919  7140 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:30:01.229   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.gcm.PushMessagingRegistrarProxy and for client com.google.android.googlequicksearchbox:googleapp
+06-27 12:30:01.229   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.gcm.PushMessagingRegistrarProxyare :1
+06-27 12:30:01.229   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.googlequicksearchbox:googleappare :6
+06-27 12:30:01.230   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.google.android.gms/.gcm.PushMessagingRegistrarProxy
+06-27 12:30:01.231  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.234   847  2607 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xa
+06-27 12:30:01.235  1560  1560 I cnss-daemon: nl80211 response handler invoked
+06-27 12:30:01.235  1560  1560 I cnss-daemon: nl80211_response_handler: cmd 103, vendorID 4980, subcmd 10  received
+06-27 12:30:01.237   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.gcm.PushMessagingRegistrarProxy and for client com.google.android.googlequicksearchbox:googleapp
+06-27 12:30:01.237   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.gcm.PushMessagingRegistrarProxyafter removal is 0
+06-27 12:30:01.237   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.google.android.googlequicksearchbox:googleappafter removal is 5
+06-27 12:30:01.237   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.google.android.gms/.gcm.PushMessagingRegistrarProxy
+06-27 12:30:01.247  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.254  1919  2134 E libprocessgroup: Failed to kill process cgroup uid 10108 pid 18810 in 216ms, 1 processes remain
+06-27 12:30:01.257   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.PersistentApiService and for client com.android.vending:background
+06-27 12:30:01.257   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.PersistentApiServiceare :15
+06-27 12:30:01.257   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.android.vending:backgroundare :1
+06-27 12:30:01.261 10366 10366 I wpa_supplicant: p2p0: CTRL-EVENT-AVOID-FREQ ranges=
+06-27 12:30:01.261 10366 10366 I wpa_supplicant: p2p0: CTRL-EVENT-REGDOM-CHANGE init=DRIVER type=COUNTRY alpha2=IN
+06-27 12:30:01.267  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.270 19874 19910 I Finsky:background: [1148] playLoggingServerUrl: https://play.googleapis.com/play/log
+06-27 12:30:01.270 19874 19910 I Finsky:background: [1148] playLoggingServerTimestampUrl: https://play.googleapis.com/play/log/timestamp
+06-27 12:30:01.281  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.284 20519 20622 W chbox:googleap: ClassLoaderContext classpath size mismatch. expected=12, found=0 (DLC[];PCL[base.apk*3954478138:base.apk!classes2.dex*934104914:base.apk!classes3.dex*156543503:base.apk!classes4.dex*3966455241:base.apk!classes5.dex*279722583:base.apk!classes6.dex*727634671:base.apk!classes7.dex*2632977846:base.apk!classes8.dex*3752884997:base.apk!classes9.dex*1939713283:base.apk!classes10.dex*2897118556:base.apk!classes11.dex*1109959419:base.apk!classes12.dex*1624837242]{PCL[/system/framework/org.apache.http.legacy.jar*1721227950]#PCL[/system/framework/com.android.media.remotedisplay.jar*1573936315]#PCL[/system/framework/com.android.location.provider.jar*1664931834]#PCL[/system/framework/org.apache.http.legacy.jar*1721227950]} | DLC[];PCL[])
+06-27 12:30:01.287 20519 20622 I DynamiteModule: Considering local module com.google.android.gms.measurement.dynamite:150 and remote module com.google.android.gms.measurement.dynamite:151
+06-27 12:30:01.287 20519 20622 I DynamiteModule: Selected remote version of com.google.android.gms.measurement.dynamite, version >= 151
+06-27 12:30:01.287 20519 20622 V DynamiteModule: Dynamite loader version >= 2, using loadModule2NoCrashUtils
+06-27 12:30:01.296  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.300 20207 20406 I WM-WorkerWrapper: Worker result SUCCESS for Work [ id=d402a76e-1d87-476b-96f7-e8cf5f396a7b, tags={ com.linkedin.android.appactivations.AppIconUpdatePeriodicWork } ]
+06-27 12:30:01.302 20519 20622 W System  : ClassLoader referenced unknown path: 
+06-27 12:30:01.307   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:01.307   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:01.307   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:01.307   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:01.308   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:01.308   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:01.308   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:01.309   698   698 I Zygote  : Process 18810 exited due to signal 9 (Killed)
+06-27 12:30:01.313   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: killProcess is called for pid : 18810
+06-27 12:30:01.314  1919  1986 W ANRStateManager: clear state, but process isn't exist. hash=181676351 uid=10108 pid=18810 state=16
+06-27 12:30:01.314  8346  8389 I com.xiaomi.xms: oneway function results will be dropped but finished with status UNKNOWN_TRANSACTION and parcel size 0
+06-27 12:30:01.316   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.linkedin.android/androidx.work.impl.background.systemjob.SystemJobService and for client system
+06-27 12:30:01.316   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.linkedin.android/androidx.work.impl.background.systemjob.SystemJobServiceafter removal is 0
+06-27 12:30:01.316   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: systemafter removal is 25
+06-27 12:30:01.317   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.linkedin.android/androidx.work.impl.background.systemjob.SystemJobService
+06-27 12:30:01.318  1919  2385 I MiuiNetworkPolicy: removeUidState uid = 10108
+06-27 12:30:01.318  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10255, uidState = 10
+06-27 12:30:01.324  1919  7140 I ActivityManager: Killing 18788:android.process.media/u0a84 (adj 975): empty #17
+06-27 12:30:01.324  1919  7140 I Process : PerfMonitor : current process sending signal quiet. PID: 18788 SIG: 9
+06-27 12:30:01.324  1919  2134 I Process : PerfMonitor : current process killing process group. PID: 18788
+06-27 12:30:01.325   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:01.325   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:01.325   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:01.325   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:01.326   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:01.326   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:01.326   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:01.327  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.334   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.google.android.gms/.chimera.PersistentIntentOperationService
+06-27 12:30:01.334  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.338  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10255, uidState = 19
+06-27 12:30:01.341 20519 20622 W chbox:googleap: ClassLoaderContext classpath size mismatch. expected=12, found=14 (DLC[];PCL[base.apk*3954478138:base.apk!classes2.dex*934104914:base.apk!classes3.dex*156543503:base.apk!classes4.dex*3966455241:base.apk!classes5.dex*279722583:base.apk!classes6.dex*727634671:base.apk!classes7.dex*2632977846:base.apk!classes8.dex*3752884997:base.apk!classes9.dex*1939713283:base.apk!classes10.dex*2897118556:base.apk!classes11.dex*1109959419:base.apk!classes12.dex*1624837242]{PCL[/system/framework/org.apache.http.legacy.jar*1721227950]#PCL[/system/framework/com.android.media.remotedisplay.jar*1573936315]#PCL[/system/framework/com.android.location.provider.jar*1664931834]#PCL[/system/framework/org.apache.http.legacy.jar*1721227950]} | DLC[];PCL[/data/app/~~oSmnONpVF57gf2kHa3RUbg==/com.google.android.googlequicksearchbox-Ee4N1BRMOSEHlFmcVmgxFw==/base.apk*3128610680:/data/app/~~oSmnONpVF57gf2kHa3RUbg==/com.google.android.googlequicksearchbox-Ee4N1BRMOSEHlFmcVmgxFw==/base.apk!classes2.dex*2858082316:/data/app/~~oSmnONpVF57gf2kHa3RUbg==/com.google.android.googlequicksearchbox-Ee4N1BRMOSEHlFmcVmgxFw==/base.apk!classes3.dex*3103517669:/data/app/~~oSmnONpVF57gf2kHa3RUbg==/com.google.android.googlequicksearchbox-Ee4N1BRMOSEHlFmcVmgxFw==/base.apk!classes4.dex*495738547:/data/app/~~oSmnONpVF57gf2kHa3RUbg==/com.google.android.googlequicksearchbox-Ee4N1BRMOSEHlFmcVmgxFw==/base.apk!classes5.dex*1811658518:/data/app/~~oSmnONpVF57gf2kHa3RUbg==/com.google.android.googlequicksearchbox-Ee4N1BRMOSEHlFmcVmgxFw==/base.apk!classes6.dex*990135338:/data/app/~~oSmnONpVF57gf2kHa3RUbg==/com.google.android.googlequicksearchbox-Ee4N1BRMOSEHlFmcVmgxFw==/base.apk!classes7.dex*678120985:/data/app/~~oSmnONpVF57gf2kHa3RUbg==/com.google.android.googlequicksearchbox-Ee4N1BRMOSEHlFmcVmgxFw==/base.apk!classes8.dex*1358885667:/data/app/~~oSmnONpVF57gf2kHa3RUbg==/com.google.android.googlequicksearchbox-Ee4N1BRMOSEHlFmcVmgxFw==/base.apk!classes9.dex*3706402852:/data/app/~~oSmnONpVF57gf2kHa3RUbg==/com.google.android.googlequicksearchbox-Ee4N1BRMOSEHlFmcVmgxFw==/base.apk!classes10.dex*2414155597:/data/app/~~oSmnONpVF57gf2kHa3RUbg==/com.google.android.googlequicksearchbox-Ee4N1BRMOSEHlFmcVmgxFw==/base.apk!classes11.dex*1108419235:/data/app/~~oSmnONpVF57gf2kHa3RUbg==/com.google.android.googlequicksearchbox-Ee4N1BRMOSEHlFmcVmgxFw==/base.apk!classes12.dex*4268797659:/data/app/~~oSmnONpVF57gf2kHa3RUbg==/com.google.android.googlequicksearchbox-Ee4N1BRMOSEHlFmcVmgxFw==/base.apk!classes13.dex*2188620050:/data/app/~~oSmnONpVF57gf2kHa3RUbg==/com.google.android.googlequicksearchbox-Ee4N1BRMOSEHlFmcVmgxFw==/base.apk!classes14.dex*1719392370]{PCL[/system/framework/org.apache.http.legacy.jar*1721227950]})
+06-27 12:30:01.349  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.363  2671  3648 I chatty  : uid=1000(system) com.android.systemui identical 1 line
+06-27 12:30:01.381  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.390 20519 20622 W chbox:googleap: Found duplicate classes, falling back to extracting from APK : /data/app/~~6lqp1g1euv33FXgLN4m2AQ==/com.google.android.gms-157QwNoNPoMrpSh2_FrQYQ==/split_MeasurementDynamite_installtime.apk
+06-27 12:30:01.390 20519 20622 W chbox:googleap: NOTE: This wastes RAM and hurts startup performance.
+06-27 12:30:01.390 20519 20622 W chbox:googleap: Found duplicated class when checking oat files: 'Landroid/app/AppComponentFactory;' in /data/app/~~6lqp1g1euv33FXgLN4m2AQ==/com.google.android.gms-157QwNoNPoMrpSh2_FrQYQ==/split_MeasurementDynamite_installtime.apk and /data/app/~~oSmnONpVF57gf2kHa3RUbg==/com.google.android.googlequicksearchbox-Ee4N1BRMOSEHlFmcVmgxFw==/base.apk!classes3.dex
+06-27 12:30:01.399  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.405   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:01.405   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:01.405   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:01.405   698   698 I Zygote  : Process 18788 exited due to signal 9 (Killed)
+06-27 12:30:01.405   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:01.405   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:01.405   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:01.405   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:01.406  1919  2134 I libprocessgroup: Successfully killed process cgroup uid 10084 pid 18788 in 81ms
+06-27 12:30:01.406   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: killProcess is called for pid : 18788
+06-27 12:30:01.406  1919  1986 W ANRStateManager: clear state, but process isn't exist. hash=258164382 uid=10084 pid=18788 state=16
+06-27 12:30:01.407  8346  8389 I com.xiaomi.xms: oneway function results will be dropped but finished with status UNKNOWN_TRANSACTION and parcel size 0
+06-27 12:30:01.409  1919  2385 I MiuiNetworkPolicy: removeUidState uid = 10084
+06-27 12:30:01.413 20562 20562 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-27 12:30:01.415  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.419  7088  9694 W PSIUtils: MEMORY_FULL|23445359|2806230142209
+06-27 12:30:01.434  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.446 20562 20562 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+06-27 12:30:01.446 20562 20562 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+06-27 12:30:01.446 20562 20562 I AndroidRuntime: Using default boot image
+06-27 12:30:01.446 20562 20562 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+06-27 12:30:01.446 20562 20562 I AndroidRuntime: Leaving lock profiling enabled
+06-27 12:30:01.446 20562 20562 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+06-27 12:30:01.433 20562 20562 W app_process: type=1400 audit(0.0:3289): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=17514 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+06-27 12:30:01.433 20562 20562 W app_process: type=1400 audit(0.0:3290): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=17514 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+06-27 12:30:01.448  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.433 20562 20562 W app_process: type=1400 audit(0.0:3291): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=17514 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+06-27 12:30:01.433 20562 20562 W app_process: type=1400 audit(0.0:3292): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=17514 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+06-27 12:30:01.455 20476 20545 W DynamiteModule: Local module descriptor class for com.google.android.gms.googlecertificates not found.
+06-27 12:30:01.463  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.474 20476 20545 W .android.chrom: ClassLoaderContext classpath size mismatch. expected=12, found=0 (DLC[];PCL[base.apk*3954478138:base.apk!classes2.dex*934104914:base.apk!classes3.dex*156543503:base.apk!classes4.dex*3966455241:base.apk!classes5.dex*279722583:base.apk!classes6.dex*727634671:base.apk!classes7.dex*2632977846:base.apk!classes8.dex*3752884997:base.apk!classes9.dex*1939713283:base.apk!classes10.dex*2897118556:base.apk!classes11.dex*1109959419:base.apk!classes12.dex*1624837242]{PCL[/system/framework/org.apache.http.legacy.jar*1721227950]#PCL[/system/framework/com.android.media.remotedisplay.jar*1573936315]#PCL[/system/framework/com.android.location.provider.jar*1664931834]#PCL[/system/framework/org.apache.http.legacy.jar*1721227950]} | DLC[];PCL[])
+06-27 12:30:01.479  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.485 20476 20547 W chromium: [WARNING:net/cert/ev_root_ca_metadata.cc:119] Not implemented
+06-27 12:30:01.495 20476 20545 I DynamiteModule: Considering local module com.google.android.gms.googlecertificates:0 and remote module com.google.android.gms.googlecertificates:7
+06-27 12:30:01.495 20476 20545 I DynamiteModule: Selected remote version of com.google.android.gms.googlecertificates, version >= 7
+06-27 12:30:01.496  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.511 20476 20545 W System  : ClassLoader referenced unknown path: 
+06-27 12:30:01.512  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.524   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.PersistentBoundBrokerService and for client com.android.chrome
+06-27 12:30:01.524   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.PersistentBoundBrokerServiceare :5
+06-27 12:30:01.524   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.android.chromeare :6
+06-27 12:30:01.530  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.533 19739 20541 I Finsky  : [1191] Setup::DSE: Android ID is non-zero.
+06-27 12:30:01.533 19739 20541 I Finsky  : [1191] Setup::DSE: Phenotype experiments synced with status: NO_UPDATE
+06-27 12:30:01.546 19739 20541 I Finsky  : [1191] Package com.android.chrome is verified.
+06-27 12:30:01.550  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.558 19739 20541 I Finsky  : [1191] DSE: Set Settings.Secure.play_determined_dma_eligibility to: 0 (success=true)
+06-27 12:30:01.565  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.567 20476 20545 W .android.chrom: ClassLoaderContext classpath size mismatch. expected=12, found=1 (DLC[];PCL[base.apk*3954478138:base.apk!classes2.dex*934104914:base.apk!classes3.dex*156543503:base.apk!classes4.dex*3966455241:base.apk!classes5.dex*279722583:base.apk!classes6.dex*727634671:base.apk!classes7.dex*2632977846:base.apk!classes8.dex*3752884997:base.apk!classes9.dex*1939713283:base.apk!classes10.dex*2897118556:base.apk!classes11.dex*1109959419:base.apk!classes12.dex*1624837242]{PCL[/system/framework/org.apache.http.legacy.jar*1721227950]#PCL[/system/framework/com.android.media.remotedisplay.jar*1573936315]#PCL[/system/framework/com.android.location.provider.jar*1664931834]#PCL[/system/framework/org.apache.http.legacy.jar*1721227950]} | DLC[];PCL[/data/app/~~JK35FJ-tYwDoO3g640oTSQ==/com.android.chrome-rm8Y9P5uh_SaNzWKp-osWA==/split_chrome.apk*1152030240];PCL[/data/app/~~JK35FJ-tYwDoO3g640oTSQ==/com.android.chrome-rm8Y9P5uh_SaNzWKp-osWA==/base.apk*3259333263]{PCL[]})
+06-27 12:30:01.570 20476 20545 W .android.chrom: Found duplicate classes, falling back to extracting from APK : /data/app/~~6lqp1g1euv33FXgLN4m2AQ==/com.google.android.gms-157QwNoNPoMrpSh2_FrQYQ==/split_GoogleCertificates_installtime.apk
+06-27 12:30:01.570 20476 20545 W .android.chrom: NOTE: This wastes RAM and hurts startup performance.
+06-27 12:30:01.570 20476 20545 W .android.chrom: Found duplicated class when checking oat files: 'Landroid/support/annotation/Keep;' in /data/app/~~JK35FJ-tYwDoO3g640oTSQ==/com.android.chrome-rm8Y9P5uh_SaNzWKp-osWA==/base.apk and /data/app/~~6lqp1g1euv33FXgLN4m2AQ==/com.google.android.gms-157QwNoNPoMrpSh2_FrQYQ==/split_GoogleCertificates_installtime.apk
+06-27 12:30:01.579  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.580 20476 20546 W chromium: [WARNING:net/cert/ev_root_ca_metadata.cc:119] Not implemented
+06-27 12:30:01.588   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.auth.GetToken and for client com.google.android.googlequicksearchbox:googleapp
+06-27 12:30:01.588   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.auth.GetTokenare :1
+06-27 12:30:01.588   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.googlequicksearchbox:googleappare :6
+06-27 12:30:01.588  1919  7178 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:30:01.588  1919  7178 D CompatibilityInfo: applicationDensity - 440
+06-27 12:30:01.588  1919  7178 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:30:01.589   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.google.android.gms/.auth.GetToken
+06-27 12:30:01.595  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.606 20476 20550 E libc    : Access denied finding property "ro.hardware.chipname"
+06-27 12:30:01.612  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.622   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.PersistentApiService and for client com.google.android.gms.persistent
+06-27 12:30:01.622   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.PersistentApiServiceare :15
+06-27 12:30:01.622   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gms.persistentare :8
+06-27 12:30:01.629  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.640  7088  9694 W PSIUtils: MEMORY_SOME|77269328|2806450146272
+06-27 12:30:01.644   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.PersistentApiService and for client com.android.chrome
+06-27 12:30:01.645   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.PersistentApiServiceare :16
+06-27 12:30:01.645   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.android.chromeare :7
+06-27 12:30:01.646  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.651   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.GmsApiService and for client com.android.chrome
+06-27 12:30:01.651   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.GmsApiServiceare :6
+06-27 12:30:01.651   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.android.chromeare :7
+06-27 12:30:01.652  3799  3799 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.fido.fido2.firstparty.START pkg=com.google.android.gms }
+06-27 12:30:01.667  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.678  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.680  3125 14853 W dfhy    : Phenotype API error. Event: # fzak@f0b0beb7, EventCode: GET_EXP [CONTEXT service_id=51 ]
+06-27 12:30:01.680  3125 14853 W dfhy    : dfge: 29505: No config packages for log source, or config package not registered
+06-27 12:30:01.680  3125 14853 W dfhy    : 	at dfiy.f(:com.google.android.gms@252331022@25.23.31 (150400-769856126):77)
+06-27 12:30:01.680  3125 14853 W dfhy    : 	at dfiw.i(:com.google.android.gms@252331022@25.23.31 (150400-769856126):3)
+06-27 12:30:01.680  3125 14853 W dfhy    : 	at dfhy.h(:com.google.android.gms@252331022@25.23.31 (150400-769856126):35)
+06-27 12:30:01.680  3125 14853 W dfhy    : 	at dfhy.f(:com.google.android.gms@252331022@25.23.31 (150400-769856126):17)
+06-27 12:30:01.680  3125 14853 W dfhy    : 	at cdbg.fK(:com.google.android.gms@252331022@25.23.31 (150400-769856126):1)
+06-27 12:30:01.680  3125 14853 W dfhy    : 	at cdbk.run(:com.google.android.gms@252331022@25.23.31 (150400-769856126):140)
+06-27 12:30:01.680  3125 14853 W dfhy    : 	at evcb.run(:com.google.android.gms@252331022@25.23.31 (150400-769856126):21)
+06-27 12:30:01.680  3125 14853 W dfhy    : 	at awjw.c(:com.google.android.gms@252331022@25.23.31 (150400-769856126):50)
+06-27 12:30:01.680  3125 14853 W dfhy    : 	at awjw.run(:com.google.android.gms@252331022@25.23.31 (150400-769856126):70)
+06-27 12:30:01.680  3125 14853 W dfhy    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+06-27 12:30:01.680  3125 14853 W dfhy    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+06-27 12:30:01.680  3125 14853 W dfhy    : 	at awpl.run(:com.google.android.gms@252331022@25.23.31 (150400-769856126):8)
+06-27 12:30:01.680  3125 14853 W dfhy    : 	at java.lang.Thread.run(Thread.java:923)
+06-27 12:30:01.681  3125 14853 W AsyncOperation: operation=GetExperimentTokensOperationCall, opStatusCode=29505 [CONTEXT service_id=51 ]
+06-27 12:30:01.681  3125 14853 W AsyncOperation: OperationException[Status{statusCode=No config packages for log source, or config package not registered, resolution=null}]
+06-27 12:30:01.681  3125 14853 W AsyncOperation: 	at dfhy.h(:com.google.android.gms@252331022@25.23.31 (150400-769856126):65)
+06-27 12:30:01.681  3125 14853 W AsyncOperation: 	at dfhy.f(:com.google.android.gms@252331022@25.23.31 (150400-769856126):17)
+06-27 12:30:01.681  3125 14853 W AsyncOperation: 	at cdbg.fK(:com.google.android.gms@252331022@25.23.31 (150400-769856126):1)
+06-27 12:30:01.681  3125 14853 W AsyncOperation: 	at cdbk.run(:com.google.android.gms@252331022@25.23.31 (150400-769856126):140)
+06-27 12:30:01.681  3125 14853 W AsyncOperation: 	at evcb.run(:com.google.android.gms@252331022@25.23.31 (150400-769856126):21)
+06-27 12:30:01.681  3125 14853 W AsyncOperation: 	at awjw.c(:com.google.android.gms@252331022@25.23.31 (150400-769856126):50)
+06-27 12:30:01.681  3125 14853 W AsyncOperation: 	at awjw.run(:com.google.android.gms@252331022@25.23.31 (150400-769856126):70)
+06-27 12:30:01.681  3125 14853 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+06-27 12:30:01.681  3125 14853 W AsyncOperation: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+06-27 12:30:01.681  3125 14853 W AsyncOperation: 	at awpl.run(:com.google.android.gms@252331022@25.23.31 (150400-769856126):8)
+06-27 12:30:01.681  3125 14853 W AsyncOperation: 	at java.lang.Thread.run(Thread.java:923)
+06-27 12:30:01.682 20476 20476 I cr_PolicyProvider: #notifySettingsAvailable() 0
+06-27 12:30:01.682 20476 20476 I cr_CombinedPProvider: #onSettingsAvailable() 0
+06-27 12:30:01.682 20476 20476 I cr_CombinedPProvider: #flushPolicies()
+06-27 12:30:01.682 20476 20476 I cr_PolicyService: #onPolicyServiceInitialized()
+06-27 12:30:01.685 20519 20637 E chbox:googleap: No package ID 6b found for ID 0x6b0b000f.
+06-27 12:30:01.687 20519 20637 I FA      : App measurement initialized, version: 129000
+06-27 12:30:01.687 20519 20637 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+06-27 12:30:01.688 20519 20637 I FA      : To enable faster debug mode event logging run:
+06-27 12:30:01.688 20519 20637 I FA      :   adb shell setprop debug.firebase.analytics.app com.google.android.googlequicksearchbox
+06-27 12:30:01.695  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.700  7044 19820 I MediaProvider: Using lower FS for /storage/emulated/0/Download/496532558_18025984391680267_450573341771372002_n.jpg
+06-27 12:30:01.706 20476 20476 I cr_PolicyProvider: #notifySettingsAvailable() 0
+06-27 12:30:01.706 20476 20476 I cr_CombinedPProvider: #onSettingsAvailable() 0
+06-27 12:30:01.706 20476 20476 I cr_CombinedPProvider: #flushPolicies()
+06-27 12:30:01.706  7044 19820 I MediaProvider: Using lower FS for /storage/emulated/0/Download/498312040_18027255686680267_709310053466463410_n.jpg
+06-27 12:30:01.712  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.716  7044 19820 I MediaProvider: Using lower FS for /storage/emulated/0/Download/498719870_18027255596680267_65695734019526565_n.jpg
+06-27 12:30:01.722  7044 19820 I MediaProvider: Using lower FS for /storage/emulated/0/Download/500460638_18027846164680267_4187570197150923483_n.jpg
+06-27 12:30:01.725 20519 20637 W FA      : Failed to retrieve Firebase Instance Id
+06-27 12:30:01.728  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.729  7044 19820 I MediaProvider: Using lower FS for /storage/emulated/0/Download/500065976_18027846131680267_1130678403645304754_n.jpg
+06-27 12:30:01.738  7044 19820 I MediaProvider: Using lower FS for /storage/emulated/0/Download/500701830_18028321874680267_8539036790355305162_n.jpg
+06-27 12:30:01.744  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.745   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.auth.GetToken and for client com.android.chrome
+06-27 12:30:01.746   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.auth.GetTokenare :2
+06-27 12:30:01.746   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.android.chromeare :8
+06-27 12:30:01.747  7044 19820 I MediaProvider: Using lower FS for /storage/emulated/0/Download/EAadhaar_0000003512507620250120130417_22012025111451.pdf
+06-27 12:30:01.754  7044 19820 I MediaProvider: Using lower FS for /storage/emulated/0/Download/501829192_18028321805680267_6853248664381685073_n.jpg
+06-27 12:30:01.760  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.763 20562 20562 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+06-27 12:30:01.763 20562 20562 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+06-27 12:30:01.763  7044 19820 I MediaProvider: Using lower FS for /storage/emulated/0/Download/500479165_18028321778680267_547286455170483831_n.jpg
+06-27 12:30:01.767   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.measurement.service.MeasurementBrokerService and for client com.google.android.googlequicksearchbox:googleapp
+06-27 12:30:01.768   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.measurement.service.MeasurementBrokerServiceare :7
+06-27 12:30:01.768   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.googlequicksearchbox:googleappare :7
+06-27 12:30:01.770  7044 19820 I MediaProvider: Using lower FS for /storage/emulated/0/Download/_Jersey_Bgm_Nani_Anirudh_Telugu_Ringtone_(by Fringster.com).mp3
+06-27 12:30:01.772 20519 20637 W FA      : Failed to retrieve Firebase Instance Id
+06-27 12:30:01.775  7044 19820 I MediaProvider: Using lower FS for /storage/emulated/0/Download/471307246_2045194879236254_3161681698822847976_n.heic.jpg
+06-27 12:30:01.784  7044 19820 I MediaProvider: Using lower FS for /storage/emulated/0/Download/1745086265959.pdf
+06-27 12:30:01.784  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.784 20519 20637 W FA      : Failed to retrieve Firebase Instance Id
+06-27 12:30:01.791  7044 19820 I MediaProvider: Using lower FS for /storage/emulated/0/Download/images.jpeg
+06-27 12:30:01.794  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.797  3799 15292 I ChimeraPrvdrProxy: Shutting down chimera ContentProvider com.google.android.gms.reminders.provider.RemindersChimeraProvider
+06-27 12:30:01.798  3799  7927 D AdvertisingIdClient: AdvertisingIdClient already created.
+06-27 12:30:01.799  3799  7927 I AdvertisingIdClient: shouldSendLog 2723236
+06-27 12:30:01.799  3799  7927 I AdvertisingIdClient: GetInfoInternal elapse 2ms
+06-27 12:30:01.799  7044 19820 I MediaProvider: Using lower FS for /storage/emulated/0/Download/God-Of-Masses-BGM.mp3
+06-27 12:30:01.806  7044 19820 I MediaProvider: Using lower FS for /storage/emulated/0/Download/ROC - Transportation Specialist - JD with EVP.docx
+06-27 12:30:01.811  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.816  7044 19820 I MediaProvider: Using lower FS for /storage/emulated/0/Download/Nene Neku Sontham Nuvve Naku Pranam Ringtone Download - MobCup.Com.Co.mp3
+06-27 12:30:01.824 20519 20585 I cppi    : Chime Filter is invoked.
+06-27 12:30:01.825 20519 20585 I cppi    : Dropping with reason: SILENT_NOTIFICATION
+06-27 12:30:01.827  7044 19820 I MediaProvider: Using lower FS for /storage/emulated/0/Download/495734118_18025984262680267_7213540730082600292_n.jpg
+06-27 12:30:01.828  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.839 20562 20562 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+06-27 12:30:01.846  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.847 20476 20546 W chromium: [WARNING:net/cert/ev_root_ca_metadata.cc:119] Not implemented
+06-27 12:30:01.847  7044 19820 I MediaProvider: Using lower FS for /storage/emulated/0/Download/'ధర్మం, భక్తి, క్షమ – శ్రీరాముని జీవితం మనకు మార్గదర్శకమ...ుమి ...sriram #sitarama #rama #ayodhya #lordhanuman #sriramanavami #share.mp4
+06-27 12:30:01.856  7044 19820 I MediaProvider: Using lower FS for /storage/emulated/0/Download/_Khatarnak_Khiladi_Mirchi_Bgm_Ringtone_(by Fringster.com).mp3
+06-27 12:30:01.861  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.862 20562 20562 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+06-27 12:30:01.865  7044 19820 I MediaProvider: Using lower FS for /storage/emulated/0/Download/OD433947944301692100.pdf
+06-27 12:30:01.878  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.886  7044 19820 I MediaProvider: Using lower FS for /storage/emulated/0/Download/_Ms_Dhoni_Emotional_Music_Dhaval_K_Raval_Ringtone_(by Fringster.com).mp3
+06-27 12:30:01.890  1919  2326 W InputDispatcher: Permission denied: injecting event from pid 20562 uid 2000 to window Window{1d413a3 mode=0 rootTaskId=27375 u0 com.spotify.music/com.spotify.nowplaying.musicinstallation.NowPlayingActivity} owned by uid 10270
+06-27 12:30:01.890  1919  7178 W InputManager: Input event injection from pid 20562 permission denied.
+06-27 12:30:01.897  7044 19820 I MediaProvider: Using lower FS for /storage/emulated/0/Download/_Tholiprema_Varun_Bgm_Ringtone_(by Fringster.com).mp3
+06-27 12:30:01.900  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.904  7044 19820 I MediaProvider: Using lower FS for /storage/emulated/0/Download/game-of-thrones-ringtone-ringtones-x1404132042.mp3
+06-27 12:30:01.910 20562 20562 I app_process: System.exit called, status: 1
+06-27 12:30:01.911 20562 20562 I AndroidRuntime: VM exiting with result code 1.
+06-27 12:30:01.911  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.913  7044 19820 I MediaProvider: Using lower FS for /storage/emulated/0/Download/482798488_17912198043089939_485836524342858220_n.jpg
+06-27 12:30:01.917 20519 20611 I GnpSdk  : Message handled by GNP Firebase handler.
+06-27 12:30:01.918  7044 19820 I MediaProvider: Using lower FS for /storage/emulated/0/Download/Python_ChapterWise_Notes.zip
+06-27 12:30:01.921  1919  7178 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:30:01.921  1919  7178 D CompatibilityInfo: applicationDensity - 440
+06-27 12:30:01.921  1919  7178 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:30:01.922   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.gcm.PushMessagingRegistrarProxy and for client com.google.android.googlequicksearchbox:googleapp
+06-27 12:30:01.922   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.gcm.PushMessagingRegistrarProxyare :1
+06-27 12:30:01.922   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.googlequicksearchbox:googleappare :8
+06-27 12:30:01.922   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.google.android.gms/.gcm.PushMessagingRegistrarProxy
+06-27 12:30:01.925  7044 19820 I MediaProvider: Using lower FS for /storage/emulated/0/Download/500078765_18027846098680267_3109110156728605952_n.jpg
+06-27 12:30:01.927  1919  7178 I ActivityManager: Killing 18870:com.android.externalstorage/u0a82 (adj 985): empty #17
+06-27 12:30:01.927  1919  7178 I Process : PerfMonitor : current process sending signal quiet. PID: 18870 SIG: 9
+06-27 12:30:01.927  1919  2134 I Process : PerfMonitor : current process killing process group. PID: 18870
+06-27 12:30:01.928   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:01.928   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:01.928   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:01.928   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:01.928  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.928   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:01.928   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:01.928   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:01.946  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.946   698   698 D Zygote  : Forked child process 20657
+06-27 12:30:01.948  1919  2122 I ActivityManager: Start proc 20657:com.google.android.googlequicksearchbox:search/u0a188 for broadcast {com.google.android.googlequicksearchbox/com.google.android.apps.gsa.gcm.GcmBroadcastReceiver} caller=com.google.android.gms
+06-27 12:30:01.948 20657 20657 W Zygote  : Unable to open libbeluga.so: dlopen failed: library "libbeluga.so" not found.
+06-27 12:30:01.948   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.gcm.PushMessagingRegistrarProxy and for client com.google.android.googlequicksearchbox:googleapp
+06-27 12:30:01.948   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.gcm.PushMessagingRegistrarProxyafter removal is 0
+06-27 12:30:01.948   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.google.android.googlequicksearchbox:googleappafter removal is 7
+06-27 12:30:01.950   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.google.android.gms/.gcm.PushMessagingRegistrarProxy
+06-27 12:30:01.960 20657 20657 E earchbox:searc: Not starting debugger since process cannot load the jdwp agent.
+06-27 12:30:01.961  7044 19820 I MediaProvider: Using lower FS for /storage/emulated/0/Download/images (1).jpeg
+06-27 12:30:01.961  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.966  7044 19820 I MediaProvider: Using lower FS for /storage/emulated/0/Download/Our Cycle.mp3
+06-27 12:30:01.973  1919  2599 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:30:01.973  1919  2599 D CompatibilityInfo: applicationDensity - 440
+06-27 12:30:01.973  1919  2599 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:30:01.974  1919  2599 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:30:01.974  1919  2599 D CompatibilityInfo: applicationDensity - 440
+06-27 12:30:01.974  1919  2599 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:30:01.975  7044 19820 I MediaProvider: Using lower FS for /storage/emulated/0/Download/Kingdom-Teaser-BGM-Extended-Mix-HQ.mp3
+06-27 12:30:01.979  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.982  7044 19820 I MediaProvider: Using lower FS for /storage/emulated/0/Download/500639224_18028321847680267_2308518163545137765_n.jpg
+06-27 12:30:01.989   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:01.989   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:01.989   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:01.989   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:01.990  1919  2134 I libprocessgroup: Successfully killed process cgroup uid 10082 pid 18870 in 62ms
+06-27 12:30:01.990  1919  2599 W ANRStateManager: clear state, but process isn't exist. hash=41472910 uid=10082 pid=18870 state=16
+06-27 12:30:01.990   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:01.990   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:01.990   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:01.991   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: killProcess is called for pid : 18870
+06-27 12:30:01.990  8346  8389 I com.xiaomi.xms: oneway function results will be dropped but finished with status UNKNOWN_TRANSACTION and parcel size 0
+06-27 12:30:01.992  1919  2385 I MiuiNetworkPolicy: removeUidState uid = 10082
+06-27 12:30:01.996  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:01.997 20476 20494 I PlayCore: UID: [10192]  PID: [20476] OnRequestInstallCallback : onRequestInfo
+06-27 12:30:01.998  7044 19820 I MediaProvider: Using lower FS for /storage/emulated/0/Download/Python_Complete_Notes.pdf
+06-27 12:30:02.001   698   698 I Zygote  : Process 18870 exited due to signal 9 (Killed)
+06-27 12:30:02.005 20476 20565 I PlayCore: UID: [10192]  PID: [20476] AppUpdateService : Unbind from service.
+06-27 12:30:02.006   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.android.vending/com.google.android.finsky.installservice.DevTriggeredUpdateService and for client com.android.chrome
+06-27 12:30:02.006   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.android.vending/com.google.android.finsky.installservice.DevTriggeredUpdateServiceafter removal is 0
+06-27 12:30:02.006   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.android.chromeafter removal is 7
+06-27 12:30:02.010   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.android.vending/com.google.android.finsky.installservice.DevTriggeredUpdateService
+06-27 12:30:02.017  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.077  2671  3648 I chatty  : uid=1000(system) com.android.systemui identical 4 lines
+06-27 12:30:02.094  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.105 20657 20657 W earchbox:searc: JIT profile information will not be recorded: profile file does not exist.
+06-27 12:30:02.105 20657 20657 W earchbox:searc: JIT profile information will not be recorded: profile file does not exist.
+06-27 12:30:02.110 10366 10366 I wpa_supplicant: p2p0: CTRL-EVENT-AVOID-FREQ ranges=5500-5640
+06-27 12:30:02.110 10366 10366 I wpa_supplicant: p2p0: CTRL-EVENT-REGDOM-CHANGE init=DRIVER type=COUNTRY alpha2=IN
+06-27 12:30:02.110  1560  1560 I cnss-daemon: nl80211 response handler invoked
+06-27 12:30:02.110  1560  1560 I cnss-daemon: nl80211_response_handler: cmd 103, vendorID 4980, subcmd 10  received
+06-27 12:30:02.110   847  2607 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xa

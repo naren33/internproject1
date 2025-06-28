@@ -1,0 +1,5 @@
+--------- beginning of main
+06-27 12:34:44.477   969   969 W SurfaceFlingerInspector: slow HwComposer, duration=5s, total=177, timeOut=4, Max=4ms, timeOutAvg=4ms.
+06-27 12:34:44.480  1919  8366 D MessageMonitor: Dump Looper message took 0ms
+06-27 12:34:44.501  1919  8366 D MessageMonitor: Dump Looper message took 1ms
+06-27 12:34:44.501  1919  8366 D MessageMonitor: Dump Looper message took 0ms

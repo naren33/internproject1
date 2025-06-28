@@ -1,0 +1,58 @@
+--------- beginning of system
+06-27 12:34:37.920  1919  7660 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat=file:///sdcard/Music/sample.mp3 typ=audio/* flg=0x10000000 cmp=android/com.android.internal.app.ResolverActivity} from uid 2000
+--------- beginning of main
+06-27 12:34:37.921  1919  7660 D MiuiMultiWindowAdapter: MiuiMultiWindowAdapter::getFreeformBlackList::sSmallWindowBlackList = [com.miui.securitycenter, com.miui.weather2, com.miui.miservice, com.android.calendar, com.xiaomi.calendar, com.android.contacts, com.miui.mishare.connectivity, com.android.settings, com.android.printspooler, com.miui.backup, com.miui.huanji, com.miui.calculator, com.android.deskclock, com.android.thememanager, com.mfashiongallery.emag, com.miui.virtualsim, com.miui.smarttravel, com.mi.health, com.android.camera, com.lbe.security.miui, com.miui.cleanmaster, com.miui.newhome, com.miui.voiceassist, com.android.phone, com.miui.yellowpage, com.android.updater, com.miui.tsmclient, com.miui.securitycore, com.xiaomi.account, com.xiaomi.shop, com.mipay.wallet, com.xiaomi.youpin, com.xiaomi.hm.health, com.miui.bugreport, com.xiaomi.mibrain.speech, com.xiaomi.mimoji, com.xiaomi.scanner, com.duokan.phone.remotecontroller, com.miui.hybrid, com.android.incallui, com.miui.video, com.miui.videoplayer, com.miui.player, com.miui.fm, com.miui.packageinstaller, com.mi.android.globallauncher, com.google.android.dialer, com.google.android.apps.magazines, com.miui.compass, com.miui.greenguard, com.kiteguard, com.google.android.apps.prodcasts, com.google.ar.lens, com.xiangkan.android, com.android.bankabc, com.sohu.inputmethod.sogou, com.tencent.mtt, com.shyz.toutiao, com.netease.mc.mi, com.outfit7.talkingtomgoldrun.mi, com.doudz.mi, com.wepie.snake.new.mi, cn.jj, com.standddz002.mi, com.miHoYo.bh3.mi, com.qqgame.hlddz, com.happyelements.AndroidAnimal, com.minitech.miniworld.TMobile.mi, com.mfp.jelly.xiaomi, com.lilithgames.afk.mi, com.tencent.peng, com.teenpatti.hd.gold, blockpuzzle.jewelgames.jewelslegend, com.playgendary.tanks, com.chillingo.robberybobfree.android.row, com.episodeinteractive.android.catalog, com.playrix.township, com.ansangha.drdriving, com.google.android.youtube, com.gbits.atm.mi]
+06-27 12:34:37.922   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-27 12:34:37.922   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-27 12:34:37.926 26159 26161 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:34:37.962   885   937 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.measurement.service.MeasurementBrokerService and for client com.spotify.music
+06-27 12:34:37.963   885   937 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.measurement.service.MeasurementBrokerServiceafter removal is 0
+06-27 12:34:37.963   885   937 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.spotify.musicafter removal is 3
+06-27 12:34:37.965  3799  3799 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+06-27 12:34:37.966   885   937 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.google.android.gms/.measurement.service.MeasurementBrokerService
+06-27 12:34:38.194   885   937 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.chimera.PersistentDirectBootAwareApiService and for client com.google.android.gms.persistent
+06-27 12:34:38.194  3125  3125 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.libs.gmscorelogger.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentDirectBootAwareApiService }
+06-27 12:34:38.651  9395  9616 D TrafficManageService: onReceive: intent.action = com.android.server.action.NETWORK_STATS_UPDATED
+06-27 12:34:38.652  2671  2671 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+06-27 12:34:38.652  2671  2671 D BatteryController: onReceive: Intent = Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) } action = android.intent.action.BATTERY_CHANGED
+06-27 12:34:38.652  2841  2841 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+06-27 12:34:38.654  9395  9395 I PowerSaveService: onReceive: android.intent.action.BATTERY_CHANGED
+06-27 12:34:38.655  9739  9968 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 34, status = 2, level = 34, plug = 2, scale = 100
+06-27 12:34:38.656  9395  9395 I PowerNoticeUI: handleBatteryChanged oldPlugType 2 mPlugType 2 oldBatteryLevel 34 mBatteryLevel 34 temperature 267
+06-27 12:34:38.656  9395  9395 I ChargerBatteryIntelligenceReceiver: onBatteryChanged temperature：26,plugType:2
+06-27 12:34:38.657  9395  9395 I PowerFeatureUtils: getVendorName:qcom
+06-27 12:34:38.658  2881  2881 D DeviceStatisticsService: chargerType=2 batteryLevel=34 totalBatteryCapacity=2234000
+06-27 12:34:38.683 14895 14895 W ThreadPoolForeg: type=1400 audit(0.0:3899): avc: denied { write } for name="traced_producer" dev="tmpfs" ino=39154 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+06-27 12:34:38.728  1919  1940 W System  : A resource failed to call release. 
+06-27 12:34:38.728  1919  1940 I chatty  : uid=1000(system) FinalizerDaemon identical 15 lines
+06-27 12:34:38.728  1919  1940 W System  : A resource failed to call release. 
+06-27 12:34:38.761  1560  1560 I cnss-daemon: nl80211 response handler invoked
+06-27 12:34:38.761  1560  1560 I cnss-daemon: nl80211_response_handler: cmd 103, vendorID 4980, subcmd 13  received
+06-27 12:34:38.761   847  2607 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+06-27 12:34:38.894   969   969 W SurfaceFlingerInspector: slow HwComposer, duration=5s, total=180, timeOut=7, Max=4ms, timeOutAvg=4ms.
+06-27 12:34:40.020  1919  7216 I ActivityTaskManager: START u0 {act=android.intent.action.CALL dat=tel:xxxxxxxxxx flg=0x10000000 cmp=com.android.server.telecom/.components.UserCallActivity} from uid 2000
+06-27 12:34:40.020  1919  7216 W ActivityTaskManager: Permission Denial: starting Intent { act=android.intent.action.CALL dat=tel:xxxxxxxxxx flg=0x10000000 cmp=com.android.server.telecom/.components.UserCallActivity } from null (pid=26164, uid=2000) with revoked permission android.permission.CALL_PHONE
+06-27 12:34:40.021 26164 26166 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:34:40.173  1919  7216 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:34:40.173  1919  7216 D CompatibilityInfo: applicationDensity - 440
+06-27 12:34:40.173  1919  7216 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:34:40.768   847  2607 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+06-27 12:34:40.768  1560  1560 I cnss-daemon: nl80211 response handler invoked
+06-27 12:34:40.768  1560  1560 I cnss-daemon: nl80211_response_handler: cmd 103, vendorID 4980, subcmd 13  received
+06-27 12:34:41.134   885   937 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.chimera.PersistentDirectBootAwareApiService and for client com.google.android.gms
+06-27 12:34:42.110  1919  8366 I ActivityTaskManager: START u0 {act=android.intent.action.CALL dat=tel:xxxxxxxxxx flg=0x10000000 cmp=com.android.server.telecom/.components.UserCallActivity} from uid 2000
+06-27 12:34:42.111  1919  8366 W ActivityTaskManager: Permission Denial: starting Intent { act=android.intent.action.CALL dat=tel:xxxxxxxxxx flg=0x10000000 cmp=com.android.server.telecom/.components.UserCallActivity } from null (pid=26170, uid=2000) with revoked permission android.permission.CALL_PHONE
+06-27 12:34:42.112 26170 26172 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:34:42.468   885   937 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.google.android.googlequicksearchbox/com.google.android.apps.gsa.shared.util.keepalive.StandaloneKeepAlive$KeepAliveService
+06-27 12:34:42.772  1560  1560 I cnss-daemon: nl80211 response handler invoked
+06-27 12:34:42.773  1560  1560 I cnss-daemon: nl80211_response_handler: cmd 103, vendorID 4980, subcmd 13  received
+06-27 12:34:42.773   847  2607 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+06-27 12:34:43.043 10366 10366 I wpa_supplicant: p2p0: CTRL-EVENT-AVOID-FREQ ranges=
+06-27 12:34:43.044  1560  1560 I cnss-daemon: nl80211 response handler invoked
+06-27 12:34:43.044  1560  1560 I cnss-daemon: nl80211_response_handler: cmd 103, vendorID 4980, subcmd 10  received
+06-27 12:34:43.044   847  2607 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xa
+06-27 12:34:43.044 10366 10366 I wpa_supplicant: p2p0: CTRL-EVENT-REGDOM-CHANGE init=DRIVER type=COUNTRY alpha2=IN
+06-27 12:34:43.105  1919  2385 D MiuiNetworkPolicy: updateLimit mLimitEnabled=true,enabled=false,mNetworkPriorityMode=255
+06-27 12:34:44.210  1919  8366 I ActivityTaskManager: START u0 {act=android.intent.action.CALL dat=tel:xxxxxxxxxx flg=0x10000000 cmp=com.android.server.telecom/.components.UserCallActivity} from uid 2000
+06-27 12:34:44.211  1919  8366 W ActivityTaskManager: Permission Denial: starting Intent { act=android.intent.action.CALL dat=tel:xxxxxxxxxx flg=0x10000000 cmp=com.android.server.telecom/.components.UserCallActivity } from null (pid=26175, uid=2000) with revoked permission android.permission.CALL_PHONE
+06-27 12:34:44.212 26175 26177 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4

@@ -1,0 +1,558 @@
+--------- beginning of system
+06-27 12:35:06.603  1919  2599 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat=file:///sdcard/Music/sample.mp3 typ=audio/* flg=0x10000000 cmp=android/com.android.internal.app.ResolverActivity} from uid 2000
+--------- beginning of main
+06-27 12:35:06.604  1919  2599 D MiuiMultiWindowAdapter: MiuiMultiWindowAdapter::getFreeformBlackList::sSmallWindowBlackList = [com.miui.securitycenter, com.miui.weather2, com.miui.miservice, com.android.calendar, com.xiaomi.calendar, com.android.contacts, com.miui.mishare.connectivity, com.android.settings, com.android.printspooler, com.miui.backup, com.miui.huanji, com.miui.calculator, com.android.deskclock, com.android.thememanager, com.mfashiongallery.emag, com.miui.virtualsim, com.miui.smarttravel, com.mi.health, com.android.camera, com.lbe.security.miui, com.miui.cleanmaster, com.miui.newhome, com.miui.voiceassist, com.android.phone, com.miui.yellowpage, com.android.updater, com.miui.tsmclient, com.miui.securitycore, com.xiaomi.account, com.xiaomi.shop, com.mipay.wallet, com.xiaomi.youpin, com.xiaomi.hm.health, com.miui.bugreport, com.xiaomi.mibrain.speech, com.xiaomi.mimoji, com.xiaomi.scanner, com.duokan.phone.remotecontroller, com.miui.hybrid, com.android.incallui, com.miui.video, com.miui.videoplayer, com.miui.player, com.miui.fm, com.miui.packageinstaller, com.mi.android.globallauncher, com.google.android.dialer, com.google.android.apps.magazines, com.miui.compass, com.miui.greenguard, com.kiteguard, com.google.android.apps.prodcasts, com.google.ar.lens, com.xiangkan.android, com.android.bankabc, com.sohu.inputmethod.sogou, com.tencent.mtt, com.shyz.toutiao, com.netease.mc.mi, com.outfit7.talkingtomgoldrun.mi, com.doudz.mi, com.wepie.snake.new.mi, cn.jj, com.standddz002.mi, com.miHoYo.bh3.mi, com.qqgame.hlddz, com.happyelements.AndroidAnimal, com.minitech.miniworld.TMobile.mi, com.mfp.jelly.xiaomi, com.lilithgames.afk.mi, com.tencent.peng, com.teenpatti.hd.gold, blockpuzzle.jewelgames.jewelslegend, com.playgendary.tanks, com.chillingo.robberybobfree.android.row, com.episodeinteractive.android.catalog, com.playrix.township, com.ansangha.drdriving, com.google.android.youtube, com.gbits.atm.mi]
+06-27 12:35:06.605   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-27 12:35:06.605   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-27 12:35:06.611 26441 26443 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:35:06.623   969   969 W SurfaceFlingerInspector: slow HwComposer, duration=5s, total=37, timeOut=2, Max=4ms, timeOutAvg=4ms.
+06-27 12:35:06.788   885   937 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.chimera.PersistentDirectBootAwareApiService and for client com.google.android.gms.persistent
+06-27 12:35:06.790  3125  3125 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.libs.gmscorelogger.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentDirectBootAwareApiService }
+06-27 12:35:06.807  1560  1560 I cnss-daemon: nl80211 response handler invoked
+06-27 12:35:06.807  1560  1560 I cnss-daemon: nl80211_response_handler: cmd 103, vendorID 4980, subcmd 13  received
+06-27 12:35:06.807   847  2607 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+06-27 12:35:07.258  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10264, uidState = 19
+06-27 12:35:07.274  2671  2799 D NetworkController.MobileSignalController(2): onSignalStrengthsChanged signalStrength=SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 miuiLevel=0 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 miuiLevel=0 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 miuiLevel=0 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 miuiLevel=0 level=0,mLte=CellSignalStrengthLte: rssi=-67 rsrp=-103 rsrq=-15 rssnr=-1 cqi=2147483647 ta=2147483647 miuiLevel=4 level=3 parametersUseForLevel=0,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiSinr = 2147483647 ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 miuiLevel = 0 level = 0 parametersUseForLevel = 0 },primary=CellSignalStrengthLte} level=3
+06-27 12:35:07.274  2671  2799 D NetworkController.MobileSignalController(2): updateTelephonySignalStrength: hasService=true ss=SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 miuiLevel=0 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 miuiLevel=0 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 miuiLevel=0 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 miuiLevel=0 level=0,mLte=CellSignalStrengthLte: rssi=-67 rsrp=-103 rsrq=-15 rssnr=-1 cqi=2147483647 ta=2147483647 miuiLevel=4 level=3 parametersUseForLevel=0,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiSinr = 2147483647 ssRsrp = 2147483647 ssRsrq = 2147483647 ssSinr = 2147483647 miuiLevel = 0 level = 0 parametersUseForLevel = 0 },primary=CellSignalStrengthLte} displayInfo=TelephonyDisplayInfo {network=IWLAN, override=NONE}
+06-27 12:35:07.275  2671  2799 D NetworkController.MobileSignalController(2): NotQcom5G, signal level = 4
+06-27 12:35:07.283  1919  1919 W AlarmManager: No in-flight alarm for PendingIntent{6661a81: PendingIntentRecord{652c726 com.whatsapp broadcastIntent}} Intent { act=com.whatsapp.MessageHandler.LOGOUT_ACTION flg=0x10 pkg=com.whatsapp }
+06-27 12:35:07.286  3125 24203 E NetworkScheduler.TED: Unable to bind to task service: ComponentInfo{com.google.android.gms/com.google.android.gms.clearcut.uploader.QosUploaderService}
+06-27 12:35:07.286  3125 24203 W NetworkScheduler.TED: Couldn't unbind from the task service in remote user
+06-27 12:35:07.318  3125 26336 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-27 12:35:07.319   885   937 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.UnstableInternalBoundBrokerService and for client com.google.android.gms.persistent
+06-27 12:35:07.319   885   937 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.UnstableInternalBoundBrokerServiceare :1
+06-27 12:35:07.319   885   937 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gms.persistentare :9
+06-27 12:35:07.320  1919  2599 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:35:07.320  1919  2599 D CompatibilityInfo: applicationDensity - 440
+06-27 12:35:07.320  1919  2599 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:35:07.320   885   937 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.google.android.gms/.chimera.UnstableInternalBoundBrokerService
+06-27 12:35:07.321   885   937 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.ads.social.GcmSchedulerWakeupService and for client com.google.android.gms.persistent
+06-27 12:35:07.321   885   937 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.ads.social.GcmSchedulerWakeupServiceafter removal is 0
+06-27 12:35:07.321   885   937 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.google.android.gms.persistentafter removal is 8
+06-27 12:35:07.322   885   937 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.google.android.gms/.ads.social.GcmSchedulerWakeupService
+06-27 12:35:07.325   885   937 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.constellation.checker.RefreshGcmTaskService and for client com.google.android.gms.persistent
+06-27 12:35:07.325   885   937 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.constellation.checker.RefreshGcmTaskServiceare :1
+06-27 12:35:07.325   885   937 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gms.persistentare :9
+06-27 12:35:07.325  1919  7657 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:35:07.325  1919  7657 D CompatibilityInfo: applicationDensity - 440
+06-27 12:35:07.325  1919  7657 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:35:07.326   885   937 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.google.android.gms/.constellation.checker.RefreshGcmTaskService
+06-27 12:35:07.327 14895 14895 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.droidguard.DroidGuardFastRefreshGmsTaskBoundService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.UnstableInternalBoundBrokerService }
+06-27 12:35:07.327 14895 14895 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.droidguard.DroidGuardFastRefreshGmsTaskBoundService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.UnstableInternalBoundBrokerService }
+06-27 12:35:07.346  3125 26336 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+06-27 12:35:07.347  3799 25247 I constellation: [refresh_gcm_service] Running refresh sync
+06-27 12:35:07.357   885   937 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.PersistentDirectBootAwareApiService and for client com.google.android.gms
+06-27 12:35:07.357   885   937 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.PersistentDirectBootAwareApiServiceare :15
+06-27 12:35:07.357   885   937 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gmsare :4
+06-27 12:35:07.367  3125 24203 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+06-27 12:35:07.375  1919  7657 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:35:07.375  1919  7657 D CompatibilityInfo: applicationDensity - 440
+06-27 12:35:07.375  1919  7657 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:35:07.376   885   937 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.google.android.gms/.chimera.GmsIntentOperationService
+06-27 12:35:07.380  3125 26338 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-27 12:35:07.382   885   937 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.constellation.checker.RefreshGcmTaskService and for client com.google.android.gms.persistent
+06-27 12:35:07.382   885   937 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.constellation.checker.RefreshGcmTaskServiceafter removal is 0
+06-27 12:35:07.382   885   937 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.google.android.gms.persistentafter removal is 8
+06-27 12:35:07.382   885   937 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.google.android.gms/.constellation.checker.RefreshGcmTaskService
+06-27 12:35:07.396   885   937 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.GmsInternalBoundBrokerService and for client com.google.android.gms
+06-27 12:35:07.396   885   937 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.GmsInternalBoundBrokerServiceare :1
+06-27 12:35:07.396   885   937 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gmsare :5
+06-27 12:35:07.401  1919  2599 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:35:07.401  1919  2599 D CompatibilityInfo: applicationDensity - 440
+06-27 12:35:07.401  1919  2599 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:35:07.402   885   937 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.google.android.gms/.chimera.GmsInternalBoundBrokerService
+06-27 12:35:07.403  3799  3799 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+06-27 12:35:07.403  3799  3799 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+06-27 12:35:07.410   885   937 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.PersistentApiService and for client com.google.android.gms
+06-27 12:35:07.410   885   937 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.PersistentApiServiceare :9
+06-27 12:35:07.410   885   937 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gmsare :5
+06-27 12:35:07.411  3125  3125 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.auth.aang.events.services.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+06-27 12:35:07.420   885   937 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.auth.GetToken and for client com.google.android.gms
+06-27 12:35:07.420   885   937 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.auth.GetTokenare :1
+06-27 12:35:07.420   885   937 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gmsare :6
+06-27 12:35:07.420  1919  2599 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:35:07.420  1919  2599 D CompatibilityInfo: applicationDensity - 440
+06-27 12:35:07.420  1919  2599 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:35:07.422   885   937 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.google.android.gms/.auth.GetToken
+06-27 12:35:07.423  3125 24203 E NetworkScheduler.TED: Unable to bind to task service: ComponentInfo{com.google.android.gms/com.google.android.gms.phenotype.service.sync.PhenotypeConfigurator}
+06-27 12:35:07.423  3125 24203 W NetworkScheduler.TED: Couldn't unbind from the task service in remote user
+06-27 12:35:07.432   885   937 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.PersistentApiService and for client com.google.android.gms.persistent
+06-27 12:35:07.432   885   937 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.PersistentApiServiceare :9
+06-27 12:35:07.432   885   937 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gms.persistentare :8
+06-27 12:35:07.436  3799 26444 I constellation: [event_manager] Starting session. sessionId: 3c8321c7-6240-4a6d-acfd-8132b9a10417 from trigger: 2
+06-27 12:35:07.438   885   937 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.GmsApiService and for client com.google.android.gms
+06-27 12:35:07.438   885   937 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.GmsApiServiceare :4
+06-27 12:35:07.438   885   937 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gmsare :7
+06-27 12:35:07.443  3125 26336 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-27 12:35:07.444  3125 24203 E NetworkScheduler.TED: Unable to bind to task service: ComponentInfo{com.google.android.gms/com.google.android.gms.auth.account.be.accountstate.GcmTaskService}
+06-27 12:35:07.444  3125 24203 W NetworkScheduler.TED: Couldn't unbind from the task service in remote user
+06-27 12:35:07.448   885   937 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.lockbox.service.LockboxBrokerService and for client com.google.android.googlequicksearchbox:search
+06-27 12:35:07.448   885   937 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.lockbox.service.LockboxBrokerServiceafter removal is 0
+06-27 12:35:07.448   885   937 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.google.android.googlequicksearchbox:searchafter removal is 2
+06-27 12:35:07.448   885   937 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.google.android.gms/.lockbox.service.LockboxBrokerService
+06-27 12:35:07.452  3125 26336 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-27 12:35:07.452   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.gass.chimera.SchedulePeriodicTasksService and for client com.google.android.gms.persistent
+06-27 12:35:07.452   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.gass.chimera.SchedulePeriodicTasksServiceare :1
+06-27 12:35:07.452   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gms.persistentare :9
+06-27 12:35:07.452  1919  7657 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:35:07.452  1919  7657 D CompatibilityInfo: applicationDensity - 440
+06-27 12:35:07.452  1919  7657 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:35:07.455   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.google.android.gms/.gass.chimera.SchedulePeriodicTasksService
+06-27 12:35:07.457  3125 26336 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+06-27 12:35:07.457  3799 26444 I constellation: [verification_manager] No cached state for EXTERNAL_CONSENT_ACTIVITY_STATE
+06-27 12:35:07.461  3799 26444 I constellation: [verification_manager] No cached state for ON_DEMAND_CONSENT_STATE
+06-27 12:35:07.463   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.gass.chimera.SchedulePeriodicTasksService and for client com.google.android.gms.persistent
+06-27 12:35:07.463   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.gass.chimera.SchedulePeriodicTasksServiceafter removal is 0
+06-27 12:35:07.463   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.google.android.gms.persistentafter removal is 8
+06-27 12:35:07.463  3125 24203 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-27 12:35:07.463   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.google.android.gms/.gass.chimera.SchedulePeriodicTasksService
+06-27 12:35:07.465  3799 26444 I constellation: [verification_manager] No cached state for ON_DEMAND_CONSENT_V2_STATE
+06-27 12:35:07.473   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.droidguard.DroidGuardService and for client com.google.android.gms
+06-27 12:35:07.473   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.droidguard.DroidGuardServiceare :2
+06-27 12:35:07.473   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gmsare :8
+06-27 12:35:07.480  3125 24203 E NetworkScheduler.TED: Unable to bind to task service: ComponentInfo{com.google.android.gms/com.google.android.gms.security.snet.SnetNormalTaskService}
+06-27 12:35:07.480  3125 24203 W NetworkScheduler.TED: Couldn't unbind from the task service in remote user
+06-27 12:35:07.490  3125 26336 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-27 12:35:07.491  3125 24203 E NetworkScheduler.TED: Unable to bind to task service: ComponentInfo{com.google.android.gms/com.google.android.gms.mdisync.service.MdiSyncBackgroundTaskService}
+06-27 12:35:07.491  3125 24203 W NetworkScheduler.TED: Couldn't unbind from the task service in remote user
+06-27 12:35:07.502   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.auth.be.appcert.AppCertService and for client com.google.android.gms
+06-27 12:35:07.502   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.auth.be.appcert.AppCertServiceare :1
+06-27 12:35:07.502   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gmsare :9
+06-27 12:35:07.502  1919  7657 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:35:07.502  1919  7657 D CompatibilityInfo: applicationDensity - 440
+06-27 12:35:07.502  1919  7657 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:35:07.502   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.google.android.gms/.auth.be.appcert.AppCertService
+06-27 12:35:07.505   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.tapandpay.gcmtask.TapAndPayGcmTaskService and for client com.google.android.gms.persistent
+06-27 12:35:07.505   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.tapandpay.gcmtask.TapAndPayGcmTaskServiceare :1
+06-27 12:35:07.505   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gms.persistentare :9
+06-27 12:35:07.505  1919  2599 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:35:07.505  1919  2599 D CompatibilityInfo: applicationDensity - 440
+06-27 12:35:07.505  1919  2599 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:35:07.505  3125 26336 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-27 12:35:07.505   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.google.android.gms/.tapandpay.gcmtask.TapAndPayGcmTaskService
+06-27 12:35:07.510  3125 26336 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+06-27 12:35:07.527   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.tapandpay.gcmtask.TapAndPayGcmTaskService and for client com.google.android.gms.persistent
+06-27 12:35:07.527   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.tapandpay.gcmtask.TapAndPayGcmTaskServiceafter removal is 0
+06-27 12:35:07.527   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.google.android.gms.persistentafter removal is 8
+06-27 12:35:07.527  3125 24203 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-27 12:35:07.527   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.google.android.gms/.tapandpay.gcmtask.TapAndPayGcmTaskService
+06-27 12:35:07.544  3125 24203 E NetworkScheduler.TED: Unable to bind to task service: ComponentInfo{com.google.android.gms/com.google.android.gms.ipa.base.IpaGcmTaskService}
+06-27 12:35:07.544  3125 24203 W NetworkScheduler.TED: Couldn't unbind from the task service in remote user
+06-27 12:35:07.556  3125 26336 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-27 12:35:07.559  3125 24203 E NetworkScheduler.TED: Unable to bind to task service: ComponentInfo{com.google.android.gms/com.google.android.gms.ads.social.GcmSchedulerWakeupService}
+06-27 12:35:07.559  3125 24203 W NetworkScheduler.TED: Couldn't unbind from the task service in remote user
+06-27 12:35:07.570  3799 25247 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+06-27 12:35:07.572   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.tapandpay.gcmtask.TapAndPayGcmTaskService and for client com.google.android.gms.persistent
+06-27 12:35:07.572   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.tapandpay.gcmtask.TapAndPayGcmTaskServiceare :1
+06-27 12:35:07.572   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gms.persistentare :9
+06-27 12:35:07.572  1919  7212 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:35:07.572  1919  7212 D CompatibilityInfo: applicationDensity - 440
+06-27 12:35:07.572  1919  7212 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:35:07.573   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.google.android.gms/.tapandpay.gcmtask.TapAndPayGcmTaskService
+06-27 12:35:07.574  3799 25247 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@252331022@25.23.31 (150400-769856126):219)
+06-27 12:35:07.574  3799 25247 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@252331022@25.23.31 (150400-769856126):4)
+06-27 12:35:07.575  3125 26336 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-27 12:35:07.578  3125 24203 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+06-27 12:35:07.603  3799 25247 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+06-27 12:35:07.603  3799 25247 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@252331022@25.23.31 (150400-769856126):219)
+06-27 12:35:07.603  3799 25247 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@252331022@25.23.31 (150400-769856126):4)
+06-27 12:35:07.605   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.auth.GetToken and for client com.google.android.gms.persistent
+06-27 12:35:07.605   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.auth.GetTokenare :2
+06-27 12:35:07.605   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gms.persistentare :10
+06-27 12:35:07.612   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.tapandpay.gcmtask.TapAndPayGcmTaskService and for client com.google.android.gms.persistent
+06-27 12:35:07.612   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.tapandpay.gcmtask.TapAndPayGcmTaskServiceafter removal is 0
+06-27 12:35:07.612   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.google.android.gms.persistentafter removal is 9
+06-27 12:35:07.613   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.google.android.gms/.tapandpay.gcmtask.TapAndPayGcmTaskService
+06-27 12:35:07.614  3125 24203 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-27 12:35:07.638  3125 24203 E NetworkScheduler.TED: Unable to bind to task service: ComponentInfo{com.google.android.gms/com.google.android.gms.checkin.CheckinService}
+06-27 12:35:07.638  3125 24203 W NetworkScheduler.TED: Couldn't unbind from the task service in remote user
+06-27 12:35:07.646  3125 26338 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-27 12:35:07.655  1919  3239 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:35:07.655  1919  3239 D CompatibilityInfo: applicationDensity - 440
+06-27 12:35:07.655  1919  3239 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:35:07.656   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.tapandpay.gcmtask.TapAndPayGcmTaskService and for client com.google.android.gms.persistent
+06-27 12:35:07.657   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.tapandpay.gcmtask.TapAndPayGcmTaskServiceare :1
+06-27 12:35:07.657   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gms.persistentare :10
+06-27 12:35:07.657   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.google.android.gms/.tapandpay.gcmtask.TapAndPayGcmTaskService
+06-27 12:35:07.663  3125 26338 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+06-27 12:35:07.669  3125 26336 E NetworkScheduler.TED: Unable to bind to task service: ComponentInfo{com.google.android.gms/com.google.android.gms.languageprofile.GcmTaskService}
+06-27 12:35:07.669  3125 26336 W NetworkScheduler.TED: Couldn't unbind from the task service in remote user
+06-27 12:35:07.675  3125 26338 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-27 12:35:07.678   885   937 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.tapandpay.gcmtask.TapAndPayGcmTaskService and for client com.google.android.gms.persistent
+06-27 12:35:07.678   885   937 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.tapandpay.gcmtask.TapAndPayGcmTaskServiceafter removal is 0
+06-27 12:35:07.678   885   937 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.google.android.gms.persistentafter removal is 9
+06-27 12:35:07.678   885   937 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.google.android.gms/.tapandpay.gcmtask.TapAndPayGcmTaskService
+06-27 12:35:07.679  3125 26338 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-27 12:35:07.683   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.whatsapp/.messaging.MessageService
+06-27 12:35:07.685  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10248, uidState = 19
+06-27 12:35:07.700   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.tapandpay.gcmtask.TapAndPayGcmTaskService and for client com.google.android.gms.persistent
+06-27 12:35:07.700   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.tapandpay.gcmtask.TapAndPayGcmTaskServiceare :1
+06-27 12:35:07.700   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gms.persistentare :10
+06-27 12:35:07.700  1919  3239 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:35:07.700  1919  3239 D CompatibilityInfo: applicationDensity - 440
+06-27 12:35:07.700  1919  3239 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:35:07.700   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.google.android.gms/.tapandpay.gcmtask.TapAndPayGcmTaskService
+06-27 12:35:07.707  3125 26338 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+06-27 12:35:07.708  3125 26336 E NetworkScheduler.TED: Unable to bind to task service: ComponentInfo{com.google.android.gms/com.google.android.gms.languageprofile.GcmTaskService}
+06-27 12:35:07.708  3125 26336 W NetworkScheduler.TED: Couldn't unbind from the task service in remote user
+06-27 12:35:07.713  3125 26338 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-27 12:35:07.716   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.tapandpay.gcmtask.TapAndPayGcmTaskService and for client com.google.android.gms.persistent
+06-27 12:35:07.716   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.tapandpay.gcmtask.TapAndPayGcmTaskServiceafter removal is 0
+06-27 12:35:07.716   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.google.android.gms.persistentafter removal is 9
+06-27 12:35:07.716  3125 26338 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-27 12:35:07.716   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.google.android.gms/.tapandpay.gcmtask.TapAndPayGcmTaskService
+06-27 12:35:07.738   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.tapandpay.gcmtask.TapAndPayGcmTaskService and for client com.google.android.gms.persistent
+06-27 12:35:07.738   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.tapandpay.gcmtask.TapAndPayGcmTaskServiceare :1
+06-27 12:35:07.738   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gms.persistentare :10
+06-27 12:35:07.738  1919  3081 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:35:07.738  1919  3081 D CompatibilityInfo: applicationDensity - 440
+06-27 12:35:07.738  1919  3081 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:35:07.738   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.google.android.gms/.tapandpay.gcmtask.TapAndPayGcmTaskService
+06-27 12:35:07.746  3125 26338 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+06-27 12:35:07.746  3125 26336 E NetworkScheduler.TED: Unable to bind to task service: ComponentInfo{com.google.android.gms/com.google.android.gms.phenotype.service.sync.PhenotypeConfigurator}
+06-27 12:35:07.746  3125 26336 W NetworkScheduler.TED: Couldn't unbind from the task service in remote user
+06-27 12:35:07.750  3125 26448 W ChimeraUtils: Module com.google.android.gms.tapandpay missing resource null(0)
+06-27 12:35:07.750  3125 26448 W ChimeraUtils: Module com.google.android.gms.tapandpay missing resource null(0)
+06-27 12:35:07.756  3125 26338 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-27 12:35:07.764  3125 26448 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-27 12:35:07.765   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.tapandpay.gcmtask.TapAndPayGcmTaskService and for client com.google.android.gms.persistent
+06-27 12:35:07.765   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.tapandpay.gcmtask.TapAndPayGcmTaskServiceafter removal is 0
+06-27 12:35:07.765   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.google.android.gms.persistentafter removal is 9
+06-27 12:35:07.765   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.google.android.gms/.tapandpay.gcmtask.TapAndPayGcmTaskService
+06-27 12:35:07.769  7088  9694 W PSIUtils: MEMORY_SOME|21121846|3112580113196
+06-27 12:35:07.790   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.pay.gcmtask.PayGcmTaskService and for client com.google.android.gms.persistent
+06-27 12:35:07.790   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.pay.gcmtask.PayGcmTaskServiceare :1
+06-27 12:35:07.790   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gms.persistentare :10
+06-27 12:35:07.790  1919  7140 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:35:07.790  1919  7140 D CompatibilityInfo: applicationDensity - 440
+06-27 12:35:07.790  1919  7140 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:35:07.790   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.google.android.gms/.pay.gcmtask.PayGcmTaskService
+06-27 12:35:07.805  3125 26448 E NetworkScheduler.TED: Unable to bind to task service: ComponentInfo{com.google.android.gms/com.google.android.gms.languageprofile.GcmTaskService}
+06-27 12:35:07.805  3125 26448 W NetworkScheduler.TED: Couldn't unbind from the task service in remote user
+06-27 12:35:07.818  3125 26338 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-27 12:35:07.819  3125 26448 E NetworkScheduler.TED: Unable to bind to task service: ComponentInfo{com.google.android.gms/com.google.android.gms.languageprofile.GcmTaskService}
+06-27 12:35:07.820  3125 26448 W NetworkScheduler.TED: Couldn't unbind from the task service in remote user
+06-27 12:35:07.831  3125 26338 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-27 12:35:07.852  3125 26448 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+06-27 12:35:07.854   841   886 I sensors-hal: batch:180, android.sensor.linear_acceleration/42, period=20000000, max_latency=0
+06-27 12:35:07.856   841   886 I sensors-hal: batch:189, android.sensor.linear_acceleration/42, period=20000000, max_latency=0 request completed
+06-27 12:35:07.856   841   886 I sensors-hal: flush:209, android.sensor.linear_acceleration/42
+06-27 12:35:07.858   841   886 I sensors-hal: flush:215, android.sensor.linear_acceleration/42 completed
+06-27 12:35:07.859   841   886 I sensors-hal: batch:180, android.sensor.rotation_vector/14, period=20000000, max_latency=0
+06-27 12:35:07.859   841   886 I sensors-hal: batch:189, android.sensor.rotation_vector/14, period=20000000, max_latency=0 request completed
+06-27 12:35:07.860   841   886 I sensors-hal: activate:147, android.sensor.rotation_vector/14 en=1
+06-27 12:35:07.860   841   886 I sensors-hal: get_qmi_debug_flag:241, support_qmi_debug : false
+06-27 12:35:07.866   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.auth.GetToken and for client com.google.android.gms
+06-27 12:35:07.866   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.auth.GetTokenare :2
+06-27 12:35:07.866   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gmsare :9
+06-27 12:35:07.866  1424  1424 I keystore: del USRPKEY_unstable.c7202ece89390c490b1b94d5b71225e1.-4445182685052190290 10183
+06-27 12:35:07.866  1424  1424 I keystore: del USRSKEY_unstable.c7202ece89390c490b1b94d5b71225e1.-4445182685052190290 10183
+06-27 12:35:07.867   841   886 I sensors-hal: activate:158, android.sensor.rotation_vector/14 en=1 completed
+06-27 12:35:07.867  1424  1424 I keystore: del USRCERT_unstable.c7202ece89390c490b1b94d5b71225e1.-4445182685052190290 10183
+06-27 12:35:07.867  1424  1424 I keystore: del CACERT_unstable.c7202ece89390c490b1b94d5b71225e1.-4445182685052190290 10183
+06-27 12:35:07.868   601   623 D DrmLibTime: got the req here! ret=0
+06-27 12:35:07.868   601   623 D DrmLibTime: command id, time_cmd_id = 770
+06-27 12:35:07.869   601   623 D DrmLibTime: time_getutcsec starts!
+06-27 12:35:07.869   601   623 D DrmLibTime: QSEE Time Listener: time_getutcsec
+06-27 12:35:07.869   601   623 D DrmLibTime: QSEE Time Listener: get_utc_seconds
+06-27 12:35:07.869   601   623 D DrmLibTime: QSEE Time Listener: time_get_modem_time
+06-27 12:35:07.869   601   623 D DrmLibTime: QSEE Time Listener: Checking if ATS_MODEM is set or not.
+06-27 12:35:07.869   601   623 D QC-time-services: Lib:time_genoff_operation: pargs->base = 13
+06-27 12:35:07.869   601   623 D QC-time-services: Lib:time_genoff_operation: pargs->operation = 2
+06-27 12:35:07.869   601   623 D QC-time-services: Lib:time_genoff_operation: pargs->ts_val = 0
+06-27 12:35:07.869   601   623 D QC-time-services: Lib:time_genoff_operation: Send to server  passed!!
+06-27 12:35:07.869   691   965 D QC-time-services: Daemon: Connection accepted:time_genoff
+06-27 12:35:07.869   691 26457 D QC-time-services: Daemon:Received base = 13, unit = 1, operation = 2,value = 0
+06-27 12:35:07.869   691 26457 D QC-time-services: Daemon:genoff_opr: Base = 13, val = 0, operation = 2
+06-27 12:35:07.869   691 26457 D QC-time-services: offset is: 1 for base: 13
+06-27 12:35:07.869   601   623 E QC-time-services: Receive Passed == base = 13, unit = 1, operation = 2, result = 0
+06-27 12:35:07.869   601   623 D DrmLibTime: QSEE Time Listener: ATS_MODEM is set. Try to retrieve it.
+06-27 12:35:07.870   691   965 E QC-time-services: Daemon: Time-services: Waiting to acceptconnection
+06-27 12:35:07.870   691   965 D QC-time-services: Daemon: Connection accepted:time_genoff
+06-27 12:35:07.870   691 26458 D QC-time-services: Daemon:Received base = 13, unit = 1, operation = 1,value = 0
+06-27 12:35:07.870   691 26458 D QC-time-services: Daemon:genoff_opr: Base = 13, val = 0, operation = 1
+06-27 12:35:07.870   691 26458 D QC-time-services: Daemon: genoff get for 13
+06-27 12:35:07.870   691 26458 D QC-time-services: Daemon:Value read from QTimer mseconds = 3115645
+06-27 12:35:07.870   691 26458 D QC-time-services: Daemon:Value read from RTC mseconds on boot = 16820321000
+06-27 12:35:07.870   691 26458 D QC-time-services: Daemon:Value read from QTimer mseconds = 3115645
+06-27 12:35:07.870   691 26458 D QC-time-services: Daemon:Value read from generic offset = 1734184476166
+06-27 12:35:07.870   691 26458 D QC-time-services: Daemon:Delta read on boot mseconds = 16820315161
+06-27 12:35:07.870   691 26458 D QC-time-services: Daemon:Final Time = 1751007906972
+06-27 12:35:07.870   601   623 D DrmLibTime: QSEE Time Listener: Time GenOff - seconds: 1751007906
+06-27 12:35:07.870   601   623 D DrmLibTime: time_getutcsec returns 0, sec = 1751007906; nsec = 0
+06-27 12:35:07.870   601   623 D DrmLibTime: time_getutcsec finished! 
+06-27 12:35:07.870   601   623 D DrmLibTime: iotcl_continue_command finished! and return 0 
+06-27 12:35:07.870   601   623 D DrmLibTime: before calling ioctl to read the next time_cmd
+06-27 12:35:07.875   691   965 E QC-time-services: Daemon: Time-services: Waiting to acceptconnection
+06-27 12:35:07.878   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.pay.gcmtask.PayGcmTaskService and for client com.google.android.gms.persistent
+06-27 12:35:07.878   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.pay.gcmtask.PayGcmTaskServiceafter removal is 0
+06-27 12:35:07.878   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.google.android.gms.persistentafter removal is 9
+06-27 12:35:07.878  3125 26448 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-27 12:35:07.879   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.google.android.gms/.pay.gcmtask.PayGcmTaskService
+06-27 12:35:07.904   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.pay.gcmtask.PayGcmTaskService and for client com.google.android.gms.persistent
+06-27 12:35:07.904   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.pay.gcmtask.PayGcmTaskServiceare :1
+06-27 12:35:07.904   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gms.persistentare :10
+06-27 12:35:07.904  1919  7655 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:35:07.904  1919  7655 D CompatibilityInfo: applicationDensity - 440
+06-27 12:35:07.904  1919  7655 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:35:07.905   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.google.android.gms/.pay.gcmtask.PayGcmTaskService
+06-27 12:35:07.910  1424  1424 I keystore: del USRPKEY_unstable.c7202ece89390c490b1b94d5b71225e1.4905076866376247439 10183
+06-27 12:35:07.910  1424  1424 I keystore: del USRSKEY_unstable.c7202ece89390c490b1b94d5b71225e1.4905076866376247439 10183
+06-27 12:35:07.910  1424  1424 I keystore: del USRCERT_unstable.c7202ece89390c490b1b94d5b71225e1.4905076866376247439 10183
+06-27 12:35:07.911  1424  1424 I keystore: del CACERT_unstable.c7202ece89390c490b1b94d5b71225e1.4905076866376247439 10183
+06-27 12:35:07.914  3125 26338 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+06-27 12:35:07.916  3125 26448 E NetworkScheduler.TED: Unable to bind to task service: ComponentInfo{com.google.android.gms/com.google.android.gms.mdisync.service.MdiSyncBackgroundTaskService}
+06-27 12:35:07.916  3125 26448 W NetworkScheduler.TED: Couldn't unbind from the task service in remote user
+06-27 12:35:07.930   601   623 D DrmLibTime: got the req here! ret=0
+06-27 12:35:07.930   601   623 D DrmLibTime: command id, time_cmd_id = 770
+06-27 12:35:07.930   601   623 D DrmLibTime: time_getutcsec starts!
+06-27 12:35:07.930   601   623 D DrmLibTime: QSEE Time Listener: time_getutcsec
+06-27 12:35:07.930   601   623 D DrmLibTime: QSEE Time Listener: get_utc_seconds
+06-27 12:35:07.930   601   623 D DrmLibTime: QSEE Time Listener: time_get_modem_time
+06-27 12:35:07.930   601   623 D DrmLibTime: QSEE Time Listener: Checking if ATS_MODEM is set or not.
+06-27 12:35:07.930   601   623 D QC-time-services: Lib:time_genoff_operation: pargs->base = 13
+06-27 12:35:07.930   601   623 D QC-time-services: Lib:time_genoff_operation: pargs->operation = 2
+06-27 12:35:07.930   601   623 D QC-time-services: Lib:time_genoff_operation: pargs->ts_val = 0
+06-27 12:35:07.930   691   965 D QC-time-services: Daemon: Connection accepted:time_genoff
+06-27 12:35:07.930   601   623 D QC-time-services: Lib:time_genoff_operation: Send to server  passed!!
+06-27 12:35:07.930   691 26459 D QC-time-services: Daemon:Received base = 13, unit = 1, operation = 2,value = 0
+06-27 12:35:07.930   691 26459 D QC-time-services: Daemon:genoff_opr: Base = 13, val = 0, operation = 2
+06-27 12:35:07.930   691 26459 D QC-time-services: offset is: 1 for base: 13
+06-27 12:35:07.930   691   965 E QC-time-services: Daemon: Time-services: Waiting to acceptconnection
+06-27 12:35:07.930   601   623 E QC-time-services: Receive Passed == base = 13, unit = 1, operation = 2, result = 0
+06-27 12:35:07.930   601   623 D DrmLibTime: QSEE Time Listener: ATS_MODEM is set. Try to retrieve it.
+06-27 12:35:07.931   691   965 D QC-time-services: Daemon: Connection accepted:time_genoff
+06-27 12:35:07.931   691 26460 D QC-time-services: Daemon:Received base = 13, unit = 1, operation = 1,value = 0
+06-27 12:35:07.931   691 26460 D QC-time-services: Daemon:genoff_opr: Base = 13, val = 0, operation = 1
+06-27 12:35:07.931   691 26460 D QC-time-services: Daemon: genoff get for 13
+06-27 12:35:07.931   691 26460 D QC-time-services: Daemon:Value read from QTimer mseconds = 3115706
+06-27 12:35:07.931   691 26460 D QC-time-services: Daemon:Value read from RTC mseconds on boot = 16820321000
+06-27 12:35:07.931   691 26460 D QC-time-services: Daemon:Value read from QTimer mseconds = 3115706
+06-27 12:35:07.931   691 26460 D QC-time-services: Daemon:Value read from generic offset = 1734184476166
+06-27 12:35:07.931   691 26460 D QC-time-services: Daemon:Delta read on boot mseconds = 16820315161
+06-27 12:35:07.931   691 26460 D QC-time-services: Daemon:Final Time = 1751007907033
+06-27 12:35:07.931   601   623 D DrmLibTime: QSEE Time Listener: Time GenOff - seconds: 1751007907
+06-27 12:35:07.931   601   623 D DrmLibTime: time_getutcsec returns 0, sec = 1751007907; nsec = 0
+06-27 12:35:07.931   601   623 D DrmLibTime: time_getutcsec finished! 
+06-27 12:35:07.931   601   623 D DrmLibTime: iotcl_continue_command finished! and return 0 
+06-27 12:35:07.931   601   623 D DrmLibTime: before calling ioctl to read the next time_cmd
+06-27 12:35:07.932   691   965 E QC-time-services: Daemon: Time-services: Waiting to acceptconnection
+06-27 12:35:07.935  3125 26448 E NetworkScheduler.TED: Unable to bind to task service: ComponentInfo{com.google.android.gms/com.google.android.gms.udc.service.UdcContextInitService}
+06-27 12:35:07.935  3125 26338 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-27 12:35:07.935   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.GmsApiService and for client com.google.android.gms
+06-27 12:35:07.935  3125 26448 W NetworkScheduler.TED: Couldn't unbind from the task service in remote user
+06-27 12:35:07.935   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.GmsApiServiceare :4
+06-27 12:35:07.935   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gmsare :9
+06-27 12:35:07.943  3125 26338 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-27 12:35:07.989  1424  1424 I keystore: del USRPKEY_unstable.c7202ece89390c490b1b94d5b71225e1.-4445182685052190290 10183
+06-27 12:35:07.990  1424  1424 I keystore: del USRPKEY_unstable.c7202ece89390c490b1b94d5b71225e1.4905076866376247439 10183
+06-27 12:35:07.991  1424  1424 I keystore: del USRCERT_unstable.c7202ece89390c490b1b94d5b71225e1.-4445182685052190290 10183
+06-27 12:35:07.991  1424  1424 I keystore: del USRCERT_unstable.c7202ece89390c490b1b94d5b71225e1.4905076866376247439 10183
+06-27 12:35:07.992  1424  1424 I keystore: del CACERT_unstable.c7202ece89390c490b1b94d5b71225e1.-4445182685052190290 10183
+06-27 12:35:07.994  1424  1424 I keystore: del CACERT_unstable.c7202ece89390c490b1b94d5b71225e1.4905076866376247439 10183
+06-27 12:35:08.026 14895 14915 E libc    : Access denied finding property "persist.adb.tls_server.enable"
+06-27 12:35:08.028 14895 14915 I AdrenoGLES-0: QUALCOMM build                   : 42297a4, I9e9b240040
+06-27 12:35:08.028 14895 14915 I AdrenoGLES-0: Build Date                       : 03/19/21
+06-27 12:35:08.028 14895 14915 I AdrenoGLES-0: OpenGL ES Shader Compiler Version: EV031.32.02.07
+06-27 12:35:08.028 14895 14915 I AdrenoGLES-0: Local Branch                     : 
+06-27 12:35:08.028 14895 14915 I AdrenoGLES-0: Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.9.1.R1.11.00.00.604.070
+06-27 12:35:08.028 14895 14915 I AdrenoGLES-0: Remote Branch                    : NONE
+06-27 12:35:08.028 14895 14915 I AdrenoGLES-0: Reconstruct Branch               : NOTHING
+06-27 12:35:08.028 14895 14915 I AdrenoGLES-0: Build Config                     : S P 10.0.6 AArch64
+06-27 12:35:08.028 14895 14915 I AdrenoGLES-0: Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
+06-27 12:35:08.013 14895 14895 W Binder:14895_1: type=1400 audit(0.0:3956): avc: denied { read } for name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=17598 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+06-27 12:35:08.033 14895 14915 I AdrenoGLES-0: PFP: 0x016ee190, ME: 0x00000000
+06-27 12:35:08.084   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.pay.gcmtask.PayGcmTaskService and for client com.google.android.gms.persistent
+06-27 12:35:08.084   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.pay.gcmtask.PayGcmTaskServiceafter removal is 0
+06-27 12:35:08.084   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.google.android.gms.persistentafter removal is 9
+06-27 12:35:08.085   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.google.android.gms/.pay.gcmtask.PayGcmTaskService
+06-27 12:35:08.085  3125 26448 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-27 12:35:08.125  1919  7655 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:35:08.125  1919  7655 D CompatibilityInfo: applicationDensity - 440
+06-27 12:35:08.125  1919  7655 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:35:08.125   885   937 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.pay.gcmtask.PayGcmTaskService and for client com.google.android.gms.persistent
+06-27 12:35:08.125   885   937 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.pay.gcmtask.PayGcmTaskServiceare :1
+06-27 12:35:08.125   885   937 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gms.persistentare :10
+06-27 12:35:08.125   885   937 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.google.android.gms/.pay.gcmtask.PayGcmTaskService
+06-27 12:35:08.146  3125 26448 E NetworkScheduler.TED: Unable to bind to task service: ComponentInfo{com.google.android.gms/com.google.android.gms.auth.account.be.legacy.AuthCronService}
+06-27 12:35:08.146  3125 26448 W NetworkScheduler.TED: Couldn't unbind from the task service in remote user
+06-27 12:35:08.176  3125 26338 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-27 12:35:08.177  3125 26338 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+06-27 12:35:08.180  3125 26448 E NetworkScheduler.TED: Unable to bind to task service: ComponentInfo{com.google.android.gms/com.google.android.gms.autofill.events.AutofillGcmTaskService}
+06-27 12:35:08.180  3125 26448 W NetworkScheduler.TED: Couldn't unbind from the task service in remote user
+06-27 12:35:08.184  3125 26338 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-27 12:35:08.195   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.pay.gcmtask.PayGcmTaskService and for client com.google.android.gms.persistent
+06-27 12:35:08.195   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.pay.gcmtask.PayGcmTaskServiceafter removal is 0
+06-27 12:35:08.195   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.google.android.gms.persistentafter removal is 9
+06-27 12:35:08.195   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.google.android.gms/.pay.gcmtask.PayGcmTaskService
+06-27 12:35:08.196  3125 26338 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-27 12:35:08.208  3799  3827 I gle.android.gm: Compiler allocated 4361KB to compile int m54.beue.c(java.lang.Object, byte[], int, int, int, m54.beqr)
+06-27 12:35:08.210   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.pay.gcmtask.PayGcmTaskService and for client com.google.android.gms.persistent
+06-27 12:35:08.210   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.pay.gcmtask.PayGcmTaskServiceare :1
+06-27 12:35:08.210   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gms.persistentare :10
+06-27 12:35:08.210  1919  3239 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:35:08.210  1919  3239 D CompatibilityInfo: applicationDensity - 440
+06-27 12:35:08.210  1919  3239 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:35:08.210   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.google.android.gms/.pay.gcmtask.PayGcmTaskService
+06-27 12:35:08.220  3125 26338 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+06-27 12:35:08.221   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.PersistentApiService and for client com.google.android.gms
+06-27 12:35:08.221   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.PersistentApiServiceare :9
+06-27 12:35:08.221   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gmsare :9
+06-27 12:35:08.223  3125 26448 E NetworkScheduler.TED: Unable to bind to task service: ComponentInfo{com.google.android.gms/com.google.android.gms.fonts.update.UpdateSchedulerService}
+06-27 12:35:08.223  3125 26448 W NetworkScheduler.TED: Couldn't unbind from the task service in remote user
+06-27 12:35:08.231  3125 26338 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-27 12:35:08.241 14895 14978 I AdrenoGLES-0: QUALCOMM build                   : 42297a4, I9e9b240040
+06-27 12:35:08.241 14895 14978 I AdrenoGLES-0: Build Date                       : 03/19/21
+06-27 12:35:08.241 14895 14978 I AdrenoGLES-0: OpenGL ES Shader Compiler Version: EV031.32.02.07
+06-27 12:35:08.241 14895 14978 I AdrenoGLES-0: Local Branch                     : 
+06-27 12:35:08.241 14895 14978 I AdrenoGLES-0: Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.9.1.R1.11.00.00.604.070
+06-27 12:35:08.241 14895 14978 I AdrenoGLES-0: Remote Branch                    : NONE
+06-27 12:35:08.241 14895 14978 I AdrenoGLES-0: Reconstruct Branch               : NOTHING
+06-27 12:35:08.241 14895 14978 I AdrenoGLES-0: Build Config                     : S P 10.0.6 AArch64
+06-27 12:35:08.241 14895 14978 I AdrenoGLES-0: Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
+06-27 12:35:08.246 14895 14978 I AdrenoGLES-0: PFP: 0x016ee190, ME: 0x00000000
+06-27 12:35:08.247   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.pay.gcmtask.PayGcmTaskService and for client com.google.android.gms.persistent
+06-27 12:35:08.247   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.pay.gcmtask.PayGcmTaskServiceafter removal is 0
+06-27 12:35:08.247   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.google.android.gms.persistentafter removal is 9
+06-27 12:35:08.247   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.google.android.gms/.pay.gcmtask.PayGcmTaskService
+06-27 12:35:08.248  3125 26338 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-27 12:35:08.270  3799  8196 W BpBinder: PerfMonitor binderTransact :  time=794ms interface=com.google.android.gms.droidguard.internal.IDroidGuardHandle code=5
+06-27 12:35:08.273   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.pay.gcmtask.PayGcmTaskService and for client com.google.android.gms.persistent
+06-27 12:35:08.273   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.pay.gcmtask.PayGcmTaskServiceare :1
+06-27 12:35:08.273   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gms.persistentare :10
+06-27 12:35:08.273  1919  8366 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:35:08.273  1919  8366 D CompatibilityInfo: applicationDensity - 440
+06-27 12:35:08.273  1919  8366 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:35:08.274   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.google.android.gms/.pay.gcmtask.PayGcmTaskService
+06-27 12:35:08.277   841   886 I sensors-hal: activate:147, android.sensor.rotation_vector/14 en=0
+06-27 12:35:08.279   841   886 I sensors-hal: activate:158, android.sensor.rotation_vector/14 en=0 completed
+06-27 12:35:08.280   841   886 I sensors-hal: batch:180, android.sensor.linear_acceleration/42, period=200000000, max_latency=0
+06-27 12:35:08.283   841   886 I sensors-hal: batch:189, android.sensor.linear_acceleration/42, period=200000000, max_latency=0 request completed
+06-27 12:35:08.285  3125 26338 E NetworkScheduler.TED: Unable to bind to task service: ComponentInfo{com.google.android.gms/com.google.android.gms.clearcut.uploader.QosUploaderService}
+06-27 12:35:08.285  3125 26338 W NetworkScheduler.TED: Couldn't unbind from the task service in remote user
+06-27 12:35:08.303  3125 26448 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-27 12:35:08.304  3125 26448 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+06-27 12:35:08.375   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.PersistentApiService and for client com.google.android.gms
+06-27 12:35:08.375   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.PersistentApiServiceare :9
+06-27 12:35:08.375   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gmsare :9
+06-27 12:35:08.377  3125 17403 I FacsCacheGmsModule: (REDACTED) Receiving API connection to FACS API from package '%s'...
+06-27 12:35:08.378  3125 17403 I FacsCacheGmsModule: API connection successful!
+06-27 12:35:08.381   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.GmsInternalApiService and for client com.google.android.gms.persistent
+06-27 12:35:08.381   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.GmsInternalApiServiceare :1
+06-27 12:35:08.381   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gms.persistentare :11
+06-27 12:35:08.382  1919  7140 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:35:08.382  1919  7140 D CompatibilityInfo: applicationDensity - 440
+06-27 12:35:08.382  1919  7140 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:35:08.382   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.google.android.gms/.chimera.GmsInternalApiService
+06-27 12:35:08.384  3799  3799 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.facs.internal.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalApiService }
+06-27 12:35:08.384  3799  3799 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.facs.internal.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalApiService }
+06-27 12:35:08.387  3799 25383 I FacsCacheGmsModule: Receiving API connection to internal FACS API...
+06-27 12:35:08.388  3799 25383 I FacsCacheGmsModule: API connection successful!
+06-27 12:35:08.388   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.GmsBoundBrokerService and for client com.google.android.gms
+06-27 12:35:08.388   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.GmsBoundBrokerServiceare :1
+06-27 12:35:08.388   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gmsare :10
+06-27 12:35:08.389  1919  7185 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:35:08.389  1919  7185 D CompatibilityInfo: applicationDensity - 440
+06-27 12:35:08.389  1919  7185 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:35:08.389   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.google.android.gms/.chimera.GmsBoundBrokerService
+06-27 12:35:08.392  3799  3799 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.audit.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+06-27 12:35:08.392  3799  3799 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.audit.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+06-27 12:35:08.397  3799 25247 I Pay     : Suppressing StorageKeyException as Keystore encryption is enabled. [CONTEXT service_id=198 ]
+06-27 12:35:08.397  3799 25247 I Pay     : m54.ajbi: No storage key available
+06-27 12:35:08.397  3799 25247 I Pay     : 	at m54.ajbj.b(:com.google.android.gms.optional_pay@252331025@25.23.31 (100400-0):140)
+06-27 12:35:08.397  3799 25247 I Pay     : 	at m54.ajas.a(:com.google.android.gms.optional_pay@252331025@25.23.31 (100400-0):4)
+06-27 12:35:08.397  3799 25247 I Pay     : 	at m54.yuw.b(:com.google.android.gms.optional_pay@252331025@25.23.31 (100400-0):3)
+06-27 12:35:08.397  3799 25247 I Pay     : 	at m54.yvi.a(:com.google.android.gms.optional_pay@252331025@25.23.31 (100400-0):13)
+06-27 12:35:08.397  3799 25247 I Pay     : 	at m54.yvl.a(:com.google.android.gms.optional_pay@252331025@25.23.31 (100400-0):722)
+06-27 12:35:08.397  3799 25247 I Pay     : 	at com.google.android.gms.pay.gcmtask.PayGcmTaskChimeraService.a(:com.google.android.gms.optional_pay@252331025@25.23.31 (100400-0):65)
+06-27 12:35:08.397  3799 25247 I Pay     : 	at m54.tsg.call(:com.google.android.gms.optional_pay@252331025@25.23.31 (100400-0):30)
+06-27 12:35:08.397  3799 25247 I Pay     : 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+06-27 12:35:08.397  3799 25247 I Pay     : 	at m54.mgq.c(:com.google.android.gms.optional_pay@252331025@25.23.31 (100400-0):50)
+06-27 12:35:08.397  3799 25247 I Pay     : 	at m54.mgq.run(:com.google.android.gms.optional_pay@252331025@25.23.31 (100400-0):70)
+06-27 12:35:08.397  3799 25247 I Pay     : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+06-27 12:35:08.397  3799 25247 I Pay     : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+06-27 12:35:08.397  3799 25247 I Pay     : 	at awpl.run(:com.google.android.gms@252331022@25.23.31 (150400-769856126):8)
+06-27 12:35:08.397  3799 25247 I Pay     : 	at java.lang.Thread.run(Thread.java:923)
+06-27 12:35:08.404   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.PersistentDirectBootAwareApiService and for client com.google.android.gms
+06-27 12:35:08.404   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.PersistentDirectBootAwareApiServiceare :15
+06-27 12:35:08.404   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gmsare :10
+06-27 12:35:08.405   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.pay.gcmtask.PayGcmTaskService and for client com.google.android.gms.persistent
+06-27 12:35:08.405   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.pay.gcmtask.PayGcmTaskServiceafter removal is 0
+06-27 12:35:08.405   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.google.android.gms.persistentafter removal is 10
+06-27 12:35:08.405   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.google.android.gms/.pay.gcmtask.PayGcmTaskService
+06-27 12:35:08.407  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 99005, uidState = 5
+06-27 12:35:08.407  3125 26338 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-27 12:35:08.408 14895 14978 E libc    : Access denied finding property "persist.adb.tls_server.enable"
+06-27 12:35:08.393 14895 14895 W lowpool[1]: type=1400 audit(0.0:3957): avc: denied { read } for name="u:object_r:system_adbd_prop:s0" dev="tmpfs" ino=17598 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:system_adbd_prop:s0 tclass=file permissive=0 app=com.google.android.gms
+06-27 12:35:08.445   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.pay.gcmtask.PayGcmTaskService and for client com.google.android.gms.persistent
+06-27 12:35:08.445   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.pay.gcmtask.PayGcmTaskServiceare :1
+06-27 12:35:08.445  1919  7185 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:35:08.445  1919  7185 D CompatibilityInfo: applicationDensity - 440
+06-27 12:35:08.445   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gms.persistentare :11
+06-27 12:35:08.445  1919  7185 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:35:08.445   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.google.android.gms/.pay.gcmtask.PayGcmTaskService
+06-27 12:35:08.459  3125 26464 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+06-27 12:35:08.474  3799  3957 I Pay     : [SeTosMigration] walletJpEligibility is not enabled [CONTEXT service_id=198 ]
+06-27 12:35:08.487  3799  3957 I Pay     : (REDACTED) Wallet install state %s
+06-27 12:35:08.487   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.PersistentDirectBootAwareApiService and for client com.google.android.gms
+06-27 12:35:08.487   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.PersistentDirectBootAwareApiServiceare :15
+06-27 12:35:08.487   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gmsare :10
+06-27 12:35:08.488  3799  3957 I Pay     : Migration flag not enabled. [CONTEXT service_id=198 ]
+06-27 12:35:08.490  3125 26448 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-27 12:35:08.491   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.pay.gcmtask.PayGcmTaskService and for client com.google.android.gms.persistent
+06-27 12:35:08.491   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.pay.gcmtask.PayGcmTaskServiceafter removal is 0
+06-27 12:35:08.491   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.google.android.gms.persistentafter removal is 10
+06-27 12:35:08.491   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.google.android.gms/.pay.gcmtask.PayGcmTaskService
+06-27 12:35:08.529   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.pay.gcmtask.PayGcmTaskService and for client com.google.android.gms.persistent
+06-27 12:35:08.529   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.pay.gcmtask.PayGcmTaskServiceare :1
+06-27 12:35:08.530   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gms.persistentare :11
+06-27 12:35:08.530  1919  7185 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:35:08.530  1919  7185 D CompatibilityInfo: applicationDensity - 440
+06-27 12:35:08.530  1919  7185 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:35:08.531   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.google.android.gms/.pay.gcmtask.PayGcmTaskService
+06-27 12:35:08.533  2914  2962 V MmsSmsUtils: checkPrivateMsgWhiteList time is 0
+06-27 12:35:08.534  2914  2962 V MmsSmsUtils: allowReadNotificationSms time is 1
+06-27 12:35:08.541  3125 26448 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+06-27 12:35:08.556  3799 25956 I Pay     : Device does not support HCE. [CONTEXT service_id=198 ]
+06-27 12:35:08.578  2914  2955 V MmsSmsUtils: checkPrivateMsgWhiteList time is 0
+06-27 12:35:08.579  2914  2955 V MmsSmsUtils: allowReadNotificationSms time is 1
+06-27 12:35:08.584   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.pay.gcmtask.PayGcmTaskService and for client com.google.android.gms.persistent
+06-27 12:35:08.584   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.pay.gcmtask.PayGcmTaskServiceafter removal is 0
+06-27 12:35:08.584   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.google.android.gms.persistentafter removal is 10
+06-27 12:35:08.585  3125 26464 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-27 12:35:08.585   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.google.android.gms/.pay.gcmtask.PayGcmTaskService
+06-27 12:35:08.606   698   698 D Zygote  : Forked child process 26466
+06-27 12:35:08.608 26466 26466 W Zygote  : Unable to open libbeluga.so: dlopen failed: library "libbeluga.so" not found.
+06-27 12:35:08.608  1919  2122 I ActivityManager: Start proc 26466:android.process.acore/u0a83 for content provider {com.android.providers.contacts/com.android.providers.contacts.CallLogProvider} caller=com.google.android.gms
+06-27 12:35:08.620 26466 26466 E d.process.acor: Not starting debugger since process cannot load the jdwp agent.
+06-27 12:35:08.623  1919  8366 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:35:08.623  1919  8366 D CompatibilityInfo: applicationDensity - 440
+06-27 12:35:08.623  1919  8366 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:35:08.623   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.pay.gcmtask.PayGcmTaskService and for client com.google.android.gms.persistent
+06-27 12:35:08.623   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.pay.gcmtask.PayGcmTaskServiceare :1
+06-27 12:35:08.623   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gms.persistentare :11
+06-27 12:35:08.624   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.google.android.gms/.pay.gcmtask.PayGcmTaskService
+06-27 12:35:08.631  3125 26338 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+06-27 12:35:08.637   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.pay.gcmtask.PayGcmTaskService and for client com.google.android.gms.persistent
+06-27 12:35:08.637   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.pay.gcmtask.PayGcmTaskServiceafter removal is 0
+06-27 12:35:08.637   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.google.android.gms.persistentafter removal is 10
+06-27 12:35:08.638   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.google.android.gms/.pay.gcmtask.PayGcmTaskService
+06-27 12:35:08.638  3125 26464 I NetworkScheduler.Stats: (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+06-27 12:35:08.639  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10083, uidState = 19
+06-27 12:35:08.643  1919  3239 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:35:08.643  1919  3239 D CompatibilityInfo: applicationDensity - 440
+06-27 12:35:08.643  1919  3239 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:35:08.648  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10083, uidState = 5
+06-27 12:35:08.670  1919  7140 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:35:08.670  1919  7140 D CompatibilityInfo: applicationDensity - 440
+06-27 12:35:08.670  1919  7140 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:35:08.670   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.clearcut.uploader.QosUploaderService and for client com.google.android.gms.persistent
+06-27 12:35:08.670   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.clearcut.uploader.QosUploaderServiceare :1
+06-27 12:35:08.670   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gms.persistentare :11
+06-27 12:35:08.670   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.google.android.gms/.clearcut.uploader.QosUploaderService
+06-27 12:35:08.673  3125 26338 I NetworkScheduler.Stats: (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+06-27 12:35:08.676   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.PersistentDirectBootAwareApiService and for client com.google.android.gms.persistent
+06-27 12:35:08.676   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.PersistentDirectBootAwareApiServiceare :15
+06-27 12:35:08.676   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.gms.persistentare :11
+06-27 12:35:08.692 26466 26466 I Perf    : Connecting to perf service.
+06-27 12:35:08.700  9395  9616 D TrafficManageService: onReceive: intent.action = com.android.server.action.NETWORK_STATS_UPDATED

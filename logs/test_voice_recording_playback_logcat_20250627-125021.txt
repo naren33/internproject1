@@ -1,0 +1,367 @@
+--------- beginning of system
+06-27 12:50:21.322  1919  2233 I ActivityTaskManager: START u0 {act=android.provider.MediaStore.RECORD_SOUND flg=0x10000000 cmp=com.android.soundrecorder/.SoundRecorder} from uid 2000
+--------- beginning of main
+06-27 12:50:21.322  1919  2233 D MiuiMultiWindowAdapter: MiuiMultiWindowAdapter::getFreeformBlackList::sSmallWindowBlackList = [com.miui.securitycenter, com.miui.weather2, com.miui.miservice, com.android.calendar, com.xiaomi.calendar, com.android.contacts, com.miui.mishare.connectivity, com.android.settings, com.android.printspooler, com.miui.backup, com.miui.huanji, com.miui.calculator, com.android.deskclock, com.android.thememanager, com.mfashiongallery.emag, com.miui.virtualsim, com.miui.smarttravel, com.mi.health, com.android.camera, com.lbe.security.miui, com.miui.cleanmaster, com.miui.newhome, com.miui.voiceassist, com.android.phone, com.miui.yellowpage, com.android.updater, com.miui.tsmclient, com.miui.securitycore, com.xiaomi.account, com.xiaomi.shop, com.mipay.wallet, com.xiaomi.youpin, com.xiaomi.hm.health, com.miui.bugreport, com.xiaomi.mibrain.speech, com.xiaomi.mimoji, com.xiaomi.scanner, com.duokan.phone.remotecontroller, com.miui.hybrid, com.android.incallui, com.miui.video, com.miui.videoplayer, com.miui.player, com.miui.fm, com.miui.packageinstaller, com.mi.android.globallauncher, com.google.android.dialer, com.google.android.apps.magazines, com.miui.compass, com.miui.greenguard, com.kiteguard, com.google.android.apps.prodcasts, com.google.ar.lens, com.xiangkan.android, com.android.bankabc, com.sohu.inputmethod.sogou, com.tencent.mtt, com.shyz.toutiao, com.netease.mc.mi, com.outfit7.talkingtomgoldrun.mi, com.doudz.mi, com.wepie.snake.new.mi, cn.jj, com.standddz002.mi, com.miHoYo.bh3.mi, com.qqgame.hlddz, com.happyelements.AndroidAnimal, com.minitech.miniworld.TMobile.mi, com.mfp.jelly.xiaomi, com.lilithgames.afk.mi, com.tencent.peng, com.teenpatti.hd.gold, blockpuzzle.jewelgames.jewelslegend, com.playgendary.tanks, com.chillingo.robberybobfree.android.row, com.episodeinteractive.android.catalog, com.playrix.township, com.ansangha.drdriving, com.google.android.youtube, com.gbits.atm.mi]
+06-27 12:50:21.323   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-27 12:50:21.323   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-27 12:50:21.324   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:50:21.324   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:50:21.324   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:50:21.324   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:50:21.324   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:50:21.324   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-27 12:50:21.325   879   984 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:50:21.325   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:50:21.325   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:50:21.325   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:50:21.325   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:50:21.325   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:50:21.325   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:50:21.325   879   879 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:50:21.326   879   879 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-27 12:50:21.326   879   879 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.soundrecorder feature:AppClassifier feedback = 1
+06-27 12:50:21.326   879   984 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-27 12:50:21.326   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-27 12:50:21.326   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:50:21.326   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=1
+06-27 12:50:21.326   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:50:21.326   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-27 12:50:21.326   879   984 I ANDR-PERF-LM: MetaMeter: isValidAsync() 194: AsyncInfo: hintID = 4225
+06-27 12:50:21.326   879   984 I ANDR-PERF-LM: hintType: 2
+06-27 12:50:21.326   879   984 I ANDR-PERF-LM: isPrimary = 0
+06-27 12:50:21.326   879   984 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 2,com.android.soundrecorder,-1,1919,2233)
+06-27 12:50:21.326   879   984 E ANDR-PERF-LM: MetaMeter: handleAsync() 164: AdaptLaunch Invalid Async
+06-27 12:50:21.326   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-27 12:50:21.326   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:50:21.326   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:50:21.326   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:50:21.326   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:50:21.326   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:50:21.326   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:50:21.326   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:50:21.326   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-27 12:50:21.326   879   984 I ANDR-PERF-LM: MetaMeter: isValidAsync() 194: AsyncInfo: hintID = 4225
+06-27 12:50:21.326   879   984 I ANDR-PERF-LM: hintType: 3
+06-27 12:50:21.326   879   984 I ANDR-PERF-LM: isPrimary = 0
+06-27 12:50:21.326   879   984 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 3,com.android.soundrecorder,-1,1919,2233)
+06-27 12:50:21.326   879   984 E ANDR-PERF-LM: MetaMeter: handleAsync() 164: AdaptLaunch Invalid Async
+06-27 12:50:21.326  1919  2233 E ANDR-PERF-JNI: com_qualcomm_qtiperformance_native_perf_io_prefetch_start
+06-27 12:50:21.326   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-27 12:50:21.326   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:50:21.326   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:50:21.331   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:50:21.331   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:50:21.331   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:50:21.331   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:50:21.331   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:50:21.331   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-27 12:50:21.331   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-27 12:50:21.331   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:50:21.331   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:50:21.332   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:50:21.332   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:50:21.332   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:50:21.332   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:50:21.332   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:50:21.332   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-27 12:50:21.332   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-27 12:50:21.332   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:50:21.332   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:50:21.336   876   907 E ANDR-IOP: io prefetch is disabled
+06-27 12:50:21.337  1919  2233 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:50:21.337  1919  2233 D CompatibilityInfo: applicationDensity - 440
+06-27 12:50:21.337  1919  2233 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:50:21.337   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:50:21.337   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:50:21.338   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:50:21.338   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:50:21.338   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:50:21.338   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:50:21.338   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-27 12:50:21.338   879   984 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:50:21.338   879   984 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-27 12:50:21.338   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-27 12:50:21.338   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:50:21.338   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:50:21.338  1919  2233 I ActivityTaskManager: The Process com.android.soundrecorder Already Exists in BG. So sending its PID: 20959
+06-27 12:50:21.338   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:50:21.338   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:50:21.338   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:50:21.338   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:50:21.338   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:50:21.338   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-27 12:50:21.339  1919  2233 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (3095095)
+06-27 12:50:21.339   879   984 I ANDR-PERF-LM: MetaMeter: isValidAsync() 194: AsyncInfo: hintID = 4225
+06-27 12:50:21.339   879   984 I ANDR-PERF-LM: hintType: 102
+06-27 12:50:21.339   879   984 I ANDR-PERF-LM: isPrimary = 0
+06-27 12:50:21.339   879   984 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 102,com.android.soundrecorder,20959,1919,2233)
+06-27 12:50:21.339   879   984 E ANDR-PERF-LM: MetaMeter: handleAsync() 164: AdaptLaunch Invalid Async
+06-27 12:50:21.339   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-27 12:50:21.339   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:50:21.339   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:50:21.340  1919  2233 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:50:21.340  1919  2233 D CompatibilityInfo: applicationDensity - 440
+06-27 12:50:21.340  1919  2233 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:50:21.341  9739 11053 D PerfEngineController: ForegroundInfo{mForegroundPackageName='com.android.soundrecorder', mForegroundUid=10099, mForegroundPid=20959, mLastForegroundPackageName='android', mLastForegroundUid=1000, mLastForegroundPid=28683, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+06-27 12:50:21.342  9395 21030 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.android.soundrecorder', mForegroundUid=10099, mForegroundPid=20959, mLastForegroundPackageName='android', mLastForegroundUid=1000, mLastForegroundPid=28683, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+06-27 12:50:21.342  9770  9788 I GST     : forePkg: com.android.soundrecorder, preForePkg: android
+06-27 12:50:21.343  1919  2233 D ActivityTrigger: ActivityTrigger activityPauseTrigger 
+06-27 12:50:21.343   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:50:21.343   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:50:21.343   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:50:21.343   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:50:21.344   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:50:21.344   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-27 12:50:21.344   879   984 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:50:21.344   879   984 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-27 12:50:21.344   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-27 12:50:21.344   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:50:21.344   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:50:21.345  8426  8830 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.android.soundrecorder', mForegroundUid=10099, mForegroundPid=20959, mLastForegroundPackageName='android', mLastForegroundUid=1000, mLastForegroundPid=28683, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+06-27 12:50:21.345   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:50:21.346   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:50:21.346   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-27 12:50:21.346   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-27 12:50:21.346  9739 11053 W MessageQueue: Handler (com.miui.powerkeeper.feedbackcontrol.FeedbackControlService$FeedbackControlHandler) {322048a} sending message to a Handler on a dead thread
+06-27 12:50:21.346  9739 11053 W MessageQueue: java.lang.IllegalStateException: Handler (com.miui.powerkeeper.feedbackcontrol.FeedbackControlService$FeedbackControlHandler) {322048a} sending message to a Handler on a dead thread
+06-27 12:50:21.346  9739 11053 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:563)
+06-27 12:50:21.346  9739 11053 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:778)
+06-27 12:50:21.346  9739 11053 W MessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:727)
+06-27 12:50:21.346  9739 11053 W MessageQueue: 	at com.miui.powerkeeper.event.EventsAggregator$EventRegistrant.notifyResult(Unknown Source:26)
+06-27 12:50:21.346  9739 11053 W MessageQueue: 	at com.miui.powerkeeper.event.EventsAggregator.notifyForForegroundInfo(Unknown Source:47)
+06-27 12:50:21.346  9739 11053 W MessageQueue: 	at com.miui.powerkeeper.utils.ProcessObserver.notifyForegroundListener(Unknown Source:17)
+06-27 12:50:21.346  9739 11053 W MessageQueue: 	at com.miui.powerkeeper.utils.ProcessObserver.access$1000(Unknown Source:0)
+06-27 12:50:21.346  9739 11053 W MessageQueue: 	at com.miui.powerkeeper.utils.ProcessObserver$2.onForegroundInfoChanged(Unknown Source:2)
+06-27 12:50:21.346  9739 11053 W MessageQueue: 	at miui.process.IForegroundInfoListener$Stub.onTransact(IForegroundInfoListener.java:87)
+06-27 12:50:21.346  9739 11053 W MessageQueue: 	at android.os.Binder.execTransactInternal(Binder.java:1162)
+06-27 12:50:21.346  9739 11053 W MessageQueue: 	at android.os.Binder.execTransact(Binder.java:1126)
+06-27 12:50:21.347  9395 21030 I GameBoosterService: screen locked!
+06-27 12:50:21.347  9395 21030 I VideoBoxUtils: isSupportVideoBox: false
+06-27 12:50:21.349  1919  2233 I Timeline: Timeline: App_transition_ready time:4026160
+06-27 12:50:21.350 28832 28834 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:50:21.355  8346  8383 D PMonitor:  onForegroundActivitiesChanged:pid = 20959,activity-uid=10099,foregroundActivities=true
+06-27 12:50:21.355  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10099, uidState = 12
+06-27 12:50:21.357  9395 21030 I VideoToolBoxService: splitMode: onfalse
+06-27 12:50:21.359  9395 21030 I VideoToolBoxService: onForegroundInfoChanged: Enter Vtb pkg=com.android.soundrecorder
+06-27 12:50:21.360  9395  9656 I VideoBoxServiceManager: startVideoBox: isDuringVideoBoxMode=false
+06-27 12:50:21.361  8346  8383 D PMonitor:  onForegroundActivitiesChanged:pid = 2964,activity-uid=10080,foregroundActivities=false
+06-27 12:50:21.366  9395  9656 E VideoServiceWrapper: getWhitelistByClient fail : mj.f0: lateinit property _service has not been initialized
+06-27 12:50:21.366  9395  9656 I VideoEffectUtils: setVppEnable : false
+06-27 12:50:21.368  9395  9656 I VideoBoxServiceManager: VideoBoxServiceManager: Open
+06-27 12:50:21.368  9395  9656 I VideoBoxServiceManager: open
+06-27 12:50:21.370   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.miui.securitycenter/com.miui.gamebooster.service.DockWindowManagerService and for client com.miui.securitycenter.remote
+06-27 12:50:21.370   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.miui.securitycenter/com.miui.gamebooster.service.DockWindowManagerServiceare :1
+06-27 12:50:21.370   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.miui.securitycenter.remoteare :5
+06-27 12:50:21.372  1919  7660 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:50:21.372  1919  7660 D CompatibilityInfo: applicationDensity - 440
+06-27 12:50:21.372  1919  7660 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:50:21.373   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.miui.securitycenter/com.miui.gamebooster.service.DockWindowManagerService
+06-27 12:50:21.374 24284 24284 I DockFeature: isSupportDock: isSupportFreeform=true	isPhone=true	isAboveMiui125=false	isSupportDock=true	isDevBuild=false
+06-27 12:50:21.374 24284 24284 I DockFeature: isSupportDock: isSupportFreeform=true	isPhone=true	isAboveMiui125=false	isSupportDock=true	isDevBuild=false
+06-27 12:50:21.375 24284 24284 E WindowTrustUtils: setTrustedOverlay failed, java.lang.NoSuchMethodException: android.view.WindowManager$LayoutParams.setTrustedOverlay []
+06-27 12:50:21.377   943  3796 I AudioFlinger: setGameParameters keyvalue: dynamic_audio_usecase_pkg=+#com.android.soundrecorder#movie
+06-27 12:50:21.377   789   862 D audio_hw_primary: adev_set_parameters: enter: dynamic_audio_usecase_pkg=+#com.android.soundrecorder#movie
+06-27 12:50:21.377   789   862 V msm8974_platform: platform_set_parameters: enter: dynamic_audio_usecase_pkg=+#com.android.soundrecorder#movie
+06-27 12:50:21.377   789   862 D audio_hw_hfp: hfp_set_parameters: enter
+06-27 12:50:21.377   789   862 D audio_hw_hfp: hfp_set_parameters: enter
+06-27 12:50:21.377   789   862 D audio_hw_extn: audio_extn_fm_set_parameters: Enter
+06-27 12:50:21.377   789   862 D audio_hw_hfp: hfp_set_parameters: enter
+06-27 12:50:21.377   789   862 V mi_ultrasound_extn: mi_ultrasound_extn_set_parameters: enter
+06-27 12:50:21.377   789   862 V mi_ultrasound_extn: mi_ultrasound_handle_screen_on_message: enter
+06-27 12:50:21.377   789   862 V mi_ultrasound_extn: mi_ultrasound_handle_screen_on_message: exit
+06-27 12:50:21.377   789   862 V mi_ultrasound_extn: mi_ultrasound_handle_sensor_fusion_message: enter
+06-27 12:50:21.377   789   862 V mi_ultrasound_extn: mi_ultrasound_handle_sensor_fusion_message: exit
+06-27 12:50:21.377   789   862 V mi_ultrasound_extn: mi_ultrasound_extn_set_parameters: usecase handling parms:dynamic_audio_usecase_pkg=+#com.android.soundrecorder#movie
+06-27 12:50:21.379 24284 24284 I DockWindowManagerService: onCreate: Service{ DockWindowManagerService , 196241790}
+06-27 12:50:21.380 24284 24326 D v1      : getUserProfiles: users [UserHandle{0}, UserHandle{999}]
+06-27 12:50:21.381 24284 24326 D v1      : getUserProfiles: users [UserHandle{0}, UserHandle{999}]
+06-27 12:50:21.381 24284 24326 D WorkProfileUtils: no work user
+06-27 12:50:21.381 24284 24326 I GDAppManager: loadHiddenApps: {0=[], 999=[]}
+06-27 12:50:21.382 24284 24326 I GDSettings: pinSpecialApps: isAppEditUsed()=false
+06-27 12:50:21.382 24284 24284 I DockWindowManagerService: enterDockMode: m=3	curM=DockWindowType{this=210214794, dockType=0, lastType=0}	cs=false	p=com.android.soundrecorder	c=null	isStart=false
+06-27 12:50:21.383 24284 24329 I VideoBoxUtils: startVideoBoxMode
+06-27 12:50:21.383 24284 24329 D TheatreModeUtils: cloudData={[]} isStaticOrCloud=static
+06-27 12:50:21.383 24284 24329 I DisplayEffectUtils: setCinemaVisionGlobalSwitch: 0
+06-27 12:50:21.384 24284 24329 E TheatreModeUtils: supportTheatreModeFeature = false, pkg: com.android.soundrecorder
+06-27 12:50:21.385 24284 24329 I DisplayEffectUtils: isSupportVDS: true
+06-27 12:50:21.385 24284 24329 I AudioEffectCenterWrapper: isSupportFWAudioEffect: false
+06-27 12:50:21.385 24284 24329 I AudioEffectCenterWrapper: isSupportFWAudioEffect: false
+06-27 12:50:21.385 24284 24329 I SoundEffecUtils: startVideoBoxMode: false, isSupportFWAudio = false
+06-27 12:50:21.385 24284 24327 I AbsActiveRepository: pullActiveDataFromServerInternal: pkg=com.android.soundrecorder
+06-27 12:50:21.385   789   862 D audio_hw_primary: adev_get_parameters:hifi_mode
+06-27 12:50:21.385   789   862 D audio_hw_spkr_prot: fbsp_get_parameters: Speaker protection disabled
+06-27 12:50:21.385   789   862 D soundtrigger: audio_extn_sound_trigger_get_parameters input string<hifi_mode=>
+06-27 12:50:21.385   789   862 D soundtrigger: extract_sm_handle input string <hifi_mode=> param string <hifi_mode=>
+06-27 12:50:21.385   789   862 D audio_hw_extn: audio_extn_fm_get_parameters: Enter
+06-27 12:50:21.385   789   862 D audio_hw_extn: audio_extn_get_parameters: returns 
+06-27 12:50:21.385   789   862 I msm8974_platform: platform_get_hifi = false
+06-27 12:50:21.385   789   862 V msm8974_platform: platform_get_parameters: exit: returns - hifi_mode=false
+06-27 12:50:21.385   789   862 D audio_hw_primary: adev_get_parameters: exit: returns - hifi_mode=false
+06-27 12:50:21.385   943  3796 I hash_map_utils: key: 'hifi_mode' value: ''
+06-27 12:50:21.386 24284 24329 I HifiUtils: HIFI mode get: hifi_mode=false
+06-27 12:50:21.386 24284 24329 I AudioEffectCenterWrapper: isSupportFWAudioEffect: false
+06-27 12:50:21.386 24284 24329 I chatty  : uid=1000(system) pool-27-thread- identical 1 line
+06-27 12:50:21.386 24284 24329 I AudioEffectCenterWrapper: isSupportFWAudioEffect: false
+06-27 12:50:21.387 24284 24329 E TheatreModeUtils: supportTheatreModeFeature = false, pkg: com.android.soundrecorder
+06-27 12:50:21.387 24284 24329 E TheatreModeUtils: supportTheatreModeFeature = false, pkg: com.android.soundrecorder
+06-27 12:50:21.388 24284 26260 I AudioEffectCenterWrapper: isSupportFWAudioEffect: false
+06-27 12:50:21.388 24284 26260 W System.err: java.lang.ClassNotFoundException: android.media.audiofx.MiEffectUtils
+06-27 12:50:21.388   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.miui.securityadd/com.miui.gamebooster.service.ActiveService and for client com.miui.securitycenter:ui
+06-27 12:50:21.388 24284 26260 W System.err: 	at java.lang.Class.classForName(Native Method)
+06-27 12:50:21.388 24284 26260 W System.err: 	at java.lang.Class.forName(Class.java:454)
+06-27 12:50:21.388 24284 26260 W System.err: 	at java.lang.Class.forName(Class.java:379)
+06-27 12:50:21.388 24284 26260 W System.err: 	at nf.d$a.d(Unknown Source:5)
+06-27 12:50:21.388   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.miui.securityadd/com.miui.gamebooster.service.ActiveServiceare :1
+06-27 12:50:21.388 24284 26260 W System.err: 	at q7.m.c(Unknown Source:3)
+06-27 12:50:21.388 24284 26260 W System.err: 	at q7.m.b(Unknown Source:13)
+06-27 12:50:21.388 24284 26260 W System.err: 	at o7.g.j(Unknown Source:17)
+06-27 12:50:21.388 24284 26260 W System.err: 	at o7.g.<init>(Unknown Source:7)
+06-27 12:50:21.388   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.miui.securitycenter:uiare :1
+06-27 12:50:21.388 24284 26260 W System.err: 	at m7.a.e(Unknown Source:211)
+06-27 12:50:21.388 24284 26260 W System.err: 	at k7.l.<init>(Unknown Source:9)
+06-27 12:50:21.388 24284 26260 W System.err: 	at com.miui.gamebooster.videobox.view.DetailSettingsLayout.<init>(Unknown Source:19)
+06-27 12:50:21.388 24284 26260 W System.err: 	at com.miui.gamebooster.videobox.view.DetailSettingsLayout.<init>(Unknown Source:1)
+06-27 12:50:21.388 24284 26260 W System.err: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+06-27 12:50:21.388 24284 26260 W System.err: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+06-27 12:50:21.388 24284 26260 W System.err: 	at android.view.LayoutInflater.createView(LayoutInflater.java:856)
+06-27 12:50:21.388 24284 26260 W System.err: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:1008)
+06-27 12:50:21.388 24284 26260 W System.err: 	at android.view.LayoutInflater.parseInclude(LayoutInflater.java:1235)
+06-27 12:50:21.388 24284 26260 W System.err: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1121)
+06-27 12:50:21.389  1919  8335 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:50:21.389  1919  8335 D CompatibilityInfo: applicationDensity - 440
+06-27 12:50:21.389  1919  8335 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:50:21.389 24284 26260 W System.err: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1086)
+06-27 12:50:21.389 24284 26260 W System.err: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1128)
+06-27 12:50:21.389 24284 26260 W System.err: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1086)
+06-27 12:50:21.389 24284 26260 W System.err: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:684)
+06-27 12:50:21.389 24284 26260 W System.err: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:536)
+06-27 12:50:21.389 24284 26260 W System.err: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:479)
+06-27 12:50:21.390 24284 26260 W System.err: 	at z7.x.j(Unknown Source:16)
+06-27 12:50:21.390 24284 26260 W System.err: 	at z7.x.a(Unknown Source:0)
+06-27 12:50:21.390 24284 26260 W System.err: 	at z7.x$a.run(Unknown Source:4)
+06-27 12:50:21.390 24284 26260 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+06-27 12:50:21.390 24284 26260 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+06-27 12:50:21.390 24284 26260 W System.err: 	at ud.z$a$a.run(Unknown Source:7)
+06-27 12:50:21.390 24284 26260 W System.err: 	at java.lang.Thread.run(Thread.java:923)
+06-27 12:50:21.390 24284 26260 W System.err: Caused by: java.lang.ClassNotFoundException: android.media.audiofx.MiEffectUtils
+06-27 12:50:21.390 24284 26260 W System.err: 	... 31 more
+06-27 12:50:21.390   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.miui.securityadd/com.miui.gamebooster.service.ActiveService
+06-27 12:50:21.390 24284 24284 I ActiveWindowManager: initManager: true
+06-27 12:50:21.390 24284 24284 I DockWindowManagerService: unregisterBroadcast:true
+06-27 12:50:21.390 24284 26260 E MiEffectUtils: get3dSurroundStatus: 
+06-27 12:50:21.390 24284 26260 E MiEffectUtils: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.Boolean.booleanValue()' on a null object reference
+06-27 12:50:21.390 24284 26260 E MiEffectUtils: 	at q7.m.c(Unknown Source:22)
+06-27 12:50:21.390 24284 26260 E MiEffectUtils: 	at q7.m.b(Unknown Source:13)
+06-27 12:50:21.390 24284 26260 E MiEffectUtils: 	at o7.g.j(Unknown Source:17)
+06-27 12:50:21.390 24284 26260 E MiEffectUtils: 	at o7.g.<init>(Unknown Source:7)
+06-27 12:50:21.390 24284 26260 E MiEffectUtils: 	at m7.a.e(Unknown Source:211)
+06-27 12:50:21.390 24284 26260 E MiEffectUtils: 	at k7.l.<init>(Unknown Source:9)
+06-27 12:50:21.390 24284 26260 E MiEffectUtils: 	at com.miui.gamebooster.videobox.view.DetailSettingsLayout.<init>(Unknown Source:19)
+06-27 12:50:21.390 24284 26260 E MiEffectUtils: 	at com.miui.gamebooster.videobox.view.DetailSettingsLayout.<init>(Unknown Source:1)
+06-27 12:50:21.390 24284 26260 E MiEffectUtils: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+06-27 12:50:21.390 24284 26260 E MiEffectUtils: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+06-27 12:50:21.390 24284 26260 E MiEffectUtils: 	at android.view.LayoutInflater.createView(LayoutInflater.java:856)
+06-27 12:50:21.390 24284 26260 E MiEffectUtils: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:1008)
+06-27 12:50:21.390 24284 26260 E MiEffectUtils: 	at android.view.LayoutInflater.parseInclude(LayoutInflater.java:1235)
+06-27 12:50:21.390 24284 26260 E MiEffectUtils: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1121)
+06-27 12:50:21.390 24284 26260 E MiEffectUtils: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1086)
+06-27 12:50:21.390 24284 26260 E MiEffectUtils: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1128)
+06-27 12:50:21.390 24284 26260 E MiEffectUtils: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1086)
+06-27 12:50:21.390 24284 26260 E MiEffectUtils: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:684)
+06-27 12:50:21.390 24284 26260 E MiEffectUtils: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:536)
+06-27 12:50:21.390 24284 26260 E MiEffectUtils: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:479)
+06-27 12:50:21.390 24284 26260 E MiEffectUtils: 	at z7.x.j(Unknown Source:16)
+06-27 12:50:21.390 24284 26260 E MiEffectUtils: 	at z7.x.a(Unknown Source:0)
+06-27 12:50:21.390 24284 26260 E MiEffectUtils: 	at z7.x$a.run(Unknown Source:4)
+06-27 12:50:21.390 24284 26260 E MiEffectUtils: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+06-27 12:50:21.390 24284 26260 E MiEffectUtils: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+06-27 12:50:21.390 24284 26260 E MiEffectUtils: 	at ud.z$a$a.run(Unknown Source:7)
+06-27 12:50:21.390 24284 26260 E MiEffectUtils: 	at java.lang.Thread.run(Thread.java:923)
+06-27 12:50:21.390 24284 26260 I AudioEffectCenterWrapper: isSupportFWAudioEffect: false
+06-27 12:50:21.390 24284 26260 W System.err: java.lang.ClassNotFoundException: android.media.audiofx.MiEffectUtils
+06-27 12:50:21.390 24284 26260 W System.err: 	at java.lang.Class.classForName(Native Method)
+06-27 12:50:21.390 24284 26260 W System.err: 	at java.lang.Class.forName(Class.java:454)
+06-27 12:50:21.390 24284 26260 W System.err: 	at java.lang.Class.forName(Class.java:379)
+06-27 12:50:21.390 24284 26260 W System.err: 	at nf.d$a.d(Unknown Source:5)
+06-27 12:50:21.390 24284 26260 W System.err: 	at q7.m.j(Unknown Source:3)
+06-27 12:50:21.390 24284 26260 W System.err: 	at o7.g.j(Unknown Source:12)
+06-27 12:50:21.390 24284 26260 W System.err: 	at o7.g.<init>(Unknown Source:7)
+06-27 12:50:21.390 24284 26260 W System.err: 	at m7.a.e(Unknown Source:237)
+06-27 12:50:21.390 24284 26260 W System.err: 	at k7.l.<init>(Unknown Source:9)
+06-27 12:50:21.390 24284 26260 W System.err: 	at com.miui.gamebooster.videobox.view.DetailSettingsLayout.<init>(Unknown Source:19)
+06-27 12:50:21.390 24284 26260 W System.err: 	at com.miui.gamebooster.videobox.view.DetailSettingsLayout.<init>(Unknown Source:1)
+06-27 12:50:21.390 24284 26260 W System.err: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+06-27 12:50:21.390 24284 26260 W System.err: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+06-27 12:50:21.390 24284 26260 W System.err: 	at android.view.LayoutInflater.createView(LayoutInflater.java:856)
+06-27 12:50:21.390 24284 26260 W System.err: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:1008)
+06-27 12:50:21.390 24284 26260 W System.err: 	at android.view.LayoutInflater.parseInclude(LayoutInflater.java:1235)
+06-27 12:50:21.390 24284 26260 W System.err: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1121)
+06-27 12:50:21.390 24284 26260 W System.err: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1086)
+06-27 12:50:21.390 24284 26260 W System.err: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1128)
+06-27 12:50:21.390 24284 26260 W System.err: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1086)
+06-27 12:50:21.390 24284 26260 W System.err: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:684)
+06-27 12:50:21.390 24284 26260 W System.err: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:536)
+06-27 12:50:21.390 24284 26260 W System.err: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:479)
+06-27 12:50:21.390 24284 26260 W System.err: 	at z7.x.j(Unknown Source:16)
+06-27 12:50:21.391 24284 26260 W System.err: 	at z7.x.a(Unknown Source:0)
+06-27 12:50:21.391 24284 26260 W System.err: 	at z7.x$a.run(Unknown Source:4)
+06-27 12:50:21.391  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10159, uidState = 4
+06-27 12:50:21.391 24284 26260 W System.err: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+06-27 12:50:21.391 24284 26260 W System.err: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+06-27 12:50:21.391 24284 26260 W System.err: 	at ud.z$a$a.run(Unknown Source:7)
+06-27 12:50:21.391 24284 26260 W System.err: 	at java.lang.Thread.run(Thread.java:923)
+06-27 12:50:21.391 24284 26260 W System.err: Caused by: java.lang.ClassNotFoundException: android.media.audiofx.MiEffectUtils
+06-27 12:50:21.391 24284 26260 W System.err: 	... 30 more
+06-27 12:50:21.391 24284 26260 E MiEffectUtils: isSpatialAudioOn: 
+06-27 12:50:21.391 24284 26260 E MiEffectUtils: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.Boolean.booleanValue()' on a null object reference
+06-27 12:50:21.391 24284 26260 E MiEffectUtils: 	at q7.m.j(Unknown Source:22)
+06-27 12:50:21.391 24284 26260 E MiEffectUtils: 	at o7.g.j(Unknown Source:12)
+06-27 12:50:21.391 24284 26260 E MiEffectUtils: 	at o7.g.<init>(Unknown Source:7)
+06-27 12:50:21.391 24284 26260 E MiEffectUtils: 	at m7.a.e(Unknown Source:237)
+06-27 12:50:21.391 24284 26260 E MiEffectUtils: 	at k7.l.<init>(Unknown Source:9)
+06-27 12:50:21.391 24284 26260 E MiEffectUtils: 	at com.miui.gamebooster.videobox.view.DetailSettingsLayout.<init>(Unknown Source:19)
+06-27 12:50:21.391 24284 26260 E MiEffectUtils: 	at com.miui.gamebooster.videobox.view.DetailSettingsLayout.<init>(Unknown Source:1)
+06-27 12:50:21.391 24284 26260 E MiEffectUtils: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+06-27 12:50:21.391 24284 26260 E MiEffectUtils: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+06-27 12:50:21.391 24284 26260 E MiEffectUtils: 	at android.view.LayoutInflater.createView(LayoutInflater.java:856)
+06-27 12:50:21.391 24284 26260 E MiEffectUtils: 	at android.view.LayoutInflater.createViewFromTag(LayoutInflater.java:1008)
+06-27 12:50:21.391 24284 26260 E MiEffectUtils: 	at android.view.LayoutInflater.parseInclude(LayoutInflater.java:1235)
+06-27 12:50:21.391 24284 26260 E MiEffectUtils: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1121)
+06-27 12:50:21.391 24284 26260 E MiEffectUtils: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1086)
+06-27 12:50:21.391 24284 26260 E MiEffectUtils: 	at android.view.LayoutInflater.rInflate(LayoutInflater.java:1128)
+06-27 12:50:21.391 24284 26260 E MiEffectUtils: 	at android.view.LayoutInflater.rInflateChildren(LayoutInflater.java:1086)
+06-27 12:50:21.391 24284 26260 E MiEffectUtils: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:684)
+06-27 12:50:21.391 24284 26260 E MiEffectUtils: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:536)
+06-27 12:50:21.391 24284 26260 E MiEffectUtils: 	at android.view.LayoutInflater.inflate(LayoutInflater.java:479)
+06-27 12:50:21.391 24284 26260 E MiEffectUtils: 	at z7.x.j(Unknown Source:16)
+06-27 12:50:21.391 24284 26260 E MiEffectUtils: 	at z7.x.a(Unknown Source:0)
+06-27 12:50:21.391 24284 26260 E MiEffectUtils: 	at z7.x$a.run(Unknown Source:4)
+06-27 12:50:21.391 24284 26260 E MiEffectUtils: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+06-27 12:50:21.391 24284 26260 E MiEffectUtils: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+06-27 12:50:21.391 24284 26260 E MiEffectUtils: 	at ud.z$a$a.run(Unknown Source:7)
+06-27 12:50:21.391 24284 26260 E MiEffectUtils: 	at java.lang.Thread.run(Thread.java:923)
+06-27 12:50:21.391 24284 26260 I AudioEffectCenterWrapper: isSupportFWAudioEffect: false
+06-27 12:50:21.392 24284 24284 I ActiveWindowManager: onServiceConnected
+06-27 12:50:21.392 24284 24284 I ActiveWindowManager: onServiceConnected: mIActiveManager = com.miui.gameturbo.active.IActiveManager$Stub$a@2ecb35c
+06-27 12:50:21.392 20959 20959 V SoundRecorder:SoundRecorder: onCreate isRestore=> false
+06-27 12:50:21.392 20959 20959 V SoundRecorder:SoundRecorder: intent action =>  android.provider.MediaStore.RECORD_SOUND
+06-27 12:50:21.394 24284 26260 E ThemeUtils: View class com.miui.gamebooster.videobox.view.MarqueeTextView is an AppCompat widget that can only be used with a Theme.AppCompat theme (or descendant).
+06-27 12:50:21.394 20959 20959 V SoundRecorder:SoundRecorder: mCTAIsShowing =>  false
+06-27 12:50:21.395 24284 26260 E ThemeUtils: View class com.miui.gamebooster.videobox.view.MarqueeTextView is an AppCompat widget that can only be used with a Theme.AppCompat theme (or descendant).
+06-27 12:50:21.396 24284 26260 E ThemeUtils: View class com.miui.gamebooster.videobox.view.MarqueeTextView is an AppCompat widget that can only be used with a Theme.AppCompat theme (or descendant).
+06-27 12:50:21.396 24284 24327 E NetUtil : request: java.net.UnknownHostException: Unable to resolve host "gtglobal.intl.miui.com": No address associated with hostname
+06-27 12:50:21.397 24284 24327 E FileUtils: getPackageListFromData fail!
+06-27 12:50:21.397 24284 24327 I chatty  : uid=1000(system) SCLIGHTTask #2 identical 1 line
+06-27 12:50:21.397 24284 24327 E FileUtils: getPackageListFromData fail!
+06-27 12:50:21.400 20959 20959 D SoundRecorder:UIUtils: screenHeight metrics: 2340, screenWidth metrics: 1080, statusBarH: 96, Build.MODEL: Redmi K20 Pro
+06-27 12:50:21.400 20959 20959 V SoundRecorder:UIUtils: hasNotch => false,mode => 1, screenWidth => 1080, screenHeight => 2340, density:2.75, scaledDensity:2.2275
+06-27 12:50:21.401 20959 20959 D RecordingViewGroup: screenHeight: 2340, screenWidth: 1080
+06-27 12:50:21.406 24284 24326 I GDAppManager: loadDockApps: mDockAppList=[AppInfo{uid=10248, pkg='com.whatsapp', activity='com.whatsapp.Main', from='0'}, AppInfo{uid=10246, pkg='com.facebook.katana', activity='com.facebook.katana.LoginActivity', from='0'}, AppInfo{uid=10271, pkg='com.shazam.android', activity='com.shazam.android.activities.SplashActivity', from='0'}, AppInfo{uid=10264, pkg='com.instagram.android', activity='com.instagram.android.activity.MainTabActivity', from='2'}, AppInfo{uid=10287, pkg='com.truecaller', activity='com.truecaller.ui.TruecallerInit', from='2'}, AppInfo{uid=10192, pkg='com.android.chrome', activity='com.google.android.apps.chrome.Main', from='2'}, AppInfo{uid=10242, pkg='com.google.android.apps.translate', activity='com.google.android.apps.translate.TranslateActivity', from='2'}, AppInfo{uid=10238, pkg='com.larksuite.suite', activity='com.ss.android.lark.main.app.MainActivity', from='2'}, AppInfo{uid=10270, pkg='com.spotify.music', activity='com.spotify.music.MainActivity', from='2'}, AppInfo{uid=10257, pkg='sun.way2sms.hyd.com', activity='sun.way2sms.hyd.com.way2news.activities.SplashActivity', from='2'}, AppInfo{uid=10256, pkg='com.snapchat.android', activity='com.snapchat.android.LandingPageActivity', from='2'}, AppInfo{uid=10259, pkg='com.openai.chatgpt', activity='com.openai.chatgpt.MainActivity', from='2'}, AppInfo{uid=10272, pkg='cn.wps.moffice_eng', activity='cn.wps.moffice.documentmanager.PreStartActivity', from='2'}, AppInfo{uid=10205, pkg='com.google.android.gm', activity='com.google.android.gm.ConversationListActivityGmail', from='2'}, AppInfo{uid=10303, pkg='in.cricketexchange.cricketline', activity='in.cricketexchange.cricketline.liveline.activities.HomeActivity', from='2'}, AppInfo{uid=10267, pkg='in.startv.hotstar', activity='com.hotstar.MainActivity', from='2'}, AppInfo{uid=10081, pkg='com.miui.gallery', activity='com.miui.gallery.activity.HomePageActivity', from='2'}, AppInfo{uid=10194, pkg='com.google.android.apps.maps', activity='com.google.android.maps.MapsActivity', from='2'}, AppInfo{uid=10182, pkg='com.android.vending', activity='com.android.vending.AssetBrowserActivity', from='2'}, AppInfo{uid=10249, pkg='com.instagram.barcelona', activity='com.instagram.barcelona.mainactivity.BarcelonaActivity', from='2'}, AppInfo{uid=10252, pkg='com.google.android.apps.photos', activity='com.google.android.apps.photos.home.HomeActivity', from='2'}, AppInfo{uid=10305, pkg='com.ril.ajio', activity='com.ril.ajio.launch.activity.SplashScreenActivity', from='2'}, AppInfo{uid=10099, pkg='com.android.soundrecorder', activity='com.android.soundrecorder.SoundRecorder', from='2'}, AppInfo{uid=10245, pkg='in.amazon.mShop.android.shopping', activity='com.amazon.mShop.home.HomeActivity', from='2'}, AppInfo{uid=10255, pkg='com.linkedin.android', activity='com.linkedin.android.authenticator.LaunchActivityDefault', from='2'}, AppInfo{uid=10260, pkg='naukriApp.appModules.login', activity='com.naukri.splash.SplashActivity', from='2'}, AppInfo{uid=10274, pkg='com.twitter.android', activity='com.twitter.android.StartActivity', from='2'}, AppInfo{uid=10273, pkg='com.mxtech.videoplayer.ad', activity='com.mxtech.videoplayer.ad.ActivityWelcomeMX', from='2'}, AppInfo{uid=10265, pkg='com.google.android.apps.nbu.paisa.user', activity='com.google.nbu.paisa.flutter.gpay.app.LauncherActivity', from='2'}, AppInfo{uid=10290, pkg='com.infrasoft.uboi', activity='com.infrasoft.uboi.VyomProdJanUIUX', from='2'}]
+06-27 12:50:21.416   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.android.soundrecorder/.RecorderService and for client com.android.soundrecorder
+06-27 12:50:21.416   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.android.soundrecorder/.RecorderServiceare :1
+06-27 12:50:21.416   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.android.soundrecorderare :1
+06-27 12:50:21.416 20959 20959 I SoundRecorder:SoundRecorder: bind service success
+06-27 12:50:21.423   698   698 D Zygote  : Forked child process 28846
+06-27 12:50:21.424 28846 28846 W Zygote  : Unable to open libbeluga.so: dlopen failed: library "libbeluga.so" not found.
+06-27 12:50:21.424  1919  2122 I ActivityManager: Start proc 28846:com.miui.notes/u0a160 for content provider {com.miui.notes/com.miui.notes.provider.NotesProvider} caller=com.miui.securitycenter
+06-27 12:50:21.440 28846 28846 E com.miui.notes: Not starting debugger since process cannot load the jdwp agent.

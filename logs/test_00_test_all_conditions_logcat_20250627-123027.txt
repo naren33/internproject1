@@ -1,0 +1,22 @@
+--------- beginning of main
+06-27 12:30:26.500 22353 22547 I TetheringManager: registerTetheringEventCallback:com.android.camera
+06-27 12:30:26.614 23002 23002 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-27 12:30:26.616 23002 23002 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+06-27 12:30:26.616 23002 23002 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+06-27 12:30:26.616 23002 23002 I AndroidRuntime: Using default boot image
+06-27 12:30:26.616 23002 23002 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+06-27 12:30:26.616 23002 23002 I AndroidRuntime: Leaving lock profiling enabled
+06-27 12:30:26.603 23002 23002 W app_process: type=1400 audit(0.0:3521): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=17514 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+06-27 12:30:26.616 23002 23002 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+06-27 12:30:26.603 23002 23002 W app_process: type=1400 audit(0.0:3522): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=17514 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+06-27 12:30:26.603 23002 23002 W app_process: type=1400 audit(0.0:3523): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=17514 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+06-27 12:30:26.656 22410 22410 W FrscLanguagePack: FRSC English string not found for ID #0x7f1301a6
+06-27 12:30:26.690 23002 23002 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+06-27 12:30:26.690 23002 23002 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+06-27 12:30:26.719 23002 23002 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+06-27 12:30:26.725 23002 23002 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+06-27 12:30:26.731  1919  2326 W InputDispatcher: Permission denied: injecting event from pid 23002 uid 2000 to window Window{c79318e mode=0 rootTaskId=27376 u0 android/com.android.internal.app.ResolverActivity} owned by uid 1000
+--------- beginning of system
+06-27 12:30:26.731  1919  7655 W InputManager: Input event injection from pid 23002 permission denied.
+06-27 12:30:26.733 23002 23002 I app_process: System.exit called, status: 1
+06-27 12:30:26.733 23002 23002 I AndroidRuntime: VM exiting with result code 1.

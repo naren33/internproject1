@@ -1,0 +1,84 @@
+--------- beginning of main
+06-27 12:35:00.003  2671  2671 D KeyguardUpdateMonitor: received broadcast android.intent.action.TIME_TICK
+--------- beginning of system
+06-27 12:35:00.017  1919  7185 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat=file:///sdcard/Music/sample.mp3 typ=audio/* flg=0x10000000 cmp=android/com.android.internal.app.ResolverActivity} from uid 2000
+06-27 12:35:00.017  1919  7185 D MiuiMultiWindowAdapter: MiuiMultiWindowAdapter::getFreeformBlackList::sSmallWindowBlackList = [com.miui.securitycenter, com.miui.weather2, com.miui.miservice, com.android.calendar, com.xiaomi.calendar, com.android.contacts, com.miui.mishare.connectivity, com.android.settings, com.android.printspooler, com.miui.backup, com.miui.huanji, com.miui.calculator, com.android.deskclock, com.android.thememanager, com.mfashiongallery.emag, com.miui.virtualsim, com.miui.smarttravel, com.mi.health, com.android.camera, com.lbe.security.miui, com.miui.cleanmaster, com.miui.newhome, com.miui.voiceassist, com.android.phone, com.miui.yellowpage, com.android.updater, com.miui.tsmclient, com.miui.securitycore, com.xiaomi.account, com.xiaomi.shop, com.mipay.wallet, com.xiaomi.youpin, com.xiaomi.hm.health, com.miui.bugreport, com.xiaomi.mibrain.speech, com.xiaomi.mimoji, com.xiaomi.scanner, com.duokan.phone.remotecontroller, com.miui.hybrid, com.android.incallui, com.miui.video, com.miui.videoplayer, com.miui.player, com.miui.fm, com.miui.packageinstaller, com.mi.android.globallauncher, com.google.android.dialer, com.google.android.apps.magazines, com.miui.compass, com.miui.greenguard, com.kiteguard, com.google.android.apps.prodcasts, com.google.ar.lens, com.xiangkan.android, com.android.bankabc, com.sohu.inputmethod.sogou, com.tencent.mtt, com.shyz.toutiao, com.netease.mc.mi, com.outfit7.talkingtomgoldrun.mi, com.doudz.mi, com.wepie.snake.new.mi, cn.jj, com.standddz002.mi, com.miHoYo.bh3.mi, com.qqgame.hlddz, com.happyelements.AndroidAnimal, com.minitech.miniworld.TMobile.mi, com.mfp.jelly.xiaomi, com.lilithgames.afk.mi, com.tencent.peng, com.teenpatti.hd.gold, blockpuzzle.jewelgames.jewelslegend, com.playgendary.tanks, com.chillingo.robberybobfree.android.row, com.episodeinteractive.android.catalog, com.playrix.township, com.ansangha.drdriving, com.google.android.youtube, com.gbits.atm.mi]
+06-27 12:35:00.018   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-27 12:35:00.018   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-27 12:35:00.025 26415 26417 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:35:00.040  2671  2671 D KeyguardUpdateMonitor: handleTimeUpdate
+06-27 12:35:00.675   885   937 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.measurement.service.MeasurementBrokerService and for client com.miui.securitycenter.remote
+06-27 12:35:00.675   885   937 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.measurement.service.MeasurementBrokerServiceafter removal is 0
+06-27 12:35:00.675   885   937 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.miui.securitycenter.remoteafter removal is 4
+06-27 12:35:00.680   885   937 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.google.android.gms/.measurement.service.MeasurementBrokerService
+06-27 12:35:00.681  3799  3799 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+06-27 12:35:00.689  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10183, uidState = 5
+06-27 12:35:00.689  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 99005, uidState = 6
+06-27 12:35:00.690  9235  9448 I BtGatt.ScanManager: msg.what = 6
+06-27 12:35:00.798  1560  1560 I cnss-daemon: nl80211 response handler invoked
+06-27 12:35:00.798  1560  1560 I cnss-daemon: nl80211_response_handler: cmd 103, vendorID 4980, subcmd 13  received
+06-27 12:35:00.798   847  2607 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+06-27 12:35:01.796  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10183, uidState = 5
+06-27 12:35:01.818  1451  1451 E wificond: Skip scan ssid for single scan: {}
+06-27 12:35:01.818  1451  1451 E wificond: scan() freq: 2412, 2417, 2422, 2427, 2432, 2437, 2442, 2447, 2452, 2457, 2462, 2467, 2472, 5180, 5200, 5220, 5240, 5745, 5765, 5785, 5805, 5825, 
+06-27 12:35:01.818  1451  1451 E wificond: scan() ssid: 
+06-27 12:35:01.818  1451  1451 E wificond: scan() type: 0, random_mac: 0
+06-27 12:35:02.135  1560  1560 I cnss-daemon: nl80211 response handler invoked
+06-27 12:35:02.135   847  2607 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xa
+06-27 12:35:02.135  1560  1560 I cnss-daemon: nl80211_response_handler: cmd 103, vendorID 4980, subcmd 10  received
+06-27 12:35:02.136 10366 10366 I wpa_supplicant: p2p0: CTRL-EVENT-AVOID-FREQ ranges=5500-5640
+06-27 12:35:02.136 10366 10366 I wpa_supplicant: p2p0: CTRL-EVENT-REGDOM-CHANGE init=DRIVER type=COUNTRY alpha2=IN
+06-27 12:35:02.140  1919  7185 I ActivityTaskManager: START u0 {act=android.intent.action.CALL dat=tel:xxxxx flg=0x10000000 cmp=com.android.server.telecom/.components.UserCallActivity} from uid 2000
+06-27 12:35:02.140  1919  7185 W ActivityTaskManager: Permission Denial: starting Intent { act=android.intent.action.CALL dat=tel:xxxxx flg=0x10000000 cmp=com.android.server.telecom/.components.UserCallActivity } from null (pid=26420, uid=2000) with revoked permission android.permission.CALL_PHONE
+06-27 12:35:02.141 26420 26422 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:35:02.796  1560  1560 I cnss-daemon: nl80211 response handler invoked
+06-27 12:35:02.796  1560  1560 I cnss-daemon: nl80211_response_handler: cmd 103, vendorID 4980, subcmd 13  received
+06-27 12:35:02.796   847  2607 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+06-27 12:35:03.181  9395  9395 I PowerSaveService: onReceive: android.intent.action.BATTERY_CHANGED
+06-27 12:35:03.181  9739  9968 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 34, status = 2, level = 34, plug = 2, scale = 100
+06-27 12:35:03.183  2841  2841 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+06-27 12:35:03.184  9395  9395 I PowerNoticeUI: handleBatteryChanged oldPlugType 2 mPlugType 2 oldBatteryLevel 34 mBatteryLevel 34 temperature 267
+06-27 12:35:03.185  9395  9395 I ChargerBatteryIntelligenceReceiver: onBatteryChanged temperature：26,plugType:2
+06-27 12:35:03.185  9395  9395 I PowerFeatureUtils: getVendorName:qcom
+06-27 12:35:03.187  2671  2671 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+06-27 12:35:03.187  2671  2671 D BatteryController: onReceive: Intent = Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) } action = android.intent.action.BATTERY_CHANGED
+06-27 12:35:03.196  2881  2881 D DeviceStatisticsService: chargerType=2 batteryLevel=34 totalBatteryCapacity=2238000
+06-27 12:35:03.235  1919  7185 D WifiNl80211Manager: Scan result ready event
+06-27 12:35:03.235  1919  7185 D WifiNative: Scan result ready event
+06-27 12:35:03.236  1590  2608 I LOWI-9.0.0.56: [LOWI-Scan] lowi_close_record:Scan done in 3096376ms, 19 APs in scan results
+06-27 12:35:03.239  1590  1602 I LOWI-9.0.0.56: [LOWIUtils] responseToOutPostcard - TO: FreeWifiScanObserver, FROM:   LOWI-SERVER, RESP:  LOWI_ASYNC_DISCOVERY_SCAN_RESULTS
+06-27 12:35:03.250   808   900 I LocSvc_api_v02: ---> locClientSendReq line 2400 QMI_LOC_INJECT_WIFI_AP_DATA_REQ_V02
+06-27 12:35:03.251   808  1788 I LocSvc_ApiV02: <--- globalRespCb line 220 QMI_LOC_INJECT_WIFI_AP_DATA_REQ_V02
+06-27 12:35:03.264  1919  2402 D PasspointManager: ANQP entry not found for: 00:a0:0a:2d:32:01:<JioPrivateNet>
+06-27 12:35:03.311 10366 10366 I wpa_supplicant: wlan0: GAS-QUERY-START addr=00:a0:0a:2d:32:01 dialog_token=105 freq=5180
+06-27 12:35:03.312  1919  2402 D HS20    : ANQP initiated on 00:a0:0a:2d:32:01
+06-27 12:35:03.313  1919  2402 D PasspointManager: ANQP entry not found for: 00:a0:0a:2d:32:01:<JioPrivateNet>
+06-27 12:35:03.338 10366 10366 I wpa_supplicant: wlan0: GAS-QUERY-DONE addr=00:a0:0a:2d:32:01 dialog_token=105 freq=5180 status_code=0 result=SUCCESS
+06-27 12:35:03.339 10366 10366 I wpa_supplicant: wlan0: RX-ANQP 00:a0:0a:2d:32:01 Venue Name
+06-27 12:35:03.339 10366 10366 I wpa_supplicant: wlan0: RX-ANQP 00:a0:0a:2d:32:01 IP Address Type Availability information
+06-27 12:35:03.339 10366 10366 I wpa_supplicant: wlan0: RX-ANQP 00:a0:0a:2d:32:01 NAI Realm list
+06-27 12:35:03.339 10366 10366 I wpa_supplicant: wlan0: RX-ANQP 00:a0:0a:2d:32:01 3GPP Cellular Network information
+06-27 12:35:03.339 10366 10366 I wpa_supplicant: wlan0: RX-ANQP 00:a0:0a:2d:32:01 Domain Name list
+06-27 12:35:03.339 10366 10366 I wpa_supplicant: wlan0: RX-HS20-ANQP 00:a0:0a:2d:32:01 Operator Friendly Name
+06-27 12:35:03.339 10366 10366 I wpa_supplicant: wlan0: RX-HS20-ANQP 00:a0:0a:2d:32:01 Connection Capability
+06-27 12:35:03.339 10366 10366 I wpa_supplicant: wlan0: ANQP-QUERY-DONE addr=00:a0:0a:2d:32:01 result=SUCCESS
+06-27 12:35:03.643  3799  3799 W ThreadPoolForeg: type=1400 audit(0.0:3954): avc: denied { write } for name="traced_producer" dev="tmpfs" ino=39154 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+06-27 12:35:04.241  1919  7185 I ActivityTaskManager: START u0 {act=android.intent.action.CALL dat=tel:xxxxx flg=0x10000000 cmp=com.android.server.telecom/.components.UserCallActivity} from uid 2000
+06-27 12:35:04.242  1919  7185 W ActivityTaskManager: Permission Denial: starting Intent { act=android.intent.action.CALL dat=tel:xxxxx flg=0x10000000 cmp=com.android.server.telecom/.components.UserCallActivity } from null (pid=26425, uid=2000) with revoked permission android.permission.CALL_PHONE
+06-27 12:35:04.243 26425 26427 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:35:04.805   847  2607 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+06-27 12:35:04.805  1560  1560 I cnss-daemon: nl80211 response handler invoked
+06-27 12:35:04.805  1560  1560 I cnss-daemon: nl80211_response_handler: cmd 103, vendorID 4980, subcmd 13  received
+06-27 12:35:05.553  3125  3125 W ThreadPoolForeg: type=1400 audit(0.0:3955): avc: denied { write } for name="traced_producer" dev="tmpfs" ino=39154 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+06-27 12:35:05.759   885   937 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.chimera.PersistentApiService and for client com.google.android.gms
+06-27 12:35:05.761  3125  3125 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.presencemanager.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+06-27 12:35:05.766   885   937 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.chimera.PersistentApiService and for client com.google.android.gms
+06-27 12:35:05.766  3125  3125 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.presencemanager.service.INTERNAL_IDENTITY dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+06-27 12:35:05.769   885   937 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.chimera.PersistentDirectBootAwareApiService and for client com.google.android.gms
+06-27 12:35:05.792   885   937 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.chimera.PersistentDirectBootAwareApiService and for client com.google.android.gms.persistent
+06-27 12:35:05.878   885   937 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.chimera.PersistentApiService and for client com.android.vending
+06-27 12:35:05.878   885   937 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.chimera.PersistentApiServiceafter removal is 9
+06-27 12:35:05.878   885   937 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.android.vendingafter removal is 1
+06-27 12:35:06.334  1919  2599 I ActivityTaskManager: START u0 {act=android.intent.action.CALL dat=tel:xxxxx flg=0x10000000 cmp=com.android.server.telecom/.components.UserCallActivity} from uid 2000
+06-27 12:35:06.334  1919  2599 W ActivityTaskManager: Permission Denial: starting Intent { act=android.intent.action.CALL dat=tel:xxxxx flg=0x10000000 cmp=com.android.server.telecom/.components.UserCallActivity } from null (pid=26430, uid=2000) with revoked permission android.permission.CALL_PHONE
+06-27 12:35:06.336 26430 26432 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4

@@ -1,0 +1,5 @@
+--------- beginning of main
+06-27 12:34:59.576  1919  7185 D MessageMonitor: Dump Looper message took 1ms
+06-27 12:34:59.614  1919  7185 D MessageMonitor: Dump Looper message took 0ms
+06-27 12:34:59.614  1919  7185 D MessageMonitor: Dump Looper message took 0ms
+06-27 12:34:59.748  9235  9262 E bt_btif : bta_av_co_get_active_peer: peer index out of bounds: 5

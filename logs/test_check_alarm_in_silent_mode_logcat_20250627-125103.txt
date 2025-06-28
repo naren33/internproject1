@@ -1,0 +1,141 @@
+--------- beginning of main
+06-27 12:50:58.505 28683 28683 D ResolverListAdapter: ResolverListAdapter: com.android.internal.app.ResolverListAdapter@c30a2b0
+06-27 12:50:58.530 28683 28683 D MiShareTransmissionView: initScreenView is false
+06-27 12:50:58.579 28683 28990 D ResolverListAdapter: on doInBackground!!!!
+06-27 12:50:58.579 28683 28990 D AbstractResolverComp: Setting watchdog timer for 500ms
+06-27 12:50:58.583 28683 28683 D ResolverListAdapter: getItem: position 0 mDisplayList.size(): 0
+06-27 12:50:58.583 28683 28683 D ResolverListAdapter: getItem: position 1 mDisplayList.size(): 0
+06-27 12:50:58.583 28683 28683 D ResolverListAdapter: getItem: position 2 mDisplayList.size(): 0
+06-27 12:50:58.583 28683 28683 D ResolverListAdapter: getItem: position 3 mDisplayList.size(): 0
+06-27 12:50:58.583   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.ext.services/android.ext.services.resolver.LRResolverRankerService and for client system:ui
+06-27 12:50:58.583   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.ext.services/android.ext.services.resolver.LRResolverRankerServiceare :1
+06-27 12:50:58.583   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : system:uiare :1
+06-27 12:50:58.583  1919  3081 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:50:58.583  1919  3081 D CompatibilityInfo: applicationDensity - 440
+06-27 12:50:58.583  1919  3081 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:50:58.584   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.google.android.ext.services/android.ext.services.resolver.LRResolverRankerService
+06-27 12:50:58.624 29363 29365 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:50:58.665 28683 28683 D ResolverListAdapter: ResolverListAdapter: com.android.internal.app.ResolverListAdapter@557f6df
+06-27 12:50:58.767 28683 28683 D ResolverListAdapter: ResolverListAdapter: com.android.internal.app.ResolverListAdapter@3263f2c
+--------- beginning of system
+06-27 12:50:58.783  1919  2106 W ActivityTaskManager: Activity top resumed state loss timeout for ActivityRecord{a022bd2 u0 android/com.android.internal.app.ResolverActivity t27391}
+06-27 12:50:58.783  1919  2106 W ActivityTaskManager: Activity pause timeout for ActivityRecord{a022bd2 u0 android/com.android.internal.app.ResolverActivity t27391}
+06-27 12:50:58.783   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-27 12:50:58.783   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-27 12:50:58.785   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 5
+06-27 12:50:58.809 28683 28683 W Activity: Slow Operation: Activity android/com.android.internal.app.ResolverActivity onCreate took 509ms
+06-27 12:50:58.785   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 5
+06-27 12:50:58.841  2964  2964 D RecentsImpl: mActivityStateObserver com.android.internal.app.ResolverActivity
+06-27 12:50:58.841 28683 28683 W Looper  : PerfMonitor looperActivity : package=android/com.android.internal.app.ResolverActivity time=0ms latency=562ms running=1ms  procState=12 ClientTransaction{ callbacks=[android.app.servertransaction.TopResumedActivityChangeItem] } historyMsgCount=2 (msgIndex=1 wall=562ms seq=250 running=202ms runnable=38ms binder=354ms h=android.app.ActivityThread$H w=159)
+06-27 12:50:58.842 28683 28683 W Looper  : PerfMonitor looperActivity : package=android/com.android.internal.app.ResolverActivity time=1ms latency=560ms running=1ms  procState=12 ClientTransaction{ callbacks=[android.app.servertransaction.TopResumedActivityChangeItem] } historyMsgCount=3 (msgIndex=1 wall=562ms seq=250 running=202ms runnable=38ms binder=354ms h=android.app.ActivityThread$H w=159)
+06-27 12:50:58.843 28683 28683 W Looper  : PerfMonitor looperActivity : package=android/com.android.internal.app.ResolverActivity time=1ms latency=561ms running=0ms  procState=12 ClientTransaction{ lifecycleRequest=android.app.servertransaction.PauseActivityItem } historyMsgCount=4 (msgIndex=1 wall=562ms seq=250 running=202ms runnable=38ms binder=354ms h=android.app.ActivityThread$H w=159)
+06-27 12:50:58.845   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 7
+06-27 12:50:58.845   885 10843 I chatty  : uid=1000(system) HwBinder:885_4 identical 1 line
+06-27 12:50:58.847   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 7
+06-27 12:50:58.847   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 8
+06-27 12:50:58.852  1919  3081 I Timeline: Timeline: App_transition_ready time:4063663
+06-27 12:50:58.847   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 8
+06-27 12:50:58.860  8346  8383 D PMonitor:  onForegroundActivitiesChanged:pid = 28683,activity-uid=1000,foregroundActivities=false
+06-27 12:50:58.861 28683 28683 D ResolverListAdapter: on PostExecute!!!!
+06-27 12:50:58.861 28683 28683 D ResolverListAdapter: processSortedlist: ResolveInfo{a7b7b87 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:50:58.862 28683 28683 I ResolverListAdapter: Add DisplayResolveInfo component: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}, intent component: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:50:58.862 28683 28683 D ResolverListAdapter: addResolveInfo: ResolveInfo{a7b7b87 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:50:58.862 28683 28683 D ResolverListAdapter: mDisplayList: 1
+06-27 12:50:58.862 28683 28683 D ResolverListAdapter: processSortedlist: ResolveInfo{7a0eab4 com.mxtech.videoplayer.ad/.ActivityPipScreen m=0x608000}
+06-27 12:50:58.862 28683 28683 I ResolverListAdapter: Add DisplayResolveInfo component: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityPipScreen}, intent component: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityPipScreen}
+06-27 12:50:58.862 28683 28683 D ResolverListAdapter: addResolveInfo: ResolveInfo{7a0eab4 com.mxtech.videoplayer.ad/.ActivityPipScreen m=0x608000}
+06-27 12:50:58.862 28683 28683 D ResolverListAdapter: mDisplayList: 2
+06-27 12:50:58.862 28683 28683 D ResolverListAdapter: processSortedlist: ResolveInfo{23ef6dd com.miui.player/.phone.ui.AudioPreview m=0x608000}
+06-27 12:50:58.863 28683 28683 I ResolverListAdapter: Add DisplayResolveInfo component: ComponentInfo{com.miui.player/com.miui.player.phone.ui.AudioPreview}, intent component: ComponentInfo{com.miui.player/com.miui.player.phone.ui.AudioPreview}
+06-27 12:50:58.863 28683 28683 D ResolverListAdapter: addResolveInfo: ResolveInfo{23ef6dd com.miui.player/.phone.ui.AudioPreview m=0x608000}
+06-27 12:50:58.863 28683 28683 D ResolverListAdapter: mDisplayList: 3
+06-27 12:50:58.863 28683 28683 D ResolverListAdapter: processSortedlist: ResolveInfo{ff4a252 com.bsbportal.music/.activities.LauncherScreenActivity m=0x608000}
+06-27 12:50:58.863 28683 28683 I ResolverListAdapter: Add DisplayResolveInfo component: ComponentInfo{com.bsbportal.music/com.bsbportal.music.activities.LauncherScreenActivity}, intent component: ComponentInfo{com.bsbportal.music/com.bsbportal.music.activities.LauncherScreenActivity}
+06-27 12:50:58.863 28683 28683 D ResolverListAdapter: addResolveInfo: ResolveInfo{ff4a252 com.bsbportal.music/.activities.LauncherScreenActivity m=0x608000}
+06-27 12:50:58.863 28683 28683 D ResolverListAdapter: mDisplayList: 4
+06-27 12:50:58.869 28683 28683 D ResolverListAdapter: getItem: position 0 mDisplayList.size(): 4
+06-27 12:50:58.869 28683 28683 D ResolverListAdapter: getItem: position 1 mDisplayList.size(): 4
+06-27 12:50:58.869 28683 28683 D ResolverListAdapter: getItem: position 2 mDisplayList.size(): 4
+06-27 12:50:58.869 28683 28683 D ResolverListAdapter: getItem: position 3 mDisplayList.size(): 4
+06-27 12:50:58.880  1919  3081 I Timeline: Timeline: App_transition_ready time:4063690
+06-27 12:50:58.884  1919  3081 I Timeline: Timeline: App_transition_ready time:4063695
+06-27 12:50:58.884  1919  3081 I Timeline: Timeline: App_transition_stopped time:4063695
+06-27 12:50:58.891  2671  3038 D MiuiPhoneStatusBarPolicy: updateManagedProfile: secondSpace = false
+06-27 12:50:58.893  9395  9418 I SCTaskStackListener: onTaskStackChanged! inSplit = false
+06-27 12:50:58.893  9395 21030 I SCTaskStackListener: onTaskStackChanged! inSplit = false
+06-27 12:50:58.894  2671  2671 D AppMiniWindowManager: topActivity updated in onTaskStackChanged
+06-27 12:50:58.897   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.ext.services/android.ext.services.resolver.LRResolverRankerService and for client system:ui
+06-27 12:50:58.897   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.ext.services/android.ext.services.resolver.LRResolverRankerServiceafter removal is 0
+06-27 12:50:58.897   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: system:uiafter removal is 0
+06-27 12:50:58.901   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.google.android.ext.services/android.ext.services.resolver.LRResolverRankerService
+06-27 12:50:58.909  8346  8383 D PMonitor:  onForegroundActivitiesChanged:pid = 20959,activity-uid=10099,foregroundActivities=true
+06-27 12:50:58.910  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10099, uidState = 12
+06-27 12:50:58.917   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 9
+06-27 12:50:58.931 28683 28683 E ActivityThread: Activity com.android.internal.app.ResolverActivity has leaked IntentReceiver com.android.internal.app.ResolverActivity$1@60c8f51 that was originally registered here. Are you missing a call to unregisterReceiver()?
+06-27 12:50:58.931 28683 28683 E ActivityThread: android.app.IntentReceiverLeaked: Activity com.android.internal.app.ResolverActivity has leaked IntentReceiver com.android.internal.app.ResolverActivity$1@60c8f51 that was originally registered here. Are you missing a call to unregisterReceiver()?
+06-27 12:50:58.931 28683 28683 E ActivityThread: 	at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:1607)
+06-27 12:50:58.931 28683 28683 E ActivityThread: 	at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:1378)
+06-27 12:50:58.931 28683 28683 E ActivityThread: 	at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1624)
+06-27 12:50:58.931 28683 28683 E ActivityThread: 	at android.app.ContextImpl.registerReceiverAsUser(ContextImpl.java:1611)
+06-27 12:50:58.931 28683 28683 E ActivityThread: 	at android.content.ContextWrapper.registerReceiverAsUser(ContextWrapper.java:720)
+06-27 12:50:58.931 28683 28683 E ActivityThread: 	at com.android.internal.content.PackageMonitor.register(PackageMonitor.java:98)
+06-27 12:50:58.931 28683 28683 E ActivityThread: 	at com.android.internal.content.PackageMonitor.register(PackageMonitor.java:86)
+06-27 12:50:58.931 28683 28683 E ActivityThread: 	at com.android.internal.app.ResolverActivity.onCreate(ResolverActivity.java:523)
+06-27 12:50:58.931 28683 28683 E ActivityThread: 	at com.android.internal.app.ResolverActivity.onCreate(ResolverActivity.java:380)
+06-27 12:50:58.931 28683 28683 E ActivityThread: 	at android.app.Activity.performCreate(Activity.java:8127)
+06-27 12:50:58.931 28683 28683 E ActivityThread: 	at android.app.Activity.performCreate(Activity.java:8098)
+06-27 12:50:58.931 28683 28683 E ActivityThread: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1310)
+06-27 12:50:58.931 28683 28683 E ActivityThread: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3513)
+06-27 12:50:58.931 28683 28683 E ActivityThread: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3700)
+06-27 12:50:58.931 28683 28683 E ActivityThread: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+06-27 12:50:58.931 28683 28683 E ActivityThread: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+06-27 12:50:58.931 28683 28683 E ActivityThread: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+06-27 12:50:58.931 28683 28683 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2136)
+06-27 12:50:58.931 28683 28683 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+06-27 12:50:58.931 28683 28683 E ActivityThread: 	at android.os.Looper.loop(Looper.java:236)
+06-27 12:50:58.931 28683 28683 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:8061)
+06-27 12:50:58.931 28683 28683 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+06-27 12:50:58.931 28683 28683 E ActivityThread: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:656)
+06-27 12:50:58.931 28683 28683 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:967)
+06-27 12:50:58.934 28683 28683 E ActivityThread: Activity com.android.internal.app.ResolverActivity has leaked IntentReceiver com.android.internal.app.ResolverActivity$5@7167608 that was originally registered here. Are you missing a call to unregisterReceiver()?
+06-27 12:50:58.934 28683 28683 E ActivityThread: android.app.IntentReceiverLeaked: Activity com.android.internal.app.ResolverActivity has leaked IntentReceiver com.android.internal.app.ResolverActivity$5@7167608 that was originally registered here. Are you missing a call to unregisterReceiver()?
+06-27 12:50:58.934 28683 28683 E ActivityThread: 	at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:1607)
+06-27 12:50:58.934 28683 28683 E ActivityThread: 	at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:1378)
+06-27 12:50:58.934 28683 28683 E ActivityThread: 	at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1624)
+06-27 12:50:58.934 28683 28683 E ActivityThread: 	at android.app.ContextImpl.registerReceiverAsUser(ContextImpl.java:1611)
+06-27 12:50:58.934 28683 28683 E ActivityThread: 	at android.content.ContextWrapper.registerReceiverAsUser(ContextWrapper.java:720)
+06-27 12:50:58.934 28683 28683 E ActivityThread: 	at com.android.internal.app.ResolverActivity.registerWorkProfileStateReceiver(ResolverActivity.java:1087)
+06-27 12:50:58.934 28683 28683 E ActivityThread: 	at com.android.internal.app.ResolverActivity.onStart(ResolverActivity.java:1068)
+06-27 12:50:58.934 28683 28683 E ActivityThread: 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1436)
+06-27 12:50:58.934 28683 28683 E ActivityThread: 	at android.app.Activity.performStart(Activity.java:8158)
+06-27 12:50:58.934 28683 28683 E ActivityThread: 	at android.app.ActivityThread.handleStartActivity(ActivityThread.java:3566)
+06-27 12:50:58.934 28683 28683 E ActivityThread: 	at android.app.servertransaction.TransactionExecutor.performLifecycleSequence(TransactionExecutor.java:221)
+06-27 12:50:58.934 28683 28683 E ActivityThread: 	at android.app.servertransaction.TransactionExecutor.cycleToPath(TransactionExecutor.java:201)
+06-27 12:50:58.934 28683 28683 E ActivityThread: 	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:173)
+06-27 12:50:58.934 28683 28683 E ActivityThread: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:97)
+06-27 12:50:58.934 28683 28683 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2136)
+06-27 12:50:58.934 28683 28683 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+06-27 12:50:58.934 28683 28683 E ActivityThread: 	at android.os.Looper.loop(Looper.java:236)
+06-27 12:50:58.934 28683 28683 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:8061)
+06-27 12:50:58.934 28683 28683 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+06-27 12:50:58.934 28683 28683 E ActivityThread: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:656)
+06-27 12:50:58.934 28683 28683 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:967)
+06-27 12:50:58.918   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 9
+06-27 12:50:59.875  2841  2841 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+06-27 12:50:59.876  2671  2671 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+06-27 12:50:59.877  2671  2671 D BatteryController: onReceive: Intent = Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) } action = android.intent.action.BATTERY_CHANGED
+06-27 12:50:59.877  9395  9395 I PowerSaveService: onReceive: android.intent.action.BATTERY_CHANGED
+06-27 12:50:59.879  9739  9968 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 40, status = 2, level = 40, plug = 2, scale = 100
+06-27 12:50:59.882  9395  9395 I PowerNoticeUI: handleBatteryChanged oldPlugType 2 mPlugType 2 oldBatteryLevel 40 mBatteryLevel 40 temperature 255
+06-27 12:50:59.882  9395  9395 I ChargerBatteryIntelligenceReceiver: onBatteryChanged temperature：25,plugType:2
+06-27 12:50:59.882  9395  9395 I PowerFeatureUtils: getVendorName:qcom
+06-27 12:50:59.883  2881  2881 D DeviceStatisticsService: chargerType=2 batteryLevel=40 totalBatteryCapacity=2173500
+06-27 12:51:00.734 29368 29370 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:51:01.006   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.chimera.PersistentApiService and for client com.google.android.gms.persistent
+06-27 12:51:01.009  3125  3125 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.auth.aang.events.services.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+06-27 12:51:01.012   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.chimera.PersistentDirectBootAwareApiService and for client com.google.android.apps.wellbeing
+06-27 12:51:01.012   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.chimera.PersistentDirectBootAwareApiServiceafter removal is 13
+06-27 12:51:01.036   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.chimera.PersistentApiService and for client com.google.android.apps.wellbeing
+06-27 12:51:01.969   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.chimera.PersistentDirectBootAwareApiService and for client com.google.android.gms.persistent
+06-27 12:51:01.972  3125  3125 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.libs.gmscorelogger.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentDirectBootAwareApiService }
+06-27 12:51:02.841 29373 29375 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4

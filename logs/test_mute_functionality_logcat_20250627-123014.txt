@@ -1,0 +1,52 @@
+--------- beginning of system
+06-27 12:30:14.564  1919  8335 I ActivityManager: Killing 19631:com.google.android.webview:webview_service/u0a193 (adj 985): empty #17
+06-27 12:30:14.565  1919  8335 I Process : PerfMonitor : current process sending signal quiet. PID: 19631 SIG: 9
+06-27 12:30:14.566  1919  2134 I Process : PerfMonitor : current process killing process group. PID: 19631
+--------- beginning of main
+06-27 12:30:14.566   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:14.566   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:14.566   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:14.566   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:14.566   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:14.567   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:14.567   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:14.571  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10264, uidState = 19
+06-27 12:30:14.571  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10076, uidState = 19
+06-27 12:30:14.591  7088  7120 I com.miui.daemo: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:30:14.596   698   698 D Zygote  : Forked child process 21551
+06-27 12:30:14.598  1919  2122 I ActivityManager: Start proc 21551:com.android.providers.calendar/u0a76 for broadcast {com.android.providers.calendar/com.android.providers.calendar.CalendarProviderBroadcastReceiver} caller=com.android.providers.calendar
+06-27 12:30:14.598  7088  7120 I com.miui.daemo: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:30:14.599 21551 21551 W Zygote  : Unable to open libbeluga.so: dlopen failed: library "libbeluga.so" not found.
+06-27 12:30:14.600   698   698 I Zygote  : Process 19631 exited due to signal 9 (Killed)
+06-27 12:30:14.600   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:14.600   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:14.600   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:14.600   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:14.600   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:14.600   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:14.600   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:14.601   885   937 I vendor.qti.hardware.servicetracker@1.2-service: killProcess is called for pid : 19631
+06-27 12:30:14.601   885   937 I vendor.qti.hardware.servicetracker@1.2-service: process with pid 19631 is service
+06-27 12:30:14.601   885   937 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.google.android.webview:webview_serviceafter removal is 0
+06-27 12:30:14.601   885   937 I vendor.qti.hardware.servicetracker@1.2-service: process with pid 19631 is client
+06-27 12:30:14.601   885   937 I vendor.qti.hardware.servicetracker@1.2-service: removing client with pid 19631process namecom.google.android.webview:webview_service
+06-27 12:30:14.601   885   937 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.google.android.webview/org.chromium.android_webview.services.MetricsBridgeService
+06-27 12:30:14.602  1919  7185 W ANRStateManager: clear state, but process isn't exist. hash=125945750 uid=10193 pid=19631 state=16
+06-27 12:30:14.602  8346 11722 I com.xiaomi.xms: oneway function results will be dropped but finished with status UNKNOWN_TRANSACTION and parcel size 0
+06-27 12:30:14.603  1919  2134 I libprocessgroup: Successfully killed process cgroup uid 10193 pid 19631 in 37ms
+06-27 12:30:14.607  1919  2385 I MiuiNetworkPolicy: removeUidState uid = 10193
+06-27 12:30:14.608  7088  7120 I com.miui.daemo: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:30:14.611 21551 21551 E viders.calenda: Not starting debugger since process cannot load the jdwp agent.
+06-27 12:30:14.612  7088  7120 I com.miui.daemo: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:30:14.617  7088  7120 I com.miui.daemo: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:30:14.618  1919  1985 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:30:14.618  1919  1985 D CompatibilityInfo: applicationDensity - 440
+06-27 12:30:14.618  1919  1985 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:30:14.619  1919  1985 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:30:14.619  1919  1985 D CompatibilityInfo: applicationDensity - 440
+06-27 12:30:14.619  1919  1985 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:30:14.619  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10076, uidState = 11
+06-27 12:30:14.623  7088  7120 I com.miui.daemo: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:30:14.623  7088  7120 I chatty  : uid=1000(system) Binder:7088_2 identical 1 line
+06-27 12:30:14.624  7088  7120 I com.miui.daemo: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:30:14.628 21551 21551 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar

@@ -1,0 +1,281 @@
+--------- beginning of main
+06-27 12:30:02.789   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: killProcess is called for pid : 18904
+06-27 12:30:02.789   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: process with pid 18904 is client
+06-27 12:30:02.789   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: removing client with pid 18904process namecom.android.settings
+06-27 12:30:02.790  8346  8389 I com.xiaomi.xms: oneway function results will be dropped but finished with status UNKNOWN_TRANSACTION and parcel size 0
+06-27 12:30:02.792  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.797  7088 10777 I com.miui.daemo: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:30:02.797  7088 10777 I com.miui.daemo: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:30:02.799 20712 20809 D miuisdk_anim: logLevel = 
+06-27 12:30:02.806  1919  2134 E libprocessgroup: Failed to kill process cgroup uid 10106 pid 18589 in 216ms, 1 processes remain
+--------- beginning of system
+06-27 12:30:02.806  1919  2134 I Process : PerfMonitor : current process killing process group. PID: 19011
+06-27 12:30:02.810  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.815   698   698 I Zygote  : Process 19011 exited due to signal 9 (Killed)
+06-27 12:30:02.815   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:02.815   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:02.815   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:02.815   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:02.815   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:02.815   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:02.815   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:02.816   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: killProcess is called for pid : 19011
+06-27 12:30:02.816  8346  8389 I com.xiaomi.xms: oneway function results will be dropped but finished with status UNKNOWN_TRANSACTION and parcel size 0
+06-27 12:30:02.816  1919  8390 W ANRStateManager: clear state, but process isn't exist. hash=170094027 uid=10216 pid=19011 state=16
+06-27 12:30:02.817  1919  2134 I libprocessgroup: Successfully killed process cgroup uid 10216 pid 19011 in 11ms
+06-27 12:30:02.817  1919  2134 I Process : PerfMonitor : current process killing process group. PID: 18904
+06-27 12:30:02.817  1919  2134 I libprocessgroup: Successfully killed process cgroup uid 1000 pid 18904 in 0ms
+06-27 12:30:02.818  1919  2134 I Process : PerfMonitor : current process killing process group. PID: 18494
+06-27 12:30:02.819  1919  2385 I MiuiNetworkPolicy: removeUidState uid = 10216
+06-27 12:30:02.822  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.823 20712 20812 D ResolverListAdapter: on doInBackground!!!!
+06-27 12:30:02.823 20712 20812 D AbstractResolverComp: Setting watchdog timer for 500ms
+06-27 12:30:02.825   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.ext.services/android.ext.services.resolver.LRResolverRankerService and for client system:ui
+06-27 12:30:02.825   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.ext.services/android.ext.services.resolver.LRResolverRankerServiceare :1
+06-27 12:30:02.825   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : system:uiare :1
+06-27 12:30:02.826  1919  3090 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:30:02.826  1919  3090 D CompatibilityInfo: applicationDensity - 440
+06-27 12:30:02.826  1919  3090 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:30:02.826   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.google.android.ext.services/android.ext.services.resolver.LRResolverRankerService
+06-27 12:30:02.826  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10235, uidState = 3
+06-27 12:30:02.827 20712 20712 D ResolverListAdapter: getItem: position 0 mDisplayList.size(): 0
+06-27 12:30:02.827 20712 20712 D ResolverListAdapter: getItem: position 1 mDisplayList.size(): 0
+06-27 12:30:02.827 20712 20712 D ResolverListAdapter: getItem: position 2 mDisplayList.size(): 0
+06-27 12:30:02.827 20712 20712 D ResolverListAdapter: getItem: position 3 mDisplayList.size(): 0
+06-27 12:30:02.836   698   698 I Zygote  : Process 18494 exited due to signal 9 (Killed)
+06-27 12:30:02.838  1919  2134 I libprocessgroup: Successfully killed process cgroup uid 10166 pid 18494 in 20ms
+06-27 12:30:02.839  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.840   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:02.840   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:02.840   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:02.840   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:02.840   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:02.840   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:02.840   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:02.841  1919  2599 W ANRStateManager: clear state, but process isn't exist. hash=36785713 uid=10166 pid=18494 state=16
+06-27 12:30:02.843   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: killProcess is called for pid : 18494
+06-27 12:30:02.844  8346  8389 I com.xiaomi.xms: oneway function results will be dropped but finished with status UNKNOWN_TRANSACTION and parcel size 0
+06-27 12:30:02.844  1919  2385 I MiuiNetworkPolicy: removeUidState uid = 10166
+06-27 12:30:02.854  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.872  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.876 20712 20712 D ResolverListAdapter: ResolverListAdapter: com.android.internal.app.ResolverListAdapter@3877f1a
+06-27 12:30:02.883 20784 20784 I Perf    : Connecting to perf service.
+06-27 12:30:02.888  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.904  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.904 20784 20784 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+06-27 12:30:02.908 20784 20784 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+06-27 12:30:02.915   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:02.915   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:02.915   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:02.915   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:02.916   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:02.916   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:02.916   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:02.917   698   698 I Zygote  : Process 18589 exited due to signal 9 (Killed)
+06-27 12:30:02.919  1919  8333 W ANRStateManager: clear state, but process isn't exist. hash=244726412 uid=10106 pid=18589 state=16
+06-27 12:30:02.920   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: killProcess is called for pid : 18589
+06-27 12:30:02.920   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: process with pid 18589 is client
+06-27 12:30:02.920   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: removing client with pid 18589process namecom.android.mms
+06-27 12:30:02.922  8346  8389 I com.xiaomi.xms: oneway function results will be dropped but finished with status UNKNOWN_TRANSACTION and parcel size 0
+06-27 12:30:02.923  1919  2385 I MiuiNetworkPolicy: removeUidState uid = 10106
+06-27 12:30:02.926 20784 20784 W ComponentDiscovery: Class com.google.firebase.dynamicloading.DynamicLoadingRegistrar is not an found.
+06-27 12:30:02.935 20712 20712 D ResolverListAdapter: ResolverListAdapter: com.android.internal.app.ResolverListAdapter@1873a4b
+06-27 12:30:02.935 20784 20784 I FirebaseApp: Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+06-27 12:30:02.935  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.941  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.944 20784 20784 I FirebaseInitProvider: FirebaseApp initialization successful
+06-27 12:30:02.956  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.956 20784 20784 I ContentProviderMonitor: PerfMonitor installContentProviders : before publish content providers
+06-27 12:30:02.957 20746 20746 W stagram.androi: JIT profile information will not be recorded: profile file does not exist.
+06-27 12:30:02.958 20746 20746 I chatty  : uid=10264(com.instagram.android) identical 9 lines
+06-27 12:30:02.958 20746 20746 W stagram.androi: JIT profile information will not be recorded: profile file does not exist.
+06-27 12:30:02.965 20784 20784 I ML::MiLinkApplication: com.milink.service:20784 onCreate
+06-27 12:30:02.965 20784 20820 W .milink.servic: Unsupported class loader
+06-27 12:30:02.970 20784 20820 W .milink.servic: Skipping duplicate class check due to unsupported classloader
+06-27 12:30:02.971 20784 20820 W .milink.servic: Unsupported class loader
+06-27 12:30:02.972  1919  3090 E system_server: Invalid class loader spec: =UnsupportedClassLoaderContext=
+06-27 12:30:02.972  1919  3090 E PackageDexUsage: Unsupported context?
+06-27 12:30:02.973 20784 20820 I DynamiteModule: Considering local module com.google.android.gms.measurement.dynamite:46 and remote module com.google.android.gms.measurement.dynamite:151
+06-27 12:30:02.973 20784 20820 I DynamiteModule: Selected remote version of com.google.android.gms.measurement.dynamite, version >= 151
+06-27 12:30:02.973 20784 20820 V DynamiteModule: Dynamite loader version >= 2, using loadModule2NoCrashUtils
+06-27 12:30:02.974  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.975 20784 20784 I ML::PrivacyUtils: get user experience: 1
+06-27 12:30:02.976 20784 20784 I ML::PrivacyUtils: get setting privacy: 1
+06-27 12:30:02.982 20784 20784 I ML::FirebaseImpl: cn&global stat condition: mainSpace=true, monkey=false
+06-27 12:30:02.986 20813 20813 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-27 12:30:02.987 20784 20784 I ML::FirebaseImpl: global stat condition: local=true, remote=false, experience=true, setting=true
+06-27 12:30:02.987 20784 20784 I ML::FirebaseImpl: Firebase init ignore
+06-27 12:30:02.983 20813 20813 W app_process: type=1400 audit(0.0:3294): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=17514 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+06-27 12:30:02.983 20813 20813 I chatty  : uid=2000(shell) app_process identical 2 lines
+06-27 12:30:02.983 20813 20813 W app_process: type=1400 audit(0.0:3297): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=17514 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+06-27 12:30:02.989 20813 20813 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+06-27 12:30:02.989 20813 20813 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+06-27 12:30:02.989 20813 20813 I AndroidRuntime: Using default boot image
+06-27 12:30:02.989 20813 20813 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+06-27 12:30:02.989 20813 20813 I AndroidRuntime: Leaving lock profiling enabled
+06-27 12:30:02.990 20813 20813 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+06-27 12:30:02.990  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.993 20784 20826 I ML::MiLinkApplication: privacy operate: agree=1737111682086, agreeReport=0, revoke=0, revokeReport=0
+06-27 12:30:02.995 20784 20820 W System  : ClassLoader referenced unknown path: 
+06-27 12:30:02.995   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:02.995   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:02.995   879   879 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:30:02.995   879   879 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-27 12:30:02.995   879   879 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.milink.service feature:AppClassifier feedback = 0
+06-27 12:30:03.005  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:03.007 20784 20826 I ML::MiLinkApplication: retry reportPrivacyAgree
+06-27 12:30:03.017  9395  9616 D TrafficManageService: onReceive: intent.action = com.android.server.action.NETWORK_STATS_UPDATED
+06-27 12:30:03.017 20746 20746 I Perf    : Connecting to perf service.
+06-27 12:30:03.022 20784 20820 W .milink.servic: ClassLoaderContext classpath size mismatch. expected=12, found=2 (DLC[];PCL[base.apk*3954478138:base.apk!classes2.dex*934104914:base.apk!classes3.dex*156543503:base.apk!classes4.dex*3966455241:base.apk!classes5.dex*279722583:base.apk!classes6.dex*727634671:base.apk!classes7.dex*2632977846:base.apk!classes8.dex*3752884997:base.apk!classes9.dex*1939713283:base.apk!classes10.dex*2897118556:base.apk!classes11.dex*1109959419:base.apk!classes12.dex*1624837242]{PCL[/system/framework/org.apache.http.legacy.jar*1721227950]#PCL[/system/framework/com.android.media.remotedisplay.jar*1573936315]#PCL[/system/framework/com.android.location.provider.jar*1664931834]#PCL[/system/framework/org.apache.http.legacy.jar*1721227950]} | DLC[];PCL[/system/app/MiLinkService2/MiLinkService2.apk*2807112973:/system/app/MiLinkService2/MiLinkService2.apk!classes2.dex*77243959]{PCL[/system/framework/android.test.base.jar*2798937298]})
+06-27 12:30:03.023 20784 20826 I ML::Log : https://privacy.api.intl.miui.com/collect/privacy/agree/v1
+06-27 12:30:03.023 20784 20820 W .milink.servic: Found duplicate classes, falling back to extracting from APK : /data/app/~~6lqp1g1euv33FXgLN4m2AQ==/com.google.android.gms-157QwNoNPoMrpSh2_FrQYQ==/split_MeasurementDynamite_installtime.apk
+06-27 12:30:03.023 20784 20820 W .milink.servic: NOTE: This wastes RAM and hurts startup performance.
+06-27 12:30:03.023 20784 20820 W .milink.servic: Found duplicated class when checking oat files: 'Landroid/support/v4/graphics/drawable/IconCompatParcelizer;' in /system/app/MiLinkService2/MiLinkService2.apk and /data/app/~~6lqp1g1euv33FXgLN4m2AQ==/com.google.android.gms-157QwNoNPoMrpSh2_FrQYQ==/split_MeasurementDynamite_installtime.apk
+06-27 12:30:03.023  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:03.024  2964  2964 D RecentsImpl: mActivityStateObserver com.android.internal.app.ResolverActivity
+06-27 12:30:03.024 20712 20712 W Looper  : PerfMonitor looperActivity : package=android/com.android.internal.app.ResolverActivity time=0ms latency=626ms running=0ms  procState=2 ClientTransaction{ callbacks=[android.app.servertransaction.TopResumedActivityChangeItem] } historyMsgCount=3 (msgIndex=3 wall=577ms seq=3 running=161ms runnable=40ms io=112ms binder=293ms late=48ms h=android.app.ActivityThread$H w=159)
+06-27 12:30:03.029  2964  3243 D GestureStubView: resetRenderProperty: showGestureStub
+06-27 12:30:03.030  2964  3243 D GestureStubView: showGestureStub
+06-27 12:30:03.030  2964  3243 D GestureStubView: resetRenderProperty: showGestureStub
+06-27 12:30:03.030  2964  3243 D GestureStubView: showGestureStub
+06-27 12:30:03.044  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:03.049 20712 20712 D RAInjector: getView: position 0 info: null
+06-27 12:30:03.052 20712 20712 D RAInjector: getView: position 0 info: null
+06-27 12:30:03.054  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:03.055 20712 20712 D RAInjector: getView: position 0 info: null
+06-27 12:30:03.058  1919  3247 I Timeline: Timeline: App_transition_ready time:2807869
+06-27 12:30:03.057 20712 20712 I chatty  : uid=1000 system:ui identical 1 line
+06-27 12:30:03.059 20712 20712 D RAInjector: getView: position 0 info: null
+06-27 12:30:03.060  2964  3243 D GestureStubView: gatherTransparentRegion: need render w:54  h:1404
+06-27 12:30:03.060 20712 20712 V MiuiFrameworkFactory: get AllImpl object = android.common.MiuiFrameworkFactoryImpl@d2ba1c0
+06-27 12:30:03.061 20746 20746 D NetworkSecurityConfig: Using Network Security Config from resource fb_network_security_config debugBuild: false
+06-27 12:30:03.063  1919  3247 I Timeline: Timeline: App_transition_ready time:2807874
+06-27 12:30:03.067  2964  3243 D GestureStubView: gatherTransparentRegion: need render w:54  h:1404
+06-27 12:30:03.073  1919  8333 I Timeline: Timeline: App_transition_ready time:2807883
+06-27 12:30:03.074  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:03.074 20746 20746 D NetworkSecurityConfig: Using Network Security Config from resource fb_network_security_config debugBuild: false
+06-27 12:30:03.076  1919  8333 I Timeline: Timeline: App_transition_ready time:2807886
+06-27 12:30:03.098  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:03.099  1919  1938 I system_server: Background concurrent copying GC freed 438829(27MB) AllocSpace objects, 13(576KB) LOS objects, 26% free, 67MB/91MB, paused 73us total 213.022ms
+06-27 12:30:03.100 20813 20813 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+06-27 12:30:03.100 20813 20813 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+06-27 12:30:03.100  1919  1939 W JavaBinder: BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.AlarmManagerService$2
+06-27 12:30:03.100  1919  1939 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+06-27 12:30:03.104 20712 20712 D RAInjector: getView: position 0 info: null
+06-27 12:30:03.104  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:03.104 20712 20712 D RAInjector: getView: position 0 info: null
+06-27 12:30:03.105 20712 20712 I chatty  : uid=1000 system:ui identical 2 lines
+06-27 12:30:03.105 20712 20712 D RAInjector: getView: position 0 info: null
+06-27 12:30:03.107 20712 20712 D RAInjector: getView: position 1 info: null
+06-27 12:30:03.109 20712 20712 D RAInjector: getView: position 2 info: null
+06-27 12:30:03.111 20712 20712 D RAInjector: getView: position 3 info: null
+06-27 12:30:03.122  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:03.136  1919  2107 I Timeline: Timeline: App_transition_ready time:2807947
+06-27 12:30:03.140  1919  2107 I Timeline: Timeline: App_transition_ready time:2807951
+06-27 12:30:03.144 20813 20813 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+06-27 12:30:03.144 20712 20712 D AbstractResolverComp: RANKER_SERVICE_RESULT
+06-27 12:30:03.146  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:03.147   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:03.147   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:03.147   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:03.147   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:03.147   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:03.147   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:03.147   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:03.149  1919  2107 I Timeline: Timeline: App_transition_ready time:2807960
+06-27 12:30:03.149  1919  2107 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{11a5c80 u0 android/com.android.internal.app.ResolverActivity t27376} time:2807960
+06-27 12:30:03.149  1919  2107 I Timeline: Timeline: App_transition_stopped time:2807960
+06-27 12:30:03.152 20813 20813 D AndroidRuntime: Calling main entry com.android.commands.svc.Svc
+06-27 12:30:03.154  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:03.155  2671  3038 D MiuiPhoneStatusBarPolicy: updateManagedProfile: secondSpace = false
+06-27 12:30:03.156  1919  2119 D ArtManagerInternalImpl: /data/misc/iorapd/android/30/com.android.internal.app.ResolverActivity/compiled_traces/compiled_trace.pb doesn't exist
+06-27 12:30:03.159  1919  2119 I ActivityTaskManager: Displayed android/com.android.internal.app.ResolverActivity: +873ms
+06-27 12:30:03.159   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:03.159   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:03.159   879   879 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:30:03.159   879   879 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-27 12:30:03.159   879   879 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:android feature:AppClassifier feedback = 0
+06-27 12:30:03.160   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.ads.AdRequestBrokerService and for client com.twitter.android
+06-27 12:30:03.160   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.ads.AdRequestBrokerServiceafter removal is 0
+06-27 12:30:03.160   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.twitter.androidafter removal is 8
+06-27 12:30:03.161  3799  3799 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.ads.service.START pkg=com.google.android.gms }
+06-27 12:30:03.161   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.google.android.gms/.ads.AdRequestBrokerService
+06-27 12:30:03.172  1919  3247 W BluetoothManagerService: checkPackage(): called with null packageName from 2000
+06-27 12:30:03.174  7088 10777 I com.miui.daemo: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:30:03.174  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:03.187  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:03.192  2671  2693 D AppMiniWindowManager: onForegroundWindowChanged: android
+06-27 12:30:03.193 20813 20813 D AndroidRuntime: Shutting down VM
+--------- beginning of crash
+06-27 12:30:03.193 20813 20813 E AndroidRuntime: FATAL EXCEPTION: main
+06-27 12:30:03.193 20813 20813 E AndroidRuntime: PID: 20813
+06-27 12:30:03.193 20813 20813 E AndroidRuntime: java.lang.SecurityException: Need BLUETOOTH ADMIN permission: Neither user 2000 nor current process has android.permission.BLUETOOTH_ADMIN.
+06-27 12:30:03.193 20813 20813 E AndroidRuntime: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:2376)
+06-27 12:30:03.193 20813 20813 E AndroidRuntime: 	at android.os.Parcel.createException(Parcel.java:2360)
+06-27 12:30:03.193 20813 20813 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:2343)
+06-27 12:30:03.193 20813 20813 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:2285)
+06-27 12:30:03.193 20813 20813 E AndroidRuntime: 	at android.bluetooth.IBluetoothManager$Stub$Proxy.enable(IBluetoothManager.java:583)
+06-27 12:30:03.193 20813 20813 E AndroidRuntime: 	at android.bluetooth.BluetoothAdapter.enable(BluetoothAdapter.java:1135)
+06-27 12:30:03.193 20813 20813 E AndroidRuntime: 	at com.android.commands.svc.BluetoothCommand.run(BluetoothCommand.java:51)
+06-27 12:30:03.193 20813 20813 E AndroidRuntime: 	at com.android.commands.svc.Svc.main(Svc.java:41)
+06-27 12:30:03.193 20813 20813 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+06-27 12:30:03.193 20813 20813 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:463)
+06-27 12:30:03.193 20813 20813 E AndroidRuntime: Caused by: android.os.RemoteException: Remote stack trace:
+06-27 12:30:03.193 20813 20813 E AndroidRuntime: 	at android.app.ContextImpl.enforce(ContextImpl.java:2028)
+06-27 12:30:03.193 20813 20813 E AndroidRuntime: 	at android.app.ContextImpl.enforceCallingOrSelfPermission(ContextImpl.java:2056)
+06-27 12:30:03.193 20813 20813 E AndroidRuntime: 	at com.android.server.BluetoothManagerService.checkBluetoothPermissions(BluetoothManagerService.java:917)
+06-27 12:30:03.193 20813 20813 E AndroidRuntime: 	at com.android.server.BluetoothManagerService.enable(BluetoothManagerService.java:1117)
+06-27 12:30:03.193 20813 20813 E AndroidRuntime: 	at android.bluetooth.IBluetoothManager$Stub.onTransact(IBluetoothManager.java:296)
+06-27 12:30:03.193 20813 20813 E AndroidRuntime: 
+06-27 12:30:03.194 20813 20813 E MQSEventManagerDelegate: checkDumpForJavaException error happened:java.lang.RuntimeException: Bad file descriptor
+06-27 12:30:03.194 20813 20813 E MQSEventManagerDelegate: reportJEEvent error happened:java.lang.RuntimeException: Bad file descriptor
+06-27 12:30:03.195 20813 20813 E AndroidRuntime: Error reporting crash
+06-27 12:30:03.195 20813 20813 E AndroidRuntime: java.lang.RuntimeException: Bad file descriptor
+06-27 12:30:03.195 20813 20813 E AndroidRuntime: 	at android.os.BinderProxy.transactNative(Native Method)
+06-27 12:30:03.195 20813 20813 E AndroidRuntime: 	at android.os.BinderProxy.transact(BinderProxy.java:593)
+06-27 12:30:03.195 20813 20813 E AndroidRuntime: 	at android.os.IServiceManager$Stub$Proxy.checkService(IServiceManager.java:348)
+06-27 12:30:03.195 20813 20813 E AndroidRuntime: 	at android.os.ServiceManagerProxy.getService(ServiceManagerNative.java:63)
+06-27 12:30:03.195 20813 20813 E AndroidRuntime: 	at android.os.ServiceManager.rawGetService(ServiceManager.java:306)
+06-27 12:30:03.195 20813 20813 E AndroidRuntime: 	at android.os.ServiceManager.getService(ServiceManager.java:134)
+06-27 12:30:03.195 20813 20813 E AndroidRuntime: 	at android.app.ActivityManager$1.create(ActivityManager.java:4571)
+06-27 12:30:03.195 20813 20813 E AndroidRuntime: 	at android.app.ActivityManager$1.create(ActivityManager.java:4568)
+06-27 12:30:03.195 20813 20813 E AndroidRuntime: 	at android.util.Singleton.get(Singleton.java:43)
+06-27 12:30:03.195 20813 20813 E AndroidRuntime: 	at android.app.ActivityManager.getService(ActivityManager.java:4559)
+06-27 12:30:03.195 20813 20813 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$KillApplicationHandler.uncaughtException(RuntimeInit.java:222)
+06-27 12:30:03.195 20813 20813 E AndroidRuntime: 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1073)
+06-27 12:30:03.195 20813 20813 E AndroidRuntime: 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1068)
+06-27 12:30:03.195 20813 20813 E AndroidRuntime: 	at java.lang.Thread.dispatchUncaughtException(Thread.java:2203)
+06-27 12:30:03.195 20813 20813 E ProcessInjector: error while reportKillProcessEvent to system server!
+06-27 12:30:03.195 20813 20813 E ProcessInjector: java.lang.reflect.InvocationTargetException
+06-27 12:30:03.195 20813 20813 E ProcessInjector: 	at java.lang.reflect.Method.invoke(Native Method)
+06-27 12:30:03.195 20813 20813 E ProcessInjector: 	at android.os.ProcessInjector.reportKillProcessEvent(ProcessInjector.java:20)
+06-27 12:30:03.195 20813 20813 E ProcessInjector: 	at android.os.Process.killProcess(Process.java:1149)
+06-27 12:30:03.195 20813 20813 E ProcessInjector: 	at com.android.internal.os.RuntimeInit$KillApplicationHandler.uncaughtException(RuntimeInit.java:236)
+06-27 12:30:03.195 20813 20813 E ProcessInjector: 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1073)
+06-27 12:30:03.195 20813 20813 E ProcessInjector: 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1068)
+06-27 12:30:03.195 20813 20813 E ProcessInjector: 	at java.lang.Thread.dispatchUncaughtException(Thread.java:2203)
+06-27 12:30:03.195 20813 20813 E ProcessInjector: Caused by: java.lang.RuntimeException: Bad file descriptor
+06-27 12:30:03.195 20813 20813 E ProcessInjector: 	at android.os.BinderProxy.transactNative(Native Method)
+06-27 12:30:03.195 20813 20813 E ProcessInjector: 	at android.os.BinderProxy.transact(BinderProxy.java:593)
+06-27 12:30:03.195 20813 20813 E ProcessInjector: 	at android.os.IServiceManager$Stub$Proxy.checkService(IServiceManager.java:348)
+06-27 12:30:03.195 20813 20813 E ProcessInjector: 	at android.os.ServiceManagerProxy.getService(ServiceManagerNative.java:63)
+06-27 12:30:03.195 20813 20813 E ProcessInjector: 	at android.os.ServiceManager.rawGetService(ServiceManager.java:306)
+06-27 12:30:03.195 20813 20813 E ProcessInjector: 	at android.os.ServiceManager.getService(ServiceManager.java:134)
+06-27 12:30:03.195 20813 20813 E ProcessInjector: 	at android.app.ActivityManager$1.create(ActivityManager.java:4571)
+06-27 12:30:03.195 20813 20813 E ProcessInjector: 	at android.app.ActivityManager$1.create(ActivityManager.java:4568)
+06-27 12:30:03.195 20813 20813 E ProcessInjector: 	at android.util.Singleton.get(Singleton.java:43)
+06-27 12:30:03.195 20813 20813 E ProcessInjector: 	at android.app.ActivityManager.getService(ActivityManager.java:4559)
+06-27 12:30:03.195 20813 20813 E ProcessInjector: 	at android.app.ActivityManagerNative.getDefault(ActivityManagerNative.java:51)
+06-27 12:30:03.195 20813 20813 E ProcessInjector: 	... 7 more
+06-27 12:30:03.195 20813 20813 I Process : Sending signal. PID: 20813 SIG: 9
+06-27 12:30:03.204  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:03.205  4070  4070 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():1984 
+06-27 12:30:03.209 20746 20854 W SoLoader: Initializing SoLoader: 2
+06-27 12:30:03.209 20746 20854 W SoLoader: context.getApplicationContext returned null, holding reference to original context.ApplicationSoSource fallbacks to: /data/app/~~6usR3HnnWcKpZIN8s8BjeQ==/com.instagram.android-o9soaaB0n2Z-g_oi58yn2g==/lib/arm64
+06-27 12:30:03.209 20746 20854 W SoLoader: Recording new base apk path: /data/app/~~6usR3HnnWcKpZIN8s8BjeQ==/com.instagram.android-o9soaaB0n2Z-g_oi58yn2g==/base.apk
+06-27 12:30:03.209 20746 20854 W SoLoader: Previously recorded 0 base apk paths.
+06-27 12:30:03.220  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:03.236  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:03.241  4070  4070 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+06-27 12:30:03.244  4070  4070 W NotificationCenter: NotificationCenter$NotificationQueue.notifyPendingNotificationsOnExecutor():877 Heavy notify work detected on UI thread: [lhc->lfy, lhc->jje, lhc->kmg, lhc->niz, lhc->jje, lhc->flp, lhc->fnt, lhc->jje, lhc->jje, lhc->lsk, lhc->gmd, lhc->jje, lhc->jje, lhc->jje, lhc->jje, lhc->jje, lhc->jkm, lhc->jje, lhc->lgc, lhc->jje, lhc->jje, lhc->jje] takes 21ms
+06-27 12:30:03.247  4070  4070 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1248 onStartInput(EditorInfo{EditorInfo{packageName=android, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)

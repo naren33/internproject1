@@ -1,0 +1,371 @@
+--------- beginning of main
+06-27 12:30:03.296 20712 20712 D ResolverListAdapter: on PostExecute!!!!
+06-27 12:30:03.296 20712 20712 D ResolverListAdapter: processSortedlist: ResolveInfo{37fd38f com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:30:03.297 20712 20712 I ResolverListAdapter: Add DisplayResolveInfo component: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}, intent component: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:30:03.297 20712 20712 D ResolverListAdapter: addResolveInfo: ResolveInfo{37fd38f com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:30:03.297 20712 20712 D ResolverListAdapter: mDisplayList: 1
+06-27 12:30:03.297 20712 20712 D ResolverListAdapter: processSortedlist: ResolveInfo{f7cd61c com.mxtech.videoplayer.ad/.ActivityPipScreen m=0x608000}
+06-27 12:30:03.297 20712 20712 I ResolverListAdapter: Add DisplayResolveInfo component: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityPipScreen}, intent component: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityPipScreen}
+06-27 12:30:03.297 20712 20712 D ResolverListAdapter: addResolveInfo: ResolveInfo{f7cd61c com.mxtech.videoplayer.ad/.ActivityPipScreen m=0x608000}
+06-27 12:30:03.297 20712 20712 D ResolverListAdapter: mDisplayList: 2
+06-27 12:30:03.297 20712 20712 D ResolverListAdapter: processSortedlist: ResolveInfo{70be225 com.miui.player/.phone.ui.AudioPreview m=0x608000}
+06-27 12:30:03.297 20712 20712 I ResolverListAdapter: Add DisplayResolveInfo component: ComponentInfo{com.miui.player/com.miui.player.phone.ui.AudioPreview}, intent component: ComponentInfo{com.miui.player/com.miui.player.phone.ui.AudioPreview}
+06-27 12:30:03.297 20712 20712 D ResolverListAdapter: addResolveInfo: ResolveInfo{70be225 com.miui.player/.phone.ui.AudioPreview m=0x608000}
+06-27 12:30:03.298 20712 20712 D ResolverListAdapter: mDisplayList: 3
+06-27 12:30:03.298 20712 20712 D ResolverListAdapter: processSortedlist: ResolveInfo{c94bffa com.bsbportal.music/.activities.LauncherScreenActivity m=0x608000}
+06-27 12:30:03.298 20712 20712 I ResolverListAdapter: Add DisplayResolveInfo component: ComponentInfo{com.bsbportal.music/com.bsbportal.music.activities.LauncherScreenActivity}, intent component: ComponentInfo{com.bsbportal.music/com.bsbportal.music.activities.LauncherScreenActivity}
+06-27 12:30:03.298 20712 20712 D ResolverListAdapter: addResolveInfo: ResolveInfo{c94bffa com.bsbportal.music/.activities.LauncherScreenActivity m=0x608000}
+06-27 12:30:03.298 20712 20712 D ResolverListAdapter: mDisplayList: 4
+06-27 12:30:03.301 20712 20712 D ResolverListAdapter: getItem: position 0 mDisplayList.size(): 4
+06-27 12:30:03.301 20712 20712 D ResolverListAdapter: getItem: position 1 mDisplayList.size(): 4
+06-27 12:30:03.301 20712 20712 D ResolverListAdapter: getItem: position 2 mDisplayList.size(): 4
+06-27 12:30:03.301 20712 20712 D ResolverListAdapter: getItem: position 3 mDisplayList.size(): 4
+06-27 12:30:03.303  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:03.303 20712 20712 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@4b0020
+06-27 12:30:03.303 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:30:03.304 20712 20712 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:30:03.304 20712 20812 D RAInjector: LoadIconTask::doInBackground ResolveInfo{37fd38f com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:30:03.309   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.xiaomi.xmsf/.push.service.HttpService and for client com.android.settings:remote
+06-27 12:30:03.309   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.xiaomi.xmsf/.push.service.HttpServiceafter removal is 1
+06-27 12:30:03.309   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.android.settings:remoteafter removal is 0
+06-27 12:30:03.315 20712 20712 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@4b0020
+06-27 12:30:03.315 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:30:03.315 20712 20712 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:30:03.315 20712 20712 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@4b0020
+06-27 12:30:03.315 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:30:03.315 20712 20712 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:30:03.315 20712 20712 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@4b0020
+06-27 12:30:03.315 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:30:03.315 20712 20712 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:30:03.315 20712 20712 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@4b0020
+06-27 12:30:03.315 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:30:03.315 20712 20712 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:30:03.322  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:03.322 20712 20712 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@4b0020
+06-27 12:30:03.322 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:30:03.322 20712 20712 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:30:03.322 20712 20712 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@4b0020
+06-27 12:30:03.322 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:30:03.322 20712 20712 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:30:03.323 20712 20712 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@4b0020
+06-27 12:30:03.323 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:30:03.323 20712 20712 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:30:03.323 20712 20712 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@4b0020
+06-27 12:30:03.323 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:30:03.323 20712 20712 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:30:03.323 20712 20712 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@4b0020
+06-27 12:30:03.323 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:30:03.323 20712 20712 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:30:03.325 20712 20712 D RAInjector: getView: position 1 info: com.android.internal.app.chooser.DisplayResolveInfo@dcbfe77
+06-27 12:30:03.325 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityPipScreen}
+06-27 12:30:03.325 20712 20712 D RAInjector: info.getDisplayLabel: MX Pop-up mode hasDisplayIcon: false position: 1
+06-27 12:30:03.323 20746 20746 W Thread-2: type=1400 audit(0.0:3298): avc: denied { read } for name="zoneinfo" dev="proc" ino=4026531860 scontext=u:r:untrusted_app:s0:c8,c257,c512,c768 tcontext=u:object_r:proc_zoneinfo:s0 tclass=file permissive=0 app=com.instagram.android
+06-27 12:30:03.334 20712 20712 D RAInjector: getView: position 2 info: com.android.internal.app.chooser.DisplayResolveInfo@cce456f
+06-27 12:30:03.334 20712 20712 D RAInjector: bindView: ComponentInfo{com.miui.player/com.miui.player.phone.ui.AudioPreview}
+06-27 12:30:03.334 20712 20712 D RAInjector: info.getDisplayLabel: Music hasDisplayIcon: false position: 2
+06-27 12:30:03.336 20712 20712 D RAInjector: getView: position 3 info: com.android.internal.app.chooser.DisplayResolveInfo@432bb26
+06-27 12:30:03.336 20712 20712 D RAInjector: bindView: ComponentInfo{com.bsbportal.music/com.bsbportal.music.activities.LauncherScreenActivity}
+06-27 12:30:03.336 20712 20712 D RAInjector: info.getDisplayLabel: Wynk Music hasDisplayIcon: false position: 3
+06-27 12:30:03.338  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:03.338 20746 20853 W lacrima : Start JavaAppDeathCrashDetector... X.1cs
+06-27 12:30:03.342 20746 20853 W lacrima : Sending pending reports
+06-27 12:30:03.345   698   698 D Zygote  : Forked child process 20878
+--------- beginning of system
+06-27 12:30:03.346  1919  2122 I ActivityManager: Start proc 20878:com.android.camera/u0a108 for FastRestart com.android.camera caller=system
+06-27 12:30:03.348  1560  1560 I cnss-daemon: nl80211 response handler invoked
+06-27 12:30:03.348  1560  1560 I cnss-daemon: nl80211_response_handler: cmd 103, vendorID 4980, subcmd 10  received
+06-27 12:30:03.348   847  2607 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xa
+06-27 12:30:03.349 20878 20878 W Zygote  : Unable to open libbeluga.so: dlopen failed: library "libbeluga.so" not found.
+06-27 12:30:03.350 10366 10366 I wpa_supplicant: p2p0: CTRL-EVENT-AVOID-FREQ ranges=
+06-27 12:30:03.351 10366 10366 I wpa_supplicant: p2p0: CTRL-EVENT-REGDOM-CHANGE init=DRIVER type=COUNTRY alpha2=IN
+06-27 12:30:03.352   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.measurement.service.MeasurementBrokerService and for client com.milink.service
+06-27 12:30:03.352   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.measurement.service.MeasurementBrokerServiceare :10
+06-27 12:30:03.352   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.milink.serviceare :1
+06-27 12:30:03.353 20878 20878 I libc    : SetHeapTaggingLevel: tag level set to 0
+06-27 12:30:03.343 20746 20746 W Lacrima_single_: type=1400 audit(0.0:3299): avc: denied { read } for name="sdcard" dev="tmpfs" ino=29385 scontext=u:r:untrusted_app:s0:c8,c257,c512,c768 tcontext=u:object_r:mnt_sdcard_file:s0 tclass=lnk_file permissive=0 app=com.instagram.android
+06-27 12:30:03.354  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:03.370 20712 20712 D RAInjector: LoadIconTask::onPostExecute ResolveInfo{37fd38f com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:30:03.371 20878 20878 E .android.camer: Not starting debugger since process cannot load the jdwp agent.
+06-27 12:30:03.375  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:03.376 20712 20892 D RAInjector: LoadIconTask::doInBackground ResolveInfo{37fd38f com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:30:03.377 20712 20812 D RAInjector: LoadIconTask::doInBackground ResolveInfo{37fd38f com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:30:03.377  1919  3247 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:30:03.377  1919  3247 D CompatibilityInfo: applicationDensity - 440
+06-27 12:30:03.377  1919  3247 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:30:03.378 20712 20892 D RAInjector: LoadIconTask::doInBackground ResolveInfo{37fd38f com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:30:03.378 20712 20812 D RAInjector: LoadIconTask::doInBackground ResolveInfo{37fd38f com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:30:03.379 20712 20892 D RAInjector: LoadIconTask::doInBackground ResolveInfo{37fd38f com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:30:03.380  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10108, uidState = 19
+06-27 12:30:03.383 20712 20712 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@4b0020
+06-27 12:30:03.383 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:30:03.383 20712 20712 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: true position: 0
+06-27 12:30:03.383 20712 20712 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@4b0020
+06-27 12:30:03.383 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:30:03.383 20712 20712 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: true position: 0
+06-27 12:30:03.383 20712 20712 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@4b0020
+06-27 12:30:03.383 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:30:03.383 20712 20712 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: true position: 0
+06-27 12:30:03.384 20712 20712 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@4b0020
+06-27 12:30:03.384 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:30:03.384 20712 20712 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: true position: 0
+06-27 12:30:03.388 20712 20812 D RAInjector: LoadIconTask::doInBackground ResolveInfo{37fd38f com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:30:03.388 20784 20784 I ML::PrivacyUtils: report privacy agree result: saveFail.
+06-27 12:30:03.389 20712 20892 D RAInjector: LoadIconTask::doInBackground ResolveInfo{37fd38f com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:30:03.390 20712 20712 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@4b0020
+06-27 12:30:03.390 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:30:03.390 20712 20712 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: true position: 0
+06-27 12:30:03.391 20712 20712 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@4b0020
+06-27 12:30:03.391 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:30:03.391 20712 20712 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: true position: 0
+06-27 12:30:03.391 20712 20812 D RAInjector: LoadIconTask::doInBackground ResolveInfo{37fd38f com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:30:03.391 20712 20712 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@4b0020
+06-27 12:30:03.391 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:30:03.391 20712 20712 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: true position: 0
+06-27 12:30:03.391 20712 20712 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@4b0020
+06-27 12:30:03.391 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:30:03.391 20712 20712 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: true position: 0
+06-27 12:30:03.391  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:03.391 20712 20712 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@4b0020
+06-27 12:30:03.391 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:30:03.391 20712 20712 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: true position: 0
+06-27 12:30:03.391 20746 20872 I AdrenoGLES-0: QUALCOMM build                   : 42297a4, I9e9b240040
+06-27 12:30:03.391 20746 20872 I AdrenoGLES-0: Build Date                       : 03/19/21
+06-27 12:30:03.391 20746 20872 I AdrenoGLES-0: OpenGL ES Shader Compiler Version: EV031.32.02.07
+06-27 12:30:03.391 20746 20872 I AdrenoGLES-0: Local Branch                     : 
+06-27 12:30:03.391 20746 20872 I AdrenoGLES-0: Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.9.1.R1.11.00.00.604.070
+06-27 12:30:03.391 20746 20872 I AdrenoGLES-0: Remote Branch                    : NONE
+06-27 12:30:03.391 20746 20872 I AdrenoGLES-0: Reconstruct Branch               : NOTHING
+06-27 12:30:03.391 20746 20872 I AdrenoGLES-0: Build Config                     : S P 10.0.6 AArch64
+06-27 12:30:03.391 20746 20872 I AdrenoGLES-0: Driver Path                      : /vendor/lib64/egl/libGLESv2_adreno.so
+06-27 12:30:03.392 20712 20712 D RAInjector: getView: position 1 info: com.android.internal.app.chooser.DisplayResolveInfo@dcbfe77
+06-27 12:30:03.392 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityPipScreen}
+06-27 12:30:03.392 20712 20712 D RAInjector: info.getDisplayLabel: MX Pop-up mode hasDisplayIcon: false position: 1
+06-27 12:30:03.392 20712 20712 D RAInjector: getView: position 2 info: com.android.internal.app.chooser.DisplayResolveInfo@cce456f
+06-27 12:30:03.392 20712 20712 D RAInjector: bindView: ComponentInfo{com.miui.player/com.miui.player.phone.ui.AudioPreview}
+06-27 12:30:03.392 20712 20712 D RAInjector: info.getDisplayLabel: Music hasDisplayIcon: false position: 2
+06-27 12:30:03.392 20712 20712 D RAInjector: getView: position 3 info: com.android.internal.app.chooser.DisplayResolveInfo@432bb26
+06-27 12:30:03.392 20712 20712 D RAInjector: bindView: ComponentInfo{com.bsbportal.music/com.bsbportal.music.activities.LauncherScreenActivity}
+06-27 12:30:03.392 20712 20712 D RAInjector: info.getDisplayLabel: Wynk Music hasDisplayIcon: false position: 3
+06-27 12:30:03.393 20712 20892 D RAInjector: LoadIconTask::doInBackground ResolveInfo{37fd38f com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:30:03.394 20712 20812 D RAInjector: LoadIconTask::doInBackground ResolveInfo{f7cd61c com.mxtech.videoplayer.ad/.ActivityPipScreen m=0x608000}
+06-27 12:30:03.395 20712 20892 D RAInjector: LoadIconTask::doInBackground ResolveInfo{70be225 com.miui.player/.phone.ui.AudioPreview m=0x608000}
+06-27 12:30:03.403  1919  3247 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat=file:///sdcard/Music/sample.mp3 typ=audio/* flg=0x10000000 cmp=android/com.android.internal.app.ResolverActivity} from uid 2000
+06-27 12:30:03.403  1919  3247 D MiuiMultiWindowAdapter: MiuiMultiWindowAdapter::getFreeformBlackList::sSmallWindowBlackList = [com.miui.securitycenter, com.miui.weather2, com.miui.miservice, com.android.calendar, com.xiaomi.calendar, com.android.contacts, com.miui.mishare.connectivity, com.android.settings, com.android.printspooler, com.miui.backup, com.miui.huanji, com.miui.calculator, com.android.deskclock, com.android.thememanager, com.mfashiongallery.emag, com.miui.virtualsim, com.miui.smarttravel, com.mi.health, com.android.camera, com.lbe.security.miui, com.miui.cleanmaster, com.miui.newhome, com.miui.voiceassist, com.android.phone, com.miui.yellowpage, com.android.updater, com.miui.tsmclient, com.miui.securitycore, com.xiaomi.account, com.xiaomi.shop, com.mipay.wallet, com.xiaomi.youpin, com.xiaomi.hm.health, com.miui.bugreport, com.xiaomi.mibrain.speech, com.xiaomi.mimoji, com.xiaomi.scanner, com.duokan.phone.remotecontroller, com.miui.hybrid, com.android.incallui, com.miui.video, com.miui.videoplayer, com.miui.player, com.miui.fm, com.miui.packageinstaller, com.mi.android.globallauncher, com.google.android.dialer, com.google.android.apps.magazines, com.miui.compass, com.miui.greenguard, com.kiteguard, com.google.android.apps.prodcasts, com.google.ar.lens, com.xiangkan.android, com.android.bankabc, com.sohu.inputmethod.sogou, com.tencent.mtt, com.shyz.toutiao, com.netease.mc.mi, com.outfit7.talkingtomgoldrun.mi, com.doudz.mi, com.wepie.snake.new.mi, cn.jj, com.standddz002.mi, com.miHoYo.bh3.mi, com.qqgame.hlddz, com.happyelements.AndroidAnimal, com.minitech.miniworld.TMobile.mi, com.mfp.jelly.xiaomi, com.lilithgames.afk.mi, com.tencent.peng, com.teenpatti.hd.gold, blockpuzzle.jewelgames.jewelslegend, com.playgendary.tanks, com.chillingo.robberybobfree.android.row, com.episodeinteractive.android.catalog, com.playrix.township, com.ansangha.drdriving, com.google.android.youtube, com.gbits.atm.mi]
+06-27 12:30:03.404 20746 20872 I AdrenoGLES-0: PFP: 0x016ee190, ME: 0x00000000
+06-27 12:30:03.404   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-27 12:30:03.404   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-27 12:30:03.405 20712 20712 D RAInjector: LoadIconTask::onPostExecute ResolveInfo{37fd38f com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:30:03.405 20712 20712 D RAInjector: LoadIconTask::onPostExecute ResolveInfo{37fd38f com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:30:03.405  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:03.405 20712 20712 D RAInjector: LoadIconTask::onPostExecute ResolveInfo{37fd38f com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:30:03.405 20712 20712 D RAInjector: LoadIconTask::onPostExecute ResolveInfo{37fd38f com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:30:03.405 20712 20812 D RAInjector: LoadIconTask::doInBackground ResolveInfo{c94bffa com.bsbportal.music/.activities.LauncherScreenActivity m=0x608000}
+06-27 12:30:03.405 20712 20712 D RAInjector: LoadIconTask::onPostExecute ResolveInfo{37fd38f com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:30:03.406 20712 20712 I chatty  : uid=1000 system:ui identical 3 lines
+06-27 12:30:03.406 20712 20712 D RAInjector: LoadIconTask::onPostExecute ResolveInfo{37fd38f com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:30:03.406 20712 20712 D RAInjector: LoadIconTask::onPostExecute ResolveInfo{f7cd61c com.mxtech.videoplayer.ad/.ActivityPipScreen m=0x608000}
+06-27 12:30:03.411 20712 20712 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@4b0020
+06-27 12:30:03.411 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:30:03.411 20712 20712 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: true position: 0
+06-27 12:30:03.411 20900 20903 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:30:03.411 20712 20712 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@4b0020
+06-27 12:30:03.411 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:30:03.411 20712 20712 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: true position: 0
+06-27 12:30:03.411 20712 20712 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@4b0020
+06-27 12:30:03.411 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:30:03.411 20712 20712 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: true position: 0
+06-27 12:30:03.411 20712 20712 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@4b0020
+06-27 12:30:03.411 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:30:03.411 20712 20712 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: true position: 0
+06-27 12:30:03.418 20712 20892 D RAInjector: LoadIconTask::doInBackground ResolveInfo{f7cd61c com.mxtech.videoplayer.ad/.ActivityPipScreen m=0x608000}
+06-27 12:30:03.419  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:03.421 20712 20812 D RAInjector: LoadIconTask::doInBackground ResolveInfo{70be225 com.miui.player/.phone.ui.AudioPreview m=0x608000}
+06-27 12:30:03.421 20712 20892 D RAInjector: LoadIconTask::doInBackground ResolveInfo{c94bffa com.bsbportal.music/.activities.LauncherScreenActivity m=0x608000}
+06-27 12:30:03.422 20878 20878 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+06-27 12:30:03.422 20712 20712 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@4b0020
+06-27 12:30:03.422 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:30:03.422 20712 20712 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: true position: 0
+06-27 12:30:03.422 20712 20712 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@4b0020
+06-27 12:30:03.422 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:30:03.422 20712 20712 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: true position: 0
+06-27 12:30:03.422 20712 20712 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@4b0020
+06-27 12:30:03.422 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:30:03.422 20712 20712 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: true position: 0
+06-27 12:30:03.422 20712 20712 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@4b0020
+06-27 12:30:03.422 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:30:03.422 20712 20712 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: true position: 0
+06-27 12:30:03.422 20712 20712 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@4b0020
+06-27 12:30:03.422 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:30:03.422 20712 20712 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: true position: 0
+06-27 12:30:03.423 20712 20712 D RAInjector: getView: position 1 info: com.android.internal.app.chooser.DisplayResolveInfo@dcbfe77
+06-27 12:30:03.423 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityPipScreen}
+06-27 12:30:03.423 20712 20712 D RAInjector: info.getDisplayLabel: MX Pop-up mode hasDisplayIcon: true position: 1
+06-27 12:30:03.423 20712 20712 D RAInjector: getView: position 2 info: com.android.internal.app.chooser.DisplayResolveInfo@cce456f
+06-27 12:30:03.423 20712 20712 D RAInjector: bindView: ComponentInfo{com.miui.player/com.miui.player.phone.ui.AudioPreview}
+06-27 12:30:03.423 20712 20712 D RAInjector: info.getDisplayLabel: Music hasDisplayIcon: false position: 2
+06-27 12:30:03.423 20712 20892 D RAInjector: LoadIconTask::doInBackground ResolveInfo{70be225 com.miui.player/.phone.ui.AudioPreview m=0x608000}
+06-27 12:30:03.423 20712 20712 D RAInjector: getView: position 3 info: com.android.internal.app.chooser.DisplayResolveInfo@432bb26
+06-27 12:30:03.423 20712 20712 D RAInjector: bindView: ComponentInfo{com.bsbportal.music/com.bsbportal.music.activities.LauncherScreenActivity}
+06-27 12:30:03.423 20712 20712 D RAInjector: info.getDisplayLabel: Wynk Music hasDisplayIcon: false position: 3
+06-27 12:30:03.424 20712 20812 D RAInjector: LoadIconTask::doInBackground ResolveInfo{c94bffa com.bsbportal.music/.activities.LauncherScreenActivity m=0x608000}
+06-27 12:30:03.433   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.xiaomi.xmsf/.push.service.HttpService and for client com.android.settings:remote
+06-27 12:30:03.433   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.xiaomi.xmsf/.push.service.HttpServiceare :2
+06-27 12:30:03.433   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.android.settings:remoteare :1
+06-27 12:30:03.436 20712 20712 D RAInjector: LoadIconTask::onPostExecute ResolveInfo{70be225 com.miui.player/.phone.ui.AudioPreview m=0x608000}
+06-27 12:30:03.436 20712 20712 D RAInjector: LoadIconTask::onPostExecute ResolveInfo{c94bffa com.bsbportal.music/.activities.LauncherScreenActivity m=0x608000}
+06-27 12:30:03.436 20712 20712 D RAInjector: LoadIconTask::onPostExecute ResolveInfo{f7cd61c com.mxtech.videoplayer.ad/.ActivityPipScreen m=0x608000}
+06-27 12:30:03.436 20712 20712 D RAInjector: LoadIconTask::onPostExecute ResolveInfo{70be225 com.miui.player/.phone.ui.AudioPreview m=0x608000}
+06-27 12:30:03.436  3799  7927 D AdvertisingIdClient: AdvertisingIdClient already created.
+06-27 12:30:03.436 20712 20712 D RAInjector: LoadIconTask::onPostExecute ResolveInfo{c94bffa com.bsbportal.music/.activities.LauncherScreenActivity m=0x608000}
+06-27 12:30:03.436 20712 20712 D RAInjector: LoadIconTask::onPostExecute ResolveInfo{70be225 com.miui.player/.phone.ui.AudioPreview m=0x608000}
+06-27 12:30:03.436 20712 20712 D RAInjector: LoadIconTask::onPostExecute ResolveInfo{c94bffa com.bsbportal.music/.activities.LauncherScreenActivity m=0x608000}
+06-27 12:30:03.437  3799  7927 I AdvertisingIdClient: shouldSendLog 2723236
+06-27 12:30:03.437  3799  7927 I AdvertisingIdClient: GetInfoInternal elapse 1ms
+06-27 12:30:03.438  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:03.438 20712 20712 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@4b0020
+06-27 12:30:03.438 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:30:03.438 20712 20712 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: true position: 0
+06-27 12:30:03.438 20712 20712 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@4b0020
+06-27 12:30:03.438 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:30:03.438 20712 20712 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: true position: 0
+06-27 12:30:03.438 20712 20712 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@4b0020
+06-27 12:30:03.438 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:30:03.438 20712 20712 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: true position: 0
+06-27 12:30:03.438 20712 20712 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@4b0020
+06-27 12:30:03.438 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:30:03.438 20712 20712 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: true position: 0
+06-27 12:30:03.442 20712 20712 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@4b0020
+06-27 12:30:03.442 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:30:03.442 20712 20712 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: true position: 0
+06-27 12:30:03.442  1919  3247 I ActivityManager: Killing 19065:naukriApp.appModules.login/u0a260 (adj 985): empty #17
+06-27 12:30:03.442 20712 20712 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@4b0020
+06-27 12:30:03.442 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:30:03.442 20712 20712 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: true position: 0
+06-27 12:30:03.442 20712 20712 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@4b0020
+06-27 12:30:03.442 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:30:03.442 20712 20712 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: true position: 0
+06-27 12:30:03.443  1919  3247 I Process : PerfMonitor : current process sending signal quiet. PID: 19065 SIG: 9
+06-27 12:30:03.443 20712 20712 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@4b0020
+06-27 12:30:03.443 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:30:03.443 20712 20712 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: true position: 0
+06-27 12:30:03.443  1919  2134 I Process : PerfMonitor : current process killing process group. PID: 19065
+06-27 12:30:03.444 20712 20712 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@4b0020
+06-27 12:30:03.444 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:30:03.444 20712 20712 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: true position: 0
+06-27 12:30:03.444   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:03.444   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:03.444   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:03.444   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:03.444   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:03.445   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:03.445   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:03.445 20712 20712 D RAInjector: getView: position 1 info: com.android.internal.app.chooser.DisplayResolveInfo@dcbfe77
+06-27 12:30:03.445 20712 20712 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityPipScreen}
+06-27 12:30:03.445 20712 20712 D RAInjector: info.getDisplayLabel: MX Pop-up mode hasDisplayIcon: true position: 1
+06-27 12:30:03.445 20712 20712 D RAInjector: getView: position 2 info: com.android.internal.app.chooser.DisplayResolveInfo@cce456f
+06-27 12:30:03.445 20712 20712 D RAInjector: bindView: ComponentInfo{com.miui.player/com.miui.player.phone.ui.AudioPreview}
+06-27 12:30:03.445 20712 20712 D RAInjector: info.getDisplayLabel: Music hasDisplayIcon: true position: 2
+06-27 12:30:03.445 20712 20712 D RAInjector: getView: position 3 info: com.android.internal.app.chooser.DisplayResolveInfo@432bb26
+06-27 12:30:03.445 20712 20712 D RAInjector: bindView: ComponentInfo{com.bsbportal.music/com.bsbportal.music.activities.LauncherScreenActivity}
+06-27 12:30:03.445 20712 20712 D RAInjector: info.getDisplayLabel: Wynk Music hasDisplayIcon: true position: 3
+06-27 12:30:03.445   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.xiaomi.xmsf/.push.service.HttpService and for client com.android.settings:remote
+06-27 12:30:03.445   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.xiaomi.xmsf/.push.service.HttpServiceafter removal is 1
+06-27 12:30:03.445   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.android.settings:remoteafter removal is 0
+06-27 12:30:03.447 20746 20872 E libEGL  : call to OpenGL ES API with no current context (logged once per thread)
+06-27 12:30:03.447 20746 20872 I chatty  : uid=10264(com.instagram.android) Lacrima_single_ identical 1 line
+06-27 12:30:03.447 20746 20872 E libEGL  : call to OpenGL ES API with no current context (logged once per thread)
+06-27 12:30:03.456  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:03.468  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:03.480 20746 20854 W BackupSoSource: adding backup source from split: ExtractFromZipSoSource[/data/app/~~6usR3HnnWcKpZIN8s8BjeQ==/com.instagram.android-o9soaaB0n2Z-g_oi58yn2g==/split_heliumcore.apk]
+06-27 12:30:03.481 20746 20854 W BackupSoSource: adding backup source from split: ExtractFromZipSoSource[/data/app/~~6usR3HnnWcKpZIN8s8BjeQ==/com.instagram.android-o9soaaB0n2Z-g_oi58yn2g==/split_heliumiab.apk]
+06-27 12:30:03.482 20746 20872 E libEGL  : call to OpenGL ES API with no current context (logged once per thread)
+06-27 12:30:03.489  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:03.490 20746 20854 W SoLoader: SoLoader initialized: 2
+06-27 12:30:03.494   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.truecaller/androidx.work.impl.background.systemjob.SystemJobService and for client system
+06-27 12:30:03.494   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.truecaller/androidx.work.impl.background.systemjob.SystemJobServiceafter removal is 0
+06-27 12:30:03.494   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: systemafter removal is 24
+06-27 12:30:03.494   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.truecaller/androidx.work.impl.background.systemjob.SystemJobService
+06-27 12:30:03.500 20746 20854 W FbSoLoader: Will use precomputed native lib dependencies file, extractToDisk = false
+06-27 12:30:03.501  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:03.518  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:03.524 20905 20905 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-27 12:30:03.526 20905 20905 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+06-27 12:30:03.526 20905 20905 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+06-27 12:30:03.526 20905 20905 I AndroidRuntime: Using default boot image
+06-27 12:30:03.526 20905 20905 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+06-27 12:30:03.526 20905 20905 I AndroidRuntime: Leaving lock profiling enabled
+06-27 12:30:03.526 20905 20905 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+06-27 12:30:03.528 20746 20854 W FbSoLoader: Initialized FBSoLoader
+06-27 12:30:03.538  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:03.538 20746 20746 W ClassLoadsTracer: ClassTracingLogger not initialized, waiting for callback.
+06-27 12:30:03.538 20746 20746 W ClassLoadsTracer: Installed ClassLoadsTracer to com.facebook.common.dextricks.MultiDexClassLoaderLight@1873a4b.
+06-27 12:30:03.538 20746 20746 W InstagramAppShell: MultiDexClassLoaderLight installed
+06-27 12:30:03.554  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:03.570  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:03.573   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.xiaomi.xmsf/.push.service.HttpService and for client com.android.settings:remote
+06-27 12:30:03.574   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.xiaomi.xmsf/.push.service.HttpServiceare :2
+06-27 12:30:03.574   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.android.settings:remoteare :1
+06-27 12:30:03.577 20657 20704 I fkia    : Validating WorkManager process
+06-27 12:30:03.580 20657 20692 I fkia    : (REDACTED) Processes: %s, %s, %s, %s
+06-27 12:30:03.593  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:03.604  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:03.605 20905 20905 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+06-27 12:30:03.605 20905 20905 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+06-27 12:30:03.609 20746 20746 W SoLoader: Loading verifier on the main thread
+06-27 12:30:03.609 20746 20746 W SoLoader: Loading fb on the main thread
+06-27 12:30:03.610 20746 20746 W SoLoader: Loading fb on the main thread
+06-27 12:30:03.611 20746 20746 V v9p     : Disabled
+06-27 12:30:03.616   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.xiaomi.xmsf/.push.service.HttpService and for client com.android.settings:remote
+06-27 12:30:03.616   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.xiaomi.xmsf/.push.service.HttpServiceafter removal is 1
+06-27 12:30:03.616   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.android.settings:remoteafter removal is 0
+06-27 12:30:03.618  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:03.627 20905 20905 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+06-27 12:30:03.628 20657 20704 I TetheringManager: registerTetheringEventCallback:com.google.android.googlequicksearchbox
+06-27 12:30:03.629   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.ads.identifier.service.AdvertisingIdService and for client com.android.settings:remote
+06-27 12:30:03.629   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.ads.identifier.service.AdvertisingIdServiceare :3
+06-27 12:30:03.629   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.android.settings:remoteare :1
+06-27 12:30:03.634 20746 20908 W lacrima : The minidump file is empty!
+06-27 12:30:03.634 20905 20905 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+06-27 12:30:03.634  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:03.637  1919  2326 W InputDispatcher: Permission denied: injecting event from pid 20905 uid 2000 to window Window{ca67547 mode=0 rootTaskId=27376 u0 android/com.android.internal.app.ResolverActivity} owned by uid 1000
+06-27 12:30:03.637  1919  3247 W InputManager: Input event injection from pid 20905 permission denied.
+06-27 12:30:03.640 20905 20905 I app_process: System.exit called, status: 1
+06-27 12:30:03.640 20905 20905 I AndroidRuntime: VM exiting with result code 1.
+06-27 12:30:03.643 20657 20704 D WM-PackageManagerHelper: Skipping component enablement for androidx.work.impl.background.systemjob.SystemJobService
+06-27 12:30:03.643 20657 20704 D WM-Schedulers: Created SystemJobScheduler and enabled SystemJobService
+06-27 12:30:03.644 20657 20692 D WM-ForceStopRunnable: Is default app process = true
+06-27 12:30:03.644 20657 20692 D WM-ForceStopRunnable: Performing cleanup operations.
+06-27 12:30:03.651  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:03.652  2671  2671 W TouchableRegionManager: onHeadsUpPinnedModeChanged
+06-27 12:30:03.653  2671  2671 D BlurLayerHolder: unregister android.view.ViewRootImpl@c72cda7
+06-27 12:30:03.653   969  3372 I BpBinder: onLastStrongRef automatically unlinking death recipients: <uncached descriptor>
+06-27 12:30:03.655 20657 20704 I acyw    : Getting accounts.
+06-27 12:30:03.656  1919  2134 E libprocessgroup: Failed to kill process cgroup uid 10260 pid 19065 in 212ms, 1 processes remain
+06-27 12:30:03.662 20746 20908 W lacrima : Start AnrAppDeathDetector... X.1bc
+06-27 12:30:03.667 20746 20908 E HeliumCrashReporter: Pending crash path /data/data/com.instagram.android/cache/webview_embedded/Helium Crashpad/pending/ is not a directory
+06-27 12:30:03.670   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.ads.identifier.service.AdvertisingIdService and for client com.android.settings:remote
+06-27 12:30:03.670   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.ads.identifier.service.AdvertisingIdServiceafter removal is 2
+06-27 12:30:03.670   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.android.settings:remoteafter removal is 0
+06-27 12:30:03.695 20746 20746 I ContentProviderMonitor: PerfMonitor installContentProviders : before publish content providers
+06-27 12:30:03.706 20657 20704 I aogj    : Clock app not installed.
+06-27 12:30:03.707 20657 20704 I aogj    : Clock app not installed.
+06-27 12:30:03.707 20746 20746 W MDCLLight: MultiDexClassLoaderLight already installed
+06-27 12:30:03.707 20746 20746 W InstagramAppShell: MultiDexClassLoaderLight installed
+06-27 12:30:03.710   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:03.710   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:03.710   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:03.710   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:03.710   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:03.710   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:03.710   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:03.711   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: killProcess is called for pid : 19065
+06-27 12:30:03.711   698   698 I Zygote  : Process 19065 exited due to signal 9 (Killed)
+06-27 12:30:03.711   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: process with pid 19065 is service
+06-27 12:30:03.711   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: naukriApp.appModules.loginafter removal is 2
+06-27 12:30:03.711   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: process with pid 19065 is service
+06-27 12:30:03.711   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: naukriApp.appModules.loginafter removal is 1
+06-27 12:30:03.711   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: process with pid 19065 is client
+06-27 12:30:03.711   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.measurement.service.MeasurementBrokerServiceafter removal is 9
+06-27 12:30:03.711   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: removing client with pid 19065process namenaukriApp.appModules.login
+06-27 12:30:03.711   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : naukriApp.appModules.login/com.google.firebase.sessions.SessionLifecycleService
+06-27 12:30:03.711   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : naukriApp.appModules.login/com.naukri.fcm.handler.NaukriFCMListenerService

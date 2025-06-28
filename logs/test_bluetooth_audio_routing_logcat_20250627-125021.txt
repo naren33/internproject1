@@ -1,0 +1,258 @@
+--------- beginning of main
+06-27 12:50:15.830  1919  8335 D MessageMonitor: Dump Looper message took 0ms
+06-27 12:50:16.239 28779 28779 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-27 12:50:16.242 28779 28779 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+06-27 12:50:16.242 28779 28779 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+06-27 12:50:16.242 28779 28779 I AndroidRuntime: Using default boot image
+06-27 12:50:16.242 28779 28779 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+06-27 12:50:16.242 28779 28779 I AndroidRuntime: Leaving lock profiling enabled
+06-27 12:50:16.242 28779 28779 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+06-27 12:50:16.233 28779 28779 W app_process: type=1400 audit(0.0:4842): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=17514 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+06-27 12:50:16.233 28779 28779 I chatty  : uid=2000(shell) app_process identical 2 lines
+06-27 12:50:16.233 28779 28779 W app_process: type=1400 audit(0.0:4845): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=17514 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+06-27 12:50:16.309 28779 28779 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+06-27 12:50:16.309 28779 28779 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+06-27 12:50:16.335 28779 28779 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+06-27 12:50:16.339 28779 28779 D AndroidRuntime: Calling main entry com.android.commands.svc.Svc
+--------- beginning of system
+06-27 12:50:16.346  1919  8335 W BluetoothManagerService: checkPackage(): called with null packageName from 2000
+06-27 12:50:16.348 28779 28779 D AndroidRuntime: Shutting down VM
+--------- beginning of crash
+06-27 12:50:16.349 28779 28779 E AndroidRuntime: FATAL EXCEPTION: main
+06-27 12:50:16.349 28779 28779 E AndroidRuntime: PID: 28779
+06-27 12:50:16.349 28779 28779 E AndroidRuntime: java.lang.SecurityException: Need BLUETOOTH ADMIN permission: Neither user 2000 nor current process has android.permission.BLUETOOTH_ADMIN.
+06-27 12:50:16.349 28779 28779 E AndroidRuntime: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:2376)
+06-27 12:50:16.349 28779 28779 E AndroidRuntime: 	at android.os.Parcel.createException(Parcel.java:2360)
+06-27 12:50:16.349 28779 28779 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:2343)
+06-27 12:50:16.349 28779 28779 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:2285)
+06-27 12:50:16.349 28779 28779 E AndroidRuntime: 	at android.bluetooth.IBluetoothManager$Stub$Proxy.enable(IBluetoothManager.java:583)
+06-27 12:50:16.349 28779 28779 E AndroidRuntime: 	at android.bluetooth.BluetoothAdapter.enable(BluetoothAdapter.java:1135)
+06-27 12:50:16.349 28779 28779 E AndroidRuntime: 	at com.android.commands.svc.BluetoothCommand.run(BluetoothCommand.java:51)
+06-27 12:50:16.349 28779 28779 E AndroidRuntime: 	at com.android.commands.svc.Svc.main(Svc.java:41)
+06-27 12:50:16.349 28779 28779 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+06-27 12:50:16.349 28779 28779 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:463)
+06-27 12:50:16.349 28779 28779 E AndroidRuntime: Caused by: android.os.RemoteException: Remote stack trace:
+06-27 12:50:16.349 28779 28779 E AndroidRuntime: 	at android.app.ContextImpl.enforce(ContextImpl.java:2028)
+06-27 12:50:16.349 28779 28779 E AndroidRuntime: 	at android.app.ContextImpl.enforceCallingOrSelfPermission(ContextImpl.java:2056)
+06-27 12:50:16.349 28779 28779 E AndroidRuntime: 	at com.android.server.BluetoothManagerService.checkBluetoothPermissions(BluetoothManagerService.java:917)
+06-27 12:50:16.349 28779 28779 E AndroidRuntime: 	at com.android.server.BluetoothManagerService.enable(BluetoothManagerService.java:1117)
+06-27 12:50:16.349 28779 28779 E AndroidRuntime: 	at android.bluetooth.IBluetoothManager$Stub.onTransact(IBluetoothManager.java:296)
+06-27 12:50:16.349 28779 28779 E AndroidRuntime: 
+06-27 12:50:16.351 28779 28779 E MQSEventManagerDelegate: checkDumpForJavaException error happened:java.lang.RuntimeException: Bad file descriptor
+06-27 12:50:16.352 28779 28779 E MQSEventManagerDelegate: reportJEEvent error happened:java.lang.RuntimeException: Bad file descriptor
+06-27 12:50:16.352 28779 28779 E AndroidRuntime: Error reporting crash
+06-27 12:50:16.352 28779 28779 E AndroidRuntime: java.lang.RuntimeException: Bad file descriptor
+06-27 12:50:16.352 28779 28779 E AndroidRuntime: 	at android.os.BinderProxy.transactNative(Native Method)
+06-27 12:50:16.352 28779 28779 E AndroidRuntime: 	at android.os.BinderProxy.transact(BinderProxy.java:593)
+06-27 12:50:16.352 28779 28779 E AndroidRuntime: 	at android.os.IServiceManager$Stub$Proxy.checkService(IServiceManager.java:348)
+06-27 12:50:16.352 28779 28779 E AndroidRuntime: 	at android.os.ServiceManagerProxy.getService(ServiceManagerNative.java:63)
+06-27 12:50:16.352 28779 28779 E AndroidRuntime: 	at android.os.ServiceManager.rawGetService(ServiceManager.java:306)
+06-27 12:50:16.352 28779 28779 E AndroidRuntime: 	at android.os.ServiceManager.getService(ServiceManager.java:134)
+06-27 12:50:16.352 28779 28779 E AndroidRuntime: 	at android.app.ActivityManager$1.create(ActivityManager.java:4571)
+06-27 12:50:16.352 28779 28779 E AndroidRuntime: 	at android.app.ActivityManager$1.create(ActivityManager.java:4568)
+06-27 12:50:16.352 28779 28779 E AndroidRuntime: 	at android.util.Singleton.get(Singleton.java:43)
+06-27 12:50:16.352 28779 28779 E AndroidRuntime: 	at android.app.ActivityManager.getService(ActivityManager.java:4559)
+06-27 12:50:16.352 28779 28779 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$KillApplicationHandler.uncaughtException(RuntimeInit.java:222)
+06-27 12:50:16.352 28779 28779 E AndroidRuntime: 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1073)
+06-27 12:50:16.352 28779 28779 E AndroidRuntime: 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1068)
+06-27 12:50:16.352 28779 28779 E AndroidRuntime: 	at java.lang.Thread.dispatchUncaughtException(Thread.java:2203)
+06-27 12:50:16.352 28779 28779 E ProcessInjector: error while reportKillProcessEvent to system server!
+06-27 12:50:16.352 28779 28779 E ProcessInjector: java.lang.reflect.InvocationTargetException
+06-27 12:50:16.352 28779 28779 E ProcessInjector: 	at java.lang.reflect.Method.invoke(Native Method)
+06-27 12:50:16.352 28779 28779 E ProcessInjector: 	at android.os.ProcessInjector.reportKillProcessEvent(ProcessInjector.java:20)
+06-27 12:50:16.352 28779 28779 E ProcessInjector: 	at android.os.Process.killProcess(Process.java:1149)
+06-27 12:50:16.352 28779 28779 E ProcessInjector: 	at com.android.internal.os.RuntimeInit$KillApplicationHandler.uncaughtException(RuntimeInit.java:236)
+06-27 12:50:16.352 28779 28779 E ProcessInjector: 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1073)
+06-27 12:50:16.352 28779 28779 E ProcessInjector: 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1068)
+06-27 12:50:16.352 28779 28779 E ProcessInjector: 	at java.lang.Thread.dispatchUncaughtException(Thread.java:2203)
+06-27 12:50:16.352 28779 28779 E ProcessInjector: Caused by: java.lang.RuntimeException: Bad file descriptor
+06-27 12:50:16.352 28779 28779 E ProcessInjector: 	at android.os.BinderProxy.transactNative(Native Method)
+06-27 12:50:16.352 28779 28779 E ProcessInjector: 	at android.os.BinderProxy.transact(BinderProxy.java:593)
+06-27 12:50:16.352 28779 28779 E ProcessInjector: 	at android.os.IServiceManager$Stub$Proxy.checkService(IServiceManager.java:348)
+06-27 12:50:16.352 28779 28779 E ProcessInjector: 	at android.os.ServiceManagerProxy.getService(ServiceManagerNative.java:63)
+06-27 12:50:16.352 28779 28779 E ProcessInjector: 	at android.os.ServiceManager.rawGetService(ServiceManager.java:306)
+06-27 12:50:16.352 28779 28779 E ProcessInjector: 	at android.os.ServiceManager.getService(ServiceManager.java:134)
+06-27 12:50:16.352 28779 28779 E ProcessInjector: 	at android.app.ActivityManager$1.create(ActivityManager.java:4571)
+06-27 12:50:16.352 28779 28779 E ProcessInjector: 	at android.app.ActivityManager$1.create(ActivityManager.java:4568)
+06-27 12:50:16.352 28779 28779 E ProcessInjector: 	at android.util.Singleton.get(Singleton.java:43)
+06-27 12:50:16.352 28779 28779 E ProcessInjector: 	at android.app.ActivityManager.getService(ActivityManager.java:4559)
+06-27 12:50:16.352 28779 28779 E ProcessInjector: 	at android.app.ActivityManagerNative.getDefault(ActivityManagerNative.java:51)
+06-27 12:50:16.352 28779 28779 E ProcessInjector: 	... 7 more
+06-27 12:50:16.352 28779 28779 I Process : Sending signal. PID: 28779 SIG: 9
+06-27 12:50:16.824   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.chimera.PersistentApiService and for client com.google.android.gms
+06-27 12:50:16.828  3125  3125 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.presencemanager.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+06-27 12:50:16.832   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.chimera.PersistentApiService and for client com.google.android.gms
+06-27 12:50:16.835  3125  3125 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.presencemanager.service.INTERNAL_IDENTITY dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+06-27 12:50:16.838   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.chimera.PersistentDirectBootAwareApiService and for client com.google.android.gms
+06-27 12:50:18.542  2841  2841 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+06-27 12:50:18.545  2671  2671 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+06-27 12:50:18.550 28795 28795 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-27 12:50:18.551  2671  2671 D BatteryController: onReceive: Intent = Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) } action = android.intent.action.BATTERY_CHANGED
+06-27 12:50:18.543 28795 28795 W app_process: type=1400 audit(0.0:4846): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=17514 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+06-27 12:50:18.543 28795 28795 I chatty  : uid=2000(shell) app_process identical 2 lines
+06-27 12:50:18.543 28795 28795 W app_process: type=1400 audit(0.0:4849): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=17514 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+06-27 12:50:18.554  9395  9395 I PowerSaveService: onReceive: android.intent.action.BATTERY_CHANGED
+06-27 12:50:18.554 28795 28795 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+06-27 12:50:18.554 28795 28795 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+06-27 12:50:18.554 28795 28795 I AndroidRuntime: Using default boot image
+06-27 12:50:18.554 28795 28795 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+06-27 12:50:18.554 28795 28795 I AndroidRuntime: Leaving lock profiling enabled
+06-27 12:50:18.554 28795 28795 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+06-27 12:50:18.557  9739  9968 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 39, status = 2, level = 39, plug = 2, scale = 100
+06-27 12:50:18.559  9395  9395 I PowerNoticeUI: handleBatteryChanged oldPlugType 2 mPlugType 2 oldBatteryLevel 39 mBatteryLevel 39 temperature 255
+06-27 12:50:18.559  9395  9395 I ChargerBatteryIntelligenceReceiver: onBatteryChanged temperature：25,plugType:2
+06-27 12:50:18.559  9395  9395 I PowerFeatureUtils: getVendorName:qcom
+06-27 12:50:18.560  2881  2881 D DeviceStatisticsService: chargerType=2 batteryLevel=39 totalBatteryCapacity=2218100
+06-27 12:50:18.617 28795 28795 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+06-27 12:50:18.617 28795 28795 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+06-27 12:50:18.646 28795 28795 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+06-27 12:50:18.651 28795 28795 D AndroidRuntime: Calling main entry com.android.commands.svc.Svc
+06-27 12:50:18.658  1919  2233 W BluetoothManagerService: checkPackage(): called with null packageName from 2000
+06-27 12:50:18.660 28795 28795 D AndroidRuntime: Shutting down VM
+06-27 12:50:18.661 28795 28795 E AndroidRuntime: FATAL EXCEPTION: main
+06-27 12:50:18.661 28795 28795 E AndroidRuntime: PID: 28795
+06-27 12:50:18.661 28795 28795 E AndroidRuntime: java.lang.SecurityException: Need BLUETOOTH ADMIN permission: Neither user 2000 nor current process has android.permission.BLUETOOTH_ADMIN.
+06-27 12:50:18.661 28795 28795 E AndroidRuntime: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:2376)
+06-27 12:50:18.661 28795 28795 E AndroidRuntime: 	at android.os.Parcel.createException(Parcel.java:2360)
+06-27 12:50:18.661 28795 28795 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:2343)
+06-27 12:50:18.661 28795 28795 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:2285)
+06-27 12:50:18.661 28795 28795 E AndroidRuntime: 	at android.bluetooth.IBluetoothManager$Stub$Proxy.enable(IBluetoothManager.java:583)
+06-27 12:50:18.661 28795 28795 E AndroidRuntime: 	at android.bluetooth.BluetoothAdapter.enable(BluetoothAdapter.java:1135)
+06-27 12:50:18.661 28795 28795 E AndroidRuntime: 	at com.android.commands.svc.BluetoothCommand.run(BluetoothCommand.java:51)
+06-27 12:50:18.661 28795 28795 E AndroidRuntime: 	at com.android.commands.svc.Svc.main(Svc.java:41)
+06-27 12:50:18.661 28795 28795 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+06-27 12:50:18.661 28795 28795 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:463)
+06-27 12:50:18.661 28795 28795 E AndroidRuntime: Caused by: android.os.RemoteException: Remote stack trace:
+06-27 12:50:18.661 28795 28795 E AndroidRuntime: 	at android.app.ContextImpl.enforce(ContextImpl.java:2028)
+06-27 12:50:18.661 28795 28795 E AndroidRuntime: 	at android.app.ContextImpl.enforceCallingOrSelfPermission(ContextImpl.java:2056)
+06-27 12:50:18.661 28795 28795 E AndroidRuntime: 	at com.android.server.BluetoothManagerService.checkBluetoothPermissions(BluetoothManagerService.java:917)
+06-27 12:50:18.661 28795 28795 E AndroidRuntime: 	at com.android.server.BluetoothManagerService.enable(BluetoothManagerService.java:1117)
+06-27 12:50:18.661 28795 28795 E AndroidRuntime: 	at android.bluetooth.IBluetoothManager$Stub.onTransact(IBluetoothManager.java:296)
+06-27 12:50:18.661 28795 28795 E AndroidRuntime: 
+06-27 12:50:18.662 28795 28795 E MQSEventManagerDelegate: checkDumpForJavaException error happened:java.lang.RuntimeException: Bad file descriptor
+06-27 12:50:18.663 28795 28795 E MQSEventManagerDelegate: reportJEEvent error happened:java.lang.RuntimeException: Bad file descriptor
+06-27 12:50:18.663 28795 28795 E AndroidRuntime: Error reporting crash
+06-27 12:50:18.663 28795 28795 E AndroidRuntime: java.lang.RuntimeException: Bad file descriptor
+06-27 12:50:18.663 28795 28795 E AndroidRuntime: 	at android.os.BinderProxy.transactNative(Native Method)
+06-27 12:50:18.663 28795 28795 E AndroidRuntime: 	at android.os.BinderProxy.transact(BinderProxy.java:593)
+06-27 12:50:18.663 28795 28795 E AndroidRuntime: 	at android.os.IServiceManager$Stub$Proxy.checkService(IServiceManager.java:348)
+06-27 12:50:18.663 28795 28795 E AndroidRuntime: 	at android.os.ServiceManagerProxy.getService(ServiceManagerNative.java:63)
+06-27 12:50:18.663 28795 28795 E AndroidRuntime: 	at android.os.ServiceManager.rawGetService(ServiceManager.java:306)
+06-27 12:50:18.663 28795 28795 E AndroidRuntime: 	at android.os.ServiceManager.getService(ServiceManager.java:134)
+06-27 12:50:18.663 28795 28795 E AndroidRuntime: 	at android.app.ActivityManager$1.create(ActivityManager.java:4571)
+06-27 12:50:18.663 28795 28795 E AndroidRuntime: 	at android.app.ActivityManager$1.create(ActivityManager.java:4568)
+06-27 12:50:18.663 28795 28795 E AndroidRuntime: 	at android.util.Singleton.get(Singleton.java:43)
+06-27 12:50:18.663 28795 28795 E AndroidRuntime: 	at android.app.ActivityManager.getService(ActivityManager.java:4559)
+06-27 12:50:18.663 28795 28795 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$KillApplicationHandler.uncaughtException(RuntimeInit.java:222)
+06-27 12:50:18.663 28795 28795 E AndroidRuntime: 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1073)
+06-27 12:50:18.663 28795 28795 E AndroidRuntime: 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1068)
+06-27 12:50:18.663 28795 28795 E AndroidRuntime: 	at java.lang.Thread.dispatchUncaughtException(Thread.java:2203)
+06-27 12:50:18.663 28795 28795 E ProcessInjector: error while reportKillProcessEvent to system server!
+06-27 12:50:18.663 28795 28795 E ProcessInjector: java.lang.reflect.InvocationTargetException
+06-27 12:50:18.663 28795 28795 E ProcessInjector: 	at java.lang.reflect.Method.invoke(Native Method)
+06-27 12:50:18.663 28795 28795 E ProcessInjector: 	at android.os.ProcessInjector.reportKillProcessEvent(ProcessInjector.java:20)
+06-27 12:50:18.663 28795 28795 E ProcessInjector: 	at android.os.Process.killProcess(Process.java:1149)
+06-27 12:50:18.663 28795 28795 E ProcessInjector: 	at com.android.internal.os.RuntimeInit$KillApplicationHandler.uncaughtException(RuntimeInit.java:236)
+06-27 12:50:18.663 28795 28795 E ProcessInjector: 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1073)
+06-27 12:50:18.663 28795 28795 E ProcessInjector: 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1068)
+06-27 12:50:18.663 28795 28795 E ProcessInjector: 	at java.lang.Thread.dispatchUncaughtException(Thread.java:2203)
+06-27 12:50:18.663 28795 28795 E ProcessInjector: Caused by: java.lang.RuntimeException: Bad file descriptor
+06-27 12:50:18.663 28795 28795 E ProcessInjector: 	at android.os.BinderProxy.transactNative(Native Method)
+06-27 12:50:18.663 28795 28795 E ProcessInjector: 	at android.os.BinderProxy.transact(BinderProxy.java:593)
+06-27 12:50:18.663 28795 28795 E ProcessInjector: 	at android.os.IServiceManager$Stub$Proxy.checkService(IServiceManager.java:348)
+06-27 12:50:18.663 28795 28795 E ProcessInjector: 	at android.os.ServiceManagerProxy.getService(ServiceManagerNative.java:63)
+06-27 12:50:18.663 28795 28795 E ProcessInjector: 	at android.os.ServiceManager.rawGetService(ServiceManager.java:306)
+06-27 12:50:18.663 28795 28795 E ProcessInjector: 	at android.os.ServiceManager.getService(ServiceManager.java:134)
+06-27 12:50:18.663 28795 28795 E ProcessInjector: 	at android.app.ActivityManager$1.create(ActivityManager.java:4571)
+06-27 12:50:18.663 28795 28795 E ProcessInjector: 	at android.app.ActivityManager$1.create(ActivityManager.java:4568)
+06-27 12:50:18.663 28795 28795 E ProcessInjector: 	at android.util.Singleton.get(Singleton.java:43)
+06-27 12:50:18.663 28795 28795 E ProcessInjector: 	at android.app.ActivityManager.getService(ActivityManager.java:4559)
+06-27 12:50:18.663 28795 28795 E ProcessInjector: 	at android.app.ActivityManagerNative.getDefault(ActivityManagerNative.java:51)
+06-27 12:50:18.663 28795 28795 E ProcessInjector: 	... 7 more
+06-27 12:50:18.663 28795 28795 I Process : Sending signal. PID: 28795 SIG: 9
+06-27 12:50:18.989  2841  2841 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+06-27 12:50:18.992  9395  9395 I PowerSaveService: onReceive: android.intent.action.BATTERY_CHANGED
+06-27 12:50:18.993  2671  2671 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+06-27 12:50:18.993  2671  2671 D BatteryController: onReceive: Intent = Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) } action = android.intent.action.BATTERY_CHANGED
+06-27 12:50:18.993  9395  9395 I PowerNoticeUI: handleBatteryChanged oldPlugType 2 mPlugType 2 oldBatteryLevel 39 mBatteryLevel 39 temperature 255
+06-27 12:50:18.993  9395  9395 I ChargerBatteryIntelligenceReceiver: onBatteryChanged temperature：25,plugType:2
+06-27 12:50:18.994  9395  9395 I PowerFeatureUtils: getVendorName:qcom
+06-27 12:50:18.994  9739  9968 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 39, status = 2, level = 39, plug = 2, scale = 100
+06-27 12:50:18.997  2881  2881 D DeviceStatisticsService: chargerType=2 batteryLevel=39 totalBatteryCapacity=2218400
+06-27 12:50:20.858 28810 28810 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+06-27 12:50:20.861 28810 28810 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.profilebootclasspath"
+06-27 12:50:20.861 28810 28810 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+06-27 12:50:20.861 28810 28810 I AndroidRuntime: Using default boot image
+06-27 12:50:20.861 28810 28810 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+06-27 12:50:20.861 28810 28810 I AndroidRuntime: Leaving lock profiling enabled
+06-27 12:50:20.861 28810 28810 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+06-27 12:50:20.853 28810 28810 W app_process: type=1400 audit(0.0:4850): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=17514 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+06-27 12:50:20.853 28810 28810 I chatty  : uid=2000(shell) app_process identical 2 lines
+06-27 12:50:20.853 28810 28810 W app_process: type=1400 audit(0.0:4853): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=17514 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+06-27 12:50:20.928 28810 28810 D app_process: Time zone APEX ICU file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+06-27 12:50:20.928 28810 28810 D app_process: I18n APEX ICU file found: /apex/com.android.i18n/etc/icu/icudt66l.dat
+06-27 12:50:20.957 28810 28810 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+06-27 12:50:20.961 28810 28810 D AndroidRuntime: Calling main entry com.android.commands.svc.Svc
+06-27 12:50:20.966  1919  2233 W BluetoothManagerService: checkPackage(): called with null packageName from 2000
+06-27 12:50:20.967 28810 28810 D AndroidRuntime: Shutting down VM
+06-27 12:50:20.967 28810 28810 E AndroidRuntime: FATAL EXCEPTION: main
+06-27 12:50:20.967 28810 28810 E AndroidRuntime: PID: 28810
+06-27 12:50:20.967 28810 28810 E AndroidRuntime: java.lang.SecurityException: Need BLUETOOTH ADMIN permission: Neither user 2000 nor current process has android.permission.BLUETOOTH_ADMIN.
+06-27 12:50:20.967 28810 28810 E AndroidRuntime: 	at android.os.Parcel.createExceptionOrNull(Parcel.java:2376)
+06-27 12:50:20.967 28810 28810 E AndroidRuntime: 	at android.os.Parcel.createException(Parcel.java:2360)
+06-27 12:50:20.967 28810 28810 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:2343)
+06-27 12:50:20.967 28810 28810 E AndroidRuntime: 	at android.os.Parcel.readException(Parcel.java:2285)
+06-27 12:50:20.967 28810 28810 E AndroidRuntime: 	at android.bluetooth.IBluetoothManager$Stub$Proxy.enable(IBluetoothManager.java:583)
+06-27 12:50:20.967 28810 28810 E AndroidRuntime: 	at android.bluetooth.BluetoothAdapter.enable(BluetoothAdapter.java:1135)
+06-27 12:50:20.967 28810 28810 E AndroidRuntime: 	at com.android.commands.svc.BluetoothCommand.run(BluetoothCommand.java:51)
+06-27 12:50:20.967 28810 28810 E AndroidRuntime: 	at com.android.commands.svc.Svc.main(Svc.java:41)
+06-27 12:50:20.967 28810 28810 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+06-27 12:50:20.967 28810 28810 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:463)
+06-27 12:50:20.967 28810 28810 E AndroidRuntime: Caused by: android.os.RemoteException: Remote stack trace:
+06-27 12:50:20.967 28810 28810 E AndroidRuntime: 	at android.app.ContextImpl.enforce(ContextImpl.java:2028)
+06-27 12:50:20.967 28810 28810 E AndroidRuntime: 	at android.app.ContextImpl.enforceCallingOrSelfPermission(ContextImpl.java:2056)
+06-27 12:50:20.967 28810 28810 E AndroidRuntime: 	at com.android.server.BluetoothManagerService.checkBluetoothPermissions(BluetoothManagerService.java:917)
+06-27 12:50:20.967 28810 28810 E AndroidRuntime: 	at com.android.server.BluetoothManagerService.enable(BluetoothManagerService.java:1117)
+06-27 12:50:20.967 28810 28810 E AndroidRuntime: 	at android.bluetooth.IBluetoothManager$Stub.onTransact(IBluetoothManager.java:296)
+06-27 12:50:20.967 28810 28810 E AndroidRuntime: 
+06-27 12:50:20.969 28810 28810 E MQSEventManagerDelegate: checkDumpForJavaException error happened:java.lang.RuntimeException: Bad file descriptor
+06-27 12:50:20.970 28810 28810 E MQSEventManagerDelegate: reportJEEvent error happened:java.lang.RuntimeException: Bad file descriptor
+06-27 12:50:20.970 28810 28810 E AndroidRuntime: Error reporting crash
+06-27 12:50:20.970 28810 28810 E AndroidRuntime: java.lang.RuntimeException: Bad file descriptor
+06-27 12:50:20.970 28810 28810 E AndroidRuntime: 	at android.os.BinderProxy.transactNative(Native Method)
+06-27 12:50:20.970 28810 28810 E AndroidRuntime: 	at android.os.BinderProxy.transact(BinderProxy.java:593)
+06-27 12:50:20.970 28810 28810 E AndroidRuntime: 	at android.os.IServiceManager$Stub$Proxy.checkService(IServiceManager.java:348)
+06-27 12:50:20.970 28810 28810 E AndroidRuntime: 	at android.os.ServiceManagerProxy.getService(ServiceManagerNative.java:63)
+06-27 12:50:20.970 28810 28810 E AndroidRuntime: 	at android.os.ServiceManager.rawGetService(ServiceManager.java:306)
+06-27 12:50:20.970 28810 28810 E AndroidRuntime: 	at android.os.ServiceManager.getService(ServiceManager.java:134)
+06-27 12:50:20.970 28810 28810 E AndroidRuntime: 	at android.app.ActivityManager$1.create(ActivityManager.java:4571)
+06-27 12:50:20.970 28810 28810 E AndroidRuntime: 	at android.app.ActivityManager$1.create(ActivityManager.java:4568)
+06-27 12:50:20.970 28810 28810 E AndroidRuntime: 	at android.util.Singleton.get(Singleton.java:43)
+06-27 12:50:20.970 28810 28810 E AndroidRuntime: 	at android.app.ActivityManager.getService(ActivityManager.java:4559)
+06-27 12:50:20.970 28810 28810 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$KillApplicationHandler.uncaughtException(RuntimeInit.java:222)
+06-27 12:50:20.970 28810 28810 E AndroidRuntime: 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1073)
+06-27 12:50:20.970 28810 28810 E AndroidRuntime: 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1068)
+06-27 12:50:20.970 28810 28810 E AndroidRuntime: 	at java.lang.Thread.dispatchUncaughtException(Thread.java:2203)
+06-27 12:50:20.970 28810 28810 E ProcessInjector: error while reportKillProcessEvent to system server!
+06-27 12:50:20.970 28810 28810 E ProcessInjector: java.lang.reflect.InvocationTargetException
+06-27 12:50:20.970 28810 28810 E ProcessInjector: 	at java.lang.reflect.Method.invoke(Native Method)
+06-27 12:50:20.970 28810 28810 E ProcessInjector: 	at android.os.ProcessInjector.reportKillProcessEvent(ProcessInjector.java:20)
+06-27 12:50:20.970 28810 28810 E ProcessInjector: 	at android.os.Process.killProcess(Process.java:1149)
+06-27 12:50:20.970 28810 28810 E ProcessInjector: 	at com.android.internal.os.RuntimeInit$KillApplicationHandler.uncaughtException(RuntimeInit.java:236)
+06-27 12:50:20.970 28810 28810 E ProcessInjector: 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1073)
+06-27 12:50:20.970 28810 28810 E ProcessInjector: 	at java.lang.ThreadGroup.uncaughtException(ThreadGroup.java:1068)
+06-27 12:50:20.970 28810 28810 E ProcessInjector: 	at java.lang.Thread.dispatchUncaughtException(Thread.java:2203)
+06-27 12:50:20.970 28810 28810 E ProcessInjector: Caused by: java.lang.RuntimeException: Bad file descriptor
+06-27 12:50:20.970 28810 28810 E ProcessInjector: 	at android.os.BinderProxy.transactNative(Native Method)
+06-27 12:50:20.970 28810 28810 E ProcessInjector: 	at android.os.BinderProxy.transact(BinderProxy.java:593)
+06-27 12:50:20.970 28810 28810 E ProcessInjector: 	at android.os.IServiceManager$Stub$Proxy.checkService(IServiceManager.java:348)
+06-27 12:50:20.970 28810 28810 E ProcessInjector: 	at android.os.ServiceManagerProxy.getService(ServiceManagerNative.java:63)
+06-27 12:50:20.970 28810 28810 E ProcessInjector: 	at android.os.ServiceManager.rawGetService(ServiceManager.java:306)
+06-27 12:50:20.970 28810 28810 E ProcessInjector: 	at android.os.ServiceManager.getService(ServiceManager.java:134)
+06-27 12:50:20.970 28810 28810 E ProcessInjector: 	at android.app.ActivityManager$1.create(ActivityManager.java:4571)
+06-27 12:50:20.970 28810 28810 E ProcessInjector: 	at android.app.ActivityManager$1.create(ActivityManager.java:4568)
+06-27 12:50:20.970 28810 28810 E ProcessInjector: 	at android.util.Singleton.get(Singleton.java:43)
+06-27 12:50:20.970 28810 28810 E ProcessInjector: 	at android.app.ActivityManager.getService(ActivityManager.java:4559)
+06-27 12:50:20.970 28810 28810 E ProcessInjector: 	at android.app.ActivityManagerNative.getDefault(ActivityManagerNative.java:51)
+06-27 12:50:20.970 28810 28810 E ProcessInjector: 	... 7 more
+06-27 12:50:20.970 28810 28810 I Process : Sending signal. PID: 28810 SIG: 9

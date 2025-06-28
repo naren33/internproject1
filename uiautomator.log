@@ -1,0 +1,1383 @@
+2025-06-27 12:30:00,434 - INFO - 
+[TEST START] test_adjust_volume_buttons
+2025-06-27 12:30:00,656 - INFO - 
+[STEP] Increase volume
+2025-06-27 12:30:00,657 - INFO - [COMMAND] adb shell input keyevent KEYCODE_VOLUME_UP
+2025-06-27 12:30:02,176 - INFO - [OUTPUT] ERROR: java.lang.SecurityException: Injecting to another application requires INJECT_EVENTS permission
+	at android.os.Parcel.createExceptionOrNull(Parcel.java:2376)
+	at android.os.Parcel.createException(Parcel.java:2360)
+	at android.os.Parcel.readException(Parcel.java:2343)
+	at android.os.Parcel.readException(Parcel.java:2285)
+	at android.hardware.input.IInputManager$Stub$Proxy.injectInputEvent(IInputManager.java:1012)
+	at android.hardware.input.InputManager.injectInputEvent(InputManager.java:907)
+	at com.android.commands.input.Input.injectKeyEvent(Input.java:355)
+	at com.android.commands.input.Input.access$100(Input.java:41)
+	at com.android.commands.input.Input$InputKeyEvent.sendKeyEvent(Input.java:203)
+	at com.android.commands.input.Input$InputKeyEvent.run(Input.java:190)
+	at com.android.commands.input.Input.onRun(Input.java:107)
+	at com.android.internal.os.BaseCommand.run(BaseCommand.java:60)
+	at com.android.commands.input.Input.main(Input.java:71)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:463)
+Caused by: android.os.RemoteException: Remote stack trace:
+	at com.android.server.input.InputManagerService.injectInputEventInternal(InputManagerService.java:812)
+	at com.android.server.input.InputManagerService.injectInputEvent(InputManagerService.java:786)
+	at android.hardware.input.IInputManager$Stub.onTransact(IInputManager.java:459)
+	at android.os.Binder.execTransactInternal(Binder.java:1157)
+	at android.os.Binder.execTransact(Binder.java:1126)
+2025-06-27 12:30:02,332 - INFO - [TEST END] test_adjust_volume_buttons
+
+2025-06-27 12:30:02,334 - INFO - 
+[TEST START] test_pause_on_incoming_call
+2025-06-27 12:30:02,403 - INFO - 
+[STEP] Play media
+2025-06-27 12:30:02,405 - INFO - [COMMAND] adb shell am start -a android.intent.action.VIEW -d file:///sdcard/Music/sample.mp3 -t audio/*
+2025-06-27 12:30:02,552 - INFO - [OUTPUT] Starting: Intent { act=android.intent.action.VIEW dat=file:///sdcard/Music/sample.mp3 typ=audio/* }
+2025-06-27 12:30:02,553 - INFO - 
+[STEP] Simulate call (manual validation required)
+2025-06-27 12:30:02,553 - INFO - [COMMAND] adb shell am start -a android.intent.action.CALL -d tel:1234567890
+2025-06-27 12:30:02,630 - INFO - [OUTPUT] ERROR: Exception occurred while executing 'start':
+java.lang.SecurityException: Permission Denial: starting Intent { act=android.intent.action.CALL dat=tel:xxxxxxxxxx flg=0x10000000 cmp=com.android.server.telecom/.components.UserCallActivity } from null (pid=20732, uid=2000) with revoked permission android.permission.CALL_PHONE
+	at com.android.server.wm.ActivityStackSupervisor.checkStartAnyActivityPermission(ActivityStackSupervisor.java:1119)
+	at com.android.server.wm.ActivityStarter.executeRequest(ActivityStarter.java:1099)
+	at com.android.server.wm.ActivityStarter.execute(ActivityStarter.java:745)
+	at com.android.server.wm.ActivityTaskManagerService.startActivityAsUser(ActivityTaskManagerService.java:1169)
+	at com.android.server.wm.ActivityTaskManagerService.startActivityAsUser(ActivityTaskManagerService.java:1141)
+	at com.android.server.am.ActivityManagerService.startActivityAsUserWithFeature(ActivityManagerService.java:3781)
+	at com.android.server.am.ActivityManagerShellCommand.runStartActivity(ActivityManagerShellCommand.java:554)
+	at com.android.server.am.ActivityManagerShellCommand.onCommand(ActivityManagerShellCommand.java:186)
+	at android.os.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:98)
+	at android.os.ShellCommand.exec(ShellCommand.java:44)
+	at com.android.server.am.ActivityManagerService.onShellCommand(ActivityManagerService.java:10935)
+	at android.os.Binder.shellCommand(Binder.java:932)
+	at android.os.Binder.onTransact(Binder.java:816)
+	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:5258)
+	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2981)
+	at android.os.Binder.execTransactInternal(Binder.java:1162)
+	at android.os.Binder.execTransact(Binder.java:1126)
+2025-06-27 12:30:02,702 - INFO - [TEST END] test_pause_on_incoming_call
+
+2025-06-27 12:30:02,704 - INFO - 
+[TEST START] test_audio_routing_headset_unplug
+2025-06-27 12:30:02,766 - INFO - 
+[STEP] Check audio route
+2025-06-27 12:30:02,767 - INFO - [COMMAND] adb shell dumpsys audio
+2025-06-27 12:30:02,872 - INFO - [OUTPUT] Message handler (watch for unhandled messages):
+  Handler (com.android.server.audio.AudioService$AudioHandler) {b2221c7} @ 2807428
+    Looper (AudioService, tid 114) {abd33f4}
+      (Total messages: 0, polling=true, quitting=false)
+      Dump time: 2025-06-27 12:30:02.617 IST
+      Package: system_server
+      Current looper: Looper (AudioService, tid=2489)
+
+
+MediaFocusControl dump time: 12:30:02 pm
+
+Audio Focus stack entries (last is top of stack):
+  source:android.os.BinderProxy@959fb33 -- pack: com.spotify.music -- client: android.media.AudioManager@5a124a3p.wc4@7d873a0 -- gain: GAIN -- flags: DELAY_OK -- loss: none -- notified: true -- uid: 10270 -- attr: AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_MUSIC flags=0x800 tags= bundle=null -- sdk:35
+
+
+No external focus policy
+
+
+
+ Notify on duck:  true
+
+ In ring or call: false
+
+
+
+Audio event log: focus commands as seen by MediaFocusControl
+06-27 11:43:32:375 requestAudioFocus() from uid/pid 1000/2671 clientId=android.media.AudioManager@71105f8 callingPack=com.android.systemui req=3 flags=0x0 sdk=30
+06-27 11:43:33:281 abandonAudioFocus() from uid/pid 1000/2671 clientId=android.media.AudioManager@71105f8
+06-27 12:29:20:341 requestAudioFocus() from uid/pid 10270/11583 clientId=android.media.AudioManager@5a124a3p.wc4@7d873a0 callingPack=com.spotify.music req=1 flags=0x1 sdk=35
+Multi Audio Focus enabled :false
+
+Stream volumes (device: index)
+- STREAM_VOICE_CALL:
+   Muted: false
+   Muted Internally: false
+   Min: 1
+   Max: 11
+   streamVolume:11
+   Current: 1 (earpiece): 11, 2 (speaker): 8, 4 (headset): 7, 10 (bt_sco): 6, 80 (bt_a2dp): 1, 20000 (line): 10, 4000000 (usb_headset): 9, 40000000 (default): 8
+   Devices: earpiece
+- STREAM_SYSTEM:
+   Muted: false
+   Muted Internally: false
+   Min: 0
+   Max: 15
+   streamVolume:1
+   Current: 1 (earpiece): 10, 2 (speaker): 1, 4 (headset): 10, 10 (bt_sco): 13, 80 (bt_a2dp): 10, 4000000 (usb_headset): 0, 40000000 (default): 10
+   Devices: speaker
+- STREAM_RING:
+   Muted: false
+   Muted Internally: false
+   Min: 0
+   Max: 15
+   streamVolume:1
+   Current: 1 (earpiece): 10, 2 (speaker): 1, 4 (headset): 10, 10 (bt_sco): 13, 80 (bt_a2dp): 10, 4000000 (usb_headset): 0, 40000000 (default): 10
+   Devices: speaker
+- STREAM_MUSIC:
+   Muted: false
+   Muted Internally: false
+   Min: 0
+   Max: 150
+   streamVolume:11
+   Current: 1 (earpiece): 150, 2 (speaker): 11, 4 (headset): 78, 10 (bt_sco): 150, 80 (bt_a2dp): 100, 20000 (line): 50, 4000000 (usb_headset): 0, 40000000 (default): 100
+   Devices: speaker
+- STREAM_ALARM:
+   Muted: false
+   Muted Internally: false
+   Min: 1
+   Max: 15
+   streamVolume:1
+   Current: 2 (speaker): 1, 40000000 (default): 12
+   Devices: speaker
+- STREAM_NOTIFICATION:
+   Muted: false
+   Muted Internally: false
+   Min: 0
+   Max: 15
+   streamVolume:1
+   Current: 1 (earpiece): 10, 2 (speaker): 1, 4 (headset): 10, 10 (bt_sco): 13, 80 (bt_a2dp): 10, 4000000 (usb_headset): 0, 40000000 (default): 10
+   Devices: speaker
+- STREAM_BLUETOOTH_SCO:
+   Muted: false
+   Muted Internally: false
+   Min: 1
+   Max: 15
+   streamVolume:15
+   Current: 1 (earpiece): 15, 2 (speaker): 15, 4 (headset): 12, 10 (bt_sco): 15, 80 (bt_a2dp): 15, 40000000 (default): 7
+   Devices: earpiece
+- STREAM_SYSTEM_ENFORCED:
+   Muted: false
+   Muted Internally: false
+   Min: 0
+   Max: 7
+   streamVolume:7
+   Current: 1 (earpiece): 7, 2 (speaker): 7, 4 (headset): 7, 10 (bt_sco): 7, 80 (bt_a2dp): 7, 4000000 (usb_headset): 7, 40000000 (default): 7
+   Devices: speaker
+- STREAM_DTMF:
+   Muted: false
+   Muted Internally: false
+   Min: 0
+   Max: 15
+   streamVolume:1
+   Current: 1 (earpiece): 10, 2 (speaker): 1, 4 (headset): 10, 10 (bt_sco): 13, 80 (bt_a2dp): 10, 4000000 (usb_headset): 0, 40000000 (default): 10
+   Devices: speaker
+- STREAM_TTS:
+   Muted: false
+   Muted Internally: false
+   Min: 0
+   Max: 15
+   streamVolume:1
+   Current: 1 (earpiece): 15, 2 (speaker): 1, 4 (headset): 8, 10 (bt_sco): 15, 80 (bt_a2dp): 10, 20000 (line): 5, 4000000 (usb_headset): 0, 40000000 (default): 10
+   Devices: speaker
+- STREAM_ACCESSIBILITY:
+   Muted: false
+   Muted Internally: false
+   Min: 1
+   Max: 15
+   streamVolume:2
+   Current: 1 (earpiece): 15, 2 (speaker): 2, 4 (headset): 8, 10 (bt_sco): 15, 80 (bt_a2dp): 10, 20000 (line): 6, 4000000 (usb_headset): 1, 40000000 (default): 10
+   Devices: speaker
+- STREAM_ASSISTANT:
+   Muted: false
+   Muted Internally: false
+   Min: 0
+   Max: 15
+   streamVolume:10
+   Current: 40000000 (default): 10
+   Devices: speaker
+
+- mute affected streams = 0x6f
+
+Volume Groups (device: index)
+- VOLUME GROUP voice_call:
+   Min: 1
+   Max: 11
+   Current: 40000000 (default): 8
+   Devices: earpiece
+- VOLUME GROUP system:
+   Min: 0
+   Max: 15
+   Current: 40000000 (default): 10
+   Devices: speaker
+- VOLUME GROUP ring:
+   Min: 0
+   Max: 15
+   Current: 40000000 (default): 10
+   Devices: speaker
+- VOLUME GROUP music:
+   Min: 0
+   Max: 150
+   Current: 40000000 (default): 100
+   Devices: speaker
+- VOLUME GROUP assistant:
+   Min: 0
+   Max: 15
+   Current: 40000000 (default): 10
+   Devices: speaker
+- VOLUME GROUP alarm:
+   Min: 1
+   Max: 15
+   Current: 40000000 (default): 12
+   Devices: speaker
+- VOLUME GROUP notification:
+   Min: 0
+   Max: 15
+   Current: 40000000 (default): 10
+   Devices: speaker
+- VOLUME GROUP bluetooth_sco:
+   Min: 1
+   Max: 15
+   Current: 40000000 (default): 7
+   Devices: earpiece
+- VOLUME GROUP enforced_audible:
+   Min: 0
+   Max: 7
+   Current: 40000000 (default): 5
+   Devices: speaker
+- VOLUME GROUP dtmf:
+   Min: 0
+   Max: 15
+   Current: 40000000 (default): 10
+   Devices: speaker
+- VOLUME GROUP tts:
+   Min: 0
+   Max: 15
+   Current: 40000000 (default): 10
+   Devices: speaker
+- VOLUME GROUP accessibility:
+   Min: 1
+   Max: 15
+   Current: 40000000 (default): 10
+   Devices: speaker
+
+Ringer mode: 
+- mode (internal) = NORMAL
+- mode (external) = NORMAL
+- zen mode:ZEN_MODE_OFF
+- ringer mode affected streams = 0x126 (STREAM_SYSTEM,STREAM_RING,STREAM_NOTIFICATION,STREAM_DTMF)
+- ringer mode muted streams = 0x0
+- delegate = ZenModeHelper
+
+Audio routes:
+  mMainType=0x0
+  mBluetoothName=null
+
+Other state:
+  mVolumeController=VolumeController(android.os.BinderProxy@7a85cf5,mVisible=false)
+  mSafeMediaVolumeState=SAFE_MEDIA_VOLUME_INACTIVE
+  mSafeMediaVolumeIndex=1000
+  mSafeUsbMediaVolumeIndex=580
+  mSafeUsbMediaVolumeDbfs=-37.0
+  sIndependentA11yVolume=false
+  mPendingVolumeCommand=null
+  mMusicActiveMs=8700001
+  mMcc=404
+  mCameraSoundForced=true
+  mHasVibrator=true
+  mVolumePolicy=VolumePolicy[volumeDownToEnterSilent=false,volumeUpToExitSilent=false,doNotDisturbWhenSilent=false,vibrateToSilentDebounce=400]
+  mAvrcpAbsVolSupported=false
+  mIsSingleVolume=false
+  mUseFixedVolume=false
+  mFixedVolumeDevices=0x1000,0x800,0x200000,0x40000,0x80000
+  mExtVolumeController=null
+  mHdmiCecSink=false
+  mHdmiAudioSystemClient=null
+  mHdmiPlaybackClient=null
+  mHdmiTvClient=null
+  mHdmiSystemAudioSupported=false
+  mHdmiCecVolumeControlEnabled=false
+  mIsCallScreeningModeSupported=false
+  mOpenSoundAssist=false
+  mIgnrMusicFocusReq=false
+  mic mute FromSwitch=false FromRestrictions=false FromApi=false from system=false
+Audio policies:
+Audio event log: dynamic policy events (logged when command received by AudioService)
+
+PlaybackActivityMonitor dump time: 12:30:02 pm
+
+  playback listeners:
+ (S)com.android.server.audio.PlaybackActivityMonitor$PlayMonitorClient@b1ba71d (P)com.android.server.audio.PlaybackActivityMonitor$PlayMonitorClient@336ee
+
+
+  players:
+  AudioPlaybackConfiguration piid:15 type:android.media.SoundPool u/pid:1000/1919 state:idle attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x800 tags= bundle=null
+  AudioPlaybackConfiguration piid:23 type:android.media.SoundPool u/pid:1000/1919 state:idle attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x800 tags= bundle=null
+  AudioPlaybackConfiguration piid:31 type:android.media.SoundPool u/pid:1000/2671 state:idle attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x800 tags= bundle=null
+  AudioPlaybackConfiguration piid:71 type:android.media.AudioTrack u/pid:10270/11583 state:started attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_MUSIC flags=0xE00 tags= bundle=null
+  AudioPlaybackConfiguration piid:79 type:android.media.SoundPool u/pid:10255/20207 state:idle attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x800 tags= bundle=null
+
+  ducked players piids:
+
+  muted player piids:
+
+  banned uids:
+
+
+  volume players:
+
+Audio event log: playback activity as reported through PlayerBase
+06-27 11:43:26:127 new player piid:15 uid/pid:1000/1919 type:android.media.SoundPool attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x800 tags= bundle=null
+06-27 11:43:28:005 new player piid:23 uid/pid:1000/1919 type:android.media.SoundPool attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x800 tags= bundle=null
+06-27 11:43:28:898 new player piid:31 uid/pid:1000/2671 type:android.media.SoundPool attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x800 tags= bundle=null
+06-27 11:43:32:327 new player piid:39 uid/pid:1000/2671 type:android.media.MediaPlayer attr:AudioAttributes: usage=USAGE_UNKNOWN content=CONTENT_TYPE_UNKNOWN flags=0x800 tags= bundle=null
+06-27 11:43:32:327 player piid:39 new AudioAttributes:AudioAttributes: usage=USAGE_NOTIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x800 tags= bundle=null
+06-27 11:43:32:877 player piid:39 state:started
+06-27 11:43:33:280 player piid:39 state:stopped
+06-27 11:43:33:281 releasing player piid:39
+06-27 12:28:42:165 new player piid:47 uid/pid:1000/9395 type:android.media.MediaPlayer attr:AudioAttributes: usage=USAGE_UNKNOWN content=CONTENT_TYPE_UNKNOWN flags=0x800 tags= bundle=null
+06-27 12:28:42:206 player piid:47 new AudioAttributes:AudioAttributes: usage=USAGE_NOTIFICATION_RINGTONE content=CONTENT_TYPE_SONIFICATION flags=0x800 tags= bundle=null
+06-27 12:28:42:263 releasing player piid:47
+06-27 12:28:42:267 new player piid:55 uid/pid:1000/9395 type:android.media.MediaPlayer attr:AudioAttributes: usage=USAGE_UNKNOWN content=CONTENT_TYPE_UNKNOWN flags=0x800 tags= bundle=null
+06-27 12:28:42:279 player piid:55 new AudioAttributes:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x800 tags= bundle=null
+06-27 12:28:42:327 player piid:55 state:started
+06-27 12:28:44:357 releasing player piid:55
+06-27 12:29:21:360 new player piid:63 uid/pid:10270/11583 type:android.media.AudioTrack attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_UNKNOWN flags=0xA00 tags= bundle=null
+06-27 12:29:21:394 player piid:63 state:started
+06-27 12:29:41:276 player piid:63 state:stopped
+06-27 12:29:41:695 player piid:63 state:stopped
+06-27 12:29:41:695 releasing player piid:63
+06-27 12:29:41:928 new player piid:71 uid/pid:10270/11583 type:android.media.AudioTrack attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_MUSIC flags=0xE00 tags= bundle=null
+06-27 12:29:41:951 player piid:71 state:started
+06-27 12:29:58:816 new player piid:79 uid/pid:10255/20207 type:android.media.SoundPool attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x800 tags= bundle=null
+
+  allowed capture policies:
+
+RecordActivityMonitor dump time: 12:30:02 pm
+
+
+Audio event log: recording activity received by AudioService
+
+AudioDeviceBroker:
+  Message handler (watch for unhandled messages):
+    Handler (com.android.server.audio.AudioDeviceBroker$BrokerHandler) {51f2d92} @ 2807461
+      Looper (AudioDeviceBroker, tid 115) {f151363}
+        (Total messages: 0, polling=true, quitting=false)
+        Dump time: 2025-06-27 12:30:02.651 IST
+        Package: system_server
+        Current looper: Looper (AudioDeviceBroker, tid=2493)
+
+
+  Preferred devices for strategy:
+
+  Connected devices:
+
+  APM Connected device (A2DP sink only):
+
+  mForcedUseForComm: FORCE_NONE
+  mForcedUseForCommExt: FORCE_NONE
+  mModeOwnerPid: 0
+  Speakerphone clients:
+
+  mBluetoothHeadset: null
+  mBluetoothHeadsetDevice: null
+  mScoAudioState: SCO_STATE_INACTIVE
+  mScoAudioMode: SCO_MODE_VIRTUAL_CALL
+  Sco clients:
+
+  mHearingAid: null
+  mA2dp: null
+  mAvrcpAbsVolSupported: false
+
+SoundEffects:
+  Message handler (watch for unhandled messages):
+  Handler (com.android.server.audio.SoundEffectsHelper$SfxHandler) {9739b60} @ 2807462
+    Looper (AS.SfxWorker, tid 113) {bd09819}
+      (Total messages: 0, polling=true, quitting=false)
+      Dump time: 2025-06-27 12:30:02.651 IST
+      Package: system_server
+      Current looper: Looper (AS.SfxWorker, tid=2488)
+
+  Default attenuation (dB): -6
+Audio event log: Sound Effects Loading
+06-27 11:43:28:004 effects loading started
+06-27 11:43:28:005 effect /system/media/audio/ui/KeypressInvalid.ogg rejected by SoundPool
+06-27 11:43:28:037 effect KeypressStandard.ogg loaded
+06-27 11:43:28:040 effect Effect_Tick.ogg loaded
+06-27 11:43:28:082 effect KeypressSpacebar.ogg loaded
+06-27 11:43:28:088 effect KeypressDelete.ogg loaded
+06-27 11:43:28:177 effect KeypressReturn.ogg loaded
+06-27 11:43:28:177 effects loading completed
+
+
+
+Event logs:
+Audio event log: phone state (logged after successful call to AudioSystem.setPhoneState(int, int))
+
+
+Audio event log: wired/A2DP/hearing aid device connection
+
+
+Audio event log: force use (logged before setForceUse() is executed)
+06-27 11:43:25:800 setForceUse(FOR_SYSTEM, FORCE_SYSTEM_ENFORCED) due to AudioService ctor
+06-27 11:43:25:801 setForceUse(FOR_ENCODED_SURROUND, FORCE_NONE) due to readPersistedSettings
+06-27 11:43:25:810 setForceUse(FOR_DOCK, FORCE_ANALOG_DOCK) due to readDockAudioSettings
+06-27 11:43:25:988 setForceUse(FOR_VIBRATE_RINGING, FORCE_NONE) due to muteRingerModeStreams() from u/pid:1000/1919
+06-27 11:43:28:002 setForceUse(FOR_COMMUNICATION, FORCE_NONE) due to resetBluetoothSco
+06-27 11:43:28:002 setForceUse(FOR_RECORD, FORCE_NONE) due to resetBluetoothSco
+06-27 11:43:28:004 setForceUse(FOR_VIBRATE_RINGING, FORCE_NONE) due to muteRingerModeStreams() from u/pid:1000/1919
+06-27 11:43:29:492 setForceUse(FOR_DOCK, FORCE_ANALOG_DOCK) due to readDockAudioSettings
+06-27 11:43:29:492 setForceUse(FOR_ENCODED_SURROUND, FORCE_NONE) due to readPersistedSettings
+06-27 11:43:29:511 setForceUse(FOR_VIBRATE_RINGING, FORCE_NONE) due to muteRingerModeStreams() from u/pid:1000/1919
+06-27 11:43:30:968 setForceUse(FOR_COMMUNICATION, FORCE_NONE) due to resetBluetoothSco
+06-27 11:43:30:968 setForceUse(FOR_VIBRATE_RINGING, FORCE_NONE) due to muteRingerModeStreams() from u/pid:1000/1919
+06-27 11:43:30:968 setForceUse(FOR_RECORD, FORCE_NONE) due to resetBluetoothSco
+
+
+Audio event log: volume changes (logged when command received by AudioService)
+06-27 12:29:17:518 adjustStreamVolume(stream:STREAM_MUSIC dir:ADJUST_LOWER flags:0x1) from com.spotify.music
+06-27 12:29:17:751 adjustStreamVolume(stream:STREAM_MUSIC dir:ADJUST_LOWER flags:0x1) from com.spotify.music
+06-27 12:29:17:801 adjustStreamVolume(stream:STREAM_MUSIC dir:ADJUST_LOWER flags:0x1) from com.spotify.music
+06-27 12:29:18:371 adjustStreamVolume(stream:STREAM_MUSIC dir:ADJUST_LOWER flags:0x1) from com.spotify.music
+
+
+Supported System Usages:
+	USAGE_CALL_ASSISTANT
+2025-06-27 12:30:02,959 - INFO - [TEST END] test_audio_routing_headset_unplug
+
+2025-06-27 12:30:02,960 - INFO - 
+[TEST START] test_bluetooth_audio_routing
+2025-06-27 12:30:03,017 - INFO - 
+[STEP] Enable Bluetooth
+2025-06-27 12:30:03,018 - INFO - [COMMAND] adb shell svc bluetooth enable
+2025-06-27 12:30:03,425 - INFO - [OUTPUT] ERROR: 
+2025-06-27 12:30:03,473 - INFO - [TEST END] test_bluetooth_audio_routing
+
+2025-06-27 12:30:03,474 - INFO - 
+[TEST START] test_playback_screen_off
+2025-06-27 12:30:03,516 - INFO - 
+[STEP] Start media
+2025-06-27 12:30:03,517 - INFO - [COMMAND] adb shell am start -a android.intent.action.VIEW -d file:///sdcard/Music/sample.mp3 -t audio/*
+2025-06-27 12:30:03,639 - INFO - [OUTPUT] Starting: Intent { act=android.intent.action.VIEW dat=file:///sdcard/Music/sample.mp3 typ=audio/* }
+2025-06-27 12:30:03,641 - INFO - 
+[STEP] Turn off screen
+2025-06-27 12:30:03,641 - INFO - [COMMAND] adb shell input keyevent 26
+2025-06-27 12:30:03,867 - INFO - [OUTPUT] ERROR: java.lang.SecurityException: Injecting to another application requires INJECT_EVENTS permission
+	at android.os.Parcel.createExceptionOrNull(Parcel.java:2376)
+	at android.os.Parcel.createException(Parcel.java:2360)
+	at android.os.Parcel.readException(Parcel.java:2343)
+	at android.os.Parcel.readException(Parcel.java:2285)
+	at android.hardware.input.IInputManager$Stub$Proxy.injectInputEvent(IInputManager.java:1012)
+	at android.hardware.input.InputManager.injectInputEvent(InputManager.java:907)
+	at com.android.commands.input.Input.injectKeyEvent(Input.java:355)
+	at com.android.commands.input.Input.access$100(Input.java:41)
+	at com.android.commands.input.Input$InputKeyEvent.sendKeyEvent(Input.java:203)
+	at com.android.commands.input.Input$InputKeyEvent.run(Input.java:190)
+	at com.android.commands.input.Input.onRun(Input.java:107)
+	at com.android.internal.os.BaseCommand.run(BaseCommand.java:60)
+	at com.android.commands.input.Input.main(Input.java:71)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:463)
+2025-06-27 12:30:03,930 - INFO - [TEST END] test_playback_screen_off
+
+2025-06-27 12:30:03,932 - INFO - 
+[TEST START] test_voice_recording_playback
+2025-06-27 12:30:03,978 - INFO - 
+[STEP] Launch Voice Recorder (manual validation)
+2025-06-27 12:30:03,979 - INFO - [COMMAND] adb shell am start -a android.provider.MediaStore.RECORD_SOUND
+2025-06-27 12:30:04,095 - INFO - [OUTPUT] Starting: Intent { act=android.provider.MediaStore.RECORD_SOUND }
+2025-06-27 12:30:04,208 - INFO - [TEST END] test_voice_recording_playback
+
+2025-06-27 12:30:04,211 - INFO - 
+[TEST START] test_notification_over_audio
+2025-06-27 12:30:04,355 - INFO - 
+[STEP] Play media
+2025-06-27 12:30:04,355 - INFO - [COMMAND] adb shell am start -a android.intent.action.VIEW -d file:///sdcard/Music/sample.mp3 -t audio/*
+2025-06-27 12:30:04,440 - INFO - [OUTPUT] Starting: Intent { act=android.intent.action.VIEW dat=file:///sdcard/Music/sample.mp3 typ=audio/* }
+2025-06-27 12:30:04,441 - INFO - 
+[STEP] Trigger notification (manual)
+2025-06-27 12:30:04,442 - INFO - [COMMAND] adb shell am broadcast -a com.android.test.NOTIFY
+2025-06-27 12:30:14,482 - INFO - [OUTPUT] ERROR: ADB command timed out
+2025-06-27 12:30:14,676 - INFO - [TEST END] test_notification_over_audio
+
+2025-06-27 12:30:14,677 - INFO - 
+[TEST START] test_mute_functionality
+2025-06-27 12:30:14,734 - INFO - 
+[STEP] Mute media
+2025-06-27 12:30:14,736 - INFO - [COMMAND] adb shell media volume --stream 3 --set 0
+2025-06-27 12:30:14,787 - INFO - [OUTPUT] ERROR: /system/bin/sh: media: inaccessible or not found
+2025-06-27 12:30:14,846 - INFO - [TEST END] test_mute_functionality
+
+2025-06-27 12:30:14,847 - INFO - 
+[TEST START] test_audio_focus_conflict
+2025-06-27 12:30:14,901 - INFO - 
+[STEP] Simulate App A playing media
+2025-06-27 12:30:14,902 - INFO - [COMMAND] adb shell am start -a android.intent.action.VIEW -d file:///sdcard/Music/app_a.mp3 -t audio/*
+2025-06-27 12:30:15,026 - INFO - [OUTPUT] Starting: Intent { act=android.intent.action.VIEW dat=file:///sdcard/Music/app_a.mp3 typ=audio/* }
+2025-06-27 12:30:15,027 - INFO - 
+[STEP] Simulate App B requesting audio
+2025-06-27 12:30:15,027 - INFO - [COMMAND] adb shell am start -a android.intent.action.VIEW -d file:///sdcard/Music/app_b.mp3 -t audio/*
+2025-06-27 12:30:15,076 - INFO - [OUTPUT] Starting: Intent { act=android.intent.action.VIEW dat=file:///sdcard/Music/app_b.mp3 typ=audio/* }
+2025-06-27 12:30:15,125 - INFO - [TEST END] test_audio_focus_conflict
+
+2025-06-27 12:30:15,127 - INFO - 
+[TEST START] test_check_alarm_in_silent_mode
+2025-06-27 12:30:15,175 - INFO - 
+[STEP] Enable DND
+2025-06-27 12:30:15,177 - INFO - [COMMAND] adb shell settings put global zen_mode 1
+2025-06-27 12:30:15,225 - INFO - [OUTPUT] ERROR: Exception occurred while executing 'put':
+java.lang.SecurityException: Permission denial: writing to settings requires:android.permission.WRITE_SECURE_SETTINGS
+	at com.android.providers.settings.SettingsProvider.enforceWritePermission(SettingsProvider.java:2105)
+	at com.android.providers.settings.SettingsProvider.mutateGlobalSetting(SettingsProvider.java:1291)
+	at com.android.providers.settings.SettingsProvider.insertGlobalSetting(SettingsProvider.java:1245)
+	at com.android.providers.settings.SettingsProvider.call(SettingsProvider.java:398)
+	at android.content.ContentProvider.call(ContentProvider.java:2486)
+	at android.content.ContentProvider$Transport.call(ContentProvider.java:522)
+	at com.android.providers.settings.SettingsService$MyShellCommand.putForUser(SettingsService.java:375)
+	at com.android.providers.settings.SettingsService$MyShellCommand.onCommand(SettingsService.java:277)
+	at android.os.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:98)
+	at android.os.ShellCommand.exec(ShellCommand.java:44)
+	at com.android.providers.settings.SettingsService.onShellCommand(SettingsService.java:49)
+	at android.os.Binder.shellCommand(Binder.java:932)
+	at android.os.Binder.onTransact(Binder.java:816)
+	at android.os.Binder.execTransactInternal(Binder.java:1162)
+	at android.os.Binder.execTransact(Binder.java:1126)
+2025-06-27 12:30:15,273 - INFO - [TEST END] test_check_alarm_in_silent_mode
+
+2025-06-27 12:30:15,275 - INFO - 
+[TEST START] test_check_bt_audio_route
+2025-06-27 12:30:15,315 - INFO - 
+[STEP] Dump audio state
+2025-06-27 12:30:15,316 - INFO - [COMMAND] adb shell dumpsys audio
+2025-06-27 12:30:15,362 - INFO - [OUTPUT] Message handler (watch for unhandled messages):
+  Handler (com.android.server.audio.AudioService$AudioHandler) {b2221c7} @ 2819948
+    Looper (AudioService, tid 114) {abd33f4}
+      (Total messages: 0, polling=true, quitting=false)
+      Dump time: 2025-06-27 12:30:15.137 IST
+      Package: system_server
+      Current looper: Looper (AudioService, tid=2489)
+
+
+MediaFocusControl dump time: 12:30:15 pm
+
+Audio Focus stack entries (last is top of stack):
+  source:android.os.BinderProxy@959fb33 -- pack: com.spotify.music -- client: android.media.AudioManager@5a124a3p.wc4@7d873a0 -- gain: GAIN -- flags: DELAY_OK -- loss: none -- notified: true -- uid: 10270 -- attr: AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_MUSIC flags=0x800 tags= bundle=null -- sdk:35
+
+
+No external focus policy
+
+
+
+ Notify on duck:  true
+
+ In ring or call: false
+
+
+
+Audio event log: focus commands as seen by MediaFocusControl
+06-27 11:43:32:375 requestAudioFocus() from uid/pid 1000/2671 clientId=android.media.AudioManager@71105f8 callingPack=com.android.systemui req=3 flags=0x0 sdk=30
+06-27 11:43:33:281 abandonAudioFocus() from uid/pid 1000/2671 clientId=android.media.AudioManager@71105f8
+06-27 12:29:20:341 requestAudioFocus() from uid/pid 10270/11583 clientId=android.media.AudioManager@5a124a3p.wc4@7d873a0 callingPack=com.spotify.music req=1 flags=0x1 sdk=35
+Multi Audio Focus enabled :false
+
+Stream volumes (device: index)
+- STREAM_VOICE_CALL:
+   Muted: false
+   Muted Internally: false
+   Min: 1
+   Max: 11
+   streamVolume:11
+   Current: 1 (earpiece): 11, 2 (speaker): 8, 4 (headset): 7, 10 (bt_sco): 6, 80 (bt_a2dp): 1, 20000 (line): 10, 4000000 (usb_headset): 9, 40000000 (default): 8
+   Devices: earpiece
+- STREAM_SYSTEM:
+   Muted: false
+   Muted Internally: false
+   Min: 0
+   Max: 15
+   streamVolume:1
+   Current: 1 (earpiece): 10, 2 (speaker): 1, 4 (headset): 10, 10 (bt_sco): 13, 80 (bt_a2dp): 10, 4000000 (usb_headset): 0, 40000000 (default): 10
+   Devices: speaker
+- STREAM_RING:
+   Muted: false
+   Muted Internally: false
+   Min: 0
+   Max: 15
+   streamVolume:1
+   Current: 1 (earpiece): 10, 2 (speaker): 1, 4 (headset): 10, 10 (bt_sco): 13, 80 (bt_a2dp): 10, 4000000 (usb_headset): 0, 40000000 (default): 10
+   Devices: speaker
+- STREAM_MUSIC:
+   Muted: false
+   Muted Internally: false
+   Min: 0
+   Max: 150
+   streamVolume:11
+   Current: 1 (earpiece): 150, 2 (speaker): 11, 4 (headset): 78, 10 (bt_sco): 150, 80 (bt_a2dp): 100, 20000 (line): 50, 4000000 (usb_headset): 0, 40000000 (default): 100
+   Devices: speaker
+- STREAM_ALARM:
+   Muted: false
+   Muted Internally: false
+   Min: 1
+   Max: 15
+   streamVolume:1
+   Current: 2 (speaker): 1, 40000000 (default): 12
+   Devices: speaker
+- STREAM_NOTIFICATION:
+   Muted: false
+   Muted Internally: false
+   Min: 0
+   Max: 15
+   streamVolume:1
+   Current: 1 (earpiece): 10, 2 (speaker): 1, 4 (headset): 10, 10 (bt_sco): 13, 80 (bt_a2dp): 10, 4000000 (usb_headset): 0, 40000000 (default): 10
+   Devices: speaker
+- STREAM_BLUETOOTH_SCO:
+   Muted: false
+   Muted Internally: false
+   Min: 1
+   Max: 15
+   streamVolume:15
+   Current: 1 (earpiece): 15, 2 (speaker): 15, 4 (headset): 12, 10 (bt_sco): 15, 80 (bt_a2dp): 15, 40000000 (default): 7
+   Devices: earpiece
+- STREAM_SYSTEM_ENFORCED:
+   Muted: false
+   Muted Internally: false
+   Min: 0
+   Max: 7
+   streamVolume:7
+   Current: 1 (earpiece): 7, 2 (speaker): 7, 4 (headset): 7, 10 (bt_sco): 7, 80 (bt_a2dp): 7, 4000000 (usb_headset): 7, 40000000 (default): 7
+   Devices: speaker
+- STREAM_DTMF:
+   Muted: false
+   Muted Internally: false
+   Min: 0
+   Max: 15
+   streamVolume:1
+   Current: 1 (earpiece): 10, 2 (speaker): 1, 4 (headset): 10, 10 (bt_sco): 13, 80 (bt_a2dp): 10, 4000000 (usb_headset): 0, 40000000 (default): 10
+   Devices: speaker
+- STREAM_TTS:
+   Muted: false
+   Muted Internally: false
+   Min: 0
+   Max: 15
+   streamVolume:1
+   Current: 1 (earpiece): 15, 2 (speaker): 1, 4 (headset): 8, 10 (bt_sco): 15, 80 (bt_a2dp): 10, 20000 (line): 5, 4000000 (usb_headset): 0, 40000000 (default): 10
+   Devices: speaker
+- STREAM_ACCESSIBILITY:
+   Muted: false
+   Muted Internally: false
+   Min: 1
+   Max: 15
+   streamVolume:2
+   Current: 1 (earpiece): 15, 2 (speaker): 2, 4 (headset): 8, 10 (bt_sco): 15, 80 (bt_a2dp): 10, 20000 (line): 6, 4000000 (usb_headset): 1, 40000000 (default): 10
+   Devices: speaker
+- STREAM_ASSISTANT:
+   Muted: false
+   Muted Internally: false
+   Min: 0
+   Max: 15
+   streamVolume:10
+   Current: 40000000 (default): 10
+   Devices: speaker
+
+- mute affected streams = 0x6f
+
+Volume Groups (device: index)
+- VOLUME GROUP voice_call:
+   Min: 1
+   Max: 11
+   Current: 40000000 (default): 8
+   Devices: earpiece
+- VOLUME GROUP system:
+   Min: 0
+   Max: 15
+   Current: 40000000 (default): 10
+   Devices: speaker
+- VOLUME GROUP ring:
+   Min: 0
+   Max: 15
+   Current: 40000000 (default): 10
+   Devices: speaker
+- VOLUME GROUP music:
+   Min: 0
+   Max: 150
+   Current: 40000000 (default): 100
+   Devices: speaker
+- VOLUME GROUP assistant:
+   Min: 0
+   Max: 15
+   Current: 40000000 (default): 10
+   Devices: speaker
+- VOLUME GROUP alarm:
+   Min: 1
+   Max: 15
+   Current: 40000000 (default): 12
+   Devices: speaker
+- VOLUME GROUP notification:
+   Min: 0
+   Max: 15
+   Current: 40000000 (default): 10
+   Devices: speaker
+- VOLUME GROUP bluetooth_sco:
+   Min: 1
+   Max: 15
+   Current: 40000000 (default): 7
+   Devices: earpiece
+- VOLUME GROUP enforced_audible:
+   Min: 0
+   Max: 7
+   Current: 40000000 (default): 5
+   Devices: speaker
+- VOLUME GROUP dtmf:
+   Min: 0
+   Max: 15
+   Current: 40000000 (default): 10
+   Devices: speaker
+- VOLUME GROUP tts:
+   Min: 0
+   Max: 15
+   Current: 40000000 (default): 10
+   Devices: speaker
+- VOLUME GROUP accessibility:
+   Min: 1
+   Max: 15
+   Current: 40000000 (default): 10
+   Devices: speaker
+
+Ringer mode: 
+- mode (internal) = NORMAL
+- mode (external) = NORMAL
+- zen mode:ZEN_MODE_OFF
+- ringer mode affected streams = 0x126 (STREAM_SYSTEM,STREAM_RING,STREAM_NOTIFICATION,STREAM_DTMF)
+- ringer mode muted streams = 0x0
+- delegate = ZenModeHelper
+
+Audio routes:
+  mMainType=0x0
+  mBluetoothName=null
+
+Other state:
+  mVolumeController=VolumeController(android.os.BinderProxy@7a85cf5,mVisible=false)
+  mSafeMediaVolumeState=SAFE_MEDIA_VOLUME_INACTIVE
+  mSafeMediaVolumeIndex=1000
+  mSafeUsbMediaVolumeIndex=580
+  mSafeUsbMediaVolumeDbfs=-37.0
+  sIndependentA11yVolume=false
+  mPendingVolumeCommand=null
+  mMusicActiveMs=8700001
+  mMcc=404
+  mCameraSoundForced=true
+  mHasVibrator=true
+  mVolumePolicy=VolumePolicy[volumeDownToEnterSilent=false,volumeUpToExitSilent=false,doNotDisturbWhenSilent=false,vibrateToSilentDebounce=400]
+  mAvrcpAbsVolSupported=false
+  mIsSingleVolume=false
+  mUseFixedVolume=false
+  mFixedVolumeDevices=0x1000,0x800,0x200000,0x40000,0x80000
+  mExtVolumeController=null
+  mHdmiCecSink=false
+  mHdmiAudioSystemClient=null
+  mHdmiPlaybackClient=null
+  mHdmiTvClient=null
+  mHdmiSystemAudioSupported=false
+  mHdmiCecVolumeControlEnabled=false
+  mIsCallScreeningModeSupported=false
+  mOpenSoundAssist=false
+  mIgnrMusicFocusReq=false
+  mic mute FromSwitch=false FromRestrictions=false FromApi=false from system=false
+Audio policies:
+Audio event log: dynamic policy events (logged when command received by AudioService)
+
+PlaybackActivityMonitor dump time: 12:30:15 pm
+
+  playback listeners:
+ (S)com.android.server.audio.PlaybackActivityMonitor$PlayMonitorClient@b1ba71d (P)com.android.server.audio.PlaybackActivityMonitor$PlayMonitorClient@336ee
+
+
+  players:
+  AudioPlaybackConfiguration piid:15 type:android.media.SoundPool u/pid:1000/1919 state:idle attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x800 tags= bundle=null
+  AudioPlaybackConfiguration piid:23 type:android.media.SoundPool u/pid:1000/1919 state:idle attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x800 tags= bundle=null
+  AudioPlaybackConfiguration piid:31 type:android.media.SoundPool u/pid:1000/2671 state:idle attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x800 tags= bundle=null
+  AudioPlaybackConfiguration piid:71 type:android.media.AudioTrack u/pid:10270/11583 state:started attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_MUSIC flags=0xE00 tags= bundle=null
+  AudioPlaybackConfiguration piid:79 type:android.media.SoundPool u/pid:10255/20207 state:idle attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x800 tags= bundle=null
+
+  ducked players piids:
+
+  muted player piids:
+
+  banned uids:
+
+
+  volume players:
+
+Audio event log: playback activity as reported through PlayerBase
+06-27 11:43:26:127 new player piid:15 uid/pid:1000/1919 type:android.media.SoundPool attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x800 tags= bundle=null
+06-27 11:43:28:005 new player piid:23 uid/pid:1000/1919 type:android.media.SoundPool attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x800 tags= bundle=null
+06-27 11:43:28:898 new player piid:31 uid/pid:1000/2671 type:android.media.SoundPool attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x800 tags= bundle=null
+06-27 11:43:32:327 new player piid:39 uid/pid:1000/2671 type:android.media.MediaPlayer attr:AudioAttributes: usage=USAGE_UNKNOWN content=CONTENT_TYPE_UNKNOWN flags=0x800 tags= bundle=null
+06-27 11:43:32:327 player piid:39 new AudioAttributes:AudioAttributes: usage=USAGE_NOTIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x800 tags= bundle=null
+06-27 11:43:32:877 player piid:39 state:started
+06-27 11:43:33:280 player piid:39 state:stopped
+06-27 11:43:33:281 releasing player piid:39
+06-27 12:28:42:165 new player piid:47 uid/pid:1000/9395 type:android.media.MediaPlayer attr:AudioAttributes: usage=USAGE_UNKNOWN content=CONTENT_TYPE_UNKNOWN flags=0x800 tags= bundle=null
+06-27 12:28:42:206 player piid:47 new AudioAttributes:AudioAttributes: usage=USAGE_NOTIFICATION_RINGTONE content=CONTENT_TYPE_SONIFICATION flags=0x800 tags= bundle=null
+06-27 12:28:42:263 releasing player piid:47
+06-27 12:28:42:267 new player piid:55 uid/pid:1000/9395 type:android.media.MediaPlayer attr:AudioAttributes: usage=USAGE_UNKNOWN content=CONTENT_TYPE_UNKNOWN flags=0x800 tags= bundle=null
+06-27 12:28:42:279 player piid:55 new AudioAttributes:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x800 tags= bundle=null
+06-27 12:28:42:327 player piid:55 state:started
+06-27 12:28:44:357 releasing player piid:55
+06-27 12:29:21:360 new player piid:63 uid/pid:10270/11583 type:android.media.AudioTrack attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_UNKNOWN flags=0xA00 tags= bundle=null
+06-27 12:29:21:394 player piid:63 state:started
+06-27 12:29:41:276 player piid:63 state:stopped
+06-27 12:29:41:695 player piid:63 state:stopped
+06-27 12:29:41:695 releasing player piid:63
+06-27 12:29:41:928 new player piid:71 uid/pid:10270/11583 type:android.media.AudioTrack attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_MUSIC flags=0xE00 tags= bundle=null
+06-27 12:29:41:951 player piid:71 state:started
+06-27 12:29:58:816 new player piid:79 uid/pid:10255/20207 type:android.media.SoundPool attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x800 tags= bundle=null
+
+  allowed capture policies:
+
+RecordActivityMonitor dump time: 12:30:15 pm
+
+
+Audio event log: recording activity received by AudioService
+
+AudioDeviceBroker:
+  Message handler (watch for unhandled messages):
+    Handler (com.android.server.audio.AudioDeviceBroker$BrokerHandler) {51f2d92} @ 2819956
+      Looper (AudioDeviceBroker, tid 115) {f151363}
+        (Total messages: 0, polling=true, quitting=false)
+        Dump time: 2025-06-27 12:30:15.145 IST
+        Package: system_server
+        Current looper: Looper (AudioDeviceBroker, tid=2493)
+
+
+  Preferred devices for strategy:
+
+  Connected devices:
+
+  APM Connected device (A2DP sink only):
+
+  mForcedUseForComm: FORCE_NONE
+  mForcedUseForCommExt: FORCE_NONE
+  mModeOwnerPid: 0
+  Speakerphone clients:
+
+  mBluetoothHeadset: null
+  mBluetoothHeadsetDevice: null
+  mScoAudioState: SCO_STATE_INACTIVE
+  mScoAudioMode: SCO_MODE_VIRTUAL_CALL
+  Sco clients:
+
+  mHearingAid: null
+  mA2dp: null
+  mAvrcpAbsVolSupported: false
+
+SoundEffects:
+  Message handler (watch for unhandled messages):
+  Handler (com.android.server.audio.SoundEffectsHelper$SfxHandler) {9739b60} @ 2819956
+    Looper (AS.SfxWorker, tid 113) {bd09819}
+      (Total messages: 0, polling=true, quitting=false)
+      Dump time: 2025-06-27 12:30:15.145 IST
+      Package: system_server
+      Current looper: Looper (AS.SfxWorker, tid=2488)
+
+  Default attenuation (dB): -6
+Audio event log: Sound Effects Loading
+06-27 11:43:28:004 effects loading started
+06-27 11:43:28:005 effect /system/media/audio/ui/KeypressInvalid.ogg rejected by SoundPool
+06-27 11:43:28:037 effect KeypressStandard.ogg loaded
+06-27 11:43:28:040 effect Effect_Tick.ogg loaded
+06-27 11:43:28:082 effect KeypressSpacebar.ogg loaded
+06-27 11:43:28:088 effect KeypressDelete.ogg loaded
+06-27 11:43:28:177 effect KeypressReturn.ogg loaded
+06-27 11:43:28:177 effects loading completed
+
+
+
+Event logs:
+Audio event log: phone state (logged after successful call to AudioSystem.setPhoneState(int, int))
+
+
+Audio event log: wired/A2DP/hearing aid device connection
+
+
+Audio event log: force use (logged before setForceUse() is executed)
+06-27 11:43:25:800 setForceUse(FOR_SYSTEM, FORCE_SYSTEM_ENFORCED) due to AudioService ctor
+06-27 11:43:25:801 setForceUse(FOR_ENCODED_SURROUND, FORCE_NONE) due to readPersistedSettings
+06-27 11:43:25:810 setForceUse(FOR_DOCK, FORCE_ANALOG_DOCK) due to readDockAudioSettings
+06-27 11:43:25:988 setForceUse(FOR_VIBRATE_RINGING, FORCE_NONE) due to muteRingerModeStreams() from u/pid:1000/1919
+06-27 11:43:28:002 setForceUse(FOR_COMMUNICATION, FORCE_NONE) due to resetBluetoothSco
+06-27 11:43:28:002 setForceUse(FOR_RECORD, FORCE_NONE) due to resetBluetoothSco
+06-27 11:43:28:004 setForceUse(FOR_VIBRATE_RINGING, FORCE_NONE) due to muteRingerModeStreams() from u/pid:1000/1919
+06-27 11:43:29:492 setForceUse(FOR_DOCK, FORCE_ANALOG_DOCK) due to readDockAudioSettings
+06-27 11:43:29:492 setForceUse(FOR_ENCODED_SURROUND, FORCE_NONE) due to readPersistedSettings
+06-27 11:43:29:511 setForceUse(FOR_VIBRATE_RINGING, FORCE_NONE) due to muteRingerModeStreams() from u/pid:1000/1919
+06-27 11:43:30:968 setForceUse(FOR_COMMUNICATION, FORCE_NONE) due to resetBluetoothSco
+06-27 11:43:30:968 setForceUse(FOR_VIBRATE_RINGING, FORCE_NONE) due to muteRingerModeStreams() from u/pid:1000/1919
+06-27 11:43:30:968 setForceUse(FOR_RECORD, FORCE_NONE) due to resetBluetoothSco
+
+
+Audio event log: volume changes (logged when command received by AudioService)
+06-27 12:29:17:518 adjustStreamVolume(stream:STREAM_MUSIC dir:ADJUST_LOWER flags:0x1) from com.spotify.music
+06-27 12:29:17:751 adjustStreamVolume(stream:STREAM_MUSIC dir:ADJUST_LOWER flags:0x1) from com.spotify.music
+06-27 12:29:17:801 adjustStreamVolume(stream:STREAM_MUSIC dir:ADJUST_LOWER flags:0x1) from com.spotify.music
+06-27 12:29:18:371 adjustStreamVolume(stream:STREAM_MUSIC dir:ADJUST_LOWER flags:0x1) from com.spotify.music
+
+
+Supported System Usages:
+	USAGE_CALL_ASSISTANT
+2025-06-27 12:30:15,363 - INFO - 
+[STEP] Dump BT manager
+2025-06-27 12:30:15,364 - INFO - [COMMAND] adb shell dumpsys bluetooth_manager
+2025-06-27 12:30:15,451 - INFO - [OUTPUT] Bluetooth Status
+  enabled: false
+  state: BLE_ON
+  address: 90:78:B2:C3:20:E4
+  address: 00:00:00:C3:20:E4
+  name: Redmi K20 Pro
+  time since enabled: 00:01:34.886
+
+Enable log:
+  06-27 12:28:40  Enabled  due to APPLICATION_REQUEST by com.google.android.gms
+
+Bluetooth crashed 0 times
+
+1 BLE app registered
+  com.google.android.gms
+
+BluetoothManagerService:
+  mEnable:true
+  mQuietEnable:false
+  mEnableExternal:false
+  mQuietEnableExternal:false
+
+
+AdapterProperties
+  Name: Redmi K20 Pro
+  Address: 90:78:B2:C3:20:E4
+  BluetoothClass: null
+  ScanMode: SCAN_MODE_NONE
+  ConnectionState: STATE_DISCONNECTED
+  State: BLE_ON
+  MaxConnectedAudioDevices: 5
+  A2dpOffloadEnabled: true
+  Discovering: false
+  DiscoveryEndMs: 0
+  Bonded devices:
+    8C:64:A2:2A:3B:1D [ DUAL ] OnePlus Nord Buds
+    57:9A:88:2B:5B:3D [BR/EDR] BP SBA10
+    36:71:D0:65:60:F4 [BR/EDR] Noise Buds VS102 Pro
+    90:4E:52:84:EC:D1 [BR/EDR] Airdopes 138
+    F4:4E:FC:B9:7A:AB [ DUAL ] FireBoltt 097
+    00:1D:86:AD:3C:FE [BR/EDR] JVC KW-V
+mSnoopLogSettingAtEnable = empty
+mDefaultSnoopLogSettingAtEnable = null
+
+AdapterState:
+ total records=2
+ rec[0]: time=06-27 12:28:40.940 processed=OffState org=OffState dest=TurningBleOnState what=3(0x3) BLE_TURN_ON
+ rec[1]: time=06-27 12:28:42.562 processed=TurningBleOnState org=TurningBleOnState dest=BleOnState what=7(0x7) BLE_STARTED
+curState=BleOnState
+
+SilenceDeviceManager:
+  Address            | Is silenced?
+
+Profile: GattService
+  mAdvertisingServiceUuids:
+  mMaxScanFilters: 0
+
+GATT Advertiser Map
+  Bluetooth advertise(started/stopped)         : 0 / 0
+
+GATT Scanner Map
+  Entries for mApps: 2
+
+
+  Application Id: 4
+
+  name=com.google.uid.shared:10183 
+  UUID: 25126e3b-df54-4135-9ca7-b7b994f635de
+  Connections: 0
+
+  Application Id: 5
+
+  name=com.google.uid.shared:10183 
+  UUID: 48e31122-53d0-48f2-ab2d-af8f4dfccf49
+  Connections: 0
+
+  Entries for mAppScanStats: 1
+
+  com.google.uid.shared:10183 (Registered)
+  LE scans (started/stopped)         : 2 / 0
+  Scan time in ms (min/max/avg/total): 91566 / 91566 / 45783 / 91566
+  Total number of results            : 0
+  Ongoing scans                      :
+    06-27 12:28:43 - 91566ms Filter 0 results (4)
+             ConfiguredScanSettingMode           : BALANCED
+    06-27 12:29:12 - 63202ms Filter 0 results (5)
+             ConfiguredScanSettingMode           : BALANCED
+  Application ID                     : 4
+  UUID                               : 25126e3b-df54-4135-9ca7-b7b994f635de
+  Connections: 0
+
+GATT Client Map
+  Entries for mApps: 0
+
+
+  Entries for mAppScanStats: 0
+
+GATT Server Map
+  Entries for mApps: 0
+
+
+  Entries for mAppScanStats: 0
+
+GATT Handle Map
+  Entries: 0
+  Requests: 0
+
+Connection Events:
+  None
+
+Bond Events: 
+  Total Number of events: 0
+
+Discovery Events: 
+  Total Number of Discovery Times: 0
+
+A2DP State:
+  TxQueue:
+  Counts (enqueue/dequeue/readbuf)                        : 0 / 0 / 0
+  Last update time ago in ms (enqueue/dequeue/readbuf)    : 0 / 0 / 0
+  Frames per packet (total/max/ave)                       : 0 / 0 / 0
+  Counts (flushed/dropped/dropouts)                       : 0 / 0 / 0
+  Counts (max dropped)                                    : 0
+  Last update time ago in ms (flushed/dropped)            : 0 / 0
+  Counts (underflow)                                      : 0
+  Bytes (underflow)                                       : 0
+  Last update time ago in ms (underflow)                  : 0
+  Enqueue deviation counts (overdue/premature)            : 0 / 0
+  Enqueue overdue scheduling time in ms (total/max/ave)   : 0 / 0 / 0
+  Enqueue premature scheduling time in ms (total/max/ave) : 0 / 0 / 0
+  Dequeue deviation counts (overdue/premature)            : 0 / 0
+  Dequeue overdue scheduling time in ms (total/max/ave)   : 0 / 0 / 0
+  Dequeue premature scheduling time in ms (total/max/ave) : 0 / 0 / 0
+
+Bluetooth Config:
+  Config Source: Original file
+  Devices loaded: 6
+  File created/tagged: 2024-12-14 21:55:35
+  File source: Empty
+[Info]
+FileSource = Empty
+TimeCreated = 2024-12-14 21:55:35
+
+[Metrics]
+Salt256Bit = 701ce8bf4bea8fc5a9d3744ad87d387340f9c54e1bda4303432fc60e9e92772a
+
+[Adapter]
+Address = 90:78:b2
+LE_LOCAL_KEY_IRK =  
+LE_LOCAL_KEY_IR =  
+LE_LOCAL_KEY_DHK =  
+LE_LOCAL_KEY_ER =  
+ScanMode = 1
+DiscoveryTimeout = 120
+Name = Redmi K20 Pro
+
+[8c:64:a2]
+Manufacturer = 688
+LmpVer = 11
+LmpSubVer = 1068
+Name = OnePlus Nord Buds
+DevClass = 2360324
+DevType = 3
+AddrType = 0
+Timestamp = 1734423203
+LinkKeyType =  
+PinLength = 0
+LinkKey =  
+A2dpVersion = 259
+AvdtpVersion = 259
+HfpVersion = 263
+AvrcpCtVersion = 262
+AvrcpFeatures = 3
+AvrcpTgVersion = 262
+Service = 0000111e-0000-1000-8000-00805f9b34fb 0000110b-0000-1000-8000-00805f9b34fb 0000110e-0000-1000-8000-00805f9b34fb 00000000-0000-1000-8000-00805f9b34fb 00000000-0000-1000-8000-00805f9b34fb 00001107-d102-11e1-9b23-00025b00a5a5
+Codecs = SBC,AAC
+
+[57:9a:88]
+Timestamp = 1745064858
+Name = BP SBA10
+DevClass = 2360324
+DevType = 1
+AddrType = 0
+Manufacturer = 1494
+LmpVer = 10
+LmpSubVer = 8891
+LinkKeyType =  
+PinLength = 0
+LinkKey =  
+A2dpVersion = 259
+AvdtpVersion = 259
+HfpVersion = 261
+AvrcpCtVersion = 261
+AvrcpFeatures = 1
+AvrcpTgVersion = 261
+Service = 0000111e-0000-1000-8000-00805f9b34fb 0000110b-0000-1000-8000-00805f9b34fb 0000110e-0000-1000-8000-00805f9b34fb 00000000-0000-1000-8000-00805f9b34fb 00000000-0000-1000-8000-00805f9b34fb
+Codecs = SBC,SBC
+
+[36:71:d0]
+Timestamp = 1735552363
+Name = Noise Buds VS102 Pro
+DevClass = 2360324
+DevType = 1
+AddrType = 0
+Manufacturer = 1494
+LmpVer = 12
+LmpSubVer = 8891
+LinkKeyType =  
+PinLength = 0
+LinkKey =  
+VendorID = 1494
+ProductID = 10
+ProductVersion = 576
+A2dpVersion = 259
+AvdtpVersion = 259
+HfpVersion = 264
+AvrcpCtVersion = 261
+AvrcpFeatures = 1
+AvrcpTgVersion = 261
+Service = 00001101-0000-1000-8000-00805f9b34fb 0000111e-0000-1000-8000-00805f9b34fb 0000110b-0000-1000-8000-00805f9b34fb 0000110e-0000-1000-8000-00805f9b34fb 00000000-0000-1000-8000-00805f9b34fb 00000000-0000-1000-8000-00805f9b34fb fe010000-1234-5678-abcd-00805f9b34fb
+Codecs = SBC,AAC
+
+[InternalBleSRAList]
+BleConnDirectStaticRandomDevices = e8:a1:02,58:80:3c,c0:92:b9,e8:18:84,d9:49:70,c0:0a:05,eb:53:7b,f2:cc:de,d7:bc:a4,d3:d2:1a,c4:d3:b3,e5:d8:13,f1:4d:c2,e6:ea:05,c3:ff:65,ce:63:64,d1:b2:73,c0:0c:15,58:80:3c,d8:1a:8b,f4:72:c2,d2:a3:6d,c2:0c:0d,f2:d9:6d,c2:01:07,c7:f6:84,f7:b1:22,ed:7c:cd,f7:11:18,fb:a6:2a,c7:00:a5,fe:2d:96,f0:8c:fa,f7:6f:65
+
+[90:4e:52]
+Timestamp = 1739189405
+Name = Airdopes 138
+DevClass = 2360324
+DevType = 1
+AddrType = 0
+Manufacturer = 1494
+LmpVer = 12
+LmpSubVer = 8891
+LinkKeyType =  
+PinLength = 0
+LinkKey =  
+VendorID = 1494
+ProductID = 10
+ProductVersion = 576
+A2dpVersion = 259
+AvdtpVersion = 259
+HfpVersion = 264
+AvrcpCtVersion = 261
+AvrcpFeatures = 1
+AvrcpTgVersion = 261
+Service = 0000111e-0000-1000-8000-00805f9b34fb 0000110b-0000-1000-8000-00805f9b34fb 0000110e-0000-1000-8000-00805f9b34fb 00000000-0000-1000-8000-00805f9b34fb 00000000-0000-1000-8000-00805f9b34fb
+Codecs = SBC,AAC
+
+[f4:4e:fc]
+Timestamp = 1739189261
+Name = FireBoltt 097
+DevClass = 2361092
+DevType = 3
+AddrType = 0
+Manufacturer = 992
+LmpVer = 12
+LmpSubVer = 1374
+LinkKeyType =  
+PinLength = 0
+LinkKey =  
+VendorID = 4310
+ProductID = 45065
+ProductVersion = 256
+A2dpVersion = 259
+AvdtpVersion = 259
+HfpVersion = 263
+AvrcpCtVersion = 262
+AvrcpFeatures = 1
+AvrcpTgVersion = 262
+Service = 0000110a-0000-1000-8000-00805f9b34fb 0000111e-0000-1000-8000-00805f9b34fb 0000110b-0000-1000-8000-00805f9b34fb 0000110e-0000-1000-8000-00805f9b34fb 00001124-0000-1000-8000-00805f9b34fb 00000000-0000-1000-8000-00805f9b34fb 00000000-0000-1000-8000-00805f9b34fb
+HidAttrMask = 33221
+HidSubClass = 192
+HidAppId = 2
+HidVendorId = 4310
+HidProductId = 45065
+HidVersion = 256
+HidCountryCode = 33
+HidSSRMaxLatency = 240
+HidSSRMinTimeout = 0
+HidDescriptor = 05010906a1018501750895019103c0050c0901a1018502150025017501950809ea09e909e209cd09b609b5098309b48102c0
+Codecs = SBC,SBC
+
+[00:1d:86]
+Name = JVC KW-V
+DevClass = 2360324
+DevType = 1
+LinkKeyType =  
+PinLength = 0
+LinkKey =  
+AddrType = 0
+VendorID = 2166
+ProductID = 134
+ProductVersion = 260
+A2dpVersion = 259
+AvdtpVersion = 259
+HfpVersion = 262
+AvrcpCtVersion = 261
+AvrcpFeatures = 67
+Service = 00001101-0000-1000-8000-00805f9b34fb 0000111e-0000-1000-8000-00805f9b34fb 0000110b-0000-1000-8000-00805f9b34fb 0000110e-0000-1000-8000-00805f9b34fb 00001124-0000-1000-8000-00805f9b34fb 00000000-0000-1000-8000-00805f9b34fb 00000000-0000-1000-8000-00805f9b34fb 0347acc0-2eeb-11e6-b4aa-0002a5d5c51b
+PbapPceVersion = 256
+Codecs = SBC,AAC
+
+[QuickConnectDeviceList]
+AttSecurelevel0Devices = 54:e4:29,64:88:52,4c:24:ce,50:e4:78,58:20:54,dc:97:58,dc:97:58,4c:87:0a,70:c9:12,63:ba:c4,7f:a4:15,18:ef:3a,56:07:35,75:e9:fe,50:e4:78,14:0a:29,69:c1:4b,66:73:3c,66:61:45,4c:31:2d
+
+
+Bluetooth HF Client BTA Statistics
+
+Bluetooth Wakelock Statistics:
+  Is acquired                    : false
+  Acquired/released count        : 42 / 42
+  Acquired/released error count  : 0 / 0
+  Last acquire/release error code: 0 / 0
+  Last acquired time (ms)        : 0
+  Acquired time min/max/avg (ms) : 0 / 2995 / 107
+  Total acquired time (ms)       : 4510
+  Total run time (ms)            : 94226
+
+Bluetooth Memory Allocation Statistics:
+  Total allocated/free/used counts : 0 / 0 / 0
+  Total allocated/free/used octets : 0 / 0 / 0
+
+Bluetooth Alarms Statistics:
+  Total Alarms: 1
+
+  Alarm : btm_ble_addr.refresh_raddr_timer (SINGLE)
+    Action counts (sched/resched/exec/cancel)      : 1 / 0 / 0 / 0
+    Deviation counts (overdue/premature)           : 0 / 0
+    Time in ms (since creation/interval/remaining) : 92691 / 540249 / 447558
+    Callback execution time in ms (total/max/avg)  : 0 / 0 / 0
+    Overdue scheduling time in ms (total/max/avg)  : 0 / 0 / 0
+    Premature scheduling time in ms (total/max/avg): 0 / 0 / 0
+
+Hearing Aid Manager:
+  Hearing Aid Audio HAL:
+    Counts (underflow)                                      : 0
+    Bytes (underflow)                                       : 0
+    Last update time ago in ms (underflow)                  : 0
+
+
+connection_manager state:
+
+	no Low Energy connection attempts
+
+BT Quality Report Events: 
+Event queue is empty.
+--- BEGIN:BTSNOOP_LOG_SUMMARY (3120 bytes in) ---
+AnClT9OMOAYAeJzlVk1oXFUUPufd+35m5s7Mm2maVm31gtlUQykWRWy1SdM00VosiXZoKyGt1lohiqmLEJREi1ao2OBKFLroyoULceMf2oUgrixIFxahqwpSEG1pjeJk
+nuece/MyMYM7Leg7MMmZ73vnnvudM+deDRr4scpATDZ3M0Ba0UiuJjvGUJhChey4ZqiE5ILeGkMCJbKnmLHZxO9GWRcUJcYO5WJsNrCa7D1mrGnWVk/RP0qPXy6Apk9F
+ARK4wNwspI+i4ndPgHt3TRN5/af5XUyhSrZewhoktwhQXA9fBEyZZ0ohhTLZqYApRST3kv3yw6k5JjzChCCFIbJzsocdSG6WZeqb7Gf6k81crf7Y2jZ/PFtH9IP8Rcte
+z35hKON9dnxCsn0cWqcINbL+hGNXUJM+QdY61fpu24ETzHqWWXspcd7gK6Hb4F4DEdkhxiZMgKLc1xUHThgJH6ELjxz+WJCHx0C1JfGwTyJg1vQSKwge8zRWYTezRhfg
+JrK3JYduJJdy7yKB8RBQWLzNh3yCydM+47sDl9S0a4kjjFWtVG9EoBDJnWVsUqS2VJ8iXBAsRnL/gDRvpnVWijnmi0muyKxcllIr5Si/o6OQm73kqsCUw0y5w63fG7r1
+ybWMNRi73UpjfirrJ0juLTCMOXyfhQLZD5JAhORORgweZHCLi9tEF5fc1ICBh6QNbTLTKomgLMtVLwtaYIpkjiaR3WRn72dKqeApTrlZppRcM2PoNkduxPXUoVDeYYpJ
+JcO6z5BcFP1Gqe3tBiurv+5XJ5fb6Hl+b6MN3g8Y3KIduNFKNQcYHDQomI4cNuhaTCQZ8pX+1rffkMOGGBvw2JjHBtycSLk1e4wywX52r6FDe1xXS6XXmgAsg6c9uNaB
+j0sDJZJNDJHPp5qIAC+2tel59TdtyuQ9TO4ykJEdEUGbSO7/9WmS/cR1WWV+Gzn85MRRu+uuTXbP5HM3OrF/8eGWesGP2FUGrpMNsyQj5gpWCstUQYXhy/GNTvgffFiL
+e2OnxYgbQa8C/zDdfP0sdiOI3J0Xbz07fs/oPp7bnzMltNHJj7buvDgmZ7KfNaEVPT9+tLOeSkH9P60oa/F9lOvJs+yt8ynYxkIAyBP7ctVN7MYCAPJ9ZBMpR3AhBvUr
+DalMDsaaPxiJFUO1G7rhARBaHUH1Qa2Gs/mSzN+1xEeoctiTuBhW97YWw37SHrbCYZ/Jw+oOYV9rD1vhI6zC2fbbBGnE1qEu+6362ve7Q72PQ263fDHxglzyw327IwyW
+HWFJsb5CTuBF5L7oF5nTPXK2TOt8EaYc7UA5o5flcWZFHqeDfBkuzIHdH+BSYeaH2wrD16Q3XGHKMYS9rWb9TTm0Rexim4plVnFGL6oYdlBxg25Tscz3jq+U8GMFUW/L
+BW2onKRcxafy0tDdY0XQO9tLY/ibB/VfZR3tXibreAfNzoW5ZrznMUcp00aEkvOMWqbtlRXaNlS+1p+abAtp
+--- END:BTSNOOP_LOG_SUMMARY ---
+
+Bluetooth FW:
+Open Fail
+2025-06-27 12:30:15,493 - INFO - [TEST END] test_check_bt_audio_route
+
+2025-06-27 12:30:15,494 - INFO - 
+[TEST START] test_media_resume_after_call
+2025-06-27 12:30:15,557 - INFO - 
+[STEP] Play media
+2025-06-27 12:30:15,558 - INFO - [COMMAND] adb shell am start -a android.intent.action.VIEW -d file:///sdcard/Music/sample.mp3 -t audio/*
+2025-06-27 12:30:15,616 - INFO - [OUTPUT] Starting: Intent { act=android.intent.action.VIEW dat=file:///sdcard/Music/sample.mp3 typ=audio/* }
+2025-06-27 12:30:15,617 - INFO - 
+[STEP] Simulate call
+2025-06-27 12:30:15,618 - INFO - [COMMAND] adb shell am start -a android.intent.action.CALL -d tel:12345
+2025-06-27 12:30:15,665 - INFO - [OUTPUT] ERROR: Exception occurred while executing 'start':
+java.lang.SecurityException: Permission Denial: starting Intent { act=android.intent.action.CALL dat=tel:xxxxx flg=0x10000000 cmp=com.android.server.telecom/.components.UserCallActivity } from null (pid=21694, uid=2000) with revoked permission android.permission.CALL_PHONE
+	at com.android.server.wm.ActivityStackSupervisor.checkStartAnyActivityPermission(ActivityStackSupervisor.java:1119)
+	at com.android.server.wm.ActivityStarter.executeRequest(ActivityStarter.java:1099)
+	at com.android.server.wm.ActivityStarter.execute(ActivityStarter.java:745)
+	at com.android.server.wm.ActivityTaskManagerService.startActivityAsUser(ActivityTaskManagerService.java:1169)
+	at com.android.server.wm.ActivityTaskManagerService.startActivityAsUser(ActivityTaskManagerService.java:1141)
+	at com.android.server.am.ActivityManagerService.startActivityAsUserWithFeature(ActivityManagerService.java:3781)
+	at com.android.server.am.ActivityManagerShellCommand.runStartActivity(ActivityManagerShellCommand.java:554)
+	at com.android.server.am.ActivityManagerShellCommand.onCommand(ActivityManagerShellCommand.java:186)
+	at android.os.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:98)
+	at android.os.ShellCommand.exec(ShellCommand.java:44)
+	at com.android.server.am.ActivityManagerService.onShellCommand(ActivityManagerService.java:10935)
+	at android.os.Binder.shellCommand(Binder.java:932)
+	at android.os.Binder.onTransact(Binder.java:816)
+	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:5258)
+	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2981)
+	at android.os.Binder.execTransactInternal(Binder.java:1162)
+	at android.os.Binder.execTransact(Binder.java:1126)
+2025-06-27 12:30:15,721 - INFO - [TEST END] test_media_resume_after_call
+
+2025-06-27 12:30:15,724 - INFO - 
+[TEST START] test_media_ducking
+2025-06-27 12:30:15,765 - INFO - 
+[STEP] Play media
+2025-06-27 12:30:15,766 - INFO - [COMMAND] adb shell am start -a android.intent.action.VIEW -d file:///sdcard/Music/sample.mp3 -t audio/*
+2025-06-27 12:30:15,813 - INFO - [OUTPUT] Starting: Intent { act=android.intent.action.VIEW dat=file:///sdcard/Music/sample.mp3 typ=audio/* }
+2025-06-27 12:30:15,815 - INFO - 
+[STEP] Trigger notification for ducking
+2025-06-27 12:30:15,815 - INFO - [COMMAND] adb shell am broadcast -a com.android.test.NOTIFY
+2025-06-27 12:30:25,847 - INFO - [OUTPUT] ERROR: ADB command timed out
+2025-06-27 12:30:26,038 - INFO - [TEST END] test_media_ducking
+
+2025-06-27 12:30:26,040 - INFO - 
+[TEST START] test_media_resume_screen_on
+2025-06-27 12:30:26,105 - INFO - 
+[STEP] Turn off screen
+2025-06-27 12:30:26,106 - INFO - [COMMAND] adb shell input keyevent 26
+2025-06-27 12:30:26,557 - INFO - [OUTPUT] ERROR: java.lang.SecurityException: Injecting to another application requires INJECT_EVENTS permission
+	at android.os.Parcel.createExceptionOrNull(Parcel.java:2376)
+	at android.os.Parcel.createException(Parcel.java:2360)
+	at android.os.Parcel.readException(Parcel.java:2343)
+	at android.os.Parcel.readException(Parcel.java:2285)
+	at android.hardware.input.IInputManager$Stub$Proxy.injectInputEvent(IInputManager.java:1012)
+	at android.hardware.input.InputManager.injectInputEvent(InputManager.java:907)
+	at com.android.commands.input.Input.injectKeyEvent(Input.java:355)
+	at com.android.commands.input.Input.access$100(Input.java:41)
+	at com.android.commands.input.Input$InputKeyEvent.sendKeyEvent(Input.java:203)
+	at com.android.commands.input.Input$InputKeyEvent.run(Input.java:190)
+	at com.android.commands.input.Input.onRun(Input.java:107)
+	at com.android.internal.os.BaseCommand.run(BaseCommand.java:60)
+	at com.android.commands.input.Input.main(Input.java:71)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:463)
+Caused by: android.os.RemoteException: Remote stack trace:
+	at com.android.server.input.InputManagerService.injectInputEventInternal(InputManagerService.java:812)
+	at com.android.server.input.InputManagerService.injectInputEvent(InputManagerService.java:786)
+	at android.hardware.input.IInputManager$Stub.onTransact(IInputManager.java:459)
+	at android.os.Binder.execTransactInternal(Binder.java:1157)
+	at android.os.Binder.execTransact(Binder.java:1126)
+2025-06-27 12:30:26,627 - INFO - [TEST END] test_media_resume_screen_on
+
+2025-06-27 12:30:26,628 - INFO - 
+[TEST START] test_00_test_all_conditions
+2025-06-27 12:30:26,696 - INFO - 
+[STEP] Increase volume
+2025-06-27 12:30:26,697 - INFO - [COMMAND] adb shell input keyevent KEYCODE_VOLUME_UP
+2025-06-27 12:30:27,006 - INFO - [OUTPUT] ERROR: java.lang.SecurityException: Injecting to another application requires INJECT_EVENTS permission
+	at android.os.Parcel.createExceptionOrNull(Parcel.java:2376)
+	at android.os.Parcel.createException(Parcel.java:2360)
+	at android.os.Parcel.readException(Parcel.java:2343)
+	at android.os.Parcel.readException(Parcel.java:2285)
+	at android.hardware.input.IInputManager$Stub$Proxy.injectInputEvent(IInputManager.java:1012)
+	at android.hardware.input.InputManager.injectInputEvent(InputManager.java:907)
+	at com.android.commands.input.Input.injectKeyEvent(Input.java:355)
+	at com.android.commands.input.Input.access$100(Input.java:41)
+	at com.android.commands.input.Input$InputKeyEvent.sendKeyEvent(Input.java:203)
+	at com.android.commands.input.Input$InputKeyEvent.run(Input.java:190)
+	at com.android.commands.input.Input.onRun(Input.java:107)
+	at com.android.internal.os.BaseCommand.run(BaseCommand.java:60)
+	at com.android.commands.input.Input.main(Input.java:71)
+	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:463)
+2025-06-27 12:30:27,087 - INFO - [TEST END] test_00_test_all_conditions
+

@@ -1,0 +1,1040 @@
+--------- beginning of main
+06-27 12:50:31.537  2841  2841 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+06-27 12:50:31.538  3385  3385 I BatteryController: notifyBatteryStatusChanged:  status: 2 isPlugged: 2 level: 40 wireState: 11 chargeSpeed: 0 mWiredChargeType: 0 mWirelessChargeType: 0 chargeDeviceType: 0
+--------- beginning of system
+06-27 12:50:31.540  2671  2671 I MiuiChargeManager: notifyBatteryStatusChanged:  status: 2 isPlugged: 2 level: 40 wireState: 11 chargeSpeed: 0 mWiredChargeType: 0 mWirelessChargeType: 0 chargeDeviceType: 0 maxChargingWattage: 2500000 SUPPORT_BROADCAST_QUICK_CHARGE: true
+06-27 12:50:31.540  2671  2671 D KeyguardUpdateMonitor: handleBatteryUpdate
+06-27 12:50:31.541  2671  2671 D KeyguardIndication:  switchIndication:Charging 39%
+06-27 12:50:31.543  2671  2671 I MiuiChargeController: checkBatteryStatus: wireState 11 status 2 plugged 2 chargeSpeed 0 maxChargingWattage 2500000 isRapidCharge false isSuperCharge false isStrongSuperCharge false isCarMode false mChargeDeviceType 0 mChargeDeviceForAnalytic -1 SUPPORT_NEW_ANIMATION true isChargeAnimationDisabled false
+06-27 12:50:31.543  2671  2671 I MiuiChargeController: dealWithAnimationShow mWireState=11,wireState=11
+06-27 12:50:31.543  2671  2671 I MiuiChargeController:  dealWithAnimationShow 相同 
+06-27 12:50:31.545  9395  9435 I PowerCenterProvider: call METHOD_GET_BATTERY_INFO
+06-27 12:50:31.545  9395  9435 W BatteryHistoryLoadMgr: getHistoryInfo begin
+06-27 12:50:31.547  2671  2671 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+06-27 12:50:31.547  2671  2671 D BatteryController: onReceive: Intent = Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) } action = android.intent.action.BATTERY_CHANGED
+06-27 12:50:31.549  9395  9395 I PowerSaveService: onReceive: android.intent.action.BATTERY_CHANGED
+06-27 12:50:31.549  9395  9524 W BatteryHistoryLoadMgr: getHistoryInfo begin
+06-27 12:50:31.549  9739  9968 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 39, status = 2, level = 40, plug = 2, scale = 100
+06-27 12:50:31.552  1919  2121 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:50:31.552  1919  2121 D CompatibilityInfo: applicationDensity - 440
+06-27 12:50:31.552  1919  2121 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:50:31.552  9395  9395 D PowerSaveService: checkPowerSaverStatus, current power is 40
+06-27 12:50:31.553  9395  9395 I PowerSaverUtils: Enter PowerSaveMode setWifiAntHalfStatus: false
+06-27 12:50:31.553  9395  9395 E PowerSaverUtils: PowerSaveMode setWifiAntHalfStatus exception : java.lang.NoSuchMethodException: android.net.wifi.MiuiWifiManager.setAntHalf [int]
+06-27 12:50:31.553  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10186, uidState = 11
+06-27 12:50:31.553  9395  9395 I PowerNoticeUI: handleBatteryChanged oldPlugType 2 mPlugType 2 oldBatteryLevel 39 mBatteryLevel 40 temperature 255
+06-27 12:50:31.554  9395  9395 I ChargerBatteryIntelligenceReceiver: onBatteryChanged temperature：25,plugType:2
+06-27 12:50:31.554  9395  9395 I PowerFeatureUtils: getVendorName:qcom
+06-27 12:50:31.554  1919  2402 E WifiNative: Could not get Iface object for interface null
+06-27 12:50:31.555  2881  2881 D DeviceStatisticsService: chargerType=2 batteryLevel=40 totalBatteryCapacity=2166300
+06-27 12:50:31.558  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10186, uidState = 19
+06-27 12:50:31.568  1919  7660 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat=file:///sdcard/Music/sample.mp3 typ=audio/* flg=0x10000000 cmp=android/com.android.internal.app.ResolverActivity} from uid 2000
+06-27 12:50:31.568  1919  7660 D MiuiMultiWindowAdapter: MiuiMultiWindowAdapter::getFreeformBlackList::sSmallWindowBlackList = [com.miui.securitycenter, com.miui.weather2, com.miui.miservice, com.android.calendar, com.xiaomi.calendar, com.android.contacts, com.miui.mishare.connectivity, com.android.settings, com.android.printspooler, com.miui.backup, com.miui.huanji, com.miui.calculator, com.android.deskclock, com.android.thememanager, com.mfashiongallery.emag, com.miui.virtualsim, com.miui.smarttravel, com.mi.health, com.android.camera, com.lbe.security.miui, com.miui.cleanmaster, com.miui.newhome, com.miui.voiceassist, com.android.phone, com.miui.yellowpage, com.android.updater, com.miui.tsmclient, com.miui.securitycore, com.xiaomi.account, com.xiaomi.shop, com.mipay.wallet, com.xiaomi.youpin, com.xiaomi.hm.health, com.miui.bugreport, com.xiaomi.mibrain.speech, com.xiaomi.mimoji, com.xiaomi.scanner, com.duokan.phone.remotecontroller, com.miui.hybrid, com.android.incallui, com.miui.video, com.miui.videoplayer, com.miui.player, com.miui.fm, com.miui.packageinstaller, com.mi.android.globallauncher, com.google.android.dialer, com.google.android.apps.magazines, com.miui.compass, com.miui.greenguard, com.kiteguard, com.google.android.apps.prodcasts, com.google.ar.lens, com.xiangkan.android, com.android.bankabc, com.sohu.inputmethod.sogou, com.tencent.mtt, com.shyz.toutiao, com.netease.mc.mi, com.outfit7.talkingtomgoldrun.mi, com.doudz.mi, com.wepie.snake.new.mi, cn.jj, com.standddz002.mi, com.miHoYo.bh3.mi, com.qqgame.hlddz, com.happyelements.AndroidAnimal, com.minitech.miniworld.TMobile.mi, com.mfp.jelly.xiaomi, com.lilithgames.afk.mi, com.tencent.peng, com.teenpatti.hd.gold, blockpuzzle.jewelgames.jewelslegend, com.playgendary.tanks, com.chillingo.robberybobfree.android.row, com.episodeinteractive.android.catalog, com.playrix.township, com.ansangha.drdriving, com.google.android.youtube, com.gbits.atm.mi]
+06-27 12:50:31.569   589   589 I hwservicemanager: getTransport: Cannot find entry android.hardware.power.stats@1.0::IPowerStats/default in either framework or device manifest.
+06-27 12:50:31.569   589   589 I hwservicemanager: getTransport: Cannot find entry android.hardware.power@1.0::IPower/default in either framework or device manifest.
+06-27 12:50:31.569  1919  2233 E BatteryStatsService: Unable to load Power Hal or power.stats HAL
+06-27 12:50:31.569   589   589 I hwservicemanager: getTransport: Cannot find entry android.hardware.power.stats@1.0::IPowerStats/default in either framework or device manifest.
+06-27 12:50:31.570   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-27 12:50:31.570   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-27 12:50:31.570   589   589 I hwservicemanager: getTransport: Cannot find entry android.hardware.power@1.0::IPower/default in either framework or device manifest.
+06-27 12:50:31.570  1919  2233 E BatteryStatsService: Unable to load Power Hal or power.stats HAL
+06-27 12:50:31.571   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:50:31.571   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:50:31.571   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:50:31.571   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:50:31.571   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:50:31.571   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-27 12:50:31.571   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-27 12:50:31.571   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:50:31.571   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:50:31.571   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:50:31.571   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:50:31.571   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:50:31.571   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:50:31.571   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:50:31.571   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-27 12:50:31.571   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:50:31.571   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:50:31.571   879   879 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:50:31.571   879   984 I ANDR-PERF-LM: MetaMeter: isValidAsync() 194: AsyncInfo: hintID = 4225
+06-27 12:50:31.571   879   984 I ANDR-PERF-LM: hintType: 2
+06-27 12:50:31.571   879   984 I ANDR-PERF-LM: isPrimary = 0
+06-27 12:50:31.571   879   879 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-27 12:50:31.571   879   984 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 2,android,-1,1919,7660)
+06-27 12:50:31.571   879   879 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:android feature:AppClassifier feedback = 0
+06-27 12:50:31.571   879   984 E ANDR-PERF-LM: MetaMeter: handleAsync() 164: AdaptLaunch Invalid Async
+06-27 12:50:31.571   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-27 12:50:31.571   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:50:31.571   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:50:31.572   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:50:31.572   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:50:31.572   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:50:31.572   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:50:31.572   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:50:31.572   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-27 12:50:31.572  1919  7660 E ANDR-PERF-JNI: com_qualcomm_qtiperformance_native_perf_io_prefetch_start
+06-27 12:50:31.572   879   984 I ANDR-PERF-LM: MetaMeter: isValidAsync() 194: AsyncInfo: hintID = 4225
+06-27 12:50:31.572   879   984 I ANDR-PERF-LM: hintType: 3
+06-27 12:50:31.572   879   984 I ANDR-PERF-LM: isPrimary = 0
+06-27 12:50:31.572   879   984 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 3,android,-1,1919,7660)
+06-27 12:50:31.572   879   984 E ANDR-PERF-LM: MetaMeter: handleAsync() 164: AdaptLaunch Invalid Async
+06-27 12:50:31.572   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-27 12:50:31.572   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:50:31.572   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:50:31.576   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:50:31.576   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:50:31.576   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:50:31.576   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:50:31.576   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:50:31.576   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-27 12:50:31.576   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-27 12:50:31.576   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:50:31.576   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:50:31.576   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:50:31.576   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:50:31.576   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:50:31.576   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:50:31.576   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:50:31.576   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-27 12:50:31.576   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-27 12:50:31.576   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:50:31.576   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:50:31.579  1919  7660 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:50:31.579  1919  7660 D CompatibilityInfo: applicationDensity - 440
+06-27 12:50:31.579  1919  7660 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:50:31.579   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:50:31.579   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:50:31.579   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:50:31.579   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:50:31.579   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:50:31.579   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:50:31.579   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-27 12:50:31.579   879   984 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:50:31.580   876   907 E ANDR-IOP: io prefetch is disabled
+06-27 12:50:31.580   879   984 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-27 12:50:31.580   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-27 12:50:31.580   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:50:31.580   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:50:31.580  1919  7660 I ActivityTaskManager: The Process system:ui Already Exists in BG. So sending its PID: 28683
+06-27 12:50:31.580   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:50:31.580   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:50:31.580   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:50:31.580   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:50:31.580   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:50:31.581   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-27 12:50:31.581  1919  7660 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (4031052)
+06-27 12:50:31.581   879   984 I ANDR-PERF-LM: MetaMeter: isValidAsync() 194: AsyncInfo: hintID = 4225
+06-27 12:50:31.581   879   984 I ANDR-PERF-LM: hintType: 102
+06-27 12:50:31.581   879   984 I ANDR-PERF-LM: isPrimary = 0
+06-27 12:50:31.581   879   984 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 102,system:ui,28683,1919,7660)
+06-27 12:50:31.581   879   984 E ANDR-PERF-LM: MetaMeter: handleAsync() 164: AdaptLaunch Invalid Async
+06-27 12:50:31.581   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-27 12:50:31.581   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:50:31.581   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:50:31.581  1919  7660 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:50:31.582  1919  7660 D CompatibilityInfo: applicationDensity - 440
+06-27 12:50:31.582  1919  7660 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:50:31.582   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:50:31.583   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:50:31.584  1919  7660 D ActivityTrigger: ActivityTrigger activityPauseTrigger 
+06-27 12:50:31.584   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-27 12:50:31.584   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:50:31.584   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:50:31.584   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:50:31.584   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:50:31.585   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:50:31.585   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-27 12:50:31.585   879   984 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:50:31.585   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-27 12:50:31.585   879   984 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-27 12:50:31.585   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-27 12:50:31.585   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:50:31.585   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:50:31.588  1919  7660 I Timeline: Timeline: App_transition_ready time:4036398
+06-27 12:50:31.590  1919  8335 I Timeline: Timeline: App_transition_ready time:4036400
+06-27 12:50:31.591 28980 28982 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:50:31.595   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup38: Permission denied
+06-27 12:50:31.595   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup28: Permission denied
+06-27 12:50:31.595   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup18: Permission denied
+06-27 12:50:31.595   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup36: Permission denied
+06-27 12:50:31.583   656   656 W Binder:656_2: type=1400 audit(0.0:4854): avc: denied { open } for path="/sys/devices/virtual/misc/msm_qcelp/wakeup38" dev="sysfs" ino=79600 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+06-27 12:50:31.583   656   656 W Binder:656_2: type=1400 audit(0.0:4855): avc: denied { open } for path="/sys/devices/virtual/misc/msm_alac/wakeup28" dev="sysfs" ino=79228 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+06-27 12:50:31.596   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup26: Permission denied
+06-27 12:50:31.596   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup16: Permission denied
+06-27 12:50:31.583   656   656 W Binder:656_2: type=1400 audit(0.0:4856): avc: denied { read } for name="wakeup18" dev="sysfs" ino=73893 scontext=u:r:system_suspend:s0 tcontext=u:object_r:vendor_sysfs_battery_supply:s0 tclass=dir permissive=0
+06-27 12:50:31.596   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+06-27 12:50:31.583   656   656 W Binder:656_2: type=1400 audit(0.0:4857): avc: denied { open } for path="/sys/devices/virtual/misc/msm_mp3/wakeup36" dev="sysfs" ino=79528 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+06-27 12:50:31.583   656   656 W Binder:656_2: type=1400 audit(0.0:4858): avc: denied { open } for path="/sys/devices/platform/soc/soc:gpio_keys/wakeup/wakeup26" dev="sysfs" ino=76208 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+06-27 12:50:31.596   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup24: Permission denied
+06-27 12:50:31.583   656   656 W Binder:656_2: type=1400 audit(0.0:4859): avc: denied { open } for path="/sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pm8150b@2:qcom,qpnp-smb5/wakeup/wakeup16" dev="sysfs" ino=73764 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+06-27 12:50:31.597   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup9: Permission denied
+06-27 12:50:31.597   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup14: Permission denied
+06-27 12:50:31.597   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup32: Permission denied
+06-27 12:50:31.597   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup22: Permission denied
+06-27 12:50:31.598   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup12: Permission denied
+06-27 12:50:31.598   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup40: Permission denied
+06-27 12:50:31.598   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup30: Permission denied
+06-27 12:50:31.598   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup20: Permission denied
+06-27 12:50:31.599   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup10: Permission denied
+06-27 12:50:31.599   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup39: Permission denied
+06-27 12:50:31.599   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup29: Permission denied
+06-27 12:50:31.599   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup19: Permission denied
+06-27 12:50:31.600   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup37: Permission denied
+06-27 12:50:31.600   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup27: Permission denied
+06-27 12:50:31.600   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+06-27 12:50:31.601   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup25: Permission denied
+06-27 12:50:31.601   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup43: Permission denied
+06-27 12:50:31.601   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup33: Permission denied
+06-27 12:50:31.601   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup23: Permission denied
+06-27 12:50:31.601   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup13: Permission denied
+06-27 12:50:31.602   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup31: Permission denied
+06-27 12:50:31.602   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup21: Permission denied
+06-27 12:50:31.602   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup11: Permission denied
+06-27 12:50:31.603   589   589 I hwservicemanager: getTransport: Cannot find entry android.hardware.power.stats@1.0::IPowerStats/default in either framework or device manifest.
+06-27 12:50:31.604   589   589 I hwservicemanager: getTransport: Cannot find entry android.hardware.power@1.0::IPower/default in either framework or device manifest.
+06-27 12:50:31.604  1919  2150 E BatteryStatsService: Unable to load Power Hal or power.stats HAL
+06-27 12:50:31.607  8346  8383 D PMonitor:  onForegroundActivitiesChanged:pid = 28683,activity-uid=1000,foregroundActivities=true
+06-27 12:50:31.617  1919  2402 E WifiNative: Could not get Iface object for interface null
+06-27 12:50:31.629  8346  8383 D PMonitor:  onForegroundActivitiesChanged:pid = 20959,activity-uid=10099,foregroundActivities=false
+06-27 12:50:31.630  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10099, uidState = 16
+06-27 12:50:31.647   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup38: Permission denied
+06-27 12:50:31.647   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup28: Permission denied
+06-27 12:50:31.648   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup18: Permission denied
+06-27 12:50:31.648   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup36: Permission denied
+06-27 12:50:31.649   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup26: Permission denied
+06-27 12:50:31.649   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup16: Permission denied
+06-27 12:50:31.650   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+06-27 12:50:31.651   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup24: Permission denied
+06-27 12:50:31.651   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup9: Permission denied
+06-27 12:50:31.651   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup14: Permission denied
+06-27 12:50:31.652   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup32: Permission denied
+06-27 12:50:31.652   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup22: Permission denied
+06-27 12:50:31.653   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup12: Permission denied
+06-27 12:50:31.653   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup40: Permission denied
+06-27 12:50:31.654   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup30: Permission denied
+06-27 12:50:31.655   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup20: Permission denied
+06-27 12:50:31.656   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup10: Permission denied
+06-27 12:50:31.656   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup39: Permission denied
+06-27 12:50:31.657   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup29: Permission denied
+06-27 12:50:31.658   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup19: Permission denied
+06-27 12:50:31.659   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup37: Permission denied
+06-27 12:50:31.659   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup27: Permission denied
+06-27 12:50:31.661   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+06-27 12:50:31.662   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup25: Permission denied
+06-27 12:50:31.663   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup43: Permission denied
+06-27 12:50:31.663   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup33: Permission denied
+06-27 12:50:31.663   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup23: Permission denied
+06-27 12:50:31.664   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup13: Permission denied
+06-27 12:50:31.665   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup31: Permission denied
+06-27 12:50:31.665   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup21: Permission denied
+06-27 12:50:31.665   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup11: Permission denied
+06-27 12:50:31.682   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.measurement.service.MeasurementBrokerService and for client com.miui.securitycenter.remote
+06-27 12:50:31.682   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.measurement.service.MeasurementBrokerServiceafter removal is 0
+06-27 12:50:31.682   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.miui.securitycenter.remoteafter removal is 4
+06-27 12:50:31.693   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.google.android.gms/.measurement.service.MeasurementBrokerService
+06-27 12:50:31.694  3799  3799 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+06-27 12:50:31.695  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 99005, uidState = 6
+06-27 12:50:31.695  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10183, uidState = 5
+06-27 12:50:31.695  9235  9448 I BtGatt.ScanManager: msg.what = 6
+06-27 12:50:31.716 28683 28683 D ResolverListAdapter: ResolverListAdapter: com.android.internal.app.ResolverListAdapter@250ff5b
+06-27 12:50:31.738 28683 28683 D MiShareTransmissionView: initScreenView is false
+06-27 12:50:31.765 28683 28715 D ResolverListAdapter: on doInBackground!!!!
+06-27 12:50:31.765 28683 28715 D AbstractResolverComp: Setting watchdog timer for 500ms
+06-27 12:50:31.767   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.ext.services/android.ext.services.resolver.LRResolverRankerService and for client system:ui
+06-27 12:50:31.767   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.ext.services/android.ext.services.resolver.LRResolverRankerServiceare :1
+06-27 12:50:31.767   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : system:uiare :1
+06-27 12:50:31.768  1919  7655 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:50:31.768  1919  7655 D CompatibilityInfo: applicationDensity - 440
+06-27 12:50:31.768  1919  7655 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:50:31.768   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.google.android.ext.services/android.ext.services.resolver.LRResolverRankerService
+06-27 12:50:31.768 28683 28683 D ResolverListAdapter: getItem: position 0 mDisplayList.size(): 0
+06-27 12:50:31.768 28683 28683 D ResolverListAdapter: getItem: position 1 mDisplayList.size(): 0
+06-27 12:50:31.768 28683 28683 D ResolverListAdapter: getItem: position 2 mDisplayList.size(): 0
+06-27 12:50:31.768 28683 28683 D ResolverListAdapter: getItem: position 3 mDisplayList.size(): 0
+06-27 12:50:31.773  9395  9524 I BatteryHistoryLoadMgr: lastIncreasingIntervalStartIndex=0
+06-27 12:50:31.773  9395  9524 W BatteryHistoryLoadMgr: get firstHistoryInfo time: 154243687
+06-27 12:50:31.773  9395  9524 D BatteryHistoryLoadMgr: getHistoryInfo end
+06-27 12:50:31.773  9395  9524 I BatteryInfoReceiver: update charge detail 342
+06-27 12:50:31.774  9395  9524 I PowerUtils: Device name:raphaelin
+06-27 12:50:31.774  9395  9524 W PowerUtils: should not use this capacity value 4000
+06-27 12:50:31.775  9395  9524 I PowerUtils: Device name:raphaelin
+06-27 12:50:31.775  9395  9524 W PowerUtils: should not use this capacity value 4000
+06-27 12:50:31.776  9395  9524 I PowerUtils: Device name:raphaelin
+06-27 12:50:31.776  9395  9524 W PowerUtils: should not use this capacity value 4000
+06-27 12:50:31.777  9395  9524 I PowerUtils: Device name:raphaelin
+06-27 12:50:31.777  9395  9524 W PowerUtils: should not use this capacity value 4000
+06-27 12:50:31.777  9395  9524 I PowerFeatureUtils: getVendorName:qcom
+06-27 12:50:31.777  9395  9524 I BatteryChargeTimeHelper: Left charge time, 0.6 4h1s500ms
+06-27 12:50:31.823  9395  9435 I BatteryHistoryLoadMgr: lastIncreasingIntervalStartIndex=0
+06-27 12:50:31.823  9395  9435 W BatteryHistoryLoadMgr: get firstHistoryInfo time: 154243687
+06-27 12:50:31.823  9395  9435 D BatteryHistoryLoadMgr: getHistoryInfo end
+06-27 12:50:31.825  9395  9435 I PowerUtils: Device name:raphaelin
+06-27 12:50:31.825  9395  9435 W PowerUtils: should not use this capacity value 4000
+06-27 12:50:31.826  9395  9435 I PowerUtils: Device name:raphaelin
+06-27 12:50:31.826  9395  9435 W PowerUtils: should not use this capacity value 4000
+06-27 12:50:31.828  9395  9435 I PowerUtils: Device name:raphaelin
+06-27 12:50:31.829  9395  9435 W PowerUtils: should not use this capacity value 4000
+06-27 12:50:31.830  9395  9435 I PowerUtils: Device name:raphaelin
+06-27 12:50:31.830  9395  9435 W PowerUtils: should not use this capacity value 4000
+06-27 12:50:31.830 28683 28683 D ResolverListAdapter: ResolverListAdapter: com.android.internal.app.ResolverListAdapter@8dac4eb
+06-27 12:50:31.831  9395  9435 I PowerFeatureUtils: getVendorName:qcom
+06-27 12:50:31.831  9395  9435 I BatteryChargeTimeHelper: Left charge time, 0.6 4h1s500ms
+06-27 12:50:31.832  9395  9435 I PowerUtils: Device name:raphaelin
+06-27 12:50:31.832  9395  9435 W PowerUtils: should not use this capacity value 4000
+06-27 12:50:31.832  2671  7681 W BpBinder: PerfMonitor binderTransact :  time=288ms interface=android.content.IContentProvider code=21
+06-27 12:50:31.832  2671  2671 I KeyguardIndicationInjector: handleChargeTextAnimation: false;powerPluggedIn=true
+06-27 12:50:31.833  2671  2671 D KeyguardIndication:  switchIndication:Charging 40%
+06-27 12:50:31.914 28683 28683 D ResolverListAdapter: ResolverListAdapter: com.android.internal.app.ResolverListAdapter@5e7a248
+06-27 12:50:31.986  2964  2964 D RecentsImpl: mActivityStateObserver com.android.internal.app.ResolverActivity
+06-27 12:50:31.986 28683 28683 W Looper  : PerfMonitor looperActivity : package=android/com.android.internal.app.ResolverActivity time=0ms latency=402ms running=0ms  procState=12 ClientTransaction{ callbacks=[android.app.servertransaction.TopResumedActivityChangeItem] } historyMsgCount=2 (msgIndex=1 wall=403ms seq=112 running=191ms runnable=5ms binder=215ms h=android.app.ActivityThread$H w=159)
+06-27 12:50:31.986 28683 28683 W Looper  : PerfMonitor looperActivity : package=android/com.android.internal.app.ResolverActivity time=0ms latency=401ms running=1ms  procState=12 ClientTransaction{ callbacks=[android.app.servertransaction.TopResumedActivityChangeItem] } historyMsgCount=3 (msgIndex=1 wall=403ms seq=112 running=191ms runnable=5ms binder=215ms h=android.app.ActivityThread$H w=159)
+06-27 12:50:31.987   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-27 12:50:31.987   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-27 12:50:31.989   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 5
+06-27 12:50:31.989 28683 28683 W Looper  : PerfMonitor looperActivity : package=android/com.android.internal.app.ResolverActivity time=3ms latency=401ms running=0ms  procState=12 ClientTransaction{ lifecycleRequest=android.app.servertransaction.PauseActivityItem } historyMsgCount=4 (msgIndex=1 wall=403ms seq=112 running=191ms runnable=5ms binder=215ms h=android.app.ActivityThread$H w=159)
+06-27 12:50:31.989   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 5
+06-27 12:50:31.990 28683 28683 D ResolverListAdapter: on PostExecute!!!!
+06-27 12:50:31.990 28683 28683 D ResolverListAdapter: processSortedlist: ResolveInfo{f15e613 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:50:31.991 28683 28683 I ResolverListAdapter: Add DisplayResolveInfo component: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}, intent component: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:50:31.991 28683 28683 D ResolverListAdapter: addResolveInfo: ResolveInfo{f15e613 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:50:31.991 28683 28683 D ResolverListAdapter: mDisplayList: 1
+06-27 12:50:31.991 28683 28683 D ResolverListAdapter: processSortedlist: ResolveInfo{e1ef050 com.mxtech.videoplayer.ad/.ActivityPipScreen m=0x608000}
+06-27 12:50:31.991 28683 28683 I ResolverListAdapter: Add DisplayResolveInfo component: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityPipScreen}, intent component: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityPipScreen}
+06-27 12:50:31.991 28683 28683 D ResolverListAdapter: addResolveInfo: ResolveInfo{e1ef050 com.mxtech.videoplayer.ad/.ActivityPipScreen m=0x608000}
+06-27 12:50:31.991 28683 28683 D ResolverListAdapter: mDisplayList: 2
+06-27 12:50:31.991 28683 28683 D ResolverListAdapter: processSortedlist: ResolveInfo{e44e249 com.miui.player/.phone.ui.AudioPreview m=0x608000}
+06-27 12:50:31.991 28683 28683 I ResolverListAdapter: Add DisplayResolveInfo component: ComponentInfo{com.miui.player/com.miui.player.phone.ui.AudioPreview}, intent component: ComponentInfo{com.miui.player/com.miui.player.phone.ui.AudioPreview}
+06-27 12:50:31.991 28683 28683 D ResolverListAdapter: addResolveInfo: ResolveInfo{e44e249 com.miui.player/.phone.ui.AudioPreview m=0x608000}
+06-27 12:50:31.991 28683 28683 D ResolverListAdapter: mDisplayList: 3
+06-27 12:50:31.991 28683 28683 D ResolverListAdapter: processSortedlist: ResolveInfo{dbcc74e com.bsbportal.music/.activities.LauncherScreenActivity m=0x608000}
+06-27 12:50:31.991 28683 28683 I ResolverListAdapter: Add DisplayResolveInfo component: ComponentInfo{com.bsbportal.music/com.bsbportal.music.activities.LauncherScreenActivity}, intent component: ComponentInfo{com.bsbportal.music/com.bsbportal.music.activities.LauncherScreenActivity}
+06-27 12:50:31.991 28683 28683 D ResolverListAdapter: addResolveInfo: ResolveInfo{dbcc74e com.bsbportal.music/.activities.LauncherScreenActivity m=0x608000}
+06-27 12:50:31.992 28683 28683 D ResolverListAdapter: mDisplayList: 4
+06-27 12:50:31.999 28683 28683 D ResolverListAdapter: getItem: position 0 mDisplayList.size(): 4
+06-27 12:50:31.999 28683 28683 D ResolverListAdapter: getItem: position 1 mDisplayList.size(): 4
+06-27 12:50:31.999 28683 28683 D ResolverListAdapter: getItem: position 2 mDisplayList.size(): 4
+06-27 12:50:31.999 28683 28683 D ResolverListAdapter: getItem: position 3 mDisplayList.size(): 4
+06-27 12:50:32.013 28683 28683 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@f8defb9
+06-27 12:50:32.014 28683 28683 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:50:32.014 28683 28683 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:50:32.014 28683 28715 D RAInjector: LoadIconTask::doInBackground ResolveInfo{f15e613 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:50:32.015 28683 28683 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@f8defb9
+06-27 12:50:32.015 28683 28683 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:50:32.015 28683 28683 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:50:32.015 28683 28683 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@f8defb9
+06-27 12:50:32.015 28683 28683 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:50:32.015 28683 28683 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:50:32.016 28683 28683 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@f8defb9
+06-27 12:50:32.016 28683 28683 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:50:32.016 28683 28683 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:50:32.016 28683 28683 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@f8defb9
+06-27 12:50:32.016 28683 28683 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:50:32.016 28683 28683 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:50:32.020 28683 28990 D RAInjector: LoadIconTask::doInBackground ResolveInfo{f15e613 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:50:32.021  1919  7660 I Timeline: Timeline: App_transition_ready time:4036832
+06-27 12:50:32.021 28683 28715 D RAInjector: LoadIconTask::doInBackground ResolveInfo{f15e613 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:50:32.023 28683 28990 D RAInjector: LoadIconTask::doInBackground ResolveInfo{f15e613 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:50:32.023  1919  7660 I Timeline: Timeline: App_transition_ready time:4036834
+06-27 12:50:32.023  1919  7660 I Timeline: Timeline: App_transition_stopped time:4036834
+06-27 12:50:32.024 28683 28715 D RAInjector: LoadIconTask::doInBackground ResolveInfo{f15e613 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:50:32.026  2671  3038 D MiuiPhoneStatusBarPolicy: updateManagedProfile: secondSpace = false
+06-27 12:50:32.028 28683 28683 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@f8defb9
+06-27 12:50:32.029 28683 28683 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:50:32.029 28683 28683 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:50:32.029 28683 28715 D RAInjector: LoadIconTask::doInBackground ResolveInfo{f15e613 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:50:32.029 28683 28683 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@f8defb9
+06-27 12:50:32.029 28683 28683 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:50:32.029 28683 28683 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:50:32.030 28683 28683 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@f8defb9
+06-27 12:50:32.030 28683 28683 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:50:32.030 28683 28683 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:50:32.030 28683 28683 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@f8defb9
+06-27 12:50:32.030 28683 28683 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:50:32.030 28683 28683 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:50:32.030 28683 28990 D RAInjector: LoadIconTask::doInBackground ResolveInfo{f15e613 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:50:32.031 28683 28683 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@f8defb9
+06-27 12:50:32.031 28683 28683 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:50:32.031 28683 28683 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:50:32.031 28683 28715 D RAInjector: LoadIconTask::doInBackground ResolveInfo{f15e613 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:50:32.032 28683 28990 D RAInjector: LoadIconTask::doInBackground ResolveInfo{f15e613 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:50:32.033 28683 28715 D RAInjector: LoadIconTask::doInBackground ResolveInfo{f15e613 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:50:32.034 28683 28683 D RAInjector: getView: position 1 info: com.android.internal.app.chooser.DisplayResolveInfo@bf0dcf1
+06-27 12:50:32.034 28683 28683 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityPipScreen}
+06-27 12:50:32.034 28683 28683 D RAInjector: info.getDisplayLabel: MX Pop-up mode hasDisplayIcon: false position: 1
+06-27 12:50:32.035 28683 28990 D RAInjector: LoadIconTask::doInBackground ResolveInfo{e1ef050 com.mxtech.videoplayer.ad/.ActivityPipScreen m=0x608000}
+06-27 12:50:32.036 28683 28683 D RAInjector: getView: position 2 info: com.android.internal.app.chooser.DisplayResolveInfo@ae8d6b0
+06-27 12:50:32.037 28683 28683 D RAInjector: bindView: ComponentInfo{com.miui.player/com.miui.player.phone.ui.AudioPreview}
+06-27 12:50:32.037 28683 28683 D RAInjector: info.getDisplayLabel: Music hasDisplayIcon: false position: 2
+06-27 12:50:32.037 28683 28990 D RAInjector: LoadIconTask::doInBackground ResolveInfo{e44e249 com.miui.player/.phone.ui.AudioPreview m=0x608000}
+06-27 12:50:32.038 28683 28683 D RAInjector: getView: position 3 info: com.android.internal.app.chooser.DisplayResolveInfo@544a46b
+06-27 12:50:32.039 28683 28683 D RAInjector: bindView: ComponentInfo{com.bsbportal.music/com.bsbportal.music.activities.LauncherScreenActivity}
+06-27 12:50:32.039 28683 28683 D RAInjector: info.getDisplayLabel: Wynk Music hasDisplayIcon: false position: 3
+06-27 12:50:32.050   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 7
+06-27 12:50:32.050   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 7
+06-27 12:50:32.051   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 7
+06-27 12:50:32.051   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 8
+06-27 12:50:32.051   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 8
+06-27 12:50:32.056 28683 28715 D RAInjector: LoadIconTask::doInBackground ResolveInfo{dbcc74e com.bsbportal.music/.activities.LauncherScreenActivity m=0x608000}
+06-27 12:50:32.060  8346  8383 D PMonitor:  onForegroundActivitiesChanged:pid = 28683,activity-uid=1000,foregroundActivities=false
+06-27 12:50:32.060 28683 28683 D RAInjector: LoadIconTask::onPostExecute ResolveInfo{f15e613 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:50:32.061 28683 28683 I chatty  : uid=1000 system:ui identical 8 lines
+06-27 12:50:32.061 28683 28683 D RAInjector: LoadIconTask::onPostExecute ResolveInfo{f15e613 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:50:32.061 28683 28683 D RAInjector: LoadIconTask::onPostExecute ResolveInfo{e1ef050 com.mxtech.videoplayer.ad/.ActivityPipScreen m=0x608000}
+06-27 12:50:32.063   885   937 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.ext.services/android.ext.services.resolver.LRResolverRankerService and for client system:ui
+06-27 12:50:32.063   885   937 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.ext.services/android.ext.services.resolver.LRResolverRankerServiceafter removal is 0
+06-27 12:50:32.063   885   937 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: system:uiafter removal is 0
+06-27 12:50:32.063   885   937 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.google.android.ext.services/android.ext.services.resolver.LRResolverRankerService
+06-27 12:50:32.066  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10099, uidState = 12
+06-27 12:50:32.066  8346  8383 D PMonitor:  onForegroundActivitiesChanged:pid = 20959,activity-uid=10099,foregroundActivities=true
+06-27 12:50:32.072 28683 28683 D RAInjector: LoadIconTask::onPostExecute ResolveInfo{e44e249 com.miui.player/.phone.ui.AudioPreview m=0x608000}
+06-27 12:50:32.072 28683 28683 D RAInjector: LoadIconTask::onPostExecute ResolveInfo{dbcc74e com.bsbportal.music/.activities.LauncherScreenActivity m=0x608000}
+06-27 12:50:32.073   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 9
+06-27 12:50:32.085 28683 28683 E ActivityThread: Activity com.android.internal.app.ResolverActivity has leaked IntentReceiver com.android.internal.app.ResolverActivity$1@59552fd that was originally registered here. Are you missing a call to unregisterReceiver()?
+06-27 12:50:32.085 28683 28683 E ActivityThread: android.app.IntentReceiverLeaked: Activity com.android.internal.app.ResolverActivity has leaked IntentReceiver com.android.internal.app.ResolverActivity$1@59552fd that was originally registered here. Are you missing a call to unregisterReceiver()?
+06-27 12:50:32.085 28683 28683 E ActivityThread: 	at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:1607)
+06-27 12:50:32.085 28683 28683 E ActivityThread: 	at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:1378)
+06-27 12:50:32.085 28683 28683 E ActivityThread: 	at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1624)
+06-27 12:50:32.085 28683 28683 E ActivityThread: 	at android.app.ContextImpl.registerReceiverAsUser(ContextImpl.java:1611)
+06-27 12:50:32.085 28683 28683 E ActivityThread: 	at android.content.ContextWrapper.registerReceiverAsUser(ContextWrapper.java:720)
+06-27 12:50:32.085 28683 28683 E ActivityThread: 	at com.android.internal.content.PackageMonitor.register(PackageMonitor.java:98)
+06-27 12:50:32.085 28683 28683 E ActivityThread: 	at com.android.internal.content.PackageMonitor.register(PackageMonitor.java:86)
+06-27 12:50:32.085 28683 28683 E ActivityThread: 	at com.android.internal.app.ResolverActivity.onCreate(ResolverActivity.java:523)
+06-27 12:50:32.085 28683 28683 E ActivityThread: 	at com.android.internal.app.ResolverActivity.onCreate(ResolverActivity.java:380)
+06-27 12:50:32.085 28683 28683 E ActivityThread: 	at android.app.Activity.performCreate(Activity.java:8127)
+06-27 12:50:32.085 28683 28683 E ActivityThread: 	at android.app.Activity.performCreate(Activity.java:8098)
+06-27 12:50:32.085 28683 28683 E ActivityThread: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1310)
+06-27 12:50:32.085 28683 28683 E ActivityThread: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3513)
+06-27 12:50:32.085 28683 28683 E ActivityThread: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3700)
+06-27 12:50:32.085 28683 28683 E ActivityThread: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+06-27 12:50:32.085 28683 28683 E ActivityThread: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+06-27 12:50:32.085 28683 28683 E ActivityThread: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+06-27 12:50:32.085 28683 28683 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2136)
+06-27 12:50:32.085 28683 28683 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+06-27 12:50:32.085 28683 28683 E ActivityThread: 	at android.os.Looper.loop(Looper.java:236)
+06-27 12:50:32.085 28683 28683 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:8061)
+06-27 12:50:32.085 28683 28683 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+06-27 12:50:32.085 28683 28683 E ActivityThread: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:656)
+06-27 12:50:32.085 28683 28683 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:967)
+06-27 12:50:32.086 28683 28683 E ActivityThread: Activity com.android.internal.app.ResolverActivity has leaked IntentReceiver com.android.internal.app.ResolverActivity$5@f0819e4 that was originally registered here. Are you missing a call to unregisterReceiver()?
+06-27 12:50:32.086 28683 28683 E ActivityThread: android.app.IntentReceiverLeaked: Activity com.android.internal.app.ResolverActivity has leaked IntentReceiver com.android.internal.app.ResolverActivity$5@f0819e4 that was originally registered here. Are you missing a call to unregisterReceiver()?
+06-27 12:50:32.086 28683 28683 E ActivityThread: 	at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:1607)
+06-27 12:50:32.086 28683 28683 E ActivityThread: 	at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:1378)
+06-27 12:50:32.086 28683 28683 E ActivityThread: 	at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1624)
+06-27 12:50:32.086 28683 28683 E ActivityThread: 	at android.app.ContextImpl.registerReceiverAsUser(ContextImpl.java:1611)
+06-27 12:50:32.086 28683 28683 E ActivityThread: 	at android.content.ContextWrapper.registerReceiverAsUser(ContextWrapper.java:720)
+06-27 12:50:32.086 28683 28683 E ActivityThread: 	at com.android.internal.app.ResolverActivity.registerWorkProfileStateReceiver(ResolverActivity.java:1087)
+06-27 12:50:32.086 28683 28683 E ActivityThread: 	at com.android.internal.app.ResolverActivity.onStart(ResolverActivity.java:1068)
+06-27 12:50:32.086 28683 28683 E ActivityThread: 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1436)
+06-27 12:50:32.086 28683 28683 E ActivityThread: 	at android.app.Activity.performStart(Activity.java:8158)
+06-27 12:50:32.086 28683 28683 E ActivityThread: 	at android.app.ActivityThread.handleStartActivity(ActivityThread.java:3566)
+06-27 12:50:32.086 28683 28683 E ActivityThread: 	at android.app.servertransaction.TransactionExecutor.performLifecycleSequence(TransactionExecutor.java:221)
+06-27 12:50:32.086 28683 28683 E ActivityThread: 	at android.app.servertransaction.TransactionExecutor.cycleToPath(TransactionExecutor.java:201)
+06-27 12:50:32.086 28683 28683 E ActivityThread: 	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:173)
+06-27 12:50:32.086 28683 28683 E ActivityThread: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:97)
+06-27 12:50:32.086 28683 28683 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2136)
+06-27 12:50:32.086 28683 28683 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+06-27 12:50:32.086 28683 28683 E ActivityThread: 	at android.os.Looper.loop(Looper.java:236)
+06-27 12:50:32.086 28683 28683 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:8061)
+06-27 12:50:32.086 28683 28683 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+06-27 12:50:32.086 28683 28683 E ActivityThread: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:656)
+06-27 12:50:32.086 28683 28683 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:967)
+06-27 12:50:32.073   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 9
+06-27 12:50:32.089  9395  9434 I SCTaskStackListener: onTaskStackChanged! inSplit = false
+06-27 12:50:32.093  9395  9435 I SCTaskStackListener: onTaskStackChanged! inSplit = false
+06-27 12:50:32.094  2671  2671 D AppMiniWindowManager: topActivity updated in onTaskStackChanged
+06-27 12:50:33.699  1919  7655 I ActivityTaskManager: START u0 {act=android.intent.action.CALL dat=tel:xxxxx flg=0x10000000 cmp=com.android.server.telecom/.components.UserCallActivity} from uid 2000
+06-27 12:50:33.699  1919  7655 W ActivityTaskManager: Permission Denial: starting Intent { act=android.intent.action.CALL dat=tel:xxxxx flg=0x10000000 cmp=com.android.server.telecom/.components.UserCallActivity } from null (pid=28997, uid=2000) with revoked permission android.permission.CALL_PHONE
+06-27 12:50:33.701 28997 28999 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:50:34.463  3799  3799 W ThreadPoolForeg: type=1400 audit(0.0:4916): avc: denied { write } for name="traced_producer" dev="tmpfs" ino=39154 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+06-27 12:50:34.832  1919  2327 W BaseMiuiPhoneWindowManager: keyCode:26 down:true eventTime:4039642 downTime:4039642 policyFlags:2000000 flags:8 deviceId:4 isScreenOn:false keyguardActive:true repeatCount:0
+06-27 12:50:34.834  1919  2327 D systemui_boost: notification panel visible=true
+06-27 12:50:34.834  1919  2327 D systemui_boost: ui thread tid=1919
+06-27 12:50:34.834  1919  2327 D systemui_boost: render thread tid=0
+06-27 12:50:34.834  1919  2327 E systemui_boost: render-thread tid = 0, do not boost
+06-27 12:50:34.839  1919  2327 I WindowManager: wakeup return eventTime: 4039642 result: 4039643
+06-27 12:50:34.839  1919  2327 I PowerManagerService: Waking up from Dozing (uid=1000, reason=WAKE_REASON_POWER_BUTTON, details=android.policy:POWER)...
+06-27 12:50:34.840  2671  3190 I ndroid.systemu: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:50:34.841  2671  2671 D MiuiFaceManager: inernational:true supportR:[ALL] nowR:IN
+06-27 12:50:34.842  1919  1919 I WindowManager: Started waking up... (why=ON_BECAUSE_OF_USER)
+06-27 12:50:34.841  2671  2671 I chatty  : uid=1000(system) com.android.systemui identical 2 lines
+06-27 12:50:34.841  2671  2671 D MiuiFaceManager: inernational:true supportR:[ALL] nowR:IN
+06-27 12:50:34.843  2671  3190 D KeyguardViewMediator: onStartedWakingUp, seq = 30
+06-27 12:50:34.843  2671  3190 D KeyguardViewMediator: notifyStartedWakingUp
+06-27 12:50:34.843  2671  2671 D KeyguardViewMediator: handleNotifyWakingUp
+06-27 12:50:34.843  2671  2671 D MiuiFaceManager: inernational:true supportR:[ALL] nowR:IN
+06-27 12:50:34.843  2671  2671 D MiuiFaceManager: inernational:true supportR:[ALL] nowR:IN
+06-27 12:50:34.843  2671  2671 V KeyguardStatusView: Schedule setEnableMarquee: Enable
+06-27 12:50:34.843   841   841 I sensors-hal: batch:180, android.sensor.proximity/15, period=1000000, max_latency=0
+06-27 12:50:34.844   841   841 I sensors-hal: batch:189, android.sensor.proximity/15, period=1000000, max_latency=0 request completed
+06-27 12:50:34.844   841   841 I sensors-hal: activate:147, android.sensor.proximity/15 en=1
+06-27 12:50:34.844   841   841 I sensors-hal: get_qmi_debug_flag:241, support_qmi_debug : false
+06-27 12:50:34.844  2671  2671 D MiuiBleUnlockHelper: verifyBLEDeviceRssi  isShowing = true isOccluded = false isMXtelcel = false isHiding = false isDeviceInteractive = true
+06-27 12:50:34.844  1919  7660 D systemui_boost: notification panel visible=true
+06-27 12:50:34.844  1919  7660 D systemui_boost: ui thread tid=2671
+06-27 12:50:34.844  1919  7660 D systemui_boost: render thread tid=3197
+06-27 12:50:34.844  1919  7660 D systemui_boost: ui thread old priority=-10
+06-27 12:50:34.844  1919  7660 D systemui_boost: render thread old priority=-10
+06-27 12:50:34.845  1919  7660 D systemui_boost: thread tid=2671, priority is set to -10
+06-27 12:50:34.845  1919  7660 D systemui_boost: thread tid=3197, priority is set to -10
+06-27 12:50:34.845  1919  7660 D systemui_boost: ui thread and render thread are boosted
+06-27 12:50:34.846  3578  3636 I octvm_power: power mode [keyguard] start 1751008834
+06-27 12:50:34.846  2671  2671 D StatusBar: disable<e i a s B H R c s > disable2<q i n >
+06-27 12:50:34.846  2671  2671 D QS      : setListening true
+06-27 12:50:34.846  2671  2671 D StatusBar: disable<e i a s B H R c s > disable2<q i n >
+06-27 12:50:34.846  3578  3636 E octvm   : open /sys/class/power_supply/battery/status error, Permission denied
+06-27 12:50:34.846  3578  3636 I octvm_drv: common drv: get_current_battery_uAh will return 0
+06-27 12:50:34.846  3578  3636 E octvm_power: mode keyguard do not have any actions, empty group!
+06-27 12:50:34.846  3578  3636 E octvm   : open /sys/class/power_supply/battery/status error, Permission denied
+06-27 12:50:34.846  3578  3636 I octvm_drv: common drv: get_current_battery_uAh will return 0
+06-27 12:50:34.846  3578  3636 I octvm_power: onPowerModeChanged[keyguard] called
+06-27 12:50:34.846  1919  2207 I DisplayPowerController: Blocking screen on until initial contents have been drawn.
+06-27 12:50:34.846  1919  2207 I WindowManager: Screen turning on...
+06-27 12:50:34.846  2671  2671 E LockScreenMagazinePreView: getFullScreenLayout()  mRemoteFullScreenView:null
+06-27 12:50:34.846  2671  2671 E LockScreenMagazinePreView: getFullScreenLayout()  mRemoteFullScreenView:null
+06-27 12:50:34.847  2671  2671 D StatusBar: updateQsExpansionEnabled - QS Expand enabled: false
+06-27 12:50:34.833  3578  3578 W Binder:3578_1: type=1400 audit(0.0:4917): avc: denied { search } for name="battery" dev="sysfs" ino=74076 scontext=u:r:mcd:s0 tcontext=u:object_r:vendor_sysfs_battery_supply:s0 tclass=dir permissive=0
+06-27 12:50:34.833  3578  3578 W Binder:3578_1: type=1400 audit(0.0:4918): avc: denied { search } for name="battery" dev="sysfs" ino=74076 scontext=u:r:mcd:s0 tcontext=u:object_r:vendor_sysfs_battery_supply:s0 tclass=dir permissive=0
+06-27 12:50:34.847  2671  2671 D KeyguardViewMediator: updateActivityLockScreenState(true, false)
+06-27 12:50:34.848   841   841 I sensors-hal: activate:158, android.sensor.proximity/15 en=1 completed
+06-27 12:50:34.850  2671  3190 D KeyguardViewMediator: notifyScreenOn
+06-27 12:50:34.854  2671  2671 D StatusBar: updateQsExpansionEnabled - QS Expand enabled: false
+06-27 12:50:34.843   656   656 W Binder:656_2: type=1400 audit(0.0:4919): avc: denied { open } for path="/sys/devices/virtual/misc/msm_qcelp/wakeup38" dev="sysfs" ino=79600 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+06-27 12:50:34.856   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup38: Permission denied
+06-27 12:50:34.856   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup28: Permission denied
+06-27 12:50:34.843   656   656 W Binder:656_2: type=1400 audit(0.0:4920): avc: denied { open } for path="/sys/devices/virtual/misc/msm_alac/wakeup28" dev="sysfs" ino=79228 scontext=u:r:system_suspend:s0 tcontext=u:object_r:sysfs:s0 tclass=dir permissive=0
+06-27 12:50:34.856   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup18: Permission denied
+06-27 12:50:34.856   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup36: Permission denied
+06-27 12:50:34.856   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup26: Permission denied
+06-27 12:50:34.856  2671  2671 D KeyguardIndication:  switchIndication:Charging 40%
+06-27 12:50:34.856   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup16: Permission denied
+06-27 12:50:34.857   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+06-27 12:50:34.857   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup24: Permission denied
+06-27 12:50:34.857   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup9: Permission denied
+06-27 12:50:34.857   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup14: Permission denied
+06-27 12:50:34.857   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup32: Permission denied
+06-27 12:50:34.857   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup22: Permission denied
+06-27 12:50:34.857  2625  7574 D MiuiKeyguardWallpaperRemoteService: onDozingChanged isDozing = false
+06-27 12:50:34.857   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup12: Permission denied
+06-27 12:50:34.857  3385  4122 W MiuiAodService: stopDozing: 
+06-27 12:50:34.857   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup40: Permission denied
+06-27 12:50:34.858   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup30: Permission denied
+06-27 12:50:34.858  2671  2671 I MiuiGxzwManager: stopDozing
+06-27 12:50:34.858  2671  2671 D MiuiGxzwOverlayView: stopDozing
+06-27 12:50:34.858  2671  2671 I MiuiGxzwOverlayView: upldate overlay view alpha: 0.657
+06-27 12:50:34.858  3385  3385 I DozeHost: onStopDoze: needTurnOnDelay false
+06-27 12:50:34.858   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup20: Permission denied
+06-27 12:50:34.858  2671  2671 D MiuiGxzwViewIcon: stopDozing
+06-27 12:50:34.858  2671  2671 I MiuiGxzwViewIcon: setGxzwIconOpaque
+06-27 12:50:34.858   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup10: Permission denied
+06-27 12:50:34.858  2671  3198 I MiuiGxzwAnimManager: getFingerIconResource: mKeyguardAuthen = true, mLightWallpaperGxzw = false, mEnrolling = false, mLightIcon = false
+06-27 12:50:34.858  2625  2625 D MiuiKeyguardPictorialWallpaper:  onDozingChanged: false supportAmbientMode: false
+06-27 12:50:34.858  2671  3930 I MiuiDozeServiceHost: onDozingRequested: false
+06-27 12:50:34.858   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup39: Permission denied
+06-27 12:50:34.858  2671  3198 I MiuiGxzwFrameAnimation: draw: res = 2131231975, anim = false, scale = 1.0
+06-27 12:50:34.858   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup29: Permission denied
+06-27 12:50:34.858   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup19: Permission denied
+06-27 12:50:34.858  2671  2671 I MiuiGxzwViewIcon: unscheduleSetIconTransparen
+06-27 12:50:34.858   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup37: Permission denied
+06-27 12:50:34.858  3385  3385 I NotificationAnimationView: stopAnimation: release 
+06-27 12:50:34.859  3385  3385 I NotificationAnimationView: stopAnimation: release 
+06-27 12:50:34.859   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup27: Permission denied
+06-27 12:50:34.859   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+06-27 12:50:34.859  2671  2671 D KeyguardHorizontalMoveLeftViewContainer: onStartedWakingUp false false false false false true
+06-27 12:50:34.859   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup25: Permission denied
+06-27 12:50:34.859   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup43: Permission denied
+06-27 12:50:34.859   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup33: Permission denied
+06-27 12:50:34.859  1919  7655 W ActivityManager: Sending non-protected broadcast com.miui.systemui.LOCKSCREEN_WALLPAPER_EVENTS from system 2671:com.android.systemui/1000 pkg com.android.systemui. Callers=
+06-27 12:50:34.859   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup23: Permission denied
+06-27 12:50:34.860   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup13: Permission denied
+06-27 12:50:34.860  2671  2671 D KeyguardViewMediator: handleNotifyScreenTurningOn
+06-27 12:50:34.860  2625  7574 D MiuiKeyguardWallpaperRemoteService: onStartedWakingUp
+06-27 12:50:34.860   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup31: Permission denied
+06-27 12:50:34.860  1919  8335 I WindowManager: mKeyguardDelegate.ShowListener.onDrawn.
+06-27 12:50:34.860   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup21: Permission denied
+06-27 12:50:34.860   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup11: Permission denied
+06-27 12:50:34.860   841 29002 E sensors-hal: handle_sns_client_event:65, prox_event: ts=4039667356376, raw_adc=68, near_far=0, distance=5.000000
+06-27 12:50:34.861  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:34.861  3385  4122 W MiuiAodService: onGxzwIconChanged: false
+06-27 12:50:34.861  9395  9435 I PowerCenterProvider: call METHOD_GET_BATTERY_INFO
+06-27 12:50:34.861  9395  9435 W BatteryHistoryLoadMgr: getHistoryInfo begin
+06-27 12:50:34.862  3385  4067 I NotificationController: getSortedKey: size 3
+06-27 12:50:34.862  3385  4067 I NotificationController: getSortedKey: -1|android|26|null|1000__0|com.android.shell|2020|test_channel|2000__-1|android|32|null|1000__
+06-27 12:50:34.862  1919  2207 I AutomaticBrightnessControllerInjector: setLightSensorEnabled: false
+06-27 12:50:34.862  1919  2207 I AutomaticBrightnessControllerInjector: getLatestData res: 37.37125
+06-27 12:50:34.864  2625  3452 D MiuiKeyguardPictorialWallpaper: 　scheduleFinishRendering
+06-27 12:50:34.864  2625  3452 D ImageGLWallpaper:  scissor: Rect(0, 0 - 1080, 2340) displayPoint: Point(1080, 2340) isScrollWithScreen: false
+06-27 12:50:34.864  2625  3452 D ImageGLWallpaper:  heightDiffRatio 0.0
+06-27 12:50:34.864  2625  3452 D ImageGLWallpaper:  widthDiffRatio 0.0
+06-27 12:50:34.864  2625  3452 D ImageGLWallpaper:  mCurrentTexCoordinate [0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+06-27 12:50:34.864  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:34.867   841   886 I sensors-hal: batch:180, android.sensor.light/50, period=250000000, max_latency=0
+06-27 12:50:34.867   841   886 I sensors-hal: batch:189, android.sensor.light/50, period=250000000, max_latency=0 request completed
+06-27 12:50:34.868  3385  4067 I NotificationController: printNotificationData: notificationDataList 3
+06-27 12:50:34.868  3385  4067 I NotificationController: { mPackageName: android mClassName  mIsForegroundService false}
+06-27 12:50:34.868  3385  4067 I NotificationController: { mPackageName: com.android.shell mClassName  mIsForegroundService false}
+06-27 12:50:34.868  3385  4067 I NotificationController: { mPackageName: android mClassName  mIsForegroundService false}
+06-27 12:50:34.870  1919  2402 E WifiNative: Could not get Iface object for interface null
+06-27 12:50:34.872  3385  3385 I AODApplication: trimMemory: -1
+06-27 12:50:34.874  1919  2207 I AutomaticBrightnessControllerInjector: setProximitySensorEnabled enable
+06-27 12:50:34.874  1919  2103 W WindowManager: Setting mKeyguardDrawComplete
+06-27 12:50:34.875   969   969 D SurfaceFlinger: there are is hbm or aod layer,set MiuiPaperContrastOverlay alpha 1
+06-27 12:50:34.875   969   969 D SurfaceFlinger: AOD hasAOD =0
+06-27 12:50:34.876  1919  2207 I AutomaticBrightnessControllerInjector: setAccSensorEnabled enable
+06-27 12:50:34.878   841   886 I sensors-hal: batch:180, android.sensor.accelerometer/58, period=200000000, max_latency=0
+06-27 12:50:34.878   841   886 I sensors-hal: batch:189, android.sensor.accelerometer/58, period=200000000, max_latency=0 request completed
+06-27 12:50:34.878   841   886 E sensors-hal: flush:205, invalid flush request, active=0, oneshot=0
+06-27 12:50:34.878   841   886 I sensors-hal: activate:147, android.sensor.accelerometer/58 en=1
+06-27 12:50:34.878   841   886 I sensors-hal: get_qmi_debug_flag:241, support_qmi_debug : false
+06-27 12:50:34.881  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:34.884   841   886 I sensors-hal: activate:158, android.sensor.accelerometer/58 en=1 completed
+06-27 12:50:34.885   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup38: Permission denied
+06-27 12:50:34.885   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup28: Permission denied
+06-27 12:50:34.885   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup18: Permission denied
+06-27 12:50:34.885   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup36: Permission denied
+06-27 12:50:34.885  1919  2207 I AutomaticBrightnessTouchHelper: touch pointer listener has registered!
+06-27 12:50:34.885   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup26: Permission denied
+06-27 12:50:34.886   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup16: Permission denied
+06-27 12:50:34.886  1919  2207 I AutomaticBrightnessControllerInjector: skip debounce!
+06-27 12:50:34.886   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup34: Permission denied
+06-27 12:50:34.886   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup24: Permission denied
+06-27 12:50:34.886   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup9: Permission denied
+06-27 12:50:34.886   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup14: Permission denied
+06-27 12:50:34.886   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup32: Permission denied
+06-27 12:50:34.886   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup22: Permission denied
+06-27 12:50:34.887   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup12: Permission denied
+06-27 12:50:34.887   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup40: Permission denied
+06-27 12:50:34.887   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup30: Permission denied
+06-27 12:50:34.887   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup20: Permission denied
+06-27 12:50:34.887   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup10: Permission denied
+06-27 12:50:34.887   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup39: Permission denied
+06-27 12:50:34.887   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup29: Permission denied
+06-27 12:50:34.887   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup19: Permission denied
+06-27 12:50:34.888   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup37: Permission denied
+06-27 12:50:34.888   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup27: Permission denied
+06-27 12:50:34.888  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10246, uidState = 11
+06-27 12:50:34.888   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup35: Permission denied
+06-27 12:50:34.888   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup25: Permission denied
+06-27 12:50:34.888   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup43: Permission denied
+06-27 12:50:34.889   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup33: Permission denied
+06-27 12:50:34.889   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup23: Permission denied
+06-27 12:50:34.889   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup13: Permission denied
+06-27 12:50:34.890   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup31: Permission denied
+06-27 12:50:34.889  2671  2671 D BlurLayerHolder: register android.view.ViewRootImpl@c72cda7
+06-27 12:50:34.890   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup21: Permission denied
+06-27 12:50:34.890   656   663 E android.system.suspend@1.0-service: Error opening kernel wakelock stats for: wakeup11: Permission denied
+06-27 12:50:34.891   589   589 I hwservicemanager: getTransport: Cannot find entry android.hardware.power.stats@1.0::IPowerStats/default in either framework or device manifest.
+06-27 12:50:34.891   589   589 I hwservicemanager: getTransport: Cannot find entry android.hardware.power@1.0::IPower/default in either framework or device manifest.
+06-27 12:50:34.891  1919  2150 E BatteryStatsService: Unable to load Power Hal or power.stats HAL
+06-27 12:50:34.892   969   969 D SurfaceFlinger: Setting power mode 2 on display 19260674575326081
+06-27 12:50:34.892   839   839 I QTI PowerHAL: Power setMode: 7 to: 1
+06-27 12:50:34.892   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:50:34.892   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:50:34.892   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:50:34.892   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:50:34.892   811 27616 I SDM     : DisplayBase::SetDisplayState: Set state = 1, display 28-0, teardown = 0
+06-27 12:50:34.892   839   839 I QTI PowerHAL: Got set_interactive hint on= 1, count= 31
+06-27 12:50:34.892   879   983 E ANDR-PERF-UTIL: Failed to update node /proc/sys/kernel/sched_upmigrate with value 60
+06-27 12:50:34.892   839   839 E QTI PowerHAL: Error opening /sys/kernel/hbtp/display_pwr: No such file or directory
+06-27 12:50:34.892   879   983 E ANDR-PERF-UTIL: Failed to update node /proc/sys/kernel/sched_upmigrate with value 95	60
+06-27 12:50:34.893   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:50:34.893   879   984 I ANDR-PERF-LM: Core: lmMain() 412: trigger is VENDOR_HINT_DISPLAY_ON, sending algo interrupt
+06-27 12:50:34.893  1919  2327 W BaseMiuiPhoneWindowManager: keyCode:26 down:false eventTime:4039704 downTime:4039642 policyFlags:22000000 flags:8 deviceId:4 isScreenOn:true keyguardActive:true repeatCount:0
+06-27 12:50:34.894  3385  3447 I com.miui.aod: Explicit concurrent copying GC freed 57642(2135KB) AllocSpace objects, 1(20KB) LOS objects, 49% free, 3978KB/7956KB, paused 24us total 22.567ms
+06-27 12:50:34.895  3570  3574 E DisplayCount: Received Idle power 1
+06-27 12:50:34.897  1919  2106 I DisplayManagerService: Display device changed state: "Built-in Screen", ON
+06-27 12:50:34.898  1919  2138 D Process : audio-opt: audio thread tid = 28047 could not get bg policy.
+06-27 12:50:34.901  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:34.905  2671  3198 D MiuiGxzwAnimView: onDisplayChanged: oldState = 1, newState = 2
+06-27 12:50:34.905  1919  8390 W ActivityManager: Background start not allowed: service Intent { cmp=com.facebook.katana/com.facebook.mqtt.service.MqttServiceV2 (has extras) } to com.facebook.katana/com.facebook.mqtt.service.MqttServiceV2 from pid=27939 uid=10246 pkg=com.facebook.katana startFg?=false
+06-27 12:50:34.905  2625  2682 D HomeWallpaperRenderer: OFFSET  x: 0.0  y: 0.0
+06-27 12:50:34.907  9235  9448 I BtGatt.ScanManager: msg.what = 8
+06-27 12:50:34.907  3125  3125 I NearbyDiscovery: (REDACTED) FastPairDisplayObserver: %s -> %s
+06-27 12:50:34.909  2671  3245 D ScreenDecorations: updateOrientation: false
+06-27 12:50:34.909  1919  2402 E WifiClientModeImpl: getWifiLinkLayerStats called without an interface
+06-27 12:50:34.910  9235  9448 I BtGatt.ScanManager: msg.what = 5
+06-27 12:50:34.911  3125  8779 I NearbyDiscovery: (REDACTED) FastPairScanner: isScreenOn=%s, isLocationEnabled=%s, disableLocationRequirement=%s, isDiscoveryScanningEnabled=%s, during24GhzWifiWarmingUpPeriod=%s
+06-27 12:50:34.912  3125  8779 D BluetoothAdapter: isLeEnabled(): BLE_ON
+06-27 12:50:34.913  3125  8779 I NearbyDiscovery: (REDACTED) FastPairScanner: eventType=%s, intReq=%s, scanning=%s, scanAllowed=%s, bleEnabled=%s, lockScanRate=%s, startScanningByLowPowerMode=%s
+06-27 12:50:34.913   969  1059 D SurfaceFlinger: getHBMOverlayAlpha backlight=1169, mFodSystemBacklight=272, mBrightnessBackup=1169
+06-27 12:50:34.914  3385  3399 W System  : A resource failed to call dispose. 
+06-27 12:50:34.914  3125  8779 I NearbyDiscovery: (REDACTED) FastPairScanner: isScreenOn=%s, isLocationEnabled=%s, disableLocationRequirement=%s, isDiscoveryScanningEnabled=%s, during24GhzWifiWarmingUpPeriod=%s
+06-27 12:50:34.914  3125  8779 I NearbyDiscovery: (REDACTED) FastPairScanner: Start scanning internally, %s
+06-27 12:50:34.914  3385  3399 W System  : A resource failed to call release. 
+06-27 12:50:34.914  3385  3399 W System  : A resource failed to call release. 
+06-27 12:50:34.919  3125  8779 D BluetoothAdapter: isLeEnabled(): BLE_ON
+06-27 12:50:34.921  9235  9578 D BtGatt.GattService: registerScanner() - UUID=ac6f52ad-f8cd-4475-a0c1-07de957c30c3
+06-27 12:50:34.922  9235  9837 V bt_stack: [VERBOSE1:bta_gattc_act.cc(200)] bta_gattc_register: state:2
+06-27 12:50:34.922  9235  9837 I bt_stack: [INFO:gatt_api.cc(959)] GATT_Register e3fd99a5-5585-4413-c547-ed8c916a2d17
+06-27 12:50:34.922  9235  9837 I bt_stack: [INFO:gatt_api.cc(979)] allocated gatt_if=4
+06-27 12:50:34.922  1919  2106 I WindowManager: All windows ready for display!
+06-27 12:50:34.922  9235  9837 V bt_stack: [VERBOSE1:gatt_api.cc(1089)] GATT_StartIf gatt_if=4
+06-27 12:50:34.922  9235  9344 D BtGatt.GattService: onScannerRegistered() - UUID=ac6f52ad-f8cd-4475-a0c1-07de957c30c3, scannerId=4, status=0
+06-27 12:50:34.922  9235  9837 V bt_stack: [VERBOSE1:gatt_utils.cc(254)] gatt_find_the_connected_bda start_idx=0
+06-27 12:50:34.922  9235  9837 V bt_stack: [VERBOSE1:gatt_utils.cc(266)]  found=0 found_idx=10
+06-27 12:50:34.922  3125  3153 D BluetoothLeScanner: onScannerRegistered() - status=0 scannerId=4 mScannerId=0
+06-27 12:50:34.923  1919  2402 E WifiClientModeImpl-S: getWifiLinkLayerStats called without an interface
+06-27 12:50:34.924  2671  2671 D KeyguardUpdateMonitor: received broadcast android.intent.action.TIME_TICK
+06-27 12:50:34.924  2671  2671 D KeyguardUpdateMonitor: received broadcast android.intent.action.TIME_TICK
+06-27 12:50:34.925  9235  9578 D BtGatt.GattService: start scan with filters. callingPackage: com.google.android.gms
+06-27 12:50:34.928  9235  9578 E BtGatt.GattService:  [Landroid.content.pm.ServiceInfo;@1639036
+06-27 12:50:34.928  2964  2964 W NavStubView: onComputeInternalInsets  bounds=Rect(0, 0 - 1080, 68)   mHideGestureLine=false   mIsShowNavBar=true
+06-27 12:50:34.929  1919  2103 W ActivityManager: Sending non-protected broadcast android.intent.action.KEYCODE_POWER_UP from system 1919:system/1000 pkg android. Callers=com.android.server.am.ActivityManagerService.broadcastIntentLocked:17093 com.android.server.am.ActivityManagerService.broadcastIntentLocked:16512 com.android.server.am.ActivityManagerService.broadcastIntentWithFeature:17348 android.app.ContextImpl.sendBroadcastAsUser:1300 com.android.server.policy.BaseMiuiPhoneWindowManager$15.run:2384 
+06-27 12:50:34.929  1919  2103 W ActivityManager: Sending non-protected broadcast android.intent.action.KEYCODE_POWER_UP from system 1919:system/1000 pkg android. Callers=com.android.server.am.ActivityManagerService.broadcastIntentLocked:17191 com.android.server.am.ActivityManagerService.broadcastIntentLocked:16512 com.android.server.am.ActivityManagerService.broadcastIntentWithFeature:17348 android.app.ContextImpl.sendBroadcastAsUser:1300 com.android.server.policy.BaseMiuiPhoneWindowManager$15.run:2384 
+06-27 12:50:34.929  1919  2402 E WifiClientModeImpl-S: getWifiLinkLayerStats called without an interface
+06-27 12:50:34.930  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10246, uidState = 19
+06-27 12:50:34.930  2964  2964 E NavStubView: onSystemUiFlagsChanged  mIsShowNavBar=false
+06-27 12:50:34.931  1919  1919 D AudioService: enter startAudioVisual with android.intent.action.KEYCODE_POWER_UP
+06-27 12:50:34.932  1919  1919 D AudioService: startAudioVisual exit, device not support
+06-27 12:50:34.932  1919  2103 W WindowManager: Setting mWindowManagerDrawComplete
+06-27 12:50:34.934  1919  2207 I DisplayPowerController: Unblocked screen on after 88 ms
+06-27 12:50:34.936   943  3237 I AudioFlinger: setGameParameters keyvalue: screen_state=on
+06-27 12:50:34.937   789   862 D audio_hw_primary: adev_set_parameters: enter: screen_state=on
+06-27 12:50:34.937   789   862 V msm8974_platform: platform_set_parameters: enter: screen_state=on
+06-27 12:50:34.937   789   862 D audio_hw_hfp: hfp_set_parameters: enter
+06-27 12:50:34.937   789   862 W sound_trigger_hw: sound_trigger_hw_call_back: Unknown event 19
+06-27 12:50:34.937   789   862 D audio_hw_hfp: hfp_set_parameters: enter
+06-27 12:50:34.937   789   862 D audio_hw_extn: audio_extn_fm_set_parameters: Enter
+06-27 12:50:34.937   789   862 D audio_hw_hfp: hfp_set_parameters: enter
+06-27 12:50:34.937   789   862 V mi_ultrasound_extn: mi_ultrasound_extn_set_parameters: enter
+06-27 12:50:34.937   789   862 V mi_ultrasound_extn: mi_ultrasound_handle_screen_on_message: enter
+06-27 12:50:34.937   789   862 V mi_ultrasound_extn: mi_ultrasound_handle_screen_on_message: exit
+06-27 12:50:34.937   789   862 V mi_ultrasound_extn: mi_ultrasound_handle_sensor_fusion_message: enter
+06-27 12:50:34.937   789   862 V mi_ultrasound_extn: mi_ultrasound_handle_sensor_fusion_message: exit
+06-27 12:50:34.937   789   862 V mi_ultrasound_extn: mi_ultrasound_extn_set_parameters: usecase handling parms:screen_state=on
+06-27 12:50:34.939  9235  9448 I BtGatt.ScanManager: msg.what = 0
+06-27 12:50:34.939  9235  9448 D BtGatt.ScanManager: handling starting scan
+06-27 12:50:34.939  9235  9448 D BtGatt.ScanManager: isAptXLowLatencyModeEnabled: false
+06-27 12:50:34.940   794   794 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK ON
+06-27 12:50:34.940   794   794 D vendor.qti.bluetooth@1.0-wake_lock: Acquire wakelock is acquired 
+06-27 12:50:34.940   794   794 I vendor.qti.bluetooth@1.0-ibs_handler: DeviceWakeUp: Writing IBS_WAKE_IND
+06-27 12:50:34.942  3125  8779 I NearbyDiscovery: (REDACTED) FastPairScanner: Start scanning, mode=%s
+06-27 12:50:34.944   794  9833 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_ACK: 0xFC
+06-27 12:50:34.944   794  9833 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_WAKE_IND: 0xFD
+06-27 12:50:34.944   794  9833 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Writing IBS_WAKE_ACK
+06-27 12:50:34.944  9739  9739 I PowerKeeperBackgroundService: onStartCommand()
+06-27 12:50:34.944  9739  9739 I PowerKeeperService: onAlarm
+06-27 12:50:34.945  9235  9344 D BtGatt.GattService: onScanFilterEnableDisabled() - clientIf=4, status=0, action=1
+06-27 12:50:34.945  9235  9344 D BtGatt.ScanManager: callback done for scannerId - 4 status - 0
+06-27 12:50:34.945  9235  9448 D BtGatt.ScanManager: Available Filter size: 13
+06-27 12:50:34.945  9235  9344 D BtGatt.GattService: onScanFilterConfig() - clientIf=4, action = 0 status = 0, filterType=0, availableSpace=0
+06-27 12:50:34.945  9235  9344 D BtGatt.ScanManager: callback done for scannerId - 4 status - 0
+06-27 12:50:34.945  9235  9448 D BtGatt.ScanManager: configureFilterParamter 500 10000 1 0, deliveryMode=0
+06-27 12:50:34.947  9235  9344 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=4, status=0, action=0, availableSpace=15
+06-27 12:50:34.947  9235  9344 D BtGatt.ScanManager: callback done for scannerId - 4 status - 0
+06-27 12:50:34.947  9235  9344 D BtGatt.GattService: onScanFilterConfig() - clientIf=4, action = 0 status = 0, filterType=0, availableSpace=0
+06-27 12:50:34.947  9235  9344 D BtGatt.ScanManager: callback done for scannerId - 4 status - 0
+06-27 12:50:34.947  9235  9448 D BtGatt.ScanManager: configureFilterParamter 500 10000 1 0, deliveryMode=0
+06-27 12:50:34.948  2671  2671 D StatusBar: disable<e i a s B H R c s > disable2<q i n >
+06-27 12:50:34.948  2671  2671 D KeyguardUpdateMonitor: handleTimeUpdate
+06-27 12:50:34.948  2671  2671 D KeyguardIndication:  switchIndication:Charging 40%
+06-27 12:50:34.948  2671  2671 D KeyguardUpdateMonitor: handleTimeUpdate
+06-27 12:50:34.948  9235  9344 D BtGatt.GattService: onScanFilterParamsConfigured() - clientIf=4, status=0, action=0, availableSpace=14
+06-27 12:50:34.948  9235  9344 D BtGatt.ScanManager: callback done for scannerId - 4 status - 0
+06-27 12:50:34.948  2671  2671 D KeyguardIndication:  switchIndication:Charging 40%
+06-27 12:50:34.949  9235  9448 D BtGatt.ScanManager: configureRegularScanParams() - queue=1
+06-27 12:50:34.949  9235  9448 D BtGatt.ScanManager: configureRegularScanParams() - ScanSetting LE 1M Scan mode=1ScanSetting LE Coded Scan mode=-2147483648 mLastConfiguredScanSettingLE1M=-2147483648 mLastConfiguredScanSettingLECoded=-2147483648scanPhy=1
+06-27 12:50:34.949   841   886 I sensors-hal: batch:180, xiaomi.sensor.nonui/23, period=200000000, max_latency=0
+06-27 12:50:34.949   841   886 I sensors-hal: batch:189, xiaomi.sensor.nonui/23, period=200000000, max_latency=0 request completed
+06-27 12:50:34.949   841   886 I sensors-hal: activate:147, xiaomi.sensor.nonui/23 en=1
+06-27 12:50:34.949   841   886 I sensors-hal: get_qmi_debug_flag:241, support_qmi_debug : false
+06-27 12:50:34.949  9235  9448 D BtGatt.ScanManager: configureRegularScanParams() - queue emtpy, scan stopped
+06-27 12:50:34.949  9235  9448 D BtGatt.ScanManager: configureRegularScanParams - scanInterval LE 1M = 730configureRegularScanParams - scanWindow LE 1M= 183configureRegularScanParams - scanInterval LE Coded= -2147483648configureRegularScanParams - scanWindow LE Coded= -2147483648
+06-27 12:50:34.950  9235  9344 D BtGatt.GattService: onScanParamSetupCompleted : 0
+06-27 12:50:34.951  2964  2964 W NavStubView: onComputeInternalInsets  bounds=Rect(0, 0 - 1080, 68)   mHideGestureLine=false   mIsShowNavBar=false
+06-27 12:50:34.953   841   886 I sensors-hal: activate:158, xiaomi.sensor.nonui/23 en=1 completed
+06-27 12:50:34.953  2964  2964 E NavStubView: onSystemUiFlagsChanged  mIsShowNavBar=true
+06-27 12:50:34.961   841 29002 E sensors-hal: handle_sns_client_event:65, prox_event: ts=4039767345803, raw_adc=88, near_far=0, distance=5.000000
+06-27 12:50:34.965   841   886 I sensors-hal: batch:180, android.sensor.light/50, period=200000000, max_latency=0
+06-27 12:50:34.965   841   886 I sensors-hal: batch:189, android.sensor.light/50, period=200000000, max_latency=0 request completed
+06-27 12:50:34.970  2964  2964 W NavStubView: onComputeInternalInsets  bounds=Rect(0, 0 - 1080, 68)   mHideGestureLine=false   mIsShowNavBar=true
+06-27 12:50:34.970   841 29012 E sensors-hal: handle_sns_client_event:50, nonui_event: ts=4039780440751, event=0.000000
+06-27 12:50:35.000   794  9833 I vendor.qti.bluetooth@1.0-ibs_handler: ProcessIbsCmd: Received IBS_SLEEP_IND: 0xFE
+06-27 12:50:35.005  1081  1213 I mi_thermald: generic_set_level: set generic device battery to 0
+06-27 12:50:35.026   811 27616 I SDM     : StrategyImpl::SetIdleTimeoutMs: Idle timeout set to zero for command mode panels
+06-27 12:50:35.027   905   992 D DisplayFeatureHal: HandleDisplayState enter state 1, last state 0
+06-27 12:50:35.027   905   992 D DisplayFeatureHal: onResume enter, mFodScreenOn=2
+06-27 12:50:35.028   969   969 D SurfaceFlinger: FOD postPowerModeFOD 2
+06-27 12:50:35.028   969   969 D SurfaceFlinger: getHBMOverlayAlpha backlight=272, mFodSystemBacklight=272, mBrightnessBackup=272
+06-27 12:50:35.028   969   969 D SurfaceFlinger: brightness=272; alpha=0.743164 mode=2, doze_state:0
+06-27 12:50:35.028   969   969 D SurfaceFlinger: set FOD HBM alpha = 0.743164
+06-27 12:50:35.028   969   969 D SurfaceFlinger: getHBMOverlayAlpha backlight=272, mFodSystemBacklight=272, mBrightnessBackup=272
+06-27 12:50:35.028   969   969 D SurfaceFlinger: Finished setting power mode 2 on display 19260674575326081
+06-27 12:50:35.029  1919  2586 D SurfaceControl: Excessive delay in setPowerMode()
+06-27 12:50:35.031   905   905 D DisplayFeatureHal: setFeatureEnable(displayId=0 caseId=0 modeId=2 cookie=255)
+06-27 12:50:35.031   905   905 D DisplayFeatureHal: current wcg state 0, setting to 0
+06-27 12:50:35.031   905   905 D DisplayFeatureHal: notifySFWcgState enable = 0
+06-27 12:50:35.032  1919  2207 W PowerManagerService: Screen on took 201 ms
+06-27 12:50:35.032  1919  2207 I DreamManagerService: Gently waking up from dream.
+06-27 12:50:35.032  1919  2102 I DreamManagerService: Performing gentle wake from dream.
+06-27 12:50:35.033  1919  1919 I WindowManager: Finished waking up... (why=ON_BECAUSE_OF_USER)
+06-27 12:50:35.033  2671  3190 D KeyguardViewMediator: notifyScreenTurnedOn
+06-27 12:50:35.034  1919  3247 I DreamManagerService: Leaving dreamland.
+06-27 12:50:35.034   899  1840 D libsensor-B2SNotifier: Backlight2SlpiNotifier brightness = 582
+06-27 12:50:35.034   969  1239 D SurfaceFlinger: getHBMOverlayAlpha backlight=1166, mFodSystemBacklight=272, mBrightnessBackup=1166
+06-27 12:50:35.034   969  1239 D SurfaceFlinger: brightness=1166; alpha=0.515137 mode=2, doze_state:0
+06-27 12:50:35.034   969  1239 D SurfaceFlinger: set FOD HBM alpha = 0.515137
+06-27 12:50:35.034   969  1239 D SurfaceFlinger: getHBMOverlayAlpha backlight=1166, mFodSystemBacklight=272, mBrightnessBackup=1166
+06-27 12:50:35.035   905   993 I DisplayFeatureHal: threadFuncBacklight: set brightness to 1166
+06-27 12:50:35.035   905   993 D DisplayFeatureHal: set brightness to 582, virtual brightness 1166
+06-27 12:50:35.035  1919  2102 I DreamManagerService: Performing gentle wake from dream.
+06-27 12:50:35.035  1919  2102 I DreamController: Stopping dream: name=ComponentInfo{com.miui.aod/com.miui.aod.doze.DozeService}, isTest=false, canDoze=true, userId=0, reason='finished self'(from 'requested stopDream')
+06-27 12:50:35.035   811   858 I SDM     : HWCDisplay::SetPreferredColorModeInternal: Applying mode: smart_MC
+06-27 12:50:35.035   811   858 D SDM     : DisplayBase::SetColorMode: Target color mode smart_MC, last mode  smart_MC
+06-27 12:50:35.035   811   858 W SDM     : DisplayBase::SetColorMode: Current mode is already smart_MC
+06-27 12:50:35.036  3385  3385 E DozeMachine: request: current=DOZE req=FINISH
+06-27 12:50:35.036  3385  3385 E DozeMachine: java.lang.Throwable: here
+06-27 12:50:35.036  3385  3385 E DozeMachine: 	at com.miui.aod.doze.DozeMachine.requestState(DozeMachine.java:169)
+06-27 12:50:35.036  3385  3385 E DozeMachine: 	at com.miui.aod.doze.DozeMachine.requestState(DozeMachine.java:145)
+06-27 12:50:35.036  3385  3385 E DozeMachine: 	at com.miui.aod.doze.DozeService.onDreamingStopped(DozeService.java:198)
+06-27 12:50:35.036  3385  3385 E DozeMachine: 	at android.service.dreams.DreamService.detach(DreamService.java:967)
+06-27 12:50:35.036  3385  3385 E DozeMachine: 	at android.service.dreams.DreamService.access$500(DreamService.java:155)
+06-27 12:50:35.036  3385  3385 E DozeMachine: 	at android.service.dreams.DreamService$DreamServiceWrapper.lambda$detach$1(DreamService.java:1156)
+06-27 12:50:35.036  3385  3385 E DozeMachine: 	at android.service.dreams.-$$Lambda$DreamService$DreamServiceWrapper$2R9T6zqLOUvx4z5eu1pSMWsejpU.run(Unknown Source:2)
+06-27 12:50:35.036  3385  3385 E DozeMachine: 	at android.os.Handler.handleCallback(Handler.java:938)
+06-27 12:50:35.036  3385  3385 E DozeMachine: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+06-27 12:50:35.036  3385  3385 E DozeMachine: 	at android.os.Looper.loop(Looper.java:236)
+06-27 12:50:35.036  3385  3385 E DozeMachine: 	at android.app.ActivityThread.main(ActivityThread.java:8061)
+06-27 12:50:35.036  3385  3385 E DozeMachine: 	at java.lang.reflect.Method.invoke(Native Method)
+06-27 12:50:35.036  3385  3385 E DozeMachine: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:656)
+06-27 12:50:35.036  3385  3385 E DozeMachine: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:967)
+06-27 12:50:35.037  3385  3385 I DozeMachine: transition: old=DOZE req=FINISH new=FINISH
+06-27 12:50:35.039   885   937 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.miui.aod/.doze.DozeService and for client system
+06-27 12:50:35.039   885   937 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.miui.aod/.doze.DozeServiceafter removal is 0
+06-27 12:50:35.039   969   969 W SurfaceFlingerInspector: slow HwComposer, duration=122s, total=78, timeOut=70, Max=14ms, timeOutAvg=11ms.
+06-27 12:50:35.039   885   937 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: systemafter removal is 24
+06-27 12:50:35.039   885   937 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.miui.aod/.doze.DozeService
+06-27 12:50:35.041   905   992 D DisplayFeatureHal: set mode:42 ppMode:40 over done.... status:1 ret 0
+06-27 12:50:35.041   811  4121 I SDM     : CoreInterface::SetWCGStatus: SetWCGStatus wcg enable 0
+06-27 12:50:35.041   905   905 D DisplayFeatureHal: notifyQservice cmd 48 value 0 ret 0
+06-27 12:50:35.042  2625  3452 D KeyguardWallpaperRenderer: OFFSET  x: 0.0  y: 0.0
+06-27 12:50:35.042   905   905 D DisplayFeatureHal: setFeatureEnable(displayId=0 caseId=3 modeId=0 cookie=255)
+06-27 12:50:35.042   905   905 D DisplayFeatureHal: current wcg state 0, setting to 0
+06-27 12:50:35.042   905   905 D DisplayFeatureHal: notifySFWcgState enable = 0
+06-27 12:50:35.043   811   858 I SDM     : CoreInterface::SetWCGStatus: SetWCGStatus wcg enable 0
+06-27 12:50:35.043   969   969 D SurfaceFlinger: there is hbm or aod layer,set MiuiPaperContrastOverlay alpha 0
+06-27 12:50:35.043   905   905 D DisplayFeatureHal: notifyQservice cmd 48 value 0 ret 0
+06-27 12:50:35.043   969   969 D SurfaceFlinger: HbmOverlay Changed hasHbmOverlay=1
+06-27 12:50:35.043   969   969 D SurfaceFlinger: ColorFade Changed hasColorFade=0
+06-27 12:50:35.043   905   905 D DisplayFeatureHal: setFeatureEnable(displayId=0 caseId=31 modeId=0 cookie=255)
+06-27 12:50:35.043   905   905 D DisplayFeatureHal: current wcg state 0, setting to 0
+06-27 12:50:35.043   905   905 D DisplayFeatureHal: notifySFWcgState enable = 0
+06-27 12:50:35.044   811   858 I SDM     : CoreInterface::SetWCGStatus: SetWCGStatus wcg enable 0
+06-27 12:50:35.045   905   905 D DisplayFeatureHal: notifyQservice cmd 48 value 0 ret 0
+06-27 12:50:35.045   905   905 E DisplayFeatureHal: setFeatureEnable param error caseId: 31 modeId: 0 cookie: 255
+06-27 12:50:35.045   905   992 D DisplayFeatureHal: set mode:47 ppMode:51 over done.... status:1 ret 0
+06-27 12:50:35.046   969   969 D CompositionEngine: updateFodFlag FOD Add hbm_overlay
+06-27 12:50:35.047   905   992 D DisplayFeatureHal: Query DisplayPostproc service
+06-27 12:50:35.047  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.051   811  2303 I Dpps    : AddNewDppsClient():431 New DPPS client accepted, client fd = 30, poll idx 2
+06-27 12:50:35.051   811  2303 I Dpps    : HandleDppsClientEvent():921 Incoming message on client fd 30: 'ad:on;1'
+06-27 12:50:35.052   811  2337 I SDM     : DisplayBuiltIn::ControlPartialUpdate: partial update is not applicable for display id = 28
+06-27 12:50:35.053   811  2337 I Dpps    : ParseFile():82 Loading AD calib file /vendor/etc/sdr_config.cfg
+06-27 12:50:35.054   811  2337 I Dpps    : ParseFile():92 Config File Version: 1.0 
+06-27 12:50:35.054   811  2337 I Dpps    : ParseFile():131 Parsing Init parameters
+06-27 12:50:35.057   969   969 D CompositionEngine: updateFodFlag FOD Add hbm_overlay
+06-27 12:50:35.058   811  2337 I Dpps    : ParseFile():205 Parsing Cfg parameters
+06-27 12:50:35.060  2671  2671 D KeyguardViewMediator: handleNotifyScreenTurnedOn
+06-27 12:50:35.060  2671  2671 D MiuiGxzwManager: onScreenTurnedOn
+06-27 12:50:35.060  2671  2671 D MiuiGxzwOverlayView: onScreenTurnedOn
+06-27 12:50:35.060  2671  2671 D MiuiGxzwViewIcon: onScreenTurnedOn
+06-27 12:50:35.061   811  2337 I Dpps    : ParseFile():82 Loading AD calib file /vendor/etc/hdr_config.cfg
+06-27 12:50:35.061  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:50:35.061   811  2337 I Dpps    : ParseFile():92 Config File Version: 1.0 
+06-27 12:50:35.061   811  2337 I Dpps    : ParseFile():131 Parsing Init parameters
+06-27 12:50:35.061  9395  9435 I BatteryHistoryLoadMgr: lastIncreasingIntervalStartIndex=0
+06-27 12:50:35.061  9395  9435 W BatteryHistoryLoadMgr: get firstHistoryInfo time: 154243687
+06-27 12:50:35.061  9395  9435 D BatteryHistoryLoadMgr: getHistoryInfo end
+06-27 12:50:35.062  9395  9435 I PowerUtils: Device name:raphaelin
+06-27 12:50:35.062  9395  9435 W PowerUtils: should not use this capacity value 4000
+06-27 12:50:35.062  9395  9435 I PowerUtils: Device name:raphaelin
+06-27 12:50:35.062  9395  9435 W PowerUtils: should not use this capacity value 4000
+06-27 12:50:35.062  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.062   969  3556 E SurfaceFlinger: xiaomi-debug fod fod_ui_ready:1
+06-27 12:50:35.063  9395  9435 I PowerUtils: Device name:raphaelin
+06-27 12:50:35.063  9395  9435 W PowerUtils: should not use this capacity value 4000
+06-27 12:50:35.063  9395  9435 I PowerUtils: Device name:raphaelin
+06-27 12:50:35.063  9395  9435 W PowerUtils: should not use this capacity value 4000
+06-27 12:50:35.064  9395  9435 I PowerFeatureUtils: getVendorName:qcom
+06-27 12:50:35.064  9395  9435 I BatteryChargeTimeHelper: Left charge time, 0.6 4h1s500ms
+06-27 12:50:35.064  9395  9435 I PowerUtils: Device name:raphaelin
+06-27 12:50:35.064  9395  9435 W PowerUtils: should not use this capacity value 4000
+06-27 12:50:35.064  2671  7681 W BpBinder: PerfMonitor binderTransact :  time=204ms interface=android.content.IContentProvider code=21
+06-27 12:50:35.065   811  2337 I Dpps    : ParseFile():205 Parsing Cfg parameters
+06-27 12:50:35.068   811  2303 I Dpps    : HandleDppsClientEvent():903 Client connection 30 has closed
+06-27 12:50:35.068   811  2303 I Dpps    : RemoveServerClient():297 closed fd 30 poll_idx 2
+06-27 12:50:35.068   905   992 D DisplayFeatureHal: HandleDisplayState exit
+06-27 12:50:35.068   905   992 D DisplayFeatureHal: writeDCBacklight setting backlight to 584
+06-27 12:50:35.069   905   992 D DisplayFeatureHal: successfully write 584 into /sys/class/backlight/panel0-backlight/brightness
+06-27 12:50:35.070   899  1840 D libsensor-B2SNotifier: Backlight2SlpiNotifier brightness = 584
+06-27 12:50:35.086  2671  2799 D NetworkController.MobileSignalController(2): onDataActivity: direction=4
+06-27 12:50:35.087  2671  2799 D NetworkController.MobileSignalController(2): onDataActivity: direction=4
+06-27 12:50:35.087  2914  2914 D DynamicSarService: PhoneStateListener.onDataActivity: direction=4
+06-27 12:50:35.087  2914  2914 D DynamicSarService: modem state change,messageType: 128 state: 4
+06-27 12:50:35.087  2914  2914 D DynamicSarService: PhoneStateListener.onDataActivity: direction=4
+06-27 12:50:35.087  2914  2914 D DynamicSarService: modem state change,messageType: 128 state: 4
+06-27 12:50:35.095  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.097  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:50:35.098  2671  2671 I KeyguardIndicationInjector: handleChargeTextAnimation: false;powerPluggedIn=true
+06-27 12:50:35.098  2671  2671 D KeyguardIndication:  switchIndication:Charging 40%
+06-27 12:50:35.114  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.128  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.132  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:50:35.144  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.146  2671  3197 W RenderInspector: DequeueBuffer time out on NotificationShade, count=2, avg=60 ms, max=100 ms.
+06-27 12:50:35.148  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:50:35.153  4070 29017 I DeviceStatusMonitor: DeviceStatusMonitor.handleBroadcast():123 onReceive() : Action = android.intent.action.SCREEN_ON
+06-27 12:50:35.153  4070 29017 I DeviceStatusMonitor: DeviceStatusMonitor.updateCountryInfo():139 updateCountryInfo(), notifyAnyway = false
+06-27 12:50:35.161  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.165   841   886 I sensors-hal: batch:180, android.sensor.proximity/15, period=200000000, max_latency=0
+06-27 12:50:35.165   841   886 I sensors-hal: batch:189, android.sensor.proximity/15, period=200000000, max_latency=0 request completed
+06-27 12:50:35.180  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.181   969   969 D CompositionEngine: updateFodFlag FOD Add hbm_overlay
+06-27 12:50:35.194  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.195  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:50:35.197   969   969 D CompositionEngine: updateFodFlag FOD Add hbm_overlay
+06-27 12:50:35.198  2671  2671 D StatusBar: disable<e i a s B H R c s > disable2<q i n >
+06-27 12:50:35.206  2625  2682 D HomeWallpaperRenderer: OFFSET  x: 0.0  y: 0.0
+06-27 12:50:35.210  2625  3452 D KeyguardWallpaperRenderer: OFFSET  x: 0.0  y: 0.0
+06-27 12:50:35.211  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.212  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:50:35.213   969   969 D CompositionEngine: updateFodFlag FOD Add hbm_overlay
+06-27 12:50:35.213  3125  8779 I NearbyDiscovery: (REDACTED) FastPairHandler: Received action %s
+06-27 12:50:35.213  3125  8779 I NearbyDiscovery: (REDACTED) FastPairScanner: isScreenOn=%s, isLocationEnabled=%s, disableLocationRequirement=%s, isDiscoveryScanningEnabled=%s, during24GhzWifiWarmingUpPeriod=%s
+06-27 12:50:35.214  3125  8779 D BluetoothAdapter: isLeEnabled(): BLE_ON
+06-27 12:50:35.214  3125  8779 I NearbyDiscovery: (REDACTED) FastPairScanner: eventType=%s, intReq=%s, scanning=%s, scanAllowed=%s, bleEnabled=%s, lockScanRate=%s, startScanningByLowPowerMode=%s
+06-27 12:50:35.214  3125  8779 I NearbyDiscovery: FastPairController: onSystemStateChanged: skip due to flag disabled [CONTEXT service_id=265 ]
+06-27 12:50:35.214  8426  8426 D BroadcastExecutor: BroadcastExecutor : 2
+06-27 12:50:35.215  8426  8426 D BroadcastExecutor: BroadcastExecutor : 2
+06-27 12:50:35.216  8426  8426 W AD-PLUGIN-PushAdManager: pushRealTimeRequest mode mismatching
+06-27 12:50:35.217  8247  8247 D BroadcastExecutor: BroadcastExecutor : 2
+06-27 12:50:35.218  8247  8247 D BroadcastExecutor: BroadcastExecutor : 2
+06-27 12:50:35.218  9395  9616 I TrafficManageService: onReceive: android.intent.action.SCREEN_ON
+06-27 12:50:35.219  9395  9395 I PowerSaveService: onReceive: android.intent.action.SCREEN_ON
+06-27 12:50:35.220  9395  9626 D PowerNoticeUI: ScreenOnEvent
+06-27 12:50:35.222  1919  2121 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:50:35.222  1919  2121 D CompatibilityInfo: applicationDensity - 440
+06-27 12:50:35.222  1919  2121 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:50:35.223  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10184, uidState = 11
+06-27 12:50:35.227  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.230  2671  2671 D StatusBar: disable<e i a s B H R c s > disable2<q i n >
+06-27 12:50:35.231  9739  9968 D PowerCheckerService: foreground, uid = 1000, app = android
+06-27 12:50:35.232   885   937 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.PersistentDirectBootAwareApiService and for client com.google.android.apps.wellbeing
+06-27 12:50:35.232   885   937 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.PersistentDirectBootAwareApiServiceare :14
+06-27 12:50:35.232   885   937 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.apps.wellbeingare :2
+06-27 12:50:35.237 14641 14641 D MiShare:MiShareService: onReceive action=android.intent.action.SCREEN_ON
+06-27 12:50:35.238  7112  7112 D PASRDozeReceiver: Received Intent Intent { act=android.intent.action.SCREEN_ON flg=0x50200010 }
+06-27 12:50:35.239  7112  7112 D PASRDozeReceiver: Sent intent Successfully
+06-27 12:50:35.239  7112  7112 D PASRService: PASRService started
+06-27 12:50:35.239  7112  7112 D PASRService: OnStart, Intent: android.intent.action.SCREEN_ON
+06-27 12:50:35.239  7112  7112 D PASRService: State is now: -1
+06-27 12:50:35.240  2881  2881 D DeviceStatisticsService: Send device is interactive
+06-27 12:50:35.244  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.245   969   969 D CompositionEngine: updateFodFlag FOD Add hbm_overlay
+06-27 12:50:35.246  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10246, uidState = 11
+06-27 12:50:35.247  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10239, uidState = 11
+06-27 12:50:35.247  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 99012, uidState = 11
+06-27 12:50:35.247  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10246, uidState = 19
+06-27 12:50:35.248 28352 28352 D BroadcastExecutor: BroadcastExecutor : 2
+06-27 12:50:35.250  1919  2138 D Process : audio-opt: audio thread tid = 28047 could not get bg policy.
+06-27 12:50:35.251 28352 28352 D BroadcastExecutor: BroadcastExecutor : 2
+06-27 12:50:35.252  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 99012, uidState = 19
+06-27 12:50:35.252  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10239, uidState = 19
+06-27 12:50:35.254 16777 27668 W NsdServiceInfo: Key lengths > 9 are discouraged: commonData
+06-27 12:50:35.260  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.262   969   969 D CompositionEngine: updateFodFlag FOD Add hbm_overlay
+06-27 12:50:35.263  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:50:35.265  2671  2671 D KeyguardUpdateMonitor: handleTimeUpdate
+06-27 12:50:35.265  2671  2671 D KeyguardIndication:  switchIndication:Charging 40%
+06-27 12:50:35.276   885   937 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.PersistentApiService and for client com.google.android.apps.wellbeing
+06-27 12:50:35.276   885   937 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.PersistentApiServiceare :10
+06-27 12:50:35.276   885   937 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.apps.wellbeingare :2
+06-27 12:50:35.277  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.279   969   969 D CompositionEngine: updateFodFlag FOD Add hbm_overlay
+06-27 12:50:35.280  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:50:35.294  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.310  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.311   969   969 D CompositionEngine: updateFodFlag FOD Add hbm_overlay
+06-27 12:50:35.319  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10184, uidState = 19
+06-27 12:50:35.329  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.337   969   969 D CompositionEngine: updateFodFlag FOD Add hbm_overlay
+06-27 12:50:35.337  9395  9395 I PowerSaveService: onReceive: android.intent.action.BATTERY_CHANGED
+06-27 12:50:35.339  9395  9395 I PowerNoticeUI: handleBatteryChanged oldPlugType 2 mPlugType 2 oldBatteryLevel 40 mBatteryLevel 40 temperature 255
+06-27 12:50:35.339  9395  9395 I ChargerBatteryIntelligenceReceiver: onBatteryChanged temperature：25,plugType:2
+06-27 12:50:35.339  9395  9395 I PowerFeatureUtils: getVendorName:qcom
+06-27 12:50:35.340  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:50:35.341  2841  2841 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+06-27 12:50:35.343  9739  9968 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 40, status = 2, level = 40, plug = 2, scale = 100
+06-27 12:50:35.343  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.346  2881  2881 D DeviceStatisticsService: chargerType=2 batteryLevel=40 totalBatteryCapacity=2167000
+06-27 12:50:35.347  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:50:35.360  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.361   969   969 D CompositionEngine: updateFodFlag FOD Add hbm_overlay
+06-27 12:50:35.362  2671  2671 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+06-27 12:50:35.363  2671  2671 D BatteryController: onReceive: Intent = Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) } action = android.intent.action.BATTERY_CHANGED
+06-27 12:50:35.377  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.378   969   969 D CompositionEngine: updateFodFlag FOD Add hbm_overlay
+06-27 12:50:35.381  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:50:35.385  2671  2671 E adTracker: Value test_channel of type java.lang.String cannot be converted to JSONObject
+06-27 12:50:35.393  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.395  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:50:35.396   969   969 D CompositionEngine: updateFodFlag FOD Add hbm_overlay
+06-27 12:50:35.410  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.412   969   969 D CompositionEngine: updateFodFlag FOD Add hbm_overlay
+06-27 12:50:35.426  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.429  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:50:35.434   969   969 D CompositionEngine: updateFodFlag FOD Add hbm_overlay
+06-27 12:50:35.443  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.449   969   969 D CompositionEngine: updateFodFlag FOD Add hbm_overlay
+06-27 12:50:35.450  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:50:35.460  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.476  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.478   969   969 D CompositionEngine: updateFodFlag FOD Add hbm_overlay
+06-27 12:50:35.481  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:50:35.494  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.496   969   969 D CompositionEngine: updateFodFlag FOD Add hbm_overlay
+06-27 12:50:35.510  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.512   969   969 D CompositionEngine: updateFodFlag FOD Add hbm_overlay
+06-27 12:50:35.517  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:50:35.526  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.528  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:50:35.543  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.557  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:50:35.560  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.578  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.578  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:50:35.593  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.609  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.611  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:50:35.626  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.643  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.647  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:50:35.660  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.668  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:50:35.675  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.692  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.694  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:50:35.697  2625  3452 D ImageGLWallpaper:  scissor: Rect(0, 0 - 1080, 2340) displayPoint: Point(1080, 2340) isScrollWithScreen: false
+06-27 12:50:35.697  2625  3452 D ImageGLWallpaper:  heightDiffRatio 0.0
+06-27 12:50:35.697  2625  3452 D ImageGLWallpaper:  widthDiffRatio 0.0
+06-27 12:50:35.697  2625  3452 D ImageGLWallpaper:  mCurrentTexCoordinate [0.0, 1.0, 1.0, 1.0, 1.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0]
+06-27 12:50:35.697  2625  3452 D KeyguardWallpaperRenderer: onDrawFrame
+06-27 12:50:35.711  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:50:35.713  2625  3452 D MiuiKeyguardPictorialWallpaper: 　scheduleFinishRendering
+06-27 12:50:35.763  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:50:35.816  1919  8333 I ActivityTaskManager: START u0 {act=android.intent.action.CALL dat=tel:xxxxx flg=0x10000000 cmp=com.android.server.telecom/.components.UserCallActivity} from uid 2000
+06-27 12:50:35.816  1919  8333 W ActivityTaskManager: Permission Denial: starting Intent { act=android.intent.action.CALL dat=tel:xxxxx flg=0x10000000 cmp=com.android.server.telecom/.components.UserCallActivity } from null (pid=29032, uid=2000) with revoked permission android.permission.CALL_PHONE
+06-27 12:50:35.777  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:50:35.817 29032 29034 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:50:35.925 16777 27668 W Settings: Setting device_provisioned has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+06-27 12:50:35.926 16777 27668 W IDM-MiConnectReport: report failure -1024 0
+06-27 12:50:35.926 16777 27668 E IDM-stat: MiotReportManager: not available becase: is_enable_disable_build: true
+06-27 12:50:35.959   794  9843 I vendor.qti.bluetooth@1.0-ibs_handler: DeviceSleep: TX Awake, Sending SLEEP_IND
+06-27 12:50:35.960   794  9843 D vendor.qti.bluetooth@1.0-ibs_handler: SerialClockVote: vote for UART CLK OFF
+06-27 12:50:36.110   794  9478 D vendor.qti.bluetooth@1.0-wake_lock: Release wakelock is released 
+06-27 12:50:36.313  3125  3125 W ThreadPoolForeg: type=1400 audit(0.0:4981): avc: denied { write } for name="traced_producer" dev="tmpfs" ino=39154 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+06-27 12:50:36.760   885   937 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.chimera.PersistentDirectBootAwareApiService and for client com.google.android.gms
+06-27 12:50:36.845  2671  2671 V KeyguardStatusView: Enable transport text marquee
+06-27 12:50:37.261  7063  8059 I bbha    : (REDACTED) getHotwordActive::active query: %s, watch: %s, devices connected: %s
+06-27 12:50:37.927  1919  8333 I ActivityTaskManager: START u0 {act=android.intent.action.CALL dat=tel:xxxxx flg=0x10000000 cmp=com.android.server.telecom/.components.UserCallActivity} from uid 2000
+06-27 12:50:37.928  1919  8333 W ActivityTaskManager: Permission Denial: starting Intent { act=android.intent.action.CALL dat=tel:xxxxx flg=0x10000000 cmp=com.android.server.telecom/.components.UserCallActivity } from null (pid=29040, uid=2000) with revoked permission android.permission.CALL_PHONE
+06-27 12:50:37.930 29040 29042 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4

@@ -1,0 +1,105 @@
+--------- beginning of main
+06-27 12:30:14.948   885   937 I vendor.qti.hardware.servicetracker@1.2-service: killProcess is called for pid : 20476
+06-27 12:30:14.948   885   937 I vendor.qti.hardware.servicetracker@1.2-service: process with pid 20476 is service
+06-27 12:30:14.948   885   937 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.android.chromeafter removal is 6
+06-27 12:30:14.948   885   937 I vendor.qti.hardware.servicetracker@1.2-service: process with pid 20476 is client
+06-27 12:30:14.948   885   937 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.chimera.GmsBoundBrokerServiceafter removal is 6
+06-27 12:30:14.948   885   937 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.android.vending/com.google.android.finsky.setup.dse.impl.DseServiceafter removal is 0
+06-27 12:30:14.948   885   937 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.chimera.PersistentBoundBrokerServiceafter removal is 5
+06-27 12:30:14.948   885   937 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.chimera.PersistentApiServiceafter removal is 16
+06-27 12:30:14.948   885   937 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.auth.GetTokenafter removal is 0
+06-27 12:30:14.948   885   937 I vendor.qti.hardware.servicetracker@1.2-service: removing client with pid 20476process namecom.android.chrome
+06-27 12:30:14.948   885   937 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.android.vending/com.google.android.finsky.setup.dse.impl.DseService
+06-27 12:30:14.948   885   937 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.google.android.gms/.auth.GetToken
+06-27 12:30:14.948   885   937 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.android.chrome/org.chromium.chrome.browser.services.gcm.ChromeGcmListenerService
+06-27 12:30:14.949  3799  3799 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.safebrowsing.SafeBrowsingService.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+06-27 12:30:14.949  1919  2134 I libprocessgroup: Successfully killed process cgroup uid 10192 pid 20476 in 75ms
+06-27 12:30:14.950   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:14.950   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:14.950   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:14.950   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:14.950   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:14.950   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:14.950   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:14.951  8346 11722 I com.xiaomi.xms: oneway function results will be dropped but finished with status UNKNOWN_TRANSACTION and parcel size 0
+06-27 12:30:14.952  1919  2385 I MiuiNetworkPolicy: removeUidState uid = 10192
+06-27 12:30:14.952  3799  3799 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.fido.fido2.firstparty.START pkg=com.google.android.gms }
+06-27 12:30:14.958 20712 20712 D ResolverListAdapter: ResolverListAdapter: com.android.internal.app.ResolverListAdapter@d19130
+06-27 12:30:14.977   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:14.977   698   698 I Zygote  : Process 18846 exited due to signal 9 (Killed)
+06-27 12:30:14.977   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:14.977   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:14.977   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:14.978   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:14.978   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:14.978   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:14.978   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: killProcess is called for pid : 18846
+--------- beginning of system
+06-27 12:30:14.978  1919  7657 W ANRStateManager: clear state, but process isn't exist. hash=16731880 uid=10183 pid=18846 state=16
+06-27 12:30:14.979  8346 11722 I com.xiaomi.xms: oneway function results will be dropped but finished with status UNKNOWN_TRANSACTION and parcel size 0
+06-27 12:30:14.981  1919  2134 I libprocessgroup: Successfully killed process cgroup uid 10183 pid 18846 in 31ms
+06-27 12:30:15.000 21599 21599 W .apps.wellbein: JIT profile information will not be recorded: profile file does not exist.
+06-27 12:30:15.006 20712 20712 D ResolverListAdapter: ResolverListAdapter: com.android.internal.app.ResolverListAdapter@e97a1a9
+06-27 12:30:15.007 21625 21628 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:30:15.021 21599 21599 I Perf    : Connecting to perf service.
+06-27 12:30:15.025  2964  2964 D RecentsImpl: mActivityStateObserver com.android.internal.app.ResolverActivity
+06-27 12:30:15.026  2964  3243 D GestureStubView: resetRenderProperty: showGestureStub
+06-27 12:30:15.026  2964  3243 D GestureStubView: showGestureStub
+06-27 12:30:15.026  2964  3243 D GestureStubView: resetRenderProperty: showGestureStub
+06-27 12:30:15.026  2964  3243 D GestureStubView: showGestureStub
+06-27 12:30:15.027   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-27 12:30:15.027   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-27 12:30:15.027   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:30:15.027   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:15.027   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:15.027   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:15.027   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:15.027   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:15.027   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-27 12:30:15.027   879   984 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:30:15.027   879   984 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-27 12:30:15.027   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-27 12:30:15.027   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:15.027   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:15.028  1919  7135 I ActivityTaskManager: The Process system:ui Already Exists in BG. So sending its PID: 20712
+06-27 12:30:15.028   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:15.028   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:15.028   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:15.028   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:15.028   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:15.028   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-27 12:30:15.028  1919  7135 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (2819620)
+06-27 12:30:15.028   879   984 I ANDR-PERF-LM: MetaMeter: isValidAsync() 194: AsyncInfo: hintID = 4225
+06-27 12:30:15.028   879   984 I ANDR-PERF-LM: hintType: 102
+06-27 12:30:15.028   879   984 I ANDR-PERF-LM: isPrimary = 0
+06-27 12:30:15.028   879   984 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 102,system:ui,20712,1919,7135)
+06-27 12:30:15.028   879   984 E ANDR-PERF-LM: MetaMeter: handleAsync() 164: AdaptLaunch Invalid Async
+06-27 12:30:15.028   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-27 12:30:15.028   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:15.028   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:15.028  1919  7135 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:30:15.028  1919  7135 D CompatibilityInfo: applicationDensity - 440
+06-27 12:30:15.028  1919  7135 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:30:15.028   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:30:15.029   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:30:15.031  1919  7135 I Timeline: Timeline: App_transition_ready time:2819841
+06-27 12:30:15.033 21599 21599 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+06-27 12:30:15.038  1919  7657 I Timeline: Timeline: App_transition_ready time:2819849
+06-27 12:30:15.033 21599 21599 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+06-27 12:30:15.039  2964  3243 D GestureStubView: gatherTransparentRegion: need render w:54  h:1404
+06-27 12:30:15.040 20712 20712 D RAInjector: getView: position 0 info: null
+06-27 12:30:15.043  1919  7657 I Timeline: Timeline: App_transition_ready time:2819854
+06-27 12:30:15.041 20712 20712 I chatty  : uid=1000 system:ui identical 3 lines
+06-27 12:30:15.041 20712 20712 D RAInjector: getView: position 0 info: null
+06-27 12:30:15.044  2964  3243 D GestureStubView: gatherTransparentRegion: need render w:54  h:1404
+06-27 12:30:15.046  1919  7098 I Timeline: Timeline: App_transition_ready time:2819857
+06-27 12:30:15.047  1919  7098 I Timeline: Timeline: App_transition_ready time:2819858
+06-27 12:30:15.049 20712 20712 D RAInjector: getView: position 0 info: null
+06-27 12:30:15.049 20712 20712 I chatty  : uid=1000 system:ui identical 3 lines
+06-27 12:30:15.050 20712 20712 D RAInjector: getView: position 0 info: null
+06-27 12:30:15.051 20712 20712 D RAInjector: getView: position 1 info: null
+06-27 12:30:15.052 20712 20712 D RAInjector: getView: position 2 info: null
+06-27 12:30:15.052 20712 20712 D RAInjector: getView: position 3 info: null
+06-27 12:30:15.055 21599 21599 I MultiDex: VM with version 2.1.0 has multidex support
+06-27 12:30:15.055 21599 21599 I MultiDex: Installing application
+06-27 12:30:15.055 21599 21599 I MultiDex: VM has multidex support, MultiDex support library is disabled.

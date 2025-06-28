@@ -1,0 +1,354 @@
+--------- beginning of main
+06-27 12:34:52.764 22410 22762 E msys    : E[N mns]_OnDiskCacheGetData(542)=>Start post callback cache refresh DNS resolution
+06-27 12:34:52.781 22410 22762 E msys    : E[N mns]_LogError(204)=>Failed to resolve using system DNS resolver, getaddrinfo(): No address associated with hostname
+06-27 12:34:52.783   847  2607 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+06-27 12:34:52.783  1560  1560 I cnss-daemon: nl80211 response handler invoked
+06-27 12:34:52.783  1560  1560 I cnss-daemon: nl80211_response_handler: cmd 103, vendorID 4980, subcmd 13  received
+--------- beginning of system
+06-27 12:34:52.838  1919  7185 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat=file:///sdcard/Music/app_a.mp3 typ=audio/* flg=0x10000000 cmp=android/com.android.internal.app.ResolverActivity} from uid 2000
+06-27 12:34:52.838  1919  7185 D MiuiMultiWindowAdapter: MiuiMultiWindowAdapter::getFreeformBlackList::sSmallWindowBlackList = [com.miui.securitycenter, com.miui.weather2, com.miui.miservice, com.android.calendar, com.xiaomi.calendar, com.android.contacts, com.miui.mishare.connectivity, com.android.settings, com.android.printspooler, com.miui.backup, com.miui.huanji, com.miui.calculator, com.android.deskclock, com.android.thememanager, com.mfashiongallery.emag, com.miui.virtualsim, com.miui.smarttravel, com.mi.health, com.android.camera, com.lbe.security.miui, com.miui.cleanmaster, com.miui.newhome, com.miui.voiceassist, com.android.phone, com.miui.yellowpage, com.android.updater, com.miui.tsmclient, com.miui.securitycore, com.xiaomi.account, com.xiaomi.shop, com.mipay.wallet, com.xiaomi.youpin, com.xiaomi.hm.health, com.miui.bugreport, com.xiaomi.mibrain.speech, com.xiaomi.mimoji, com.xiaomi.scanner, com.duokan.phone.remotecontroller, com.miui.hybrid, com.android.incallui, com.miui.video, com.miui.videoplayer, com.miui.player, com.miui.fm, com.miui.packageinstaller, com.mi.android.globallauncher, com.google.android.dialer, com.google.android.apps.magazines, com.miui.compass, com.miui.greenguard, com.kiteguard, com.google.android.apps.prodcasts, com.google.ar.lens, com.xiangkan.android, com.android.bankabc, com.sohu.inputmethod.sogou, com.tencent.mtt, com.shyz.toutiao, com.netease.mc.mi, com.outfit7.talkingtomgoldrun.mi, com.doudz.mi, com.wepie.snake.new.mi, cn.jj, com.standddz002.mi, com.miHoYo.bh3.mi, com.qqgame.hlddz, com.happyelements.AndroidAnimal, com.minitech.miniworld.TMobile.mi, com.mfp.jelly.xiaomi, com.lilithgames.afk.mi, com.tencent.peng, com.teenpatti.hd.gold, blockpuzzle.jewelgames.jewelslegend, com.playgendary.tanks, com.chillingo.robberybobfree.android.row, com.episodeinteractive.android.catalog, com.playrix.township, com.ansangha.drdriving, com.google.android.youtube, com.gbits.atm.mi]
+06-27 12:34:52.839   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-27 12:34:52.839   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-27 12:34:52.840   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:34:52.840   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:34:52.840   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:34:52.840   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:34:52.841   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:34:52.841   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-27 12:34:52.841   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-27 12:34:52.841   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:34:52.841   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:34:52.843  1919  7185 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:34:52.843  1919  7185 D CompatibilityInfo: applicationDensity - 440
+06-27 12:34:52.843  1919  7185 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:34:52.844   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:34:52.844   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:34:52.844   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:34:52.844   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:34:52.844   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:34:52.844   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:34:52.844   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-27 12:34:52.844   879   984 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:34:52.844   879   984 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-27 12:34:52.844   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-27 12:34:52.844   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:34:52.844   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:34:52.845  1919  7185 D ActivityTrigger: ActivityTrigger activityPauseTrigger 
+06-27 12:34:52.845   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-27 12:34:52.845   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:34:52.845   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:34:52.845   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:34:52.845   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:34:52.845   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:34:52.845   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-27 12:34:52.845   879   984 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:34:52.845   879   984 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-27 12:34:52.845   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-27 12:34:52.845   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:34:52.845   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:34:52.845   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-27 12:34:52.847 26354 26356 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:34:52.849   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-27 12:34:52.849   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-27 12:34:52.849   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:34:52.849   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:34:52.850   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:34:52.850   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:34:52.850   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:34:52.850   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:34:52.850   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-27 12:34:52.850   879   984 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:34:52.850   879   984 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-27 12:34:52.850   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-27 12:34:52.850   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:34:52.850   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:34:52.850  1919  8335 I ActivityTaskManager: The Process system:ui Already Exists in BG. So sending its PID: 26070
+06-27 12:34:52.850   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:34:52.850   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:34:52.850   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:34:52.850   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:34:52.850  1919  8335 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (3070777)
+06-27 12:34:52.850   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:34:52.850   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-27 12:34:52.850   879   984 I ANDR-PERF-LM: MetaMeter: isValidAsync() 194: AsyncInfo: hintID = 4225
+06-27 12:34:52.850   879   984 I ANDR-PERF-LM: hintType: 102
+06-27 12:34:52.850   879   984 I ANDR-PERF-LM: isPrimary = 0
+06-27 12:34:52.850   879   984 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 102,system:ui,26070,1919,8335)
+06-27 12:34:52.850   879   984 E ANDR-PERF-LM: MetaMeter: handleAsync() 164: AdaptLaunch Invalid Async
+06-27 12:34:52.850   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-27 12:34:52.850   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:34:52.850   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:34:52.851  1919  8335 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:34:52.851  1919  8335 D CompatibilityInfo: applicationDensity - 440
+06-27 12:34:52.851  1919  8335 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:34:52.851   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:34:52.857  1919  8335 I Timeline: Timeline: App_transition_ready time:3097667
+06-27 12:34:52.851   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:34:52.916 26070 26070 D ResolverListAdapter: ResolverListAdapter: com.android.internal.app.ResolverListAdapter@c8dcce0
+06-27 12:34:52.925 26070 26070 D MiShareTransmissionView: initScreenView is false
+06-27 12:34:52.936 26070 26111 D ResolverListAdapter: on doInBackground!!!!
+06-27 12:34:52.936 26070 26111 D AbstractResolverComp: Setting watchdog timer for 500ms
+06-27 12:34:52.937 26070 26070 D ResolverListAdapter: getItem: position 0 mDisplayList.size(): 0
+06-27 12:34:52.937 26070 26070 D ResolverListAdapter: getItem: position 1 mDisplayList.size(): 0
+06-27 12:34:52.937 26070 26070 D ResolverListAdapter: getItem: position 2 mDisplayList.size(): 0
+06-27 12:34:52.937 26070 26070 D ResolverListAdapter: getItem: position 3 mDisplayList.size(): 0
+06-27 12:34:52.937   885   937 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.ext.services/android.ext.services.resolver.LRResolverRankerService and for client system:ui
+06-27 12:34:52.937   885   937 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.ext.services/android.ext.services.resolver.LRResolverRankerServiceare :1
+06-27 12:34:52.937   885   937 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : system:uiare :1
+06-27 12:34:52.955  9395 21030 I SCTaskStackListener: onTaskStackChanged! inSplit = false
+06-27 12:34:52.955  9395 10779 I SCTaskStackListener: onTaskStackChanged! inSplit = false
+06-27 12:34:52.955  2671  2671 D AppMiniWindowManager: topActivity updated in onTaskStackChanged
+06-27 12:34:52.975 26070 26070 D ResolverListAdapter: ResolverListAdapter: com.android.internal.app.ResolverListAdapter@9928ef4
+06-27 12:34:53.025  1919  1940 W System  : A resource failed to call release. 
+06-27 12:34:53.025  1919  1940 I chatty  : uid=1000(system) FinalizerDaemon identical 4 lines
+06-27 12:34:53.025  1919  1940 W System  : A resource failed to call release. 
+06-27 12:34:53.028 26070 26070 D ResolverListAdapter: ResolverListAdapter: com.android.internal.app.ResolverListAdapter@fad661d
+06-27 12:34:53.048  2964  2964 D RecentsImpl: mActivityStateObserver com.android.internal.app.ResolverActivity
+06-27 12:34:53.049  2964  3243 D GestureStubView: resetRenderProperty: showGestureStub
+06-27 12:34:53.049  2964  3243 D GestureStubView: showGestureStub
+06-27 12:34:53.049  2964  3243 D GestureStubView: resetRenderProperty: showGestureStub
+06-27 12:34:53.049  2964  3243 D GestureStubView: showGestureStub
+06-27 12:34:53.051 26070 26070 D RAInjector: getView: position 0 info: null
+06-27 12:34:53.054  1919  8335 I Timeline: Timeline: App_transition_ready time:3097865
+06-27 12:34:53.055  1919  8335 I Timeline: Timeline: App_transition_ready time:3097866
+06-27 12:34:53.058 26070 26070 I chatty  : uid=1000 system:ui identical 8 lines
+06-27 12:34:53.058 26070 26070 D RAInjector: getView: position 0 info: null
+06-27 12:34:53.059 26070 26070 D RAInjector: getView: position 1 info: null
+06-27 12:34:53.059 26070 26070 D RAInjector: getView: position 2 info: null
+06-27 12:34:53.060 26070 26070 D RAInjector: getView: position 3 info: null
+06-27 12:34:53.066  1919  8334 I Timeline: Timeline: App_transition_ready time:3097877
+06-27 12:34:53.067  2964  3243 D GestureStubView: gatherTransparentRegion: need render w:54  h:1404
+06-27 12:34:53.068   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:34:53.068   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:34:53.068   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:34:53.068   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:34:53.068   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:34:53.068   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:34:53.068   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:34:53.069  1919  2107 I Timeline: Timeline: App_transition_ready time:3097879
+06-27 12:34:53.069  1919  2107 I Timeline: Timeline: Activity_windows_visible id: ActivityRecord{711be5e u0 android/com.android.internal.app.ResolverActivity t27378} time:3097880
+06-27 12:34:53.069  1919  2107 I Timeline: Timeline: App_transition_stopped time:3097880
+06-27 12:34:53.069  1919  2119 I ActivityTaskManager: Displayed android/com.android.internal.app.ResolverActivity: +232ms
+06-27 12:34:53.069   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:34:53.069   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:34:53.069   879   879 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:34:53.069   879   879 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-27 12:34:53.069   879   879 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:android feature:AppClassifier feedback = 0
+06-27 12:34:53.071 26070 26070 D AbstractResolverComp: RANKER_SERVICE_RESULT
+06-27 12:34:53.072  2671  3038 D MiuiPhoneStatusBarPolicy: updateManagedProfile: secondSpace = false
+06-27 12:34:53.073  2964  3243 D GestureStubView: gatherTransparentRegion: need render w:54  h:1404
+06-27 12:34:53.084 26070 26070 D ResolverListAdapter: on PostExecute!!!!
+06-27 12:34:53.084 26070 26070 D ResolverListAdapter: processSortedlist: ResolveInfo{d53fe03 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:34:53.084 26070 26070 I ResolverListAdapter: Add DisplayResolveInfo component: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}, intent component: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:34:53.084 26070 26070 D ResolverListAdapter: addResolveInfo: ResolveInfo{d53fe03 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:34:53.084 26070 26070 D ResolverListAdapter: mDisplayList: 1
+06-27 12:34:53.084 26070 26070 D ResolverListAdapter: processSortedlist: ResolveInfo{d7a4180 com.mxtech.videoplayer.ad/.ActivityPipScreen m=0x608000}
+06-27 12:34:53.085 26070 26070 I ResolverListAdapter: Add DisplayResolveInfo component: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityPipScreen}, intent component: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityPipScreen}
+06-27 12:34:53.085 26070 26070 D ResolverListAdapter: addResolveInfo: ResolveInfo{d7a4180 com.mxtech.videoplayer.ad/.ActivityPipScreen m=0x608000}
+06-27 12:34:53.085 26070 26070 D ResolverListAdapter: mDisplayList: 2
+06-27 12:34:53.085 26070 26070 D ResolverListAdapter: processSortedlist: ResolveInfo{60313b9 com.miui.player/.phone.ui.AudioPreview m=0x608000}
+06-27 12:34:53.085 26070 26070 I ResolverListAdapter: Add DisplayResolveInfo component: ComponentInfo{com.miui.player/com.miui.player.phone.ui.AudioPreview}, intent component: ComponentInfo{com.miui.player/com.miui.player.phone.ui.AudioPreview}
+06-27 12:34:53.085 26070 26070 D ResolverListAdapter: addResolveInfo: ResolveInfo{60313b9 com.miui.player/.phone.ui.AudioPreview m=0x608000}
+06-27 12:34:53.085 26070 26070 D ResolverListAdapter: mDisplayList: 3
+06-27 12:34:53.085 26070 26070 D ResolverListAdapter: processSortedlist: ResolveInfo{967f3fe com.bsbportal.music/.activities.LauncherScreenActivity m=0x608000}
+06-27 12:34:53.085 26070 26070 I ResolverListAdapter: Add DisplayResolveInfo component: ComponentInfo{com.bsbportal.music/com.bsbportal.music.activities.LauncherScreenActivity}, intent component: ComponentInfo{com.bsbportal.music/com.bsbportal.music.activities.LauncherScreenActivity}
+06-27 12:34:53.085 26070 26070 D ResolverListAdapter: addResolveInfo: ResolveInfo{967f3fe com.bsbportal.music/.activities.LauncherScreenActivity m=0x608000}
+06-27 12:34:53.085 26070 26070 D ResolverListAdapter: mDisplayList: 4
+06-27 12:34:53.087 26070 26070 D ResolverListAdapter: getItem: position 0 mDisplayList.size(): 4
+06-27 12:34:53.087 26070 26070 D ResolverListAdapter: getItem: position 1 mDisplayList.size(): 4
+06-27 12:34:53.087 26070 26070 D ResolverListAdapter: getItem: position 2 mDisplayList.size(): 4
+06-27 12:34:53.087 26070 26070 D ResolverListAdapter: getItem: position 3 mDisplayList.size(): 4
+06-27 12:34:53.088 26070 26070 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@6db4e44
+06-27 12:34:53.088 26070 26070 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:34:53.088 26070 26070 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:34:53.088 26070 26111 D RAInjector: LoadIconTask::doInBackground ResolveInfo{d53fe03 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:34:53.090  4070  4070 I GoogleInputMethodService: GoogleInputMethodService.onFinishInput():1984 
+06-27 12:34:53.091  4070  4070 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 0, locked = false
+06-27 12:34:53.091  4070  4070 I GoogleInputMethodService: GoogleInputMethodService.onStartInput():1248 onStartInput(EditorInfo{EditorInfo{packageName=android, inputType=0, inputTypeString=NULL, enableLearning=false, autoCorrection=false, autoComplete=false, imeOptions=0, privateImeOptions=null, actionName=UNSPECIFIED, actionLabel=null, initialSelStart=-1, initialSelEnd=-1, initialCapsMode=0, label=null, fieldId=-1, fieldName=null, extras=null, hintText=null, hintLocales=[]}}, false)
+06-27 12:34:53.091  4070  4070 I Module  : DeviceLockedStatusModuleProvider$Module.updateDeviceLockedStatus():100 repeatCheckTimes = 1, locked = false
+06-27 12:34:53.098 26070 26070 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@6db4e44
+06-27 12:34:53.098 26070 26070 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:34:53.098 26070 26070 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:34:53.098 26070 26111 D RAInjector: LoadIconTask::doInBackground ResolveInfo{d53fe03 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:34:53.098 26070 26070 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@6db4e44
+06-27 12:34:53.098 26070 26070 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:34:53.098 26070 26070 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:34:53.099 26070 26070 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@6db4e44
+06-27 12:34:53.099 26070 26070 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:34:53.099 26070 26070 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:34:53.099 26070 26070 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@6db4e44
+06-27 12:34:53.099 26070 26070 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:34:53.099 26070 26070 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:34:53.100 26070 26360 D RAInjector: LoadIconTask::doInBackground ResolveInfo{d53fe03 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:34:53.101 26070 26111 D RAInjector: LoadIconTask::doInBackground ResolveInfo{d53fe03 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:34:53.101 26070 26070 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@6db4e44
+06-27 12:34:53.102 26070 26070 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:34:53.102 26070 26070 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:34:53.102 26070 26070 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@6db4e44
+06-27 12:34:53.102 26070 26070 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:34:53.102 26070 26070 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:34:53.102 26070 26070 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@6db4e44
+06-27 12:34:53.102 26070 26360 D RAInjector: LoadIconTask::doInBackground ResolveInfo{d53fe03 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:34:53.102 26070 26070 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:34:53.102 26070 26070 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:34:53.102 26070 26070 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@6db4e44
+06-27 12:34:53.102 26070 26070 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:34:53.102 26070 26070 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:34:53.102 26070 26070 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@6db4e44
+06-27 12:34:53.102 26070 26070 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:34:53.102 26070 26070 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:34:53.102 26070 26111 D RAInjector: LoadIconTask::doInBackground ResolveInfo{d53fe03 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:34:53.103 26070 26360 D RAInjector: LoadIconTask::doInBackground ResolveInfo{d53fe03 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:34:53.103 26070 26070 D RAInjector: getView: position 1 info: com.android.internal.app.chooser.DisplayResolveInfo@54421dc
+06-27 12:34:53.103 26070 26070 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityPipScreen}
+06-27 12:34:53.103 26070 26070 D RAInjector: info.getDisplayLabel: MX Pop-up mode hasDisplayIcon: false position: 1
+06-27 12:34:53.103 26070 26111 D RAInjector: LoadIconTask::doInBackground ResolveInfo{d53fe03 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:34:53.103 26070 26360 D RAInjector: LoadIconTask::doInBackground ResolveInfo{d53fe03 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:34:53.103 26070 26070 D RAInjector: getView: position 2 info: com.android.internal.app.chooser.DisplayResolveInfo@6886047
+06-27 12:34:53.104 26070 26070 D RAInjector: bindView: ComponentInfo{com.miui.player/com.miui.player.phone.ui.AudioPreview}
+06-27 12:34:53.104 26070 26070 D RAInjector: info.getDisplayLabel: Music hasDisplayIcon: false position: 2
+06-27 12:34:53.104 26070 26111 D RAInjector: LoadIconTask::doInBackground ResolveInfo{d53fe03 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:34:53.104 26070 26070 D RAInjector: getView: position 3 info: com.android.internal.app.chooser.DisplayResolveInfo@241495e
+06-27 12:34:53.104 26070 26360 D RAInjector: LoadIconTask::doInBackground ResolveInfo{d7a4180 com.mxtech.videoplayer.ad/.ActivityPipScreen m=0x608000}
+06-27 12:34:53.104 26070 26070 D RAInjector: bindView: ComponentInfo{com.bsbportal.music/com.bsbportal.music.activities.LauncherScreenActivity}
+06-27 12:34:53.104 26070 26070 D RAInjector: info.getDisplayLabel: Wynk Music hasDisplayIcon: false position: 3
+06-27 12:34:53.105 26070 26111 D RAInjector: LoadIconTask::doInBackground ResolveInfo{60313b9 com.miui.player/.phone.ui.AudioPreview m=0x608000}
+06-27 12:34:53.105 26070 26360 D RAInjector: LoadIconTask::doInBackground ResolveInfo{967f3fe com.bsbportal.music/.activities.LauncherScreenActivity m=0x608000}
+06-27 12:34:53.114 26070 26070 D RAInjector: LoadIconTask::onPostExecute ResolveInfo{d53fe03 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:34:53.115 26070 26070 I chatty  : uid=1000 system:ui identical 8 lines
+06-27 12:34:53.115 26070 26070 D RAInjector: LoadIconTask::onPostExecute ResolveInfo{d53fe03 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:34:53.115 26070 26070 D RAInjector: LoadIconTask::onPostExecute ResolveInfo{d7a4180 com.mxtech.videoplayer.ad/.ActivityPipScreen m=0x608000}
+06-27 12:34:53.115 26070 26070 D RAInjector: LoadIconTask::onPostExecute ResolveInfo{60313b9 com.miui.player/.phone.ui.AudioPreview m=0x608000}
+06-27 12:34:53.115 26070 26070 D RAInjector: LoadIconTask::onPostExecute ResolveInfo{967f3fe com.bsbportal.music/.activities.LauncherScreenActivity m=0x608000}
+06-27 12:34:53.116 26070 26070 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@6db4e44
+06-27 12:34:53.116 26070 26070 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:34:53.116 26070 26070 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: true position: 0
+06-27 12:34:53.116 26070 26070 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@6db4e44
+06-27 12:34:53.116 26070 26070 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:34:53.116 26070 26070 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: true position: 0
+06-27 12:34:53.116 26070 26070 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@6db4e44
+06-27 12:34:53.116 26070 26070 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:34:53.116 26070 26070 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: true position: 0
+06-27 12:34:53.116 26070 26070 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@6db4e44
+06-27 12:34:53.116 26070 26070 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:34:53.116 26070 26070 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: true position: 0
+06-27 12:34:53.118 26070 26070 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@6db4e44
+06-27 12:34:53.118 26070 26070 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:34:53.118 26070 26070 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: true position: 0
+06-27 12:34:53.119 26070 26070 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@6db4e44
+06-27 12:34:53.119 26070 26070 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:34:53.119 26070 26070 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: true position: 0
+06-27 12:34:53.119 26070 26070 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@6db4e44
+06-27 12:34:53.119 26070 26070 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:34:53.119 26070 26070 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: true position: 0
+06-27 12:34:53.119 26070 26070 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@6db4e44
+06-27 12:34:53.119 26070 26070 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:34:53.119 26070 26070 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: true position: 0
+06-27 12:34:53.119 26070 26070 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@6db4e44
+06-27 12:34:53.119 26070 26070 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:34:53.119 26070 26070 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: true position: 0
+06-27 12:34:53.119 26070 26070 D RAInjector: getView: position 1 info: com.android.internal.app.chooser.DisplayResolveInfo@54421dc
+06-27 12:34:53.119 26070 26070 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityPipScreen}
+06-27 12:34:53.119 26070 26070 D RAInjector: info.getDisplayLabel: MX Pop-up mode hasDisplayIcon: true position: 1
+06-27 12:34:53.119 26070 26070 D RAInjector: getView: position 2 info: com.android.internal.app.chooser.DisplayResolveInfo@6886047
+06-27 12:34:53.119 26070 26070 D RAInjector: bindView: ComponentInfo{com.miui.player/com.miui.player.phone.ui.AudioPreview}
+06-27 12:34:53.119 26070 26070 D RAInjector: info.getDisplayLabel: Music hasDisplayIcon: true position: 2
+06-27 12:34:53.119 26070 26070 D RAInjector: getView: position 3 info: com.android.internal.app.chooser.DisplayResolveInfo@241495e
+06-27 12:34:53.119 26070 26070 D RAInjector: bindView: ComponentInfo{com.bsbportal.music/com.bsbportal.music.activities.LauncherScreenActivity}
+06-27 12:34:53.119 26070 26070 D RAInjector: info.getDisplayLabel: Wynk Music hasDisplayIcon: true position: 3
+06-27 12:34:54.001 19739 19813 I PlayCommon: [1160] Preparing logs for uploading
+06-27 12:34:54.010 19739 19813 I PlayCommon: [1160] Connecting to server for timestamp: https://play.googleapis.com/play/log/timestamp
+06-27 12:34:54.350  1919  6942 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+06-27 12:34:54.784  1560  1560 I cnss-daemon: nl80211 response handler invoked
+06-27 12:34:54.784  1560  1560 I cnss-daemon: nl80211_response_handler: cmd 103, vendorID 4980, subcmd 13  received
+06-27 12:34:54.784   847  2607 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+06-27 12:34:54.968  1919  7657 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat=file:///sdcard/Music/app_b.mp3 typ=audio/* flg=0x10000000 cmp=android/com.android.internal.app.ResolverActivity} from uid 2000
+06-27 12:34:54.968  1919  7657 D MiuiMultiWindowAdapter: MiuiMultiWindowAdapter::getFreeformBlackList::sSmallWindowBlackList = [com.miui.securitycenter, com.miui.weather2, com.miui.miservice, com.android.calendar, com.xiaomi.calendar, com.android.contacts, com.miui.mishare.connectivity, com.android.settings, com.android.printspooler, com.miui.backup, com.miui.huanji, com.miui.calculator, com.android.deskclock, com.android.thememanager, com.mfashiongallery.emag, com.miui.virtualsim, com.miui.smarttravel, com.mi.health, com.android.camera, com.lbe.security.miui, com.miui.cleanmaster, com.miui.newhome, com.miui.voiceassist, com.android.phone, com.miui.yellowpage, com.android.updater, com.miui.tsmclient, com.miui.securitycore, com.xiaomi.account, com.xiaomi.shop, com.mipay.wallet, com.xiaomi.youpin, com.xiaomi.hm.health, com.miui.bugreport, com.xiaomi.mibrain.speech, com.xiaomi.mimoji, com.xiaomi.scanner, com.duokan.phone.remotecontroller, com.miui.hybrid, com.android.incallui, com.miui.video, com.miui.videoplayer, com.miui.player, com.miui.fm, com.miui.packageinstaller, com.mi.android.globallauncher, com.google.android.dialer, com.google.android.apps.magazines, com.miui.compass, com.miui.greenguard, com.kiteguard, com.google.android.apps.prodcasts, com.google.ar.lens, com.xiangkan.android, com.android.bankabc, com.sohu.inputmethod.sogou, com.tencent.mtt, com.shyz.toutiao, com.netease.mc.mi, com.outfit7.talkingtomgoldrun.mi, com.doudz.mi, com.wepie.snake.new.mi, cn.jj, com.standddz002.mi, com.miHoYo.bh3.mi, com.qqgame.hlddz, com.happyelements.AndroidAnimal, com.minitech.miniworld.TMobile.mi, com.mfp.jelly.xiaomi, com.lilithgames.afk.mi, com.tencent.peng, com.teenpatti.hd.gold, blockpuzzle.jewelgames.jewelslegend, com.playgendary.tanks, com.chillingo.robberybobfree.android.row, com.episodeinteractive.android.catalog, com.playrix.township, com.ansangha.drdriving, com.google.android.youtube, com.gbits.atm.mi]
+06-27 12:34:54.969   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-27 12:34:54.969   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-27 12:34:54.970   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:34:54.970   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:34:54.970   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:34:54.970   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:34:54.971   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:34:54.971   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-27 12:34:54.971   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-27 12:34:54.971   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:34:54.971   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:34:54.973  1919  7657 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:34:54.973  1919  7657 D CompatibilityInfo: applicationDensity - 440
+06-27 12:34:54.973  1919  7657 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:34:54.973   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:34:54.973   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:34:54.973   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:34:54.973   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:34:54.973   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:34:54.973   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:34:54.973   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-27 12:34:54.973   879   984 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:34:54.974   879   984 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-27 12:34:54.974   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-27 12:34:54.974   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:34:54.974   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:34:54.974  1919  7657 D ActivityTrigger: ActivityTrigger activityPauseTrigger 
+06-27 12:34:54.974   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-27 12:34:54.974   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:34:54.974   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:34:54.974   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:34:54.974   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:34:54.974   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:34:54.974   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-27 12:34:54.974   879   984 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:34:54.974   879   984 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-27 12:34:54.974   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-27 12:34:54.974   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:34:54.974   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:34:54.974   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-27 12:34:54.976 26368 26370 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:34:54.978   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-27 12:34:54.978   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-27 12:34:54.978   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:34:54.978   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:34:54.978   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:34:54.978   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:34:54.978   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:34:54.978   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:34:54.978   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-27 12:34:54.978   879   984 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:34:54.978   879   984 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-27 12:34:54.979   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-27 12:34:54.979   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:34:54.979   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:34:54.979  1919  7212 I ActivityTaskManager: The Process system:ui Already Exists in BG. So sending its PID: 26070
+06-27 12:34:54.979   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:34:54.979   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:34:54.979   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:34:54.979   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:34:54.979   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:34:54.979   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-27 12:34:54.979  1919  7212 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (3097662)
+06-27 12:34:54.979   879   984 I ANDR-PERF-LM: MetaMeter: isValidAsync() 194: AsyncInfo: hintID = 4225
+06-27 12:34:54.979   879   984 I ANDR-PERF-LM: hintType: 102
+06-27 12:34:54.979   879   984 I ANDR-PERF-LM: isPrimary = 0
+06-27 12:34:54.979   879   984 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 102,system:ui,26070,1919,7212)
+06-27 12:34:54.979   879   984 E ANDR-PERF-LM: MetaMeter: handleAsync() 164: AdaptLaunch Invalid Async
+06-27 12:34:54.979   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-27 12:34:54.979   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:34:54.979   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:34:54.979  1919  7212 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:34:54.979  1919  7212 D CompatibilityInfo: applicationDensity - 440
+06-27 12:34:54.979  1919  7212 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:34:54.980   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:34:54.983  1919  7212 I Timeline: Timeline: App_transition_ready time:3099794
+06-27 12:34:54.980   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:34:54.990   969   969 W SurfaceFlingerInspector: slow HwComposer, duration=5s, total=107, timeOut=4, Max=14ms, timeOutAvg=9ms.
+06-27 12:34:54.998  9395  9395 I PowerSaveService: onReceive: android.intent.action.BATTERY_CHANGED
+06-27 12:34:54.999  2671  2671 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+06-27 12:34:54.999  2671  2671 D BatteryController: onReceive: Intent = Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) } action = android.intent.action.BATTERY_CHANGED
+06-27 12:34:55.000  2841  2841 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+06-27 12:34:55.000  9395  9395 I PowerNoticeUI: handleBatteryChanged oldPlugType 2 mPlugType 2 oldBatteryLevel 34 mBatteryLevel 34 temperature 267
+06-27 12:34:55.000  9395  9395 I ChargerBatteryIntelligenceReceiver: onBatteryChanged temperature：26,plugType:2
+06-27 12:34:55.000  9395  9395 I PowerFeatureUtils: getVendorName:qcom
+06-27 12:34:55.000  9739  9968 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 34, status = 2, level = 34, plug = 2, scale = 100
+06-27 12:34:55.001  2881  2881 D DeviceStatisticsService: chargerType=2 batteryLevel=34 totalBatteryCapacity=2236200
+06-27 12:34:55.021 19739 19813 I PlayCommon: [1160] Connecting to server: https://play.googleapis.com/play/log?format=raw&proto_v2=true

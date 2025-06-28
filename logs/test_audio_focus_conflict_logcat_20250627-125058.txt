@@ -1,0 +1,257 @@
+--------- beginning of main
+06-27 12:50:56.039  3385  3385 I NotificationController: onNotificationPosted: mSmartTravelNotificationMap 0
+06-27 12:50:56.052  2671  2671 D InterruptionStateProvider: No bubble up: not allowed to bubble: 0|com.android.shell|2020|test_channel|2000
+06-27 12:50:56.053  2671  2671 D InterruptionStateProvider: No pulsing: disabled by setting: 0|com.android.shell|2020|test_channel|2000
+06-27 12:50:56.065   943  3237 D APM::AudioPolicyEngine: XXX -4: getDeviceForStrategyInt() STRATEGY_SONIFICATION_RESPECTFUL :Use STRATEGY_SONIFICATION to getDevice
+06-27 12:50:56.067  1919  3081 I QuietUtils: type:5, flags:0, cpkg:android
+--------- beginning of system
+06-27 12:50:56.104  1919  3081 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat=file:///sdcard/Music/app_a.mp3 typ=audio/* flg=0x10000000 cmp=android/com.android.internal.app.ResolverActivity} from uid 2000
+06-27 12:50:56.104  1919  3081 D MiuiMultiWindowAdapter: MiuiMultiWindowAdapter::getFreeformBlackList::sSmallWindowBlackList = [com.miui.securitycenter, com.miui.weather2, com.miui.miservice, com.android.calendar, com.xiaomi.calendar, com.android.contacts, com.miui.mishare.connectivity, com.android.settings, com.android.printspooler, com.miui.backup, com.miui.huanji, com.miui.calculator, com.android.deskclock, com.android.thememanager, com.mfashiongallery.emag, com.miui.virtualsim, com.miui.smarttravel, com.mi.health, com.android.camera, com.lbe.security.miui, com.miui.cleanmaster, com.miui.newhome, com.miui.voiceassist, com.android.phone, com.miui.yellowpage, com.android.updater, com.miui.tsmclient, com.miui.securitycore, com.xiaomi.account, com.xiaomi.shop, com.mipay.wallet, com.xiaomi.youpin, com.xiaomi.hm.health, com.miui.bugreport, com.xiaomi.mibrain.speech, com.xiaomi.mimoji, com.xiaomi.scanner, com.duokan.phone.remotecontroller, com.miui.hybrid, com.android.incallui, com.miui.video, com.miui.videoplayer, com.miui.player, com.miui.fm, com.miui.packageinstaller, com.mi.android.globallauncher, com.google.android.dialer, com.google.android.apps.magazines, com.miui.compass, com.miui.greenguard, com.kiteguard, com.google.android.apps.prodcasts, com.google.ar.lens, com.xiangkan.android, com.android.bankabc, com.sohu.inputmethod.sogou, com.tencent.mtt, com.shyz.toutiao, com.netease.mc.mi, com.outfit7.talkingtomgoldrun.mi, com.doudz.mi, com.wepie.snake.new.mi, cn.jj, com.standddz002.mi, com.miHoYo.bh3.mi, com.qqgame.hlddz, com.happyelements.AndroidAnimal, com.minitech.miniworld.TMobile.mi, com.mfp.jelly.xiaomi, com.lilithgames.afk.mi, com.tencent.peng, com.teenpatti.hd.gold, blockpuzzle.jewelgames.jewelslegend, com.playgendary.tanks, com.chillingo.robberybobfree.android.row, com.episodeinteractive.android.catalog, com.playrix.township, com.ansangha.drdriving, com.google.android.youtube, com.gbits.atm.mi]
+06-27 12:50:56.105   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-27 12:50:56.105   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-27 12:50:56.106   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:50:56.106   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:50:56.106   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=9
+06-27 12:50:56.106   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=10
+06-27 12:50:56.106   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:50:56.106   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:50:56.106   879   879 W ANDR-PERF-LM: WQ: push() 54: LMTriggerQ push() size=10 mFlushThreshold=10, Reached threshold => flooding detected, clearing Queue
+06-27 12:50:56.106   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:50:56.106   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:50:56.106   879   879 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:50:56.106   879   879 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-27 12:50:56.106   879   879 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:android feature:AppClassifier feedback = 0
+06-27 12:50:56.107   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:50:56.107   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:50:56.107   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:50:56.107   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:50:56.107  1919  3081 E ANDR-PERF-JNI: com_qualcomm_qtiperformance_native_perf_io_prefetch_start
+06-27 12:50:56.112   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:50:56.112   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:50:56.112   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=1
+06-27 12:50:56.112   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=2
+06-27 12:50:56.112   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:50:56.112   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:50:56.112   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=2
+06-27 12:50:56.112   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=3
+06-27 12:50:56.114  1919  3081 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:50:56.114  1919  3081 D CompatibilityInfo: applicationDensity - 440
+06-27 12:50:56.114  1919  3081 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:50:56.115   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:50:56.115   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:50:56.115   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:50:56.115   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=3
+06-27 12:50:56.115   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=4
+06-27 12:50:56.116  1919  3081 I ActivityTaskManager: The Process system:ui Already Exists in BG. So sending its PID: 28683
+06-27 12:50:56.116   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:50:56.116   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:50:56.116   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=4
+06-27 12:50:56.116   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=5
+06-27 12:50:56.116  1919  3081 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (4058511)
+06-27 12:50:56.117  1919  3081 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:50:56.117  1919  3081 D CompatibilityInfo: applicationDensity - 440
+06-27 12:50:56.117  1919  3081 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:50:56.118   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:50:56.118   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:50:56.119   876   907 E ANDR-IOP: io prefetch is disabled
+06-27 12:50:56.119  1919  3081 D ActivityTrigger: ActivityTrigger activityPauseTrigger 
+06-27 12:50:56.119   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-27 12:50:56.119   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:50:56.119   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:50:56.119   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=5
+06-27 12:50:56.119   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=6
+06-27 12:50:56.120   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-27 12:50:56.124  1919  3081 I Timeline: Timeline: App_transition_ready time:4060934
+06-27 12:50:56.125 29332 29334 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:50:56.130  8346  8383 D PMonitor:  onForegroundActivitiesChanged:pid = 28683,activity-uid=1000,foregroundActivities=true
+06-27 12:50:56.137  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10099, uidState = 16
+06-27 12:50:56.137  8346  8383 D PMonitor:  onForegroundActivitiesChanged:pid = 20959,activity-uid=10099,foregroundActivities=false
+06-27 12:50:56.316 28683 28683 D ResolverListAdapter: ResolverListAdapter: com.android.internal.app.ResolverListAdapter@58eadd4
+06-27 12:50:56.345 28683 28683 D MiShareTransmissionView: initScreenView is false
+06-27 12:50:56.383 28683 28990 D ResolverListAdapter: on doInBackground!!!!
+06-27 12:50:56.383 28683 28990 D AbstractResolverComp: Setting watchdog timer for 500ms
+06-27 12:50:56.387   885   937 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.ext.services/android.ext.services.resolver.LRResolverRankerService and for client system:ui
+06-27 12:50:56.387   885   937 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.ext.services/android.ext.services.resolver.LRResolverRankerServiceare :1
+06-27 12:50:56.387   885   937 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : system:uiare :1
+06-27 12:50:56.387 28683 28683 D ResolverListAdapter: getItem: position 0 mDisplayList.size(): 0
+06-27 12:50:56.387 28683 28683 D ResolverListAdapter: getItem: position 1 mDisplayList.size(): 0
+06-27 12:50:56.387 28683 28683 D ResolverListAdapter: getItem: position 2 mDisplayList.size(): 0
+06-27 12:50:56.387 28683 28683 D ResolverListAdapter: getItem: position 3 mDisplayList.size(): 0
+06-27 12:50:56.387  1919  7131 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:50:56.387  1919  7131 D CompatibilityInfo: applicationDensity - 440
+06-27 12:50:56.387  1919  7131 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:50:56.388   885   937 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.google.android.ext.services/android.ext.services.resolver.LRResolverRankerService
+06-27 12:50:56.391  1919  6942 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+06-27 12:50:56.402  3385  4067 I NotificationController: getSortedKey: size 3
+06-27 12:50:56.402  3385  4067 I NotificationController: getSortedKey: -1|android|26|null|1000__0|com.android.shell|2020|test_channel|2000__-1|android|32|null|1000__
+06-27 12:50:56.411  3385  4067 I NotificationController: printNotificationData: notificationDataList 3
+06-27 12:50:56.411  3385  4067 I NotificationController: { mPackageName: android mClassName  mIsForegroundService false}
+06-27 12:50:56.411  3385  4067 I NotificationController: { mPackageName: com.android.shell mClassName  mIsForegroundService false}
+06-27 12:50:56.411  3385  4067 I NotificationController: { mPackageName: android mClassName  mIsForegroundService false}
+06-27 12:50:56.490 28683 28683 D ResolverListAdapter: ResolverListAdapter: com.android.internal.app.ResolverListAdapter@a0d488d
+06-27 12:50:56.572   885   937 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.measurement.service.MeasurementBrokerService and for client com.miui.msa.global:ui
+06-27 12:50:56.572   885   937 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.measurement.service.MeasurementBrokerServiceafter removal is 1
+06-27 12:50:56.572   885   937 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.miui.msa.global:uiafter removal is 0
+06-27 12:50:56.574 28683 28683 D ResolverListAdapter: ResolverListAdapter: com.android.internal.app.ResolverListAdapter@dd10a42
+06-27 12:50:56.621  1919  2106 W ActivityTaskManager: Activity top resumed state loss timeout for ActivityRecord{d13a48d u0 android/com.android.internal.app.ResolverActivity t27390}
+06-27 12:50:56.622  1919  2106 W ActivityTaskManager: Activity pause timeout for ActivityRecord{d13a48d u0 android/com.android.internal.app.ResolverActivity t27390}
+06-27 12:50:56.622   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-27 12:50:56.622   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-27 12:50:56.624   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 5
+06-27 12:50:56.624   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 5
+06-27 12:50:56.636  2964  2964 D RecentsImpl: mActivityStateObserver com.android.internal.app.ResolverActivity
+06-27 12:50:56.637 28683 28683 W Looper  : PerfMonitor looperActivity : package=android/com.android.internal.app.ResolverActivity time=0ms latency=518ms running=0ms  procState=12 ClientTransaction{ callbacks=[android.app.servertransaction.TopResumedActivityChangeItem] } historyMsgCount=2 (msgIndex=1 wall=518ms seq=231 running=199ms runnable=7ms binder=321ms h=android.app.ActivityThread$H w=159)
+06-27 12:50:56.637 28683 28683 W Looper  : PerfMonitor looperActivity : package=android/com.android.internal.app.ResolverActivity time=0ms latency=517ms running=0ms  procState=12 ClientTransaction{ callbacks=[android.app.servertransaction.TopResumedActivityChangeItem] } historyMsgCount=3 (msgIndex=1 wall=518ms seq=231 running=199ms runnable=7ms binder=321ms h=android.app.ActivityThread$H w=159)
+06-27 12:50:56.638 28683 28683 W Looper  : PerfMonitor looperActivity : package=android/com.android.internal.app.ResolverActivity time=1ms latency=517ms running=1ms  procState=12 ClientTransaction{ lifecycleRequest=android.app.servertransaction.PauseActivityItem } historyMsgCount=4 (msgIndex=1 wall=518ms seq=231 running=199ms runnable=7ms binder=321ms h=android.app.ActivityThread$H w=159)
+06-27 12:50:56.639 28683 28683 D ResolverListAdapter: on PostExecute!!!!
+06-27 12:50:56.639 28683 28683 D ResolverListAdapter: processSortedlist: ResolveInfo{2316a75 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:50:56.640 28683 28683 I ResolverListAdapter: Add DisplayResolveInfo component: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}, intent component: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:50:56.640 28683 28683 D ResolverListAdapter: addResolveInfo: ResolveInfo{2316a75 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:50:56.640 28683 28683 D ResolverListAdapter: mDisplayList: 1
+06-27 12:50:56.640 28683 28683 D ResolverListAdapter: processSortedlist: ResolveInfo{8f82a0a com.mxtech.videoplayer.ad/.ActivityPipScreen m=0x608000}
+06-27 12:50:56.640 28683 28683 I ResolverListAdapter: Add DisplayResolveInfo component: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityPipScreen}, intent component: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityPipScreen}
+06-27 12:50:56.640 28683 28683 D ResolverListAdapter: addResolveInfo: ResolveInfo{8f82a0a com.mxtech.videoplayer.ad/.ActivityPipScreen m=0x608000}
+06-27 12:50:56.640 28683 28683 D ResolverListAdapter: mDisplayList: 2
+06-27 12:50:56.640 28683 28683 D ResolverListAdapter: processSortedlist: ResolveInfo{c35227b com.miui.player/.phone.ui.AudioPreview m=0x608000}
+06-27 12:50:56.640 28683 28683 I ResolverListAdapter: Add DisplayResolveInfo component: ComponentInfo{com.miui.player/com.miui.player.phone.ui.AudioPreview}, intent component: ComponentInfo{com.miui.player/com.miui.player.phone.ui.AudioPreview}
+06-27 12:50:56.640 28683 28683 D ResolverListAdapter: addResolveInfo: ResolveInfo{c35227b com.miui.player/.phone.ui.AudioPreview m=0x608000}
+06-27 12:50:56.640 28683 28683 D ResolverListAdapter: mDisplayList: 3
+06-27 12:50:56.640 28683 28683 D ResolverListAdapter: processSortedlist: ResolveInfo{9435898 com.bsbportal.music/.activities.LauncherScreenActivity m=0x608000}
+06-27 12:50:56.640 28683 28683 I ResolverListAdapter: Add DisplayResolveInfo component: ComponentInfo{com.bsbportal.music/com.bsbportal.music.activities.LauncherScreenActivity}, intent component: ComponentInfo{com.bsbportal.music/com.bsbportal.music.activities.LauncherScreenActivity}
+06-27 12:50:56.640 28683 28683 D ResolverListAdapter: addResolveInfo: ResolveInfo{9435898 com.bsbportal.music/.activities.LauncherScreenActivity m=0x608000}
+06-27 12:50:56.640 28683 28683 D ResolverListAdapter: mDisplayList: 4
+06-27 12:50:56.646 28683 28683 D ResolverListAdapter: getItem: position 0 mDisplayList.size(): 4
+06-27 12:50:56.646 28683 28683 D ResolverListAdapter: getItem: position 1 mDisplayList.size(): 4
+06-27 12:50:56.646 28683 28683 D ResolverListAdapter: getItem: position 2 mDisplayList.size(): 4
+06-27 12:50:56.646 28683 28683 D ResolverListAdapter: getItem: position 3 mDisplayList.size(): 4
+06-27 12:50:56.650   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 7
+06-27 12:50:56.650   885 10843 I chatty  : uid=1000(system) HwBinder:885_4 identical 1 line
+06-27 12:50:56.651   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 7
+06-27 12:50:56.651   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 8
+06-27 12:50:56.654  1919  3081 I Timeline: Timeline: App_transition_ready time:4061465
+06-27 12:50:56.652   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 8
+06-27 12:50:56.661  8346  8383 D PMonitor:  onForegroundActivitiesChanged:pid = 28683,activity-uid=1000,foregroundActivities=false
+06-27 12:50:56.671  1919  2232 I Timeline: Timeline: App_transition_ready time:4061482
+06-27 12:50:56.675  1919  2232 I Timeline: Timeline: App_transition_ready time:4061485
+06-27 12:50:56.675  1919  2232 I Timeline: Timeline: App_transition_stopped time:4061486
+06-27 12:50:56.680  2671  3038 D MiuiPhoneStatusBarPolicy: updateManagedProfile: secondSpace = false
+06-27 12:50:56.689   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.ext.services/android.ext.services.resolver.LRResolverRankerService and for client system:ui
+06-27 12:50:56.689   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.ext.services/android.ext.services.resolver.LRResolverRankerServiceafter removal is 0
+06-27 12:50:56.689   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: system:uiafter removal is 0
+06-27 12:50:56.692   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.google.android.ext.services/android.ext.services.resolver.LRResolverRankerService
+06-27 12:50:56.694  8346  8383 D PMonitor:  onForegroundActivitiesChanged:pid = 20959,activity-uid=10099,foregroundActivities=true
+06-27 12:50:56.696  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10099, uidState = 12
+06-27 12:50:56.702   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 9
+06-27 12:50:56.717 28683 28683 E ActivityThread: Activity com.android.internal.app.ResolverActivity has leaked IntentReceiver com.android.internal.app.ResolverActivity$5@774bfe that was originally registered here. Are you missing a call to unregisterReceiver()?
+06-27 12:50:56.717 28683 28683 E ActivityThread: android.app.IntentReceiverLeaked: Activity com.android.internal.app.ResolverActivity has leaked IntentReceiver com.android.internal.app.ResolverActivity$5@774bfe that was originally registered here. Are you missing a call to unregisterReceiver()?
+06-27 12:50:56.717 28683 28683 E ActivityThread: 	at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:1607)
+06-27 12:50:56.717 28683 28683 E ActivityThread: 	at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:1378)
+06-27 12:50:56.717 28683 28683 E ActivityThread: 	at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1624)
+06-27 12:50:56.717 28683 28683 E ActivityThread: 	at android.app.ContextImpl.registerReceiverAsUser(ContextImpl.java:1611)
+06-27 12:50:56.717 28683 28683 E ActivityThread: 	at android.content.ContextWrapper.registerReceiverAsUser(ContextWrapper.java:720)
+06-27 12:50:56.717 28683 28683 E ActivityThread: 	at com.android.internal.app.ResolverActivity.registerWorkProfileStateReceiver(ResolverActivity.java:1087)
+06-27 12:50:56.717 28683 28683 E ActivityThread: 	at com.android.internal.app.ResolverActivity.onStart(ResolverActivity.java:1068)
+06-27 12:50:56.717 28683 28683 E ActivityThread: 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1436)
+06-27 12:50:56.717 28683 28683 E ActivityThread: 	at android.app.Activity.performStart(Activity.java:8158)
+06-27 12:50:56.717 28683 28683 E ActivityThread: 	at android.app.ActivityThread.handleStartActivity(ActivityThread.java:3566)
+06-27 12:50:56.717 28683 28683 E ActivityThread: 	at android.app.servertransaction.TransactionExecutor.performLifecycleSequence(TransactionExecutor.java:221)
+06-27 12:50:56.717 28683 28683 E ActivityThread: 	at android.app.servertransaction.TransactionExecutor.cycleToPath(TransactionExecutor.java:201)
+06-27 12:50:56.717 28683 28683 E ActivityThread: 	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:173)
+06-27 12:50:56.717 28683 28683 E ActivityThread: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:97)
+06-27 12:50:56.717 28683 28683 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2136)
+06-27 12:50:56.717 28683 28683 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+06-27 12:50:56.717 28683 28683 E ActivityThread: 	at android.os.Looper.loop(Looper.java:236)
+06-27 12:50:56.717 28683 28683 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:8061)
+06-27 12:50:56.717 28683 28683 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+06-27 12:50:56.717 28683 28683 E ActivityThread: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:656)
+06-27 12:50:56.717 28683 28683 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:967)
+06-27 12:50:56.719 28683 28683 E ActivityThread: Activity com.android.internal.app.ResolverActivity has leaked IntentReceiver com.android.internal.app.ResolverActivity$1@8b61a8f that was originally registered here. Are you missing a call to unregisterReceiver()?
+06-27 12:50:56.719 28683 28683 E ActivityThread: android.app.IntentReceiverLeaked: Activity com.android.internal.app.ResolverActivity has leaked IntentReceiver com.android.internal.app.ResolverActivity$1@8b61a8f that was originally registered here. Are you missing a call to unregisterReceiver()?
+06-27 12:50:56.719 28683 28683 E ActivityThread: 	at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:1607)
+06-27 12:50:56.719 28683 28683 E ActivityThread: 	at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:1378)
+06-27 12:50:56.719 28683 28683 E ActivityThread: 	at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1624)
+06-27 12:50:56.719 28683 28683 E ActivityThread: 	at android.app.ContextImpl.registerReceiverAsUser(ContextImpl.java:1611)
+06-27 12:50:56.719 28683 28683 E ActivityThread: 	at android.content.ContextWrapper.registerReceiverAsUser(ContextWrapper.java:720)
+06-27 12:50:56.719 28683 28683 E ActivityThread: 	at com.android.internal.content.PackageMonitor.register(PackageMonitor.java:98)
+06-27 12:50:56.719 28683 28683 E ActivityThread: 	at com.android.internal.content.PackageMonitor.register(PackageMonitor.java:86)
+06-27 12:50:56.719 28683 28683 E ActivityThread: 	at com.android.internal.app.ResolverActivity.onCreate(ResolverActivity.java:523)
+06-27 12:50:56.719 28683 28683 E ActivityThread: 	at com.android.internal.app.ResolverActivity.onCreate(ResolverActivity.java:380)
+06-27 12:50:56.719 28683 28683 E ActivityThread: 	at android.app.Activity.performCreate(Activity.java:8127)
+06-27 12:50:56.719 28683 28683 E ActivityThread: 	at android.app.Activity.performCreate(Activity.java:8098)
+06-27 12:50:56.719 28683 28683 E ActivityThread: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1310)
+06-27 12:50:56.719 28683 28683 E ActivityThread: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3513)
+06-27 12:50:56.719 28683 28683 E ActivityThread: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3700)
+06-27 12:50:56.719 28683 28683 E ActivityThread: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+06-27 12:50:56.719 28683 28683 E ActivityThread: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+06-27 12:50:56.719 28683 28683 E ActivityThread: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+06-27 12:50:56.719 28683 28683 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2136)
+06-27 12:50:56.719 28683 28683 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+06-27 12:50:56.719 28683 28683 E ActivityThread: 	at android.os.Looper.loop(Looper.java:236)
+06-27 12:50:56.719 28683 28683 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:8061)
+06-27 12:50:56.719 28683 28683 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+06-27 12:50:56.719 28683 28683 E ActivityThread: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:656)
+06-27 12:50:56.719 28683 28683 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:967)
+06-27 12:50:56.702   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 9
+06-27 12:50:56.727  9395 10041 I SCTaskStackListener: onTaskStackChanged! inSplit = false
+06-27 12:50:56.728  9395  9418 I SCTaskStackListener: onTaskStackChanged! inSplit = false
+06-27 12:50:56.729  2671  2671 D AppMiniWindowManager: topActivity updated in onTaskStackChanged
+06-27 12:50:58.248  1919  7131 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat=file:///sdcard/Music/app_b.mp3 typ=audio/* flg=0x10000000 cmp=android/com.android.internal.app.ResolverActivity} from uid 2000
+06-27 12:50:58.249  1919  7131 D MiuiMultiWindowAdapter: MiuiMultiWindowAdapter::getFreeformBlackList::sSmallWindowBlackList = [com.miui.securitycenter, com.miui.weather2, com.miui.miservice, com.android.calendar, com.xiaomi.calendar, com.android.contacts, com.miui.mishare.connectivity, com.android.settings, com.android.printspooler, com.miui.backup, com.miui.huanji, com.miui.calculator, com.android.deskclock, com.android.thememanager, com.mfashiongallery.emag, com.miui.virtualsim, com.miui.smarttravel, com.mi.health, com.android.camera, com.lbe.security.miui, com.miui.cleanmaster, com.miui.newhome, com.miui.voiceassist, com.android.phone, com.miui.yellowpage, com.android.updater, com.miui.tsmclient, com.miui.securitycore, com.xiaomi.account, com.xiaomi.shop, com.mipay.wallet, com.xiaomi.youpin, com.xiaomi.hm.health, com.miui.bugreport, com.xiaomi.mibrain.speech, com.xiaomi.mimoji, com.xiaomi.scanner, com.duokan.phone.remotecontroller, com.miui.hybrid, com.android.incallui, com.miui.video, com.miui.videoplayer, com.miui.player, com.miui.fm, com.miui.packageinstaller, com.mi.android.globallauncher, com.google.android.dialer, com.google.android.apps.magazines, com.miui.compass, com.miui.greenguard, com.kiteguard, com.google.android.apps.prodcasts, com.google.ar.lens, com.xiangkan.android, com.android.bankabc, com.sohu.inputmethod.sogou, com.tencent.mtt, com.shyz.toutiao, com.netease.mc.mi, com.outfit7.talkingtomgoldrun.mi, com.doudz.mi, com.wepie.snake.new.mi, cn.jj, com.standddz002.mi, com.miHoYo.bh3.mi, com.qqgame.hlddz, com.happyelements.AndroidAnimal, com.minitech.miniworld.TMobile.mi, com.mfp.jelly.xiaomi, com.lilithgames.afk.mi, com.tencent.peng, com.teenpatti.hd.gold, blockpuzzle.jewelgames.jewelslegend, com.playgendary.tanks, com.chillingo.robberybobfree.android.row, com.episodeinteractive.android.catalog, com.playrix.township, com.ansangha.drdriving, com.google.android.youtube, com.gbits.atm.mi]
+06-27 12:50:58.250   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-27 12:50:58.251   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-27 12:50:58.252   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:50:58.252   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:50:58.252   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=6
+06-27 12:50:58.252   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=7
+06-27 12:50:58.253   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:50:58.253   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:50:58.253   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=7
+06-27 12:50:58.253   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=8
+06-27 12:50:58.253   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:50:58.253   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:50:58.253   879   879 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:50:58.254   879   879 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-27 12:50:58.254   879   879 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:android feature:AppClassifier feedback = 0
+06-27 12:50:58.254   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:50:58.254   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:50:58.254   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=8
+06-27 12:50:58.254   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=9
+06-27 12:50:58.255  1919  7131 E ANDR-PERF-JNI: com_qualcomm_qtiperformance_native_perf_io_prefetch_start
+06-27 12:50:58.263   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:50:58.263   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:50:58.263   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=9
+06-27 12:50:58.263   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=10
+06-27 12:50:58.265   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:50:58.265   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:50:58.265   879   879 W ANDR-PERF-LM: WQ: push() 54: LMTriggerQ push() size=10 mFlushThreshold=10, Reached threshold => flooding detected, clearing Queue
+06-27 12:50:58.269   876   907 E ANDR-IOP: io prefetch is disabled
+06-27 12:50:58.272  1919  7131 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:50:58.272  1919  7131 D CompatibilityInfo: applicationDensity - 440
+06-27 12:50:58.272  1919  7131 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:50:58.272   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:50:58.273   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:50:58.273   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:50:58.273   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:50:58.273   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:50:58.274  1919  7131 I ActivityTaskManager: The Process system:ui Already Exists in BG. So sending its PID: 28683
+06-27 12:50:58.274   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:50:58.274   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:50:58.274   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=1
+06-27 12:50:58.274   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=2
+06-27 12:50:58.275  1919  7131 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (4060928)
+06-27 12:50:58.276  1919  7131 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:50:58.276  1919  7131 D CompatibilityInfo: applicationDensity - 440
+06-27 12:50:58.276  1919  7131 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:50:58.277   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:50:58.278   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:50:58.280   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-27 12:50:58.280  1919  7131 D ActivityTrigger: ActivityTrigger activityPauseTrigger 
+06-27 12:50:58.280   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:50:58.280   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:50:58.280   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=2
+06-27 12:50:58.280   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=3
+06-27 12:50:58.281   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-27 12:50:58.286  1919  7131 I Timeline: Timeline: App_transition_ready time:4063097
+06-27 12:50:58.293  8346  8383 D PMonitor:  onForegroundActivitiesChanged:pid = 28683,activity-uid=1000,foregroundActivities=true
+06-27 12:50:58.302  8346  8383 D PMonitor:  onForegroundActivitiesChanged:pid = 20959,activity-uid=10099,foregroundActivities=false
+06-27 12:50:58.304  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10099, uidState = 16

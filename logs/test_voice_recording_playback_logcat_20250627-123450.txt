@@ -1,0 +1,171 @@
+--------- beginning of system
+06-27 12:34:50.223  1919  7216 I ActivityTaskManager: START u0 {act=android.provider.MediaStore.RECORD_SOUND flg=0x10000000 cmp=com.android.soundrecorder/.SoundRecorder} from uid 2000
+--------- beginning of main
+06-27 12:34:50.224  1919  7216 D MiuiMultiWindowAdapter: MiuiMultiWindowAdapter::getFreeformBlackList::sSmallWindowBlackList = [com.miui.securitycenter, com.miui.weather2, com.miui.miservice, com.android.calendar, com.xiaomi.calendar, com.android.contacts, com.miui.mishare.connectivity, com.android.settings, com.android.printspooler, com.miui.backup, com.miui.huanji, com.miui.calculator, com.android.deskclock, com.android.thememanager, com.mfashiongallery.emag, com.miui.virtualsim, com.miui.smarttravel, com.mi.health, com.android.camera, com.lbe.security.miui, com.miui.cleanmaster, com.miui.newhome, com.miui.voiceassist, com.android.phone, com.miui.yellowpage, com.android.updater, com.miui.tsmclient, com.miui.securitycore, com.xiaomi.account, com.xiaomi.shop, com.mipay.wallet, com.xiaomi.youpin, com.xiaomi.hm.health, com.miui.bugreport, com.xiaomi.mibrain.speech, com.xiaomi.mimoji, com.xiaomi.scanner, com.duokan.phone.remotecontroller, com.miui.hybrid, com.android.incallui, com.miui.video, com.miui.videoplayer, com.miui.player, com.miui.fm, com.miui.packageinstaller, com.mi.android.globallauncher, com.google.android.dialer, com.google.android.apps.magazines, com.miui.compass, com.miui.greenguard, com.kiteguard, com.google.android.apps.prodcasts, com.google.ar.lens, com.xiangkan.android, com.android.bankabc, com.sohu.inputmethod.sogou, com.tencent.mtt, com.shyz.toutiao, com.netease.mc.mi, com.outfit7.talkingtomgoldrun.mi, com.doudz.mi, com.wepie.snake.new.mi, cn.jj, com.standddz002.mi, com.miHoYo.bh3.mi, com.qqgame.hlddz, com.happyelements.AndroidAnimal, com.minitech.miniworld.TMobile.mi, com.mfp.jelly.xiaomi, com.lilithgames.afk.mi, com.tencent.peng, com.teenpatti.hd.gold, blockpuzzle.jewelgames.jewelslegend, com.playgendary.tanks, com.chillingo.robberybobfree.android.row, com.episodeinteractive.android.catalog, com.playrix.township, com.ansangha.drdriving, com.google.android.youtube, com.gbits.atm.mi]
+06-27 12:34:50.266   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-27 12:34:50.266   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-27 12:34:50.268   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:34:50.268   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:34:50.268   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:34:50.268   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:34:50.268   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:34:50.268   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-27 12:34:50.268   879   984 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:34:50.268   879   984 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-27 12:34:50.268   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-27 12:34:50.268   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:34:50.268   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:34:50.269   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:34:50.269   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:34:50.269   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:34:50.269   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:34:50.269   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:34:50.269   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:34:50.269   879   879 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:34:50.269   879   879 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-27 12:34:50.269   879   879 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.soundrecorder feature:AppClassifier feedback = 1
+06-27 12:34:50.269   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:34:50.269   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-27 12:34:50.269   879   984 I ANDR-PERF-LM: MetaMeter: isValidAsync() 194: AsyncInfo: hintID = 4225
+06-27 12:34:50.269   879   984 I ANDR-PERF-LM: hintType: 2
+06-27 12:34:50.269   879   984 I ANDR-PERF-LM: isPrimary = 0
+06-27 12:34:50.269   879   984 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 2,com.android.soundrecorder,-1,1919,7216)
+06-27 12:34:50.269   879   984 E ANDR-PERF-LM: MetaMeter: handleAsync() 164: AdaptLaunch Invalid Async
+06-27 12:34:50.269   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-27 12:34:50.270   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:34:50.270   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:34:50.270   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:34:50.270   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:34:50.270   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:34:50.270   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:34:50.270   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:34:50.270   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-27 12:34:50.270   879   984 I ANDR-PERF-LM: MetaMeter: isValidAsync() 194: AsyncInfo: hintID = 4225
+06-27 12:34:50.270   879   984 I ANDR-PERF-LM: hintType: 3
+06-27 12:34:50.270   879   984 I ANDR-PERF-LM: isPrimary = 0
+06-27 12:34:50.270   879   984 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 3,com.android.soundrecorder,-1,1919,7216)
+06-27 12:34:50.270   879   984 E ANDR-PERF-LM: MetaMeter: handleAsync() 164: AdaptLaunch Invalid Async
+06-27 12:34:50.270   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-27 12:34:50.270   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:34:50.270   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:34:50.270  1919  7216 E ANDR-PERF-JNI: com_qualcomm_qtiperformance_native_perf_io_prefetch_start
+06-27 12:34:50.273   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:34:50.273   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:34:50.273   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:34:50.273   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:34:50.273   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:34:50.273   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-27 12:34:50.273   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-27 12:34:50.273   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:34:50.273   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:34:50.273   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:34:50.273   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:34:50.273   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:34:50.273   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:34:50.273   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:34:50.273   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-27 12:34:50.273   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-27 12:34:50.273   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:34:50.273   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:34:50.275  1919  7216 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:34:50.275  1919  7216 D CompatibilityInfo: applicationDensity - 440
+06-27 12:34:50.275  1919  7216 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:34:50.276   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:34:50.276   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:34:50.276   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:34:50.276   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:34:50.276   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:34:50.276   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:34:50.276   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-27 12:34:50.276   879   984 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:34:50.276   879   984 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-27 12:34:50.276   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-27 12:34:50.276   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:34:50.276   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:34:50.276  1919  7216 D ActivityTrigger: ActivityTrigger activityPauseTrigger 
+06-27 12:34:50.276   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-27 12:34:50.277   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:34:50.277   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:34:50.277   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:34:50.277   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:34:50.277   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:34:50.277   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-27 12:34:50.277   879   984 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:34:50.277   879   984 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-27 12:34:50.277   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-27 12:34:50.277   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:34:50.277   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:34:50.277   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-27 12:34:50.280   876   907 E ANDR-IOP: io prefetch is disabled
+06-27 12:34:50.282 26245 26247 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:34:50.283   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-27 12:34:50.283   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:34:50.283   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:34:50.283   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:34:50.283   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:34:50.283   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-27 12:34:50.283   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:34:50.283   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:34:50.283   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-27 12:34:50.283   879   984 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:34:50.284  1919  7216 I ActivityTaskManager: The Process com.android.soundrecorder Already Exists in BG. So sending its PID: 20959
+06-27 12:34:50.284   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:34:50.284   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:34:50.284   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:34:50.284   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:34:50.284   879   984 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-27 12:34:50.284  1919  7216 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (2808777)
+06-27 12:34:50.284   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-27 12:34:50.284   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:34:50.284   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=1
+06-27 12:34:50.284   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:34:50.284   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-27 12:34:50.284   879   984 I ANDR-PERF-LM: MetaMeter: isValidAsync() 194: AsyncInfo: hintID = 4225
+06-27 12:34:50.284   879   984 I ANDR-PERF-LM: hintType: 102
+06-27 12:34:50.284   879   984 I ANDR-PERF-LM: isPrimary = 0
+06-27 12:34:50.284   879   984 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 102,com.android.soundrecorder,20959,1919,7216)
+06-27 12:34:50.284   879   984 E ANDR-PERF-LM: MetaMeter: handleAsync() 164: AdaptLaunch Invalid Async
+06-27 12:34:50.284   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-27 12:34:50.284   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:34:50.284   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:34:50.284  1919  7216 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:34:50.284  1919  7216 D CompatibilityInfo: applicationDensity - 440
+06-27 12:34:50.284  1919  7216 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:34:50.285  9395 10041 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.android.soundrecorder', mForegroundUid=10099, mForegroundPid=20959, mLastForegroundPackageName='android', mLastForegroundUid=1000, mLastForegroundPid=26070, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+06-27 12:34:50.285   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:34:50.285   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:34:50.285  9770  9797 I GST     : forePkg: com.android.soundrecorder, preForePkg: android
+06-27 12:34:50.285  9739 10841 D PerfEngineController: ForegroundInfo{mForegroundPackageName='com.android.soundrecorder', mForegroundUid=10099, mForegroundPid=20959, mLastForegroundPackageName='android', mLastForegroundUid=1000, mLastForegroundPid=26070, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+06-27 12:34:50.285  9739 11053 W MessageQueue: Handler (com.miui.powerkeeper.feedbackcontrol.FeedbackControlService$FeedbackControlHandler) {322048a} sending message to a Handler on a dead thread
+06-27 12:34:50.285  9739 11053 W MessageQueue: java.lang.IllegalStateException: Handler (com.miui.powerkeeper.feedbackcontrol.FeedbackControlService$FeedbackControlHandler) {322048a} sending message to a Handler on a dead thread
+06-27 12:34:50.285  9739 11053 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:563)
+06-27 12:34:50.285  9739 11053 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:778)
+06-27 12:34:50.285  9739 11053 W MessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:727)
+06-27 12:34:50.285  9739 11053 W MessageQueue: 	at com.miui.powerkeeper.event.EventsAggregator$EventRegistrant.notifyResult(Unknown Source:26)
+06-27 12:34:50.285  9739 11053 W MessageQueue: 	at com.miui.powerkeeper.event.EventsAggregator.notifyForForegroundInfo(Unknown Source:47)
+06-27 12:34:50.285  9739 11053 W MessageQueue: 	at com.miui.powerkeeper.utils.ProcessObserver.notifyForegroundListener(Unknown Source:17)
+06-27 12:34:50.285  9739 11053 W MessageQueue: 	at com.miui.powerkeeper.utils.ProcessObserver.access$1000(Unknown Source:0)
+06-27 12:34:50.285  9739 11053 W MessageQueue: 	at com.miui.powerkeeper.utils.ProcessObserver$2.onForegroundInfoChanged(Unknown Source:2)
+06-27 12:34:50.285  9739 11053 W MessageQueue: 	at miui.process.IForegroundInfoListener$Stub.onTransact(IForegroundInfoListener.java:87)
+06-27 12:34:50.285  9739 11053 W MessageQueue: 	at android.os.Binder.execTransactInternal(Binder.java:1162)
+06-27 12:34:50.285  9739 11053 W MessageQueue: 	at android.os.Binder.execTransact(Binder.java:1126)
+06-27 12:34:50.285  8426  8840 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.android.soundrecorder', mForegroundUid=10099, mForegroundPid=20959, mLastForegroundPackageName='android', mLastForegroundUid=1000, mLastForegroundPid=26070, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+06-27 12:34:50.285  9395 10041 I GameBoosterService: onForegroundInfoChanged: Cur=com.android.soundrecorder	 last=android
+06-27 12:34:50.289  1919  7216 I Timeline: Timeline: App_transition_ready time:3095100
+06-27 12:34:50.297  9395 10041 D GameBoosterService: onGameStatusChange foreground:ForegroundInfo{mForegroundPackageName='com.android.soundrecorder', mForegroundUid=10099, mForegroundPid=20959, mLastForegroundPackageName='android', mLastForegroundUid=1000, mLastForegroundPid=26070, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=0}
+06-27 12:34:50.297  9395 10041 I VideoBoxUtils: isSupportVideoBox: false
+06-27 12:34:50.298  1919  2107 I Timeline: Timeline: App_transition_ready time:3095109
+06-27 12:34:50.299  1919  2107 I Timeline: Timeline: App_transition_ready time:3095110
+06-27 12:34:50.300  8346 11722 D PMonitor:  onForegroundActivitiesChanged:pid = 20959,activity-uid=10099,foregroundActivities=true
+06-27 12:34:50.300  9395 10041 I VideoToolBoxService: splitMode: onfalse
+06-27 12:34:50.301  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10099, uidState = 2
+06-27 12:34:50.301  9395 10041 I VideoToolBoxService: onForegroundInfoChanged: Enter Vtb pkg=com.android.soundrecorder
+06-27 12:34:50.302  9395  9656 I VideoBoxServiceManager: startVideoBox: isDuringVideoBoxMode=false
+06-27 12:34:50.305  9395  9656 E VideoServiceWrapper: getWhitelistByClient fail : mj.f0: lateinit property _service has not been initialized
+06-27 12:34:50.305  9395  9656 I VideoEffectUtils: setVppEnable : false
+06-27 12:34:50.308  9395  9656 I VideoBoxServiceManager: VideoBoxServiceManager: Open
+06-27 12:34:50.308  9395  9656 I VideoBoxServiceManager: open
+06-27 12:34:50.323 20959 20959 V SoundRecorder:SoundRecorder: onCreate isRestore=> false
+06-27 12:34:50.323 20959 20959 V SoundRecorder:SoundRecorder: intent action =>  android.provider.MediaStore.RECORD_SOUND
+06-27 12:34:50.338  1919  2107 I Timeline: Timeline: App_transition_ready time:3095148
+06-27 12:34:50.338  1919  2107 I Timeline: Timeline: App_transition_stopped time:3095148

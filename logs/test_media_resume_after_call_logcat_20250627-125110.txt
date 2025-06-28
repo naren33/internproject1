@@ -1,0 +1,1419 @@
+--------- beginning of system
+06-27 12:51:03.618  1919  3081 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat=file:///sdcard/Music/sample.mp3 typ=audio/* flg=0x10000000 cmp=android/com.android.internal.app.ResolverActivity} from uid 2000
+--------- beginning of main
+06-27 12:51:03.619  1919  3081 D MiuiMultiWindowAdapter: MiuiMultiWindowAdapter::getFreeformBlackList::sSmallWindowBlackList = [com.miui.securitycenter, com.miui.weather2, com.miui.miservice, com.android.calendar, com.xiaomi.calendar, com.android.contacts, com.miui.mishare.connectivity, com.android.settings, com.android.printspooler, com.miui.backup, com.miui.huanji, com.miui.calculator, com.android.deskclock, com.android.thememanager, com.mfashiongallery.emag, com.miui.virtualsim, com.miui.smarttravel, com.mi.health, com.android.camera, com.lbe.security.miui, com.miui.cleanmaster, com.miui.newhome, com.miui.voiceassist, com.android.phone, com.miui.yellowpage, com.android.updater, com.miui.tsmclient, com.miui.securitycore, com.xiaomi.account, com.xiaomi.shop, com.mipay.wallet, com.xiaomi.youpin, com.xiaomi.hm.health, com.miui.bugreport, com.xiaomi.mibrain.speech, com.xiaomi.mimoji, com.xiaomi.scanner, com.duokan.phone.remotecontroller, com.miui.hybrid, com.android.incallui, com.miui.video, com.miui.videoplayer, com.miui.player, com.miui.fm, com.miui.packageinstaller, com.mi.android.globallauncher, com.google.android.dialer, com.google.android.apps.magazines, com.miui.compass, com.miui.greenguard, com.kiteguard, com.google.android.apps.prodcasts, com.google.ar.lens, com.xiangkan.android, com.android.bankabc, com.sohu.inputmethod.sogou, com.tencent.mtt, com.shyz.toutiao, com.netease.mc.mi, com.outfit7.talkingtomgoldrun.mi, com.doudz.mi, com.wepie.snake.new.mi, cn.jj, com.standddz002.mi, com.miHoYo.bh3.mi, com.qqgame.hlddz, com.happyelements.AndroidAnimal, com.minitech.miniworld.TMobile.mi, com.mfp.jelly.xiaomi, com.lilithgames.afk.mi, com.tencent.peng, com.teenpatti.hd.gold, blockpuzzle.jewelgames.jewelslegend, com.playgendary.tanks, com.chillingo.robberybobfree.android.row, com.episodeinteractive.android.catalog, com.playrix.township, com.ansangha.drdriving, com.google.android.youtube, com.gbits.atm.mi]
+06-27 12:51:03.620   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-27 12:51:03.620   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-27 12:51:03.621   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:51:03.621   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:51:03.621   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=3
+06-27 12:51:03.621   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=4
+06-27 12:51:03.621   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:51:03.621   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:51:03.621   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=4
+06-27 12:51:03.621   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=5
+06-27 12:51:03.622   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:51:03.622   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:51:03.622   879   879 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:51:03.622   879   879 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-27 12:51:03.622   879   879 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:android feature:AppClassifier feedback = 0
+06-27 12:51:03.623   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:51:03.623   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:51:03.623   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=5
+06-27 12:51:03.623   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=6
+06-27 12:51:03.623  1919  3081 E ANDR-PERF-JNI: com_qualcomm_qtiperformance_native_perf_io_prefetch_start
+06-27 12:51:03.627   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:51:03.627   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:51:03.627   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=6
+06-27 12:51:03.627   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=7
+06-27 12:51:03.628   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:51:03.628   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:51:03.628   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=7
+06-27 12:51:03.628   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=8
+06-27 12:51:03.630  1919  3081 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:51:03.630  1919  3081 D CompatibilityInfo: applicationDensity - 440
+06-27 12:51:03.630  1919  3081 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:51:03.631   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:51:03.631   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:51:03.631   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:51:03.631   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=8
+06-27 12:51:03.631   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=9
+06-27 12:51:03.632  1919  3081 I ActivityTaskManager: The Process system:ui Already Exists in BG. So sending its PID: 28683
+06-27 12:51:03.632   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:51:03.632   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:51:03.632   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=9
+06-27 12:51:03.632   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=10
+06-27 12:51:03.632  1919  3081 W ActivityTaskManager: Tried to set launchTime (0) < mLastActivityLaunchTime (4063087)
+06-27 12:51:03.633  1919  3081 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:51:03.633  1919  3081 D CompatibilityInfo: applicationDensity - 440
+06-27 12:51:03.633  1919  3081 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:51:03.634   876   907 E ANDR-IOP: io prefetch is disabled
+06-27 12:51:03.634   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:51:03.634   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:51:03.635  1919  3081 D ActivityTrigger: ActivityTrigger activityPauseTrigger 
+06-27 12:51:03.636   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-27 12:51:03.636   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:51:03.636   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:51:03.636   879   879 W ANDR-PERF-LM: WQ: push() 54: LMTriggerQ push() size=10 mFlushThreshold=10, Reached threshold => flooding detected, clearing Queue
+06-27 12:51:03.636   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-27 12:51:03.639  1919  3081 I Timeline: Timeline: App_transition_ready time:4068450
+06-27 12:51:03.642 29398 29400 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:51:03.653  8346  8383 D PMonitor:  onForegroundActivitiesChanged:pid = 28683,activity-uid=1000,foregroundActivities=true
+06-27 12:51:03.654  8346  8389 D PMonitor:  onForegroundActivitiesChanged:pid = 20959,activity-uid=10099,foregroundActivities=false
+06-27 12:51:03.654  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10099, uidState = 16
+06-27 12:51:03.836   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.measurement.service.MeasurementBrokerService and for client com.miui.securitycenter.remote
+06-27 12:51:03.836   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.gms/.measurement.service.MeasurementBrokerServiceafter removal is 0
+06-27 12:51:03.836   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: com.miui.securitycenter.remoteafter removal is 4
+06-27 12:51:03.840  3799  3799 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+06-27 12:51:03.841  9235  9448 I BtGatt.ScanManager: msg.what = 6
+06-27 12:51:03.842  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 99005, uidState = 6
+06-27 12:51:03.842  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10183, uidState = 5
+06-27 12:51:03.843   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.google.android.gms/.measurement.service.MeasurementBrokerService
+06-27 12:51:03.852 28683 28683 D ResolverListAdapter: ResolverListAdapter: com.android.internal.app.ResolverListAdapter@3d629aa
+06-27 12:51:03.882 28683 28683 D MiShareTransmissionView: initScreenView is false
+06-27 12:51:03.918 28683 28990 D ResolverListAdapter: on doInBackground!!!!
+06-27 12:51:03.918 28683 28990 D AbstractResolverComp: Setting watchdog timer for 500ms
+06-27 12:51:03.921 28683 28683 D ResolverListAdapter: getItem: position 0 mDisplayList.size(): 0
+06-27 12:51:03.921 28683 28683 D ResolverListAdapter: getItem: position 1 mDisplayList.size(): 0
+06-27 12:51:03.921 28683 28683 D ResolverListAdapter: getItem: position 2 mDisplayList.size(): 0
+06-27 12:51:03.921 28683 28683 D ResolverListAdapter: getItem: position 3 mDisplayList.size(): 0
+06-27 12:51:03.922  1919  8366 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:51:03.922   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.ext.services/android.ext.services.resolver.LRResolverRankerService and for client system:ui
+06-27 12:51:03.922  1919  8366 D CompatibilityInfo: applicationDensity - 440
+06-27 12:51:03.922  1919  8366 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:51:03.922   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.ext.services/android.ext.services.resolver.LRResolverRankerServiceare :1
+06-27 12:51:03.922   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : system:uiare :1
+06-27 12:51:03.922   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.google.android.ext.services/android.ext.services.resolver.LRResolverRankerService
+06-27 12:51:04.015 28683 28683 D ResolverListAdapter: ResolverListAdapter: com.android.internal.app.ResolverListAdapter@8b71f88
+06-27 12:51:04.076 28683 28683 D ResolverListAdapter: ResolverListAdapter: com.android.internal.app.ResolverListAdapter@cc40d21
+06-27 12:51:04.137  1919  2106 W ActivityTaskManager: Activity top resumed state loss timeout for ActivityRecord{8ce470c u0 android/com.android.internal.app.ResolverActivity t27392}
+06-27 12:51:04.137  1919  2106 W ActivityTaskManager: Activity pause timeout for ActivityRecord{8ce470c u0 android/com.android.internal.app.ResolverActivity t27392}
+06-27 12:51:04.138   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-27 12:51:04.138   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-27 12:51:04.139   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 5
+06-27 12:51:04.140   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 5
+06-27 12:51:04.146  2964  2964 D RecentsImpl: mActivityStateObserver com.android.internal.app.ResolverActivity
+06-27 12:51:04.146 28683 28683 W Looper  : PerfMonitor looperActivity : package=android/com.android.internal.app.ResolverActivity time=0ms latency=511ms running=0ms  procState=12 ClientTransaction{ callbacks=[android.app.servertransaction.TopResumedActivityChangeItem] } historyMsgCount=2 (msgIndex=1 wall=511ms seq=269 running=194ms runnable=8ms binder=324ms h=android.app.ActivityThread$H w=159)
+06-27 12:51:04.147 28683 28683 W Looper  : PerfMonitor looperActivity : package=android/com.android.internal.app.ResolverActivity time=1ms latency=510ms running=1ms  procState=12 ClientTransaction{ callbacks=[android.app.servertransaction.TopResumedActivityChangeItem] } historyMsgCount=3 (msgIndex=1 wall=511ms seq=269 running=194ms runnable=8ms binder=324ms h=android.app.ActivityThread$H w=159)
+06-27 12:51:04.148 28683 28683 W Looper  : PerfMonitor looperActivity : package=android/com.android.internal.app.ResolverActivity time=1ms latency=511ms running=1ms  procState=12 ClientTransaction{ lifecycleRequest=android.app.servertransaction.PauseActivityItem } historyMsgCount=4 (msgIndex=1 wall=511ms seq=269 running=194ms runnable=8ms binder=324ms h=android.app.ActivityThread$H w=159)
+06-27 12:51:04.149 28683 28683 D ResolverListAdapter: on PostExecute!!!!
+06-27 12:51:04.150 28683 28683 D ResolverListAdapter: processSortedlist: ResolveInfo{673e590 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:51:04.151 28683 28683 I ResolverListAdapter: Add DisplayResolveInfo component: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}, intent component: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:51:04.151 28683 28683 D ResolverListAdapter: addResolveInfo: ResolveInfo{673e590 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:51:04.151 28683 28683 D ResolverListAdapter: mDisplayList: 1
+06-27 12:51:04.151 28683 28683 D ResolverListAdapter: processSortedlist: ResolveInfo{caace89 com.mxtech.videoplayer.ad/.ActivityPipScreen m=0x608000}
+06-27 12:51:04.151 28683 28683 I ResolverListAdapter: Add DisplayResolveInfo component: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityPipScreen}, intent component: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityPipScreen}
+06-27 12:51:04.151 28683 28683 D ResolverListAdapter: addResolveInfo: ResolveInfo{caace89 com.mxtech.videoplayer.ad/.ActivityPipScreen m=0x608000}
+06-27 12:51:04.151 28683 28683 D ResolverListAdapter: mDisplayList: 2
+06-27 12:51:04.151 28683 28683 D ResolverListAdapter: processSortedlist: ResolveInfo{69dde8e com.miui.player/.phone.ui.AudioPreview m=0x608000}
+06-27 12:51:04.151 28683 28683 I ResolverListAdapter: Add DisplayResolveInfo component: ComponentInfo{com.miui.player/com.miui.player.phone.ui.AudioPreview}, intent component: ComponentInfo{com.miui.player/com.miui.player.phone.ui.AudioPreview}
+06-27 12:51:04.151 28683 28683 D ResolverListAdapter: addResolveInfo: ResolveInfo{69dde8e com.miui.player/.phone.ui.AudioPreview m=0x608000}
+06-27 12:51:04.151 28683 28683 D ResolverListAdapter: mDisplayList: 3
+06-27 12:51:04.151 28683 28683 D ResolverListAdapter: processSortedlist: ResolveInfo{adb36af com.bsbportal.music/.activities.LauncherScreenActivity m=0x608000}
+06-27 12:51:04.152 28683 28683 I ResolverListAdapter: Add DisplayResolveInfo component: ComponentInfo{com.bsbportal.music/com.bsbportal.music.activities.LauncherScreenActivity}, intent component: ComponentInfo{com.bsbportal.music/com.bsbportal.music.activities.LauncherScreenActivity}
+06-27 12:51:04.152 28683 28683 D ResolverListAdapter: addResolveInfo: ResolveInfo{adb36af com.bsbportal.music/.activities.LauncherScreenActivity m=0x608000}
+06-27 12:51:04.152 28683 28683 D ResolverListAdapter: mDisplayList: 4
+06-27 12:51:04.158 28683 28683 D ResolverListAdapter: getItem: position 0 mDisplayList.size(): 4
+06-27 12:51:04.158 28683 28683 D ResolverListAdapter: getItem: position 1 mDisplayList.size(): 4
+06-27 12:51:04.158 28683 28683 D ResolverListAdapter: getItem: position 2 mDisplayList.size(): 4
+06-27 12:51:04.158 28683 28683 D ResolverListAdapter: getItem: position 3 mDisplayList.size(): 4
+06-27 12:51:04.174 28683 28683 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@6676bf9
+06-27 12:51:04.174 28683 28683 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:51:04.174 28683 28683 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:51:04.174 28683 28990 D RAInjector: LoadIconTask::doInBackground ResolveInfo{673e590 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:51:04.174 28683 28683 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@6676bf9
+06-27 12:51:04.175 28683 28683 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:51:04.175 28683 28683 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:51:04.175 28683 28683 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@6676bf9
+06-27 12:51:04.175 28683 28683 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:51:04.175 28683 28683 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:51:04.176 28683 28683 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@6676bf9
+06-27 12:51:04.176 28683 28683 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:51:04.176 28683 28683 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:51:04.176 28683 28683 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@6676bf9
+06-27 12:51:04.176 28683 28683 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:51:04.176 28683 28683 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:51:04.179 28683 29408 D RAInjector: LoadIconTask::doInBackground ResolveInfo{673e590 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:51:04.180  1919  8366 I Timeline: Timeline: App_transition_ready time:4068991
+06-27 12:51:04.181 28683 28990 D RAInjector: LoadIconTask::doInBackground ResolveInfo{673e590 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:51:04.181 28683 29408 D RAInjector: LoadIconTask::doInBackground ResolveInfo{673e590 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:51:04.183 28683 28990 D RAInjector: LoadIconTask::doInBackground ResolveInfo{673e590 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:51:04.183  1919  8366 I Timeline: Timeline: App_transition_ready time:4068993
+06-27 12:51:04.183  1919  8366 I Timeline: Timeline: App_transition_stopped time:4068994
+06-27 12:51:04.187  2671  3038 D MiuiPhoneStatusBarPolicy: updateManagedProfile: secondSpace = false
+06-27 12:51:04.190   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xb, payload_size: 20, resp_buf size: 32
+06-27 12:51:04.190   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xb size = 20 token = 5
+06-27 12:51:04.190   789  1760 I android.hardware.audio.service: gcs_event_cb_handler: Event received, MID = 402653185, IID = 4, PID = 76841
+06-27 12:51:04.190   789  1760 I android.hardware.audio.service: gcs_event_cb_handler: Event payload = 0xed63d00c, payload_size = 4
+06-27 12:51:04.190   789  1760 I android.hardware.audio.service: gcs_dispatch_event: Event found in graph_handle = 2
+06-27 12:51:04.190   789  1760 D sound_trigger_hw: gcs_event_cb: Enter...
+06-27 12:51:04.190   789  1760 I android.hardware.audio.service: gcs_event_cb_handler: Found 1 match for event = 76841
+06-27 12:51:04.190   789  9293 D sound_trigger_hw: active_state_fn:[1] handle event id 5
+06-27 12:51:04.190   789  9293 I sound_trigger_hw: process_detection_event_keyphrase:[1]
+06-27 12:51:04.190   789  9293 D sound_trigger_hw: session[1]: active_state_fn ---> buffering_state_fn 
+06-27 12:51:04.191   789  9293 D sound_trigger_hw: active_state_fn:[1] invoking the client callback
+06-27 12:51:04.192 28683 28683 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@6676bf9
+06-27 12:51:04.192 28683 28683 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:51:04.193 28683 28683 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:51:04.193  1919  2598 I SoundTriggerModule(Service): setState mState = LOADED mHandle = 1
+06-27 12:51:04.193  1919  2598 I SoundTriggerModule(Service): phraseRecognitionCallback onPhraseRecognition mHandle = 1
+06-27 12:51:04.193  1919  2598 I SoundTriggerMiddlewareValidation: setActivityState activity = LOADED
+06-27 12:51:04.193  1919  2598 I SoundTriggerMiddlewareValidation: onPhraseRecognition modelHandle = 1
+06-27 12:51:04.193  1919  2598 I SoundTriggerModule(hardWare): onPhraseRecognition
+06-27 12:51:04.193 28683 28683 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@6676bf9
+06-27 12:51:04.193 28683 28683 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:51:04.193  1919  1919 I SoundTriggerModule(hardWare): EventHandlerDelegate EVENT_RECOGNITION
+06-27 12:51:04.193 28683 28683 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:51:04.193  1919  1919 I SoundTriggerHelper: Recognition success
+06-27 12:51:04.194 28683 28683 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@6676bf9
+06-27 12:51:04.194 28683 28683 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:51:04.194 28683 28683 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:51:04.194  1919  2598 I SoundTriggerMiddlewareLogging: onPhraseRecognition[this=android.hardware.soundtrigger.SoundTriggerModule$EventHandlerDelegate@b75d191, caller=1000/1919](1, { common: { audioConfig: { channelMask: 16, format: 1, frameCount: 0, offloadInfo: { bitRatePerSecond: 0, bitWidth: 0, bufferSize: 0, channelMask: 0, durationMicroseconds: 0, format: 0, hasVideo: false, isStreaming: false, sampleRateHz: 0, streamType: 0, usage: 0 }, sampleRateHz: 16000 }, captureAvailable: true, captureDelayMs: 0, capturePreambleMs: 0, captureSession: 25, data: [  ], status: 0, triggerInData: false, type: 0 }, phraseExtras: [ { confidenceLevel: 27, id: 101, levels: [  ], recognitionModes: 1 } ] })
+06-27 12:51:04.194   789  9293 D sound_trigger_hw: process_lab_capture: issuing gcs_start_buff_xfer
+06-27 12:51:04.194   789  9293 D ACDB-LOADER: ACDB -> ACDB_WDSP_CMD_GET_SUBGRAPH_MODULE_CALIBRATION_SIZE
+06-27 12:51:04.194 28683 28683 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@6676bf9
+06-27 12:51:04.194 28683 28683 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:51:04.194 28683 28683 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:51:04.194   789  9293 D ACDB-LOADER: ACDB -> ACDB_WDSP_CMD_GET_SUBGRAPH_MODULE_CALIBRATION
+06-27 12:51:04.194   789  9293 D ACDB-LOADER: ACDB -> ACDB_WDSP_CMD_GET_SUBGRAPH_MODULE_CONNECTION_SIZE
+06-27 12:51:04.194   789  9293 E android.hardware.audio.service: gcs_get_sg_mod_conn_and_update_pld: subgraph mod conn size 0. Exiting
+06-27 12:51:04.194   789  9293 D ACDB-LOADER: ACDB -> ACDB_WDSP_CMD_GET_SUBGRAPH_CONNECTIONS_SIZE
+06-27 12:51:04.194   789  9293 E android.hardware.audio.service: __gcs_get_sg_conn_and_update_pld: subgraph conn size 0. Exiting
+06-27 12:51:04.194   789  9293 D ACDB-LOADER: ACDB -> ACDB_WDSP_CMD_GET_SUBGRAPH_CONNECTIONS_SIZE
+06-27 12:51:04.194   789  9293 E android.hardware.audio.service: __gcs_get_sg_conn_and_update_pld: subgraph conn size 0. Exiting
+06-27 12:51:04.194   789  9293 D ACDB-LOADER: ACDB -> ACDB_WDSP_CMD_GET_SUBGRAPH_CONNECTIONS_SIZE
+06-27 12:51:04.194   789  9293 E android.hardware.audio.service: __gcs_get_sg_conn_and_update_pld: subgraph conn size 0. Exiting
+06-27 12:51:04.194   789  9293 D ACDB-LOADER: ACDB -> ACDB_WDSP_CMD_GET_SUBGRAPH_CONNECTIONS_SIZE
+06-27 12:51:04.194   789  9293 D ACDB-LOADER: ACDB -> ACDB_WDSP_CMD_GET_SUBGRAPHS_CONNECTION
+06-27 12:51:04.194   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0x3, size = 92, token = 135
+06-27 12:51:04.194  7063  8983 I AlwaysOnHotwordDetector: onDetected
+06-27 12:51:04.195 28683 28990 D RAInjector: LoadIconTask::doInBackground ResolveInfo{673e590 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:51:04.196 28683 28683 D RAInjector: getView: position 0 info: com.android.internal.app.chooser.DisplayResolveInfo@6676bf9
+06-27 12:51:04.196  7063  8063 I favt    : #onDetected. DSP hotword detected.
+06-27 12:51:04.196 28683 28683 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen}
+06-27 12:51:04.196 28683 28683 D RAInjector: info.getDisplayLabel: MX Player hasDisplayIcon: false position: 0
+06-27 12:51:04.196  7063  8063 I faud    : getDspTriggerNotificationRequirement
+06-27 12:51:04.197 28683 29408 D RAInjector: LoadIconTask::doInBackground ResolveInfo{673e590 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:51:04.197  7063  8063 I favt    : #onDetected. DSP hotword detected, will verify it with Soda.
+06-27 12:51:04.197  7063  8063 I favt    : (REDACTED) Capture session id %d
+06-27 12:51:04.197  7063  8063 I fauk    : (REDACTED) HDM AudioFormat: sample rate : %s, channel config/mask :  %s, encoding format :  %s
+06-27 12:51:04.198  7063  8063 I fauk    : HDM Use timestamps disabled.
+06-27 12:51:04.198  7063  8063 I fbbi    : #startHotwordDetectionInternal
+06-27 12:51:04.199  7063  8063 I fbbi    : Set the SodaAudioAdapter
+06-27 12:51:04.199  7063  8063 I fbbi    : Initialize soda not needed!
+06-27 12:51:04.199 28683 28990 D RAInjector: LoadIconTask::doInBackground ResolveInfo{673e590 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:51:04.199  7063  8063 I fbbi    : (REDACTED) AudioFormat for Soda: sample rate : %s, channel count :  %s, encoding format :  %s
+06-27 12:51:04.201 28683 28683 D RAInjector: getView: position 1 info: com.android.internal.app.chooser.DisplayResolveInfo@475a131
+06-27 12:51:04.201  7063  8063 I native  : I0000 00:00:1751008864.200350    8063 soda_client.cc:330] Starting capture.
+06-27 12:51:04.201 28683 29408 D RAInjector: LoadIconTask::doInBackground ResolveInfo{673e590 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:51:04.201  7063  8063 I native  : I0000 00:00:1751008864.201186    8063 soda_async_impl.cc:601] SODA session starting (require_hotword:1, hotword_timeout_in_millis:3000, trigger_type:TRIGGER_TYPE_UNSPECIFIED, hybrid_asr_config.mode:MODE_DEFAULT)
+06-27 12:51:04.201 28683 28683 D RAInjector: bindView: ComponentInfo{com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityPipScreen}
+06-27 12:51:04.201 28683 28683 D RAInjector: info.getDisplayLabel: MX Pop-up mode hasDisplayIcon: false position: 1
+06-27 12:51:04.201  7063  8063 I native  : I0000 00:00:1751008864.201445    8063 hotword_processor.cc:504] Updated hotword timeout: 3000
+06-27 12:51:04.201   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0x2, payload_size: 4, resp_buf size: 16
+06-27 12:51:04.201   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0x2 size = 4 token = 135
+06-27 12:51:04.201   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 135 matched
+06-27 12:51:04.202   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 136
+06-27 12:51:04.203   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 137
+06-27 12:51:04.204 28683 28990 D RAInjector: LoadIconTask::doInBackground ResolveInfo{673e590 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:51:04.204 28683 28683 D RAInjector: getView: position 2 info: com.android.internal.app.chooser.DisplayResolveInfo@2616bf0
+06-27 12:51:04.205 28683 28683 D RAInjector: bindView: ComponentInfo{com.miui.player/com.miui.player.phone.ui.AudioPreview}
+06-27 12:51:04.205 28683 28683 D RAInjector: info.getDisplayLabel: Music hasDisplayIcon: false position: 2
+06-27 12:51:04.205  7063  8063 I dosg    : onStartCapture
+06-27 12:51:04.205  7063  8063 I dosg    : Register SodaAudioAdapter.
+06-27 12:51:04.205 28683 29408 D RAInjector: LoadIconTask::doInBackground ResolveInfo{caace89 com.mxtech.videoplayer.ad/.ActivityPipScreen m=0x608000}
+06-27 12:51:04.205  7063  8063 I esys    : (REDACTED) #audio# registering new source: %s
+06-27 12:51:04.205  7063  8063 I esuf    : (REDACTED) #audio# registerAudioAdapter (%s)
+06-27 12:51:04.205  7063  8063 I ethu    : (REDACTED) #audio# cancel timeout(token(%s))
+06-27 12:51:04.206 28683 28990 D RAInjector: LoadIconTask::doInBackground ResolveInfo{69dde8e com.miui.player/.phone.ui.AudioPreview m=0x608000}
+06-27 12:51:04.207  7063  8064 I fbbi    : #startPushingAudio
+06-27 12:51:04.207  7063  8064 I fbai    : (REDACTED) pushAudioToSoda. stopPushAudio is %b
+06-27 12:51:04.207  7063  7982 I fbai    : (REDACTED) Opening hotword mic with params: sourceType=%s,sampleRate=%sHz,channelConfig=%s,encodingFormat=%s, use push mechanism : %b. hotwordAudioRouteRequestParamsOptional.isPresent() : %b. hotword capture mode : %s.
+06-27 12:51:04.207  7063  7982 I etfm    : (REDACTED) #audio# routing hotword client to(%s)
+06-27 12:51:04.207  7063  7982 I eubj    : (REDACTED) #audio# updating hotword to route(token(%d), %s)
+06-27 12:51:04.208  7063  7982 I eubj    : #audio# enforcing concurrency state on a new hotword route
+06-27 12:51:04.208  7063  7982 I eubj    : (REDACTED) #audio# disconnecting(%s) hotword %s
+06-27 12:51:04.208  7063  7982 I eubj    : (REDACTED) #audio# hotword route(token(%d), %s) OK to update
+06-27 12:51:04.208  7063  8011 I ethp    : (REDACTED) #audio# de-referencing(%s) from(%s), (%s)
+06-27 12:51:04.209 28683 28683 D RAInjector: getView: position 3 info: com.android.internal.app.chooser.DisplayResolveInfo@9434eab
+06-27 12:51:04.209  7063  7999 I eudy    : (REDACTED) #audio# route(%s) for hotword client disconnected(reason(%s))
+06-27 12:51:04.209 28683 28683 D RAInjector: bindView: ComponentInfo{com.bsbportal.music/com.bsbportal.music.activities.LauncherScreenActivity}
+06-27 12:51:04.209 28683 28683 D RAInjector: info.getDisplayLabel: Wynk Music hasDisplayIcon: false position: 3
+06-27 12:51:04.209 28683 28990 D RAInjector: LoadIconTask::doInBackground ResolveInfo{adb36af com.bsbportal.music/.activities.LauncherScreenActivity m=0x608000}
+06-27 12:51:04.210  7063  7982 I eubj    : (REDACTED) #audio# starting connection to hotword route(token(%d), %s)
+06-27 12:51:04.210  7063  8010 I ethp    : (REDACTED) #audio# referencing(%s) to(%s), (%s)
+06-27 12:51:04.211  7063  8010 I eudy    : (REDACTED) #audio# route(%s) for hotword client updated with status(%s)
+06-27 12:51:04.211  7063  7982 I etph    : (REDACTED) #audio# starting hotword session(%d) for %s
+06-27 12:51:04.211  7063  8063 I etkt    : (REDACTED) #audio# audio routing(%s) took %d(ms)
+06-27 12:51:04.211  7063  7982 I etph    : #audio# enforcing concurrency state on a new hotword session
+06-27 12:51:04.211  7063  7982 I etph    : (REDACTED) #audio# hotword session(%d) OK to start
+06-27 12:51:04.211  7063  7982 I etqk    : (REDACTED) #audio# starting hotword source session(%d) on %s for %s
+06-27 12:51:04.211  7063  7982 I etqk    : #audio# enforcing concurrency state on a new hotword source
+06-27 12:51:04.212  7063  7982 I eswj    : (REDACTED) #audio# loading processor(%s)
+06-27 12:51:04.212  7063  7982 I eswd    : (REDACTED) #audio# loading processor(%s)
+06-27 12:51:04.213  7063  7999 I ethp    : (REDACTED) #audio# referencing(%s) to(%s), (%s)
+06-27 12:51:04.213  7063 29140 I etnt    : (REDACTED) #audio# opening audio source(%s), offset(%s)
+06-27 12:51:04.213  7063  7982 I eufj    : (REDACTED) #audio# skipping session(%s) storing process, not enabled
+06-27 12:51:04.213  7063 29140 I esyt    : (REDACTED) #audio# delegating source(%s) opening to(%s)
+06-27 12:51:04.213  7063 29140 I esyl    : (REDACTED) #audio# open audio source(%s)
+06-27 12:51:04.213  7063 29140 I esxu    : #audio# createDspAudioRecord
+06-27 12:51:04.213  7063 29140 I esyi    : #audio# no audio record attribution specified, continue without...
+06-27 12:51:04.213  7063 29140 D AudioRecord: set(): inputSource 1999, sampleRate 16000, format 0x1, channelMask 0x10, frameCount 160000, notificationFrames 0, sessionId 25, transferType 0, flags 0, opPackageName com.google.android.googlequicksearchbox uid -1, pid -1
+06-27 12:51:04.218   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 7
+06-27 12:51:04.218   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 7
+06-27 12:51:04.218   943  1606 D ServiceUtilities: Request app pkg name: com.google.android.googlequicksearchbox
+06-27 12:51:04.219   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 7
+06-27 12:51:04.220   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 8
+06-27 12:51:04.220   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 8
+06-27 12:51:04.220   943  1606 D ServiceUtilities: Request app pkg name: com.google.android.googlequicksearchbox
+06-27 12:51:04.220   943  1606 I ConfigStore: vendor::qti::hardware::audiohalext::V1_0::IAudioHalExt::getApmConfigs retrieved:  (default)
+06-27 12:51:04.221   943  1606 D APM_AudioPolicyManager: getInputForAttr() source 1999, sampling rate 16000, format 0x1, channel mask 0x10, session 25, flags 0 attributes={ Content type: AUDIO_CONTENT_TYPE_UNKNOWN Usage: AUDIO_USAGE_UNKNOWN Source: AUDIO_SOURCE_HOTWORD Flags: 0x800 Tags:  }
+06-27 12:51:04.222   943  1606 D APM_AudioPolicyManager: profile selected with name: surround_sound, client UID 10188 
+06-27 12:51:04.223   789   862 D audio_hw_primary: adev_open_input_stream is_karaoke_fastcapture=0 source=1999
+06-27 12:51:04.223   789   862 D audio_hw_primary: adev_open_input_stream: enter: sample_rate(16000) channel_mask(0x10) devices(0x80000004)        stream_handle(0xed6c1000) io_handle(70) source(1999) format 1
+06-27 12:51:04.223   789   862 D soundtrigger: audio_extn_sound_trigger_check_and_get_session: capture_handle 70 is sound trigger
+06-27 12:51:04.223   789   862 D audio_hw_primary: io_streams_map_insert: Added stream in io_streams_map with handle 70
+06-27 12:51:04.223   789   862 E device_utils: update_device_list: Invalid device: 0
+06-27 12:51:04.223   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:04.223   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 136
+06-27 12:51:04.223   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 136 matched
+06-27 12:51:04.224   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 138
+06-27 12:51:04.224  1437  1437 D MediaMetricsService: submitInternal: isTrusted:1 given uid -1; sanitized uid: 1041 sanitized pkg: audioserver sanitized pkg version: 0
+06-27 12:51:04.224  1437  1437 D MediaMetricsService: submitInternal: item->getKey().c_str() = audio.thread.70
+06-27 12:51:04.224  1437  1437 D MediaMetricsService: submitInternal: item->getCString(kCodecPackageName, &msg_send->packgeName) = 0
+06-27 12:51:04.224  1437  1437 D MediaMetricsService: submitInternal: item->getInt32(kCodecHdrInfo, &msg_send->hdr) = 0
+06-27 12:51:04.224  1437  1437 D MediaMetricsService: submitInternal: item->getInt32(kCodecFrameRateCal, &msg_send->frameRateCal) = 0
+06-27 12:51:04.224  1437  1437 D MediaMetricsService: submitInternal: msg_send->frameRateCal = 1667592804
+06-27 12:51:04.227   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:04.227   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 137
+06-27 12:51:04.227   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 137 matched
+06-27 12:51:04.227   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 139
+06-27 12:51:04.228  8346  8389 D PMonitor:  onForegroundActivitiesChanged:pid = 28683,activity-uid=1000,foregroundActivities=false
+06-27 12:51:04.229  1437  1437 D MediaMetricsService: submitInternal: isTrusted:1 given uid -1; sanitized uid: 1041 sanitized pkg: audioserver sanitized pkg version: 0
+06-27 12:51:04.229  1437  1437 D MediaMetricsService: submitInternal: item->getKey().c_str() = audio.thread.70
+06-27 12:51:04.229  1437  1437 D MediaMetricsService: submitInternal: item->getCString(kCodecPackageName, &msg_send->packgeName) = 0
+06-27 12:51:04.229  1437  1437 D MediaMetricsService: submitInternal: item->getInt32(kCodecHdrInfo, &msg_send->hdr) = 0
+06-27 12:51:04.229  1437  1437 D MediaMetricsService: submitInternal: item->getInt32(kCodecFrameRateCal, &msg_send->frameRateCal) = 0
+06-27 12:51:04.229  1437  1437 D MediaMetricsService: submitInternal: msg_send->frameRateCal = 1667328356
+06-27 12:51:04.229 28683 28683 D RAInjector: LoadIconTask::onPostExecute ResolveInfo{673e590 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:51:04.229 28683 28683 I chatty  : uid=1000 system:ui identical 3 lines
+06-27 12:51:04.230 28683 28683 D RAInjector: LoadIconTask::onPostExecute ResolveInfo{673e590 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:51:04.230   943 29412 I AudioFlinger: AudioFlinger's thread 0xb400007383dd5700 tid=29412 ready to run
+06-27 12:51:04.230   789   862 D audio_hw_primary: in_standby: enter: stream (0xed6c1000) usecase(23: audio-record)
+06-27 12:51:04.230 28683 28683 D RAInjector: LoadIconTask::onPostExecute ResolveInfo{673e590 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:51:04.230 28683 28683 I chatty  : uid=1000 system:ui identical 3 lines
+06-27 12:51:04.230 28683 28683 D RAInjector: LoadIconTask::onPostExecute ResolveInfo{673e590 com.mxtech.videoplayer.ad/.ActivityScreen m=0x608000}
+06-27 12:51:04.230 28683 28683 D RAInjector: LoadIconTask::onPostExecute ResolveInfo{caace89 com.mxtech.videoplayer.ad/.ActivityPipScreen m=0x608000}
+06-27 12:51:04.231 28683 28683 D RAInjector: LoadIconTask::onPostExecute ResolveInfo{69dde8e com.miui.player/.phone.ui.AudioPreview m=0x608000}
+06-27 12:51:04.231 28683 28683 D RAInjector: LoadIconTask::onPostExecute ResolveInfo{adb36af com.bsbportal.music/.activities.LauncherScreenActivity m=0x608000}
+06-27 12:51:04.231   943  1606 D APM_AudioPolicyManager: getInputForAttr() returns input 70 type 0 selectedDeviceId 22 for port ID 56
+06-27 12:51:04.232   885   937 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.ext.services/android.ext.services.resolver.LRResolverRankerService and for client system:ui
+06-27 12:51:04.232   885   937 I vendor.qti.hardware.servicetracker@1.2-service: size of service connections for service: com.google.android.ext.services/android.ext.services.resolver.LRResolverRankerServiceafter removal is 0
+06-27 12:51:04.232   885   937 I vendor.qti.hardware.servicetracker@1.2-service: size of client connections for client: system:uiafter removal is 0
+06-27 12:51:04.233   943 29412 D AudioFlinger: updateWakeLockUids_l AudioIn_46 uids:
+06-27 12:51:04.234   789   862 D audio_hw_primary: in_standby: enter: stream (0xed6c1000) usecase(23: audio-record)
+06-27 12:51:04.235   885   937 I vendor.qti.hardware.servicetracker@1.2-service: destroyService is called for service : com.google.android.ext.services/android.ext.services.resolver.LRResolverRankerService
+06-27 12:51:04.236  8346  8389 D PMonitor:  onForegroundActivitiesChanged:pid = 20959,activity-uid=10099,foregroundActivities=true
+06-27 12:51:04.236  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10099, uidState = 12
+06-27 12:51:04.239  1919  3081 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:51:04.240  1919  3081 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:51:04.240   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:04.240   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 138
+06-27 12:51:04.240   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 138 matched
+06-27 12:51:04.241   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 140
+06-27 12:51:04.241  1919  3081 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:51:04.241   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:04.241   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 139
+06-27 12:51:04.241   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 139 matched
+06-27 12:51:04.242   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 141
+06-27 12:51:04.245  1437  1437 D MediaMetricsService: submitInternal: isTrusted:1 given uid 10188; sanitized uid: 10188 sanitized pkg: com.google.android.googlequicksearchbox sanitized pkg version: 301527834
+06-27 12:51:04.245  1437  1437 D MediaMetricsService: submitInternal: item->getKey().c_str() = audio.record.56
+06-27 12:51:04.245  1437  1437 D MediaMetricsService: submitInternal: item->getCString(kCodecPackageName, &msg_send->packgeName) = 0
+06-27 12:51:04.245  1437  1437 D MediaMetricsService: submitInternal: item->getInt32(kCodecHdrInfo, &msg_send->hdr) = 0
+06-27 12:51:04.245  1437  1437 D MediaMetricsService: submitInternal: item->getInt32(kCodecFrameRateCal, &msg_send->frameRateCal) = 0
+06-27 12:51:04.245  1437  1437 D MediaMetricsService: submitInternal: msg_send->frameRateCal = 1731093609
+06-27 12:51:04.245  1437  1437 D MediaMetricsService: submitInternal: isTrusted:0 given uid -1; sanitized uid: 10188 sanitized pkg: com.google.android.googlequicksearchbox sanitized pkg version: 301527834
+06-27 12:51:04.245  1437  1437 D MediaMetricsService: submitInternal: item->getKey().c_str() = audio.record.56
+06-27 12:51:04.245  1437  1437 D MediaMetricsService: submitInternal: item->getCString(kCodecPackageName, &msg_send->packgeName) = 0
+06-27 12:51:04.245  1437  1437 D MediaMetricsService: submitInternal: item->getInt32(kCodecHdrInfo, &msg_send->hdr) = 0
+06-27 12:51:04.245  1437  1437 D MediaMetricsService: submitInternal: item->getInt32(kCodecFrameRateCal, &msg_send->frameRateCal) = 0
+06-27 12:51:04.245  1437  1437 D MediaMetricsService: submitInternal: msg_send->frameRateCal = 1731093609
+06-27 12:51:04.246  7063 29140 I esyl    : (REDACTED) #audio# create stream of audio record source(identity(%s), recordId(%d))
+06-27 12:51:04.246  7063 29140 D AudioRecord: start(56): sync event 0 trigger session 0, mSessionID=25
+06-27 12:51:04.246  9395 21030 I SCTaskStackListener: onTaskStackChanged! inSplit = false
+06-27 12:51:04.246  9395 10041 I SCTaskStackListener: onTaskStackChanged! inSplit = false
+06-27 12:51:04.247   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 9
+06-27 12:51:04.247   885   937 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 9
+06-27 12:51:04.250   943  3796 D AudioPolicyManagerCustom: startInput portId 56
+06-27 12:51:04.250   943  3796 D AudioPolicyManagerCustom: startInput() input:70, session:25 [uid=10188 apptype=40])
+06-27 12:51:04.250   943  3796 I ConfigStore: vendor::qti::hardware::audiohalext::V1_0::IAudioHalExt::getApmConfigs retrieved:  (default)
+06-27 12:51:04.251   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:04.251   943 29412 D AudioFlinger: updateWakeLockUids_l AudioIn_46 uids:10188 
+06-27 12:51:04.251   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 140
+06-27 12:51:04.251   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 140 matched
+06-27 12:51:04.251   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 142
+06-27 12:51:04.251   943 29412 I AudioFlinger: checkForGameParameter_l() set events appname=+com.google.android.googlequicksearchbox
+06-27 12:51:04.252   789   862 D audio_hw_primary: in_set_parameters: enter: kvpairs=appname=+com.google.android.googlequicksearchbox
+06-27 12:51:04.252  1919  8366 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:51:04.252   789   862 E device_utils: update_device_list: Invalid device: 0
+06-27 12:51:04.252  1919  8366 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:51:04.253  2671  2671 D AppMiniWindowManager: topActivity updated in onTaskStackChanged
+06-27 12:51:04.253   789  2281 D audio_hw_primary: adev_create_audio_patch: enter: num sources 1, num_sinks 1, handle 0
+06-27 12:51:04.253   789  2281 D audio_hw_primary: adev_create_audio_patch: Capture patch from device 80000004 to mix 70
+06-27 12:51:04.253   789  2281 D audio_hw_primary: update_patch: enter
+06-27 12:51:04.253   789  2281 D audio_hw_primary: route_input_stream: exit: status(0)
+06-27 12:51:04.253   789  2281 D audio_hw_primary: adev_create_audio_patch: Added a new patch with handle 12
+06-27 12:51:04.254  1437  1437 D MediaMetricsService: submitInternal: isTrusted:1 given uid -1; sanitized uid: 1041 sanitized pkg: audioserver sanitized pkg version: 0
+06-27 12:51:04.254  1437  1437 D MediaMetricsService: submitInternal: item->getKey().c_str() = audio.thread.70
+06-27 12:51:04.254  1437  1437 D MediaMetricsService: submitInternal: item->getCString(kCodecPackageName, &msg_send->packgeName) = 0
+06-27 12:51:04.254  1437  1437 D MediaMetricsService: submitInternal: item->getInt32(kCodecHdrInfo, &msg_send->hdr) = 0
+06-27 12:51:04.254  1437  1437 D MediaMetricsService: submitInternal: item->getInt32(kCodecFrameRateCal, &msg_send->frameRateCal) = 0
+06-27 12:51:04.254  1437  1437 D MediaMetricsService: submitInternal: msg_send->frameRateCal = 1667328356
+06-27 12:51:04.254  1437  1437 D MediaMetricsService: submitInternal: isTrusted:1 given uid -1; sanitized uid: 1041 sanitized pkg: audioserver sanitized pkg version: 0
+06-27 12:51:04.254  1437  1437 D MediaMetricsService: submitInternal: item->getKey().c_str() = audio.thread.70
+06-27 12:51:04.254  1437  1437 D MediaMetricsService: submitInternal: item->getCString(kCodecPackageName, &msg_send->packgeName) = 0
+06-27 12:51:04.254  1437  1437 D MediaMetricsService: submitInternal: item->getInt32(kCodecHdrInfo, &msg_send->hdr) = 0
+06-27 12:51:04.254  1437  1437 D MediaMetricsService: submitInternal: item->getInt32(kCodecFrameRateCal, &msg_send->frameRateCal) = 0
+06-27 12:51:04.254  1437  1437 D MediaMetricsService: submitInternal: msg_send->frameRateCal = 0
+06-27 12:51:04.254  1437  1437 D MediaMetricsService: submitInternal: isTrusted:1 given uid -1; sanitized uid: 1041 sanitized pkg: audioserver sanitized pkg version: 0
+06-27 12:51:04.254  1437  1437 D MediaMetricsService: submitInternal: item->getKey().c_str() = audio.record.56
+06-27 12:51:04.254  1437  1437 D MediaMetricsService: submitInternal: item->getCString(kCodecPackageName, &msg_send->packgeName) = 0
+06-27 12:51:04.254  1437  1437 D MediaMetricsService: submitInternal: item->getInt32(kCodecHdrInfo, &msg_send->hdr) = 0
+06-27 12:51:04.254  1437  1437 D MediaMetricsService: submitInternal: item->getInt32(kCodecFrameRateCal, &msg_send->frameRateCal) = 0
+06-27 12:51:04.254  1437  1437 D MediaMetricsService: submitInternal: msg_send->frameRateCal = 0
+06-27 12:51:04.255   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:04.255   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 141
+06-27 12:51:04.255   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 141 matched
+06-27 12:51:04.256   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 143
+06-27 12:51:04.257   943  3796 I ConfigStore: vendor::qti::hardware::audiohalext::V1_0::IAudioHalExt::getApmConfigs retrieved:  (default)
+06-27 12:51:04.257   943  3796 D AudioPolicyManagerCustom: startInput: setCaptureState true for sva
+06-27 12:51:04.258  1919  8333 I SoundTriggerMiddlewareLogging: setCaptureState[this=com.android.server.soundtrigger_middleware.SoundTriggerMiddlewareImpl@5173254, caller=1041/943](true)
+06-27 12:51:04.258   943  3796 D AudioPolicyManagerCustom: startInput input 70 source = 1999 exit
+06-27 12:51:04.258   943  3796 I ConfigStore: vendor::qti::hardware::audiohalext::V1_0::IAudioHalExt::getApmConfigs retrieved:  (default)
+06-27 12:51:04.259   789   862 E FMQ     : grantorIdx must be less than 3
+06-27 12:51:04.259   789   862 E FMQ     : grantorIdx must be less than 3
+06-27 12:51:04.260   943 29412 E FMQ     : grantorIdx must be less than 3
+06-27 12:51:04.260   943 29412 E FMQ     : grantorIdx must be less than 3
+06-27 12:51:04.260   789   862 W StreamHAL: Error from HAL stream in function set_microphone_direction: Function not implemented
+06-27 12:51:04.260 28683 28683 E ActivityThread: Activity com.android.internal.app.ResolverActivity has leaked IntentReceiver com.android.internal.app.ResolverActivity$5@1e2568d that was originally registered here. Are you missing a call to unregisterReceiver()?
+06-27 12:51:04.260 28683 28683 E ActivityThread: android.app.IntentReceiverLeaked: Activity com.android.internal.app.ResolverActivity has leaked IntentReceiver com.android.internal.app.ResolverActivity$5@1e2568d that was originally registered here. Are you missing a call to unregisterReceiver()?
+06-27 12:51:04.260 28683 28683 E ActivityThread: 	at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:1607)
+06-27 12:51:04.260 28683 28683 E ActivityThread: 	at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:1378)
+06-27 12:51:04.260 28683 28683 E ActivityThread: 	at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1624)
+06-27 12:51:04.260 28683 28683 E ActivityThread: 	at android.app.ContextImpl.registerReceiverAsUser(ContextImpl.java:1611)
+06-27 12:51:04.260 28683 28683 E ActivityThread: 	at android.content.ContextWrapper.registerReceiverAsUser(ContextWrapper.java:720)
+06-27 12:51:04.260 28683 28683 E ActivityThread: 	at com.android.internal.app.ResolverActivity.registerWorkProfileStateReceiver(ResolverActivity.java:1087)
+06-27 12:51:04.260 28683 28683 E ActivityThread: 	at com.android.internal.app.ResolverActivity.onStart(ResolverActivity.java:1068)
+06-27 12:51:04.260 28683 28683 E ActivityThread: 	at android.app.Instrumentation.callActivityOnStart(Instrumentation.java:1436)
+06-27 12:51:04.260 28683 28683 E ActivityThread: 	at android.app.Activity.performStart(Activity.java:8158)
+06-27 12:51:04.260 28683 28683 E ActivityThread: 	at android.app.ActivityThread.handleStartActivity(ActivityThread.java:3566)
+06-27 12:51:04.260 28683 28683 E ActivityThread: 	at android.app.servertransaction.TransactionExecutor.performLifecycleSequence(TransactionExecutor.java:221)
+06-27 12:51:04.260 28683 28683 E ActivityThread: 	at android.app.servertransaction.TransactionExecutor.cycleToPath(TransactionExecutor.java:201)
+06-27 12:51:04.260 28683 28683 E ActivityThread: 	at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:173)
+06-27 12:51:04.260 28683 28683 E ActivityThread: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:97)
+06-27 12:51:04.260 28683 28683 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2136)
+06-27 12:51:04.260 28683 28683 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+06-27 12:51:04.260 28683 28683 E ActivityThread: 	at android.os.Looper.loop(Looper.java:236)
+06-27 12:51:04.260 28683 28683 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:8061)
+06-27 12:51:04.260 28683 28683 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+06-27 12:51:04.260 28683 28683 E ActivityThread: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:656)
+06-27 12:51:04.260 28683 28683 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:967)
+06-27 12:51:04.260   789   862 W StreamHAL: Error from HAL stream in function set_microphone_field_dimension: Function not implemented
+06-27 12:51:04.261  7063 29140 D AudioService: broadcastRecorderState:com.google.android.googlequicksearchbox
+06-27 12:51:04.261  1437  2234 D MediaMetricsService: submitInternal: isTrusted:0 given uid -1; sanitized uid: 10188 sanitized pkg: com.google.android.googlequicksearchbox sanitized pkg version: 301527834
+06-27 12:51:04.261  1437  2234 D MediaMetricsService: submitInternal: item->getKey().c_str() = audio.record.56
+06-27 12:51:04.261  1437  2234 D MediaMetricsService: submitInternal: item->getCString(kCodecPackageName, &msg_send->packgeName) = 0
+06-27 12:51:04.261  1437  2234 D MediaMetricsService: submitInternal: item->getInt32(kCodecHdrInfo, &msg_send->hdr) = 0
+06-27 12:51:04.261  1437  2234 D MediaMetricsService: submitInternal: item->getInt32(kCodecFrameRateCal, &msg_send->frameRateCal) = 0
+06-27 12:51:04.261  1437  2234 D MediaMetricsService: submitInternal: msg_send->frameRateCal = 1731093609
+06-27 12:51:04.261  7063 29140 I eszm    : #audio# start audio buffering
+06-27 12:51:04.261 28683 28683 E ActivityThread: Activity com.android.internal.app.ResolverActivity has leaked IntentReceiver com.android.internal.app.ResolverActivity$1@4b7cf32 that was originally registered here. Are you missing a call to unregisterReceiver()?
+06-27 12:51:04.261 28683 28683 E ActivityThread: android.app.IntentReceiverLeaked: Activity com.android.internal.app.ResolverActivity has leaked IntentReceiver com.android.internal.app.ResolverActivity$1@4b7cf32 that was originally registered here. Are you missing a call to unregisterReceiver()?
+06-27 12:51:04.261 28683 28683 E ActivityThread: 	at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:1607)
+06-27 12:51:04.261 28683 28683 E ActivityThread: 	at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:1378)
+06-27 12:51:04.261 28683 28683 E ActivityThread: 	at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1624)
+06-27 12:51:04.261 28683 28683 E ActivityThread: 	at android.app.ContextImpl.registerReceiverAsUser(ContextImpl.java:1611)
+06-27 12:51:04.261 28683 28683 E ActivityThread: 	at android.content.ContextWrapper.registerReceiverAsUser(ContextWrapper.java:720)
+06-27 12:51:04.261 28683 28683 E ActivityThread: 	at com.android.internal.content.PackageMonitor.register(PackageMonitor.java:98)
+06-27 12:51:04.261 28683 28683 E ActivityThread: 	at com.android.internal.content.PackageMonitor.register(PackageMonitor.java:86)
+06-27 12:51:04.261 28683 28683 E ActivityThread: 	at com.android.internal.app.ResolverActivity.onCreate(ResolverActivity.java:523)
+06-27 12:51:04.261 28683 28683 E ActivityThread: 	at com.android.internal.app.ResolverActivity.onCreate(ResolverActivity.java:380)
+06-27 12:51:04.261 28683 28683 E ActivityThread: 	at android.app.Activity.performCreate(Activity.java:8127)
+06-27 12:51:04.261 28683 28683 E ActivityThread: 	at android.app.Activity.performCreate(Activity.java:8098)
+06-27 12:51:04.261 28683 28683 E ActivityThread: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1310)
+06-27 12:51:04.261 28683 28683 E ActivityThread: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3513)
+06-27 12:51:04.261 28683 28683 E ActivityThread: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3700)
+06-27 12:51:04.261 28683 28683 E ActivityThread: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:85)
+06-27 12:51:04.261 28683 28683 E ActivityThread: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:135)
+06-27 12:51:04.261 28683 28683 E ActivityThread: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:95)
+06-27 12:51:04.261 28683 28683 E ActivityThread: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2136)
+06-27 12:51:04.261 28683 28683 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+06-27 12:51:04.261 28683 28683 E ActivityThread: 	at android.os.Looper.loop(Looper.java:236)
+06-27 12:51:04.261 28683 28683 E ActivityThread: 	at android.app.ActivityThread.main(ActivityThread.java:8061)
+06-27 12:51:04.261 28683 28683 E ActivityThread: 	at java.lang.reflect.Method.invoke(Native Method)
+06-27 12:51:04.261 28683 28683 E ActivityThread: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:656)
+06-27 12:51:04.261 28683 28683 E ActivityThread: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:967)
+06-27 12:51:04.262  9739  9900 I PowerCheckerService: uid:10188 change to active
+06-27 12:51:04.262  9739  9853 I AppActiveChecker: uid:10188 change to active
+06-27 12:51:04.262  1919  3081 I AudioService.RecordingActivityMonitor: rec update riid:167 uid:10188 session:25 src:HOTWORD pack:com.google.android.googlequicksearchbox
+06-27 12:51:04.262   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:04.262   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 142
+06-27 12:51:04.262   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 142 matched
+06-27 12:51:04.262  7063  8063 I etkt    : (REDACTED) #audio# starting listening client(%s) route(%s) took %d(ms)
+06-27 12:51:04.263   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 144
+06-27 12:51:04.263  7063  8010 I eudy    : (REDACTED) #audio# hotword client session(token(%d)) start listening status(%s)
+06-27 12:51:04.263  7063  8011 I etkt    : (REDACTED) #audio# HotwordListeningSession start listening status: %s
+06-27 12:51:04.264  7063  8011 I esvb    : (REDACTED) #audio# registering receiver(%s), range(offset=%d, minimal=%s), buffer(%s)
+06-27 12:51:04.264  7063  8011 I etju    : #audio# reportMicUpdate
+06-27 12:51:04.264  7063 29414 I eswj    : (REDACTED) #audio# mark first byte read result as non-empty, actual(%dms ago)
+06-27 12:51:04.264  7063  8011 I fbai    : registerAudioBytesReceiver success.
+06-27 12:51:04.264  7063  8010 I ethi    : (REDACTED) #audio# result(%s) synced first-byte-read
+06-27 12:51:04.264  7063  8011 I fbai    : Hotword mic open successful.
+06-27 12:51:04.264  7063  8011 I esvb    : (REDACTED) #audio# noting buffer(%s) new state(%s)
+06-27 12:51:04.264  7063  8010 I fbai    : After mic open
+06-27 12:51:04.264  7063  8011 I esvp    : (REDACTED) #audio# start time defined(present=%s)
+06-27 12:51:04.264  7063  7999 I fbai    : (REDACTED) #onAudioData: %s bytes, getAudioReadSize %s
+06-27 12:51:04.265  7063  8010 I fbbi    : Hotword audio capture started.
+06-27 12:51:04.265  7063  8010 I favt    : Soda started successfully after DSP hotword detected.
+06-27 12:51:04.265  7063  9461 I native  : I0000 00:00:1751008864.265376    9461 soda_async_impl.cc:1303] SODA received first mic audio buffer, size in bytes: 320, format: 1, channels: 1, sample rate: 16000
+06-27 12:51:04.269   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:04.269   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 143
+06-27 12:51:04.269   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 143 matched
+06-27 12:51:04.269   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 145
+06-27 12:51:04.275   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:04.275   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 144
+06-27 12:51:04.275   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 144 matched
+06-27 12:51:04.275   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 146
+06-27 12:51:04.282   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:04.282   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 145
+06-27 12:51:04.282   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 145 matched
+06-27 12:51:04.282   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 147
+06-27 12:51:04.285   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:04.285   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 146
+06-27 12:51:04.285   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 146 matched
+06-27 12:51:04.286   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 148
+06-27 12:51:04.291   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:04.291   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 147
+06-27 12:51:04.291   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 147 matched
+06-27 12:51:04.291   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 149
+06-27 12:51:04.296   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:04.296   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 148
+06-27 12:51:04.296   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 148 matched
+06-27 12:51:04.296   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 150
+06-27 12:51:04.301   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:04.301   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 149
+06-27 12:51:04.301   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 149 matched
+06-27 12:51:04.301   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 151
+06-27 12:51:04.305   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:04.305   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 150
+06-27 12:51:04.305   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 150 matched
+06-27 12:51:04.305   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 152
+06-27 12:51:04.309   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:04.309   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 151
+06-27 12:51:04.309   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 151 matched
+06-27 12:51:04.310   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 153
+06-27 12:51:04.313   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:04.313   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 152
+06-27 12:51:04.313   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 152 matched
+06-27 12:51:04.314   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 154
+06-27 12:51:04.370   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:04.370   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 153
+06-27 12:51:04.370   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 153 matched
+06-27 12:51:04.371   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 155
+06-27 12:51:04.372  7063  8063 I eswd    : (REDACTED) #audio# processor(%s) is being completed(%s)
+06-27 12:51:04.373  7063  8063 I eswd    : (REDACTED) #audio# processor(%s) done, processed(%dns), spent(%dns), deviation(%dns)
+06-27 12:51:04.374  7063  8010 I ethi    : (REDACTED) #audio# result(%s) synced audio-start-time
+06-27 12:51:04.499   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:04.499   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 154
+06-27 12:51:04.499   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 154 matched
+06-27 12:51:04.502   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 156
+06-27 12:51:04.493  3799  3799 W ThreadPoolForeg: type=1400 audit(0.0:5061): avc: denied { write } for name="traced_producer" dev="tmpfs" ino=39154 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+06-27 12:51:04.619   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:04.620   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 155
+06-27 12:51:04.620   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 155 matched
+06-27 12:51:04.620   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 157
+06-27 12:51:04.740   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:04.740   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 156
+06-27 12:51:04.740   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 156 matched
+06-27 12:51:04.740   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 158
+06-27 12:51:04.744  7063  9461 I native  : I0000 00:00:1751008864.743922    9461 soda_async_impl.cc:1072] Not receiving any loopback audio in 500ms. Last audio received time: 1970-01-01T05:30:00+05:30, Current time: 2025-06-27T12:51:04.743916625+05:30
+06-27 12:51:04.860   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:04.860   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 157
+06-27 12:51:04.860   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 157 matched
+06-27 12:51:04.860   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 159
+06-27 12:51:04.980   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:04.980   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 158
+06-27 12:51:04.980   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 158 matched
+06-27 12:51:04.980   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 160
+06-27 12:51:05.099   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:05.099   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 159
+06-27 12:51:05.099   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 159 matched
+06-27 12:51:05.100   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 161
+06-27 12:51:05.217   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:05.217   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 160
+06-27 12:51:05.217   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 160 matched
+06-27 12:51:05.218   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 162
+06-27 12:51:05.242  7063  9461 I native  : I0000 00:00:1751008865.242001    9461 hotword_processor.cc:847] Hotword has timed out.
+06-27 12:51:05.243  7063  9461 I native  : I0000 00:00:1751008865.243824    9461 soda_impl.cc:1752] Adding hotword timeout event
+06-27 12:51:05.244  7063  9461 I native  : I0000 00:00:1751008865.244238    9461 soda_async_impl.cc:962] SODA stopped processing audio, mics audio processed in millis: 3000, loopback audio processed in millis: 0
+06-27 12:51:05.245  7063  9461 I native  : I0000 00:00:1751008865.245416    9461 soda_async_impl.cc:974] Audio readers are stopped.
+06-27 12:51:05.245  7063  9462 I fbbi    : Hotword timeout event!
+06-27 12:51:05.246  7063  9462 I fbbi    : After setting sodaStopCompleter for waitForSodaStoppedAfterTimeout
+06-27 12:51:05.246  7063  9461 I native  : I0000 00:00:1751008865.246918    9461 soda_async_impl.cc:1433] Ending ASR due to process sync signal.
+06-27 12:51:05.247  7063  7982 I fbbi    : onHotwordTimeout inside sequencer
+06-27 12:51:05.248  7063  9461 I native  : I0000 00:00:1751008865.248819    9461 soda_async_impl.cc:1037] SODA session stopped due to: HOTWORD_TIMEOUT
+06-27 12:51:05.249  7063  9462 I dosg    : onStopCapture
+06-27 12:51:05.249  7063  9462 I dosg    : Unregister SodaAudioAdapter.
+06-27 12:51:05.249  7063  9462 I esys    : (REDACTED) #audio# unregistering source: %s
+06-27 12:51:05.249  7063  9462 I esuf    : (REDACTED) #audio# unregisterAudioAdapter (%s)
+06-27 12:51:05.249  7063  9462 I ethu    : (REDACTED) #audio# cancel timeout(token(%s))
+06-27 12:51:05.250  7063  9462 I fbbi    : (REDACTED) SodaStopReason %s
+06-27 12:51:05.250  7063  7982 I ethp    : (REDACTED) #audio# de-referencing(%s) from(%s)
+06-27 12:51:05.250  7063  8063 I fbbi    : #onStop SodaState reset to INITIALIZED
+06-27 12:51:05.251  7063  8010 I fbai    : (REDACTED) stopPushingAudio due to %s
+06-27 12:51:05.251  7063  8063 I fbbi    : After reset sodaStopCompleter.
+06-27 12:51:05.251  7063  8063 I faud    : (REDACTED) #onSodaStop received %s
+06-27 12:51:05.251  7063  7999 I fbai    : Calling stopListening on hotwordListeningSession.
+06-27 12:51:05.251  7063  7999 I etnb    : (REDACTED) #audio# stop listening hotword client session(token(%d))
+06-27 12:51:05.251  7063  8064 I faud    : (REDACTED) #onSodaStop inside sequentialExecutor %s
+06-27 12:51:05.251  7063  7999 I etph    : (REDACTED) #audio# stopping(%s) hotword session(%d) for %s
+06-27 12:51:05.251  7063  8064 W faud    : (REDACTED) %s. Completer is null; It could be set earlier or we ware not waiting for the disconnect signal.
+06-27 12:51:05.252  7063  8064 I eokx    : (REDACTED) HDM event received: %s
+06-27 12:51:05.252  7063  7999 I ethu    : (REDACTED) #audio# cancel timeout(token(%s))
+06-27 12:51:05.252  7063  7999 I etqk    : (REDACTED) #audio# stopping(%s) hotword source session(%d)
+06-27 12:51:05.252  7063  7982 I ethp    : (REDACTED) #audio# de-referencing(%s) from(%s), (%s)
+06-27 12:51:05.253  7063 29140 I etnt    : (REDACTED) #audio# closing audio source(%s)
+06-27 12:51:05.253  7063 29140 I esyl    : (REDACTED) #audio# close audio source(identity(%s), recordId(%d))
+06-27 12:51:05.253  7063 29140 D AudioRecord: stop mSessionID=25
+06-27 12:51:05.253  7063 29140 D AudioRecord: stop(56): mActive:1
+06-27 12:51:05.254  7063  8010 I esvb    : (REDACTED) #audio# marking buffer(%s) closed, available(%d)
+06-27 12:51:05.254  7063  8063 I eohc    : (REDACTED) Platform configuration for connection(%s) has changed(@%s):%s
+06-27 12:51:05.254  7063  8010 I eswj    : (REDACTED) #audio# close processor (%s)
+06-27 12:51:05.254  7063  8063 I eoes    : (REDACTED) On platform configuration update(@%s) in connection(%s).
+06-27 12:51:05.254  7063  8064 I eswd    : (REDACTED) #audio# close processor(%s)
+06-27 12:51:05.254  7063  8010 I esvb    : (REDACTED) #audio# unregistering receiver(%s) due to EOF, buffer(%s)
+06-27 12:51:05.255  7063  8064 I bisp    : (REDACTED) On platform configuration update(%s).
+06-27 12:51:05.255  7063  8063 I fbbi    : Soda audio push completed.
+06-27 12:51:05.255  7063  8064 I birx    : Received ConfigurationUpdate from Triggering API
+06-27 12:51:05.340   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:05.340   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 161
+06-27 12:51:05.340   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 161 matched
+06-27 12:51:05.341   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 163
+06-27 12:51:05.341   943 29412 D AudioFlinger: updateWakeLockUids_l AudioIn_46 uids:
+06-27 12:51:05.345   789  2281 D audio_hw_primary: in_standby: enter: stream (0xed6c1000) usecase(23: audio-record)
+06-27 12:51:05.345   789  2281 D audio_hw_primary: in_standby: sound trigger pcm stop lab
+06-27 12:51:05.345  1919  8333 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:51:05.345   789  9293 D sound_trigger_hw: process_lab_capture:[1] calling gcs_stop_buff_xfer 
+06-27 12:51:05.345   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0x4, size = 28, token = 164
+06-27 12:51:05.351   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 676, resp_buf size: 688
+06-27 12:51:05.351   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 676 token = 162
+06-27 12:51:05.351   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 162 matched
+06-27 12:51:05.352   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 36, resp_buf size: 48
+06-27 12:51:05.352   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 36 token = 163
+06-27 12:51:05.352   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 163 matched
+06-27 12:51:05.353   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0x2, payload_size: 4, resp_buf size: 16
+06-27 12:51:05.354   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0x2 size = 4 token = 164
+06-27 12:51:05.354   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 164 matched
+06-27 12:51:05.354   789  2281 D sound_trigger_hw: buffering_state_fn:[1] post deferred stop on buffering end
+06-27 12:51:05.357   943   943 D APM_AudioPolicyManager: stopInput() IoHandle 70 uid 10188
+06-27 12:51:05.359   789   862 D audio_hw_primary: adev_release_audio_patch: Remove patch with handle 12
+06-27 12:51:05.359   789   862 D audio_hw_primary: route_input_stream: exit: status(0)
+06-27 12:51:05.361  1919  1986 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:51:05.362   943   943 D APM_AudioPolicyManager: resetInputDevice() releaseAudioPatch returned 0
+06-27 12:51:05.363   943   943 D APM_AudioPolicyManager: stopInput: setCaptureState false for sva
+06-27 12:51:05.364  1919  8333 I SoundTriggerMiddlewareLogging: setCaptureState[this=com.android.server.soundtrigger_middleware.SoundTriggerMiddlewareImpl@5173254, caller=1041/943](false)
+06-27 12:51:05.367   943 29412 D AudioFlinger: updateWakeLockUids_l AudioIn_46 uids:
+06-27 12:51:05.367   943 29412 I AudioFlinger: checkForGameParameter_l() set events appname=-com.google.android.googlequicksearchbox
+06-27 12:51:05.367   789   862 D audio_hw_primary: in_set_parameters: enter: kvpairs=appname=-com.google.android.googlequicksearchbox
+06-27 12:51:05.368   943   943 D AudioPolicyManagerCustom: stopInput() input 70 [uid=10188]
+06-27 12:51:05.369  1919  8333 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:51:05.369   943   943 I ConfigStore: vendor::qti::hardware::audiohalext::V1_0::IAudioHalExt::getApmConfigs retrieved:  (default)
+06-27 12:51:05.369   943   943 I ConfigStore: vendor::qti::hardware::audiohalext::V1_0::IAudioHalExt::getApmConfigs retrieved:  (default)
+06-27 12:51:05.369  1919  8333 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:51:05.371  1919  1986 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:51:05.377  7063 29140 D AudioService: broadcastRecorderState:com.google.android.googlequicksearchbox
+06-27 12:51:05.377  1437  2234 D MediaMetricsService: submitInternal: isTrusted:0 given uid -1; sanitized uid: 10188 sanitized pkg: com.google.android.googlequicksearchbox sanitized pkg version: 301527834
+06-27 12:51:05.377  1437  2234 D MediaMetricsService: submitInternal: item->getKey().c_str() = audio.record.56
+06-27 12:51:05.377  1437  2234 D MediaMetricsService: submitInternal: item->getCString(kCodecPackageName, &msg_send->packgeName) = 0
+06-27 12:51:05.377  1437  2234 D MediaMetricsService: submitInternal: item->getInt32(kCodecHdrInfo, &msg_send->hdr) = 0
+06-27 12:51:05.377  1437  2234 D MediaMetricsService: submitInternal: item->getInt32(kCodecFrameRateCal, &msg_send->frameRateCal) = 0
+06-27 12:51:05.377  1437  2234 D MediaMetricsService: submitInternal: msg_send->frameRateCal = 1731093609
+06-27 12:51:05.378  7063 29140 D AudioRecord: stop mSessionID=25
+06-27 12:51:05.378  7063 29140 D AudioRecord: stop(56): mActive:0
+06-27 12:51:05.378  9739  9900 I PowerCheckerService: uid:10188change to inactive
+06-27 12:51:05.378  7063 29140 D AudioService: broadcastRecorderState:com.google.android.googlequicksearchbox
+06-27 12:51:05.378  1437  2234 D MediaMetricsService: submitInternal: isTrusted:0 given uid -1; sanitized uid: 10188 sanitized pkg: com.google.android.googlequicksearchbox sanitized pkg version: 301527834
+06-27 12:51:05.378  1437  2234 D MediaMetricsService: submitInternal: item->getKey().c_str() = audio.record.56
+06-27 12:51:05.378  1437  2234 D MediaMetricsService: submitInternal: item->getCString(kCodecPackageName, &msg_send->packgeName) = 0
+06-27 12:51:05.378  1437  2234 D MediaMetricsService: submitInternal: item->getInt32(kCodecHdrInfo, &msg_send->hdr) = 0
+06-27 12:51:05.378  1437  2234 D MediaMetricsService: submitInternal: item->getInt32(kCodecFrameRateCal, &msg_send->frameRateCal) = 0
+06-27 12:51:05.378  1437  2234 D MediaMetricsService: submitInternal: msg_send->frameRateCal = 1731093609
+06-27 12:51:05.378  7063 29140 D AudioRecord: stop mSessionID=25
+06-27 12:51:05.378  7063 29140 D AudioRecord: stop(56): mActive:0
+06-27 12:51:05.379  9739  9853 I AppActiveChecker: uid:10188change to inactive
+06-27 12:51:05.379  7063 29140 D AudioRecord: stop mSessionID=25
+06-27 12:51:05.379  7063 29140 D AudioRecord: stop(56): mActive:0
+06-27 12:51:05.379  1437  2234 D MediaMetricsService: submitInternal: isTrusted:0 given uid -1; sanitized uid: 10188 sanitized pkg: com.google.android.googlequicksearchbox sanitized pkg version: 301527834
+06-27 12:51:05.379  1437  2234 D MediaMetricsService: submitInternal: item->getKey().c_str() = audio.record.56
+06-27 12:51:05.379  1437  2234 D MediaMetricsService: submitInternal: item->getCString(kCodecPackageName, &msg_send->packgeName) = 0
+06-27 12:51:05.379  1437  2234 D MediaMetricsService: submitInternal: item->getInt32(kCodecHdrInfo, &msg_send->hdr) = 0
+06-27 12:51:05.379  1437  2234 D MediaMetricsService: submitInternal: item->getInt32(kCodecFrameRateCal, &msg_send->frameRateCal) = 0
+06-27 12:51:05.379  1437  2234 D MediaMetricsService: submitInternal: msg_send->frameRateCal = 1731093609
+06-27 12:51:05.379  1437  2234 D MediaMetricsService: submitInternal: isTrusted:0 given uid -1; sanitized uid: 10188 sanitized pkg: com.google.android.googlequicksearchbox sanitized pkg version: 301527834
+06-27 12:51:05.379  1437  2234 D MediaMetricsService: submitInternal: item->getKey().c_str() = audio.record.56
+06-27 12:51:05.380  1437  2234 D MediaMetricsService: submitInternal: item->getCString(kCodecPackageName, &msg_send->packgeName) = 0
+06-27 12:51:05.380  1437  2234 D MediaMetricsService: submitInternal: item->getInt32(kCodecHdrInfo, &msg_send->hdr) = 0
+06-27 12:51:05.380  1437  2234 D MediaMetricsService: submitInternal: item->getInt32(kCodecFrameRateCal, &msg_send->frameRateCal) = 0
+06-27 12:51:05.380  1437  2234 D MediaMetricsService: submitInternal: msg_send->frameRateCal = 1731093609
+06-27 12:51:05.380  1437  2234 D MediaMetricsService: submitInternal: isTrusted:0 given uid -1; sanitized uid: 10188 sanitized pkg: com.google.android.googlequicksearchbox sanitized pkg version: 301527834
+06-27 12:51:05.380  1437  2234 D MediaMetricsService: submitInternal: item->getKey().c_str() = audio.record.56
+06-27 12:51:05.380  1437  2234 D MediaMetricsService: submitInternal: item->getCString(kCodecPackageName, &msg_send->packgeName) = 0
+06-27 12:51:05.380  1437  2234 D MediaMetricsService: submitInternal: item->getInt32(kCodecHdrInfo, &msg_send->hdr) = 0
+06-27 12:51:05.380  1437  2234 D MediaMetricsService: submitInternal: item->getInt32(kCodecFrameRateCal, &msg_send->frameRateCal) = 0
+06-27 12:51:05.380  1437  2234 D MediaMetricsService: submitInternal: msg_send->frameRateCal = 1731093609
+06-27 12:51:05.381   943   943 D APM_AudioPolicyManager: releaseInput IoHandle 70 uid 10188
+06-27 12:51:05.381   943   943 D APM_AudioPolicyManager: closeInput(70)
+06-27 12:51:05.392   943 29412 D AudioFlinger: updateWakeLockUids_l AudioIn_46 uids:
+06-27 12:51:05.392  1437  1437 D MediaMetricsService: submitInternal: isTrusted:0 given uid -1; sanitized uid: 10188 sanitized pkg: com.google.android.googlequicksearchbox sanitized pkg version: 301527834
+06-27 12:51:05.392  1437  1437 D MediaMetricsService: submitInternal: item->getKey().c_str() = audiorecord
+06-27 12:51:05.392  1437  1437 D MediaMetricsService: submitInternal: item->getCString(kCodecPackageName, &msg_send->packgeName) = 0
+06-27 12:51:05.392  1437  1437 D MediaMetricsService: submitInternal: item->getInt32(kCodecHdrInfo, &msg_send->hdr) = 0
+06-27 12:51:05.392  1437  1437 D MediaMetricsService: submitInternal: item->getInt32(kCodecFrameRateCal, &msg_send->frameRateCal) = 0
+06-27 12:51:05.392  1437  1437 D MediaMetricsService: submitInternal: msg_send->frameRateCal = 1731093609
+06-27 12:51:05.393   943   943 D APM_AudioPolicyManager: closeInput: setCaptureState false for sva
+06-27 12:51:05.393  7063  7999 I eudy    : (REDACTED) #audio# hotword client session(token(%d)) stop listening status(%s)
+06-27 12:51:05.393  7063  8064 I etkt    : (REDACTED) #audio# HotwordListeningSession stop listening status: %s
+06-27 12:51:05.393  1919  8333 I SoundTriggerMiddlewareLogging: setCaptureState[this=com.android.server.soundtrigger_middleware.SoundTriggerMiddlewareImpl@5173254, caller=1041/943](false)
+06-27 12:51:05.393  7063  7999 I ethi    : (REDACTED) #audio# result(%s) stop signal completed
+06-27 12:51:05.393  7063  8064 I etju    : #audio# reportMicUpdate
+06-27 12:51:05.393  7063  8064 I fbbi    : Call the onHotwordTimeout callback.
+06-27 12:51:05.394  7063  7999 I ethi    : (REDACTED) #audio# result(%s) stopped, processed %d bytes
+06-27 12:51:05.394  7063  8064 I fbdp    : (REDACTED) Hotword score : %f, Hotword model id : %s.
+06-27 12:51:05.394  7063  7999 I ethi    : (REDACTED) #audio# result(%s) removing %d receivers
+06-27 12:51:05.394  7063  8064 I fbdp    : (REDACTED) Timeout reason %s, Coarse channel index %d.
+06-27 12:51:05.395   943   943 D APM_AudioPolicyManager: releaseInput exit
+06-27 12:51:05.396   789   862 D audio_hw_primary: adev_close_input_stream: enter:stream_handle(0xed6c1000)
+06-27 12:51:05.396   789   862 D audio_hw_primary: io_streams_map_remove: Removed stream with handle 70
+06-27 12:51:05.396   789   862 D soundtrigger: audio_extn_sound_trigger_check_ec_ref_enable: EC Reference is disabled
+06-27 12:51:05.396   789   862 W sound_trigger_hw: sound_trigger_hw_call_back: Unknown event 18
+06-27 12:51:05.396   789   862 D soundtrigger: audio_extn_sound_trigger_update_ec_ref_status: update audio echo ref status false
+06-27 12:51:05.396   789   862 D audio_hw_primary: in_standby: enter: stream (0xed6c1000) usecase(23: audio-record)
+06-27 12:51:05.397  1437  1437 D MediaMetricsService: submitInternal: isTrusted:1 given uid -1; sanitized uid: 1041 sanitized pkg: audioserver sanitized pkg version: 0
+06-27 12:51:05.397  7063  8064 I fasa    : (REDACTED) isHotwordAvailable():  %b, isHotwordEnabled() %b , removeUsageOfHotwordEnabled: %b
+06-27 12:51:05.397  1437  1437 D MediaMetricsService: submitInternal: item->getKey().c_str() = audio.thread.70
+06-27 12:51:05.397  1437  1437 D MediaMetricsService: submitInternal: item->getCString(kCodecPackageName, &msg_send->packgeName) = 0
+06-27 12:51:05.397  1437  1437 D MediaMetricsService: submitInternal: item->getInt32(kCodecHdrInfo, &msg_send->hdr) = 0
+06-27 12:51:05.397  1437  1437 D MediaMetricsService: submitInternal: item->getInt32(kCodecFrameRateCal, &msg_send->frameRateCal) = 0
+06-27 12:51:05.397  1437  1437 D MediaMetricsService: submitInternal: msg_send->frameRateCal = 1731093609
+06-27 12:51:05.397  7063  8064 I fasa    : (REDACTED) Voice Match (Speaker-id) supported : %b 
+06-27 12:51:05.398  1437  1437 D MediaMetricsService: submitInternal: isTrusted:1 given uid -1; sanitized uid: 1041 sanitized pkg: audioserver sanitized pkg version: 0
+06-27 12:51:05.398  1437  1437 D MediaMetricsService: submitInternal: item->getKey().c_str() = audio.thread.70
+06-27 12:51:05.398  1437  1437 D MediaMetricsService: submitInternal: item->getCString(kCodecPackageName, &msg_send->packgeName) = 0
+06-27 12:51:05.398  1437  1437 D MediaMetricsService: submitInternal: item->getInt32(kCodecHdrInfo, &msg_send->hdr) = 0
+06-27 12:51:05.398  1437  1437 D MediaMetricsService: submitInternal: item->getInt32(kCodecFrameRateCal, &msg_send->frameRateCal) = 0
+06-27 12:51:05.398  1437  1437 D MediaMetricsService: submitInternal: msg_send->frameRateCal = 1597387103
+06-27 12:51:05.399   943   943 V AF::RecordTrack: ~RecordTrack()
+06-27 12:51:05.399  7063  8064 I fbdv    : onHotwordRejected called
+06-27 12:51:05.399  7063  8010 I fbdv    : (REDACTED) This is hotwordRejectionEventTimestamp: %s
+06-27 12:51:05.400  7063  8010 I faud    : (REDACTED) HDM. Inside Sequencer. Try to start recognition again after %s
+06-27 12:51:05.400  7063  8010 I faud    : (REDACTED) getAllConfigAndTakeAction called because of %s
+06-27 12:51:05.400  7063  7982 I faud    : onMicClose
+06-27 12:51:05.400  7063  8010 I favf    : (REDACTED) Operational mode passed in HotwordConfig is %s
+06-27 12:51:05.401  1919  1986 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:51:05.401  7063  7982 I favt    : (REDACTED) DSP hotword running %s
+06-27 12:51:05.401  7063  8010 I faww    : (REDACTED) No need to try to get the fallback locale. for keyphrase %s, locale %s
+06-27 12:51:05.401  7063  8010 I faxc    : (REDACTED) #getDspAvailableResult locale : %s, dsp locale : %s, keyphrase : %s, DSP keyphrase : %s, isKeyphraseAndLocaleSupported : %b, canUseDownloadDspModel : %b. forceUniversalDspHotwordModel : %b
+06-27 12:51:05.401  1919  8333 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:51:05.402  7063  8010 W KeyphraseEnrollmentInfo: No enrollment application supports the given keyphrase/locale: 'Y Google'/en_IN
+06-27 12:51:05.402  7063  8010 I faxc    : (REDACTED) isDspHotwordSupportedByPlatform = %s, isDspHotwordModelAvailable = %s
+06-27 12:51:05.402  7063  8010 I faud    : (REDACTED) getAllConfigAndTakeAction dspAvailable: %b, disableDspInTest: %b
+06-27 12:51:05.403  7063  8010 I fasa    : (REDACTED) Voice Match (Speaker-id) supported : %b 
+06-27 12:51:05.403  7063  8010 I fasa    : (REDACTED) hotword enrollment state is enrolled:  %b, speakerId model exist: %b. Voice Match supported : %b 
+06-27 12:51:05.403  7063  8010 I fasa    : (REDACTED) isHotwordAvailable():  %b, isHotwordEnabled() %b , removeUsageOfHotwordEnabled: %b
+06-27 12:51:05.403  1919  8333 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:51:05.403  7063  8010 I fasa    : (REDACTED) Hotword enrollment state : %s.
+06-27 12:51:05.403  7063  8010 I faud    : Registering for screen on/off intent ...
+06-27 12:51:05.403  1437  1437 D MediaMetricsService: submitInternal: isTrusted:1 given uid -1; sanitized uid: 1041 sanitized pkg: audioserver sanitized pkg version: 0
+06-27 12:51:05.403  1437  1437 D MediaMetricsService: submitInternal: item->getKey().c_str() = audio.record.56
+06-27 12:51:05.403  1437  1437 D MediaMetricsService: submitInternal: item->getCString(kCodecPackageName, &msg_send->packgeName) = 0
+06-27 12:51:05.403  1437  1437 D MediaMetricsService: submitInternal: item->getInt32(kCodecHdrInfo, &msg_send->hdr) = 0
+06-27 12:51:05.403  1437  1437 D MediaMetricsService: submitInternal: item->getInt32(kCodecFrameRateCal, &msg_send->frameRateCal) = 0
+06-27 12:51:05.403  1437  1437 D MediaMetricsService: submitInternal: msg_send->frameRateCal = 1597387103
+06-27 12:51:05.404  7063  8010 I fasa    : (REDACTED) Voice Match (Speaker-id) supported : %b 
+06-27 12:51:05.404  7063  8010 I fasa    : (REDACTED) Hotword enrollment state : %s.
+06-27 12:51:05.410   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.googlequicksearchbox/com.google.frameworks.client.data.android.server.tiktok.SearchProcessEndpointService and for client com.google.android.googlequicksearchbox:interactor
+06-27 12:51:05.410   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.googlequicksearchbox/com.google.frameworks.client.data.android.server.tiktok.SearchProcessEndpointServiceare :1
+06-27 12:51:05.410   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.googlequicksearchbox:interactorare :2
+06-27 12:51:05.413  1919  8333 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:51:05.413  1919  8333 D CompatibilityInfo: applicationDensity - 440
+06-27 12:51:05.413  1919  8333 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:51:05.414   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.google.android.googlequicksearchbox/com.google.frameworks.client.data.android.server.tiktok.SearchProcessEndpointService
+06-27 12:51:05.415  7063  8011 I favf    : (REDACTED) Operational mode passed in HotwordConfig is %s
+06-27 12:51:05.415  7063  8011 I fasa    : (REDACTED) Hotword enrollment state : %s.
+06-27 12:51:05.415  7063  8011 I faux    : (REDACTED) DefaultPersonalDecisionMaker#getNextAction. Voice match enabled: %b. incomplete enrollment state: %b, screen on: %b, screen locked: %b dsp available: %b
+06-27 12:51:05.416  7063  8011 I favh    : (REDACTED) SharedDecisionMaker#getNextAction for requester %s, mode %s 
+06-27 12:51:05.416  7063  8011 I favh    : #SharedDecisionMaker. NextAction.START
+06-27 12:51:05.416  7063  8011 I fasq    : Reconfig not needed.
+06-27 12:51:05.416  7063  8011 I faud    : (REDACTED) currentReconfigCheckerResult %s
+06-27 12:51:05.416  7063  8011 I fbbi    : (REDACTED) #setSpeakerIdRequired: %s
+06-27 12:51:05.416 28110 28110 I fxlc    : (REDACTED) Created gRPC endpoint for service %s
+06-27 12:51:05.416  7063  8011 I faud    : (REDACTED) Get the next action %s for requester %s.
+06-27 12:51:05.416  7063  8011 I fbdg    : Trusted hotword is disabled due to feature flag
+06-27 12:51:05.416  7063  8011 I fbdg    : Trusted hotword is disabled due to feature flag
+06-27 12:51:05.417  7063  8011 I fasn    : Starting non-trusted DSP hotword detection
+06-27 12:51:05.417  7063  8011 I favt    : #setDspHotwordModel
+06-27 12:51:05.417  7063  8011 I favt    : #startDspHotwordRecognition
+06-27 12:51:05.417  7063  8010 I favt    : #setDspHotwordModel inside sequencer.
+06-27 12:51:05.417  7063  8059 I favt    : #createAlwaysOnHotwordDetectorIfNecessary
+06-27 12:51:05.417  7063  8059 I favt    : alwaysOnHotwordDetector already created and first onAvailabilityChanged called.
+06-27 12:51:05.417  7063  8010 I fawu    : #prepareDspModel
+06-27 12:51:05.418  7063  8010 I fawu    : #prepareDspModel inside ExecutionSequencer
+06-27 12:51:05.418  7063  8010 I fawu    : #prepareDspModel, already enrolled
+06-27 12:51:05.418  7063  8011 I faud    : #handleStartHotwordDetectionResult
+06-27 12:51:05.418  7063  8063 I fasa    : (REDACTED) isHotwordAvailable():  %b, isHotwordEnabled() %b , removeUsageOfHotwordEnabled: %b
+06-27 12:51:05.418  7063  7983 I favt    : (REDACTED) dspModelEnrollmentResult: %s, currentDownloadedDspHotwordModel.isPresent(): %b, directDspModeOrRetryInProgress: %b
+06-27 12:51:05.418  7063  8063 I fasa    : (REDACTED) Voice Match (Speaker-id) supported : %b 
+06-27 12:51:05.418  7063  8063 I faud    : #handleStartHotwordDetectionResult: calling addDspHotwordPropertiesToRequestHandlingMetadata
+06-27 12:51:05.418  7063  8063 I faxc    : #addDspHotwordPropertiesToRequestHandlingMetadata
+06-27 12:51:05.419  7063  8064 I faxc    : (REDACTED) #addDspHotwordPropertiesToRequestHandlingMetadata: properties=%s
+06-27 12:51:05.424  1919  1986 I SoundTriggerMiddlewareValidation: setActivityState activity = ACTIVE
+06-27 12:51:05.424  1919  1986 I SoundTriggerMiddlewareValidation: startRecognition modelHandle = 1 setActivityState = ACTIVE
+06-27 12:51:05.425  1919  1986 D SoundTriggerModule(Service): startRecognition()
+06-27 12:51:05.425  1919  1986 I SoundTriggerModule(Service): startRecognition mHandle = 1
+06-27 12:51:05.425  1919  1986 I SoundTriggerHw2Compat: startRecognition
+06-27 12:51:05.425  1919  1986 I SoundTriggerHw2Compat: startRecognition_2_1
+06-27 12:51:05.426   789   862 D sound_trigger_hw: stdev_start_recognition:[1] Enter
+06-27 12:51:05.426   789   862 D sound_trigger_hw: sm_name_index 0,  sensitivity level 0
+06-27 12:51:05.426   789   862 D sound_trigger_hw: update_confidence_level key 0, level 0
+06-27 12:51:05.426   789   862 D sound_trigger_hw: get_confidence_level: sm type 0, mode 1, sensitivity level 0
+06-27 12:51:05.426   789   862 I sound_trigger_hw: gmm level 50, gmm user level 10, cnn level 27, vop level 10
+06-27 12:51:05.426   789   862 I sound_trigger_hw: get confidence level --> gmm level 50, gmm user level 10, cnn level 27, vop level 10
+06-27 12:51:05.426   789   862 D sound_trigger_hw: buffering_state_fn:[1] handle event id 3
+06-27 12:51:05.426   789   862 D sound_trigger_hw: stop:[1] calling gcs_disable with handle 2
+06-27 12:51:05.426   789   862 E android.hardware.audio.service: __gcs_disable_update_pld: sgt_array[i] = 0x1
+06-27 12:51:05.426   789   862 E android.hardware.audio.service: __gcs_disable_update_pld: sgt_array[i] = 0x2
+06-27 12:51:05.426   789   862 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0x4, size = 68, token = 165
+06-27 12:51:05.430   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0x2, payload_size: 4, resp_buf size: 16
+06-27 12:51:05.430   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0x2 size = 4 token = 165
+06-27 12:51:05.430   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 165 matched
+06-27 12:51:05.430   789   862 D sound_trigger_hw: start:[1] calling gcs_enable with handle 2, non-persist cal 0x0, sz 0
+06-27 12:51:05.431   789   862 D ACDB-LOADER: ACDB -> ACDB_WDSP_CMD_GET_SUBGRAPH_MODULE_CALIBRATION_SIZE
+06-27 12:51:05.431   789   862 D ACDB-LOADER: ACDB -> ACDB_WDSP_CMD_GET_SUBGRAPH_MODULE_CALIBRATION
+06-27 12:51:05.431   789   862 D ACDB-LOADER: ACDB -> ACDB_WDSP_CMD_GET_SUBGRAPH_MODULE_CALIBRATION_SIZE
+06-27 12:51:05.431   789   862 D ACDB-LOADER: ACDB -> ACDB_WDSP_CMD_GET_SUBGRAPH_MODULE_CALIBRATION
+06-27 12:51:05.431   789   862 D ACDB-LOADER: ACDB -> ACDB_WDSP_CMD_GET_SUBGRAPH_MODULE_CONNECTION_SIZE
+06-27 12:51:05.431   789   862 E android.hardware.audio.service: gcs_get_sg_mod_conn_and_update_pld: subgraph mod conn size 0. Exiting
+06-27 12:51:05.431   789   862 D ACDB-LOADER: ACDB -> ACDB_WDSP_CMD_GET_SUBGRAPH_MODULE_CONNECTION_SIZE
+06-27 12:51:05.431   789   862 D ACDB-LOADER: ACDB -> ACDB_WDSP_CMD_GET_SUBGRAPH_MODULE_CONNECTION
+06-27 12:51:05.431   789   862 D ACDB-LOADER: ACDB -> ACDB_WDSP_CMD_GET_SUBGRAPH_CONNECTIONS_SIZE
+06-27 12:51:05.431   789   862 D ACDB-LOADER: ACDB -> ACDB_WDSP_CMD_GET_SUBGRAPHS_CONNECTION
+06-27 12:51:05.431   789   862 D ACDB-LOADER: ACDB -> ACDB_WDSP_CMD_GET_SUBGRAPH_CONNECTIONS_SIZE
+06-27 12:51:05.431   789   862 E android.hardware.audio.service: __gcs_get_sg_conn_and_update_pld: subgraph conn size 0. Exiting
+06-27 12:51:05.431   789   862 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0x3, size = 300, token = 166
+06-27 12:51:05.440   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0x2, payload_size: 4, resp_buf size: 16
+06-27 12:51:05.440   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0x2 size = 4 token = 166
+06-27 12:51:05.440   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 166 matched
+06-27 12:51:05.441   789   862 D sound_trigger_hw: session[1]: buffering_state_fn ---> active_state_fn 
+06-27 12:51:05.443   789   862 D sound_trigger_hw: stdev_start_recognition:[1] Exit
+06-27 12:51:05.444  1919  1986 I SoundTriggerModule(Service): setState mState = ACTIVE mHandle = 1
+06-27 12:51:05.445  1919  1986 I SoundTriggerMiddlewareLogging: startRecognition[this=com.android.server.soundtrigger_middleware.SoundTriggerModule$Session@e2a98f6, caller=1000/1919](1, { audioCapabilities: 0, captureRequested: true, data: [  ], phraseRecognitionExtras: [ { confidenceLevel: 0, id: 101, levels: [  ], recognitionModes: 1 } ] })
+06-27 12:51:05.445  1919  1986 I SoundTriggerHelper: startRecognition successful.
+06-27 12:51:05.446  7063  7983 I favt    : Start DSP hotword detection successfully.
+06-27 12:51:05.446  7063  8010 I fbbi    : Ignore the initializeSodaOnly request as Soda is already initialized.
+06-27 12:51:05.447  7063  7982 I faud    : Hotword started successfully.
+06-27 12:51:05.447  7063  7982 I eokx    : (REDACTED) HDM event received: %s
+06-27 12:51:05.448  7063  7982 I faud    : after notify apa
+06-27 12:51:05.448  7063  7982 I faud    : #logRequestHandlingNonErrorEndEvent. Reset requestIdOfFirstError, firstStartErrorCausesRetry and numOfRetriesDoneForHotwordDetectorStartErrors!
+06-27 12:51:05.451  7063  8010 I eohc    : (REDACTED) Platform configuration for connection(%s) has changed(@%s):%s
+06-27 12:51:05.451  7063  8010 I eoes    : (REDACTED) On platform configuration update(@%s) in connection(%s).
+06-27 12:51:05.452  7063  8064 I bisp    : (REDACTED) On platform configuration update(%s).
+06-27 12:51:05.452  7063  8064 I birx    : Received ConfigurationUpdate from Triggering API
+06-27 12:51:05.762  1919  1986 I ActivityTaskManager: START u0 {act=android.intent.action.CALL dat=tel:xxxxx flg=0x10000000 cmp=com.android.server.telecom/.components.UserCallActivity} from uid 2000
+06-27 12:51:05.762  1919  1986 W ActivityTaskManager: Permission Denial: starting Intent { act=android.intent.action.CALL dat=tel:xxxxx flg=0x10000000 cmp=com.android.server.telecom/.components.UserCallActivity } from null (pid=29418, uid=2000) with revoked permission android.permission.CALL_PHONE
+06-27 12:51:05.764 29418 29420 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:51:06.343  3125  3125 W ThreadPoolForeg: type=1400 audit(0.0:5062): avc: denied { write } for name="traced_producer" dev="tmpfs" ino=39154 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+06-27 12:51:07.882  1919  1986 I ActivityTaskManager: START u0 {act=android.intent.action.CALL dat=tel:xxxxx flg=0x10000000 cmp=com.android.server.telecom/.components.UserCallActivity} from uid 2000
+06-27 12:51:07.883  1919  1986 W ActivityTaskManager: Permission Denial: starting Intent { act=android.intent.action.CALL dat=tel:xxxxx flg=0x10000000 cmp=com.android.server.telecom/.components.UserCallActivity } from null (pid=29424, uid=2000) with revoked permission android.permission.CALL_PHONE
+06-27 12:51:07.885 29424 29426 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:51:08.056  2841  2841 D QtiCarrierConfigHelper: WARNING, no carrier configs on phone Id: 0
+06-27 12:51:08.056  2671  2671 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+06-27 12:51:08.057  2671  2671 D BatteryController: onReceive: Intent = Intent { act=android.intent.action.BATTERY_CHANGED flg=0x60000010 (has extras) } action = android.intent.action.BATTERY_CHANGED
+06-27 12:51:08.060  9739  9968 D PowerCheckerService: onBatteryChanged, mBatteryLevel = 40, status = 2, level = 40, plug = 2, scale = 100
+06-27 12:51:08.061  9395  9395 I PowerSaveService: onReceive: android.intent.action.BATTERY_CHANGED
+06-27 12:51:08.062  2881  2881 D DeviceStatisticsService: chargerType=2 batteryLevel=40 totalBatteryCapacity=2175900
+06-27 12:51:08.063  9395  9395 I PowerNoticeUI: handleBatteryChanged oldPlugType 2 mPlugType 2 oldBatteryLevel 40 mBatteryLevel 40 temperature 255
+06-27 12:51:08.063  9395  9395 I ChargerBatteryIntelligenceReceiver: onBatteryChanged temperature：25,plugType:2
+06-27 12:51:08.063  9395  9395 I PowerFeatureUtils: getVendorName:qcom
+06-27 12:51:08.365   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xb, payload_size: 20, resp_buf size: 32
+06-27 12:51:08.366   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xb size = 20 token = 6
+06-27 12:51:08.366   789  1760 I android.hardware.audio.service: gcs_event_cb_handler: Event received, MID = 402653185, IID = 4, PID = 76841
+06-27 12:51:08.366   789  1760 I android.hardware.audio.service: gcs_event_cb_handler: Event payload = 0xed63d00c, payload_size = 4
+06-27 12:51:08.366   789  1760 I android.hardware.audio.service: gcs_dispatch_event: Event found in graph_handle = 2
+06-27 12:51:08.366   789  1760 D sound_trigger_hw: gcs_event_cb: Enter...
+06-27 12:51:08.366   789  1760 I android.hardware.audio.service: gcs_event_cb_handler: Found 1 match for event = 76841
+06-27 12:51:08.366   789  9293 D sound_trigger_hw: active_state_fn:[1] handle event id 5
+06-27 12:51:08.366   789  9293 I sound_trigger_hw: process_detection_event_keyphrase:[1]
+06-27 12:51:08.366   789  9293 D sound_trigger_hw: session[1]: active_state_fn ---> buffering_state_fn 
+06-27 12:51:08.368   789  9293 D sound_trigger_hw: active_state_fn:[1] invoking the client callback
+06-27 12:51:08.371  1919  2598 I SoundTriggerModule(Service): setState mState = LOADED mHandle = 1
+06-27 12:51:08.372  1919  2598 I SoundTriggerModule(Service): phraseRecognitionCallback onPhraseRecognition mHandle = 1
+06-27 12:51:08.372  1919  2598 I SoundTriggerMiddlewareValidation: setActivityState activity = LOADED
+06-27 12:51:08.372  1919  2598 I SoundTriggerMiddlewareValidation: onPhraseRecognition modelHandle = 1
+06-27 12:51:08.372  1919  2598 I SoundTriggerModule(hardWare): onPhraseRecognition
+06-27 12:51:08.373  1919  1919 I SoundTriggerModule(hardWare): EventHandlerDelegate EVENT_RECOGNITION
+06-27 12:51:08.373  1919  1919 I SoundTriggerHelper: Recognition success
+06-27 12:51:08.374  1919  2598 I SoundTriggerMiddlewareLogging: onPhraseRecognition[this=android.hardware.soundtrigger.SoundTriggerModule$EventHandlerDelegate@b75d191, caller=1000/1919](1, { common: { audioConfig: { channelMask: 16, format: 1, frameCount: 0, offloadInfo: { bitRatePerSecond: 0, bitWidth: 0, bufferSize: 0, channelMask: 0, durationMicroseconds: 0, format: 0, hasVideo: false, isStreaming: false, sampleRateHz: 0, streamType: 0, usage: 0 }, sampleRateHz: 16000 }, captureAvailable: true, captureDelayMs: 0, capturePreambleMs: 0, captureSession: 25, data: [  ], status: 0, triggerInData: false, type: 0 }, phraseExtras: [ { confidenceLevel: 27, id: 101, levels: [  ], recognitionModes: 1 } ] })
+06-27 12:51:08.374   789  9293 D sound_trigger_hw: process_lab_capture: issuing gcs_start_buff_xfer
+06-27 12:51:08.374   789  9293 D ACDB-LOADER: ACDB -> ACDB_WDSP_CMD_GET_SUBGRAPH_MODULE_CALIBRATION_SIZE
+06-27 12:51:08.374   789  9293 D ACDB-LOADER: ACDB -> ACDB_WDSP_CMD_GET_SUBGRAPH_MODULE_CALIBRATION
+06-27 12:51:08.374   789  9293 D ACDB-LOADER: ACDB -> ACDB_WDSP_CMD_GET_SUBGRAPH_MODULE_CONNECTION_SIZE
+06-27 12:51:08.374   789  9293 E android.hardware.audio.service: gcs_get_sg_mod_conn_and_update_pld: subgraph mod conn size 0. Exiting
+06-27 12:51:08.374   789  9293 D ACDB-LOADER: ACDB -> ACDB_WDSP_CMD_GET_SUBGRAPH_CONNECTIONS_SIZE
+06-27 12:51:08.374   789  9293 E android.hardware.audio.service: __gcs_get_sg_conn_and_update_pld: subgraph conn size 0. Exiting
+06-27 12:51:08.374   789  9293 D ACDB-LOADER: ACDB -> ACDB_WDSP_CMD_GET_SUBGRAPH_CONNECTIONS_SIZE
+06-27 12:51:08.374   789  9293 E android.hardware.audio.service: __gcs_get_sg_conn_and_update_pld: subgraph conn size 0. Exiting
+06-27 12:51:08.374   789  9293 D ACDB-LOADER: ACDB -> ACDB_WDSP_CMD_GET_SUBGRAPH_CONNECTIONS_SIZE
+06-27 12:51:08.375   789  9293 E android.hardware.audio.service: __gcs_get_sg_conn_and_update_pld: subgraph conn size 0. Exiting
+06-27 12:51:08.375   789  9293 D ACDB-LOADER: ACDB -> ACDB_WDSP_CMD_GET_SUBGRAPH_CONNECTIONS_SIZE
+06-27 12:51:08.375   789  9293 D ACDB-LOADER: ACDB -> ACDB_WDSP_CMD_GET_SUBGRAPHS_CONNECTION
+06-27 12:51:08.375   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0x3, size = 92, token = 167
+06-27 12:51:08.375  7063  8983 I AlwaysOnHotwordDetector: onDetected
+06-27 12:51:08.376  7063  8064 I favt    : #onDetected. DSP hotword detected.
+06-27 12:51:08.377  7063  8064 I faud    : getDspTriggerNotificationRequirement
+06-27 12:51:08.378  7063  8064 I favt    : #onDetected. DSP hotword detected, will verify it with Soda.
+06-27 12:51:08.379  7063  8064 I favt    : (REDACTED) Capture session id %d
+06-27 12:51:08.379  7063  8064 I fauk    : (REDACTED) HDM AudioFormat: sample rate : %s, channel config/mask :  %s, encoding format :  %s
+06-27 12:51:08.380  7063  8064 I fauk    : HDM Use timestamps disabled.
+06-27 12:51:08.381  7063  7982 I fbbi    : #startHotwordDetectionInternal
+06-27 12:51:08.381  7063  7982 I fbbi    : Set the SodaAudioAdapter
+06-27 12:51:08.381  7063  7982 I fbbi    : Initialize soda not needed!
+06-27 12:51:08.381  7063  8064 I fbbi    : (REDACTED) AudioFormat for Soda: sample rate : %s, channel count :  %s, encoding format :  %s
+06-27 12:51:08.382  7063  8064 I native  : I0000 00:00:1751008868.382608    8064 soda_client.cc:330] Starting capture.
+06-27 12:51:08.383  7063  8064 I native  : I0000 00:00:1751008868.383208    8064 soda_async_impl.cc:601] SODA session starting (require_hotword:1, hotword_timeout_in_millis:3000, trigger_type:TRIGGER_TYPE_UNSPECIFIED, hybrid_asr_config.mode:MODE_DEFAULT)
+06-27 12:51:08.383  7063  8064 I native  : I0000 00:00:1751008868.383460    8064 hotword_processor.cc:504] Updated hotword timeout: 3000
+06-27 12:51:08.384   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0x2, payload_size: 4, resp_buf size: 16
+06-27 12:51:08.384   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0x2 size = 4 token = 167
+06-27 12:51:08.384   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 167 matched
+06-27 12:51:08.386   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 168
+06-27 12:51:08.386   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 169
+06-27 12:51:08.387  7063  8064 I dosg    : onStartCapture
+06-27 12:51:08.387  7063  8064 I dosg    : Register SodaAudioAdapter.
+06-27 12:51:08.387  7063  8064 I esys    : (REDACTED) #audio# registering new source: %s
+06-27 12:51:08.388  7063  8064 I esuf    : (REDACTED) #audio# registerAudioAdapter (%s)
+06-27 12:51:08.388  7063  8064 I ethu    : (REDACTED) #audio# cancel timeout(token(%s))
+06-27 12:51:08.388  7063  8064 I fbbi    : #startPushingAudio
+06-27 12:51:08.389  7063  8064 I fbai    : (REDACTED) pushAudioToSoda. stopPushAudio is %b
+06-27 12:51:08.389  7063  8064 I fbai    : (REDACTED) Opening hotword mic with params: sourceType=%s,sampleRate=%sHz,channelConfig=%s,encodingFormat=%s, use push mechanism : %b. hotwordAudioRouteRequestParamsOptional.isPresent() : %b. hotword capture mode : %s.
+06-27 12:51:08.389  7063  8064 I etfm    : (REDACTED) #audio# routing hotword client to(%s)
+06-27 12:51:08.390  7063  8064 I eubj    : (REDACTED) #audio# updating hotword to route(token(%d), %s)
+06-27 12:51:08.390  7063  8064 I eubj    : #audio# enforcing concurrency state on a new hotword route
+06-27 12:51:08.390  7063  8064 I eubj    : (REDACTED) #audio# disconnecting(%s) hotword %s
+06-27 12:51:08.391  7063  8064 I eubj    : (REDACTED) #audio# hotword route(token(%d), %s) OK to update
+06-27 12:51:08.391  7063  8010 I ethp    : (REDACTED) #audio# de-referencing(%s) from(%s), (%s)
+06-27 12:51:08.392  7063  8064 I eubj    : (REDACTED) #audio# starting connection to hotword route(token(%d), %s)
+06-27 12:51:08.392  7063  7999 I eudy    : (REDACTED) #audio# route(%s) for hotword client disconnected(reason(%s))
+06-27 12:51:08.392  7063  7999 I ethp    : (REDACTED) #audio# referencing(%s) to(%s), (%s)
+06-27 12:51:08.393  7063  8010 I etkt    : (REDACTED) #audio# audio routing(%s) took %d(ms)
+06-27 12:51:08.393  7063  8064 I etph    : (REDACTED) #audio# starting hotword session(%d) for %s
+06-27 12:51:08.393  7063  8011 I eudy    : (REDACTED) #audio# route(%s) for hotword client updated with status(%s)
+06-27 12:51:08.394  7063  8064 I etph    : #audio# enforcing concurrency state on a new hotword session
+06-27 12:51:08.394  7063  8064 I etph    : (REDACTED) #audio# hotword session(%d) OK to start
+06-27 12:51:08.395  7063  8064 I etqk    : (REDACTED) #audio# starting hotword source session(%d) on %s for %s
+06-27 12:51:08.395  7063  8064 I etqk    : #audio# enforcing concurrency state on a new hotword source
+06-27 12:51:08.395  7063  8064 I eswj    : (REDACTED) #audio# loading processor(%s)
+06-27 12:51:08.396  7063  8064 I eswd    : (REDACTED) #audio# loading processor(%s)
+06-27 12:51:08.396   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:08.396   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 168
+06-27 12:51:08.396   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 168 matched
+06-27 12:51:08.396   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 170
+06-27 12:51:08.397  7063  8010 I ethp    : (REDACTED) #audio# referencing(%s) to(%s), (%s)
+06-27 12:51:08.398  7063 29414 I etnt    : (REDACTED) #audio# opening audio source(%s), offset(%s)
+06-27 12:51:08.399  7063 29414 I esyt    : (REDACTED) #audio# delegating source(%s) opening to(%s)
+06-27 12:51:08.399  7063 29414 I esyl    : (REDACTED) #audio# open audio source(%s)
+06-27 12:51:08.400  7063  8064 I eufj    : (REDACTED) #audio# skipping session(%s) storing process, not enabled
+06-27 12:51:08.400  7063 29414 I esxu    : #audio# createDspAudioRecord
+06-27 12:51:08.400  7063 29414 I esyi    : #audio# no audio record attribution specified, continue without...
+06-27 12:51:08.401  7063 29414 D AudioRecord: set(): inputSource 1999, sampleRate 16000, format 0x1, channelMask 0x10, frameCount 160000, notificationFrames 0, sessionId 25, transferType 0, flags 0, opPackageName com.google.android.googlequicksearchbox uid -1, pid -1
+06-27 12:51:08.401   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:08.401   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 169
+06-27 12:51:08.401   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 169 matched
+06-27 12:51:08.401   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 171
+06-27 12:51:08.408   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:08.408   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 170
+06-27 12:51:08.408   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 170 matched
+06-27 12:51:08.408   943  1606 D ServiceUtilities: Request app pkg name: com.google.android.googlequicksearchbox
+06-27 12:51:08.408   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 172
+06-27 12:51:08.410   943  1606 D ServiceUtilities: Request app pkg name: com.google.android.googlequicksearchbox
+06-27 12:51:08.411   943  1606 I ConfigStore: vendor::qti::hardware::audiohalext::V1_0::IAudioHalExt::getApmConfigs retrieved:  (default)
+06-27 12:51:08.411   943  1606 D APM_AudioPolicyManager: getInputForAttr() source 1999, sampling rate 16000, format 0x1, channel mask 0x10, session 25, flags 0 attributes={ Content type: AUDIO_CONTENT_TYPE_UNKNOWN Usage: AUDIO_USAGE_UNKNOWN Source: AUDIO_SOURCE_HOTWORD Flags: 0x800 Tags:  }
+06-27 12:51:08.413   943  1606 D APM_AudioPolicyManager: profile selected with name: surround_sound, client UID 10188 
+06-27 12:51:08.414   789   862 D audio_hw_primary: adev_open_input_stream is_karaoke_fastcapture=0 source=1999
+06-27 12:51:08.414   789   862 D audio_hw_primary: adev_open_input_stream: enter: sample_rate(16000) channel_mask(0x10) devices(0x80000004)        stream_handle(0xed6c1000) io_handle(70) source(1999) format 1
+06-27 12:51:08.414   789   862 D soundtrigger: audio_extn_sound_trigger_check_and_get_session: capture_handle 70 is sound trigger
+06-27 12:51:08.414   789   862 D audio_hw_primary: io_streams_map_insert: Added stream in io_streams_map with handle 70
+06-27 12:51:08.414   789   862 E device_utils: update_device_list: Invalid device: 0
+06-27 12:51:08.415   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:08.415   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 171
+06-27 12:51:08.415   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 171 matched
+06-27 12:51:08.415   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 173
+06-27 12:51:08.416  1437  1437 D MediaMetricsService: submitInternal: isTrusted:1 given uid -1; sanitized uid: 1041 sanitized pkg: audioserver sanitized pkg version: 0
+06-27 12:51:08.416  1437  1437 D MediaMetricsService: submitInternal: item->getKey().c_str() = audio.thread.70
+06-27 12:51:08.416  1437  1437 D MediaMetricsService: submitInternal: item->getCString(kCodecPackageName, &msg_send->packgeName) = 0
+06-27 12:51:08.416  1437  1437 D MediaMetricsService: submitInternal: item->getInt32(kCodecHdrInfo, &msg_send->hdr) = 0
+06-27 12:51:08.416  1437  1437 D MediaMetricsService: submitInternal: item->getInt32(kCodecFrameRateCal, &msg_send->frameRateCal) = 0
+06-27 12:51:08.416  1437  1437 D MediaMetricsService: submitInternal: msg_send->frameRateCal = 1230324319
+06-27 12:51:08.416  1437  1437 D MediaMetricsService: submitInternal: isTrusted:1 given uid -1; sanitized uid: 1041 sanitized pkg: audioserver sanitized pkg version: 0
+06-27 12:51:08.416  1437  1437 D MediaMetricsService: submitInternal: item->getKey().c_str() = audio.thread.70
+06-27 12:51:08.416  1437  1437 D MediaMetricsService: submitInternal: item->getCString(kCodecPackageName, &msg_send->packgeName) = 0
+06-27 12:51:08.416  1437  1437 D MediaMetricsService: submitInternal: item->getInt32(kCodecHdrInfo, &msg_send->hdr) = 0
+06-27 12:51:08.416  1437  1437 D MediaMetricsService: submitInternal: item->getInt32(kCodecFrameRateCal, &msg_send->frameRateCal) = 0
+06-27 12:51:08.416  1437  1437 D MediaMetricsService: submitInternal: msg_send->frameRateCal = 1667328356
+06-27 12:51:08.417   943 29430 I AudioFlinger: AudioFlinger's thread 0xb400007383dd5600 tid=29430 ready to run
+06-27 12:51:08.417   789   862 D audio_hw_primary: in_standby: enter: stream (0xed6c1000) usecase(23: audio-record)
+06-27 12:51:08.418   943 29430 D AudioFlinger: updateWakeLockUids_l AudioIn_46 uids:
+06-27 12:51:08.418   943  1606 D APM_AudioPolicyManager: getInputForAttr() returns input 70 type 0 selectedDeviceId 22 for port ID 59
+06-27 12:51:08.419   789   862 D audio_hw_primary: in_standby: enter: stream (0xed6c1000) usecase(23: audio-record)
+06-27 12:51:08.420   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:08.420   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 172
+06-27 12:51:08.420   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 172 matched
+06-27 12:51:08.420   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 174
+06-27 12:51:08.422  1919  1986 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:51:08.422  1919  1986 I chatty  : uid=1000(system) Binder:1919_2 identical 1 line
+06-27 12:51:08.422  1919  1986 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:51:08.424   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:08.424   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 173
+06-27 12:51:08.424   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 173 matched
+06-27 12:51:08.425   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 175
+06-27 12:51:08.427  1437  1437 D MediaMetricsService: submitInternal: isTrusted:1 given uid 10188; sanitized uid: 10188 sanitized pkg: com.google.android.googlequicksearchbox sanitized pkg version: 301527834
+06-27 12:51:08.427  1437  1437 D MediaMetricsService: submitInternal: item->getKey().c_str() = audio.record.59
+06-27 12:51:08.427  1437  1437 D MediaMetricsService: submitInternal: item->getCString(kCodecPackageName, &msg_send->packgeName) = 0
+06-27 12:51:08.427  1437  1437 D MediaMetricsService: submitInternal: item->getInt32(kCodecHdrInfo, &msg_send->hdr) = 0
+06-27 12:51:08.427  1437  1437 D MediaMetricsService: submitInternal: item->getInt32(kCodecFrameRateCal, &msg_send->frameRateCal) = 0
+06-27 12:51:08.427  1437  1437 D MediaMetricsService: submitInternal: msg_send->frameRateCal = 1731093609
+06-27 12:51:08.429  1437  1437 D MediaMetricsService: submitInternal: isTrusted:0 given uid -1; sanitized uid: 10188 sanitized pkg: com.google.android.googlequicksearchbox sanitized pkg version: 301527834
+06-27 12:51:08.429  1437  1437 D MediaMetricsService: submitInternal: item->getKey().c_str() = audio.record.59
+06-27 12:51:08.429  1437  1437 D MediaMetricsService: submitInternal: item->getCString(kCodecPackageName, &msg_send->packgeName) = 0
+06-27 12:51:08.429  1437  1437 D MediaMetricsService: submitInternal: item->getInt32(kCodecHdrInfo, &msg_send->hdr) = 0
+06-27 12:51:08.429  1437  1437 D MediaMetricsService: submitInternal: item->getInt32(kCodecFrameRateCal, &msg_send->frameRateCal) = 0
+06-27 12:51:08.429  1437  1437 D MediaMetricsService: submitInternal: msg_send->frameRateCal = 1731093609
+06-27 12:51:08.429   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:08.429   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 174
+06-27 12:51:08.429   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 174 matched
+06-27 12:51:08.430   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 176
+06-27 12:51:08.431  7063 29414 I esyl    : (REDACTED) #audio# create stream of audio record source(identity(%s), recordId(%d))
+06-27 12:51:08.431  7063 29414 D AudioRecord: start(59): sync event 0 trigger session 0, mSessionID=25
+06-27 12:51:08.433   943  1606 D AudioPolicyManagerCustom: startInput portId 59
+06-27 12:51:08.433   943  1606 D AudioPolicyManagerCustom: startInput() input:70, session:25 [uid=10188 apptype=40])
+06-27 12:51:08.433   943  1606 I ConfigStore: vendor::qti::hardware::audiohalext::V1_0::IAudioHalExt::getApmConfigs retrieved:  (default)
+06-27 12:51:08.434   943 29430 D AudioFlinger: updateWakeLockUids_l AudioIn_46 uids:10188 
+06-27 12:51:08.435   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:08.435   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 175
+06-27 12:51:08.435   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 175 matched
+06-27 12:51:08.435   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 177
+06-27 12:51:08.435   943 29430 I AudioFlinger: checkForGameParameter_l() set events appname=+com.google.android.googlequicksearchbox
+06-27 12:51:08.436   789   862 D audio_hw_primary: in_set_parameters: enter: kvpairs=appname=+com.google.android.googlequicksearchbox
+06-27 12:51:08.436  1919  1986 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:51:08.436   789   862 E device_utils: update_device_list: Invalid device: 0
+06-27 12:51:08.436  1919  1986 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:51:08.437   789   862 D audio_hw_primary: adev_create_audio_patch: enter: num sources 1, num_sinks 1, handle 0
+06-27 12:51:08.437   789   862 D audio_hw_primary: adev_create_audio_patch: Capture patch from device 80000004 to mix 70
+06-27 12:51:08.437   789   862 D audio_hw_primary: update_patch: enter
+06-27 12:51:08.437   789   862 D audio_hw_primary: route_input_stream: exit: status(0)
+06-27 12:51:08.437   789   862 D audio_hw_primary: adev_create_audio_patch: Added a new patch with handle 13
+06-27 12:51:08.437  1437  1437 D MediaMetricsService: submitInternal: isTrusted:1 given uid -1; sanitized uid: 1041 sanitized pkg: audioserver sanitized pkg version: 0
+06-27 12:51:08.437  1437  1437 D MediaMetricsService: submitInternal: item->getKey().c_str() = audio.thread.70
+06-27 12:51:08.437  1437  1437 D MediaMetricsService: submitInternal: item->getCString(kCodecPackageName, &msg_send->packgeName) = 0
+06-27 12:51:08.437  1437  1437 D MediaMetricsService: submitInternal: item->getInt32(kCodecHdrInfo, &msg_send->hdr) = 0
+06-27 12:51:08.437  1437  1437 D MediaMetricsService: submitInternal: item->getInt32(kCodecFrameRateCal, &msg_send->frameRateCal) = 0
+06-27 12:51:08.437  1437  1437 D MediaMetricsService: submitInternal: msg_send->frameRateCal = 1667328356
+06-27 12:51:08.438  1437  2234 D MediaMetricsService: submitInternal: isTrusted:1 given uid -1; sanitized uid: 1041 sanitized pkg: audioserver sanitized pkg version: 0
+06-27 12:51:08.438  1437  2234 D MediaMetricsService: submitInternal: item->getKey().c_str() = audio.thread.70
+06-27 12:51:08.438  1437  2234 D MediaMetricsService: submitInternal: item->getCString(kCodecPackageName, &msg_send->packgeName) = 0
+06-27 12:51:08.438  1437  2234 D MediaMetricsService: submitInternal: item->getInt32(kCodecHdrInfo, &msg_send->hdr) = 0
+06-27 12:51:08.438  1437  2234 D MediaMetricsService: submitInternal: item->getInt32(kCodecFrameRateCal, &msg_send->frameRateCal) = 0
+06-27 12:51:08.438  1437  2234 D MediaMetricsService: submitInternal: msg_send->frameRateCal = 0
+06-27 12:51:08.438  1437  2234 D MediaMetricsService: submitInternal: isTrusted:1 given uid -1; sanitized uid: 1041 sanitized pkg: audioserver sanitized pkg version: 0
+06-27 12:51:08.438  1437  2234 D MediaMetricsService: submitInternal: item->getKey().c_str() = audio.record.59
+06-27 12:51:08.438  1437  2234 D MediaMetricsService: submitInternal: item->getCString(kCodecPackageName, &msg_send->packgeName) = 0
+06-27 12:51:08.438  1437  2234 D MediaMetricsService: submitInternal: item->getInt32(kCodecHdrInfo, &msg_send->hdr) = 0
+06-27 12:51:08.438  1437  2234 D MediaMetricsService: submitInternal: item->getInt32(kCodecFrameRateCal, &msg_send->frameRateCal) = 0
+06-27 12:51:08.438  1437  2234 D MediaMetricsService: submitInternal: msg_send->frameRateCal = 0
+06-27 12:51:08.439   943  1606 I ConfigStore: vendor::qti::hardware::audiohalext::V1_0::IAudioHalExt::getApmConfigs retrieved:  (default)
+06-27 12:51:08.439   943  1606 D AudioPolicyManagerCustom: startInput: setCaptureState true for sva
+06-27 12:51:08.440  1919  1986 I SoundTriggerMiddlewareLogging: setCaptureState[this=com.android.server.soundtrigger_middleware.SoundTriggerMiddlewareImpl@5173254, caller=1041/943](true)
+06-27 12:51:08.440   943  1606 D AudioPolicyManagerCustom: startInput input 70 source = 1999 exit
+06-27 12:51:08.440   943  1606 I ConfigStore: vendor::qti::hardware::audiohalext::V1_0::IAudioHalExt::getApmConfigs retrieved:  (default)
+06-27 12:51:08.440  1919  8333 I AudioService.RecordingActivityMonitor: rec update riid:175 uid:10188 session:25 src:HOTWORD pack:com.google.android.googlequicksearchbox
+06-27 12:51:08.440   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:08.440   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 176
+06-27 12:51:08.440   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 176 matched
+06-27 12:51:08.440   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 178
+06-27 12:51:08.442   789  2281 E FMQ     : grantorIdx must be less than 3
+06-27 12:51:08.443   789  2281 E FMQ     : grantorIdx must be less than 3
+06-27 12:51:08.443  1437  2234 D MediaMetricsService: submitInternal: isTrusted:0 given uid -1; sanitized uid: 10188 sanitized pkg: com.google.android.googlequicksearchbox sanitized pkg version: 301527834
+06-27 12:51:08.443  1437  2234 D MediaMetricsService: submitInternal: item->getKey().c_str() = audio.record.59
+06-27 12:51:08.443  7063 29414 D AudioService: broadcastRecorderState:com.google.android.googlequicksearchbox
+06-27 12:51:08.443  1437  2234 D MediaMetricsService: submitInternal: item->getCString(kCodecPackageName, &msg_send->packgeName) = 0
+06-27 12:51:08.443  1437  2234 D MediaMetricsService: submitInternal: item->getInt32(kCodecHdrInfo, &msg_send->hdr) = 0
+06-27 12:51:08.443  1437  2234 D MediaMetricsService: submitInternal: item->getInt32(kCodecFrameRateCal, &msg_send->frameRateCal) = 0
+06-27 12:51:08.443  1437  2234 D MediaMetricsService: submitInternal: msg_send->frameRateCal = 1731093609
+06-27 12:51:08.443  7063 29414 I eszm    : #audio# start audio buffering
+06-27 12:51:08.444  7063  8064 I etkt    : (REDACTED) #audio# starting listening client(%s) route(%s) took %d(ms)
+06-27 12:51:08.445   943 29430 E FMQ     : grantorIdx must be less than 3
+06-27 12:51:08.445   943 29430 E FMQ     : grantorIdx must be less than 3
+06-27 12:51:08.446  9739  9900 I PowerCheckerService: uid:10188 change to active
+06-27 12:51:08.446  7063 29140 I eswj    : (REDACTED) #audio# mark first byte read result as non-empty, actual(%dms ago)
+06-27 12:51:08.446  9739  9853 I AppActiveChecker: uid:10188 change to active
+06-27 12:51:08.446  7063  7982 I ethi    : (REDACTED) #audio# result(%s) synced first-byte-read
+06-27 12:51:08.447  7063  7982 I esvb    : (REDACTED) #audio# noting buffer(%s) new state(%s)
+06-27 12:51:08.447  7063  8063 I eudy    : (REDACTED) #audio# hotword client session(token(%d)) start listening status(%s)
+06-27 12:51:08.447  7063  8064 I etkt    : (REDACTED) #audio# HotwordListeningSession start listening status: %s
+06-27 12:51:08.447  7063  8064 I etju    : #audio# reportMicUpdate
+06-27 12:51:08.447  7063  7999 I esvb    : (REDACTED) #audio# registering receiver(%s), range(offset=%d, minimal=%s), buffer(%s)
+06-27 12:51:08.447   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:08.447  7063  8064 I esvp    : (REDACTED) #audio# start time defined(present=%s)
+06-27 12:51:08.447   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 177
+06-27 12:51:08.447   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 177 matched
+06-27 12:51:08.448  7063  8064 I fbai    : registerAudioBytesReceiver success.
+06-27 12:51:08.448   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 179
+06-27 12:51:08.448  7063  8064 I fbai    : Hotword mic open successful.
+06-27 12:51:08.448  7063  8011 I fbai    : After mic open
+06-27 12:51:08.448  7063  8063 I fbbi    : Hotword audio capture started.
+06-27 12:51:08.448  7063  8010 I favt    : Soda started successfully after DSP hotword detected.
+06-27 12:51:08.448  7063  9461 I native  : I0000 00:00:1751008868.448801    9461 soda_async_impl.cc:1303] SODA received first mic audio buffer, size in bytes: 320, format: 1, channels: 1, sample rate: 16000
+06-27 12:51:08.453   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:08.453   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 178
+06-27 12:51:08.453   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 178 matched
+06-27 12:51:08.469   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 180
+06-27 12:51:08.472   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:08.472   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 179
+06-27 12:51:08.472   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 179 matched
+06-27 12:51:08.473   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 181
+06-27 12:51:08.474  7063  8064 I eswd    : (REDACTED) #audio# processor(%s) is being completed(%s)
+06-27 12:51:08.474  7063  8064 I eswd    : (REDACTED) #audio# processor(%s) done, processed(%dns), spent(%dns), deviation(%dns)
+06-27 12:51:08.474  7063  7999 I ethi    : (REDACTED) #audio# result(%s) synced audio-start-time
+06-27 12:51:08.479   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:08.479   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 180
+06-27 12:51:08.479   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 180 matched
+06-27 12:51:08.479   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 182
+06-27 12:51:08.482   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:08.482   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 181
+06-27 12:51:08.482   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 181 matched
+06-27 12:51:08.483   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 183
+06-27 12:51:08.487   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:08.487   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 182
+06-27 12:51:08.487   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 182 matched
+06-27 12:51:08.488   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 184
+06-27 12:51:08.494   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:08.494   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 183
+06-27 12:51:08.494   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 183 matched
+06-27 12:51:08.494   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 185
+06-27 12:51:08.498   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:08.498   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 184
+06-27 12:51:08.498   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 184 matched
+06-27 12:51:08.498   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 186
+06-27 12:51:08.552   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:08.552   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 185
+06-27 12:51:08.552   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 185 matched
+06-27 12:51:08.553   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 187
+06-27 12:51:08.680   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:08.681   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 186
+06-27 12:51:08.681   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 186 matched
+06-27 12:51:08.681   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 188
+06-27 12:51:08.802   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:08.802   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 187
+06-27 12:51:08.802   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 187 matched
+06-27 12:51:08.802   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 189
+06-27 12:51:08.920   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:08.920   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 188
+06-27 12:51:08.920   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 188 matched
+06-27 12:51:08.921   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 190
+06-27 12:51:08.924  7063  9461 I native  : I0000 00:00:1751008868.924420    9461 soda_async_impl.cc:1072] Not receiving any loopback audio in 500ms. Last audio received time: 1970-01-01T05:30:00+05:30, Current time: 2025-06-27T12:51:08.92441579+05:30
+06-27 12:51:08.926   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: unbindService is called for service : com.google.android.gms/.chimera.PersistentDirectBootAwareApiService and for client com.google.android.gms
+06-27 12:51:09.042   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:09.042   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 189
+06-27 12:51:09.042   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 189 matched
+06-27 12:51:09.043   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 191
+06-27 12:51:09.160   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:09.160   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 190
+06-27 12:51:09.160   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 190 matched
+06-27 12:51:09.161   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 192
+06-27 12:51:09.282   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:09.282   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 191
+06-27 12:51:09.282   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 191 matched
+06-27 12:51:09.282   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 193
+06-27 12:51:09.399   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:09.400   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 192
+06-27 12:51:09.400   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 192 matched
+06-27 12:51:09.400   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 194
+06-27 12:51:09.393 14895 14895 W ThreadPoolForeg: type=1400 audit(0.0:5063): avc: denied { write } for name="traced_producer" dev="tmpfs" ino=39154 scontext=u:r:gmscore_app:s0:c512,c768 tcontext=u:object_r:traced_producer_socket:s0 tclass=sock_file permissive=0 app=com.google.android.gms
+06-27 12:51:09.415  7063  9461 I native  : I0000 00:00:1751008869.415125    9461 hotword_processor.cc:847] Hotword has timed out.
+06-27 12:51:09.416  7063  9461 I native  : I0000 00:00:1751008869.416675    9461 soda_impl.cc:1752] Adding hotword timeout event
+06-27 12:51:09.416  7063  9461 I native  : I0000 00:00:1751008869.416927    9461 soda_async_impl.cc:962] SODA stopped processing audio, mics audio processed in millis: 3000, loopback audio processed in millis: 0
+06-27 12:51:09.417  7063  9461 I native  : I0000 00:00:1751008869.417444    9461 soda_async_impl.cc:974] Audio readers are stopped.
+06-27 12:51:09.417  7063  9462 I fbbi    : Hotword timeout event!
+06-27 12:51:09.418  7063  9461 I native  : I0000 00:00:1751008869.418046    9461 soda_async_impl.cc:1433] Ending ASR due to process sync signal.
+06-27 12:51:09.418  7063  9462 I fbbi    : After setting sodaStopCompleter for waitForSodaStoppedAfterTimeout
+06-27 12:51:09.418  7063  9461 I native  : I0000 00:00:1751008869.418733    9461 soda_async_impl.cc:1037] SODA session stopped due to: HOTWORD_TIMEOUT
+06-27 12:51:09.418  7063  8010 I fbbi    : onHotwordTimeout inside sequencer
+06-27 12:51:09.419  7063  9462 I dosg    : onStopCapture
+06-27 12:51:09.419  7063  9462 I dosg    : Unregister SodaAudioAdapter.
+06-27 12:51:09.419  7063  9462 I esys    : (REDACTED) #audio# unregistering source: %s
+06-27 12:51:09.419  7063  9462 I esuf    : (REDACTED) #audio# unregisterAudioAdapter (%s)
+06-27 12:51:09.419  7063  9462 I ethu    : (REDACTED) #audio# cancel timeout(token(%s))
+06-27 12:51:09.419  7063  9462 I fbbi    : (REDACTED) SodaStopReason %s
+06-27 12:51:09.420  7063  8011 I fbbi    : #onStop SodaState reset to INITIALIZED
+06-27 12:51:09.420  7063  8010 I ethp    : (REDACTED) #audio# de-referencing(%s) from(%s)
+06-27 12:51:09.420  7063  8011 I fbbi    : After reset sodaStopCompleter.
+06-27 12:51:09.420  7063  8011 I faud    : (REDACTED) #onSodaStop received %s
+06-27 12:51:09.420  7063  8011 I faud    : (REDACTED) #onSodaStop inside sequentialExecutor %s
+06-27 12:51:09.420  7063  7982 I fbai    : (REDACTED) stopPushingAudio due to %s
+06-27 12:51:09.420  7063  8011 W faud    : (REDACTED) %s. Completer is null; It could be set earlier or we ware not waiting for the disconnect signal.
+06-27 12:51:09.421  7063  7982 I fbai    : Calling stopListening on hotwordListeningSession.
+06-27 12:51:09.421  7063  7982 I etnb    : (REDACTED) #audio# stop listening hotword client session(token(%d))
+06-27 12:51:09.421  7063  8011 I eokx    : (REDACTED) HDM event received: %s
+06-27 12:51:09.421  7063  7982 I etph    : (REDACTED) #audio# stopping(%s) hotword session(%d) for %s
+06-27 12:51:09.421  7063  7982 I ethu    : (REDACTED) #audio# cancel timeout(token(%s))
+06-27 12:51:09.422  7063  7982 I etqk    : (REDACTED) #audio# stopping(%s) hotword source session(%d)
+06-27 12:51:09.422  7063  8011 I ethp    : (REDACTED) #audio# de-referencing(%s) from(%s), (%s)
+06-27 12:51:09.422  7063 29414 I etnt    : (REDACTED) #audio# closing audio source(%s)
+06-27 12:51:09.422  7063 29414 I esyl    : (REDACTED) #audio# close audio source(identity(%s), recordId(%d))
+06-27 12:51:09.422  7063 29414 D AudioRecord: stop mSessionID=25
+06-27 12:51:09.422  7063 29414 D AudioRecord: stop(59): mActive:1
+06-27 12:51:09.423  7063  7982 I eohc    : (REDACTED) Platform configuration for connection(%s) has changed(@%s):%s
+06-27 12:51:09.423  7063  7982 I eoes    : (REDACTED) On platform configuration update(@%s) in connection(%s).
+06-27 12:51:09.424  7063  8063 I bisp    : (REDACTED) On platform configuration update(%s).
+06-27 12:51:09.424  7063  8064 I esvb    : (REDACTED) #audio# marking buffer(%s) closed, available(%d)
+06-27 12:51:09.424  7063  8063 I birx    : Received ConfigurationUpdate from Triggering API
+06-27 12:51:09.424  7063  8064 I eswj    : (REDACTED) #audio# close processor (%s)
+06-27 12:51:09.424  7063  7982 I eswd    : (REDACTED) #audio# close processor(%s)
+06-27 12:51:09.424  7063  8064 I esvb    : (REDACTED) #audio# unregistering receiver(%s) due to EOF, buffer(%s)
+06-27 12:51:09.424  7063  8064 I fbbi    : Soda audio push completed.
+06-27 12:51:09.521   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 3876, resp_buf size: 3888
+06-27 12:51:09.521   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 3876 token = 193
+06-27 12:51:09.521   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 193 matched
+06-27 12:51:09.522   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0xc, size = 24, token = 195
+06-27 12:51:09.522   943 29430 D AudioFlinger: updateWakeLockUids_l AudioIn_46 uids:
+06-27 12:51:09.526   789   862 D audio_hw_primary: in_standby: enter: stream (0xed6c1000) usecase(23: audio-record)
+06-27 12:51:09.526   789   862 D audio_hw_primary: in_standby: sound trigger pcm stop lab
+06-27 12:51:09.526   789  9293 D sound_trigger_hw: process_lab_capture:[1] calling gcs_stop_buff_xfer 
+06-27 12:51:09.526   789  9293 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0x4, size = 28, token = 196
+06-27 12:51:09.527  1919  8333 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:51:09.531   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 676, resp_buf size: 688
+06-27 12:51:09.531   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 676 token = 194
+06-27 12:51:09.531   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 194 matched
+06-27 12:51:09.533   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0xd, payload_size: 36, resp_buf size: 48
+06-27 12:51:09.533   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0xd size = 36 token = 195
+06-27 12:51:09.533   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 195 matched
+06-27 12:51:09.534   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0x2, payload_size: 4, resp_buf size: 16
+06-27 12:51:09.534   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0x2 size = 4 token = 196
+06-27 12:51:09.534   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 196 matched
+06-27 12:51:09.535   789   862 D sound_trigger_hw: buffering_state_fn:[1] post deferred stop on buffering end
+06-27 12:51:09.538   943   943 D APM_AudioPolicyManager: stopInput() IoHandle 70 uid 10188
+06-27 12:51:09.540   789  2281 D audio_hw_primary: adev_release_audio_patch: Remove patch with handle 13
+06-27 12:51:09.540   789  2281 D audio_hw_primary: route_input_stream: exit: status(0)
+06-27 12:51:09.541   943   943 D APM_AudioPolicyManager: resetInputDevice() releaseAudioPatch returned 0
+06-27 12:51:09.542  1919  8333 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:51:09.542   943   943 D APM_AudioPolicyManager: stopInput: setCaptureState false for sva
+06-27 12:51:09.543  1919  8333 I SoundTriggerMiddlewareLogging: setCaptureState[this=com.android.server.soundtrigger_middleware.SoundTriggerMiddlewareImpl@5173254, caller=1041/943](false)
+06-27 12:51:09.546   943 29430 D AudioFlinger: updateWakeLockUids_l AudioIn_46 uids:
+06-27 12:51:09.546   943 29430 I AudioFlinger: checkForGameParameter_l() set events appname=-com.google.android.googlequicksearchbox
+06-27 12:51:09.547   789  2281 D audio_hw_primary: in_set_parameters: enter: kvpairs=appname=-com.google.android.googlequicksearchbox
+06-27 12:51:09.548   943   943 D AudioPolicyManagerCustom: stopInput() input 70 [uid=10188]
+06-27 12:51:09.548   943   943 I ConfigStore: vendor::qti::hardware::audiohalext::V1_0::IAudioHalExt::getApmConfigs retrieved:  (default)
+06-27 12:51:09.548   943   943 I ConfigStore: vendor::qti::hardware::audiohalext::V1_0::IAudioHalExt::getApmConfigs retrieved:  (default)
+06-27 12:51:09.548  1919  8333 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:51:09.550  7063 29414 D AudioService: broadcastRecorderState:com.google.android.googlequicksearchbox
+06-27 12:51:09.550  1437  2234 D MediaMetricsService: submitInternal: isTrusted:0 given uid -1; sanitized uid: 10188 sanitized pkg: com.google.android.googlequicksearchbox sanitized pkg version: 301527834
+06-27 12:51:09.550  1437  2234 D MediaMetricsService: submitInternal: item->getKey().c_str() = audio.record.59
+06-27 12:51:09.550  1437  2234 D MediaMetricsService: submitInternal: item->getCString(kCodecPackageName, &msg_send->packgeName) = 0
+06-27 12:51:09.550  1437  2234 D MediaMetricsService: submitInternal: item->getInt32(kCodecHdrInfo, &msg_send->hdr) = 0
+06-27 12:51:09.550  7063 29414 D AudioRecord: stop mSessionID=25
+06-27 12:51:09.550  1437  2234 D MediaMetricsService: submitInternal: item->getInt32(kCodecFrameRateCal, &msg_send->frameRateCal) = 0
+06-27 12:51:09.550  1919  8333 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:51:09.550  1437  2234 D MediaMetricsService: submitInternal: msg_send->frameRateCal = 1731093609
+06-27 12:51:09.550  7063 29414 D AudioRecord: stop(59): mActive:0
+06-27 12:51:09.550  7063 29414 D AudioService: broadcastRecorderState:com.google.android.googlequicksearchbox
+06-27 12:51:09.550  1437  2234 D MediaMetricsService: submitInternal: isTrusted:0 given uid -1; sanitized uid: 10188 sanitized pkg: com.google.android.googlequicksearchbox sanitized pkg version: 301527834
+06-27 12:51:09.550  1437  2234 D MediaMetricsService: submitInternal: item->getKey().c_str() = audio.record.59
+06-27 12:51:09.550  1437  2234 D MediaMetricsService: submitInternal: item->getCString(kCodecPackageName, &msg_send->packgeName) = 0
+06-27 12:51:09.550  1437  2234 D MediaMetricsService: submitInternal: item->getInt32(kCodecHdrInfo, &msg_send->hdr) = 0
+06-27 12:51:09.550  1437  2234 D MediaMetricsService: submitInternal: item->getInt32(kCodecFrameRateCal, &msg_send->frameRateCal) = 0
+06-27 12:51:09.550  1437  2234 D MediaMetricsService: submitInternal: msg_send->frameRateCal = 1731093609
+06-27 12:51:09.550  7063 29414 D AudioRecord: stop mSessionID=25
+06-27 12:51:09.550  7063 29414 D AudioRecord: stop(59): mActive:0
+06-27 12:51:09.551  7063 29414 D AudioRecord: stop mSessionID=25
+06-27 12:51:09.551  7063 29414 D AudioRecord: stop(59): mActive:0
+06-27 12:51:09.552   943  3796 D APM_AudioPolicyManager: releaseInput IoHandle 70 uid 10188
+06-27 12:51:09.552   943  3796 D APM_AudioPolicyManager: closeInput(70)
+06-27 12:51:09.552  9739  9900 I PowerCheckerService: uid:10188change to inactive
+06-27 12:51:09.553  1437  2234 D MediaMetricsService: submitInternal: isTrusted:0 given uid -1; sanitized uid: 10188 sanitized pkg: com.google.android.googlequicksearchbox sanitized pkg version: 301527834
+06-27 12:51:09.553  1437  2234 D MediaMetricsService: submitInternal: item->getKey().c_str() = audio.record.59
+06-27 12:51:09.553  1437  2234 D MediaMetricsService: submitInternal: item->getCString(kCodecPackageName, &msg_send->packgeName) = 0
+06-27 12:51:09.553  1437  2234 D MediaMetricsService: submitInternal: item->getInt32(kCodecHdrInfo, &msg_send->hdr) = 0
+06-27 12:51:09.553  1437  2234 D MediaMetricsService: submitInternal: item->getInt32(kCodecFrameRateCal, &msg_send->frameRateCal) = 0
+06-27 12:51:09.554  1437  2234 D MediaMetricsService: submitInternal: msg_send->frameRateCal = 1731093609
+06-27 12:51:09.554  1437  2234 D MediaMetricsService: submitInternal: isTrusted:0 given uid -1; sanitized uid: 10188 sanitized pkg: com.google.android.googlequicksearchbox sanitized pkg version: 301527834
+06-27 12:51:09.554  1437  2234 D MediaMetricsService: submitInternal: item->getKey().c_str() = audio.record.59
+06-27 12:51:09.554  1437  2234 D MediaMetricsService: submitInternal: item->getCString(kCodecPackageName, &msg_send->packgeName) = 0
+06-27 12:51:09.554  1437  2234 D MediaMetricsService: submitInternal: item->getInt32(kCodecHdrInfo, &msg_send->hdr) = 0
+06-27 12:51:09.554  1437  2234 D MediaMetricsService: submitInternal: item->getInt32(kCodecFrameRateCal, &msg_send->frameRateCal) = 0
+06-27 12:51:09.554  1437  2234 D MediaMetricsService: submitInternal: msg_send->frameRateCal = 1731093609
+06-27 12:51:09.554  1437  2234 D MediaMetricsService: submitInternal: isTrusted:0 given uid -1; sanitized uid: 10188 sanitized pkg: com.google.android.googlequicksearchbox sanitized pkg version: 301527834
+06-27 12:51:09.554  1437  2234 D MediaMetricsService: submitInternal: item->getKey().c_str() = audio.record.59
+06-27 12:51:09.554  1437  2234 D MediaMetricsService: submitInternal: item->getCString(kCodecPackageName, &msg_send->packgeName) = 0
+06-27 12:51:09.554  1437  2234 D MediaMetricsService: submitInternal: item->getInt32(kCodecHdrInfo, &msg_send->hdr) = 0
+06-27 12:51:09.554  9739  9853 I AppActiveChecker: uid:10188change to inactive
+06-27 12:51:09.554  1437  2234 D MediaMetricsService: submitInternal: item->getInt32(kCodecFrameRateCal, &msg_send->frameRateCal) = 0
+06-27 12:51:09.554  1437  2234 D MediaMetricsService: submitInternal: msg_send->frameRateCal = 1731093609
+06-27 12:51:09.560   943 29430 D AudioFlinger: updateWakeLockUids_l AudioIn_46 uids:
+06-27 12:51:09.560  1919  8333 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:51:09.561   943  3796 D APM_AudioPolicyManager: closeInput: setCaptureState false for sva
+06-27 12:51:09.561  1437  2235 D MediaMetricsService: submitInternal: isTrusted:0 given uid -1; sanitized uid: 10188 sanitized pkg: com.google.android.googlequicksearchbox sanitized pkg version: 301527834
+06-27 12:51:09.561  1437  2235 D MediaMetricsService: submitInternal: item->getKey().c_str() = audiorecord
+06-27 12:51:09.561  1437  2235 D MediaMetricsService: submitInternal: item->getCString(kCodecPackageName, &msg_send->packgeName) = 0
+06-27 12:51:09.561  1437  2235 D MediaMetricsService: submitInternal: item->getInt32(kCodecHdrInfo, &msg_send->hdr) = 0
+06-27 12:51:09.561  1437  2235 D MediaMetricsService: submitInternal: item->getInt32(kCodecFrameRateCal, &msg_send->frameRateCal) = 0
+06-27 12:51:09.561  1437  2235 D MediaMetricsService: submitInternal: msg_send->frameRateCal = 1731093609
+06-27 12:51:09.562  1919  3081 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:51:09.562  1919  1986 I SoundTriggerMiddlewareLogging: setCaptureState[this=com.android.server.soundtrigger_middleware.SoundTriggerMiddlewareImpl@5173254, caller=1041/943](false)
+06-27 12:51:09.563  1919  3081 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:51:09.563  7063  7982 I eudy    : (REDACTED) #audio# hotword client session(token(%d)) stop listening status(%s)
+06-27 12:51:09.564  1919  3081 I system_server: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:51:09.564  7063  7982 I ethi    : (REDACTED) #audio# result(%s) stop signal completed
+06-27 12:51:09.564   943  3796 D APM_AudioPolicyManager: releaseInput exit
+06-27 12:51:09.564  7063  7982 I ethi    : (REDACTED) #audio# result(%s) stopped, processed %d bytes
+06-27 12:51:09.564  7063  7982 I ethi    : (REDACTED) #audio# result(%s) removing %d receivers
+06-27 12:51:09.564  7063  8010 I etju    : #audio# reportMicUpdate
+06-27 12:51:09.564   789  2281 D audio_hw_primary: adev_close_input_stream: enter:stream_handle(0xed6c1000)
+06-27 12:51:09.564   789  2281 D audio_hw_primary: io_streams_map_remove: Removed stream with handle 70
+06-27 12:51:09.564   789  2281 D soundtrigger: audio_extn_sound_trigger_check_ec_ref_enable: EC Reference is disabled
+06-27 12:51:09.564   789  2281 W sound_trigger_hw: sound_trigger_hw_call_back: Unknown event 18
+06-27 12:51:09.564   789  2281 D soundtrigger: audio_extn_sound_trigger_update_ec_ref_status: update audio echo ref status false
+06-27 12:51:09.564  7063  7982 I fbbi    : Call the onHotwordTimeout callback.
+06-27 12:51:09.564   789  2281 D audio_hw_primary: in_standby: enter: stream (0xed6c1000) usecase(23: audio-record)
+06-27 12:51:09.565  7063  7982 I fbdp    : (REDACTED) Hotword score : %f, Hotword model id : %s.
+06-27 12:51:09.565  7063  7982 I fbdp    : (REDACTED) Timeout reason %s, Coarse channel index %d.
+06-27 12:51:09.565  1437  2235 D MediaMetricsService: submitInternal: isTrusted:1 given uid -1; sanitized uid: 1041 sanitized pkg: audioserver sanitized pkg version: 0
+06-27 12:51:09.565   943  3796 V AF::RecordTrack: ~RecordTrack()
+06-27 12:51:09.565  1437  2235 D MediaMetricsService: submitInternal: item->getKey().c_str() = audio.thread.70
+06-27 12:51:09.565  1437  2235 D MediaMetricsService: submitInternal: item->getCString(kCodecPackageName, &msg_send->packgeName) = 0
+06-27 12:51:09.565  1437  2235 D MediaMetricsService: submitInternal: item->getInt32(kCodecHdrInfo, &msg_send->hdr) = 0
+06-27 12:51:09.565  1437  2235 D MediaMetricsService: submitInternal: item->getInt32(kCodecFrameRateCal, &msg_send->frameRateCal) = 0
+06-27 12:51:09.565  7063  7982 I fasa    : (REDACTED) isHotwordAvailable():  %b, isHotwordEnabled() %b , removeUsageOfHotwordEnabled: %b
+06-27 12:51:09.565  1437  2235 D MediaMetricsService: submitInternal: msg_send->frameRateCal = 1731093609
+06-27 12:51:09.565  7063  7982 I fasa    : (REDACTED) Voice Match (Speaker-id) supported : %b 
+06-27 12:51:09.566  1437  2235 D MediaMetricsService: submitInternal: isTrusted:1 given uid -1; sanitized uid: 1041 sanitized pkg: audioserver sanitized pkg version: 0
+06-27 12:51:09.566  1437  2235 D MediaMetricsService: submitInternal: item->getKey().c_str() = audio.thread.70
+06-27 12:51:09.566  1437  2235 D MediaMetricsService: submitInternal: item->getCString(kCodecPackageName, &msg_send->packgeName) = 0
+06-27 12:51:09.566  1437  2235 D MediaMetricsService: submitInternal: item->getInt32(kCodecHdrInfo, &msg_send->hdr) = 0
+06-27 12:51:09.566  1437  2235 D MediaMetricsService: submitInternal: item->getInt32(kCodecFrameRateCal, &msg_send->frameRateCal) = 0
+06-27 12:51:09.566  1437  2235 D MediaMetricsService: submitInternal: msg_send->frameRateCal = 1597387103
+06-27 12:51:09.566  7063  7982 I fbdv    : onHotwordRejected called
+06-27 12:51:09.566  7063  8064 I fbdv    : (REDACTED) This is hotwordRejectionEventTimestamp: %s
+06-27 12:51:09.566  7063  7982 I faud    : (REDACTED) HDM. Inside Sequencer. Try to start recognition again after %s
+06-27 12:51:09.566  7063  7982 I faud    : (REDACTED) getAllConfigAndTakeAction called because of %s
+06-27 12:51:09.566  7063  8064 I faud    : onMicClose
+06-27 12:51:09.566  7063  7982 I favf    : (REDACTED) Operational mode passed in HotwordConfig is %s
+06-27 12:51:09.567  7063  8011 I etkt    : (REDACTED) #audio# HotwordListeningSession stop listening status: %s
+06-27 12:51:09.567  7063  8063 I faww    : (REDACTED) No need to try to get the fallback locale. for keyphrase %s, locale %s
+06-27 12:51:09.567  1437  2235 D MediaMetricsService: submitInternal: isTrusted:1 given uid -1; sanitized uid: 1041 sanitized pkg: audioserver sanitized pkg version: 0
+06-27 12:51:09.567  7063  8063 I faxc    : (REDACTED) #getDspAvailableResult locale : %s, dsp locale : %s, keyphrase : %s, DSP keyphrase : %s, isKeyphraseAndLocaleSupported : %b, canUseDownloadDspModel : %b. forceUniversalDspHotwordModel : %b
+06-27 12:51:09.567  1437  2235 D MediaMetricsService: submitInternal: item->getKey().c_str() = audio.record.59
+06-27 12:51:09.567  1437  2235 D MediaMetricsService: submitInternal: item->getCString(kCodecPackageName, &msg_send->packgeName) = 0
+06-27 12:51:09.567  1437  2235 D MediaMetricsService: submitInternal: item->getInt32(kCodecHdrInfo, &msg_send->hdr) = 0
+06-27 12:51:09.567  1437  2235 D MediaMetricsService: submitInternal: item->getInt32(kCodecFrameRateCal, &msg_send->frameRateCal) = 0
+06-27 12:51:09.567  1437  2235 D MediaMetricsService: submitInternal: msg_send->frameRateCal = 1597387103
+06-27 12:51:09.567  7063  7982 I favt    : (REDACTED) DSP hotword running %s
+06-27 12:51:09.567  7063  8063 W KeyphraseEnrollmentInfo: No enrollment application supports the given keyphrase/locale: 'Y Google'/en_IN
+06-27 12:51:09.568  7063  7982 I faxc    : (REDACTED) isDspHotwordSupportedByPlatform = %s, isDspHotwordModelAvailable = %s
+06-27 12:51:09.568  7063  8011 I faud    : (REDACTED) getAllConfigAndTakeAction dspAvailable: %b, disableDspInTest: %b
+06-27 12:51:09.568  7063  8011 I fasa    : (REDACTED) Voice Match (Speaker-id) supported : %b 
+06-27 12:51:09.568  7063  8011 I fasa    : (REDACTED) hotword enrollment state is enrolled:  %b, speakerId model exist: %b. Voice Match supported : %b 
+06-27 12:51:09.569  7063  8011 I fasa    : (REDACTED) isHotwordAvailable():  %b, isHotwordEnabled() %b , removeUsageOfHotwordEnabled: %b
+06-27 12:51:09.569  7063  8011 I fasa    : (REDACTED) Hotword enrollment state : %s.
+06-27 12:51:09.569  7063  8011 I faud    : Registering for screen on/off intent ...
+06-27 12:51:09.569  7063  8011 I fasa    : (REDACTED) Voice Match (Speaker-id) supported : %b 
+06-27 12:51:09.569  7063  8011 I fasa    : (REDACTED) Hotword enrollment state : %s.
+06-27 12:51:09.571  7063  8064 I favf    : (REDACTED) Operational mode passed in HotwordConfig is %s
+06-27 12:51:09.571  7063  8064 I fasa    : (REDACTED) Hotword enrollment state : %s.
+06-27 12:51:09.571  7063  8064 I faux    : (REDACTED) DefaultPersonalDecisionMaker#getNextAction. Voice match enabled: %b. incomplete enrollment state: %b, screen on: %b, screen locked: %b dsp available: %b
+06-27 12:51:09.572  7063  8064 I favh    : (REDACTED) SharedDecisionMaker#getNextAction for requester %s, mode %s 
+06-27 12:51:09.572  7063  8064 I favh    : #SharedDecisionMaker. NextAction.START
+06-27 12:51:09.572  7063  8064 I fasq    : Reconfig not needed.
+06-27 12:51:09.572  7063  8064 I faud    : (REDACTED) currentReconfigCheckerResult %s
+06-27 12:51:09.572  7063  8064 I fbbi    : (REDACTED) #setSpeakerIdRequired: %s
+06-27 12:51:09.572  7063  8064 I faud    : (REDACTED) Get the next action %s for requester %s.
+06-27 12:51:09.572  7063  8064 I fbdg    : Trusted hotword is disabled due to feature flag
+06-27 12:51:09.572  7063  8064 I fbdg    : Trusted hotword is disabled due to feature flag
+06-27 12:51:09.572  7063  8064 I fasn    : Starting non-trusted DSP hotword detection
+06-27 12:51:09.572  7063  8064 I favt    : #setDspHotwordModel
+06-27 12:51:09.573  7063  7982 I favt    : #setDspHotwordModel inside sequencer.
+06-27 12:51:09.573  7063  8064 I favt    : #startDspHotwordRecognition
+06-27 12:51:09.573  7063  7572 I favt    : #createAlwaysOnHotwordDetectorIfNecessary
+06-27 12:51:09.573  7063  7572 I favt    : alwaysOnHotwordDetector already created and first onAvailabilityChanged called.
+06-27 12:51:09.573  7063  8064 I faud    : #handleStartHotwordDetectionResult
+06-27 12:51:09.573  7063  8064 I fawu    : #prepareDspModel
+06-27 12:51:09.574  7063  7982 I fasa    : (REDACTED) isHotwordAvailable():  %b, isHotwordEnabled() %b , removeUsageOfHotwordEnabled: %b
+06-27 12:51:09.574  7063  8064 I fawu    : #prepareDspModel inside ExecutionSequencer
+06-27 12:51:09.574  7063  7982 I fasa    : (REDACTED) Voice Match (Speaker-id) supported : %b 
+06-27 12:51:09.574  7063  8064 I fawu    : #prepareDspModel, already enrolled
+06-27 12:51:09.574  7063  7982 I faud    : #handleStartHotwordDetectionResult: calling addDspHotwordPropertiesToRequestHandlingMetadata
+06-27 12:51:09.574  7063  7982 I faxc    : #addDspHotwordPropertiesToRequestHandlingMetadata
+06-27 12:51:09.574  7063  8063 I faxc    : (REDACTED) #addDspHotwordPropertiesToRequestHandlingMetadata: properties=%s
+06-27 12:51:09.575  7063  8040 I favt    : (REDACTED) dspModelEnrollmentResult: %s, currentDownloadedDspHotwordModel.isPresent(): %b, directDspModeOrRetryInProgress: %b
+06-27 12:51:09.582  1919  8333 I SoundTriggerMiddlewareValidation: setActivityState activity = ACTIVE
+06-27 12:51:09.582  1919  8333 I SoundTriggerMiddlewareValidation: startRecognition modelHandle = 1 setActivityState = ACTIVE
+06-27 12:51:09.582  1919  8333 D SoundTriggerModule(Service): startRecognition()
+06-27 12:51:09.582  1919  8333 I SoundTriggerModule(Service): startRecognition mHandle = 1
+06-27 12:51:09.582  1919  8333 I SoundTriggerHw2Compat: startRecognition
+06-27 12:51:09.582  1919  8333 I SoundTriggerHw2Compat: startRecognition_2_1
+06-27 12:51:09.583   789   862 D sound_trigger_hw: stdev_start_recognition:[1] Enter
+06-27 12:51:09.583   789   862 D sound_trigger_hw: sm_name_index 0,  sensitivity level 0
+06-27 12:51:09.583   789   862 D sound_trigger_hw: update_confidence_level key 0, level 0
+06-27 12:51:09.583   789   862 D sound_trigger_hw: get_confidence_level: sm type 0, mode 1, sensitivity level 0
+06-27 12:51:09.583   789   862 I sound_trigger_hw: gmm level 50, gmm user level 10, cnn level 27, vop level 10
+06-27 12:51:09.583   789   862 I sound_trigger_hw: get confidence level --> gmm level 50, gmm user level 10, cnn level 27, vop level 10
+06-27 12:51:09.583   789   862 D sound_trigger_hw: buffering_state_fn:[1] handle event id 3
+06-27 12:51:09.583   789   862 D sound_trigger_hw: stop:[1] calling gcs_disable with handle 2
+06-27 12:51:09.583   789   862 E android.hardware.audio.service: __gcs_disable_update_pld: sgt_array[i] = 0x1
+06-27 12:51:09.583   789   862 E android.hardware.audio.service: __gcs_disable_update_pld: sgt_array[i] = 0x2
+06-27 12:51:09.583   789   862 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0x4, size = 68, token = 197
+06-27 12:51:09.586   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0x2, payload_size: 4, resp_buf size: 16
+06-27 12:51:09.586   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0x2 size = 4 token = 197
+06-27 12:51:09.586   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 197 matched
+06-27 12:51:09.587   789   862 D sound_trigger_hw: start:[1] calling gcs_enable with handle 2, non-persist cal 0x0, sz 0
+06-27 12:51:09.587   789   862 D ACDB-LOADER: ACDB -> ACDB_WDSP_CMD_GET_SUBGRAPH_MODULE_CALIBRATION_SIZE
+06-27 12:51:09.587   789   862 D ACDB-LOADER: ACDB -> ACDB_WDSP_CMD_GET_SUBGRAPH_MODULE_CALIBRATION
+06-27 12:51:09.587   789   862 D ACDB-LOADER: ACDB -> ACDB_WDSP_CMD_GET_SUBGRAPH_MODULE_CALIBRATION_SIZE
+06-27 12:51:09.587   789   862 D ACDB-LOADER: ACDB -> ACDB_WDSP_CMD_GET_SUBGRAPH_MODULE_CALIBRATION
+06-27 12:51:09.587   789   862 D ACDB-LOADER: ACDB -> ACDB_WDSP_CMD_GET_SUBGRAPH_MODULE_CONNECTION_SIZE
+06-27 12:51:09.587   789   862 E android.hardware.audio.service: gcs_get_sg_mod_conn_and_update_pld: subgraph mod conn size 0. Exiting
+06-27 12:51:09.587   789   862 D ACDB-LOADER: ACDB -> ACDB_WDSP_CMD_GET_SUBGRAPH_MODULE_CONNECTION_SIZE
+06-27 12:51:09.587   789   862 D ACDB-LOADER: ACDB -> ACDB_WDSP_CMD_GET_SUBGRAPH_MODULE_CONNECTION
+06-27 12:51:09.587   789   862 D ACDB-LOADER: ACDB -> ACDB_WDSP_CMD_GET_SUBGRAPH_CONNECTIONS_SIZE
+06-27 12:51:09.587   789   862 D ACDB-LOADER: ACDB -> ACDB_WDSP_CMD_GET_SUBGRAPHS_CONNECTION
+06-27 12:51:09.587   789   862 D ACDB-LOADER: ACDB -> ACDB_WDSP_CMD_GET_SUBGRAPH_CONNECTIONS_SIZE
+06-27 12:51:09.587   789   862 E android.hardware.audio.service: __gcs_get_sg_conn_and_update_pld: subgraph conn size 0. Exiting
+06-27 12:51:09.587   789   862 D android.hardware.audio.service: pktzr_send_cmd: opcode = 0x3, size = 300, token = 198
+06-27 12:51:09.595   789  1760 D android.hardware.audio.service: ipc_resp_thread: opcode: 0x2, payload_size: 4, resp_buf size: 16
+06-27 12:51:09.595   789  1760 D android.hardware.audio.service: pktzr_resp_cb: opcode = 0x2 size = 4 token = 198
+06-27 12:51:09.595   789  1760 D android.hardware.audio.service: pktzr_resp_cb: token 198 matched
+06-27 12:51:09.595   789   862 D sound_trigger_hw: session[1]: buffering_state_fn ---> active_state_fn 
+06-27 12:51:09.597   789   862 D sound_trigger_hw: stdev_start_recognition:[1] Exit
+06-27 12:51:09.598  1919  8333 I SoundTriggerModule(Service): setState mState = ACTIVE mHandle = 1
+06-27 12:51:09.598  1919  8333 I SoundTriggerMiddlewareLogging: startRecognition[this=com.android.server.soundtrigger_middleware.SoundTriggerModule$Session@e2a98f6, caller=1000/1919](1, { audioCapabilities: 0, captureRequested: true, data: [  ], phraseRecognitionExtras: [ { confidenceLevel: 0, id: 101, levels: [  ], recognitionModes: 1 } ] })
+06-27 12:51:09.598  1919  8333 I SoundTriggerHelper: startRecognition successful.
+06-27 12:51:09.599  7063  8040 I favt    : Start DSP hotword detection successfully.
+06-27 12:51:09.599  7063  8011 I fbbi    : Ignore the initializeSodaOnly request as Soda is already initialized.
+06-27 12:51:09.600  7063  8063 I faud    : Hotword started successfully.
+06-27 12:51:09.600  7063  8063 I eokx    : (REDACTED) HDM event received: %s
+06-27 12:51:09.600  7063  8063 I faud    : after notify apa
+06-27 12:51:09.600  7063  8063 I faud    : #logRequestHandlingNonErrorEndEvent. Reset requestIdOfFirstError, firstStartErrorCausesRetry and numOfRetriesDoneForHotwordDetectorStartErrors!
+06-27 12:51:09.602  7063  8010 I eohc    : (REDACTED) Platform configuration for connection(%s) has changed(@%s):%s
+06-27 12:51:09.602  7063  8010 I eoes    : (REDACTED) On platform configuration update(@%s) in connection(%s).
+06-27 12:51:09.603  7063  8063 I bisp    : (REDACTED) On platform configuration update(%s).
+06-27 12:51:09.603  7063  8063 I birx    : Received ConfigurationUpdate from Triggering API
+06-27 12:51:10.003  1919  8333 I ActivityTaskManager: START u0 {act=android.intent.action.CALL dat=tel:xxxxx flg=0x10000000 cmp=com.android.server.telecom/.components.UserCallActivity} from uid 2000
+06-27 12:51:10.004  1919  8333 W ActivityTaskManager: Permission Denial: starting Intent { act=android.intent.action.CALL dat=tel:xxxxx flg=0x10000000 cmp=com.android.server.telecom/.components.UserCallActivity } from null (pid=29436, uid=2000) with revoked permission android.permission.CALL_PHONE
+06-27 12:51:10.005 29436 29438 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4

@@ -1,0 +1,49 @@
+--------- beginning of main
+06-27 12:30:15.129 20712 20712 D ResolverListAdapter: ResolverListAdapter: com.android.internal.app.ResolverListAdapter@888357c
+06-27 12:30:15.130  9395  9436 I SCTaskStackListener: onTaskStackChanged! inSplit = false
+06-27 12:30:15.131  9395 10779 I SCTaskStackListener: onTaskStackChanged! inSplit = false
+06-27 12:30:15.131  2671  2671 D AppMiniWindowManager: topActivity updated in onTaskStackChanged
+06-27 12:30:15.135 20712 20712 D MiShareTransmissionView: initScreenView is false
+06-27 12:30:15.137 21599 21599 I jfc     : SslGuard completed installation.
+06-27 12:30:15.138  1919  7657 D MessageMonitor: Dump Looper message took 0ms
+06-27 12:30:15.139 21599 21599 E libc    : Access denied finding property "ro.vendor.df.effect.conflict"
+06-27 12:30:15.139 21599 21599 E libc    : Access denied finding property "ro.vendor.knock.type"
+06-27 12:30:15.123 21599 21599 W .apps.wellbeing: type=1400 audit(0.0:3438): avc: denied { read } for name="u:object_r:vendor_displayfeature_prop:s0" dev="tmpfs" ino=17656 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:vendor_displayfeature_prop:s0 tclass=file permissive=0 app=com.google.android.apps.wellbeing
+06-27 12:30:15.143   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:15.143   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:15.143   879   879 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:30:15.143   879   879 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-27 12:30:15.143   879   879 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.google.android.apps.wellbeing feature:AppClassifier feedback = 1
+06-27 12:30:15.145 20712 20712 D ResolverListAdapter: getItem: position 0 mDisplayList.size(): 0
+06-27 12:30:15.145 20712 20712 D ResolverListAdapter: getItem: position 1 mDisplayList.size(): 0
+06-27 12:30:15.145 20712 20712 D ResolverListAdapter: getItem: position 2 mDisplayList.size(): 0
+06-27 12:30:15.145 20712 20712 D ResolverListAdapter: getItem: position 3 mDisplayList.size(): 0
+06-27 12:30:15.145  1919  7657 D MessageMonitor: Dump Looper message took 0ms
+06-27 12:30:15.145  1919  7657 D MessageMonitor: Dump Looper message took 0ms
+06-27 12:30:15.175   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.PersistentApiService and for client com.google.android.apps.wellbeing
+06-27 12:30:15.175   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.PersistentApiServiceare :17
+06-27 12:30:15.175   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.apps.wellbeingare :1
+06-27 12:30:15.179   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.PersistentDirectBootAwareApiService and for client com.google.android.apps.wellbeing
+06-27 12:30:15.179   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.PersistentDirectBootAwareApiServiceare :22
+06-27 12:30:15.179   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.apps.wellbeingare :2
+06-27 12:30:15.194 20712 20712 D ResolverListAdapter: ResolverListAdapter: com.android.internal.app.ResolverListAdapter@9fb2e6c
+06-27 12:30:15.196   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.PersistentApiService and for client com.google.android.apps.wellbeing
+06-27 12:30:15.196   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.PersistentApiServiceare :17
+06-27 12:30:15.196   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.apps.wellbeingare :2
+06-27 12:30:15.230  9235  9578 E bt_btif : bta_av_co_get_active_peer: peer index out of bounds: 5
+06-27 12:30:15.240 20712 20712 D ResolverListAdapter: ResolverListAdapter: com.android.internal.app.ResolverListAdapter@b9fdc35
+06-27 12:30:15.257  2964  2964 D RecentsImpl: mActivityStateObserver com.android.internal.app.ResolverActivity
+06-27 12:30:15.257 20712 20712 D AbstractResolverComp: RANKER_SERVICE_RESULT
+06-27 12:30:15.258  2964  3243 D GestureStubView: resetRenderProperty: showGestureStub
+06-27 12:30:15.258  2964  3243 D GestureStubView: showGestureStub
+06-27 12:30:15.258  2964  3243 D GestureStubView: resetRenderProperty: showGestureStub
+06-27 12:30:15.258  2964  3243 D GestureStubView: showGestureStub
+06-27 12:30:15.259 20712 21658 D ResolverListAdapter: on doInBackground!!!!
+06-27 12:30:15.259 20712 21658 D AbstractResolverComp: Setting watchdog timer for 500ms
+--------- beginning of system
+06-27 12:30:15.262  1919  7657 I Timeline: Timeline: App_transition_ready time:2820073
+06-27 12:30:15.264   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.ext.services/android.ext.services.resolver.LRResolverRankerService and for client system:ui
+06-27 12:30:15.264   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.ext.services/android.ext.services.resolver.LRResolverRankerServiceare :1
+06-27 12:30:15.264   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : system:uiare :1
+06-27 12:30:15.272  1919  7657 I Timeline: Timeline: App_transition_ready time:2820083
+06-27 12:30:15.274  2964  3243 D GestureStubView: gatherTransparentRegion: need render w:54  h:1404

@@ -1,0 +1,271 @@
+--------- beginning of main
+06-27 12:30:02.177  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.183 20657 20657 D ProcessLifecycleG3: androidx.startup is not available, initializing using ProcessLifecycleOwnerInitializer instead.
+--------- beginning of system
+06-27 12:30:02.184 20657 20657 I ContentProviderMonitor: PerfMonitor installContentProviders : before publish content providers
+06-27 12:30:02.194  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.211  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.219  2671  2671 W Choreographer: Frame time is 0.100517 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+06-27 12:30:02.226  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.244  2671  3648 I chatty  : uid=1000(system) com.android.systemui identical 1 line
+06-27 12:30:02.259  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.267  7063  8064 I OpaConnection: Destroying connection
+06-27 12:30:02.276  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.278  7063  8064 I apad    : setupConnection
+06-27 12:30:02.282   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.googlequicksearchbox/com.google.android.apps.gsa.publicsearch.PublicSearchService and for client com.google.android.googlequicksearchbox:interactor
+06-27 12:30:02.282   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.googlequicksearchbox/com.google.android.apps.gsa.publicsearch.PublicSearchServiceare :1
+06-27 12:30:02.282   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.googlequicksearchbox:interactorare :2
+06-27 12:30:02.282  1919  7657 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:30:02.282  1919  7657 D CompatibilityInfo: applicationDensity - 440
+06-27 12:30:02.282  1919  7657 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:30:02.283   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.google.android.googlequicksearchbox/com.google.android.apps.gsa.publicsearch.PublicSearchService
+06-27 12:30:02.286  1919  3090 I ActivityTaskManager: START u0 {act=android.intent.action.VIEW dat=file:///sdcard/Music/sample.mp3 typ=audio/* flg=0x10000000 cmp=android/com.android.internal.app.ResolverActivity} from uid 2000
+06-27 12:30:02.291 20657 20691 E libc    : Access denied finding property "ro.vendor.df.effect.conflict"
+06-27 12:30:02.291  7063  8064 I apad    : (REDACTED) State changed: %s => %s
+06-27 12:30:02.291 20657 20691 E libc    : Access denied finding property "ro.vendor.knock.type"
+06-27 12:30:02.291  1919  3090 D MiuiMultiWindowAdapter: MiuiMultiWindowAdapter::getFreeformBlackList::sSmallWindowBlackList = [com.miui.securitycenter, com.miui.weather2, com.miui.miservice, com.android.calendar, com.xiaomi.calendar, com.android.contacts, com.miui.mishare.connectivity, com.android.settings, com.android.printspooler, com.miui.backup, com.miui.huanji, com.miui.calculator, com.android.deskclock, com.android.thememanager, com.mfashiongallery.emag, com.miui.virtualsim, com.miui.smarttravel, com.mi.health, com.android.camera, com.lbe.security.miui, com.miui.cleanmaster, com.miui.newhome, com.miui.voiceassist, com.android.phone, com.miui.yellowpage, com.android.updater, com.miui.tsmclient, com.miui.securitycore, com.xiaomi.account, com.xiaomi.shop, com.mipay.wallet, com.xiaomi.youpin, com.xiaomi.hm.health, com.miui.bugreport, com.xiaomi.mibrain.speech, com.xiaomi.mimoji, com.xiaomi.scanner, com.duokan.phone.remotecontroller, com.miui.hybrid, com.android.incallui, com.miui.video, com.miui.videoplayer, com.miui.player, com.miui.fm, com.miui.packageinstaller, com.mi.android.globallauncher, com.google.android.dialer, com.google.android.apps.magazines, com.miui.compass, com.miui.greenguard, com.kiteguard, com.google.android.apps.prodcasts, com.google.ar.lens, com.xiangkan.android, com.android.bankabc, com.sohu.inputmethod.sogou, com.tencent.mtt, com.shyz.toutiao, com.netease.mc.mi, com.outfit7.talkingtomgoldrun.mi, com.doudz.mi, com.wepie.snake.new.mi, cn.jj, com.standddz002.mi, com.miHoYo.bh3.mi, com.qqgame.hlddz, com.happyelements.AndroidAnimal, com.minitech.miniworld.TMobile.mi, com.mfp.jelly.xiaomi, com.lilithgames.afk.mi, com.tencent.peng, com.teenpatti.hd.gold, blockpuzzle.jewelgames.jewelslegend, com.playgendary.tanks, com.chillingo.robberybobfree.android.row, com.episodeinteractive.android.catalog, com.playrix.township, com.ansangha.drdriving, com.google.android.youtube, com.gbits.atm.mi]
+06-27 12:30:02.292  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.283 20657 20657 W com.google.android.googlequicksearchbox:search: type=1400 audit(0.0:3293): avc: denied { read } for comm=426C6F636B696E6720546872656164 name="u:object_r:vendor_displayfeature_prop:s0" dev="tmpfs" ino=17656 scontext=u:r:priv_app:s0:c512,c768 tcontext=u:object_r:vendor_displayfeature_prop:s0 tclass=file permissive=0 app=com.google.android.googlequicksearchbox
+06-27 12:30:02.296   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-27 12:30:02.296   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-27 12:30:02.298   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:02.298   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:02.298   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:02.298   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:02.298   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:02.298   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-27 12:30:02.299   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:02.299   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:02.299   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:02.299   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:02.299   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:02.299   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:02.299   879   879 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:30:02.299   879   879 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-27 12:30:02.299   879   879 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:android feature:AppClassifier feedback = 0
+06-27 12:30:02.300   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-27 12:30:02.300   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:02.300   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=1
+06-27 12:30:02.300   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:02.300   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-27 12:30:02.300   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:02.300   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:02.300   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:02.300   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:02.301  1919  3090 E ANDR-PERF-JNI: com_qualcomm_qtiperformance_native_perf_io_prefetch_start
+06-27 12:30:02.307   879   984 I ANDR-PERF-LM: MetaMeter: isValidAsync() 194: AsyncInfo: hintID = 4225
+06-27 12:30:02.307   879   984 I ANDR-PERF-LM: hintType: 2
+06-27 12:30:02.307   879   984 I ANDR-PERF-LM: isPrimary = 0
+06-27 12:30:02.307   879   984 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 2,android,-1,1919,3090)
+06-27 12:30:02.307   879   984 E ANDR-PERF-LM: MetaMeter: handleAsync() 164: AdaptLaunch Invalid Async
+06-27 12:30:02.307   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-27 12:30:02.307   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:02.307   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=1
+06-27 12:30:02.307   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:02.307   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-27 12:30:02.307   879   984 I ANDR-PERF-LM: MetaMeter: isValidAsync() 194: AsyncInfo: hintID = 4225
+06-27 12:30:02.307   879   984 I ANDR-PERF-LM: hintType: 3
+06-27 12:30:02.307   879   984 I ANDR-PERF-LM: isPrimary = 0
+06-27 12:30:02.307   879   984 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 3,android,-1,1919,3090)
+06-27 12:30:02.307   879   984 E ANDR-PERF-LM: MetaMeter: handleAsync() 164: AdaptLaunch Invalid Async
+06-27 12:30:02.307   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-27 12:30:02.307   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:02.307   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:02.308  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.314   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:02.314   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:02.314   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:02.314   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:02.315   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:02.315   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:02.315   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=1
+06-27 12:30:02.315   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=2
+06-27 12:30:02.315   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=1
+06-27 12:30:02.315   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-27 12:30:02.315   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-27 12:30:02.315   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:02.315   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=1
+06-27 12:30:02.315   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:02.315   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-27 12:30:02.315   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-27 12:30:02.315   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:02.315   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:02.317  1919  3090 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:30:02.317  1919  3090 D CompatibilityInfo: applicationDensity - 440
+06-27 12:30:02.317  1919  3090 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:30:02.318   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:30:02.318   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:02.318   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:02.318   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:02.318   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:02.318   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:02.318   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-27 12:30:02.318   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-27 12:30:02.318  1919  3090 D ActivityTrigger: ActivityTrigger activityPauseTrigger 
+06-27 12:30:02.318   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:02.318   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:02.318   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:02.318   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:02.318   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-27 12:30:02.322 20690 20695 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:30:02.324   876   907 E ANDR-IOP: io prefetch is disabled
+06-27 12:30:02.324   879   984 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:30:02.324   879   984 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-27 12:30:02.325   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-27 12:30:02.325   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:02.325   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=1
+06-27 12:30:02.325   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:02.325   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-27 12:30:02.325   879   984 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:30:02.325   879   984 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-27 12:30:02.325   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-27 12:30:02.325   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:02.325   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:02.328 20657 20657 I dsvo    : Initializing GMS Compliance Client Library...
+06-27 12:30:02.329 20657 20657 I dsvo    : Checking for device compliance...
+06-27 12:30:02.329 20657 20657 I dsvo    : Completed library init.
+06-27 12:30:02.330   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:02.330   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:02.330   879   879 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:30:02.330   879   879 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-27 12:30:02.330   879   879 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.google.android.googlequicksearchbox feature:AppClassifier feedback = 1
+06-27 12:30:02.330  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.338   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.PersistentApiService and for client com.google.android.googlequicksearchbox:search
+06-27 12:30:02.338   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.PersistentApiServiceare :17
+06-27 12:30:02.338   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.googlequicksearchbox:searchare :1
+06-27 12:30:02.340  7088 10777 I com.miui.daemo: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:30:02.344  7088 10777 I chatty  : uid=1000(system) Binder:7088_4 identical 2 lines
+06-27 12:30:02.344  7088 10777 I com.miui.daemo: oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:30:02.349  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.350   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-27 12:30:02.351   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-27 12:30:02.352   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:02.352   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:02.352   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:02.352   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:02.352   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:30:02.352   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:02.352   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-27 12:30:02.352   879   984 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:30:02.352   879   984 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-27 12:30:02.352   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-27 12:30:02.352   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:02.352   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:02.355   698   698 D Zygote  : Forked child process 20712
+06-27 12:30:02.356   847  2607 I WifiHAL : event received NL80211_CMD_VENDOR, vendor_id = 0x1374, subcmd = 0xd
+06-27 12:30:02.357  1560  1560 I cnss-daemon: nl80211 response handler invoked
+06-27 12:30:02.357  1560  1560 I cnss-daemon: nl80211_response_handler: cmd 103, vendorID 4980, subcmd 13  received
+06-27 12:30:02.358  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.359 20712 20712 W Zygote  : Unable to open libbeluga.so: dlopen failed: library "libbeluga.so" not found.
+06-27 12:30:02.362  1919  2122 I ActivityManager: Start proc 20712:system:ui/1000 for pre-top-activity {android/com.android.internal.app.ResolverActivity} caller=com.android.shell
+06-27 12:30:02.363   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.PersistentBoundBrokerService and for client com.google.android.googlequicksearchbox:search
+06-27 12:30:02.363   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.PersistentBoundBrokerServiceare :6
+06-27 12:30:02.363   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.googlequicksearchbox:searchare :2
+06-27 12:30:02.370  1919  2233 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:30:02.370  1919  2233 D CompatibilityInfo: applicationDensity - 440
+06-27 12:30:02.370  1919  2233 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:30:02.375  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.376 20712 20712 E system:ui: Not starting debugger since process cannot load the jdwp agent.
+06-27 12:30:02.377   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.measurement.service.MeasurementBrokerService and for client com.spotify.music
+06-27 12:30:02.377   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.measurement.service.MeasurementBrokerServiceare :8
+06-27 12:30:02.377   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.spotify.musicare :7
+06-27 12:30:02.383  7063  8064 I apad    : onServiceConnected
+06-27 12:30:02.383 20657 20675 I A       : Calling beginBinderSession().
+06-27 12:30:02.385 20657 20657 I gcgt    : (REDACTED) Scoped context discovery schemas: %s.
+06-27 12:30:02.386   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:02.386   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:02.386   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:02.386   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:02.387   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:02.387   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-27 12:30:02.387   879   984 I ANDR-PERF-LM: MetaMeter: isValidAsync() 194: AsyncInfo: hintID = 4225
+06-27 12:30:02.387   879   984 I ANDR-PERF-LM: hintType: 103
+06-27 12:30:02.387   879   984 I ANDR-PERF-LM: isPrimary = 0
+06-27 12:30:02.387   879   984 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 103,system:ui,20712,1919,7140)
+06-27 12:30:02.387   879   984 E ANDR-PERF-LM: MetaMeter: handleAsync() 164: AdaptLaunch Invalid Async
+06-27 12:30:02.387   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-27 12:30:02.387   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:02.387   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:02.388 20657 20675 W DynamiteModule: Local module descriptor class for com.google.android.gms.googlecertificates not found.
+06-27 12:30:02.389  1919  7140 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:30:02.389  1919  7140 D CompatibilityInfo: applicationDensity - 440
+06-27 12:30:02.389  1919  7140 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:30:02.391 20657 20735 I ewsm    : (REDACTED) %s TNG App is logging Clearcut event named %s with the %s account state (zwieback available: %b) and %s source
+06-27 12:30:02.395  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.396  1919  7140 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:30:02.396  1919  7140 D CompatibilityInfo: applicationDensity - 440
+06-27 12:30:02.396  1919  7140 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:30:02.397   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:30:02.397   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:30:02.398 20657 20734 I eupe    : Received an intent for GNP, won't process
+06-27 12:30:02.399  1919  7657 I ActivityTaskManager: START u0 {act=android.intent.action.CALL dat=tel:xxxxxxxxxx flg=0x10000000 cmp=com.android.server.telecom/.components.UserCallActivity} from uid 2000
+06-27 12:30:02.399  1919  7657 W ActivityTaskManager: Permission Denial: starting Intent { act=android.intent.action.CALL dat=tel:xxxxxxxxxx flg=0x10000000 cmp=com.android.server.telecom/.components.UserCallActivity } from null (pid=20732, uid=2000) with revoked permission android.permission.CALL_PHONE
+06-27 12:30:02.403  1919  2107 I Timeline: Timeline: App_transition_ready time:2807213
+06-27 12:30:02.404 20732 20737 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:30:02.408  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.408  8426  8452 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='android', mForegroundUid=1000, mForegroundPid=20712, mLastForegroundPackageName='com.spotify.music', mLastForegroundUid=10270, mLastForegroundPid=11583, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=1}
+06-27 12:30:02.408  1919  3090 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:30:02.409  1919  3090 D CompatibilityInfo: applicationDensity - 440
+06-27 12:30:02.409  1919  3090 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:30:02.411   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.PersistentDirectBootAwareApiService and for client com.google.android.googlequicksearchbox:search
+06-27 12:30:02.411   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.PersistentDirectBootAwareApiServiceare :22
+06-27 12:30:02.411   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.googlequicksearchbox:searchare :3
+06-27 12:30:02.414 20712 20712 I Perf    : Connecting to perf service.
+06-27 12:30:02.414   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.GmsBoundBrokerService and for client com.google.android.googlequicksearchbox:search
+06-27 12:30:02.414   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.GmsBoundBrokerServiceare :9
+06-27 12:30:02.414   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.googlequicksearchbox:searchare :4
+06-27 12:30:02.415 19739 19777 I Finsky  : [1135] RECEIVER_SINGLE_USER_SETTINGS#logWorkEndAndFinishGoAsync: SUCCESS
+06-27 12:30:02.415  9395  9418 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='android', mForegroundUid=1000, mForegroundPid=20712, mLastForegroundPackageName='com.spotify.music', mLastForegroundUid=10270, mLastForegroundPid=11583, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=1}
+06-27 12:30:02.417  9770  9788 I GST     : forePkg: android, preForePkg: com.spotify.music
+06-27 12:30:02.421  1919  2233 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:30:02.421  1919  2233 D CompatibilityInfo: applicationDensity - 440
+06-27 12:30:02.421  1919  2233 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:30:02.424  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.425  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10122, uidState = 11
+06-27 12:30:02.426  8346  8389 D PMonitor:  onForegroundActivitiesChanged:pid = 20712,activity-uid=1000,foregroundActivities=true
+06-27 12:30:02.426  9395  9418 I VideoBoxUtils: isSupportVideoBox: false
+06-27 12:30:02.427  9739 10841 D PerfEngineController: ForegroundInfo{mForegroundPackageName='android', mForegroundUid=1000, mForegroundPid=20712, mLastForegroundPackageName='com.spotify.music', mLastForegroundUid=10270, mLastForegroundPid=11583, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=1}
+06-27 12:30:02.428 20657 20697 I dsvo    : (REDACTED) Device Compliance Fetch time taken = %sms
+06-27 12:30:02.429 20657 20697 I dsvo    : Device is compliant!
+06-27 12:30:02.432  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10264, uidState = 19
+06-27 12:30:02.432  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10122, uidState = 15
+06-27 12:30:02.440 20712 20712 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+06-27 12:30:02.440 20712 20712 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+06-27 12:30:02.445 20657 20697 I dsvo    : Invoking "compliant" action...
+06-27 12:30:02.445   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:02.445   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:02.445   879   879 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:30:02.446   879   879 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-27 12:30:02.446   879   879 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:android feature:AppClassifier feedback = 0
+06-27 12:30:02.450   698   698 D Zygote  : Forked child process 20746
+06-27 12:30:02.450  9739 11053 W MessageQueue: Handler (com.miui.powerkeeper.feedbackcontrol.FeedbackControlService$FeedbackControlHandler) {322048a} sending message to a Handler on a dead thread
+06-27 12:30:02.450  9739 11053 W MessageQueue: java.lang.IllegalStateException: Handler (com.miui.powerkeeper.feedbackcontrol.FeedbackControlService$FeedbackControlHandler) {322048a} sending message to a Handler on a dead thread
+06-27 12:30:02.450  9739 11053 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:563)
+06-27 12:30:02.450  9739 11053 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:778)
+06-27 12:30:02.450  9739 11053 W MessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:727)
+06-27 12:30:02.450  9739 11053 W MessageQueue: 	at com.miui.powerkeeper.event.EventsAggregator$EventRegistrant.notifyResult(Unknown Source:26)
+06-27 12:30:02.450  9739 11053 W MessageQueue: 	at com.miui.powerkeeper.event.EventsAggregator.notifyForForegroundInfo(Unknown Source:47)
+06-27 12:30:02.450  9739 11053 W MessageQueue: 	at com.miui.powerkeeper.utils.ProcessObserver.notifyForegroundListener(Unknown Source:17)
+06-27 12:30:02.450  9739 11053 W MessageQueue: 	at com.miui.powerkeeper.utils.ProcessObserver.access$1000(Unknown Source:0)
+06-27 12:30:02.450  9739 11053 W MessageQueue: 	at com.miui.powerkeeper.utils.ProcessObserver$2.onForegroundInfoChanged(Unknown Source:2)
+06-27 12:30:02.450  9739 11053 W MessageQueue: 	at miui.process.IForegroundInfoListener$Stub.onTransact(IForegroundInfoListener.java:87)
+06-27 12:30:02.450  9739 11053 W MessageQueue: 	at android.os.Binder.execTransactInternal(Binder.java:1162)
+06-27 12:30:02.450  9739 11053 W MessageQueue: 	at android.os.Binder.execTransact(Binder.java:1126)
+06-27 12:30:02.450  3799  7927 D AdvertisingIdClient: AdvertisingIdClient already created.
+06-27 12:30:02.452  3799  7927 I AdvertisingIdClient: shouldSendLog 2723236
+06-27 12:30:02.452  3799  7927 I AdvertisingIdClient: GetInfoInternal elapse 2ms
+06-27 12:30:02.455  1919  2122 I ActivityManager: Start proc 20746:com.instagram.android/u0a264 for broadcast {com.instagram.android/com.instagram.util.startup.appwarmer.KeepWarmReceiver} caller=com.instagram.android
+06-27 12:30:02.457 20746 20746 W Zygote  : Unable to open libbeluga.so: dlopen failed: library "libbeluga.so" not found.
+06-27 12:30:02.461  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.462  9395  9435 I SCTaskStackListener: onTaskStackChanged! inSplit = false
+06-27 12:30:02.463  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.464  9395  9436 I SCTaskStackListener: onTaskStackChanged! inSplit = false
+06-27 12:30:02.467  2671  2671 D AppMiniWindowManager: topActivity updated in onTaskStackChanged
+06-27 12:30:02.467 20657 20675 W earchbox:searc: ClassLoaderContext classpath size mismatch. expected=12, found=0 (DLC[];PCL[base.apk*3954478138:base.apk!classes2.dex*934104914:base.apk!classes3.dex*156543503:base.apk!classes4.dex*3966455241:base.apk!classes5.dex*279722583:base.apk!classes6.dex*727634671:base.apk!classes7.dex*2632977846:base.apk!classes8.dex*3752884997:base.apk!classes9.dex*1939713283:base.apk!classes10.dex*2897118556:base.apk!classes11.dex*1109959419:base.apk!classes12.dex*1624837242]{PCL[/system/framework/org.apache.http.legacy.jar*1721227950]#PCL[/system/framework/com.android.media.remotedisplay.jar*1573936315]#PCL[/system/framework/com.android.location.provider.jar*1664931834]#PCL[/system/framework/org.apache.http.legacy.jar*1721227950]} | DLC[];PCL[])
+06-27 12:30:02.469 20657 20675 I DynamiteModule: Considering local module com.google.android.gms.googlecertificates:0 and remote module com.google.android.gms.googlecertificates:7
+06-27 12:30:02.469 20657 20675 I DynamiteModule: Selected remote version of com.google.android.gms.googlecertificates, version >= 7
+06-27 12:30:02.469 20657 20675 V DynamiteModule: Dynamite loader version >= 2, using loadModule2NoCrashUtils
+06-27 12:30:02.474 20657 20675 W System  : ClassLoader referenced unknown path: 
+06-27 12:30:02.475  2671  3648 D NdkImageReader: acquireImageLocked: Producer buffer usage: 333, doesn't cover all usage bits AImageReader configured: 100003
+06-27 12:30:02.477  9395  9418 E GameBoosterReflectUtils: java.lang.NoSuchMethodException: android.app.ActivityManager$StackInfo.getWindowingMode []
+06-27 12:30:02.478  9395  9418 I VideoToolBoxService: splitMode: onfalse

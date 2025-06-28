@@ -1,0 +1,6 @@
+--------- beginning of main
+06-27 12:50:47.848  1919  7131 D MessageMonitor: Dump Looper message took 1ms
+06-27 12:50:47.854   943   943 D APM::AudioPolicyEngine: XXX -4: getDeviceForStrategyInt() STRATEGY_SONIFICATION_RESPECTFUL :Use STRATEGY_SONIFICATION to getDevice
+06-27 12:50:47.854   943   943 D APM::AudioPolicyEngine: XXX -4: getDeviceForStrategyInt() STRATEGY_SONIFICATION_RESPECTFUL :Use STRATEGY_SONIFICATION to getDevice
+06-27 12:50:47.863   943  3237 D APM::AudioPolicyEngine: XXX -4: getDeviceForStrategyInt() STRATEGY_SONIFICATION_RESPECTFUL :Use STRATEGY_SONIFICATION to getDevice
+06-27 12:50:47.872  1919  7131 D MessageMonitor: Dump Looper message took 0ms

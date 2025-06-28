@@ -1,0 +1,280 @@
+--------- beginning of main
+06-27 12:30:03.756 20657 20738 I azut    : Set Assistant eligibility status
+06-27 12:30:03.758 20657 20692 D WM-SystemJobScheduler: Reconciling jobs
+06-27 12:30:03.759 20746 20746 W Profilo/TraceControl: START PROFILO_TRACEID: DNIVfKNRV8J
+06-27 12:30:03.760 20746 20746 W SoLoader: Loading profilo_mmapbuf on the main thread
+06-27 12:30:03.767 20746 20746 W SoLoader: Loading profilo on the main thread
+06-27 12:30:03.770 20746 20746 I chatty  : uid=10264(com.instagram.android) identical 2 lines
+06-27 12:30:03.770 20746 20746 W SoLoader: Loading profilo on the main thread
+06-27 12:30:03.791  1919  2478 D SlaveWifiManager: getWifiSlaveConnectionInfo
+06-27 12:30:03.792  1919  2478 I chatty  : uid=1000(system) ConnectivitySer identical 79 lines
+06-27 12:30:03.792  1919  2478 D SlaveWifiManager: getWifiSlaveConnectionInfo
+06-27 12:30:03.792  1919  2402 D UntrustedWifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=176, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10192 AdministratorUids: [] RequestorUid: 10192 RequestorPackageName: com.android.chrome] ] with score 60 and providerId 6
+06-27 12:30:03.792  1919  2402 D WifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=176, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10192 AdministratorUids: [] RequestorUid: 10192 RequestorPackageName: com.android.chrome] ] with score 60 and providerId 6
+06-27 12:30:03.792  1919  2402 D WifiSlaveNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=176, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10192 AdministratorUids: [] RequestorUid: 10192 RequestorPackageName: com.android.chrome] ] with score 60 and providerId 6
+06-27 12:30:03.792  1919  2402 D UntrustedWifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=176, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10192 AdministratorUids: [] RequestorUid: 10192 RequestorPackageName: com.android.chrome] ] with score 60 and providerId 6
+06-27 12:30:03.792  1919  2571 D WIFI_AWARE_FACTORY: got request NetworkRequest [ TRACK_DEFAULT id=176, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10192 AdministratorUids: [] RequestorUid: 10192 RequestorPackageName: com.android.chrome] ] with score 60 and providerId 6
+06-27 12:30:03.792  1919  2574 D Ethernet: got request NetworkRequest [ TRACK_DEFAULT id=176, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10192 AdministratorUids: [] RequestorUid: 10192 RequestorPackageName: com.android.chrome] ] with score 60 and providerId 6
+06-27 12:30:03.792  2914  2914 D PhoneSwitcherNetworkRequstListener: got request NetworkRequest [ TRACK_DEFAULT id=176, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10192 AdministratorUids: [] RequestorUid: 10192 RequestorPackageName: com.android.chrome] ] with score 60 and providerId 6
+06-27 12:30:03.795  1919  2478 D SlaveWifiManager: getWifiSlaveConnectionInfo
+--------- beginning of system
+06-27 12:30:03.806  1919  2233 I ActivityTaskManager: START u0 {act=android.provider.MediaStore.RECORD_SOUND flg=0x10000000 cmp=com.android.soundrecorder/.SoundRecorder} from uid 2000
+06-27 12:30:03.797  1919  2478 I chatty  : uid=1000(system) ConnectivitySer identical 78 lines
+06-27 12:30:03.797  1919  2478 D SlaveWifiManager: getWifiSlaveConnectionInfo
+06-27 12:30:03.806  1919  2233 D MiuiMultiWindowAdapter: MiuiMultiWindowAdapter::getFreeformBlackList::sSmallWindowBlackList = [com.miui.securitycenter, com.miui.weather2, com.miui.miservice, com.android.calendar, com.xiaomi.calendar, com.android.contacts, com.miui.mishare.connectivity, com.android.settings, com.android.printspooler, com.miui.backup, com.miui.huanji, com.miui.calculator, com.android.deskclock, com.android.thememanager, com.mfashiongallery.emag, com.miui.virtualsim, com.miui.smarttravel, com.mi.health, com.android.camera, com.lbe.security.miui, com.miui.cleanmaster, com.miui.newhome, com.miui.voiceassist, com.android.phone, com.miui.yellowpage, com.android.updater, com.miui.tsmclient, com.miui.securitycore, com.xiaomi.account, com.xiaomi.shop, com.mipay.wallet, com.xiaomi.youpin, com.xiaomi.hm.health, com.miui.bugreport, com.xiaomi.mibrain.speech, com.xiaomi.mimoji, com.xiaomi.scanner, com.duokan.phone.remotecontroller, com.miui.hybrid, com.android.incallui, com.miui.video, com.miui.videoplayer, com.miui.player, com.miui.fm, com.miui.packageinstaller, com.mi.android.globallauncher, com.google.android.dialer, com.google.android.apps.magazines, com.miui.compass, com.miui.greenguard, com.kiteguard, com.google.android.apps.prodcasts, com.google.ar.lens, com.xiangkan.android, com.android.bankabc, com.sohu.inputmethod.sogou, com.tencent.mtt, com.shyz.toutiao, com.netease.mc.mi, com.outfit7.talkingtomgoldrun.mi, com.doudz.mi, com.wepie.snake.new.mi, cn.jj, com.standddz002.mi, com.miHoYo.bh3.mi, com.qqgame.hlddz, com.happyelements.AndroidAnimal, com.minitech.miniworld.TMobile.mi, com.mfp.jelly.xiaomi, com.lilithgames.afk.mi, com.tencent.peng, com.teenpatti.hd.gold, blockpuzzle.jewelgames.jewelslegend, com.playgendary.tanks, com.chillingo.robberybobfree.android.row, com.episodeinteractive.android.catalog, com.playrix.township, com.ansangha.drdriving, com.google.android.youtube, com.gbits.atm.mi]
+06-27 12:30:03.811 20878 20878 I Perf    : Connecting to perf service.
+06-27 12:30:03.825 20657 20692 D WM-ForceStopRunnable: Found unfinished work, scheduling it.
+06-27 12:30:03.833 20657 20697 I alow    : NGA enabled in interactor.
+06-27 12:30:03.842 20657 20697 I alow    : (REDACTED) Nga state changed to %s
+06-27 12:30:03.845 20878 20878 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+06-27 12:30:03.849  7088  9694 W PSIUtils: MEMORY_SOME|107952667|2808660105133
+06-27 12:30:03.850   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-27 12:30:03.850   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 0
+06-27 12:30:03.850   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:03.850   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:03.850   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:03.850   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:03.850   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:03.850   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-27 12:30:03.850   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:03.850   879   984 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:30:03.850   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:03.850   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:03.850   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:03.850   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:03.850   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:03.850   879   879 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:30:03.850   879   984 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-27 12:30:03.850   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-27 12:30:03.850   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:03.850   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=1
+06-27 12:30:03.850   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:03.850   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-27 12:30:03.851   879   984 I ANDR-PERF-LM: MetaMeter: isValidAsync() 194: AsyncInfo: hintID = 4225
+06-27 12:30:03.851   879   984 I ANDR-PERF-LM: hintType: 2
+06-27 12:30:03.851   879   984 I ANDR-PERF-LM: isPrimary = 0
+06-27 12:30:03.851   879   984 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 2,com.android.soundrecorder,-1,1919,2233)
+06-27 12:30:03.851   879   984 E ANDR-PERF-LM: MetaMeter: handleAsync() 164: AdaptLaunch Invalid Async
+06-27 12:30:03.851   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-27 12:30:03.851   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:03.851   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:03.851   879   879 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-27 12:30:03.851   879   879 I ANDR-PERF-LM: FeedbackAPI: getFeedback() 60: app:com.android.soundrecorder feature:AppClassifier feedback = 1
+06-27 12:30:03.851   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:03.851   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:03.851   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:03.851   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:03.851  1919  2233 E ANDR-PERF-JNI: com_qualcomm_qtiperformance_native_perf_io_prefetch_start
+06-27 12:30:03.852   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:03.852   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-27 12:30:03.852 20657 20697 I alow    : (REDACTED) isTngActive=%s
+06-27 12:30:03.852   879   984 I ANDR-PERF-LM: MetaMeter: isValidAsync() 194: AsyncInfo: hintID = 4225
+06-27 12:30:03.852   879   984 I ANDR-PERF-LM: hintType: 3
+06-27 12:30:03.852   879   984 I ANDR-PERF-LM: isPrimary = 0
+06-27 12:30:03.852   879   984 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 3,com.android.soundrecorder,-1,1919,2233)
+06-27 12:30:03.852   879   984 E ANDR-PERF-LM: MetaMeter: handleAsync() 164: AdaptLaunch Invalid Async
+06-27 12:30:03.852   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-27 12:30:03.852   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:03.852   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:03.853 20657 20704 I dstg    : (REDACTED) Setting isLegacySQLite mode to %s.
+06-27 12:30:03.855   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:03.855   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:03.855   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:03.855   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:03.855   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:03.855   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-27 12:30:03.855   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-27 12:30:03.855   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:03.855   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:03.855 20657 20697 I alow    : NGA enabled in interactor.
+06-27 12:30:03.855   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:03.855   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:03.855   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:03.855   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:03.855   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:03.855   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-27 12:30:03.855   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-27 12:30:03.855   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:03.855   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:03.855 19739 19795 I Finsky  : [1146] Initializing the instant apps module.
+06-27 12:30:03.857  1919  2233 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:30:03.857  1919  2233 D CompatibilityInfo: applicationDensity - 440
+06-27 12:30:03.857  1919  2233 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:30:03.858   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:30:03.858   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:03.858   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:03.858   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:03.858   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:03.858   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:03.858   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-27 12:30:03.858   879   984 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:30:03.858  1919  2233 D ActivityTrigger: ActivityTrigger activityPauseTrigger 
+06-27 12:30:03.858   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-27 12:30:03.858   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:03.858   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:03.858   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:03.858   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:03.858 20878 20878 D NetworkSecurityConfig: Using Network Security Config from resource network_security_config debugBuild: false
+06-27 12:30:03.859   879   984 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-27 12:30:03.859   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-27 12:30:03.859   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:03.859   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=1
+06-27 12:30:03.859   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:03.859   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 3
+06-27 12:30:03.859   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-27 12:30:03.859   879   984 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:30:03.859   879   984 D ANDR-PERF-LM: Feature: getData() 112: data.data = 0
+06-27 12:30:03.859   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-27 12:30:03.859   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:03.859   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:03.862 20949 20951 I cmd     : oneway function results will be dropped but finished with status OK and parcel size 4
+06-27 12:30:03.864 20746 20746 W MDCLLight: Failed to load class from parent: kotlinx.coroutines.test.internal.TestMainDispatcherFactory
+06-27 12:30:03.864 20746 20746 W MDCLLight: java.lang.ClassNotFoundException: kotlinx.coroutines.test.internal.TestMainDispatcherFactory
+06-27 12:30:03.864 20746 20746 W MDCLLight: 	at java.lang.Class.classForName(Native Method)
+06-27 12:30:03.864 20746 20746 W MDCLLight: 	at java.lang.BootClassLoader.findClass(ClassLoader.java:1358)
+06-27 12:30:03.864 20746 20746 W MDCLLight: 	at java.lang.BootClassLoader.loadClass(ClassLoader.java:1418)
+06-27 12:30:03.864 20746 20746 W MDCLLight: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+06-27 12:30:03.864 20746 20746 W MDCLLight: 	at com.facebook.common.dextricks.MultiDexClassLoaderLight.loadFromParent(:4)
+06-27 12:30:03.864 20746 20746 W MDCLLight: 	at com.facebook.common.dextricks.MultiDexClassLoaderLight.loadClass(:38)
+06-27 12:30:03.864 20746 20746 W MDCLLight: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:367)
+06-27 12:30:03.864 20746 20746 W MDCLLight: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:312)
+06-27 12:30:03.864 20746 20746 W MDCLLight: 	at java.lang.Class.classForName(Native Method)
+06-27 12:30:03.864 20746 20746 W MDCLLight: 	at java.lang.Class.forName(Class.java:454)
+06-27 12:30:03.864 20746 20746 W MDCLLight: 	at X.4A5.<clinit>(:60)
+06-27 12:30:03.864 20746 20746 W MDCLLight: 	at X.3cu.<init>(:268435469)
+06-27 12:30:03.864 20746 20746 W MDCLLight: 	at X.3cv.<clinit>(:2)
+06-27 12:30:03.864 20746 20746 W MDCLLight: 	at X.8MU.invoke(:889)
+06-27 12:30:03.864 20746 20746 W MDCLLight: 	at X.4aF.A00(:11)
+06-27 12:30:03.864 20746 20746 W MDCLLight: 	at com.instagram.process.instagram.InstagramApplicationForMainProcess.initializeAllColdStartJobs(:830)
+06-27 12:30:03.864 20746 20746 W MDCLLight: 	at com.instagram.process.instagram.InstagramApplicationForMainProcess.scheduleInitializers(:246)
+06-27 12:30:03.864 20746 20746 W MDCLLight: 	at com.instagram.process.instagram.InstagramApplicationForMainProcess.onCreate(:78)
+06-27 12:30:03.864 20746 20746 W MDCLLight: 	at com.instagram.app.InstagramAppShell.onCreate(:1001)
+06-27 12:30:03.864 20746 20746 W MDCLLight: 	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1193)
+06-27 12:30:03.864 20746 20746 W MDCLLight: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:6994)
+06-27 12:30:03.864 20746 20746 W MDCLLight: 	at android.app.ActivityThread.access$1500(ActivityThread.java:258)
+06-27 12:30:03.864 20746 20746 W MDCLLight: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1983)
+06-27 12:30:03.864 20746 20746 W MDCLLight: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+06-27 12:30:03.864 20746 20746 W MDCLLight: 	at android.os.Looper.loop(Looper.java:236)
+06-27 12:30:03.864 20746 20746 W MDCLLight: 	at android.app.ActivityThread.main(ActivityThread.java:8061)
+06-27 12:30:03.864 20746 20746 W MDCLLight: 	at java.lang.reflect.Method.invoke(Native Method)
+06-27 12:30:03.864 20746 20746 W MDCLLight: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:656)
+06-27 12:30:03.864 20746 20746 W MDCLLight: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:967)
+06-27 12:30:03.864 20746 20746 W MDCLLight: Caused by: java.lang.NoClassDefFoundError: Class not found using the boot class loader; no stack trace available
+06-27 12:30:03.864 20746 20746 W MDCLLight: tryFallbackLoadDex: fallbackLoader is null, unable to fallback load dex for kotlinx.coroutines.test.internal.TestMainDispatcherFactory
+06-27 12:30:03.864 20746 20746 E MDCLLight: Fallback load dex failed for kotlinx.coroutines.test.internal.TestMainDispatcherFactory
+06-27 12:30:03.864   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-27 12:30:03.864   885  2734 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 4
+06-27 12:30:03.865 19739 19779 I Finsky  : [1137] Triggered update for experiment package com.google.android.finsky.stable.
+06-27 12:30:03.865   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:30:03.865   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:03.865   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:03.865   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:03.865   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:03.865   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:03.865   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for GameOptimization
+06-27 12:30:03.865   879   984 D ANDR-PERF-LM: Feature: lookup() 101: Feature Name = AppClassifier, total featuers = 3, featureFound = 1
+06-27 12:30:03.865   879   984 D ANDR-PERF-LM: Feature: getData() 112: data.data = 1
+06-27 12:30:03.865   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for GameOptimization returned
+06-27 12:30:03.866   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:03.866   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:03.871   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nga.engine.viss.NgaService and for client com.google.android.googlequicksearchbox:search
+06-27 12:30:03.871   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nga.engine.viss.NgaServiceare :1
+06-27 12:30:03.871   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.googlequicksearchbox:searchare :5
+06-27 12:30:03.872  1919  7211 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:30:03.872  1919  7211 D CompatibilityInfo: applicationDensity - 440
+06-27 12:30:03.872  1919  7211 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:30:03.872   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: startService() is called for servicecom.google.android.googlequicksearchbox/com.google.android.apps.gsa.nga.engine.viss.NgaService
+06-27 12:30:03.873 20657 20692 D WM-SystemJobScheduler: Scheduling work ID e6dc3970-a397-488b-8338-2272d00e56d6Job ID 29521
+06-27 12:30:03.874   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.GmsApiService and for client com.android.vending
+06-27 12:30:03.874   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.GmsApiServiceare :7
+06-27 12:30:03.874   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.android.vendingare :6
+06-27 12:30:03.874  3799  3799 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.potokens.service.START dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsApiService }
+06-27 12:30:03.876 20746 20746 W SoLoader: Loading hiddenapis2 on the main thread
+06-27 12:30:03.878  1919  2385 I MiuiNetworkPolicy: updateUidState uid = 10099, uidState = 19
+06-27 12:30:03.881   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: bindService is called for service : com.google.android.gms/.chimera.GmsBoundBrokerService and for client com.google.android.googlequicksearchbox:search
+06-27 12:30:03.881   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for service : com.google.android.gms/.chimera.GmsBoundBrokerServiceare :9
+06-27 12:30:03.881   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: total connections for client : com.google.android.googlequicksearchbox:searchare :5
+06-27 12:30:03.897   698   698 D Zygote  : Forked child process 20959
+06-27 12:30:03.901 20959 20959 W Zygote  : Unable to open libbeluga.so: dlopen failed: library "libbeluga.so" not found.
+06-27 12:30:03.901   876   907 E ANDR-IOP: io prefetch is disabled
+06-27 12:30:03.906 20959 20959 I libc    : SetHeapTaggingLevel: tag level set to 0
+06-27 12:30:03.906  1919  2122 I ActivityManager: Start proc 20959:com.android.soundrecorder/u0a99 for pre-top-activity {com.android.soundrecorder/com.android.soundrecorder.SoundRecorder} caller=com.android.shell
+06-27 12:30:03.909 20878 20878 E libc    : Access denied finding property "ro.vendor.display.type"
+06-27 12:30:03.916 20746 20908 W lacrima : Start AnrDetector... com.facebook.acra.anr.multisignal.MultiSignalANRDetector
+06-27 12:30:03.916 20746 20908 W MultiSignalANRDetectorLacrima: Starting
+06-27 12:30:03.916 20746 20908 W ProcessAnrErrorMonitor: startMonitoring with delay: 0
+06-27 12:30:03.917 20878 20878 E .android.camer: Invalid ID 0x00000000.
+06-27 12:30:03.921 19739 19802 W android.vendin: Accessing hidden method Landroid/view/ScrollCaptureTarget;-><init>(Landroid/view/View;Landroid/graphics/Rect;Landroid/graphics/Point;Landroid/view/ScrollCaptureCallback;)V (blacklist, linking, denied)
+06-27 12:30:03.927  1919  8334 D systemui_boost: notification panel visible=false
+06-27 12:30:03.927  1919  8334 D systemui_boost: ui thread tid=2671
+06-27 12:30:03.927  1919  8334 D systemui_boost: render thread tid=3197
+06-27 12:30:03.927  1919  8334 D systemui_boost: thread tid=2671, priority is set to 0
+06-27 12:30:03.927  1919  8334 D systemui_boost: thread tid=3197, priority is set to -4
+06-27 12:30:03.927  1919  8334 D systemui_boost: ui thread and render thread are reset
+06-27 12:30:03.930 20959 20959 E d.soundrecorde: Not starting debugger since process cannot load the jdwp agent.
+06-27 12:30:03.931 20746 20746 W SoLoader: Loading threadutils-jni on the main thread
+06-27 12:30:03.932 19739 19809 I Finsky  : [1157] Component class com.google.android.finsky.wearsupport.WearSupportService disabled via PackageManager.
+06-27 12:30:03.932 19739 19809 I Finsky  : [1157] Component class com.google.android.finsky.wearsupport.WearChangeListenerService disabled via PackageManager.
+06-27 12:30:03.932 20746 20746 W SoLoader: Loading fb_mboost-lite on the main thread
+06-27 12:30:03.934 20746 20968 W SigquitDetectorLacrima: nativeInit
+06-27 12:30:03.935 20746 20969 W ProcessAnrErrorMonitor: Starting process monitor checks for process 'com.instagram.android'
+06-27 12:30:03.935 20746 20969 W MultiSignalANRDetectorLacrima: Started monitoring
+06-27 12:30:03.938  2671  2671 D StatusBar: disable<e i a s b h r c s > disable2<q i n >
+06-27 12:30:03.946 20746 20942 D MobileBoostJNI: Found relevant map entry 7c854ce000-7c858dd000 r--s 04bde000 103:0f 115949                        /data/app/~~6usR3HnnWcKpZIN8s8BjeQ==/com.instagram.android-o9soaaB0n2Z-g_oi58yn2g==/base.apk
+06-27 12:30:03.946 20746 20942 D MobileBoostJNI: Found relevant map entry 7c869db000-7c879fe000 r--p 00000000 103:0f 115030                        /data/app/~~6usR3HnnWcKpZIN8s8BjeQ==/com.instagram.android-o9soaaB0n2Z-g_oi58yn2g==/oat/arm64/base.odex
+06-27 12:30:03.946 20746 20942 D MobileBoostJNI: Found relevant map entry 7c879fe000-7c8b7c1000 r-xp 01023000 103:0f 115030                        /data/app/~~6usR3HnnWcKpZIN8s8BjeQ==/com.instagram.android-o9soaaB0n2Z-g_oi58yn2g==/oat/arm64/base.odex
+06-27 12:30:03.946 20746 20942 D MobileBoostJNI: Found relevant map entry 7c8b7c1000-7c8b7c5000 r--p 04de6000 103:0f 115030                        /data/app/~~6usR3HnnWcKpZIN8s8BjeQ==/com.instagram.android-o9soaaB0n2Z-g_oi58yn2g==/oat/arm64/base.odex
+06-27 12:30:03.946 20746 20942 D MobileBoostJNI: Found relevant map entry 7c8b878000-7c923a3000 r--p 00000000 103:0f 115069                        /data/app/~~6usR3HnnWcKpZIN8s8BjeQ==/com.instagram.android-o9soaaB0n2Z-g_oi58yn2g==/oat/arm64/base.vdex
+06-27 12:30:03.947 20746 20942 D MobileBoostJNI: Found relevant map entry 7c923a3000-7c923a4000 r--p 04dea000 103:0f 115030                        /data/app/~~6usR3HnnWcKpZIN8s8BjeQ==/com.instagram.android-o9soaaB0n2Z-g_oi58yn2g==/oat/arm64/base.odex
+06-27 12:30:03.947 20746 20942 D MobileBoostJNI: Found relevant map entry 7c923a4000-7c923a5000 rw-p 04deb000 103:0f 115030                        /data/app/~~6usR3HnnWcKpZIN8s8BjeQ==/com.instagram.android-o9soaaB0n2Z-g_oi58yn2g==/oat/arm64/base.odex
+06-27 12:30:03.948 20657 20967 I acxs    : (REDACTED) Successfully received auth token for scope: %s in time %d ms
+06-27 12:30:03.950 20878 20878 D miuisdk : current sdk level is 24
+06-27 12:30:03.950 20746 20942 D MobileBoostJNI: Found relevant map entry 7ce9135000-7ce919f000 r--s 04ff1000 103:0f 115949                        /data/app/~~6usR3HnnWcKpZIN8s8BjeQ==/com.instagram.android-o9soaaB0n2Z-g_oi58yn2g==/base.apk
+06-27 12:30:03.950 20878 20878 I miuisdk : initialize without hook
+06-27 12:30:03.957 20657 20987 I acxs    : (REDACTED) Successfully received auth token for scope: %s in time %d ms
+06-27 12:30:03.962   879   879 I ANDR-PERF-LM: LMPerfGlue: perfmodule_submit_request() 132: perfmodule_submit_request()
+06-27 12:30:03.962   879   879 I ANDR-PERF-LM: Core: getInstance() 84: LM getInstance
+06-27 12:30:03.962   879   879 I ANDR-PERF-LM: WQ: push() 59: LMTriggerQ push() size=0
+06-27 12:30:03.962   879   879 I ANDR-PERF-LM: WQ: push() 61: LMTriggerQ push() done size=1
+06-27 12:30:03.962   879   984 I ANDR-PERF-LM: WQ: pop() 42: LMTriggerQ pop() done size=0
+06-27 12:30:03.963   879   984 I ANDR-PERF-LM: Core: lmMain() 381: Calling runAsync for AdaptLaunch
+06-27 12:30:03.963   879   984 I ANDR-PERF-LM: MetaMeter: isValidAsync() 194: AsyncInfo: hintID = 4225
+06-27 12:30:03.963   879   984 I ANDR-PERF-LM: hintType: 103
+06-27 12:30:03.963   879   984 I ANDR-PERF-LM: isPrimary = 0
+06-27 12:30:03.963   879   984 I ANDR-PERF-LM: MetaMeter: isValidAsync() 203: Invalid (hintID,hintType,appName,duration,appPID,appThreadTID) = (4225, 103,com.android.soundrecorder,20959,1919,8333)
+06-27 12:30:03.963   879   984 E ANDR-PERF-LM: MetaMeter: handleAsync() 164: AdaptLaunch Invalid Async
+06-27 12:30:03.963   879   984 I ANDR-PERF-LM: Core: lmMain() 391: runAsync for AdaptLaunch returned
+06-27 12:30:03.963   879   984 I ANDR-PERF-LM: Core: lmMain() 373: Waiting on trigger Queue
+06-27 12:30:03.963   879   984 I ANDR-PERF-LM: WQ: pop() 31: LMTriggerQ pop() size=0
+06-27 12:30:03.964 20746 20908 W dalvik-internals: sigaction64 succeeded
+06-27 12:30:03.964  1919  8333 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:30:03.964  1919  8333 D CompatibilityInfo: applicationDensity - 440
+06-27 12:30:03.964  1919  8333 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:30:03.965 20746 20908 D dalvik-internals: SuspendAndroid11: Found all symbols
+06-27 12:30:03.965 20746 20908 D dalvik-internals: SuspendAndroid11: Suspending threads.
+06-27 12:30:03.965 20746 20908 D dalvik-internals: SuspendAndroid11: Resuming threads.
+06-27 12:30:03.966  1919  8333 D CompatibilityInfo: mCompatibilityFlags - 0
+06-27 12:30:03.966  1919  8333 D CompatibilityInfo: applicationDensity - 440
+06-27 12:30:03.966  1919  8333 D CompatibilityInfo: applicationScale - 1.0
+06-27 12:30:03.969   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:30:03.969   885 10843 I vendor.qti.hardware.servicetracker@1.2-service: Activity state is changed to : 2
+06-27 12:30:03.970  9739 11053 D PerfEngineController: ForegroundInfo{mForegroundPackageName='com.android.soundrecorder', mForegroundUid=10099, mForegroundPid=20959, mLastForegroundPackageName='android', mLastForegroundUid=1000, mLastForegroundPid=20712, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=1}
+06-27 12:30:03.970  9739 10841 W MessageQueue: Handler (com.miui.powerkeeper.feedbackcontrol.FeedbackControlService$FeedbackControlHandler) {322048a} sending message to a Handler on a dead thread
+06-27 12:30:03.970  9739 10841 W MessageQueue: java.lang.IllegalStateException: Handler (com.miui.powerkeeper.feedbackcontrol.FeedbackControlService$FeedbackControlHandler) {322048a} sending message to a Handler on a dead thread
+06-27 12:30:03.970  9739 10841 W MessageQueue: 	at android.os.MessageQueue.enqueueMessage(MessageQueue.java:563)
+06-27 12:30:03.970  9739 10841 W MessageQueue: 	at android.os.Handler.enqueueMessage(Handler.java:778)
+06-27 12:30:03.970  9739 10841 W MessageQueue: 	at android.os.Handler.sendMessageAtTime(Handler.java:727)
+06-27 12:30:03.970  9739 10841 W MessageQueue: 	at com.miui.powerkeeper.event.EventsAggregator$EventRegistrant.notifyResult(Unknown Source:26)
+06-27 12:30:03.970  9739 10841 W MessageQueue: 	at com.miui.powerkeeper.event.EventsAggregator.notifyForForegroundInfo(Unknown Source:47)
+06-27 12:30:03.970  9739 10841 W MessageQueue: 	at com.miui.powerkeeper.utils.ProcessObserver.notifyForegroundListener(Unknown Source:17)
+06-27 12:30:03.970  9739 10841 W MessageQueue: 	at com.miui.powerkeeper.utils.ProcessObserver.access$1000(Unknown Source:0)
+06-27 12:30:03.970  9739 10841 W MessageQueue: 	at com.miui.powerkeeper.utils.ProcessObserver$2.onForegroundInfoChanged(Unknown Source:2)
+06-27 12:30:03.970  9739 10841 W MessageQueue: 	at miui.process.IForegroundInfoListener$Stub.onTransact(IForegroundInfoListener.java:87)
+06-27 12:30:03.970  9739 10841 W MessageQueue: 	at android.os.Binder.execTransactInternal(Binder.java:1162)
+06-27 12:30:03.970  9739 10841 W MessageQueue: 	at android.os.Binder.execTransact(Binder.java:1126)
+06-27 12:30:03.970  9770  9788 I GST     : forePkg: com.android.soundrecorder, preForePkg: android
+06-27 12:30:03.970  8426  9792 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.android.soundrecorder', mForegroundUid=10099, mForegroundPid=20959, mLastForegroundPackageName='android', mLastForegroundUid=1000, mLastForegroundPid=20712, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=1}
+06-27 12:30:03.970  9395  9418 I ProcessMonitor: onForegroundInfoChanged: ForegroundInfo{mForegroundPackageName='com.android.soundrecorder', mForegroundUid=10099, mForegroundPid=20959, mLastForegroundPackageName='android', mLastForegroundUid=1000, mLastForegroundPid=20712, mMultiWindowForegroundPackageName='null', mMultiWindowForegroundUid=-1, mFlags=1}
+06-27 12:30:03.971  9395  9418 I GameBoosterService: onForegroundInfoChanged: Cur=com.android.soundrecorder	 last=android
+06-27 12:30:03.973 20959 20959 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/android.test.base.jar
+06-27 12:30:03.973 20657 20692 D WM-SystemJobScheduler: Scheduling work ID c4fb637e-4eed-4360-8de3-a31bcf530acbJob ID 28974
